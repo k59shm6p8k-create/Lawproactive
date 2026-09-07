@@ -24,6 +24,7 @@ import { NearbyCities } from "@/components/nearby-cities"
 import { StateLegalInfo } from "@/components/state-legal-info"
 import { LocalResources } from "@/components/local-resources"
 import { AccidentStatistics } from "@/components/accident-statistics"
+import { AccidentDataHub } from "@/components/accident-data-hub"
 import { LocalNews } from "@/components/local-news"
 import { CityGoogleMap } from "@/components/city-google-map"
 // Import territory / lawyer cards
@@ -32,6 +33,7 @@ import { TerritoryAvailableCard } from "@/components/lawyers/territory-available
 import { getLawyerForTerritory } from "@/lib/get-lawyer-for-territory"
 import { getStateLawInfo } from "@/data/state-laws"
 import { generateAccidentStats } from "@/data/accident-stats"
+import { getAccidentData } from "@/lib/get-accident-data"
 
 // Import animation components
 import {
@@ -137,7 +139,11 @@ export default async function PersonalInjuryLanding({ params }: PageProps) {
   // Get state-specific legal information
   const stateLawInfo = getStateLawInfo(paramState)
 
-  // Generate accident statistics for this city
+  // Fetch real SWITRS crash data for this city (California-only, where loaded).
+  // Falls back to the modeled estimate below when no real data exists.
+  const accidentData = await getAccidentData(city, paramState)
+
+  // Generate accident statistics for this city (fallback when no real data)
   const accidentStats = generateAccidentStats(city, state, paramState, cityLocation?.population, cityLocation?.coordinates)
 
   // Fetch news articles server-side for rendering and schema generation
@@ -411,8 +417,13 @@ export default async function PersonalInjuryLanding({ params }: PageProps) {
           </div>
         </section>
 
-        {/* Accident Statistics Section */}
-        <AccidentStatistics stats={accidentStats} />
+        {/* Accident Statistics Section — real SWITRS data where available,
+            modeled estimate as fallback */}
+        {accidentData ? (
+          <AccidentDataHub data={accidentData} cityLabel={city} />
+        ) : (
+          <AccidentStatistics stats={accidentStats} />
+        )}
 
         {/* Local News Section */}
         <LocalNews
