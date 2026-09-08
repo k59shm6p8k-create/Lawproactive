@@ -92,23 +92,40 @@ Each file is a **partial `PageContent`** (only the generated sections) plus a `_
 }
 ```
 
-**Wiring** — add one function to `lib/page-content.ts` and merge it **directly after the base template, BEFORE the Supabase state/city overrides**. This is the critical ordering: generated content is the uniqueness *baseline*, and the renter's admin-portal edits (Supabase overrides) must always win over it. Tokens like `{city}` still resolve and any missing field still falls back to the template.
+**Wiring** — add one function to `lib/page-content.ts` and merge it **above the Default/State templates but BELOW the City Override**. This mirrors the CMS scopes (Root Homepage → Default City Template → State Override → City Override): generated content is the per-city uniqueness *baseline*, and a renter's City Override (admin portal) must always win over it, while broad state/default templates must not wipe out per-city uniqueness.
 
 ```
-Cascade (low → high priority):
-  hardcoded fallback → base template → GENERATED static JSON → state override → city override (admin/renter)
+Cascade (low → high priority), matching the CMS scopes:
+  fallback → Default City Template → State Override → [GENERATED per-city JSON] → City Override (renter)
 ```
 
 ```ts
 // reads data/content/<state>/<city>[/<practice>].json, returns partial PageContent or null
 async function getStaticContentOverride(stateSlug, citySlug, practiceSlug) { … }
 
-// inside getMergedPageConfig, right after the base-template/fallback merge (step 2),
-// BEFORE the Supabase state/city overrides (steps 3–6):
+// inside getMergedPageConfig: merge AFTER the state overrides (steps 3–4),
+// BEFORE the city general/practice overrides (steps 5–6):
 const staticOverride = await getStaticContentOverride(stateSlug, citySlug, practiceSlug);
 if (staticOverride) mergedSections = deepMerge(mergedSections, staticOverride);
-// …then the existing Supabase overrides merge on top, so renter edits win.
+// …then the existing City-level Supabase overrides merge on top, so renter edits win.
 ```
+
+**CMS field mapping** (both editors write to Supabase `location_page_configs` / `page_config_templates`):
+
+| CMS tab | `PageContent` key | Generated? |
+|---|---|---|
+| SEO & Hero → Meta Title/Description | `seo.metaTitle` / `seo.metaDescription` | ✅ unique per city |
+| SEO & Hero → Hero | `hero` | ✅ (subtitle) |
+| Services | `services` | ➖ template (optional light reword) |
+| Pain Points | `painPoints` | ✅ light |
+| Value Prop | `valueProp` | ➖ template |
+| Process Steps | `howItWorks` | ➖ template |
+| Reviews | `testimonials` | ❌ renter-owned, never generated |
+| FAQs | `faq` | ✅ localized answers |
+| (practice CMS) About & Common Injuries | `about` | ✅ voice-heavy |
+| (practice CMS) Why Choose Network | `whyChoose` | ✅ structured |
+
+**Re-generation safety:** because renter edits live in Supabase (City Override) and always merge *last*, re-running the generator — which only rewrites the committed JSON baseline — can never overwrite a saved portal edit.
 
 Migratable later: the same JSON can be pushed into Supabase `location_page_configs` if in-CMS editing is wanted — the shape already matches.
 
