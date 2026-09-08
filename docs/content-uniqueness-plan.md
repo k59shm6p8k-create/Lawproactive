@@ -34,20 +34,28 @@ A small set of **voice profiles** distributed across cities so that even the tem
 
 ## 3. What we generate vs. what stays fixed
 
+> **Renter-owned sections.** The admin portal lets you (and the attorney renting a
+> city funnel) edit **title tag, meta, hero, services, reviews, and FAQs** per city;
+> those edits are saved as Supabase `location_page_configs` overrides. Generated
+> content is the **uniqueness baseline that sits BELOW those overrides** (see §5), so
+> a renter's edits always win and generation never clobbers them. Reviews are
+> therefore **excluded from generation** — they stay renter-managed.
+
 | Section | Treatment | Why |
 |---|---|---|
+| `seo.metaTitle` / `seo.metaDescription` | **Generate (unique per city)** | Duplicate title tags are a top thin-content signal; renter can still override |
 | `hero.subtitle` | **Generate (voice-heavy)** | First impression; per-city hook |
 | `about.longDescription` | **Generate (voice-heavy)** | Main indexable prose; weave in local facts |
 | `about.commonInjuries` phrasing | **Generate (light)** | Vary wording per city |
 | `whyChoose.items` | **Generate (structured)** | 3 short value props, city-aware |
-| `faq.items[].answer` | **Generate (structured)** | Localize answers (e.g. cite the state SoL) |
+| `faq.items[].answer` | **Generate (structured)** | Localize answers (e.g. cite the state SoL); renter can override in portal |
 | **NEW** `localContext` | **Generate (voice-heavy)** | A short factual paragraph built from the accident-hub data (top roads, peak times) — the single most unique block per city |
 | `painPoints.items` | **Generate (light)** | Reword per city |
 | CTAs, form, phone, brand name | **Fixed** | Functional + brand consistency |
 | `riskReversal` / disclaimers | **Fixed** | Legal-reviewed copy; do not vary |
-| `testimonials` | **Fixed** (see §7 flag) | Structure fixed; content is a compliance issue to resolve separately |
+| `testimonials` / reviews | **NOT generated — renter-owned** | Managed in the admin portal per city; on rental the attorney supplies real, permissioned reviews (see §7) |
 
-Anything the generator omits or leaves blank automatically falls back to the existing template copy via `deepMerge` — so a partial or failed generation can never produce an empty page.
+Anything the generator omits or leaves blank automatically falls back to the existing template copy via `deepMerge` — so a partial or failed generation can never produce an empty page. Any section a renter edits in the portal wins over the generated baseline (see §5).
 
 ## 4. Voice profiles
 
@@ -84,15 +92,22 @@ Each file is a **partial `PageContent`** (only the generated sections) plus a `_
 }
 ```
 
-**Wiring** — add one function to `lib/page-content.ts` and merge it as the **top override** (highest priority, just before token replacement), so it beats the Supabase/template defaults but tokens like `{city}` still resolve and missing fields still fall back:
+**Wiring** — add one function to `lib/page-content.ts` and merge it **directly after the base template, BEFORE the Supabase state/city overrides**. This is the critical ordering: generated content is the uniqueness *baseline*, and the renter's admin-portal edits (Supabase overrides) must always win over it. Tokens like `{city}` still resolve and any missing field still falls back to the template.
+
+```
+Cascade (low → high priority):
+  hardcoded fallback → base template → GENERATED static JSON → state override → city override (admin/renter)
+```
 
 ```ts
 // reads data/content/<state>/<city>[/<practice>].json, returns partial PageContent or null
 async function getStaticContentOverride(stateSlug, citySlug, practiceSlug) { … }
 
-// inside getMergedPageConfig, after the Supabase overrides (step 6), before step 7:
+// inside getMergedPageConfig, right after the base-template/fallback merge (step 2),
+// BEFORE the Supabase state/city overrides (steps 3–6):
 const staticOverride = await getStaticContentOverride(stateSlug, citySlug, practiceSlug);
 if (staticOverride) mergedSections = deepMerge(mergedSections, staticOverride);
+// …then the existing Supabase overrides merge on top, so renter edits win.
 ```
 
 Migratable later: the same JSON can be pushed into Supabase `location_page_configs` if in-CMS editing is wanted — the shape already matches.
@@ -155,7 +170,7 @@ Write these sections for this page: {{sectionList}}.
 
 - **SB-37 / legal advertising** is enforced in the system prompt (above): no outcome guarantees, no settlement figures, no attorney superlatives, matching-service framing, crash data framed as reported public record.
 - **No fabrication** — the model may only use facts in the FACTS block. This is why we feed real accident-hub data rather than letting it invent local color.
-- **⚠️ Separate flag — existing fake testimonials.** `getHardcodedFallbackConfig().testimonials` ships invented client names, quotes, and specific settlement dollar amounts. On a legal-services site that's an FTC/state-bar advertising risk independent of this project. Recommend: replace with real, permissioned testimonials, or remove the settlement figures and mark them illustrative. Flagging here; not changing it as part of content generation.
+- **Reviews are renter-managed; default placeholders must be clean.** On rental, the attorney supplies real, permissioned reviews via the admin portal (e.g. Victorville → Andre), which override the default. But **unrented city pages rank publicly with the default placeholder reviews** until someone rents them — that's the pages you're using to attract renters. Today `getHardcodedFallbackConfig().testimonials` ships invented client names + specific settlement dollar amounts, which is an FTC endorsement-guide / state-bar advertising risk on every unrented, indexed page. **Recommendation:** change the *default* placeholders to non-fabricated, illustrative/aggregate wording (no invented names, no dollar figures) — e.g. "Clients we've connected have recovered compensation for medical bills, lost wages, and pain and suffering." Renters still overwrite them with real reviews on rental. Small edit to the template default; the per-city admin flow is untouched. (Once real reviews are in, specific settlement amounts may still need substantiation/disclaimers under the renter's state bar rules — that's the renter's ad compliance, surfaced here for awareness.)
 
 ## 8. Dedup / QA harness (`scripts/check-content-dup.ts`)
 
@@ -188,7 +203,8 @@ Cheap enough that a **1-city prototype first** (next step) to lock quality/voice
 
 ---
 
-### Open questions for you
-1. Voice count — five profiles OK, or do you want a single consistent brand voice with substance-only differentiation?
-2. The `localContext` section — happy to add it to the page layout (city + silo), or keep generated copy confined to existing sections?
-3. The fake-testimonials flag (§7) — address now, or track separately?
+### Recommendations (updated after the rental-model clarification)
+1. **Voice** — recommend **one consistent brand voice** with variation coming from real local facts + structural variety (which fact leads, section order), not five personalities. Voice-swapping doesn't move Google (it dedupes on substance) and fragments a trust-dependent brand. Can A/B a second register in the prototype.
+2. **`localContext`** — recommend **yes**, add it to city + silo pages: highest-uniqueness, fully-sourced, near-zero compliance risk.
+3. **Default placeholder reviews** — recommend a **small template edit now** to remove invented names/settlement figures (illustrative/aggregate wording), since unrented indexed pages show them publicly; renters still overwrite with real reviews via the portal. Generation does not touch reviews.
+4. **Cascade ordering** — generated JSON merges as the uniqueness baseline **below** the Supabase admin/renter overrides, so renter portal edits always win.
