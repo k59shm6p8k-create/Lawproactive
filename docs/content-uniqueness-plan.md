@@ -32,6 +32,32 @@ Inject **real, verifiable local facts we already have in the repo** into the pro
 ### Layer B — Voice (the anti-boilerplate finish)
 A small set of **voice profiles** distributed across cities so that even the templated scaffolding doesn't read from one identical mold. Voice variation reduces the "spun from one template" signal and makes the network feel human — but it is explicitly the *second* layer, never a substitute for Layer A.
 
+## 2.5 Publish-final, then freeze (SEO-freshness strategy)
+
+Design target is **publish-final quality, not a rough baseline.** Rationale (per the
+operator's SEO experience): large content changes *after* a page is indexed tend to
+hurt rankings, while small ongoing edits act as positive freshness signals. So:
+
+- Generate **complete, index-ready** copy up front — richer/longer `about`,
+  `localContext`, and FAQ for genuine depth — so there is nothing big left to change.
+  This justifies **Fable 5.1 at higher effort** on the load-bearing prose; the extra
+  cents buy launch-final quality.
+- **Generate once per city, then freeze.** Do not mass-regenerate indexed pages.
+  Post-launch changes stay small and manual (add the attorney's real reviews, light
+  personalization) — each a small freshness nudge, never a disruptive rewrite.
+- The regen-safety design still holds for the rare targeted fix, but the *operating
+  posture* is generate-once-at-launch.
+
+### Attorney identity is auto-populated (SB-37), not generated
+When an attorney signs up they submit name / firm / bar # / address; this
+**auto-populates** the city homepage + silos via the territory-assignment path
+(`getLawyerForTerritory` → `LawyerTerritoryCard`), which is what satisfies **SB-37**
+(the responsible attorney is identified on the page). Unrented cities render the
+"territory available" state. Therefore the **generated prose stays attorney-agnostic**
+— network / matching-service framing, no "we are a firm," no attorney-specific claims
+— so it reads correctly whether a city is rented or not, and the attorney block owns
+the SB-37 identification. Attorneys never edit the CMS; only the operator does.
+
 ## 3. What we generate vs. what stays fixed
 
 > **Renter-owned sections.** The admin portal lets you (and the attorney renting a
