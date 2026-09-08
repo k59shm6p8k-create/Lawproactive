@@ -1,0 +1,194 @@
+# Content Uniqueness Plan — California hub-and-spoke launch
+
+**Status:** proposal for review (no API spend yet)
+**Goal:** make the ~4,300 California city × practice-area pages genuinely unique before launch, so the programmatic-SEO network reads as helpful, sourced local content — not thin templated duplication — and is safe to scale to AZ/NM afterward on the same pipeline.
+
+---
+
+## 1. The problem
+
+Every city and silo page today is the **same template with `{city}`/`{state}`/`{landmark}` token swaps** (`lib/page-content.ts` → `getMergedPageConfig` → `replaceTokensInObject`). That means:
+
+- **480 CA city pages** are byte-identical except the city name.
+- **~3,800 practice silos** (city × ~8 practice areas) are byte-identical except city + practice name.
+- Total exposure: **~4,300 near-duplicate pages.**
+
+Token-swap alone is the textbook definition of thin/duplicate programmatic content. Google's Helpful Content and E-E-A-T systems will either not index most of these, or treat the whole subfolder as low quality. Launching CA at this uniqueness level risks the whole network.
+
+## 2. Strategy — two independent layers
+
+Uniqueness is **not** primarily a voice problem; it's a substance problem. We attack both, separately:
+
+### Layer A — Substance (the load-bearing layer, for E-E-A-T)
+Inject **real, verifiable local facts we already have in the repo** into the prose, so each page says something true that no other city's page could say:
+
+- **Accident hub data** (`data/accident/california/<city>.json`) — real top roads, intersections, peak crash days/times, multi-year injury/fatality counts, the city's rate vs county/state. This is our strongest differentiator and it's already sourced (CCRS · data.ca.gov).
+- **Location facts** — population, county, landmark, coordinates (`data/states/california-cities.json`).
+- **State legal context** — statute of limitations, comparative-negligence rule, damage caps, etc. (`data/state-laws.ts`).
+- **Practice-area facts** — injuries, keywords, FAQs (`lib/data/practice-areas-config.ts`).
+
+> Substance is what makes a page non-duplicate to Google. Voice is cosmetic on its own.
+
+### Layer B — Voice (the anti-boilerplate finish)
+A small set of **voice profiles** distributed across cities so that even the templated scaffolding doesn't read from one identical mold. Voice variation reduces the "spun from one template" signal and makes the network feel human — but it is explicitly the *second* layer, never a substitute for Layer A.
+
+## 3. What we generate vs. what stays fixed
+
+| Section | Treatment | Why |
+|---|---|---|
+| `hero.subtitle` | **Generate (voice-heavy)** | First impression; per-city hook |
+| `about.longDescription` | **Generate (voice-heavy)** | Main indexable prose; weave in local facts |
+| `about.commonInjuries` phrasing | **Generate (light)** | Vary wording per city |
+| `whyChoose.items` | **Generate (structured)** | 3 short value props, city-aware |
+| `faq.items[].answer` | **Generate (structured)** | Localize answers (e.g. cite the state SoL) |
+| **NEW** `localContext` | **Generate (voice-heavy)** | A short factual paragraph built from the accident-hub data (top roads, peak times) — the single most unique block per city |
+| `painPoints.items` | **Generate (light)** | Reword per city |
+| CTAs, form, phone, brand name | **Fixed** | Functional + brand consistency |
+| `riskReversal` / disclaimers | **Fixed** | Legal-reviewed copy; do not vary |
+| `testimonials` | **Fixed** (see §7 flag) | Structure fixed; content is a compliance issue to resolve separately |
+
+Anything the generator omits or leaves blank automatically falls back to the existing template copy via `deepMerge` — so a partial or failed generation can never produce an empty page.
+
+## 4. Voice profiles
+
+Five profiles, assigned **deterministically per city** (stable hash of the city slug, so a city always keeps its voice), lightly biased by city size:
+
+1. **Plain-spoken & direct** — short sentences, no jargon. (default)
+2. **Warm & reassuring** — empathetic, victim-first.
+3. **Authoritative & data-led** — leans on the crash stats; biased toward large metros.
+4. **Community & local** — neighborhood/landmark framing; biased toward small towns.
+5. **No-nonsense & urgent** — deadline/first-steps framing.
+
+The assigned profile id is **stored in each generated JSON file** so it's visible in QA and diffs. All five share the same facts, CTAs, and compliance rules — only tone/structure vary.
+
+## 5. Storage & wiring (committed static JSON, new cascade layer)
+
+Generated copy is committed to the repo (versioned, diff-reviewable, no DB), as a **new override layer** in the existing `deepMerge` cascade:
+
+```
+data/content/california/<city>.json                 # city general override
+data/content/california/<city>/<practice>.json      # city × practice override
+```
+
+Each file is a **partial `PageContent`** (only the generated sections) plus a `_meta` block:
+
+```jsonc
+{
+  "_meta": { "voice": "authoritative-data-led", "model": "claude-fable-5-1",
+             "generatedAt": "2026-09-08", "source": "accident-hub+state-laws" },
+  "hero": { "subtitle": "…" },
+  "about": { "longDescription": "…", "commonInjuries": ["…"] },
+  "whyChoose": { "items": [ { "title": "…", "desc": "…" }, … ] },
+  "localContext": { "title": "…", "body": "…" },
+  "faq": { "items": [ { "question": "…", "answer": "…" } ] }
+}
+```
+
+**Wiring** — add one function to `lib/page-content.ts` and merge it as the **top override** (highest priority, just before token replacement), so it beats the Supabase/template defaults but tokens like `{city}` still resolve and missing fields still fall back:
+
+```ts
+// reads data/content/<state>/<city>[/<practice>].json, returns partial PageContent or null
+async function getStaticContentOverride(stateSlug, citySlug, practiceSlug) { … }
+
+// inside getMergedPageConfig, after the Supabase overrides (step 6), before step 7:
+const staticOverride = await getStaticContentOverride(stateSlug, citySlug, practiceSlug);
+if (staticOverride) mergedSections = deepMerge(mergedSections, staticOverride);
+```
+
+Migratable later: the same JSON can be pushed into Supabase `location_page_configs` if in-CMS editing is wanted — the shape already matches.
+
+## 6. Generation pipeline (`scripts/generate-content.ts`)
+
+Offline batch script, Anthropic TypeScript SDK (matches the project), **tiered models**:
+
+- **Claude Fable 5.1** (`claude-fable-5-1`, $10/$50 per MTok) — the voice-heavy sections: `hero.subtitle`, `about.longDescription`, `localContext`. Best prose/voice.
+- **Claude Sonnet 5** (`claude-sonnet-5`, $2/$10 per MTok) — the structured/functional sections: `whyChoose.items`, `faq.answers`, `painPoints`. Voice matters less; big cost saving.
+
+Cost/robustness levers (all from the current API):
+- **Batch API** for the ~4,300 jobs → ~50% off, and it's non-latency-sensitive.
+- **Prompt caching** — the shared system prompt + the voice-profile block are a stable cached prefix; only the per-city facts vary after the last cache breakpoint.
+- **Structured outputs** (`output_config.format` with a JSON schema per section set) — returns schema-valid JSON directly. (On Fable 5.1 forced `tool_choice` is rejected, so we use structured outputs, not a forced tool, to get JSON.)
+- **Fable 5.1 specifics:** thinking is always on (omit the `thinking` param); run at **`effort: "low"`/`"medium"`** — this is short marketing prose, not hard reasoning; enable **refusal fallbacks by default** (`fallbacks: "default"`).
+
+**Per-job inputs:** city facts + accident-hub JSON (top 3 roads, peak day/window, latest-year injuries/fatalities, rate-vs-state) + state-law facts + practice-area facts + assigned voice profile.
+
+### System prompt (shared, cached)
+```
+You are writing website copy for LawProactive, a service that connects people injured
+in accidents with independent personal-injury attorneys in their area. You are NOT a
+law firm and do not employ the attorneys.
+
+Write in the assigned VOICE. Ground every location-specific claim ONLY in the FACTS
+block provided — never invent roads, statistics, courts, attorneys, case results, or
+settlement amounts. If a fact isn't provided, write around it.
+
+Hard rules (California SB-37 + legal-advertising compliance):
+- No guarantees or predictions of outcome, and no promised or implied settlement/verdict amounts.
+- No superlatives about the attorneys ("best", "top-rated") and no claims of a specific
+  attorney or firm — the site is a matching service.
+- Crash data describes REPORTED public-record collisions, not danger verdicts about a road.
+- Keep it factual, useful, and locally specific. American English.
+
+Return ONLY JSON matching the provided schema. No preamble.
+```
+
+### Per-section user prompt (template)
+```
+VOICE: {{voiceProfile.name}} — {{voiceProfile.guidance}}
+
+CITY FACTS:
+- City: {{city}}, {{county}} County, California  (pop. {{population}})
+- Landmark: {{landmark}}
+PRACTICE (if silo): {{practiceName}} — common injuries: {{injuries}}
+STATE LAW: statute of limitations {{sol}}; {{negligenceRule}}; {{damageCaps}}
+CRASH DATA ({{span}}, CCRS via data.ca.gov):
+- Most collisions reported on {{peakDay}}, around {{peakWindow}}
+- Highest-collision roads: {{topRoads}}
+- Latest finalized year {{year}}: {{injuries}} injuries, {{fatalities}} fatalities;
+  injury rate {{rate}}/100k vs state {{stateRate}}/100k
+
+Write these sections for this page: {{sectionList}}.
+{{perSectionLengthAndStyleNotes}}
+```
+
+## 7. Compliance guardrails (must-haves)
+
+- **SB-37 / legal advertising** is enforced in the system prompt (above): no outcome guarantees, no settlement figures, no attorney superlatives, matching-service framing, crash data framed as reported public record.
+- **No fabrication** — the model may only use facts in the FACTS block. This is why we feed real accident-hub data rather than letting it invent local color.
+- **⚠️ Separate flag — existing fake testimonials.** `getHardcodedFallbackConfig().testimonials` ships invented client names, quotes, and specific settlement dollar amounts. On a legal-services site that's an FTC/state-bar advertising risk independent of this project. Recommend: replace with real, permissioned testimonials, or remove the settlement figures and mark them illustrative. Flagging here; not changing it as part of content generation.
+
+## 8. Dedup / QA harness (`scripts/check-content-dup.ts`)
+
+Before anything ships, measure uniqueness objectively:
+
+- **Near-duplicate detector** — n-gram shingling + Jaccard/MinHash similarity across all generated pages; **flag any pair above a threshold** (e.g. 0.7) and fail the launch gate until resolved. Also compares against the *template* to ensure each page diverges enough from the base.
+- **Voice preview** — extend the existing interactive artifact so you can pick a city and see its rendered copy + which voice profile it drew, to eyeball tone across cities.
+- **Gate:** no page ships above the similarity threshold; a sample is human-read per voice profile.
+
+## 9. Cost estimate (rough, full CA run)
+
+Assumptions: ~4,300 pages; ~1,200 output tokens of new prose/page (≈60% Fable, 40% Sonnet); ~800 unique input tokens/page (shared system prompt cached); Batch API (−50%).
+
+| | Output | Input | Subtotal (batched) |
+|---|---|---|---|
+| Fable 5.1 (voice) | ~3.1M @ $50 | ~2.1M @ $10 | ~$88 |
+| Sonnet 5 (functional) | ~2.1M @ $10 | ~1.4M @ $2 | ~$12 |
+| **Total** | | | **~$100 (order-of-magnitude; ~$100–200 with retries/QA reruns)** |
+
+Cheap enough that a **1-city prototype first** (next step) to lock quality/voice costs cents.
+
+## 10. Sequencing
+
+1. **This doc** → your review/edits.
+2. **Prototype**: build the pipeline + generate **one city (Downey) across all silos**, 2 voice profiles; you review real output + cost.
+3. Tune prompts/voices; wire `getStaticContentOverride` into the cascade.
+4. **Batch-generate all CA**; run the dedup gate; human-sample per voice.
+5. Launch CA.
+6. **AZ/NM**: same pipeline — just needs their accident data + city lists loaded first.
+
+---
+
+### Open questions for you
+1. Voice count — five profiles OK, or do you want a single consistent brand voice with substance-only differentiation?
+2. The `localContext` section — happy to add it to the page layout (city + silo), or keep generated copy confined to existing sections?
+3. The fake-testimonials flag (§7) — address now, or track separately?
