@@ -13,7 +13,7 @@
  * page falls back to <AccidentStatistics> when getAccidentData() returns null.
  */
 
-import { useMemo, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
 import { motion, useReducedMotion } from "framer-motion"
 import {
   AlertTriangle,
@@ -85,6 +85,13 @@ const TABLE_COLS: Array<{ key: string; label: string }> = [
 const DOW_LABELS = ["M", "T", "W", "T", "F", "S", "S"]
 const DOW_NAMES = ["Mondays", "Tuesdays", "Wednesdays", "Thursdays", "Fridays", "Saturdays", "Sundays"]
 
+// Trend window: the module starts the year axis here (2020 keeps the COVID
+// dip→recovery story). Years before this — and any status='partial' year — are
+// hidden, since partial/pre-window years shouldn't be compared to full ones.
+const START_YEAR = 2020
+
+const DEFAULT_SOURCE = "CCRS · data.ca.gov + CA population"
+
 /* ----------------------------------------------------------------- helpers */
 
 const fmt = (n: number) => n.toLocaleString("en-US")
@@ -102,6 +109,19 @@ const hr12 = (h: number) => {
   let x = h % 12
   if (!x) x = 12
   return `${x}${ap}`
+}
+
+/**
+ * Headline figure that is safe for SSR/SEO and prefers-reduced-motion: the real
+ * number is always in the server HTML and shown instantly when motion is off;
+ * on the client with motion allowed it upgrades to the count-up AnimatedNumber.
+ */
+function Stat({ value, className }: { value: number; className?: string }) {
+  const reduce = useReducedMotion()
+  const [mounted, setMounted] = useState(false)
+  useEffect(() => setMounted(true), [])
+  if (!mounted || reduce) return <span className={className}>{value.toLocaleString("en-US")}</span>
+  return <AnimatedNumber value={value} className={className} />
 }
 
 function DeltaBadge({ delta, suppressed }: { delta: number | null; suppressed?: boolean }) {
@@ -136,15 +156,25 @@ interface Props {
 
 export function AccidentDataHub({ data, cityLabel }: Props) {
   const reduce = useReducedMotion()
-  const years = data.years
+  // Apply the trend window: drop pre-START_YEAR and provisional-partial years.
+  const years = useMemo(
+    () =>
+      data.years
+        .filter((d) => d.year >= START_YEAR && d.status !== "partial")
+        .sort((a, b) => a.year - b.year),
+    [data.years],
+  )
   const cityName = cityLabel || data.city
   const byYear = useMemo(() => Object.fromEntries(years.map((d) => [d.year, d])) as Record<number, CityYear>, [years])
   const yearList = useMemo(() => years.map((d) => d.year), [years])
-  const latest = yearList[yearList.length - 1]
-  const prevYear = yearList[yearList.length - 2] ?? latest
+  // Default to the latest FINALIZED year (not a provisional/part-year row), so
+  // the section leads with complete data. Users can still pick provisional years.
+  const finalYears = years.filter((d) => d.status === "final").map((d) => d.year)
+  const latestFinal = finalYears.length ? Math.max(...finalYears) : yearList[yearList.length - 1]
+  const defaultB = yearList[yearList.indexOf(latestFinal) - 1] ?? yearList[yearList.length - 2] ?? latestFinal
 
-  const [yearA, setYearA] = useState<number>(latest)
-  const [yearB, setYearB] = useState<number>(prevYear)
+  const [yearA, setYearA] = useState<number>(latestFinal)
+  const [yearB, setYearB] = useState<number>(defaultB)
   const [compare, setCompare] = useState(false)
   const [cmpMetric, setCmpMetric] = useState<"injuries" | "fatalities">("injuries")
   const [chartMetric, setChartMetric] = useState<keyof CityYear>("injuryCrashes")
@@ -245,9 +275,9 @@ export function AccidentDataHub({ data, cityLabel }: Props) {
             <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1.5 text-xs text-gray-500">
               <span className="inline-flex items-center gap-1">
                 Source:{" "}
-                <a href="https://tims.berkeley.edu/" target="_blank" rel="noopener noreferrer"
+                <a href="https://data.ca.gov/dataset/ccrs" target="_blank" rel="noopener noreferrer"
                    className="text-gray-600 hover:text-orange-600 underline decoration-dotted inline-flex items-center gap-0.5">
-                  SWITRS via TIMS <ExternalLink className="h-3 w-3" />
+                  CCRS · data.ca.gov <ExternalLink className="h-3 w-3" />
                 </a>
               </span>
               <span className="inline-flex items-center gap-1">
@@ -322,7 +352,7 @@ export function AccidentDataHub({ data, cityLabel }: Props) {
                 <CardContent className="p-4 md:p-5">
                   <div className="text-xs md:text-sm text-gray-600">{m.label}</div>
                   <div className={`text-3xl md:text-4xl font-extrabold tracking-tight mt-0.5 ${m.accent ? "text-orange-600" : "text-gray-900"}`}>
-                    <AnimatedNumber value={va} />
+                    <Stat value={va} />
                   </div>
                   {compare && vb !== null ? (
                     <div className="mt-1 text-sm text-gray-500 font-semibold flex items-center gap-2">
@@ -619,12 +649,11 @@ export function AccidentDataHub({ data, cityLabel }: Props) {
           <p className="inline-flex items-start gap-1.5">
             <Info className="h-3.5 w-3.5 mt-0.5 flex-shrink-0 text-gray-400" />
             <span>
-              <b className="text-gray-600">Source:</b> collision counts from the California Highway Patrol&apos;s
-              Statewide Integrated Traffic Records System (SWITRS), geocoded and aggregated to city jurisdiction
-              by UC Berkeley SafeTREC&apos;s Transportation Injury Mapping System (TIMS). Fatality totals
-              cross-checked against NHTSA&apos;s Fatality Analysis Reporting System (FARS). Rates per 100,000 use
-              annual city population. Years marked <b className="text-orange-600">prov</b> are provisional and
-              update as CHP finalizes them.
+              <b className="text-gray-600">Source:</b> {data.source || DEFAULT_SOURCE}. Collision counts are
+              reported crashes from California&apos;s Crash Reporting System (CCRS), published on data.ca.gov and
+              aggregated to city jurisdiction; fatality totals are cross-checked against NHTSA&apos;s Fatality
+              Analysis Reporting System (FARS). Rates per 100,000 use annual city population. Years marked{" "}
+              <b className="text-orange-600">prov</b> are provisional and update as the record is finalized.
             </span>
           </p>
         </div>

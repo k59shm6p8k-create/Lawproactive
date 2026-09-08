@@ -141,7 +141,7 @@ export default async function PersonalInjuryLanding({ params }: PageProps) {
 
   // Fetch real SWITRS crash data for this city (California-only, where loaded).
   // Falls back to the modeled estimate below when no real data exists.
-  const accidentData = await getAccidentData(city, paramState)
+  const accidentData = await getAccidentData(city, paramState, paramCity)
 
   // Generate accident statistics for this city (fallback when no real data)
   const accidentStats = generateAccidentStats(city, state, paramState, cityLocation?.population, cityLocation?.coordinates)

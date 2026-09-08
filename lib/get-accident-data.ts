@@ -1,3 +1,5 @@
+import { promises as fs } from 'fs'
+import path from 'path'
 import { supabaseServer } from '@/lib/supabase-server'
 import { StateDataLoader } from '@/lib/data/state-loader'
 
@@ -29,7 +31,7 @@ export interface CityYear {
   fatalities: number
   injuries: number
   seriousInjuries: number
-  status: 'final' | 'prov'
+  status: 'final' | 'prov' | 'partial'
   // road-user classes
   occupant: FI
   pedestrian: FI
@@ -80,6 +82,7 @@ export interface AccidentData {
   county: string
   state: string
   stateAbbr: string
+  source?: string                         // e.g. "CCRS · data.ca.gov + CA population"
   years: CityYear[]                       // ascending by year
   county_benchmark: Record<number, BenchYear>
   state_benchmark: Record<number, BenchYear>
@@ -133,19 +136,54 @@ function benchIndex(rows: any[] | null): Record<number, BenchYear> {
   return out
 }
 
+const slugify = (s: string) =>
+  s.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')
+
+/**
+ * Read a committed static-JSON payload for a city, if one exists.
+ * Path: data/accident/<stateSlug>/<citySlug>.json — a full AccidentData object.
+ * This is the no-database path: real aggregates live in the repo and render at
+ * build time, exactly like data/states/*.json. Returns null when absent.
+ */
+async function readStaticAccidentData(
+  stateSlug: string,
+  citySlug: string,
+): Promise<AccidentData | null> {
+  try {
+    const file = path.join(process.cwd(), 'data', 'accident', stateSlug.toLowerCase(), `${citySlug}.json`)
+    const raw = await fs.readFile(file, 'utf-8')
+    const data = JSON.parse(raw.replace(/^﻿/, '')) as AccidentData
+    if (!data?.years?.length) return null
+    return data
+  } catch {
+    return null
+  }
+}
+
 /**
  * Fetch the multi-year accident-data hub payload for a city, or null if none.
  *
- * Matches on city name (case-insensitive) because location records don't carry
- * a county; the county is derived from the returned rows. If the city name maps
- * to more than one county (rare), the county with the most rows wins.
+ * Resolution order:
+ *   1. Committed static JSON (data/accident/<state>/<city>.json) — no DB needed.
+ *   2. Supabase rollup tables (city_year etc.).
+ *   3. null → the city page falls back to the modeled estimate.
+ *
+ * The Supabase path matches on city name (case-insensitive) because location
+ * records don't carry a county; the county is derived from the returned rows.
+ * If the city name maps to more than one county (rare), the county with the
+ * most rows wins.
  */
 export async function getAccidentData(
   cityName: string,
   stateSlug: string,
+  citySlug?: string,
 ): Promise<AccidentData | null> {
+  // 1. Static JSON first (no database required).
+  const staticData = await readStaticAccidentData(stateSlug, citySlug || slugify(cityName))
+  if (staticData) return staticData
+
   try {
-    // 1. City rows across all years (the required signal — no rows => fall back).
+    // 2. City rows across all years (the required signal — no rows => fall back).
     const { data: cityRows, error: cityErr } = await supabaseServer
       .from('city_year')
       .select('*')
