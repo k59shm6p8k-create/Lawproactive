@@ -1,0 +1,39 @@
+{
+  "_meta": { "voice": "brand-standard", "model": "inline-prototype (Opus-class)", "generatedAt": "2026-09-08", "practice": "car-accident", "note": "PROTOTYPE — Downey car & truck accident silo." },
+  "seo": {
+    "metaTitle": "Downey Car Accident Lawyer | Free Consultation",
+    "metaDescription": "In a Downey car or truck crash? Connect free with a car accident attorney serving Los Angeles County. 2-year California deadline, no fee unless you win. 24/7 help."
+  },
+  "hero": {
+    "subtitle": "Rear-ended on Lakewood Boulevard or hit at a Firestone Boulevard intersection? We connect Downey crash victims — free — with a car and truck accident attorney who handles Los Angeles County claims."
+  },
+  "about": {
+    "title": "Downey Car & Truck Accident Claims",
+    "longDescription": "Downey's grid of high-traffic arterials feeds directly into the 5, 605 and 710 freeways, and the collisions show it: local records logged 829 injury crashes in 2025, with reported wrecks peaking on Friday afternoons between roughly 2 and 5 p.m. Lakewood Boulevard, Firestone Boulevard, Florence Avenue and the Imperial Highway carry the most reported collisions in the city. If a distracted, speeding or impaired driver hurt you on one of them, California law lets you pursue compensation for medical care, lost wages, vehicle damage and the pain of it all. LawProactive connects you, at no cost, with an independent car and truck accident attorney — you owe no fee unless your case recovers money.",
+    "commonInjuriesTitle": "Common car & truck crash injuries",
+    "commonInjuries": [
+      "Whiplash and neck strain",
+      "Herniated discs and back injuries",
+      "Traumatic brain injuries and concussions",
+      "Broken bones and fractures",
+      "Internal injuries",
+      "Soft-tissue and ligament damage"
+    ],
+    "ctaText": "Get a free crash case review"
+  },
+  "whyChoose": {
+    "title": "Why act quickly after a Downey crash",
+    "items": [
+      { "title": "Evidence disappears fast", "desc": "Skid marks fade, vehicles get repaired, and traffic-camera footage is often overwritten within days. An attorney can move to preserve it before it's gone." },
+      { "title": "Two-year filing deadline", "desc": "California generally allows two years from the crash to file suit — and far less if a public entity or a government vehicle was involved." },
+      { "title": "Don't negotiate alone", "desc": "Insurers often call within hours with a quick, low offer. Our network attorneys deal with these adjusters daily and negotiate on your behalf at no upfront cost." }
+    ]
+  },
+  "faq": {
+    "items": [
+      { "question": "What should I do after a car accident in Downey?", "answer": "Get medical attention even if you feel fine, call the police so there's an official report, photograph the scene and vehicles, and get contact and insurance details for everyone involved. Then speak with an attorney before giving a recorded statement to any insurer." },
+      { "question": "The other driver was uninsured — can I still recover?", "answer": "Possibly. California drivers carry minimum liability coverage, but many don't. Your own uninsured/underinsured motorist coverage, if you have it, can step in, and an attorney can identify every source of compensation available to you." },
+      { "question": "How is fault decided if the crash was at a busy intersection?", "answer": "Fault turns on the evidence — the police report, witness accounts, camera footage and the physical damage. Because California uses pure comparative fault, you can recover even if you were partly responsible; your share simply reduces the award." }
+    ]
+  }
+}

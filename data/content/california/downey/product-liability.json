@@ -1,0 +1,39 @@
+{
+  "_meta": { "voice": "brand-standard", "model": "inline-prototype (Opus-class)", "generatedAt": "2026-09-08", "practice": "product-liability", "note": "PROTOTYPE — Downey product liability silo." },
+  "seo": {
+    "metaTitle": "Downey Product Liability Lawyer | Free Case Review",
+    "metaDescription": "Injured by a defective product in Downey? Connect free with a product liability attorney serving Los Angeles County. Strict liability applies — no fee unless you win."
+  },
+  "hero": {
+    "subtitle": "Hurt by a defective vehicle part, appliance, tool or medical device? We connect Downey residents — free — with a product liability attorney who handles California claims."
+  },
+  "about": {
+    "title": "Downey Product Liability Claims",
+    "longDescription": "When a product fails and injures someone in Downey, California law is on the consumer's side. Unlike most injury cases, product liability often runs on strict liability — you generally don't have to prove the manufacturer was careless, only that the product was defective and that the defect caused your injury. Defects can be in the design, in the manufacturing, or in a missing warning. These cases can involve everyone from the manufacturer to the distributor to the retailer, and they frequently require engineering experts and preservation of the product itself. LawProactive connects injured Downey consumers, at no cost, with an independent product liability attorney. You pay nothing unless the case recovers compensation.",
+    "commonInjuriesTitle": "Common defective-product injuries",
+    "commonInjuries": [
+      "Burns from fires or faulty electronics",
+      "Lacerations and crush injuries from tools or machinery",
+      "Injuries from auto-part and tire failures",
+      "Harm from defective medical devices or drugs",
+      "Injuries from unsafe children's products",
+      "Chemical exposure and poisoning"
+    ],
+    "ctaText": "Get a free product case review"
+  },
+  "whyChoose": {
+    "title": "Why these cases move fast on evidence",
+    "items": [
+      { "title": "Keep the product", "desc": "Do not repair, discard or return the item that hurt you. The product itself is often the most important piece of evidence, and preserving it can make or break the claim." },
+      { "title": "Strict liability helps you", "desc": "In many California product cases you don't have to prove negligence — only that the product was defective and caused your injury. That's a meaningful advantage." },
+      { "title": "Multiple parties may be responsible", "desc": "Manufacturers, distributors and retailers can all share liability. An attorney can identify every responsible party and every applicable source of recovery." }
+    ]
+  },
+  "faq": {
+    "items": [
+      { "question": "What counts as a defective product?", "answer": "California recognizes three kinds of defects: a design defect (the product is unsafe as designed), a manufacturing defect (something went wrong in making it), and a warning defect (it lacked adequate safety warnings or instructions). Any of the three can support a claim." },
+      { "question": "Do I need to prove the company was careless?", "answer": "Often not. Product liability in California frequently proceeds under strict liability, meaning you generally need to show the product was defective and caused your injury — not that the manufacturer acted negligently." },
+      { "question": "What should I do right now?", "answer": "Keep the product and its packaging, save receipts and photos, get medical care, and avoid contact with the manufacturer's representatives until you've spoken with an attorney." }
+    ]
+  }
+}
