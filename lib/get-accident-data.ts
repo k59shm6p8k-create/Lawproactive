@@ -107,7 +107,7 @@ function mapCityYear(r: any): CityYear {
     fatalities: num(r.fatalities),
     injuries: num(r.injuries),
     seriousInjuries: num(r.serious_injuries),
-    status: r.status === 'prov' ? 'prov' : 'final',
+    status: r.status === 'prov' ? 'prov' : r.status === 'partial' ? 'partial' : 'final',
     occupant: pair(r, 'occupant'),
     pedestrian: pair(r, 'ped'),
     bicyclist: pair(r, 'bike'),
@@ -139,11 +139,100 @@ function benchIndex(rows: any[] | null): Record<number, BenchYear> {
 const slugify = (s: string) =>
   s.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')
 
+const STATE_NAMES: Record<string, string> = {
+  CA: 'California', TX: 'Texas', FL: 'Florida', NY: 'New York', AZ: 'Arizona',
+}
+
 /**
- * Read a committed static-JSON payload for a city, if one exists.
- * Path: data/accident/<stateSlug>/<citySlug>.json — a full AccidentData object.
+ * Canonical per-city file shape emitted by the data pipeline (see
+ * data/accident/california/downey.json — the render-shape contract). Committed
+ * files use THIS shape; the loader adapts it to AccidentData for the component.
+ */
+interface RawCityFile {
+  city: string
+  county: string
+  state: string          // abbreviation, e.g. "CA"
+  source?: string
+  cityYears: Array<Record<string, any>>
+  countyYears: Array<{ year: number; population: number; injuries: number; fatalities: number }>
+  stateYears: Array<{ year: number; population: number; injuries: number; fatalities: number }>
+  peak?: { hours?: number[]; dow?: number[] }
+  topRoads?: Array<{ road: string; crashes?: number; injuries: number; fatalities: number }>
+  topIntersections?: Array<{ intersection: string; crashes?: number; injuries: number; fatalities: number }>
+}
+
+const fiOf = (v: any): FI => ({ f: num(v?.f), i: num(v?.i) })
+// Pipeline emits road/intersection names in ALL CAPS — title-case for display.
+const titleCase = (s: string) =>
+  (s || '').replace(/\b[a-zA-Z]+\b/g, (w) => w[0].toUpperCase() + w.slice(1).toLowerCase())
+const asStatus = (s: any): CityYear['status'] =>
+  s === 'prov' ? 'prov' : s === 'partial' ? 'partial' : 'final'
+
+/** Adapt the canonical per-city file into the component's AccidentData shape. */
+function adaptRawCity(raw: RawCityFile): AccidentData {
+  const years: CityYear[] = (raw.cityYears ?? []).map((r) => ({
+    year: num(r.year),
+    population: r.population == null ? null : num(r.population),
+    fatalCrashes: num(r.fatalCrashes),
+    injuryCrashes: num(r.injuryCrashes),
+    fatalities: num(r.fatalities),
+    injuries: num(r.injuries),
+    seriousInjuries: num(r.seriousInjuries),
+    status: asStatus(r.status),
+    occupant: fiOf(r.occupant),
+    pedestrian: fiOf(r.pedestrian),
+    bicyclist: fiOf(r.bicyclist),
+    motorcyclist: fiOf(r.motorcyclist),
+    truck: fiOf(r.truck),
+    olderAdult: fiOf(r.olderAdult),
+    unrestrained: fiOf(r.unrestrained),
+    alcohol: fiOf(r.alcohol),
+    drug: fiOf(r.drug),
+    distracted: fiOf(r.distracted),
+    speeding: fiOf(r.speeding),
+  })).sort((a, b) => a.year - b.year)
+
+  const county_benchmark = benchIndex(raw.countyYears as any[])
+  const state_benchmark = benchIndex(raw.stateYears as any[])
+
+  const hours: TimeBucket[] = (raw.peak?.hours ?? []).map((c, i) => ({
+    bucket: i, crashes: num(c), injuries: 0, fatalities: 0,
+  }))
+  const dow: TimeBucket[] = (raw.peak?.dow ?? []).map((c, i) => ({
+    bucket: i + 1, crashes: num(c), injuries: 0, fatalities: 0,
+  }))
+
+  // Multi-year span label from the finalized years actually shown (>= 2020).
+  const shown = years.filter((y) => y.status === 'final' && y.year >= 2020).map((y) => y.year)
+  const span = shown.length ? `${Math.min(...shown)}–${Math.max(...shown)}` : null
+
+  const stateAbbr = raw.state || ''
+  const state = STATE_NAMES[stateAbbr] || stateAbbr
+
+  return {
+    city: raw.city,
+    county: raw.county,
+    state,
+    stateAbbr,
+    source: raw.source,
+    years,
+    county_benchmark,
+    state_benchmark,
+    timeProfile: { span, hours, dow },
+    topRoads: (raw.topRoads ?? []).map((r, i) => ({
+      rank: i + 1, road: titleCase(r.road), crashes: num(r.crashes), injuries: num(r.injuries), fatalities: num(r.fatalities),
+    })),
+    topIntersections: (raw.topIntersections ?? []).map((r, i) => ({
+      rank: i + 1, intersection: titleCase(r.intersection), crashes: num(r.crashes), injuries: num(r.injuries), fatalities: num(r.fatalities),
+    })),
+  }
+}
+
+/**
+ * Read a committed static per-city file, if one exists, and adapt it.
+ * Path: data/accident/<stateSlug>/<citySlug>.json — the canonical pipeline shape.
  * This is the no-database path: real aggregates live in the repo and render at
- * build time, exactly like data/states/*.json. Returns null when absent.
+ * build time, exactly like data/states/*.json. Returns null when absent/empty.
  */
 async function readStaticAccidentData(
   stateSlug: string,
@@ -151,10 +240,9 @@ async function readStaticAccidentData(
 ): Promise<AccidentData | null> {
   try {
     const file = path.join(process.cwd(), 'data', 'accident', stateSlug.toLowerCase(), `${citySlug}.json`)
-    const raw = await fs.readFile(file, 'utf-8')
-    const data = JSON.parse(raw.replace(/^﻿/, '')) as AccidentData
-    if (!data?.years?.length) return null
-    return data
+    const raw = JSON.parse((await fs.readFile(file, 'utf-8')).replace(/^﻿/, '')) as RawCityFile
+    if (!raw?.cityYears?.length) return null
+    return adaptRawCity(raw)
   } catch {
     return null
   }
