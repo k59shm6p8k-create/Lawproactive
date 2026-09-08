@@ -28,6 +28,14 @@ STATE_ABBR = "CA"
 OUT_DIR = os.path.join(ROOT, "data", "accident", STATE_SLUG)
 SOURCE = "CCRS via data.ca.gov + CA city population"
 
+# Site routing slug -> seed city name, for cities whose site name differs from
+# the CCRS name (so the file lands on the right [city] route).
+ALIASES = {
+    "angels": "Angels Camp",
+    "carmel-by-the-sea": "Carmel",
+    "industry": "City of Industry",
+}
+
 CITY_YEAR_COLS = [
     "city", "county", "year", "status", "population", "lat", "lng", "elevation_ft",
     "fatal_crashes", "injury_crashes", "fatalities", "injuries", "serious_injuries",
@@ -160,6 +168,7 @@ def main():
     site_slugs = load_site_slugs()
     os.makedirs(OUT_DIR, exist_ok=True)
     written, unmatched = 0, []
+    payload_by_city = {}
 
     for city, rows in years_by.items():
         rows.sort(key=lambda r: r["year"])
@@ -193,6 +202,7 @@ def main():
             "topIntersections": intx,
         }
 
+        payload_by_city[city] = payload
         slug = site_slugs.get(city.strip().lower()) or slugify(city)
         if city.strip().lower() not in site_slugs:
             unmatched.append(city)
@@ -200,7 +210,18 @@ def main():
             json.dump(payload, f, ensure_ascii=False, separators=(",", ":"))
         written += 1
 
-    print(f"wrote {written} city files to {os.path.relpath(OUT_DIR, ROOT)}")
+    # Alias files: site cities whose name differs from the CCRS name.
+    aliased = 0
+    for site_slug, seed_city in ALIASES.items():
+        payload = payload_by_city.get(seed_city)
+        if not payload:
+            print(f"  alias skip: no seed data for '{seed_city}' -> {site_slug}")
+            continue
+        with open(os.path.join(OUT_DIR, f"{site_slug}.json"), "w", encoding="utf-8") as f:
+            json.dump(payload, f, ensure_ascii=False, separators=(",", ":"))
+        aliased += 1
+
+    print(f"wrote {written} city files (+{aliased} aliases) to {os.path.relpath(OUT_DIR, ROOT)}")
     if unmatched:
         print(f"note: {len(unmatched)} seed cities not in the site slug list "
               f"(named by slugify fallback): {', '.join(sorted(unmatched)[:15])}"

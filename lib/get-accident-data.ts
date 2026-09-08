@@ -162,9 +162,13 @@ interface RawCityFile {
 }
 
 const fiOf = (v: any): FI => ({ f: num(v?.f), i: num(v?.i) })
-// Pipeline emits road/intersection names in ALL CAPS — title-case for display.
+// Pipeline emits road/intersection names in ALL CAPS — title-case for display,
+// then restore highway/route designators that should stay uppercase (US-101,
+// SR-91, CA-1, I-5, and direction codes like S/B, N/B).
 const titleCase = (s: string) =>
-  (s || '').replace(/\b[a-zA-Z]+\b/g, (w) => w[0].toUpperCase() + w.slice(1).toLowerCase())
+  (s || '')
+    .replace(/\b[a-zA-Z]+\b/g, (w) => w[0].toUpperCase() + w.slice(1).toLowerCase())
+    .replace(/\b(Us|Sr|Ca|Sb|Nb|Eb|Wb)\b/g, (w) => w.toUpperCase())
 const asStatus = (s: any): CityYear['status'] =>
   s === 'prov' ? 'prov' : s === 'partial' ? 'partial' : 'final'
 
@@ -211,7 +215,7 @@ function adaptRawCity(raw: RawCityFile): AccidentData {
 
   return {
     city: raw.city,
-    county: raw.county,
+    county: raw.county && raw.county !== 'null' ? raw.county : '',
     state,
     stateAbbr,
     source: raw.source,

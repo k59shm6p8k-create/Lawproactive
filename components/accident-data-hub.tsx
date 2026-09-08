@@ -198,11 +198,16 @@ export function AccidentDataHub({ data, cityLabel }: Props) {
     const st = data.state_benchmark[yearA]
     const rows = [
       { cls: "city" as const, name: cityName, r: rate(cYear[cmpMetric], cYear.population) },
-      { cls: "county" as const, name: `${data.county} County`, r: rate(co?.[cmpMetric] ?? 0, co?.population) },
+      // Only compare against the county when we actually know it.
+      ...(data.county
+        ? [{ cls: "county" as const, name: `${data.county} County`, r: rate(co?.[cmpMetric] ?? 0, co?.population) }]
+        : []),
       { cls: "state" as const, name: data.state, r: rate(st?.[cmpMetric] ?? 0, st?.population) },
     ]
     return rows
   }, [byYear, yearA, cmpMetric, data, cityName])
+  // The comparison band is per-capita; it only makes sense when the city has population.
+  const hasCityPop = years.some((y) => y.population)
   const cmpMax = Math.max(1, ...cmpRows.map((x) => x.r ?? 0))
   const cmpNoun = COMPARE_METRICS.find((m) => m.key === cmpMetric)!.noun
 
@@ -270,7 +275,7 @@ export function AccidentDataHub({ data, cityLabel }: Props) {
               </h2>
             </div>
             <p className="mt-1 text-gray-600">
-              Reported traffic injuries &amp; collisions — {data.county} County
+              Reported traffic injuries &amp; collisions{data.county ? ` — ${data.county} County` : ""}
             </p>
             <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1.5 text-xs text-gray-500">
               <span className="inline-flex items-center gap-1">
@@ -378,7 +383,8 @@ export function AccidentDataHub({ data, cityLabel }: Props) {
           {a.population ? <> {" · "}Pop. <b className="text-gray-900">{fmt(a.population)}</b></> : null}
         </p>
 
-        {/* ---------- Comparison band ---------- */}
+        {/* ---------- Comparison band (per-capita; needs city population) ---------- */}
+        {hasCityPop && (
         <FadeIn direction="up" delay={0.15}>
           <div className="mt-8">
             <h3 className="text-base font-bold text-gray-900">How {cityName} compares</h3>
@@ -424,6 +430,7 @@ export function AccidentDataHub({ data, cityLabel }: Props) {
             </Card>
           </div>
         </FadeIn>
+        )}
 
         {/* ---------- Breakdown ---------- */}
         <FadeIn direction="up" delay={0.2}>
@@ -675,12 +682,13 @@ function CompareInterp({
   city: string
   year: number
 }) {
-  const cityR = rows[0].r
-  const countyR = rows[1].r
-  const stateR = rows[2].r
+  const cityR = rows.find((r) => r.cls === "city")?.r ?? null
+  const countyR = rows.find((r) => r.cls === "county")?.r ?? null
+  const stateR = rows.find((r) => r.cls === "state")?.r ?? null
   if (cityR === null) {
     return <p className="mt-3 text-sm text-gray-500">Population data for {year} is not yet available, so a per-capita comparison can&apos;t be shown for this year.</p>
   }
+  const hasCounty = rows.some((r) => r.cls === "county")
   const phrase = (ref: number | null, label: string) => {
     if (ref === null || ref === 0) return <>data for the {label} isn&apos;t available</>
     const p = ((cityR - ref) / ref) * 100
@@ -695,7 +703,7 @@ function CompareInterp({
   return (
     <p className="mt-3 text-sm text-gray-600 leading-relaxed">
       In {year}, {city}&apos;s {noun} of <b className="text-gray-900">{cityR.toFixed(1)} per 100k</b> ran{" "}
-      {phrase(countyR, "county")} and {phrase(stateR, "state")}.
+      {hasCounty ? <>{phrase(countyR, "county")} and </> : null}{phrase(stateR, "state")}.
     </p>
   )
 }
