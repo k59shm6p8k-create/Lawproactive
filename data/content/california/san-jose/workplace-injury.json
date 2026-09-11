@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "voice": "brand-standard",
+    "model": "claude-opus-4-8",
+    "generatedAt": "2026-09-11",
+    "note": "San Jose workplace injury silo.",
+    "practice": "workplace-injury"
+  },
+  "seo": {
+    "metaTitle": "San Jose Workplace Injury Lawyer | Free Consultation",
+    "metaDescription": "Hurt on the job in San Jose? Connect free with a work injury attorney handling California workers' comp and third-party claims. No fee unless you win."
+  },
+  "hero": {
+    "subtitle": "Injured at work in San Jose — on a job site, a warehouse floor, or behind the wheel? We connect you, free, with an attorney who handles California work-injury and third-party claims."
+  },
+  "about": {
+    "title": "San Jose Workplace Injury Claims",
+    "longDescription": "Work in San Jose spans technology, manufacturing, construction, warehousing and healthcare — fields where lifting injuries, falls, machinery accidents and repetitive strain are common. If you were hurt on the job, California's workers' compensation system should cover medical care and part of your lost wages regardless of fault. But comp isn't always the whole story: when a negligent third party — a subcontractor, a property owner, an equipment maker, or another driver during a work trip — caused your injury, you may also have a separate claim for the full range of damages comp doesn't pay. LawProactive connects injured San Jose workers, at no cost, with an attorney who can sort out both. There's no fee unless your case recovers compensation.",
+    "commonInjuriesTitle": "Common on-the-job injuries",
+    "commonInjuries": [
+      "Back and lifting injuries",
+      "Falls from ladders, scaffolding or wet floors",
+      "Machinery and crush injuries",
+      "Repetitive strain and overuse injuries",
+      "Burns and electrical injuries",
+      "Injuries in work-related vehicle crashes"
+    ],
+    "ctaText": "Get a free work-injury review"
+  },
+  "whyChoose": {
+    "title": "Comp isn't always the whole claim",
+    "items": [
+      {
+        "title": "Report the injury promptly",
+        "desc": "California generally requires notifying your employer within 30 days to protect your workers' comp rights. The sooner it's documented, the harder it is to dispute."
+      },
+      {
+        "title": "Look for a third-party claim",
+        "desc": "If someone other than your employer caused the injury, you may have a separate case for pain, suffering and full lost earnings — damages comp does not provide."
+      },
+      {
+        "title": "Retaliation is illegal",
+        "desc": "It's against California law for an employer to punish you for filing a legitimate work-injury claim. An attorney can protect you if that happens."
+      }
+    ]
+  },
+  "faq": {
+    "items": [
+      {
+        "question": "Can I sue my employer for a San Jose workplace injury?",
+        "answer": "Usually workers' compensation is your exclusive remedy against your employer, regardless of fault. But if a third party — a contractor, property owner or equipment maker — caused your injury, you may bring a separate personal injury claim against them."
+      },
+      {
+        "question": "What if my workers' comp claim is denied?",
+        "answer": "A denial is not the end. You can appeal, and an attorney can help gather medical evidence and represent you. Many valid claims are initially denied."
+      },
+      {
+        "question": "How long do I have to act?",
+        "answer": "Report the injury to your employer as soon as possible (generally within 30 days), and note that third-party injury claims carry their own two-year California deadline. Talking to an attorney early keeps every option open."
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "voice": "brand-standard",
+    "model": "claude-opus-4-8",
+    "generatedAt": "2026-09-11",
+    "note": "San Diego medical malpractice silo.",
+    "practice": "medical-malpractice"
+  },
+  "seo": {
+    "metaTitle": "San Diego Medical Malpractice Lawyer | Free Review",
+    "metaDescription": "Harmed by a misdiagnosis or surgical error in San Diego? Connect free with a medical malpractice attorney. California deadlines are strict — no fee unless you win."
+  },
+  "hero": {
+    "subtitle": "Did a preventable medical error leave you or a loved one worse off in the San Diego area? We connect you — free — with a medical malpractice attorney who handles California claims."
+  },
+  "about": {
+    "title": "San Diego Medical Malpractice Claims",
+    "longDescription": "Most care in the San Diego area is competent, but preventable errors do happen — misdiagnosis, delayed treatment, surgical mistakes, medication errors and birth injuries. California medical malpractice law is technical and time-sensitive: it carries its own filing deadlines, a pre-suit notice requirement, and — unlike ordinary injury cases — a statutory cap on non-economic damages that rises each year. Because of that complexity, getting the right attorney involved early matters. LawProactive connects patients and families, at no cost, with an independent medical malpractice attorney. You pay no fee unless the case recovers compensation.",
+    "commonInjuriesTitle": "Common malpractice harms",
+    "commonInjuries": [
+      "Misdiagnosis or delayed diagnosis",
+      "Surgical and anesthesia errors",
+      "Medication and dosage mistakes",
+      "Birth injuries",
+      "Hospital-acquired infections",
+      "Failure to treat or monitor"
+    ],
+    "ctaText": "Get a free malpractice review"
+  },
+  "whyChoose": {
+    "title": "Why malpractice cases are different",
+    "items": [
+      {
+        "title": "Special California deadlines",
+        "desc": "Malpractice claims generally run one year from discovery, up to three years from the injury, with a 90-day notice requirement before filing. Missing these can end a strong case."
+      },
+      {
+        "title": "Expert proof is required",
+        "desc": "These cases almost always need a qualified medical expert to show the care fell below the accepted standard. Network attorneys work with the right experts."
+      },
+      {
+        "title": "A cap you should understand",
+        "desc": "California limits non-economic damages in malpractice cases under a schedule that increases annually. An attorney can explain how it applies to you."
+      }
+    ]
+  },
+  "faq": {
+    "items": [
+      {
+        "question": "How long do I have to file a malpractice claim in California?",
+        "answer": "Generally one year from when you discovered the injury and no more than three years from when it occurred, with exceptions. California also requires 90 days' notice before filing, so act promptly."
+      },
+      {
+        "question": "A bad outcome happened — is that automatically malpractice?",
+        "answer": "Not necessarily. Medicine carries risk, and a poor result alone isn't enough. Malpractice means care fell below the accepted professional standard and that failure caused harm — something a medical expert must typically confirm."
+      },
+      {
+        "question": "What will a case review cost me?",
+        "answer": "Nothing upfront. The review is free and malpractice attorneys in our network work on contingency, so there's no attorney fee unless they recover compensation for you."
+      }
+    ]
+  }
+}

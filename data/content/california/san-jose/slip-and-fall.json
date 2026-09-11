@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "voice": "brand-standard",
+    "model": "claude-opus-4-8",
+    "generatedAt": "2026-09-11",
+    "note": "San Jose slip & fall silo.",
+    "practice": "slip-and-fall"
+  },
+  "seo": {
+    "metaTitle": "San Jose Slip & Fall Lawyer | Premises Liability",
+    "metaDescription": "Hurt in a fall at a San Jose store, apartment or business? Connect free with a premises liability attorney. California gives you 2 years — no fee unless you win."
+  },
+  "hero": {
+    "subtitle": "Injured by a wet floor, broken stair or unlit walkway in San Jose? We connect you — free — with a premises liability attorney who handles Santa Clara County property claims."
+  },
+  "about": {
+    "title": "San Jose Slip & Fall and Premises Liability Claims",
+    "longDescription": "From stores and restaurants to apartment complexes and parking structures across San Jose, property owners have a legal duty to keep their premises reasonably safe. When they ignore a spill, a cracked walkway, a loose handrail or poor lighting and someone is hurt, California law may hold them responsible. These cases usually turn on proving the owner knew — or should have known — about the hazard and failed to fix it, which is why preserving evidence early matters so much. LawProactive connects injured San Jose residents, at no cost, with an independent premises liability attorney. You pay no fee unless your case recovers compensation.",
+    "commonInjuriesTitle": "Common slip & fall injuries",
+    "commonInjuries": [
+      "Hip fractures",
+      "Wrist and arm fractures",
+      "Head injuries and concussions",
+      "Spinal and back injuries",
+      "Knee and ankle injuries",
+      "Shoulder dislocations"
+    ],
+    "ctaText": "Get a free fall case review"
+  },
+  "whyChoose": {
+    "title": "What makes a strong premises case",
+    "items": [
+      {
+        "title": "Report it and document it",
+        "desc": "Ask for an incident report, photograph the hazard and your injuries, and keep what you were wearing. This evidence often disappears within a day."
+      },
+      {
+        "title": "The 'notice' question is key",
+        "desc": "You generally must show the owner knew or should have known about the danger. An attorney can subpoena maintenance logs and camera footage to establish it."
+      },
+      {
+        "title": "Two-year California deadline",
+        "desc": "You typically have two years to file — and shorter deadlines apply when the property belongs to a city, county or other public entity."
+      }
+    ]
+  },
+  "faq": {
+    "items": [
+      {
+        "question": "What do I have to prove in a San Jose slip and fall case?",
+        "answer": "Generally that a dangerous condition existed, the owner knew or should have known about it, they failed to fix or warn about it, and that failure caused your injury. Photos, incident reports and maintenance records are key."
+      },
+      {
+        "question": "The business says the fall was my fault. Is my claim over?",
+        "answer": "No. Under California's pure comparative fault rule you can still recover even if you were partly at fault; your compensation is reduced by your share of responsibility, not eliminated."
+      },
+      {
+        "question": "How soon should I contact an attorney?",
+        "answer": "As soon as possible. Surveillance video is often overwritten within days and hazards get repaired, so early action helps preserve the proof your claim depends on."
+      }
+    ]
+  }
+}

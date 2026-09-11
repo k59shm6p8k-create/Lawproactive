@@ -425,6 +425,66 @@ export default async function PersonalInjuryLanding({ params }: PageProps) {
           <AccidentStatistics stats={accidentStats} />
         )}
 
+        {/* Local Context Section — unique per-city prose. Renders ONLY when a
+            generated (or CMS) override supplied about.longDescription, so cities
+            without unique content stay clean and avoid duplicate-content risk. */}
+        {config.about?.longDescription ? (
+          <section className="py-16 px-4 bg-white" id="local-context">
+            <div className="max-w-4xl mx-auto">
+              <FadeIn direction="up" delay={0.1}>
+                <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
+                  {config.about.title}
+                </h2>
+              </FadeIn>
+              <FadeIn direction="up" delay={0.2}>
+                <p className="text-lg text-gray-700 leading-relaxed mb-8 whitespace-pre-line">
+                  {config.about.longDescription}
+                </p>
+              </FadeIn>
+
+              {config.about.commonInjuries && config.about.commonInjuries.length > 0 && (
+                <FadeIn direction="up" delay={0.25}>
+                  <div className="mb-10">
+                    <h3 className="text-xl font-semibold mb-4 text-gray-900">
+                      {config.about.commonInjuriesTitle}
+                    </h3>
+                    <ul className="grid sm:grid-cols-2 gap-3">
+                      {config.about.commonInjuries.map((injury, i) => (
+                        <li key={i} className="flex items-start gap-3">
+                          <span className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#0B6B65' }}></span>
+                          <span className="text-gray-700">{injury}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </FadeIn>
+              )}
+
+              {config.whyChoose?.items && config.whyChoose.items.length > 0 && (
+                <div>
+                  <FadeIn direction="up" delay={0.3}>
+                    <h3 className="text-2xl font-bold mb-6 text-gray-900">
+                      {config.whyChoose.title}
+                    </h3>
+                  </FadeIn>
+                  <StaggerContainer staggerDelay={0.08} className="grid md:grid-cols-2 gap-6">
+                    {config.whyChoose.items.map((item, i) => (
+                      <StaggerItem key={i}>
+                        <Card className="h-full border-0 shadow-md bg-white/80">
+                          <CardContent className="p-6">
+                            <h4 className="text-lg font-semibold mb-2 text-gray-900">{item.title}</h4>
+                            <p className="text-gray-600 leading-relaxed">{item.desc}</p>
+                          </CardContent>
+                        </Card>
+                      </StaggerItem>
+                    ))}
+                  </StaggerContainer>
+                </div>
+              )}
+            </div>
+          </section>
+        ) : null}
+
         {/* Local News Section */}
         <LocalNews
           city={city}

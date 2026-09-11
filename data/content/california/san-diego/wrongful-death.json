@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "voice": "brand-standard (extra care/empathy)",
+    "model": "claude-opus-4-8",
+    "generatedAt": "2026-09-11",
+    "note": "San Diego wrongful death silo.",
+    "practice": "wrongful-death"
+  },
+  "seo": {
+    "metaTitle": "San Diego Wrongful Death Lawyer | Free, Confidential Review",
+    "metaDescription": "Lost a loved one to negligence in San Diego? Connect free with a wrongful death attorney serving San Diego County. 2-year deadline — no fee unless you win."
+  },
+  "hero": {
+    "subtitle": "If a preventable accident took someone you love in San Diego, we can help. We connect surviving families — free and confidentially — with a wrongful death attorney serving San Diego County."
+  },
+  "about": {
+    "title": "San Diego Wrongful Death Claims",
+    "longDescription": "Nothing undoes the loss of a family member, but California law gives surviving relatives a way to hold the responsible party accountable and to recover the financial and emotional costs left behind. Wrongful death claims in San Diego can arise from fatal traffic collisions, unsafe premises, dangerous products, and preventable medical errors. California limits who may bring the claim — typically spouses, domestic partners and children first — and sets a two-year deadline from the date of death. Recoverable losses can include funeral and burial costs, the loss of the person's financial support and services, and the loss of their love, companionship and guidance. LawProactive connects grieving San Diego families, at no cost, with a compassionate wrongful death attorney. There is no fee unless the case recovers compensation.",
+    "commonInjuriesTitle": "How these losses commonly occur",
+    "commonInjuries": [
+      "Fatal car, truck and motorcycle crashes",
+      "Pedestrian and bicyclist fatalities",
+      "Fatal falls and unsafe-premises incidents",
+      "Defective or dangerous products",
+      "Preventable medical errors",
+      "Workplace fatalities"
+    ],
+    "ctaText": "Speak with someone — free & private"
+  },
+  "whyChoose": {
+    "title": "What families should know",
+    "items": [
+      {
+        "title": "Who can file",
+        "desc": "California generally allows a surviving spouse or domestic partner, children, and — if there are none — certain other dependents or heirs to bring a claim. An attorney can confirm your standing."
+      },
+      {
+        "title": "A two-year deadline",
+        "desc": "Wrongful death claims generally must be filed within two years of the death, with shorter deadlines when a government entity is involved. Acting sooner also helps preserve evidence."
+      },
+      {
+        "title": "What can be recovered",
+        "desc": "Compensation can include funeral and burial expenses, the financial support the person would have provided, and the loss of their companionship and guidance."
+      }
+    ]
+  },
+  "faq": {
+    "items": [
+      {
+        "question": "Who is allowed to file a wrongful death claim in California?",
+        "answer": "Generally the surviving spouse or domestic partner and children come first; if there are none, the right may pass to other dependents or heirs under California's succession rules. An attorney can confirm who has the right to file in your family's situation."
+      },
+      {
+        "question": "How is a wrongful death claim different from a criminal case?",
+        "answer": "They are separate. A criminal case is brought by the government to punish; a wrongful death claim is a civil action the family brings to recover its losses. A case can proceed civilly even without a criminal charge or conviction."
+      },
+      {
+        "question": "We're overwhelmed right now — is there any pressure?",
+        "answer": "None. The conversation is free and confidential, there's no obligation, and any attorney you connect with works on contingency. You can ask questions and decide what's right for your family in your own time — within the two-year deadline."
+      }
+    ]
+  }
+}

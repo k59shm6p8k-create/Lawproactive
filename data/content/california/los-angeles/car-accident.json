@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "voice": "brand-standard",
+    "model": "claude-opus-4-8",
+    "generatedAt": "2026-09-11",
+    "note": "Los Angeles car accident silo.",
+    "practice": "car-accident"
+  },
+  "seo": {
+    "metaTitle": "Los Angeles Car Accident Lawyer | Free Case Review",
+    "metaDescription": "Injured in a Los Angeles car accident? Connect free with a car accident attorney serving Los Angeles County. 2 years to file — no fee unless you win."
+  },
+  "hero": {
+    "subtitle": "Hurt in a car, truck or motorcycle crash in Los Angeles? We connect you — free — with a car accident attorney who handles Los Angeles County claims. No fee unless you recover."
+  },
+  "about": {
+    "title": "Los Angeles Car Accident Claims",
+    "longDescription": "Car crashes are the most common way people are seriously hurt in Los Angeles, and the aftermath moves fast — the insurer may call within hours, long before you know how badly you're injured. California gives most crash victims two years to file a claim, and it uses pure comparative fault, meaning you can recover even if you were partly to blame. Recoverable losses can include medical bills, lost wages, vehicle damage, and pain and suffering, which California does not cap in ordinary crash cases. Evidence — skid marks, dashcam and traffic-camera footage, vehicle data — can disappear quickly on Los Angeles's busiest roads, so acting early tends to strengthen a claim. LawProactive connects injured Los Angeles drivers, passengers, riders and pedestrians, at no cost, with an independent car accident attorney. You pay no fee unless the case recovers compensation.",
+    "commonInjuriesTitle": "Common car accident injuries",
+    "commonInjuries": [
+      "Whiplash and neck injuries",
+      "Back and spinal injuries",
+      "Concussions and traumatic brain injuries",
+      "Broken bones and fractures",
+      "Internal injuries",
+      "Cuts, burns and scarring"
+    ],
+    "ctaText": "Get a free crash case review"
+  },
+  "whyChoose": {
+    "title": "Why acting early matters after a crash",
+    "items": [
+      {
+        "title": "Two-year California deadline",
+        "desc": "You generally have two years from the crash to file, and shorter deadlines apply when a government vehicle or road is involved. Sooner is stronger."
+      },
+      {
+        "title": "Partial fault still recovers",
+        "desc": "Under pure comparative fault you can recover even if you were partly responsible; your compensation is simply reduced by your share."
+      },
+      {
+        "title": "Don't talk to the adjuster alone",
+        "desc": "Early recorded statements and quick offers routinely undervalue claims. An attorney can handle the insurer so you can focus on healing."
+      }
+    ]
+  },
+  "faq": {
+    "items": [
+      {
+        "question": "What should I do first after a car accident in Los Angeles?",
+        "answer": "Get medical care, document the scene and any injuries, exchange information, and avoid giving the other insurer a recorded statement until you've spoken with an attorney. Prompt medical treatment also protects your health and your claim."
+      },
+      {
+        "question": "What if the accident was partly my fault?",
+        "answer": "You can still recover. California uses pure comparative fault, so your award is reduced by your percentage of fault rather than eliminated, even if you were mostly to blame."
+      },
+      {
+        "question": "What will it cost me?",
+        "answer": "Nothing upfront. The review is free and car accident attorneys in our network work on contingency, so there's no attorney fee unless they recover compensation for you."
+      }
+    ]
+  }
+}
