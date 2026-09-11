@@ -46,3 +46,5 @@ next-env.d.ts
 # OS generated files
 .DS_Store
 Thumbs.db
+# silo pipeline runtime batch state
+scripts/generate-silos/.batches/
