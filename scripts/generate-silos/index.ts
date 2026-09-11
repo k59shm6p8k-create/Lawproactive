@@ -30,7 +30,10 @@ import { zodOutputFormat } from '@anthropic-ai/sdk/helpers/zod';
 import { promises as fs } from 'fs';
 import path from 'path';
 import { loadFacts, type CityFacts } from './facts';
-import { PRACTICES, type Practice, SiloSchema, SYSTEM_PROMPT, buildUserPrompt, PRACTICE_LABEL } from './prompts';
+import {
+  PRACTICES, type Practice, SiloSchema, CityPageSchema,
+  SYSTEM_PROMPT, buildUserPrompt, buildCityUserPrompt, PRACTICE_LABEL,
+} from './prompts';
 
 const ROOT = process.cwd();
 const ACCIDENT_DIR = path.join(ROOT, 'data', 'accident', 'california');
@@ -68,67 +71,84 @@ async function citiesByPopulation(): Promise<CityFacts[]> {
   return facts;
 }
 
-async function siloExists(slug: string, practice: Practice): Promise<boolean> {
-  try { await fs.access(path.join(CONTENT_DIR, slug, `${practice}.json`)); return true; } catch { return false; }
+// A target is either the general city page (kind 'city') or one practice silo.
+type Kind = 'city' | Practice;
+
+async function targetExists(slug: string, kind: Kind): Promise<boolean> {
+  const p = kind === 'city' ? path.join(CONTENT_DIR, `${slug}.json`) : path.join(CONTENT_DIR, slug, `${kind}.json`);
+  try { await fs.access(p); return true; } catch { return false; }
 }
 
-async function writeSilo(slug: string, practice: Practice, data: any, model: string) {
-  const dir = path.join(CONTENT_DIR, slug);
-  await fs.mkdir(dir, { recursive: true });
-  const out = {
-    _meta: { voice: 'brand-standard', model, generatedAt: new Date().toISOString().slice(0, 10), practice, note: `${slug} ${practice} silo (Fable pipeline).` },
-    ...data,
-  };
-  await fs.writeFile(path.join(dir, `${practice}.json`), JSON.stringify(out, null, 2) + '\n', 'utf-8');
+async function writeResult(slug: string, kind: Kind, data: any, model: string) {
+  const date = new Date().toISOString().slice(0, 10);
+  if (kind === 'city') {
+    await fs.mkdir(CONTENT_DIR, { recursive: true });
+    const out = { _meta: { voice: 'brand-standard', model, generatedAt: date, note: `${slug} city page (Fable pipeline).` }, ...data };
+    await fs.writeFile(path.join(CONTENT_DIR, `${slug}.json`), JSON.stringify(out, null, 2) + '\n', 'utf-8');
+  } else {
+    const dir = path.join(CONTENT_DIR, slug);
+    await fs.mkdir(dir, { recursive: true });
+    const out = { _meta: { voice: 'brand-standard', model, generatedAt: date, practice: kind, note: `${slug} ${kind} silo (Fable pipeline).` }, ...data };
+    await fs.writeFile(path.join(dir, `${kind}.json`), JSON.stringify(out, null, 2) + '\n', 'utf-8');
+  }
 }
 
-// { type: 'json_schema', schema, parse }. Only type+schema go on the wire —
-// the parse fn can't serialize into a batch request, so pass just the schema.
-const FORMAT_SCHEMA = (zodOutputFormat(SiloSchema) as any).schema;
+const FORMAT_SILO = { type: 'json_schema', schema: (zodOutputFormat(SiloSchema) as any).schema };
+const FORMAT_CITY = { type: 'json_schema', schema: (zodOutputFormat(CityPageSchema) as any).schema };
 
-function buildRequest(facts: CityFacts, practice: Practice, model: string) {
+function buildRequest(facts: CityFacts, kind: Kind, model: string) {
+  const isCity = kind === 'city';
   return {
-    custom_id: `${facts.slug}__${practice}`,
+    custom_id: `${facts.slug}__${kind}`,
     params: {
       model,
       max_tokens: 4000,
       system: SYSTEM_PROMPT,
-      messages: [{ role: 'user' as const, content: buildUserPrompt(facts, practice) }],
-      output_config: { effort: 'medium' as const, format: { type: 'json_schema', schema: FORMAT_SCHEMA } },
+      messages: [{ role: 'user' as const, content: isCity ? buildCityUserPrompt(facts) : buildUserPrompt(facts, kind) }],
+      output_config: { effort: 'medium' as const, format: isCity ? FORMAT_CITY : FORMAT_SILO },
     },
   };
 }
 
-function parseCustomId(id: string): { slug: string; practice: Practice } {
+function parseCustomId(id: string): { slug: string; kind: Kind } {
   const idx = id.lastIndexOf('__');
-  return { slug: id.slice(0, idx), practice: id.slice(idx + 2) as Practice };
+  return { slug: id.slice(0, idx), kind: id.slice(idx + 2) as Kind };
+}
+
+function kindsFromOpts(o: Record<string, string | boolean>): Kind[] {
+  const kind = typeof o.kind === 'string' ? o.kind : 'both';
+  const practices: Practice[] = typeof o.practices === 'string' ? (o.practices.split(',') as Practice[]) : [...PRACTICES];
+  if (kind === 'city') return ['city'];
+  if (kind === 'silo') return practices;
+  return ['city', ...practices];
 }
 
 // ─────────────────────────── commands ───────────────────────────
 async function cmdList() {
   const cities = await citiesByPopulation();
-  let done = 0, total = 0;
+  let cityDone = 0, siloDone = 0;
   for (const c of cities) {
-    let have = 0;
-    for (const p of PRACTICES) if (await siloExists(c.slug, p)) have++;
-    done += have; total += PRACTICES.length;
+    if (await targetExists(c.slug, 'city')) cityDone++;
+    for (const p of PRACTICES) if (await targetExists(c.slug, p)) siloDone++;
   }
-  console.log(`Cities: ${cities.length} | silos generated: ${done}/${total}`);
+  console.log(`Cities: ${cities.length}`);
+  console.log(`City pages: ${cityDone}/${cities.length} | Silos: ${siloDone}/${cities.length * PRACTICES.length}`);
   console.log('Top 20 by population:');
   for (const c of cities.slice(0, 20)) {
-    let have = 0;
-    for (const p of PRACTICES) if (await siloExists(c.slug, p)) have++;
-    console.log(`  ${String(c.population ?? 0).padStart(9)}  ${c.slug.padEnd(22)} silos ${have}/6`);
+    let silos = 0;
+    for (const p of PRACTICES) if (await targetExists(c.slug, p)) silos++;
+    const city = (await targetExists(c.slug, 'city')) ? '✓' : '·';
+    console.log(`  ${String(c.population ?? 0).padStart(9)}  ${c.slug.padEnd(22)} city ${city}  silos ${silos}/6`);
   }
 }
 
-async function cmdPrompts(slug: string, practice?: string) {
+async function cmdPrompts(slug: string, which?: string) {
   const facts = await loadFacts(slug, ACCIDENT_DIR);
-  const list = practice ? [practice as Practice] : [...PRACTICES];
-  for (const p of list) {
-    console.log(`\n===== ${slug} / ${p} =====`);
+  const list: Kind[] = which ? [which as Kind] : ['city', ...PRACTICES];
+  for (const k of list) {
+    console.log(`\n===== ${slug} / ${k} =====`);
     console.log('--- SYSTEM ---\n' + SYSTEM_PROMPT);
-    console.log('\n--- USER ---\n' + buildUserPrompt(facts, p));
+    console.log('\n--- USER ---\n' + (k === 'city' ? buildCityUserPrompt(facts) : buildUserPrompt(facts, k as Practice)));
   }
 }
 
@@ -139,14 +159,12 @@ async function selectTargets(o: Record<string, string | boolean>) {
     cities = cities.filter((c) => set.has(c.slug));
   }
   if (typeof o.limit === 'string') cities = cities.slice(0, parseInt(o.limit, 10));
-  const practices: Practice[] = typeof o.practices === 'string'
-    ? (o.practices.split(',') as Practice[])
-    : [...PRACTICES];
-  const targets: { facts: CityFacts; practice: Practice }[] = [];
+  const kinds = kindsFromOpts(o);
+  const targets: { facts: CityFacts; kind: Kind }[] = [];
   for (const c of cities) {
-    for (const p of practices) {
-      if (!o.overwrite && (await siloExists(c.slug, p))) continue;
-      targets.push({ facts: c, practice: p });
+    for (const k of kinds) {
+      if (!o.overwrite && (await targetExists(c.slug, k))) continue;
+      targets.push({ facts: c, kind: k });
     }
   }
   return targets;
@@ -155,13 +173,14 @@ async function selectTargets(o: Record<string, string | boolean>) {
 async function cmdSubmit(o: Record<string, string | boolean>) {
   const model = typeof o.model === 'string' ? o.model : MODEL;
   const targets = await selectTargets(o);
-  if (!targets.length) { console.log('Nothing to generate (all selected silos already exist; use --overwrite).'); return; }
+  if (!targets.length) { console.log('Nothing to generate (all selected pages already exist; use --overwrite).'); return; }
 
-  const requests = targets.map((t) => buildRequest(t.facts, t.practice, model));
-  // Rough cost estimate: ~700 input + ~1000 output tokens per silo (batch = 50% off).
-  const estIn = requests.length * 700, estOut = requests.length * 1000;
+  const requests = targets.map((t) => buildRequest(t.facts, t.kind, model));
+  // Rough cost estimate: ~700 input + ~1100 output tokens per page (batch = 50% off).
+  const estIn = requests.length * 700, estOut = requests.length * 1100;
   const cost = ((estIn / 1e6) * PRICE_IN + (estOut / 1e6) * PRICE_OUT) * 0.5;
-  console.log(`Targets: ${requests.length} silos across ${new Set(targets.map((t) => t.facts.slug)).size} cities.`);
+  const nCity = targets.filter((t) => t.kind === 'city').length;
+  console.log(`Targets: ${requests.length} pages (${nCity} city, ${requests.length - nCity} silo) across ${new Set(targets.map((t) => t.facts.slug)).size} cities.`);
   console.log(`Model: ${model}  |  rough batch cost estimate: ~$${cost.toFixed(2)} (Fable rates; a cheaper --model lowers this).`);
 
   if (o['dry-run']) { console.log('Dry run — not submitted.'); return; }
@@ -197,19 +216,19 @@ async function cmdFetch(id: string) {
   let ok = 0;
   const failures: { custom_id: string; reason: string }[] = [];
   for await (const entry of await client.messages.batches.results(id)) {
-    const { slug, practice } = parseCustomId(entry.custom_id);
+    const { slug, kind } = parseCustomId(entry.custom_id);
     if (entry.result.type !== 'succeeded') { failures.push({ custom_id: entry.custom_id, reason: entry.result.type }); continue; }
     const msg = entry.result.message;
     if (msg.stop_reason === 'refusal') { failures.push({ custom_id: entry.custom_id, reason: 'refusal' }); continue; }
     const text = msg.content.filter((c: any) => c.type === 'text').map((c: any) => c.text).join('');
     let parsed: any;
     try { parsed = JSON.parse(text); } catch { failures.push({ custom_id: entry.custom_id, reason: 'json_parse' }); continue; }
-    const check = SiloSchema.safeParse(parsed);
+    const check = (kind === 'city' ? CityPageSchema : SiloSchema).safeParse(parsed);
     if (!check.success) { failures.push({ custom_id: entry.custom_id, reason: 'schema' }); continue; }
-    await writeSilo(slug, practice, check.data, model);
+    await writeResult(slug, kind, check.data, model);
     ok++;
   }
-  console.log(`\nWrote ${ok} silos.`);
+  console.log(`\nWrote ${ok} pages.`);
   if (failures.length) {
     const failFile = path.join(BATCH_DIR, `${id}.failures.json`);
     await fs.writeFile(failFile, JSON.stringify(failures, null, 2));

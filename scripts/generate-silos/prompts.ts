@@ -73,7 +73,7 @@ export const SiloSchema = z.object({
 });
 export type Silo = z.infer<typeof SiloSchema>;
 
-export const SYSTEM_PROMPT = `You write website copy for LawProactive, a free service that connects injured people with an independent personal injury attorney. You are NOT a law firm. You produce one practice-area "silo" page for one California city at a time.
+export const SYSTEM_PROMPT = `You write website copy for LawProactive, a free service that connects injured people with an independent personal injury attorney. You are NOT a law firm. You produce one landing page for one California city at a time (either a general personal-injury city page or a single practice-area page).
 
 VOICE: plain-spoken, calm, victim-first, and reassuring. No hype, no fear-mongering, no legalese dumps. Vary your sentence openings, rhythm and structure so that no two cities read from the same template — this copy must be genuinely unique per city to avoid duplicate-content penalties.
 
@@ -86,6 +86,62 @@ HARD RULES (non-negotiable):
 - LawProactive is a free connection service, not a law firm; attorneys in the network work on contingency (no fee unless there is a recovery).
 
 Return ONLY the structured object requested — no preamble, no markdown.`;
+
+// ── City page (general personal injury overview for the whole city) ──
+export const CityPageSchema = z.object({
+  seo: z.object({
+    metaTitle: z.string().describe('<= 60 characters, e.g. "<City>, CA Personal Injury Lawyer | Free Case Review"'),
+    metaDescription: z.string().describe('<= 155 characters; include county, "2 years to file", "no fee unless you win"'),
+  }),
+  hero: z.object({
+    subtitle: z.string().describe('1-2 sentences: injury types + connect free + serving <County> County'),
+  }),
+  about: z.object({
+    title: z.string().describe('e.g. "Personal Injury Help in <City>, California"'),
+    longDescription: z.string().describe('150-220 words weaving in the real local roads, one landmark if known, and the crash stats; must state LawProactive is a free service and NOT a law firm, no fee unless recovery'),
+    commonInjuriesTitle: z.string(),
+    commonInjuries: z.array(z.string()).describe('exactly 6 short bullet strings'),
+    ctaText: z.string().describe('short CTA, no guarantee'),
+  }),
+  whyChoose: z.object({
+    title: z.string(),
+    items: z
+      .array(z.object({ title: z.string(), desc: z.string().describe('1-2 sentences') }))
+      .describe('exactly 4 items, each anchored to a real California-law fact'),
+  }),
+  painPoints: z.object({
+    items: z.array(z.string()).describe("exactly 4 short strings — an injured person's real worries"),
+  }),
+  faq: z.object({
+    items: z
+      .array(z.object({ question: z.string(), answer: z.string().describe('2-4 sentences') }))
+      .describe('exactly 5 items'),
+  }),
+});
+export type CityPage = z.infer<typeof CityPageSchema>;
+
+const CITY_LAW =
+  'California: 2-year statute of limitations for most injury claims (shorter — sometimes 6 months — against a government entity); pure comparative fault (partial fault reduces but does not bar recovery); no cap on non-economic damages in ordinary injury cases; attorneys work on contingency (no fee unless there is a recovery).';
+
+export function buildCityUserPrompt(facts: CityFacts): string {
+  return `Write the general Personal Injury city page for ${facts.city}, California.
+
+CITY FACTS (use the real, specific details — roads, county, counts — to anchor the copy to THIS city; do not invent facts not given here, and if a fact is missing, omit it rather than guess):
+${facts.factBlock}
+
+CALIFORNIA LAW to reflect accurately:
+${CITY_LAW}
+
+REQUIREMENTS:
+- seo.metaTitle <= 60 chars; seo.metaDescription <= 155 chars.
+- hero.subtitle: 1-2 sentences naming a couple of injury types and that the connection is free, serving ${facts.county} County.
+- about.longDescription: 150-220 words specific to ${facts.city} — reference its real corridors and crash counts from the facts, and state plainly that LawProactive is a free service that connects people with an independent attorney and is NOT a law firm.
+- about.commonInjuries: exactly 6 short items.
+- whyChoose.items: exactly 4 items, each grounded in the California law above.
+- painPoints.items: exactly 4 short worries an injured person has.
+- faq.items: exactly 5 questions with 2-4 sentence answers; one FAQ should mention where crashes cluster in ${facts.city} framed strictly as neutral public-record counts (never call a road "dangerous").
+- Vary phrasing so this reads differently from any other city. Do not reuse stock sentences.`;
+}
 
 export function buildUserPrompt(facts: CityFacts, practice: Practice): string {
   return `Write the ${PRACTICE_LABEL[practice]} silo page for ${facts.city}, California.
