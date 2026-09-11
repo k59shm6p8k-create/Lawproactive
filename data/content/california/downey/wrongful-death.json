@@ -1,8 +1,14 @@
 {
-  "_meta": { "voice": "brand-standard (extra care/empathy)", "model": "inline-prototype (Opus-class)", "generatedAt": "2026-09-08", "practice": "wrongful-death", "note": "PROTOTYPE — Downey wrongful death silo." },
+  "_meta": {
+    "voice": "brand-standard (extra care/empathy)",
+    "model": "inline-prototype (Opus-class)",
+    "generatedAt": "2026-09-08",
+    "practice": "wrongful-death",
+    "note": "PROTOTYPE — Downey wrongful death silo."
+  },
   "seo": {
     "metaTitle": "Downey Wrongful Death Lawyer | Free, Confidential Review",
-    "metaDescription": "Lost a loved one to someone else's negligence in Downey? Connect free with a wrongful death attorney serving Los Angeles County. 2-year deadline — no fee unless you win."
+    "metaDescription": "Lost a loved one to negligence in Downey? Connect free with a wrongful death attorney serving Los Angeles County. 2-year deadline applies."
   },
   "hero": {
     "subtitle": "If a preventable accident took someone you love in Downey, we can help. We connect surviving families — free and confidentially — with a wrongful death attorney serving Los Angeles County."
@@ -24,16 +30,34 @@
   "whyChoose": {
     "title": "What families should know",
     "items": [
-      { "title": "Who can file", "desc": "California law generally allows a surviving spouse or domestic partner, children, and — if there are none — certain other dependents or heirs to bring a wrongful death claim. An attorney can confirm your standing." },
-      { "title": "A two-year deadline", "desc": "Wrongful death claims generally must be filed within two years of the death, with shorter deadlines when a government entity is involved. Acting sooner also helps preserve evidence." },
-      { "title": "What can be recovered", "desc": "Compensation can include funeral and burial expenses, the financial support the person would have provided, and the loss of their companionship and guidance." }
+      {
+        "title": "Who can file",
+        "desc": "California law generally allows a surviving spouse or domestic partner, children, and — if there are none — certain other dependents or heirs to bring a wrongful death claim. An attorney can confirm your standing."
+      },
+      {
+        "title": "A two-year deadline",
+        "desc": "Wrongful death claims generally must be filed within two years of the death, with shorter deadlines when a government entity is involved. Acting sooner also helps preserve evidence."
+      },
+      {
+        "title": "What can be recovered",
+        "desc": "Compensation can include funeral and burial expenses, the financial support the person would have provided, and the loss of their companionship and guidance."
+      }
     ]
   },
   "faq": {
     "items": [
-      { "question": "Who is allowed to file a wrongful death claim in California?", "answer": "Generally the surviving spouse or domestic partner and the children come first; if there are none, the right may pass to other dependents or heirs under California's succession rules. An attorney can quickly confirm who has the right to file in your family's situation." },
-      { "question": "How is a wrongful death claim different from a criminal case?", "answer": "They are separate. A criminal case is brought by the government to punish; a wrongful death claim is a civil action you bring to recover the family's losses. A case can proceed civilly even if there is no criminal charge or conviction." },
-      { "question": "We're overwhelmed right now — is there any pressure?", "answer": "None. The conversation is free and confidential, there's no obligation, and any attorney you connect with works on contingency. You can simply ask questions and decide what's right for your family in your own time — within the two-year deadline." }
+      {
+        "question": "Who is allowed to file a wrongful death claim in California?",
+        "answer": "Generally the surviving spouse or domestic partner and the children come first; if there are none, the right may pass to other dependents or heirs under California's succession rules. An attorney can quickly confirm who has the right to file in your family's situation."
+      },
+      {
+        "question": "How is a wrongful death claim different from a criminal case?",
+        "answer": "They are separate. A criminal case is brought by the government to punish; a wrongful death claim is a civil action you bring to recover the family's losses. A case can proceed civilly even if there is no criminal charge or conviction."
+      },
+      {
+        "question": "We're overwhelmed right now — is there any pressure?",
+        "answer": "None. The conversation is free and confidential, there's no obligation, and any attorney you connect with works on contingency. You can simply ask questions and decide what's right for your family in your own time — within the two-year deadline."
+      }
     ]
   }
 }

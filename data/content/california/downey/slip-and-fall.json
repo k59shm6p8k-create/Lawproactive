@@ -1,8 +1,14 @@
 {
-  "_meta": { "voice": "brand-standard", "model": "inline-prototype (Opus-class)", "generatedAt": "2026-09-08", "practice": "slip-and-fall", "note": "PROTOTYPE — Downey slip & fall silo." },
+  "_meta": {
+    "voice": "brand-standard",
+    "model": "inline-prototype (Opus-class)",
+    "generatedAt": "2026-09-08",
+    "practice": "slip-and-fall",
+    "note": "PROTOTYPE — Downey slip & fall silo."
+  },
   "seo": {
     "metaTitle": "Downey Slip & Fall Lawyer | Premises Liability",
-    "metaDescription": "Hurt in a fall at a Downey store, apartment or business? Connect free with a premises liability attorney. California gives you 2 years to file — no fee unless you win."
+    "metaDescription": "Hurt in a fall at a Downey store, apartment or business? Connect free with a premises liability attorney — no fee unless you win."
   },
   "hero": {
     "subtitle": "Injured by a wet floor, broken stair or unlit walkway in Downey? We connect you — free — with a premises liability attorney who knows how Los Angeles County property claims work."
@@ -24,16 +30,34 @@
   "whyChoose": {
     "title": "What makes a strong premises case",
     "items": [
-      { "title": "Report it and document it", "desc": "Ask for an incident report, photograph the hazard and your injuries, and keep the shoes and clothing you were wearing. This evidence often vanishes within a day of the fall." },
-      { "title": "The 'notice' question is everything", "desc": "You generally must show the owner knew or should have known about the danger. An attorney can subpoena maintenance logs and camera footage to establish it." },
-      { "title": "Two-year California deadline", "desc": "You typically have two years to file — and shorter deadlines apply if the property is owned by a city, county or other public entity." }
+      {
+        "title": "Report it and document it",
+        "desc": "Ask for an incident report, photograph the hazard and your injuries, and keep the shoes and clothing you were wearing. This evidence often vanishes within a day of the fall."
+      },
+      {
+        "title": "The 'notice' question is everything",
+        "desc": "You generally must show the owner knew or should have known about the danger. An attorney can subpoena maintenance logs and camera footage to establish it."
+      },
+      {
+        "title": "Two-year California deadline",
+        "desc": "You typically have two years to file — and shorter deadlines apply if the property is owned by a city, county or other public entity."
+      }
     ]
   },
   "faq": {
     "items": [
-      { "question": "What do I have to prove in a Downey slip and fall case?", "answer": "Generally that a dangerous condition existed, the property owner knew or reasonably should have known about it, they failed to fix or warn about it, and that failure caused your injury. Photos, incident reports and maintenance records are key." },
-      { "question": "The store says the fall was my fault. Does that end my claim?", "answer": "No. Under California's pure comparative fault rule, you can still recover even if you were partly at fault — your compensation is reduced by your percentage of responsibility, not eliminated." },
-      { "question": "How soon should I contact an attorney?", "answer": "As soon as possible. Surveillance video is often overwritten within days and hazards get repaired, so early action helps preserve the proof your claim depends on." }
+      {
+        "question": "What do I have to prove in a Downey slip and fall case?",
+        "answer": "Generally that a dangerous condition existed, the property owner knew or reasonably should have known about it, they failed to fix or warn about it, and that failure caused your injury. Photos, incident reports and maintenance records are key."
+      },
+      {
+        "question": "The store says the fall was my fault. Does that end my claim?",
+        "answer": "No. Under California's pure comparative fault rule, you can still recover even if you were partly at fault — your compensation is reduced by your percentage of responsibility, not eliminated."
+      },
+      {
+        "question": "How soon should I contact an attorney?",
+        "answer": "As soon as possible. Surveillance video is often overwritten within days and hazards get repaired, so early action helps preserve the proof your claim depends on."
+      }
     ]
   }
 }

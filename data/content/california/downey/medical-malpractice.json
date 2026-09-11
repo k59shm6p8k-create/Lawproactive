@@ -1,8 +1,14 @@
 {
-  "_meta": { "voice": "brand-standard", "model": "inline-prototype (Opus-class)", "generatedAt": "2026-09-08", "practice": "medical-malpractice", "note": "PROTOTYPE — Downey medical malpractice silo." },
+  "_meta": {
+    "voice": "brand-standard",
+    "model": "inline-prototype (Opus-class)",
+    "generatedAt": "2026-09-08",
+    "practice": "medical-malpractice",
+    "note": "PROTOTYPE — Downey medical malpractice silo."
+  },
   "seo": {
     "metaTitle": "Downey Medical Malpractice Lawyer | Free Review",
-    "metaDescription": "Harmed by a misdiagnosis or surgical error in the Downey area? Connect free with a medical malpractice attorney. California deadlines are strict — no fee unless you win."
+    "metaDescription": "Misdiagnosis or surgical error in the Downey area? Connect free with a medical malpractice attorney. CA deadlines are strict — no fee unless you win."
   },
   "hero": {
     "subtitle": "Did a preventable medical error leave you or a loved one worse off? We connect Downey-area patients — free — with a medical malpractice attorney who handles California claims."
@@ -24,16 +30,34 @@
   "whyChoose": {
     "title": "Why malpractice cases are different",
     "items": [
-      { "title": "Special California deadlines", "desc": "Medical malpractice claims follow their own statute of limitations — generally one year from discovery, up to three years from the injury — with a notice requirement before filing. Missing these can end an otherwise strong case." },
-      { "title": "Expert proof is required", "desc": "These cases almost always need a qualified medical expert to establish that care fell below the accepted standard. Attorneys in our network work with the right experts." },
-      { "title": "A cap you should understand", "desc": "California limits non-economic damages in malpractice cases under a schedule that rises each year. An attorney can explain how it applies to your situation." }
+      {
+        "title": "Special California deadlines",
+        "desc": "Medical malpractice claims follow their own statute of limitations — generally one year from discovery, up to three years from the injury — with a notice requirement before filing. Missing these can end an otherwise strong case."
+      },
+      {
+        "title": "Expert proof is required",
+        "desc": "These cases almost always need a qualified medical expert to establish that care fell below the accepted standard. Attorneys in our network work with the right experts."
+      },
+      {
+        "title": "A cap you should understand",
+        "desc": "California limits non-economic damages in malpractice cases under a schedule that rises each year. An attorney can explain how it applies to your situation."
+      }
     ]
   },
   "faq": {
     "items": [
-      { "question": "How long do I have to file a malpractice claim in California?", "answer": "Generally one year from when you discovered (or should have discovered) the injury, and no more than three years from the date it occurred, with exceptions. California also requires giving the provider 90 days' notice before filing, so speak with an attorney promptly." },
-      { "question": "A bad outcome happened — is that automatically malpractice?", "answer": "Not necessarily. Medicine carries risk, and a poor result alone isn't enough. Malpractice means the care fell below the accepted professional standard and that failure caused harm — something a medical expert must typically confirm." },
-      { "question": "What will a case review cost me?", "answer": "Nothing upfront. The review is free and malpractice attorneys in our network work on contingency, so there's no attorney fee unless they recover compensation for you." }
+      {
+        "question": "How long do I have to file a malpractice claim in California?",
+        "answer": "Generally one year from when you discovered (or should have discovered) the injury, and no more than three years from the date it occurred, with exceptions. California also requires giving the provider 90 days' notice before filing, so speak with an attorney promptly."
+      },
+      {
+        "question": "A bad outcome happened — is that automatically malpractice?",
+        "answer": "Not necessarily. Medicine carries risk, and a poor result alone isn't enough. Malpractice means the care fell below the accepted professional standard and that failure caused harm — something a medical expert must typically confirm."
+      },
+      {
+        "question": "What will a case review cost me?",
+        "answer": "Nothing upfront. The review is free and malpractice attorneys in our network work on contingency, so there's no attorney fee unless they recover compensation for you."
+      }
     ]
   }
 }
