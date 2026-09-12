@@ -1,13 +1,16 @@
 #!/usr/bin/env -S npx tsx
 /**
- * Silo content generation pipeline (Claude Fable 5.1 + Batch API).
+ * Content generation pipeline (Claude Fable 5.1 + Batch API).
  *
- * Generates the 6 practice-area silo pages for each California city as unique,
- * SB-37-compliant JSON, written to data/content/california/<slug>/<practice>.json.
- * City PAGES are hand-authored separately; this pipeline covers the silos only.
+ * Generates unique, SB-37-compliant JSON for the California funnels:
+ *   city pages -> data/content/california/<slug>.json
+ *   6 silos    -> data/content/california/<slug>/<practice>.json
+ * Select with --kind city|silo|both (default both). Existing files are skipped
+ * unless --overwrite, so hand-authored flagship pages are preserved.
  *
  * Requires: npm install @anthropic-ai/sdk   (zod + tsx already in the project)
- * Auth:     ANTHROPIC_API_KEY, or `ant auth login` (see README).
+ * Auth:     ANTHROPIC_API_KEY env var, OR an "API credential" on the cloud
+ *           environment (a proxy attaches it; the key never enters the session).
  * Note:     Fable 5.1 requires standard (30-day) data retention on your org.
  *
  * Commands:
@@ -20,8 +23,9 @@
  * submit options:
  *   --limit N            only the N largest cities (by population)
  *   --only a,b,c         only these city slugs
+ *   --kind K             city | silo | both (default both)
  *   --practices x,y      only these practice slugs (default: all 6)
- *   --overwrite          regenerate silos that already exist (default: skip)
+ *   --overwrite          regenerate pages that already exist (default: skip)
  *   --model ID           model override (default claude-fable-5-1; e.g. claude-sonnet-5 to test cheap)
  *   --dry-run            build + count requests, print est. cost, do NOT submit
  */
@@ -69,6 +73,20 @@ async function citiesByPopulation(): Promise<CityFacts[]> {
   }
   facts.sort((a, b) => (b.population ?? 0) - (a.population ?? 0));
   return facts;
+}
+
+/**
+ * Build the SDK client.
+ *
+ * Two supported auth paths:
+ *  1. ANTHROPIC_API_KEY in the environment (local runs, `export ANTHROPIC_API_KEY=...`).
+ *  2. An "API credential" configured on the cloud environment — a proxy attaches the
+ *     real credential to requests for api.anthropic.com and the key never reaches the
+ *     session. The SDK still needs a non-empty apiKey to construct, so we pass a
+ *     placeholder that the proxy replaces.
+ */
+function makeClient(): Anthropic {
+  return new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY ?? 'proxy-injected-credential' });
 }
 
 // A target is either the general city page (kind 'city') or one practice silo.
@@ -185,7 +203,7 @@ async function cmdSubmit(o: Record<string, string | boolean>) {
 
   if (o['dry-run']) { console.log('Dry run — not submitted.'); return; }
 
-  const client = new Anthropic();
+  const client = makeClient();
   const batch = await client.messages.batches.create({ requests: requests as any });
   await fs.mkdir(BATCH_DIR, { recursive: true });
   await fs.writeFile(path.join(BATCH_DIR, `${batch.id}.json`), JSON.stringify({ id: batch.id, model, count: requests.length, createdAt: new Date().toISOString() }, null, 2));
@@ -195,14 +213,14 @@ async function cmdSubmit(o: Record<string, string | boolean>) {
 }
 
 async function cmdStatus(id: string) {
-  const client = new Anthropic();
+  const client = makeClient();
   const b = await client.messages.batches.retrieve(id);
   console.log(`Batch ${id}: ${b.processing_status}`);
   console.log(JSON.stringify(b.request_counts, null, 2));
 }
 
 async function cmdFetch(id: string) {
-  const client = new Anthropic();
+  const client = makeClient();
   let b = await client.messages.batches.retrieve(id);
   while (b.processing_status !== 'ended') {
     console.log(`  status: ${b.processing_status} — waiting 30s…`);
