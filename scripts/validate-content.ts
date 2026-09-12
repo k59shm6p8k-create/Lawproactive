@@ -23,17 +23,51 @@ interface Issue { file: string; sev: Sev; rule: string; detail: string }
 const PRACTICES = ['car-accident','slip-and-fall','medical-malpractice','workplace-injury','product-liability','wrongful-death'];
 
 // ── compliance rules: applied to every string value in the document ──
-const BANNED: { rule: string; re: RegExp; sev: Sev; why: string }[] = [
+const BANNED: { rule: string; re: RegExp; sev: Sev; why: string; allowIfNegated?: boolean }[] = [
   { rule: 'dollar-figure', re: /\$\s?\d/, sev: 'ERROR', why: 'no settlement/verdict amounts allowed' },
-  { rule: 'guarantee', re: /\b(guarantee[ds]?|guaranteeing|we will win|promise you|assured outcome)\b/i, sev: 'ERROR', why: 'no outcome guarantees' },
+  // allowIfNegated: an affirmative guarantee is banned, but a compliant disclaimer
+  // ("no attorney can guarantee…", "nothing is guaranteed") must pass. See isNegated().
+  { rule: 'guarantee', re: /\b(guarantee[ds]?|guaranteeing|we will win|promise you|assured outcome)\b/i, sev: 'ERROR', why: 'no outcome guarantees', allowIfNegated: true },
   { rule: 'superlative', re: /\b(#\s?1|number one|best (lawyer|attorney|firm)|top[- ]rated|most trusted|leading firm)\b/i, sev: 'ERROR', why: 'no ranking/superlative claims' },
   { rule: 'danger-verdict', re: /\b(most dangerous|dangerous (road|street|intersection|highway|corridor)|deadliest|worst (road|street|intersection))\b/i, sev: 'ERROR', why: 'crash data must stay neutral public-record framing' },
   { rule: 'bar-number', re: /\bbar\s*(no\.?|number|#)/i, sev: 'ERROR', why: 'attorney identity is auto-populated, never in generated copy' },
-  { rule: 'attorney-name', re: /\b(esq\.?|,\s*(LLP|PLLC)|\bAttorney\s+[A-Z][a-z]+\s+[A-Z][a-z]+)\b/, sev: 'ERROR', why: 'no named attorneys/firms' },
+  // Only the unambiguous markers (Esq., LLP, PLLC). The old "Attorney X Y" heuristic
+  // false-flagged title-case headings ("What an Attorney Can Do …"); bar numbers are
+  // covered by the separate bar-number rule.
+  { rule: 'attorney-name', re: /(\besq\.?\b|,\s*(?:LLP|PLLC)\b)/i, sev: 'ERROR', why: 'no named attorneys/firms (Esq./LLP/PLLC)' },
   { rule: 'phone-number', re: /(\(\d{3}\)\s*\d{3}[-.\s]?\d{4}|\b\d{3}[-.]\d{3}[-.]\d{4}\b)/, sev: 'ERROR', why: 'no hardcoded phone numbers' },
   { rule: 'claims-to-be-firm', re: /\bwe are a law firm\b/i, sev: 'ERROR', why: 'LawProactive is a connection service, not a law firm' },
   { rule: 'fake-review', re: /\b(5[- ]star|five[- ]star)\b/i, sev: 'WARN', why: 'reviews are renter-managed in the CMS' },
 ];
+
+// Negators that, appearing just before a banned stem, turn it into a compliant
+// disclaimer ("no attorney can guarantee", "without guaranteeing", "nothing is guaranteed").
+const NEGATOR = /\b(no|not|never|cannot|can['’]?t|without|nothing|none|neither|no[-\s]?one)\b/i;
+
+// True if a banned match at `idx` is negated by a word within ~6 tokens before it.
+function isNegated(s: string, idx: number): boolean {
+  const preceding = s.slice(0, idx).split(/\s+/).filter(Boolean).slice(-6).join(' ');
+  return NEGATOR.test(preceding);
+}
+
+// Apply every BANNED rule to one string, honoring allowIfNegated. Shared by the
+// file walker and the self-test so both exercise identical logic.
+function scanString(s: string): { sev: Sev; rule: string; match: string; why: string }[] {
+  const out: { sev: Sev; rule: string; match: string; why: string }[] = [];
+  for (const b of BANNED) {
+    if (b.allowIfNegated) {
+      const g = new RegExp(b.re.source, b.re.flags.includes('g') ? b.re.flags : b.re.flags + 'g');
+      for (const m of s.matchAll(g)) {
+        if (typeof m.index === 'number' && isNegated(s, m.index)) continue;
+        out.push({ sev: b.sev, rule: b.rule, match: m[0], why: b.why });
+      }
+    } else {
+      const m = s.match(b.re);
+      if (m) out.push({ sev: b.sev, rule: b.rule, match: m[0], why: b.why });
+    }
+  }
+  return out;
+}
 
 function walkStrings(node: any, cb: (s: string, p: string) => void, p = '') {
   if (typeof node === 'string') return cb(node, p);
@@ -100,17 +134,47 @@ async function validateFile(file: string, isCity: boolean): Promise<Issue[]> {
 
   walkStrings(doc, (s, p) => {
     if (p.startsWith('_meta')) return; // internal notes aren't shipped copy
-    for (const b of BANNED) {
-      const m = s.match(b.re);
-      if (m) add(b.sev, b.rule, `${p}: "${m[0]}" — ${b.why}`);
-    }
+    for (const hit of scanString(s)) add(hit.sev, hit.rule, `${p}: "${hit.match}" — ${hit.why}`);
   });
 
   return issues;
 }
 
+// Locks in the guarantee/attorney-name behavior so a future edit can't silently
+// regress it. Run: npx tsx scripts/validate-content.ts --selftest
+function runSelfTests(): number {
+  const cases: { s: string; rule: string; expect: boolean }[] = [
+    // guarantee — compliant negated disclaimers must PASS
+    { s: 'No attorney can guarantee an outcome.', rule: 'guarantee', expect: false },
+    { s: 'Nothing about the case is guaranteed.', rule: 'guarantee', expect: false },
+    { s: 'valuing your claim without anyone guaranteeing a number', rule: 'guarantee', expect: false },
+    { s: 'no one can promise you a particular result', rule: 'guarantee', expect: false },
+    // guarantee — affirmative claims must still FAIL
+    { s: 'We guarantee results for every client.', rule: 'guarantee', expect: true },
+    { s: 'A guaranteed settlement in weeks.', rule: 'guarantee', expect: true },
+    { s: 'Hire us and we will win your case.', rule: 'guarantee', expect: true },
+    { s: 'An assured outcome you can count on.', rule: 'guarantee', expect: true },
+    // attorney-name — title-case headings must PASS
+    { s: 'Why Work With an Attorney on Your Glendale Fall Claim', rule: 'attorney-name', expect: false },
+    { s: 'What an Attorney Can Do for You', rule: 'attorney-name', expect: false },
+    // attorney-name — real names/firms must still FAIL
+    { s: 'Attorney Jane Doe, Esq.', rule: 'attorney-name', expect: true },
+    { s: 'Represented by Smith & Jones, LLP', rule: 'attorney-name', expect: true },
+  ];
+  let failed = 0;
+  for (const c of cases) {
+    const hit = scanString(c.s).some((h) => h.rule === c.rule);
+    const ok = hit === c.expect;
+    if (!ok) failed++;
+    console.log(`${ok ? 'ok  ' : 'FAIL'}  [${c.rule}] expect ${c.expect ? 'flag' : 'clean'}: ${JSON.stringify(c.s)}`);
+  }
+  console.log(`\n${failed ? `SELFTEST FAILED (${failed} case(s))` : 'SELFTEST PASSED'}`);
+  return failed ? 1 : 0;
+}
+
 async function main() {
   const stateArg = process.argv[2];
+  if (stateArg === '--selftest') { process.exit(runSelfTests()); }
   const states = stateArg ? [stateArg] : await fs.readdir(CONTENT).catch(() => []);
   const all: Issue[] = [];
   let nCity = 0, nSilo = 0;
