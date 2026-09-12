@@ -103,8 +103,12 @@ function makeClient(): Anthropic {
   // Claude Code sessions set ANTHROPIC_BASE_URL to an internal agent proxy, and the
   // SDK picks that up automatically. This pipeline must talk to the real public API
   // with YOUR console key, so pin the base URL explicitly rather than inheriting it.
+  const key = resolveApiKey();
+  // Vault mode: when no key is in the env, an "API credential" configured on the
+  // environment supplies x-api-key at the proxy. Pass null so the SDK does NOT
+  // send its own placeholder x-api-key that could collide with the injected one.
   return new Anthropic({
-    apiKey: resolveApiKey() ?? 'no-key-configured',
+    apiKey: key ?? null,
     baseURL: 'https://api.anthropic.com',
   });
 }
@@ -240,7 +244,8 @@ async function cmdTest(o: Record<string, string | boolean>) {
   console.log(`Key source        : ${src}`);
   console.log(`Key               : ${key ? `set (${key.length} chars, starts "${key.slice(0, 7)}")` : 'NOT SET'}`);
   if (src === 'none') {
-    console.log('\n-> Cloud environments strip ANTHROPIC_API_KEY. Set PIPELINE_API_KEY=sk-ant-... instead.');
+    console.log('-> No key in env: running in VAULT mode (an API credential on the environment');
+    console.log('   must supply the x-api-key header for api.anthropic.com).');
   }
   if (key && /your-actual-key|your-key-here|sk-ant-xxx/.test(key)) {
     console.log('\n! That looks like placeholder text, not a real key.');
