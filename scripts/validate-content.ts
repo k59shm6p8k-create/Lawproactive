@@ -92,13 +92,31 @@ function checkStructure(doc: any, isCity: boolean, add: (s: Sev, r: string, d: s
   if (t.length > 60) add('WARN', 'length', `metaTitle ${t.length} chars (>60)`);
   if (d.length > 155) add('WARN', 'length', `metaDescription ${d.length} chars (>155)`);
 
-  const ci = doc?.about?.commonInjuries;
-  if (Array.isArray(ci) && ci.length !== 6) add('WARN', 'count', `about.commonInjuries = ${ci.length} (want 6)`);
+  // deepMerge (lib/page-content.ts) SKIPS empty arrays and empty strings, so an empty
+  // value here does not render blank — it silently falls back to the shared template.
+  // For arrays that means this city serves the GENERIC template copy, identical to every
+  // other city that failed the same way: exactly the duplicate content this pipeline
+  // exists to prevent. So empty arrays are errors (regenerate), empty headings are not.
+  const countCheck = (arr: any, want: number, label: string) => {
+    if (!Array.isArray(arr)) return;
+    if (arr.length === 0) add('ERROR', 'empty', `${label} is EMPTY — page falls back to generic template copy (regenerate this file)`);
+    else if (arr.length !== want) add('WARN', 'count', `${label} = ${arr.length} (want ${want})`);
+  };
 
-  const wc = doc?.whyChoose?.items, faq = doc?.faq?.items;
-  const wantWc = isCity ? 4 : 3, wantFaq = isCity ? 5 : 3;
-  if (Array.isArray(wc) && wc.length !== wantWc) add('WARN', 'count', `whyChoose.items = ${wc.length} (want ${wantWc})`);
-  if (Array.isArray(faq) && faq.length !== wantFaq) add('WARN', 'count', `faq.items = ${faq.length} (want ${wantFaq})`);
+  countCheck(doc?.about?.commonInjuries, 6, 'about.commonInjuries');
+  countCheck(doc?.whyChoose?.items, isCity ? 4 : 3, 'whyChoose.items');
+  countCheck(doc?.faq?.items, isCity ? 5 : 3, 'faq.items');
+
+  // Empty headings fall back to the template's default heading — cosmetic only.
+  for (const [path, val] of [
+    ['whyChoose.title', doc?.whyChoose?.title],
+    ['about.title', doc?.about?.title],
+    ['about.commonInjuriesTitle', doc?.about?.commonInjuriesTitle],
+  ] as [string, any][]) {
+    if (val !== undefined && String(val).trim() === '') {
+      add('WARN', 'empty-heading', `${path} is empty — template default heading will be used`);
+    }
+  }
 
   const ld = doc?.about?.longDescription ?? '';
   const w = words(ld);
