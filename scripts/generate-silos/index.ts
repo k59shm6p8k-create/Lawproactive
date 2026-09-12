@@ -14,6 +14,7 @@
  * Note:     Fable 5.1 requires standard (30-day) data retention on your org.
  *
  * Commands:
+ *   test                         verify auth with ONE minimal request (pennies)
  *   list                         population-ordered cities + how many silos exist
  *   prompts <slug> [practice]    print the exact prompts (no API spend)
  *   submit [opts]                create a Batch and print its id + est. cost
@@ -86,7 +87,13 @@ async function citiesByPopulation(): Promise<CityFacts[]> {
  *     placeholder that the proxy replaces.
  */
 function makeClient(): Anthropic {
-  return new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY ?? 'proxy-injected-credential' });
+  // Claude Code sessions set ANTHROPIC_BASE_URL to an internal agent proxy, and the
+  // SDK picks that up automatically. This pipeline must talk to the real public API
+  // with YOUR console key, so pin the base URL explicitly rather than inheriting it.
+  return new Anthropic({
+    apiKey: process.env.ANTHROPIC_API_KEY ?? 'proxy-injected-credential',
+    baseURL: 'https://api.anthropic.com',
+  });
 }
 
 // A target is either the general city page (kind 'city') or one practice silo.
@@ -212,6 +219,40 @@ async function cmdSubmit(o: Record<string, string | boolean>) {
   console.log(`Fetch with:  npx tsx scripts/generate-silos/index.ts fetch ${batch.id}`);
 }
 
+async function cmdTest(o: Record<string, string | boolean>) {
+  const model = typeof o.model === 'string' ? o.model : MODEL;
+  const key = process.env.ANTHROPIC_API_KEY;
+  console.log(`ANTHROPIC_API_KEY : ${key ? `set (${key.length} chars, starts "${key.slice(0, 7)}")` : 'NOT SET'}`);
+  console.log(`ANTHROPIC_BASE_URL: ${process.env.ANTHROPIC_BASE_URL ?? '(unset)'} — pinned to https://api.anthropic.com regardless`);
+  console.log(`Model             : ${model}`);
+  if (key && key.length < 50) {
+    console.log('\n! Key looks short for an Anthropic key (usually ~100+ chars) — possible truncated paste.');
+  }
+  console.log('\nSending one minimal request…');
+  try {
+    const r = await makeClient().messages.create({
+      model,
+      max_tokens: 8,
+      messages: [{ role: 'user', content: 'Reply with the single word: ok' }],
+    });
+    const text = r.content.filter((c: any) => c.type === 'text').map((c: any) => c.text).join('').trim();
+    console.log(`\nSUCCESS — model replied: "${text}"`);
+    console.log(`usage: in=${r.usage.input_tokens} out=${r.usage.output_tokens}`);
+    console.log('\nAuth works. Safe to run: submit --limit 5');
+  } catch (e: any) {
+    console.log(`\nFAILED — ${e?.constructor?.name ?? 'Error'}${e?.status ? ` (HTTP ${e.status})` : ''}`);
+    console.log(String(e?.message ?? e).slice(0, 400));
+    if (e?.status === 401) console.log('\n-> 401: key is missing, wrong, or truncated. Re-check the env var value.');
+    if (e?.status === 400 && /retention/i.test(String(e?.message))) {
+      console.log('\n-> Fable 5.1 needs standard (30-day) data retention. Retry with --model claude-sonnet-5.');
+    }
+    if (e?.status === 400 && /credit|billing/i.test(String(e?.message))) {
+      console.log('\n-> Looks like a billing/credit problem. Check the credit balance in the console.');
+    }
+    process.exitCode = 1;
+  }
+}
+
 async function cmdStatus(id: string) {
   const client = makeClient();
   const b = await client.messages.batches.retrieve(id);
@@ -261,12 +302,13 @@ async function main() {
   const o = parseArgs(rest);
   switch (cmd) {
     case 'list': return cmdList();
+    case 'test': return cmdTest(o);
     case 'prompts': return cmdPrompts(rest[0], rest[1]);
     case 'submit': return cmdSubmit(o);
     case 'status': return cmdStatus(rest[0]);
     case 'fetch': return cmdFetch(rest[0]);
     default:
-      console.log('Usage: index.ts <list|prompts|submit|status|fetch> [args]\nSee the header comment for options.');
+      console.log('Usage: index.ts <test|list|prompts|submit|status|fetch> [args]\nSee the header comment for options.');
   }
 }
 
