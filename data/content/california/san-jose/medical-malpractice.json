@@ -1,62 +1,62 @@
 {
   "_meta": {
     "voice": "brand-standard",
-    "model": "claude-opus-4-8",
-    "generatedAt": "2026-09-11",
-    "note": "San Jose medical malpractice silo.",
-    "practice": "medical-malpractice"
+    "model": "claude-fable-5-1",
+    "generatedAt": "2026-09-12",
+    "practice": "medical-malpractice",
+    "note": "san-jose medical-malpractice silo (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "San Jose Medical Malpractice Lawyer | Free Review",
-    "metaDescription": "Misdiagnosis or surgical error in San Jose? Connect free with a medical malpractice attorney. CA deadlines are strict — no fee unless you win."
+    "metaTitle": "Medical Malpractice Lawyer in San Jose, CA | LawProactive",
+    "metaDescription": "Hurt by a medical error in San Jose? LawProactive connects you, free, with an independent malpractice attorney. No fee unless you recover."
   },
   "hero": {
-    "subtitle": "Did a preventable medical error leave you or a loved one worse off in the San Jose area? We connect you — free — with a medical malpractice attorney who handles California claims."
+    "subtitle": "If a diagnosis was missed or a procedure went wrong at a San Jose hospital or clinic, you deserve a clear answer about what happened. LawProactive connects Santa Clara County patients with an independent malpractice attorney at no cost to you."
   },
   "about": {
     "title": "San Jose Medical Malpractice Claims",
-    "longDescription": "Most care in the San Jose area is competent, but preventable errors do happen — misdiagnosis, delayed treatment, surgical mistakes, medication errors and birth injuries. California medical malpractice law is technical and time-sensitive: it carries its own filing deadlines, a pre-suit notice requirement, and — unlike ordinary injury cases — a statutory cap on non-economic damages that rises each year. Because of that complexity, getting the right attorney involved early matters. LawProactive connects patients and families, at no cost, with an independent medical malpractice attorney. You pay no fee unless the case recovers compensation.",
-    "commonInjuriesTitle": "Common malpractice harms",
+    "longDescription": "More than a million people live in San Jose, and most will sit in a clinic, urgent care, or hospital room at some point this year. Nearly all of those visits go the way they should. When one doesn't—when a scan is misread, a medication is mixed up, or a warning sign is charted and then ignored—the person left dealing with the fallout is usually the patient and their family. California treats these cases differently from an ordinary injury claim. The MICRA framework sets its own clock: generally one year from when you discovered the harm, and never more than three years from the injury itself, with a 90-day notice sent to the provider before any lawsuit is filed. A qualified medical expert is nearly always needed to explain what the standard of care required and how it was missed. LawProactive is a free service, not a law firm. We connect San Jose patients with an independent attorney who handles malpractice claims on contingency.",
+    "commonInjuriesTitle": "Harm Commonly Tied to Medical Negligence",
     "commonInjuries": [
-      "Misdiagnosis or delayed diagnosis",
-      "Surgical and anesthesia errors",
+      "Missed or delayed cancer diagnosis",
+      "Surgical errors and retained instruments",
       "Medication and dosage mistakes",
-      "Birth injuries",
-      "Hospital-acquired infections",
-      "Failure to treat or monitor"
+      "Birth injuries to mother or child",
+      "Anesthesia complications",
+      "Infections from lapses in sterile care"
     ],
-    "ctaText": "Get a free malpractice review"
+    "ctaText": "Ask a Santa Clara County malpractice attorney to review your records—free."
   },
   "whyChoose": {
-    "title": "Why malpractice cases are different",
+    "title": "Why San Jose Patients Turn to LawProactive",
     "items": [
       {
-        "title": "Special California deadlines",
-        "desc": "Malpractice claims generally run one year from discovery, up to three years from the injury, with a 90-day notice requirement before filing. Missing these can end a strong case."
+        "title": "The MICRA clock is short and easy to miss",
+        "desc": "You generally have one year from discovering the harm, and no more than three years from the injury, plus a 90-day notice must go to the provider before suit. An attorney in our network can map those dates against your timeline right away."
       },
       {
-        "title": "Expert proof is required",
-        "desc": "These cases almost always need a qualified medical expert to show the care fell below the accepted standard. Network attorneys work with the right experts."
+        "title": "Experts decide whether it's malpractice",
+        "desc": "A poor outcome by itself is not a claim under California law; a qualified medical expert almost always has to show the standard of care was breached. The attorneys we connect you with know how to line up that review before filing."
       },
       {
-        "title": "A cap you should understand",
-        "desc": "California limits non-economic damages in malpractice cases under a schedule that increases annually. An attorney can explain how it applies to you."
+        "title": "Damage caps change every year",
+        "desc": "California limits non-economic damages in malpractice cases, and that cap rises annually under MICRA. Working with an attorney who tracks the current figure matters when valuing what your claim may be worth—without anyone guaranteeing a number."
       }
     ]
   },
   "faq": {
     "items": [
       {
-        "question": "How long do I have to file a malpractice claim in California?",
-        "answer": "Generally one year from when you discovered the injury and no more than three years from when it occurred, with exceptions. California also requires 90 days' notice before filing, so act promptly."
+        "question": "My surgery at a San Jose hospital didn't turn out well. Is that malpractice?",
+        "answer": "Not necessarily. California law is clear that a bad result on its own is not negligence—medicine carries real risk even when everything is done correctly. What matters is whether the provider fell below the accepted standard of care, and that question is usually answered by a qualified medical expert reviewing your records. An independent attorney can arrange that review at no upfront cost to you."
       },
       {
-        "question": "A bad outcome happened — is that automatically malpractice?",
-        "answer": "Not necessarily. Medicine carries risk, and a poor result alone isn't enough. Malpractice means care fell below the accepted professional standard and that failure caused harm — something a medical expert must typically confirm."
+        "question": "How long do I have to file a malpractice claim in Santa Clara County?",
+        "answer": "Under MICRA, the general rule is one year from the date you discovered, or reasonably should have discovered, the injury, and never more than three years from when it actually occurred. Before a lawsuit is filed, a 90-day notice of intent must be sent to the provider. Because those windows overlap in ways that trip people up, it's wise to speak with an attorney sooner rather than later."
       },
       {
-        "question": "What will a case review cost me?",
-        "answer": "Nothing upfront. The review is free and malpractice attorneys in our network work on contingency, so there's no attorney fee unless they recover compensation for you."
+        "question": "Does LawProactive charge me anything, and who actually handles my case?",
+        "answer": "LawProactive is free to use and is not a law firm. We connect you with an independent personal injury attorney who focuses on medical negligence claims in the San Jose area. That attorney works on contingency, which means no fee unless there is a recovery, and you decide whether to move forward after your first conversation."
       }
     ]
   }

@@ -1,62 +1,62 @@
 {
   "_meta": {
     "voice": "brand-standard",
-    "model": "claude-opus-4-8",
-    "generatedAt": "2026-09-11",
-    "note": "San Jose workplace injury silo.",
-    "practice": "workplace-injury"
+    "model": "claude-fable-5-1",
+    "generatedAt": "2026-09-12",
+    "practice": "workplace-injury",
+    "note": "san-jose workplace-injury silo (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "San Jose Workplace Injury Lawyer | Free Consultation",
-    "metaDescription": "Hurt on the job in San Jose? Connect free with a work injury attorney handling California workers' comp and third-party claims. No fee unless you win."
+    "metaTitle": "San Jose Workplace Injury Lawyer Connection | LawProactive",
+    "metaDescription": "Hurt on the job in San Jose? Learn how workers' comp and third-party claims work in Santa Clara County, then connect free with an independent attorney."
   },
   "hero": {
-    "subtitle": "Injured at work in San Jose — on a job site, a warehouse floor, or behind the wheel? We connect you, free, with an attorney who handles California work-injury and third-party claims."
+    "subtitle": "A job injury in San Jose can leave you juggling medical visits, lost hours and a workers' comp file all at once. We connect you, for free, with an independent attorney who can tell you whether a third party also owes you something."
   },
   "about": {
     "title": "San Jose Workplace Injury Claims",
-    "longDescription": "Work in San Jose spans technology, manufacturing, construction, warehousing and healthcare — fields where lifting injuries, falls, machinery accidents and repetitive strain are common. If you were hurt on the job, California's workers' compensation system should cover medical care and part of your lost wages regardless of fault. But comp isn't always the whole story: when a negligent third party — a subcontractor, a property owner, an equipment maker, or another driver during a work trip — caused your injury, you may also have a separate claim for the full range of damages comp doesn't pay. LawProactive connects injured San Jose workers, at no cost, with an attorney who can sort out both. There's no fee unless your case recovers compensation.",
-    "commonInjuriesTitle": "Common on-the-job injuries",
+    "longDescription": "Work in San Jose takes many shapes. Some people spend the day on a jobsite off Monterey Road, others drive deliveries along US-101 and I-280, and plenty sit at a desk in a north San Jose office park. An injury can happen in any of those settings, and when it does, the first system most workers encounter is California workers' compensation. That coverage pays medical care and partial wages no matter who was at fault, and in most cases it is the only claim you can bring against your employer. It is not always the whole picture, though. If someone outside your company caused the harm—a subcontractor on the same site, the owner of the building where you were working, the company that built a faulty machine, or another driver on the road while you were on the clock—California allows a separate injury claim against that third party. Sorting out which path applies, or whether both do, is the question an independent San Jose attorney can help you answer. LawProactive makes that introduction for free.",
+    "commonInjuriesTitle": "Injuries San Jose Workers Commonly Report",
     "commonInjuries": [
-      "Back and lifting injuries",
-      "Falls from ladders, scaffolding or wet floors",
-      "Machinery and crush injuries",
-      "Repetitive strain and overuse injuries",
-      "Burns and electrical injuries",
-      "Injuries in work-related vehicle crashes"
+      "Falls from ladders, scaffolds or loading docks",
+      "Back and shoulder strains from lifting",
+      "Crush and pinch injuries from machinery",
+      "Repetitive-motion injuries to hands, wrists and neck",
+      "Crash injuries while driving for work",
+      "Burns, chemical exposure and electrical shock"
     ],
-    "ctaText": "Get a free work-injury review"
+    "ctaText": "Ask a San Jose attorney which claims apply to your injury"
   },
   "whyChoose": {
-    "title": "Comp isn't always the whole claim",
+    "title": "Why San Jose Workers Turn to LawProactive",
     "items": [
       {
-        "title": "Report the injury promptly",
-        "desc": "California generally requires notifying your employer within 30 days to protect your workers' comp rights. The sooner it's documented, the harder it is to dispute."
+        "title": "Third-party claims don't get overlooked",
+        "desc": "Workers' comp is usually your only remedy against your employer, but a negligent subcontractor, property owner, equipment maker or driver can be held responsible separately. The attorneys we connect you with look for that second path."
       },
       {
-        "title": "Look for a third-party claim",
-        "desc": "If someone other than your employer caused the injury, you may have a separate case for pain, suffering and full lost earnings — damages comp does not provide."
+        "title": "Deadlines are tracked from day one",
+        "desc": "California expects you to report a work injury to your employer within 30 days, and a third-party injury claim generally must be filed within two years. Getting matched early keeps both clocks in view."
       },
       {
-        "title": "Retaliation is illegal",
-        "desc": "It's against California law for an employer to punish you for filing a legitimate work-injury claim. An attorney can protect you if that happens."
+        "title": "Retaliation is taken seriously",
+        "desc": "It is illegal for a San Jose employer to fire, demote or cut your hours because you reported an injury or filed a claim. An independent attorney can explain your options if that happens."
       }
     ]
   },
   "faq": {
     "items": [
       {
-        "question": "Can I sue my employer for a San Jose workplace injury?",
-        "answer": "Usually workers' compensation is your exclusive remedy against your employer, regardless of fault. But if a third party — a contractor, property owner or equipment maker — caused your injury, you may bring a separate personal injury claim against them."
+        "question": "I was rear-ended on US-101 while driving a company van in San Jose. Is that just workers' comp?",
+        "answer": "Not necessarily. Because you were working, workers' compensation should cover your medical care and part of your lost wages regardless of fault. Since another driver caused the crash, California also lets you pursue a separate injury claim against that driver, and that claim carries a two-year filing deadline. In 2025 San Jose recorded 3,457 injury collisions, so on-the-clock crashes are a routine part of workplace injury cases here."
       },
       {
-        "question": "What if my workers' comp claim is denied?",
-        "answer": "A denial is not the end. You can appeal, and an attorney can help gather medical evidence and represent you. Many valid claims are initially denied."
+        "question": "I didn't tell my supervisor right away. Have I lost my rights?",
+        "answer": "California asks workers to report an injury to their employer within 30 days, so the sooner you do it the better. Missing that window can complicate your workers' comp claim, but it does not automatically end every option you have. Report it in writing now, keep a copy, and talk to an attorney about where things stand."
       },
       {
-        "question": "How long do I have to act?",
-        "answer": "Report the injury to your employer as soon as possible (generally within 30 days), and note that third-party injury claims carry their own two-year California deadline. Talking to an attorney early keeps every option open."
+        "question": "Does LawProactive charge me to find a San Jose attorney?",
+        "answer": "No. LawProactive is a free connection service, not a law firm, and there is no fee to be matched. The independent attorneys in our network handle injury claims on contingency, which means they are paid only if there is a recovery."
       }
     ]
   }

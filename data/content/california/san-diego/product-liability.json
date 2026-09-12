@@ -1,62 +1,62 @@
 {
   "_meta": {
     "voice": "brand-standard",
-    "model": "claude-opus-4-8",
-    "generatedAt": "2026-09-11",
-    "note": "San Diego product liability silo.",
-    "practice": "product-liability"
+    "model": "claude-fable-5-1",
+    "generatedAt": "2026-09-12",
+    "practice": "product-liability",
+    "note": "san-diego product-liability silo (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "San Diego Product Liability Lawyer | Free Case Review",
-    "metaDescription": "Injured by a defective product in San Diego? Connect free with a product liability attorney. Strict liability applies — no fee unless you win."
+    "metaTitle": "Product Liability Lawyer in San Diego, CA | LawProactive",
+    "metaDescription": "Injured by a defective product in San Diego? LawProactive connects you free with an independent attorney. No fee unless there's a recovery."
   },
   "hero": {
-    "subtitle": "Hurt by a defective vehicle part, appliance, tool or medical device in San Diego? We connect you — free — with a product liability attorney who handles California claims."
+    "subtitle": "A defective product does not care whether you read the manual. If something you bought hurt you in San Diego, we will connect you at no cost with an independent attorney who handles product liability claims."
   },
   "about": {
     "title": "San Diego Product Liability Claims",
-    "longDescription": "When a product fails and injures someone in San Diego, California law is on the consumer's side. Unlike most injury cases, product liability often runs on strict liability — you generally don't have to prove the manufacturer was careless, only that the product was defective and that the defect caused your injury. Defects can lie in the design, in the manufacturing, or in a missing warning, and these cases can involve everyone from the manufacturer to the distributor to the retailer. They frequently require engineering experts and careful preservation of the product itself. LawProactive connects injured San Diego consumers, at no cost, with an independent product liability attorney. You pay nothing unless the case recovers compensation.",
-    "commonInjuriesTitle": "Common defective-product injuries",
+    "longDescription": "When something you bought does harm, the question in California usually is not whether the manufacturer was careless. It is whether the product was defective and whether that defect hurt you. That strict liability standard shapes how product claims move through San Diego County. Roughly 1.39 million people live in the city of San Diego, and nearly all of them rely daily on products built by companies they will never meet: power tools, e-bikes, medications, car seats, appliances, and the vehicles on I-5 and I-805. San Diego recorded 5,813 injury collisions in 2025, with 7,830 people hurt; some crash injuries trace back not to a driver but to a tire, airbag, or brake component that did not perform as designed. Defects come in three forms: a flawed design, a manufacturing error, and missing or inadequate warnings. Manufacturers, distributors, and retailers can each be liable. LawProactive is a free service, not a law firm. We connect you with an independent attorney who handles product cases on contingency, so there is no fee unless there is a recovery.",
+    "commonInjuriesTitle": "Injuries Often Linked to Defective Products",
     "commonInjuries": [
-      "Burns from fires or faulty electronics",
-      "Lacerations and crush injuries from tools or machinery",
-      "Injuries from auto-part and tire failures",
-      "Harm from defective medical devices or drugs",
-      "Injuries from unsafe children's products",
-      "Chemical exposure and poisoning"
+      "Burns from overheating batteries or appliances",
+      "Lacerations and amputations from tools and machinery",
+      "Head and spine injuries from failed vehicle components",
+      "Chemical exposure and poisoning from mislabeled goods",
+      "Fractures from collapsing furniture or equipment",
+      "Internal injuries from defective medical devices or drugs"
     ],
-    "ctaText": "Get a free product case review"
+    "ctaText": "Tell us what happened and we will connect you with an attorney, free."
   },
   "whyChoose": {
-    "title": "Why these cases move fast on evidence",
+    "title": "Why Use LawProactive for a San Diego Product Claim",
     "items": [
       {
-        "title": "Keep the product",
-        "desc": "Do not repair, discard or return the item that hurt you. The product itself is often the most important piece of evidence, and preserving it can make or break the claim."
+        "title": "Strict liability is the starting point",
+        "desc": "In California you generally do not have to prove the maker was negligent. An attorney in our network can focus on showing the defect and the injury it caused."
       },
       {
-        "title": "Strict liability helps you",
-        "desc": "In many California product cases you don't have to prove negligence — only that the product was defective and caused your injury. That's a meaningful advantage."
+        "title": "Preserving the product matters",
+        "desc": "The item that hurt you is often the single most important piece of evidence. We connect you quickly so an attorney can help secure it before it is thrown out or repaired."
       },
       {
-        "title": "Multiple parties may be liable",
-        "desc": "Manufacturers, distributors and retailers can all share responsibility. An attorney can identify every liable party and source of recovery."
+        "title": "Every link in the chain is examined",
+        "desc": "Manufacturers, distributors, and the San Diego retailer who sold the item may all share responsibility. An independent attorney can sort out who belongs in the claim."
       }
     ]
   },
   "faq": {
     "items": [
       {
-        "question": "What counts as a defective product?",
-        "answer": "California recognizes three kinds of defects: a design defect, a manufacturing defect, and a warning defect (inadequate safety warnings or instructions). Any of the three can support a claim."
+        "question": "I bought the product from a big-box store in San Diego, not the manufacturer. Can I still bring a claim?",
+        "answer": "Yes. Under California's strict liability rules, retailers and distributors in the chain of sale can be held responsible alongside the company that made the product. Where you bought it in San Diego County does not have to be the end of the inquiry. An attorney can identify each party that placed the product into the market."
       },
       {
-        "question": "Do I have to prove the company was careless?",
-        "answer": "Often not. Product liability in California frequently proceeds under strict liability, meaning you generally show the product was defective and caused your injury — not that the maker was negligent."
+        "question": "Do I need to prove the company did something wrong?",
+        "answer": "Usually not. California product liability generally asks whether the product had a design, manufacturing, or warning defect and whether that defect caused your injury. Carelessness by the manufacturer is not typically something you have to establish. Your attorney can explain which theory fits your situation."
       },
       {
-        "question": "What should I do right now?",
-        "answer": "Keep the product and its packaging, save receipts and photos, get medical care, and avoid contact with the manufacturer's representatives until you've spoken with an attorney."
+        "question": "What should I do with the product that injured me?",
+        "answer": "Keep it, and keep the packaging, receipt, and any instructions if you have them. Do not repair, return, or dispose of it, even if the store offers a refund. The item itself is central evidence, and an attorney from our network can arrange for it to be stored and examined properly."
       }
     ]
   }

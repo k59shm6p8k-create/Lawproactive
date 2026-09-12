@@ -1,62 +1,62 @@
 {
   "_meta": {
-    "voice": "brand-standard (extra care/empathy)",
-    "model": "claude-opus-4-8",
-    "generatedAt": "2026-09-11",
-    "note": "San Jose wrongful death silo.",
-    "practice": "wrongful-death"
+    "voice": "brand-standard",
+    "model": "claude-fable-5-1",
+    "generatedAt": "2026-09-12",
+    "practice": "wrongful-death",
+    "note": "san-jose wrongful-death silo (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "San Jose Wrongful Death Lawyer | Free, Confidential Review",
-    "metaDescription": "Lost a loved one to negligence in San Jose? Connect free with a wrongful death attorney serving Santa Clara County. 2-year deadline applies."
+    "metaTitle": "San Jose Wrongful Death Claims | Free Attorney Match",
+    "metaDescription": "Lost someone in San Jose? LawProactive connects Santa Clara County families with an independent wrongful death attorney, free. No fee unless you recover."
   },
   "hero": {
-    "subtitle": "If a preventable accident took someone you love in San Jose, we can help. We connect surviving families — free and confidentially — with a wrongful death attorney serving Santa Clara County."
+    "subtitle": "When a preventable death leaves a San Jose family without a parent, partner, or child, a wrongful death claim is one way to seek accountability. LawProactive connects you, at no cost, with an independent attorney who handles these cases in Santa Clara County."
   },
   "about": {
     "title": "San Jose Wrongful Death Claims",
-    "longDescription": "Nothing undoes the loss of a family member, but California law gives surviving relatives a way to hold the responsible party accountable and to recover the financial and emotional costs left behind. Wrongful death claims in San Jose can arise from fatal traffic collisions, unsafe premises, dangerous products, and preventable medical errors. California limits who may bring the claim — typically spouses, domestic partners and children first — and sets a two-year deadline from the date of death. Recoverable losses can include funeral and burial costs, the loss of the person's financial support and services, and the loss of their love, companionship and guidance. LawProactive connects grieving San Jose families, at no cost, with a compassionate wrongful death attorney. There is no fee unless the case recovers compensation.",
-    "commonInjuriesTitle": "How these losses commonly occur",
+    "longDescription": "Thirty-four people died on San Jose roads in 2025, according to public collision records. Behind each number is a Santa Clara County family. Some of those losses happened on I-280 or US-101; others on Monterey Road or a neighborhood street. However it happened, a wrongful death claim gives the people left behind a way to hold the responsible party accountable in civil court, separate from any criminal case the district attorney may pursue. Under California law, a spouse, domestic partner, or child usually has the first right to bring the claim, with certain dependents and heirs following. The claim can recover funeral and burial expenses, the financial support your loved one would have provided, and the loss of their love, companionship, and guidance. Time matters: most claims must be filed within two years of the date of death, and the window is shorter if a city, county, or state agency is involved. LawProactive is a free service, not a law firm. We connect San Jose families with an independent attorney who works on contingency.",
+    "commonInjuriesTitle": "Common Causes of Wrongful Death Claims",
     "commonInjuries": [
-      "Fatal car, truck and motorcycle crashes",
-      "Pedestrian and bicyclist fatalities",
-      "Fatal falls and unsafe-premises incidents",
-      "Defective or dangerous products",
-      "Preventable medical errors",
-      "Workplace fatalities"
+      "Fatal car and truck collisions",
+      "Pedestrian and bicyclist deaths",
+      "Motorcycle crash fatalities",
+      "Workplace and construction site deaths",
+      "Medical or nursing home negligence",
+      "Defective products or unsafe premises"
     ],
-    "ctaText": "Speak with someone — free & private"
+    "ctaText": "Talk to an independent San Jose attorney, free."
   },
   "whyChoose": {
-    "title": "What families should know",
+    "title": "Why San Jose Families Turn to LawProactive",
     "items": [
       {
-        "title": "Who can file",
-        "desc": "California generally allows a surviving spouse or domestic partner, children, and — if there are none — certain other dependents or heirs to bring a claim. An attorney can confirm your standing."
+        "title": "Clarity on who can file",
+        "desc": "California limits wrongful death standing to a spouse or domestic partner and children first, then certain dependents and heirs. The attorney we connect you with can sort out who in your family has the right to bring the claim before anything is filed."
       },
       {
-        "title": "A two-year deadline",
-        "desc": "Wrongful death claims generally must be filed within two years of the death, with shorter deadlines when a government entity is involved. Acting sooner also helps preserve evidence."
+        "title": "Deadlines handled early",
+        "desc": "You generally have two years from the date of death to file, but a claim against a government entity moves on a much shorter clock. Getting an attorney involved sooner protects that window."
       },
       {
-        "title": "What can be recovered",
-        "desc": "Compensation can include funeral and burial expenses, the financial support the person would have provided, and the loss of their companionship and guidance."
+        "title": "Free to you, contingency for the attorney",
+        "desc": "LawProactive charges nothing to connect you. Attorneys in our network work on contingency, so there is no fee unless your family recovers compensation."
       }
     ]
   },
   "faq": {
     "items": [
       {
-        "question": "Who is allowed to file a wrongful death claim in California?",
-        "answer": "Generally the surviving spouse or domestic partner and children come first; if there are none, the right may pass to other dependents or heirs under California's succession rules. An attorney can confirm who has the right to file in your family's situation."
+        "question": "The crash happened on US-101 in San Jose and there is a criminal case. Do we still need a civil claim?",
+        "answer": "Yes, they are separate matters. The Santa Clara County District Attorney decides whether to file criminal charges, and that case does not pay your family anything. A wrongful death claim is a civil action your family controls, and it can move forward regardless of what happens in the criminal court."
       },
       {
-        "question": "How is a wrongful death claim different from a criminal case?",
-        "answer": "They are separate. A criminal case is brought by the government to punish; a wrongful death claim is a civil action the family brings to recover its losses. A case can proceed civilly even without a criminal charge or conviction."
+        "question": "What losses can a wrongful death claim cover in California?",
+        "answer": "Recoverable losses include funeral and burial costs, the financial support your loved one would have contributed over their lifetime, and the loss of their love, companionship, and guidance. Every family's situation is different, so an attorney will look at your specific circumstances. No one can promise a particular result."
       },
       {
-        "question": "We're overwhelmed right now — is there any pressure?",
-        "answer": "None. The conversation is free and confidential, there's no obligation, and any attorney you connect with works on contingency. You can ask questions and decide what's right for your family in your own time — within the two-year deadline."
+        "question": "How long do we have to file in San Jose?",
+        "answer": "For most wrongful death claims in California, the deadline is two years from the date of death. If a city, county, or state agency may share fault, such as a public vehicle or a road maintained by a government body, a formal claim usually must be filed within months, not years. Speaking with an attorney early is the safest way to protect your options."
       }
     ]
   }

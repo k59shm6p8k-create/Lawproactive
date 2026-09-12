@@ -1,62 +1,62 @@
 {
   "_meta": {
     "voice": "brand-standard",
-    "model": "claude-opus-4-8",
-    "generatedAt": "2026-09-11",
-    "note": "Los Angeles slip & fall silo.",
-    "practice": "slip-and-fall"
+    "model": "claude-fable-5-1",
+    "generatedAt": "2026-09-12",
+    "practice": "slip-and-fall",
+    "note": "los-angeles slip-and-fall silo (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "Los Angeles Slip & Fall Lawyer | Premises Liability",
-    "metaDescription": "Hurt in a fall at an LA store, apartment or business? Connect free with a premises liability attorney. 2 years to file — no fee unless you win."
+    "metaTitle": "Los Angeles Slip & Fall Lawyer Connection | LawProactive",
+    "metaDescription": "Hurt in a fall on someone else's property in Los Angeles? Get connected free with an independent premises liability attorney. No fee unless you recover."
   },
   "hero": {
-    "subtitle": "Injured by a wet floor, broken stair or unlit walkway in Los Angeles? We connect you — free — with a premises liability attorney who handles Los Angeles County property claims."
+    "subtitle": "A fall in a Los Angeles store aisle, apartment stairwell, or parking structure can upend your week and your finances. LawProactive connects you, at no cost, with an independent premises liability attorney who knows how notice and video evidence work in Los Angeles County."
   },
   "about": {
     "title": "Los Angeles Slip & Fall and Premises Liability Claims",
-    "longDescription": "From stores and restaurants to apartment complexes and parking structures across Los Angeles, property owners have a legal duty to keep their premises reasonably safe. When they ignore a spill, a cracked walkway, a loose handrail or poor lighting and someone is hurt, California law may hold them responsible. These cases usually turn on proving the owner knew — or should have known — about the hazard and failed to fix it, which is why preserving evidence early matters so much. LawProactive connects injured Los Angeles residents, at no cost, with an independent premises liability attorney. You pay no fee unless your case recovers compensation.",
-    "commonInjuriesTitle": "Common slip & fall injuries",
+    "longDescription": "Close to four million people live in Los Angeles, and nearly all of them spend part of each day on property that belongs to someone else. Grocery stores, strip-mall parking lots, apartment courtyards, hotel lobbies, office towers, restaurants, gyms, and the sidewalks that stitch the city together are all places where a wet floor, a broken step, or poor lighting can send a person down hard. Under California premises liability law, the injured person generally has to show that the owner or operator knew about the hazard, or reasonably should have known, and failed to fix it or warn about it. That element, called notice, is often where a Los Angeles fall claim is won or lost. Two other rules matter here. Most claims must be filed within two years, but a fall on property controlled by the City of Los Angeles, Los Angeles County, or another public agency carries a much shorter government-claim window, often only six months. And because California follows pure comparative fault, being partly responsible reduces a recovery rather than erasing it. Photographs, incident reports, witness names, and a prompt request to preserve surveillance footage can make a real difference. LawProactive connects Los Angeles residents with an independent attorney, free, and network attorneys work on contingency.",
+    "commonInjuriesTitle": "Injuries Often Seen After a Los Angeles Fall",
     "commonInjuries": [
-      "Hip fractures",
-      "Wrist and arm fractures",
-      "Head injuries and concussions",
-      "Spinal and back injuries",
-      "Knee and ankle injuries",
-      "Shoulder dislocations"
+      "Hip and pelvic fractures",
+      "Wrist, elbow, and shoulder fractures from bracing",
+      "Concussions and other head trauma",
+      "Herniated discs and lower back injuries",
+      "Torn knee ligaments and meniscus damage",
+      "Sprained ankles and tailbone injuries"
     ],
-    "ctaText": "Get a free fall case review"
+    "ctaText": "Tell us what happened and we'll connect you with a Los Angeles premises liability attorney at no cost."
   },
   "whyChoose": {
-    "title": "What makes a strong premises case",
+    "title": "Why Los Angeles Residents Use LawProactive After a Fall",
     "items": [
       {
-        "title": "Report it and document it",
-        "desc": "Ask for an incident report, photograph the hazard and your injuries, and keep what you were wearing. This evidence often disappears within a day."
+        "title": "Notice Is the Heart of the Case",
+        "desc": "California requires proof the property owner knew or should have known about the hazard. An attorney familiar with Los Angeles businesses and landlords knows how to look for inspection logs, prior complaints, and maintenance records that establish that knowledge."
       },
       {
-        "title": "The 'notice' question is key",
-        "desc": "You generally must show the owner knew or should have known about the danger. An attorney can subpoena maintenance logs and camera footage to establish it."
+        "title": "Video Disappears Fast",
+        "desc": "Most Los Angeles retailers, apartment complexes, and parking structures record on loops that overwrite within days or weeks. Getting an attorney involved early means a written preservation demand can go out before the footage of your fall is gone."
       },
       {
-        "title": "Two-year California deadline",
-        "desc": "You typically have two years to file — and shorter deadlines apply when the property belongs to a city, county or other public entity."
+        "title": "Two Deadlines, Not One",
+        "desc": "Private-property claims generally have two years, but a fall on city, county, school district, or transit property triggers a far shorter government-claim deadline. An independent attorney can sort out who controlled the property and which clock is running before time slips away."
       }
     ]
   },
   "faq": {
     "items": [
       {
-        "question": "What do I have to prove in a Los Angeles slip and fall case?",
-        "answer": "Generally that a dangerous condition existed, the owner knew or should have known about it, they failed to fix or warn about it, and that failure caused your injury. Photos, incident reports and maintenance records are key."
+        "question": "I tripped on a lifted sidewalk in Los Angeles. Who is actually responsible?",
+        "answer": "It depends on who controls that stretch of pavement, which in Los Angeles can be the City, a county agency, or in some situations the adjacent property owner. When a public entity is involved, California requires a formal government claim on a much shorter timeline than the usual two years, so it is important to act quickly. Photograph the exact location, note the cross streets, and get medical care right away so the record is clear."
       },
       {
-        "question": "The business says the fall was my fault. Is my claim over?",
-        "answer": "No. Under California's pure comparative fault rule you can still recover even if you were partly at fault; your compensation is reduced by your share of responsibility, not eliminated."
+        "question": "The store manager says I should have been watching where I was walking. Does that end my claim?",
+        "answer": "No. California uses pure comparative fault, which means a jury or adjuster assigns percentages of responsibility rather than deciding all or nothing. If you are found partly at fault, your recovery is reduced by that percentage, but it is not eliminated. The property owner still has to answer for a hazard they knew about or should have known about."
       },
       {
-        "question": "How soon should I contact an attorney?",
-        "answer": "As soon as possible. Surveillance video is often overwritten within days and hazards get repaired, so early action helps preserve the proof your claim depends on."
+        "question": "How do I get the surveillance footage of my fall before it is erased?",
+        "answer": "Ask the business in writing, the same day if possible, to preserve all video from the time of your fall, and keep a copy of your request. Many systems in Los Angeles overwrite footage in a matter of days, so a preservation letter from an attorney carries extra weight and puts the owner on formal notice not to destroy evidence. In the meantime, take your own photos of the hazard, the lighting, and any missing warning signs."
       }
     ]
   }

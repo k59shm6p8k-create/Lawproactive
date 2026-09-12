@@ -1,62 +1,62 @@
 {
   "_meta": {
     "voice": "brand-standard",
-    "model": "inline-prototype (Opus-class)",
-    "generatedAt": "2026-09-08",
+    "model": "claude-fable-5-1",
+    "generatedAt": "2026-09-12",
     "practice": "product-liability",
-    "note": "PROTOTYPE — Downey product liability silo."
+    "note": "downey product-liability silo (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "Downey Product Liability Lawyer | Free Case Review",
-    "metaDescription": "Injured by a defective product in Downey? Connect free with a product liability attorney. Strict liability applies — no fee unless you win."
+    "metaTitle": "Downey Product Liability Attorney Connection | LawProactive",
+    "metaDescription": "Hurt by a defective product in Downey, CA? LawProactive connects you free with an independent product liability attorney. No fee unless you recover."
   },
   "hero": {
-    "subtitle": "Hurt by a defective vehicle part, appliance, tool or medical device? We connect Downey residents — free — with a product liability attorney who handles California claims."
+    "subtitle": "A faulty appliance, a failed car part, a medication with no warning on the label — when a product hurts someone in Downey, California's strict liability rules may put the responsibility on the companies that made and sold it, not on you."
   },
   "about": {
     "title": "Downey Product Liability Claims",
-    "longDescription": "When a product fails and injures someone in Downey, California law is on the consumer's side. Unlike most injury cases, product liability often runs on strict liability — you generally don't have to prove the manufacturer was careless, only that the product was defective and that the defect caused your injury. Defects can be in the design, in the manufacturing, or in a missing warning. These cases can involve everyone from the manufacturer to the distributor to the retailer, and they frequently require engineering experts and preservation of the product itself. LawProactive connects injured Downey consumers, at no cost, with an independent product liability attorney. You pay nothing unless the case recovers compensation.",
-    "commonInjuriesTitle": "Common defective-product injuries",
+    "longDescription": "A product should do what the box says it will do. When it doesn't — when a space heater bought at a store off Firestone Boulevard catches fire, when a child's car seat fails on Lakewood Boulevard, when a power tool's guard slips in a garage on Florence Avenue — the harm lands on a Downey family that trusted the label. Product liability claims in California deal with that broken trust. Under strict liability, you generally don't have to prove the manufacturer was careless. Showing the product had a design flaw, a manufacturing error, or a missing warning, and that the defect caused your injury, is usually the core of the case. Responsibility can reach the maker, the distributor, and the retailer that sold it. LawProactive is a free service, not a law firm. We connect Downey residents in Los Angeles County with an independent personal injury attorney who handles product cases on contingency, meaning no fee unless there is a recovery.",
+    "commonInjuriesTitle": "Injuries Often Tied to Defective Products",
     "commonInjuries": [
-      "Burns from fires or faulty electronics",
-      "Lacerations and crush injuries from tools or machinery",
-      "Injuries from auto-part and tire failures",
-      "Harm from defective medical devices or drugs",
-      "Injuries from unsafe children's products",
-      "Chemical exposure and poisoning"
+      "Burns from appliances, batteries, or e-bike chargers",
+      "Lacerations from tools or equipment missing guards",
+      "Injuries from airbag, seatbelt, or tire failures",
+      "Poisoning or reactions from unlabeled medications",
+      "Choking or entrapment involving children's products",
+      "Falls caused by collapsing furniture, ladders, or chairs"
     ],
-    "ctaText": "Get a free product case review"
+    "ctaText": "Tell us what happened. We'll connect you with an independent attorney at no cost."
   },
   "whyChoose": {
-    "title": "Why these cases move fast on evidence",
+    "title": "What Sets a Product Case Apart in Downey",
     "items": [
       {
-        "title": "Keep the product",
-        "desc": "Do not repair, discard or return the item that hurt you. The product itself is often the most important piece of evidence, and preserving it can make or break the claim."
+        "title": "You usually don't have to prove carelessness",
+        "desc": "California applies strict liability to many product claims, so the question is generally whether the product was defective and caused your injury — not whether the company meant to cut corners."
       },
       {
-        "title": "Strict liability helps you",
-        "desc": "In many California product cases you don't have to prove negligence — only that the product was defective and caused your injury. That's a meaningful advantage."
+        "title": "The product is the evidence",
+        "desc": "Hold on to the item, its packaging, receipts, and any photos of the scene. A Downey attorney will want to examine the actual product before anyone else does."
       },
       {
-        "title": "Multiple parties may be responsible",
-        "desc": "Manufacturers, distributors and retailers can all share liability. An attorney can identify every responsible party and every applicable source of recovery."
+        "title": "More than one company may answer for it",
+        "desc": "Manufacturers, distributors, and the retailer that sold the product can all share responsibility under California law, which matters when one link in that chain has gone out of business or is overseas."
       }
     ]
   },
   "faq": {
     "items": [
       {
-        "question": "What counts as a defective product?",
-        "answer": "California recognizes three kinds of defects: a design defect (the product is unsafe as designed), a manufacturing defect (something went wrong in making it), and a warning defect (it lacked adequate safety warnings or instructions). Any of the three can support a claim."
+        "question": "My car's airbag didn't deploy in a crash on Firestone Boulevard. Is that a product claim or a car accident claim?",
+        "answer": "It can be both. Downey logged 829 injury collisions in 2025, and some of those involve a vehicle part that didn't perform as designed. A product liability claim looks at the defect itself, while a separate claim may address the other driver. An attorney can sort out which path fits your situation, but keep the vehicle from being scrapped or repaired until it's inspected."
       },
       {
-        "question": "Do I need to prove the company was careless?",
-        "answer": "Often not. Product liability in California frequently proceeds under strict liability, meaning you generally need to show the product was defective and caused your injury — not that the manufacturer acted negligently."
+        "question": "What counts as a 'defect' under California law?",
+        "answer": "There are three general types. A design defect means the product is unsafe as planned, a manufacturing defect means something went wrong making that particular unit, and a warning defect means the instructions or labels failed to alert you to a known risk. You typically only need to show one of these applies and that it caused your injury."
       },
       {
-        "question": "What should I do right now?",
-        "answer": "Keep the product and its packaging, save receipts and photos, get medical care, and avoid contact with the manufacturer's representatives until you've spoken with an attorney."
+        "question": "I bought the product used or at a swap meet. Can I still bring a claim?",
+        "answer": "Possibly. Strict liability in California is aimed at businesses in the chain of distribution, so the manufacturer may still be responsible even if you weren't the first owner. The details of where and how you got it matter, which is why speaking with an attorney early is helpful. LawProactive can connect you with one for free."
       }
     ]
   }

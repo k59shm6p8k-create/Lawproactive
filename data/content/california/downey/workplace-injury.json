@@ -1,62 +1,62 @@
 {
   "_meta": {
     "voice": "brand-standard",
-    "model": "inline-prototype (Opus-class)",
-    "generatedAt": "2026-09-08",
+    "model": "claude-fable-5-1",
+    "generatedAt": "2026-09-12",
     "practice": "workplace-injury",
-    "note": "PROTOTYPE — Downey workplace injury silo."
+    "note": "downey workplace-injury silo (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "Downey Workplace Injury Lawyer | Free Consultation",
-    "metaDescription": "Hurt on the job in Downey? Connect free with a work injury attorney handling California comp and third-party claims. No fee unless you win."
+    "metaTitle": "Downey Workplace Injury Attorney Connection | LawProactive",
+    "metaDescription": "Injured at work in Downey? LawProactive connects you free with an independent attorney for workers' comp and third-party claims."
   },
   "hero": {
-    "subtitle": "Injured at work in Downey — on a warehouse floor, a job site, or behind the wheel? We connect you, free, with an attorney who handles California work-injury and third-party claims."
+    "subtitle": "Hurt on the job in Downey, whether on a Firestone Boulevard delivery route or inside a warehouse off Lakewood Boulevard? We connect you, free, with an independent attorney who handles workplace injury claims in Los Angeles County."
   },
   "about": {
     "title": "Downey Workplace Injury Claims",
-    "longDescription": "Downey's economy runs on warehousing, logistics, manufacturing, healthcare and retail — industries where lifting injuries, falls, machinery accidents and repetitive-strain harm are common. If you were hurt on the job, California's workers' compensation system should cover medical care and a portion of lost wages regardless of fault. But comp isn't always the whole story: when a negligent third party — a subcontractor, a property owner, an equipment maker, or another driver during a work trip — caused your injury, you may also have a separate claim for the full range of damages comp doesn't pay. LawProactive connects injured Downey workers, at no cost, with an attorney who can sort out both. There's no fee unless your case recovers compensation.",
-    "commonInjuriesTitle": "Common on-the-job injuries",
+    "longDescription": "Downey sits in the middle of Los Angeles County, and much of its workday happens in motion: deliveries running along Firestone Boulevard, crews heading to job sites off Lakewood Boulevard, service vans moving between Florence Avenue and Paramount Boulevard. When someone gets hurt doing that work, two systems may apply at once. Workers' compensation covers medical care and part of lost wages no matter who was at fault, and it is normally the only claim you can bring against your own employer. A separate injury claim can still exist against a negligent third party, such as a subcontractor on a shared site, a property owner who ignored a hazard, the maker of a faulty tool, or another driver. That last one matters here. Downey recorded 829 injury collisions in 2025, with 1,234 people hurt, and reports tend to cluster on Fridays between 3 and 5 p.m., right as many shifts wind down. LawProactive is not a law firm. We simply connect you, at no cost, with an independent attorney who can sort out which path fits your situation.",
+    "commonInjuriesTitle": "Injuries We See in Downey Workplace Claims",
     "commonInjuries": [
-      "Back and lifting injuries",
-      "Falls from ladders, scaffolding or wet floors",
-      "Machinery and crush injuries",
-      "Repetitive strain and overuse injuries",
-      "Burns and electrical injuries",
-      "Injuries in work-related vehicle crashes"
+      "Back and spinal strain from lifting or repetitive motion",
+      "Falls from ladders, loading docks, and scaffolding",
+      "Crush and pinch injuries from machinery or forklifts",
+      "Fractures and whiplash from on-the-clock vehicle crashes",
+      "Burns and chemical exposure in shops and kitchens",
+      "Head injuries from falling objects or slips on wet floors"
     ],
-    "ctaText": "Get a free work-injury review"
+    "ctaText": "Tell us what happened and we'll connect you with an independent attorney, free."
   },
   "whyChoose": {
-    "title": "Comp isn't always the whole claim",
+    "title": "Why Downey Workers Turn to LawProactive",
     "items": [
       {
-        "title": "Report the injury promptly",
-        "desc": "California generally requires notifying your employer within 30 days to protect your workers' comp rights. The sooner it's documented, the harder it is to dispute."
+        "title": "Both claims, not just one",
+        "desc": "Workers' compensation is usually your only remedy against your employer, but a negligent subcontractor, property owner, equipment maker, or driver can be held separately responsible. The attorney you're connected with can evaluate whether a third-party claim exists alongside your comp case."
       },
       {
-        "title": "Look for a third-party claim",
-        "desc": "If someone other than your employer caused the injury, you may have a separate case for pain, suffering and full lost earnings — damages workers' comp does not provide."
+        "title": "Deadlines handled early",
+        "desc": "California asks you to report a work injury to your employer within 30 days, and third-party injury claims carry a two-year filing window. Getting connected quickly helps keep both clocks in view."
       },
       {
-        "title": "Retaliation is illegal",
-        "desc": "It's against California law for an employer to punish you for filing a legitimate work-injury claim. An attorney can protect you if that happens."
+        "title": "Protection if your employer pushes back",
+        "desc": "Retaliating against a worker for reporting an injury or filing a comp claim is illegal in California. An independent attorney can step in if your hours are cut, your role changes, or you're let go after speaking up."
       }
     ]
   },
   "faq": {
     "items": [
       {
-        "question": "Can I sue my employer for a Downey workplace injury?",
-        "answer": "Usually workers' compensation is your exclusive remedy against your employer, regardless of fault. But if a third party — like a contractor, property owner or equipment manufacturer — caused your injury, you may be able to bring a separate personal injury claim against them."
+        "question": "I was rear-ended on Lakewood Boulevard while driving a company vehicle. Is that a workers' comp case or a car accident case?",
+        "answer": "It can be both. Because you were working, workers' compensation should cover your medical treatment and part of your lost wages regardless of fault. Since another driver caused the crash, you may also have a separate injury claim against that driver, and that claim can cover losses comp does not, such as pain and suffering. An attorney can coordinate the two so one does not undercut the other."
       },
       {
-        "question": "What if my workers' comp claim is denied?",
-        "answer": "A denial is not the end. You can appeal, and an attorney can help gather medical evidence and represent you in the process. Many valid claims are initially denied."
+        "question": "Do I really have to report the injury to my employer within 30 days?",
+        "answer": "Yes, California expects notice to your employer within 30 days of the injury, and waiting can complicate your comp benefits. Report it in writing if you can, even if the injury seems minor at first. If more than 30 days have passed, don't assume you're out of options; talk with an attorney about where you stand."
       },
       {
-        "question": "How long do I have to act?",
-        "answer": "Report the injury to your employer as soon as possible (generally within 30 days), and be aware that third-party injury claims carry their own two-year California deadline. Talking to an attorney early keeps every option open."
+        "question": "Can I be fired for filing a workers' comp claim in Downey?",
+        "answer": "No. California law makes it illegal for an employer to retaliate against you for reporting a workplace injury or pursuing compensation. If you notice a demotion, sudden schedule cuts, or termination after your report, document the timeline and raise it with the attorney you're connected with. Retaliation can become its own claim."
       }
     ]
   }
