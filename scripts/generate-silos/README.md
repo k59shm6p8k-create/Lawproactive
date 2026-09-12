@@ -15,8 +15,20 @@ unless you pass `--overwrite`.
 
 1. **SDK** (already added as a devDependency): `@anthropic-ai/sdk`. If a fresh
    checkout is missing it: `npm install`.
-2. **Auth** — either export `ANTHROPIC_API_KEY`, or run `ant auth login` (the SDK
-   reads the stored profile automatically). Check with `ant auth status`.
+2. **Auth** — set the console API key:
+   - **Cloud (Claude Code web) environments: use `PIPELINE_API_KEY`.**
+     These environments deliberately strip `ANTHROPIC_API_KEY` ("won't be used to
+     authenticate requests — sessions are authenticated through your Anthropic
+     account"), so that name silently will not work. Put
+     `PIPELINE_API_KEY=sk-ant-...` in the environment's Environment variables box.
+   - **Local runs:** `export ANTHROPIC_API_KEY=sk-ant-...` (or `PIPELINE_API_KEY`).
+
+   Verify either way with:
+   ```bash
+   npx tsx scripts/generate-silos/index.ts test
+   ```
+   It makes one minimal request and reports the key source, length, and a specific
+   reason on failure (truncated key / retention / billing). Costs a fraction of a cent.
 3. **Data retention** — Fable 5.1 requires standard (30-day) data retention on
    your Anthropic org. Zero-data-retention orgs get a 400. If so, run with a
    different `--model` (e.g. `claude-sonnet-5`) or ask Anthropic to enable it.

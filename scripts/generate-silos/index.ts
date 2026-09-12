@@ -86,12 +86,25 @@ async function citiesByPopulation(): Promise<CityFacts[]> {
  *     session. The SDK still needs a non-empty apiKey to construct, so we pass a
  *     placeholder that the proxy replaces.
  */
+/**
+ * Resolve the console API key.
+ *
+ * NOTE: Claude Code cloud environments deliberately STRIP `ANTHROPIC_API_KEY`
+ * from session env ("won't be used to authenticate requests — sessions are
+ * authenticated through your Anthropic account"). So for a cloud run, store the
+ * key under PIPELINE_API_KEY instead. ANTHROPIC_API_KEY still works for local
+ * runs, where nothing strips it.
+ */
+export function resolveApiKey(): string | undefined {
+  return process.env.PIPELINE_API_KEY ?? process.env.ANTHROPIC_API_KEY ?? undefined;
+}
+
 function makeClient(): Anthropic {
   // Claude Code sessions set ANTHROPIC_BASE_URL to an internal agent proxy, and the
   // SDK picks that up automatically. This pipeline must talk to the real public API
   // with YOUR console key, so pin the base URL explicitly rather than inheriting it.
   return new Anthropic({
-    apiKey: process.env.ANTHROPIC_API_KEY ?? 'proxy-injected-credential',
+    apiKey: resolveApiKey() ?? 'no-key-configured',
     baseURL: 'https://api.anthropic.com',
   });
 }
@@ -221,8 +234,17 @@ async function cmdSubmit(o: Record<string, string | boolean>) {
 
 async function cmdTest(o: Record<string, string | boolean>) {
   const model = typeof o.model === 'string' ? o.model : MODEL;
-  const key = process.env.ANTHROPIC_API_KEY;
-  console.log(`ANTHROPIC_API_KEY : ${key ? `set (${key.length} chars, starts "${key.slice(0, 7)}")` : 'NOT SET'}`);
+  const key = resolveApiKey();
+  const src = process.env.PIPELINE_API_KEY ? 'PIPELINE_API_KEY'
+            : process.env.ANTHROPIC_API_KEY ? 'ANTHROPIC_API_KEY' : 'none';
+  console.log(`Key source        : ${src}`);
+  console.log(`Key               : ${key ? `set (${key.length} chars, starts "${key.slice(0, 7)}")` : 'NOT SET'}`);
+  if (src === 'none') {
+    console.log('\n-> Cloud environments strip ANTHROPIC_API_KEY. Set PIPELINE_API_KEY=sk-ant-... instead.');
+  }
+  if (key && /your-actual-key|your-key-here|sk-ant-xxx/.test(key)) {
+    console.log('\n! That looks like placeholder text, not a real key.');
+  }
   console.log(`ANTHROPIC_BASE_URL: ${process.env.ANTHROPIC_BASE_URL ?? '(unset)'} — pinned to https://api.anthropic.com regardless`);
   console.log(`Model             : ${model}`);
   if (key && key.length < 50) {
