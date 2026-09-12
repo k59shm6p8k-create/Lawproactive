@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "voice": "brand-standard",
+    "model": "claude-fable-5-1",
+    "generatedAt": "2026-09-12",
+    "practice": "workplace-injury",
+    "note": "roseville workplace-injury silo (Fable pipeline)."
+  },
+  "seo": {
+    "metaTitle": "Roseville Workplace Injury Attorney Help | LawProactive",
+    "metaDescription": "Hurt on the job in Roseville? Learn how workers' comp and third-party claims differ in Placer County, then connect free with an independent attorney."
+  },
+  "hero": {
+    "subtitle": "When a work shift in Roseville ends with an injury, the question is rarely just \"was it my fault\" — it is who owes you what. LawProactive connects you, at no cost, with an independent attorney who handles workplace injury claims in Placer County."
+  },
+  "about": {
+    "title": "Roseville Workplace Injury Claims",
+    "longDescription": "Roseville is home to roughly 130,000 people, and a large share of them clock in somewhere in Placer County every day — in warehouses off Pleasant Grove Boulevard, in retail and medical offices along Douglas Boulevard, on construction sites, or behind the wheel on I-80 and Cirby Way. Work injuries here follow the same pattern as the jobs themselves: some happen inside the building, and many happen on the road. In 2025, Roseville recorded 808 injury collisions with 1,156 people hurt, and a portion of those drivers were on the clock. Under California law, workers' compensation is usually your only route against your employer, no matter who was at fault. But that is not the end of the analysis. If a subcontractor, a property owner, an equipment manufacturer, or another motorist contributed to what happened, a separate personal injury claim may exist alongside your comp benefits. Sorting out which path applies — and whether both do — is exactly the kind of question an independent attorney can answer for you, without charge to start.",
+    "commonInjuriesTitle": "",
+    "commonInjuries": [],
+    "ctaText": ""
+  },
+  "whyChoose": {
+    "title": "",
+    "items": []
+  },
+  "faq": {
+    "items": []
+  }
+}
