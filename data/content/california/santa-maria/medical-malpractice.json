@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "voice": "brand-standard",
+    "model": "claude-fable-5-1",
+    "generatedAt": "2026-09-13",
+    "practice": "medical-malpractice",
+    "note": "santa-maria medical-malpractice silo (Fable pipeline)."
+  },
+  "seo": {
+    "metaTitle": "Santa Maria Medical Malpractice Attorney Connection",
+    "metaDescription": "Harmed by a medical error in Santa Maria, CA? LawProactive connects you at no cost with an independent malpractice attorney who explains MICRA deadlines."
+  },
+  "hero": {
+    "subtitle": "When care in Santa Maria falls below the standard and someone is hurt because of it, you deserve straight answers. We connect Santa Barbara County patients and families with an independent medical malpractice attorney, free of charge."
+  },
+  "about": {
+    "title": "Santa Maria Medical Malpractice Claims",
+    "longDescription": "A hospital stay or clinic visit is supposed to make things better. For some Santa Maria residents, it does the opposite: a diagnosis is missed, a dose is wrong, or a warning sign is brushed aside. Sorting out what happened is hard when you are also trying to heal. That is where an independent attorney comes in. California treats these cases differently from an ordinary injury claim. Under MICRA, a patient generally has one year from discovering the harm to act, and never more than three years from the injury itself. A 90-day notice must go to the provider before suit is filed, and the law caps non-economic damages at an amount that increases every year. Almost every claim also needs a qualified medical expert to explain how the care departed from accepted practice, because a poor result on its own is not malpractice. LawProactive is not a law firm. We are a free service that matches people in Santa Maria and the surrounding Santa Barbara County area with an attorney who handles these claims on contingency, so there is no fee unless there is a recovery.",
+    "commonInjuriesTitle": "Common Medical Malpractice Injuries",
+    "commonInjuries": [
+      "Missed or delayed cancer diagnosis"
+    ],
+    "ctaText": "Ask about your Santa Maria case"
+  },
+  "whyChoose": {
+    "title": "Why Santa Maria Patients Turn to LawProactive",
+    "items": [
+      {
+        "title": "MICRA deadlines are short",
+        "desc": "The clock generally starts when you discover the harm and runs for one year, with a firm three-year outer limit. An early conversation with an attorney helps protect that window."
+      },
+      {
+        "title": "The 90-day notice is handled",
+        "desc": "California requires written notice to the provider before a malpractice suit begins. Attorneys in our network know how to time that step so it does not cost you the case."
+      },
+      {
+        "title": "Expert review, not guesswork",
+        "desc": "A bad outcome alone does not prove negligence, so nearly every claim needs a qualified medical expert. Your matched attorney arranges that review and explains what it means for you."
+      }
+    ]
+  },
+  "faq": {
+    "items": [
+      {
+        "question": "Does the MICRA cap mean my Santa Maria case is not worth pursuing?",
+        "answer": "Not necessarily. The cap applies only to non-economic damages such as pain and emotional distress, and the figure rises each year under current law. Economic losses like medical bills, future care, and lost income are not subject to that cap. An attorney can walk you through how the cap fits your specific situation."
+      },
+      {
+        "question": "I was treated in Santa Barbara County but live elsewhere. Can I still get connected?",
+        "answer": "Yes. What matters is where the care was provided and the facts of what happened, not your home address. If you were treated in Santa Maria or nearby and believe the care fell short, we can connect you with an independent attorney who handles California claims."
+      },
+      {
+        "question": "How do I know whether what happened to me was actually malpractice?",
+        "answer": "You do not have to figure that out alone. Malpractice means a provider departed from the accepted standard of care and that departure caused harm, which usually takes a medical expert to confirm. An attorney in our network can review your records and give you an honest assessment before you decide anything."
+      }
+    ]
+  }
+}
