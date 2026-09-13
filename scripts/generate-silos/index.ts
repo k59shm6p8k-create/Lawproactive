@@ -27,7 +27,9 @@
  *   --kind K             city | silo | both (default both)
  *   --practices x,y      only these practice slugs (default: all 6)
  *   --overwrite          regenerate pages that already exist (default: skip)
- *   --model ID           model override (default claude-fable-5-1; e.g. claude-sonnet-5 to test cheap)
+ *   --model ID           model override (default claude-fable-5-1; claude-sonnet-5 is ~5x cheaper)
+ *   --effort E           low|medium|high|xhigh|max (default low). On thinking-always-on
+ *                        models this is the DOMINANT cost lever: thinking bills as output.
  *   --dry-run            build + count requests, print est. cost, do NOT submit
  */
 import Anthropic from '@anthropic-ai/sdk';
@@ -50,8 +52,23 @@ const BATCH_DIR = path.join(ROOT, 'scripts', 'generate-silos', '.batches');
 // outside this list produces pages that never route. We intersect the two.
 const CITY_LIST = path.join(ROOT, 'data', 'states', 'california-cities.json');
 const MODEL = 'claude-fable-5-1';
-// Fable 5.1 pricing ($/MTok). Batch API is 50% off both sides.
-const PRICE_IN = 10, PRICE_OUT = 50;
+// List price $/MTok. Batch API is 50% off both sides.
+const PRICES: Record<string, { in: number; out: number }> = {
+  'claude-fable-5-1': { in: 10, out: 50 },
+  'claude-opus-5': { in: 5, out: 25 },
+  'claude-sonnet-5': { in: 2, out: 10 },
+  'claude-haiku-4-5': { in: 1, out: 5 },
+};
+const priceFor = (m: string) => PRICES[m] ?? PRICES[MODEL];
+
+// MEASURED, not guessed. The first ~525-page run on Fable at effort "medium" billed
+// ~$0.142/page, which works back to ~5,500 output tokens/page against ~721 input.
+// Visible JSON is only ~1,000 of that — the rest is thinking, which bills as output.
+// Effort is therefore the dominant cost lever on a thinking-always-on model.
+const EST_IN = 750;
+const EST_OUT_BY_EFFORT: Record<string, number> = {
+  low: 2000, medium: 5500, high: 9000, xhigh: 14000, max: 20000,
+};
 
 function parseArgs(argv: string[]) {
   const o: Record<string, string | boolean> = {};
@@ -158,7 +175,7 @@ async function writeResult(slug: string, kind: Kind, data: any, model: string) {
 const FORMAT_SILO = { type: 'json_schema', schema: (zodOutputFormat(SiloSchema) as any).schema };
 const FORMAT_CITY = { type: 'json_schema', schema: (zodOutputFormat(CityPageSchema) as any).schema };
 
-function buildRequest(facts: CityFacts, kind: Kind, model: string) {
+function buildRequest(facts: CityFacts, kind: Kind, model: string, effort: string) {
   const isCity = kind === 'city';
   return {
     custom_id: `${facts.slug}__${kind}`,
@@ -167,7 +184,7 @@ function buildRequest(facts: CityFacts, kind: Kind, model: string) {
       max_tokens: 4000,
       system: SYSTEM_PROMPT,
       messages: [{ role: 'user' as const, content: isCity ? buildCityUserPrompt(facts) : buildUserPrompt(facts, kind) }],
-      output_config: { effort: 'medium' as const, format: isCity ? FORMAT_CITY : FORMAT_SILO },
+      output_config: { effort, format: isCity ? FORMAT_CITY : FORMAT_SILO },
     },
   };
 }
@@ -238,13 +255,17 @@ async function cmdSubmit(o: Record<string, string | boolean>) {
   const targets = await selectTargets(o);
   if (!targets.length) { console.log('Nothing to generate (all selected pages already exist; use --overwrite).'); return; }
 
-  const requests = targets.map((t) => buildRequest(t.facts, t.kind, model));
-  // Rough cost estimate: ~700 input + ~1100 output tokens per page (batch = 50% off).
-  const estIn = requests.length * 700, estOut = requests.length * 1100;
-  const cost = ((estIn / 1e6) * PRICE_IN + (estOut / 1e6) * PRICE_OUT) * 0.5;
+  const effort = typeof o.effort === 'string' ? o.effort : 'low';
+  const requests = targets.map((t) => buildRequest(t.facts, t.kind, model, effort));
+  const p = priceFor(model);
+  const perOut = EST_OUT_BY_EFFORT[effort] ?? EST_OUT_BY_EFFORT.low;
+  const estIn = requests.length * EST_IN, estOut = requests.length * perOut;
+  const cost = ((estIn / 1e6) * p.in + (estOut / 1e6) * p.out) * 0.5;
   const nCity = targets.filter((t) => t.kind === 'city').length;
   console.log(`Targets: ${requests.length} pages (${nCity} city, ${requests.length - nCity} silo) across ${new Set(targets.map((t) => t.facts.slug)).size} cities.`);
-  console.log(`Model: ${model}  |  rough batch cost estimate: ~$${cost.toFixed(2)} (Fable rates; a cheaper --model lowers this).`);
+  console.log(`Model: ${model}  |  effort: ${effort}  |  est. output ~${perOut.toLocaleString()} tok/page (thinking included)`);
+  console.log(`Estimated batch cost: ~$${cost.toFixed(2)}  (batch pricing, 50% off ${p.in}/${p.out} per MTok)`);
+  console.log(`NOTE: estimate only. \`fetch\` reports the ACTUAL billed usage for this batch.`);
 
   if (o['dry-run']) { console.log('Dry run — not submitted.'); return; }
 
@@ -321,11 +342,14 @@ async function cmdFetch(id: string) {
   try { model = JSON.parse(await fs.readFile(manifestPath, 'utf-8')).model ?? MODEL; } catch { /* ok */ }
 
   let ok = 0;
+  let totIn = 0, totOut = 0;   // ACTUAL billed usage, summed from the batch results
   const failures: { custom_id: string; reason: string }[] = [];
   for await (const entry of await client.messages.batches.results(id)) {
     const { slug, kind } = parseCustomId(entry.custom_id);
     if (entry.result.type !== 'succeeded') { failures.push({ custom_id: entry.custom_id, reason: entry.result.type }); continue; }
     const msg = entry.result.message;
+    totIn += msg.usage?.input_tokens ?? 0;
+    totOut += msg.usage?.output_tokens ?? 0;
     if (msg.stop_reason === 'refusal') { failures.push({ custom_id: entry.custom_id, reason: 'refusal' }); continue; }
     const text = msg.content.filter((c: any) => c.type === 'text').map((c: any) => c.text).join('');
     let parsed: any;
@@ -336,6 +360,23 @@ async function cmdFetch(id: string) {
     ok++;
   }
   console.log(`\nWrote ${ok} pages.`);
+
+  // Actual spend for this batch, from billed usage — not an estimate.
+  const p = priceFor(model);
+  const cost = ((totIn / 1e6) * p.in + (totOut / 1e6) * p.out) * 0.5;
+  const pages = ok + failures.length;
+  console.log('\n── ACTUAL billed usage for this batch ──');
+  console.log(`  model        : ${model}`);
+  console.log(`  input tokens : ${totIn.toLocaleString()}`);
+  console.log(`  output tokens: ${totOut.toLocaleString()}  (includes thinking)`);
+  if (pages) {
+    console.log(`  per page     : ${Math.round(totIn / pages).toLocaleString()} in / ${Math.round(totOut / pages).toLocaleString()} out`);
+  }
+  console.log(`  COST         : $${cost.toFixed(2)}${pages ? `  ($${(cost / pages).toFixed(4)}/page)` : ''}`);
+  if (pages) {
+    const remaining = 545 * 7 - 0; // upper bound: every city page + 6 silos
+    console.log(`  -> at this rate, a full 545-city run (~${remaining.toLocaleString()} pages) would cost ~$${((cost / pages) * remaining).toFixed(0)}`);
+  }
   if (failures.length) {
     const failFile = path.join(BATCH_DIR, `${id}.failures.json`);
     await fs.writeFile(failFile, JSON.stringify(failures, null, 2));
