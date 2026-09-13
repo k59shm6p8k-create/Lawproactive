@@ -440,12 +440,12 @@
         "longitude": -115.502815
     },
     {
-        "city": "California",
-        "landmark": "State Capitol Replica",
-        "population": 111,
-        "slug": "california",
-        "latitude": 38.2974855,
-        "longitude": -76.4933648
+        "city": "California City",
+        "landmark": "California City Central Park",
+        "population": 13277,
+        "slug": "california-city",
+        "latitude": 35.1258,
+        "longitude": -117.9859
     },
     {
         "city": "Calimesa",
