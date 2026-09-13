@@ -44,6 +44,11 @@ const ROOT = process.cwd();
 const ACCIDENT_DIR = path.join(ROOT, 'data', 'accident', 'california');
 const CONTENT_DIR = path.join(ROOT, 'data', 'content', 'california');
 const BATCH_DIR = path.join(ROOT, 'scripts', 'generate-silos', '.batches');
+// The authoritative routing/sitemap list the app serves. The crash dataset also
+// contains non-city jurisdictions (park districts, university & airport police,
+// harbors, military bases) and a few alternate slugs; generating for anything
+// outside this list produces pages that never route. We intersect the two.
+const CITY_LIST = path.join(ROOT, 'data', 'states', 'california-cities.json');
 const MODEL = 'claude-fable-5-1';
 // Fable 5.1 pricing ($/MTok). Batch API is 50% off both sides.
 const PRICE_IN = 10, PRICE_OUT = 50;
@@ -61,9 +66,24 @@ function parseArgs(argv: string[]) {
   return o;
 }
 
+let _routable: Set<string> | null = null;
+// Slugs the app actually routes (data/states/california-cities.json).
+async function routableSlugs(): Promise<Set<string>> {
+  if (_routable) return _routable;
+  const cities = JSON.parse(await fs.readFile(CITY_LIST, 'utf-8'));
+  _routable = new Set<string>(cities.map((c: any) => c.slug));
+  return _routable;
+}
+
+// Accident-data slugs that are ALSO real, routable cities. Excludes park/campus/
+// airport/harbor jurisdictions and alternate slugs that would orphan the page.
 async function allSlugs(): Promise<string[]> {
   const files = await fs.readdir(ACCIDENT_DIR);
-  return files.filter((f) => f.endsWith('.json')).map((f) => f.slice(0, -5));
+  const routable = await routableSlugs();
+  return files
+    .filter((f) => f.endsWith('.json'))
+    .map((f) => f.slice(0, -5))
+    .filter((slug) => routable.has(slug));
 }
 
 async function citiesByPopulation(): Promise<CityFacts[]> {
@@ -168,12 +188,13 @@ function kindsFromOpts(o: Record<string, string | boolean>): Kind[] {
 // ─────────────────────────── commands ───────────────────────────
 async function cmdList() {
   const cities = await citiesByPopulation();
+  const allFiles = (await fs.readdir(ACCIDENT_DIR)).filter((f) => f.endsWith('.json')).length;
   let cityDone = 0, siloDone = 0;
   for (const c of cities) {
     if (await targetExists(c.slug, 'city')) cityDone++;
     for (const p of PRACTICES) if (await targetExists(c.slug, p)) siloDone++;
   }
-  console.log(`Cities: ${cities.length}`);
+  console.log(`Routable cities: ${cities.length}  (${allFiles} crash-data jurisdictions; ${allFiles - cities.length} non-city/unroutable skipped)`);
   console.log(`City pages: ${cityDone}/${cities.length} | Silos: ${siloDone}/${cities.length * PRACTICES.length}`);
   console.log('Top 20 by population:');
   for (const c of cities.slice(0, 20)) {
