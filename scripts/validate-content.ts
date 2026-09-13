@@ -23,11 +23,14 @@ interface Issue { file: string; sev: Sev; rule: string; detail: string }
 const PRACTICES = ['car-accident','slip-and-fall','medical-malpractice','workplace-injury','product-liability','wrongful-death'];
 
 // ── compliance rules: applied to every string value in the document ──
-const BANNED: { rule: string; re: RegExp; sev: Sev; why: string; allowIfNegated?: boolean }[] = [
+const BANNED: { rule: string; re: RegExp; sev: Sev; why: string; allowIfNegated?: boolean; allowFollowing?: RegExp }[] = [
   { rule: 'dollar-figure', re: /\$\s?\d/, sev: 'ERROR', why: 'no settlement/verdict amounts allowed' },
-  // allowIfNegated: an affirmative guarantee is banned, but a compliant disclaimer
-  // ("no attorney can guarantee…", "nothing is guaranteed") must pass. See isNegated().
-  { rule: 'guarantee', re: /\b(guarantee[ds]?|guaranteeing|we will win|promise you|assured outcome)\b/i, sev: 'ERROR', why: 'no outcome guarantees', allowIfNegated: true },
+  // allowIfNegated: an affirmative outcome guarantee is banned, but a compliant
+  // disclaimer ("no attorney can guarantee…", "nothing is guaranteed") must pass
+  // (see isNegated). allowFollowing: "guaranteed benefits" is the accurate,
+  // standard description of the workers'-comp statutory bargain, not an outcome
+  // promise, so it passes too.
+  { rule: 'guarantee', re: /\b(guarantee[ds]?|guaranteeing|we will win|promise you|assured outcome)\b/i, sev: 'ERROR', why: 'no outcome guarantees', allowIfNegated: true, allowFollowing: /^\s+benefits?\b/i },
   { rule: 'superlative', re: /\b(#\s?1|number one|best (lawyer|attorney|firm)|top[- ]rated|most trusted|leading firm)\b/i, sev: 'ERROR', why: 'no ranking/superlative claims' },
   { rule: 'danger-verdict', re: /\b(most dangerous|dangerous (road|street|intersection|highway|corridor)|deadliest|worst (road|street|intersection))\b/i, sev: 'ERROR', why: 'crash data must stay neutral public-record framing' },
   { rule: 'bar-number', re: /\bbar\s*(no\.?|number|#)/i, sev: 'ERROR', why: 'attorney identity is auto-populated, never in generated copy' },
@@ -58,7 +61,10 @@ function scanString(s: string): { sev: Sev; rule: string; match: string; why: st
     if (b.allowIfNegated) {
       const g = new RegExp(b.re.source, b.re.flags.includes('g') ? b.re.flags : b.re.flags + 'g');
       for (const m of s.matchAll(g)) {
-        if (typeof m.index === 'number' && isNegated(s, m.index)) continue;
+        if (typeof m.index === 'number') {
+          if (isNegated(s, m.index)) continue;
+          if (b.allowFollowing && b.allowFollowing.test(s.slice(m.index + m[0].length))) continue;
+        }
         out.push({ sev: b.sev, rule: b.rule, match: m[0], why: b.why });
       }
     } else {
@@ -172,6 +178,9 @@ function runSelfTests(): number {
     { s: 'A guaranteed settlement in weeks.', rule: 'guarantee', expect: true },
     { s: 'Hire us and we will win your case.', rule: 'guarantee', expect: true },
     { s: 'An assured outcome you can count on.', rule: 'guarantee', expect: true },
+    // guarantee — "guaranteed benefits" (workers'-comp statutory bargain) must PASS
+    { s: "Workers' comp is the trade-off: guaranteed benefits without proving fault.", rule: 'guarantee', expect: false },
+    { s: 'The system provides guaranteed benefits regardless of fault.', rule: 'guarantee', expect: false },
     // attorney-name — title-case headings must PASS
     { s: 'Why Work With an Attorney on Your Glendale Fall Claim', rule: 'attorney-name', expect: false },
     { s: 'What an Attorney Can Do for You', rule: 'attorney-name', expect: false },
