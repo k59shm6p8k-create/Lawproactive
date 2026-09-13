@@ -44,12 +44,14 @@ const BANNED: { rule: string; re: RegExp; sev: Sev; why: string; allowIfNegated?
 ];
 
 // Negators that, appearing just before a banned stem, turn it into a compliant
-// disclaimer ("no attorney can guarantee", "without guaranteeing", "nothing is guaranteed").
-const NEGATOR = /\b(no|not|never|cannot|can['’]?t|without|nothing|none|neither|no[-\s]?one)\b/i;
+// disclaimer ("no attorney can guarantee", "we don't guarantee", "nothing is
+// ever guaranteed"). Includes any "…n't" contraction (don't/doesn't/won't/isn't…).
+const NEGATOR = /\b([a-z]+n['’]?t|no|not|never|cannot|without|nothing|none|neither|no[-\s]?one)\b/i;
 
-// True if a banned match at `idx` is negated by a word within ~6 tokens before it.
+// True if a banned match at `idx` is negated by a word within ~8 tokens before it.
+// (8, not 6: "No outcome or dollar amount is ever guaranteed" puts the negator 7 back.)
 function isNegated(s: string, idx: number): boolean {
-  const preceding = s.slice(0, idx).split(/\s+/).filter(Boolean).slice(-6).join(' ');
+  const preceding = s.slice(0, idx).split(/\s+/).filter(Boolean).slice(-8).join(' ');
   return NEGATOR.test(preceding);
 }
 
@@ -181,6 +183,9 @@ function runSelfTests(): number {
     // guarantee — "guaranteed benefits" (workers'-comp statutory bargain) must PASS
     { s: "Workers' comp is the trade-off: guaranteed benefits without proving fault.", rule: 'guarantee', expect: false },
     { s: 'The system provides guaranteed benefits regardless of fault.', rule: 'guarantee', expect: false },
+    // guarantee — contraction + far negator disclaimers must PASS
+    { s: 'LawProactive is a free connection service, and we don\'t guarantee any outcome.', rule: 'guarantee', expect: false },
+    { s: 'No outcome or dollar amount is ever guaranteed.', rule: 'guarantee', expect: false },
     // attorney-name — title-case headings must PASS
     { s: 'Why Work With an Attorney on Your Glendale Fall Claim', rule: 'attorney-name', expect: false },
     { s: 'What an Attorney Can Do for You', rule: 'attorney-name', expect: false },
