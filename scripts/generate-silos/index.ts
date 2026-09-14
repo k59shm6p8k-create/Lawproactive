@@ -181,7 +181,11 @@ function buildRequest(facts: CityFacts, kind: Kind, model: string, effort: strin
     custom_id: `${facts.slug}__${kind}`,
     params: {
       model,
-      max_tokens: 4000,
+      // 8000, not 4000: on longer pages (wrongful-death especially) medium/high
+      // effort spends the budget on thinking + prose and truncates before the
+      // trailing whyChoose/faq arrays, which then come back empty. Headroom fixes
+      // that; pages that don't need it cost no more.
+      max_tokens: 8000,
       system: SYSTEM_PROMPT,
       messages: [{ role: 'user' as const, content: isCity ? buildCityUserPrompt(facts) : buildUserPrompt(facts, kind) }],
       output_config: { effort, format: isCity ? FORMAT_CITY : FORMAT_SILO },
