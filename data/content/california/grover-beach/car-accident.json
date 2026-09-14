@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "voice": "brand-standard",
+    "model": "claude-sonnet-5",
+    "generatedAt": "2026-09-14",
+    "practice": "car-accident",
+    "note": "grover-beach car-accident silo (Fable pipeline)."
+  },
+  "seo": {
+    "metaTitle": "Grover Beach Car Accident Help | LawProactive",
+    "metaDescription": "Hurt in a Grover Beach car accident? Get connected free with an independent CA attorney. No fee unless you recover. Call today."
+  },
+  "hero": {
+    "subtitle": "If a collision on W Grand Avenue, Oak Park Boulevard, or anywhere else in Grover Beach left you hurt, we can connect you with an independent attorney at no cost to you."
+  },
+  "about": {
+    "title": "Grover Beach Car Accident Claims",
+    "longDescription": "Grover Beach is a small coastal city, but its main corridors carry steady traffic all year, especially where W Grand Avenue meets N 4th Street and along N and S Oak Park Boulevard. Public records show two dozen injury collisions in the most recent full year, with 34 people hurt — most crashes clustering on Friday afternoons as commuters and weekend visitors mix on the same streets. Whether you were driving, riding, or walking when someone else's carelessness caused a wreck, the days right after matter. San Luis Obispo County insurers move quickly to gather statements and paperwork, often before you've had a chance to see a doctor or understand your injuries fully. LawProactive is a free service that connects Grover Beach residents with an independent personal injury attorney who can review what happened, explain your options under California law, and handle communication with the insurance company so you can focus on recovering.",
+    "commonInjuriesTitle": "Common Injuries We See in Car Accident Cases",
+    "commonInjuries": [
+      "Whiplash and neck strain",
+      "Concussions and other head injuries",
+      "Fractured bones",
+      "Herniated or bulging discs",
+      "Torn ligaments and soft tissue damage",
+      "Cuts, bruises, and lacerations"
+    ],
+    "ctaText": "Get connected with a free case review — no obligation."
+  },
+  "whyChoose": {
+    "title": "Why Grover Beach Residents Turn to LawProactive",
+    "items": [
+      {
+        "title": "Two-Year Window, but Timing Still Matters",
+        "desc": "California generally gives you two years to file a car accident claim, though claims against a government entity can require notice in as little as six months. An attorney can help make sure evidence from your Grover Beach crash isn't lost while you wait."
+      },
+      {
+        "title": "Comparative Fault Won't Automatically Sink Your Claim",
+        "desc": "Under California's pure comparative fault rule, you can still recover damages even if you were partly at fault, though your share is subtracted from any award. Having someone evaluate the facts of your case matters more than assuming you're out of options."
+      },
+      {
+        "title": "No Cap on Non-Economic Damages",
+        "desc": "California doesn't limit compensation for pain, suffering, and other non-economic losses in most car accident claims. An independent attorney can help make sure those harms aren't overlooked or undervalued by an insurance adjuster."
+      }
+    ]
+  },
+  "faq": {
+    "items": [
+      {
+        "question": "Should I give the other driver's insurance company a recorded statement?",
+        "answer": "It's generally best to avoid giving a recorded statement to the other insurer before speaking with an attorney. Adjusters are trained to ask questions in ways that can be used to reduce or deny your claim later. An independent attorney can communicate with the insurance company on your behalf instead."
+      },
+      {
+        "question": "What if my crash happened on Oak Park Boulevard or another busy Grover Beach street?",
+        "answer": "Corridors like N and S Oak Park Boulevard and W Grand Avenue see a meaningful share of Grover Beach's reported injury collisions, so there's often relevant public record and documentation to draw from. That can include collision reports, traffic camera footage in some cases, and witness accounts from nearby businesses. An attorney can help gather what's available quickly before it disappears."
+      },
+      {
+        "question": "How much does it cost to work with an attorney through LawProactive?",
+        "answer": "placeholder"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "voice": "brand-standard",
+    "model": "claude-sonnet-5",
+    "generatedAt": "2026-09-14",
+    "practice": "slip-and-fall",
+    "note": "kerman slip-and-fall silo (Fable pipeline)."
+  },
+  "seo": {
+    "metaTitle": "Kerman Slip & Fall Attorney Connection | LawProactive",
+    "metaDescription": "Hurt in a fall in Kerman, CA? Get connected free to an independent premises liability attorney. No fee unless you recover."
+  },
+  "hero": {
+    "subtitle": "If you were hurt on someone else's property in Kerman — a grocery store on Madera Avenue, a shop near Whitesbridge Road, or an apartment complex anywhere in town — we can connect you with an independent attorney who handles these cases on contingency."
+  },
+  "about": {
+    "title": "Kerman Slip & Fall and Premises Liability Claims",
+    "longDescription": "A fall on a wet floor, a cracked sidewalk, or poor lighting in a parking lot can leave someone with real injuries and real medical bills. In Kerman, a small Fresno County community where daily life runs along Madera Avenue, Whitesbridge Road, and California Avenue, these incidents often happen at retail stores, gas stations, or rental properties. California law requires the injured person to show the property owner or manager knew, or should have known, about the hazardous condition and failed to fix it or warn visitors — this is often called 'notice.' Because that standard hinges on evidence, what happens in the hours and days after a fall matters. Photos of the hazard, incident reports, and store surveillance footage can make or break a claim, especially since video is frequently overwritten within days. LawProactive doesn't practice law; we simply connect Kerman residents with independent attorneys who evaluate these details and pursue claims on a contingency basis, meaning there's no fee unless there's a recovery.",
+    "commonInjuriesTitle": "placeholder",
+    "commonInjuries": [
+      "placeholder"
+    ],
+    "ctaText": "placeholder"
+  },
+  "whyChoose": {
+    "title": "placeholder",
+    "items": [
+      {
+        "title": "placeholder",
+        "desc": "placeholder"
+      }
+    ]
+  },
+  "faq": {
+    "items": [
+      {
+        "question": "placeholder",
+        "answer": "placeholder"
+      }
+    ]
+  }
+}
