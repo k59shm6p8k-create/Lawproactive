@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "voice": "brand-standard",
+    "model": "claude-sonnet-5",
+    "generatedAt": "2026-09-14",
+    "practice": "workplace-injury",
+    "note": "avalon workplace-injury silo (Fable pipeline)."
+  },
+  "seo": {
+    "metaTitle": "Avalon Workplace Injury Help | LawProactive",
+    "metaDescription": "Hurt on the job in Avalon, CA? LawProactive connects injured workers with an independent attorney for third-party claims, free of charge."
+  },
+  "hero": {
+    "subtitle": "Working on Catalina Island comes with unique hazards, from golf-cart transport to tourism and marine jobs, and an on-the-job injury in Avalon can leave you with questions about who's responsible. LawProactive can connect you with an independent attorney who looks beyond workers' comp to see if a negligent third party played a role."
+  },
+  "about": {
+    "title": "Avalon Workplace Injury Claims",
+    "longDescription": "Avalon's small footprint means many residents work in hospitality, marine services, or island transport, often relying on golf carts instead of cars to get around town, including near Wrigley Terrace Road, Wrigley Road, and Saint Catherine Way. When a workplace injury happens, California generally routes the claim through workers' compensation, which pays medical care and partial wage replacement regardless of fault but usually blocks a lawsuit against your employer. That's not always the end of the story. If a subcontractor, property owner, equipment manufacturer, or someone outside your employment caused or contributed to the harm, a separate injury claim may be possible alongside your workers' comp benefits. LawProactive doesn't practice law or promise outcomes; we simply help connect injured Avalon workers with an independent attorney who can review the facts, explain your options, and help you understand whether a third-party claim applies to your situation.",
+    "commonInjuriesTitle": "Common Workplace Injuries We See",
+    "commonInjuries": [
+      "Golf cart or utility vehicle collisions",
+      "Falls from ladders, docks, or uneven terrain",
+      "Equipment and machinery injuries",
+      "Overexertion and repetitive strain injuries",
+      "Burns from kitchen or maintenance work",
+      "Injuries from defective tools or gear"
+    ],
+    "ctaText": "Get connected with an independent attorney about your workplace injury today."
+  },
+  "whyChoose": {
+    "title": "Why Talk to an Attorney About a Workplace Injury",
+    "items": [
+      {
+        "title": "Third-Party Claims May Exist Alongside Workers' Comp",
+        "desc": "Because workers' comp is usually the exclusive remedy against your employer, an attorney can look for a negligent third party, like a contractor or equipment maker, whose actions may support a separate claim."
+      },
+      {
+        "title": "Reporting Deadlines Matter Early On",
+        "desc": "California generally requires reporting a workplace injury to your employer within 30 days, and missing that window can complicate benefits, so early legal guidance can help protect your position."
+      },
+      {
+        "title": "Retaliation Protections Exist",
+        "desc": "It's illegal for an employer to retaliate against you for reporting an injury or pursuing benefits, and an attorney can help you understand those protections if concerns come up."
+      }
+    ]
+  },
+  "faq": {
+    "items": [
+      {
+        "question": "I was hurt on the job in Avalon — do I file workers' comp or a lawsuit?",
+        "answer": "In most cases, workers' compensation is the exclusive remedy against your employer regardless of fault, so that's typically the first path for medical care and wage replacement. However, if a third party outside your employer, like a contractor, property owner, or equipment maker, contributed to your injury, a separate claim against that party may also be possible. An independent attorney can review your situation and explain which options apply."
+      },
+      {
+        "question": "Does it matter that my accident happened on Catalina Island instead of the mainland?",
+        "answer": "California workers' compensation and third-party claim rules apply statewide, so being on Catalina Island doesn't change your basic rights. That said, logistics like witness access, transporting evidence, or coordinating with mainland insurers can look different on an island community like Avalon. An attorney familiar with these practical challenges can help navigate them."
+      },
+      {
+        "question": "How long do I have to bring a third-party injury claim in California?",
+        "answer": "placeholder"
+      }
+    ]
+  }
+}

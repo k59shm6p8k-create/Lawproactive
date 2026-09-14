@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "voice": "brand-standard",
+    "model": "claude-sonnet-5",
+    "generatedAt": "2026-09-14",
+    "practice": "car-accident",
+    "note": "point-arena car-accident silo (Fable pipeline)."
+  },
+  "seo": {
+    "metaTitle": "Point Arena Car Accident Help | LawProactive",
+    "metaDescription": "Free help connecting Point Arena car accident victims with an independent CA attorney. No fee unless you recover. Call now."
+  },
+  "hero": {
+    "subtitle": "If a crash on Port Road, Rt 1, or Main Street in Point Arena has left you hurt, LawProactive can connect you with an independent attorney who knows Mendocino County roads."
+  },
+  "about": {
+    "title": "Point Arena Car Accident Claims",
+    "longDescription": "Point Arena is a small coastal town, but its stretch of Rt 1, Port Road, Lake Street, and Main Street still sees regular vehicle traffic funneling through a tight grid of intersections. When a collision happens here, medical care often means a drive to a larger facility, and evidence like skid marks or debris can disappear from these rural roads faster than in a city. LawProactive is a free service that connects injured drivers, passengers, and pedestrians with an independent personal injury attorney familiar with Mendocino County claims. We don't practice law ourselves — we simply make the introduction so you can focus on recovery while someone experienced handles the insurance back-and-forth. Whether your crash happened near the harbor turn or along the highway corridor through town, getting matched early can help make sure evidence gets preserved before it's lost.",
+    "commonInjuriesTitle": "Injuries We Commonly See After Car Accidents",
+    "commonInjuries": [
+      "Whiplash and neck strain",
+      "Concussions and head trauma",
+      "Broken bones and fractures",
+      "Back and spinal injuries",
+      "Cuts, bruises, and lacerations",
+      "Shoulder and knee joint damage"
+    ],
+    "ctaText": "Get connected with an independent attorney today — free, no obligation."
+  },
+  "whyChoose": {
+    "title": "Why Connect Through LawProactive",
+    "items": [
+      {
+        "title": "Time Limits Matter",
+        "desc": "California generally gives you two years to file a car accident claim, but claims against a government entity — like a county road issue — can require notice in as little as six months. Acting quickly helps preserve your options."
+      },
+      {
+        "title": "Comparative Fault Won't Sink Your Claim",
+        "desc": "California follows pure comparative fault, meaning you can still recover damages even if you're partly at fault, just reduced by your share. An attorney can help make sure fault isn't overstated against you."
+      },
+      {
+        "title": "No Cap on Non-Economic Damages",
+        "desc": "Unlike some states, California doesn't limit compensation for pain and suffering in most car accident cases. That's one more reason not to accept an early settlement offer without independent legal advice."
+      }
+    ]
+  },
+  "faq": {
+    "items": [
+      {
+        "question": "Should I give the other driver's insurance company a recorded statement?",
+        "answer": "It's best to avoid giving a recorded statement before speaking with an attorney. Insurance adjusters often ask questions designed to minimize your claim, and anything you say can be used later. An independent attorney can advise you on what, if anything, to say."
+      },
+      {
+        "question": "What if my accident happened on Rt 1 outside city limits?",
+        "answer": "Whether your crash happened on Port Road, Main Street, or the Rt 1 corridor through Point Arena, jurisdiction and evidence-gathering can get complicated in a small, rural area. An attorney familiar with Mendocino County roads can help sort out the right process for your specific location."
+      },
+      {
+        "question": "How long do I have to file a claim after a car accident in Point Arena?",
+        "answer": "placeholder"
+      }
+    ]
+  }
+}

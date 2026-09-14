@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "voice": "brand-standard",
+    "model": "claude-sonnet-5",
+    "generatedAt": "2026-09-14",
+    "practice": "workplace-injury",
+    "note": "etna workplace-injury silo (Fable pipeline)."
+  },
+  "seo": {
+    "metaTitle": "Etna Workplace Injury Help | LawProactive Connects You Free",
+    "metaDescription": "Hurt on the job in Etna, CA? LawProactive connects injured workers with an independent attorney at no cost. Free, no-obligation consultation."
+  },
+  "hero": {
+    "subtitle": "When a job site injury sidelines you in Etna, the paperwork and rules around workers' comp can feel like a second obstacle on top of recovery. LawProactive can connect you with an independent attorney familiar with Siskiyou County workplaces at no cost to you."
+  },
+  "about": {
+    "title": "Etna Workplace Injury Claims",
+    "longDescription": "Etna's economy leans on ranching, timber, small manufacturing, and the trades that keep a rural Siskiyou County town running — work that often means machinery, uneven terrain, and long drives between job sites along Main Street or State Route 3. When someone gets hurt on the job here, California's workers' compensation system is usually the first stop, since it's typically the exclusive remedy against an employer no matter who was at fault. But that's not always the whole story: if a subcontractor, equipment manufacturer, property owner, or another driver contributed to the accident, a separate third-party injury claim may be possible alongside comp benefits. LawProactive doesn't practice law or promise results — we simply connect injured workers in Etna with an independent attorney who can look at the facts, explain the options plainly, and help sort out whether more than one path applies. There's no cost to start the conversation, and no obligation to move forward.",
+    "commonInjuriesTitle": "Common Workplace Injuries We See Referred",
+    "commonInjuries": [
+      "Falls from ladders, scaffolding, or uneven ground",
+      "Injuries from farm or logging equipment",
+      "Repetitive strain and overexertion from manual labor",
+      "Vehicle collisions during work-related driving",
+      "Crush or caught-in injuries around machinery",
+      "Burns or chemical exposure on job sites"
+    ],
+    "ctaText": "Get connected with an independent attorney — free, no obligation."
+  },
+  "whyChoose": {
+    "title": "Why Etna Workers Turn to LawProactive",
+    "items": [
+      {
+        "title": "Understanding the Comp vs. Third-Party Line",
+        "desc": "California workers' comp is usually the exclusive remedy against your employer, but a negligent third party like an equipment maker or another driver can open a separate claim. An independent attorney can help figure out which route, or both, apply to your situation."
+      },
+      {
+        "title": "Knowing the Reporting Clock",
+        "desc": "Workers generally have 30 days to report a job injury to their employer to preserve comp eligibility. Missing that window can complicate a claim, so early guidance matters."
+      },
+      {
+        "title": "Protection Against Retaliation",
+        "desc": "California law prohibits employers from retaliating against workers who report injuries or file claims. An attorney can help you understand your rights if you feel pressured after speaking up."
+      }
+    ]
+  },
+  "faq": {
+    "items": [
+      {
+        "question": "I was hurt on a ranch or farm job outside Etna — does workers' comp still apply?",
+        "answer": "Most California employers are required to carry workers' compensation coverage, including many agricultural operations, though some exemptions and rules can apply. An independent attorney can review your employment situation to clarify your coverage and options."
+      },
+      {
+        "question": "Can I file a claim if someone other than my employer caused my injury?",
+        "answer": "Yes — if a third party such as a subcontractor, equipment manufacturer, or another driver contributed to the accident, you may be able to pursue a separate injury claim in addition to workers' comp. This is common in construction and equipment-related incidents. A third-party claim generally carries a two-year deadline in California."
+      },
+      {
+        "question": "How quickly do I need to report my injury to my employer in Etna?",
+        "answer": "placeholder"
+      }
+    ]
+  }
+}

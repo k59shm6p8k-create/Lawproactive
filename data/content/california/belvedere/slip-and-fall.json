@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "voice": "brand-standard",
+    "model": "claude-sonnet-5",
+    "generatedAt": "2026-09-14",
+    "practice": "slip-and-fall",
+    "note": "belvedere slip-and-fall silo (Fable pipeline)."
+  },
+  "seo": {
+    "metaTitle": "Belvedere Slip & Fall Attorney Connection | LawProactive",
+    "metaDescription": "Hurt in a fall in Belvedere? Get connected free with an independent Marin County premises liability attorney. No fee unless you recover."
+  },
+  "hero": {
+    "subtitle": "A fall on a wet walkway or uneven step in Belvedere can leave you with real injuries and real bills. LawProactive connects you, at no cost, with an independent attorney who handles Marin County premises liability claims."
+  },
+  "about": {
+    "title": "Belvedere Slip & Fall Claims",
+    "longDescription": "Belvedere is a small, quiet peninsula community in Marin County, but property owners here still carry the same legal responsibilities as anywhere else in California. Whether a fall happened on a private walkway near Beach Road, in a building along Bayview Avenue, or on a poorly maintained staircase in a residential complex off Peninsula Road, the question always comes back to notice: did the owner know, or should they have known, about the hazard, and did they fail to fix it or warn you? Because Belvedere is largely residential with limited commercial foot traffic, evidence can be harder to gather quickly, so documenting the scene and requesting any surveillance footage matters even more here than in busier cities. LawProactive doesn't practice law itself. We simply connect you with an independent attorney familiar with Marin County premises cases, free of charge, so you can focus on recovery while someone else sorts out the legal groundwork.",
+    "commonInjuriesTitle": "placeholder",
+    "commonInjuries": [
+      "placeholder"
+    ],
+    "ctaText": "placeholder"
+  },
+  "whyChoose": {
+    "title": "placeholder",
+    "items": [
+      {
+        "title": "placeholder",
+        "desc": "placeholder"
+      }
+    ]
+  },
+  "faq": {
+    "items": [
+      {
+        "question": "placeholder",
+        "answer": "placeholder"
+      }
+    ]
+  }
+}
