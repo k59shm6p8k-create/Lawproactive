@@ -2,56 +2,61 @@
   "_meta": {
     "voice": "brand-standard",
     "model": "claude-fable-5-1",
-    "generatedAt": "2026-09-13",
+    "generatedAt": "2026-09-15",
     "practice": "medical-malpractice",
     "note": "santa-maria medical-malpractice silo (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "Santa Maria Medical Malpractice Attorney Connection",
-    "metaDescription": "Harmed by a medical error in Santa Maria, CA? LawProactive connects you at no cost with an independent malpractice attorney who explains MICRA deadlines."
+    "metaTitle": "Santa Maria Medical Malpractice Claims | LawProactive",
+    "metaDescription": "Hurt by a medical error in Santa Maria? LawProactive connects you, free, with an independent malpractice attorney. No fee unless there is a recovery."
   },
   "hero": {
-    "subtitle": "When care in Santa Maria falls below the standard and someone is hurt because of it, you deserve straight answers. We connect Santa Barbara County patients and families with an independent medical malpractice attorney, free of charge."
+    "subtitle": "When care in Santa Maria falls short of what a competent provider should have done, MICRA's short clock starts running. LawProactive connects you at no cost with an independent attorney who handles medical malpractice in Santa Barbara County."
   },
   "about": {
     "title": "Santa Maria Medical Malpractice Claims",
-    "longDescription": "A hospital stay or clinic visit is supposed to make things better. For some Santa Maria residents, it does the opposite: a diagnosis is missed, a dose is wrong, or a warning sign is brushed aside. Sorting out what happened is hard when you are also trying to heal. That is where an independent attorney comes in. California treats these cases differently from an ordinary injury claim. Under MICRA, a patient generally has one year from discovering the harm to act, and never more than three years from the injury itself. A 90-day notice must go to the provider before suit is filed, and the law caps non-economic damages at an amount that increases every year. Almost every claim also needs a qualified medical expert to explain how the care departed from accepted practice, because a poor result on its own is not malpractice. LawProactive is not a law firm. We are a free service that matches people in Santa Maria and the surrounding Santa Barbara County area with an attorney who handles these claims on contingency, so there is no fee unless there is a recovery.",
-    "commonInjuriesTitle": "Common Medical Malpractice Injuries",
+    "longDescription": "A hospital stay or clinic visit in Santa Maria is supposed to leave you better off, not worse. Most of the time it does. Occasionally, though, a diagnosis is missed, a medication is dosed wrong, or a surgical step is skipped, and a family on the Central Coast is left sorting through what happened and why. California's MICRA rules shape every one of these cases. You generally have one year from the date you discovered the harm to file, and never more than three years from the injury itself. Before suing, a 90-day notice must go to each provider. Non-economic damages are capped, though that cap rises every year, and nearly every claim needs a qualified medical expert to explain how the standard of care was breached. A poor result by itself is not malpractice; the question is whether a reasonably careful provider would have acted differently. LawProactive is not a law firm. We simply connect Santa Maria residents, free of charge, with an independent attorney who can review records and answer that question honestly.",
+    "commonInjuriesTitle": "Harm We Commonly See in Santa Maria Malpractice Claims",
     "commonInjuries": [
-      "Missed or delayed cancer diagnosis"
+      "Delayed or missed cancer diagnosis",
+      "Surgical errors and retained instruments",
+      "Medication and dosage mistakes",
+      "Birth injuries to mother or infant",
+      "Anesthesia complications",
+      "Untreated infections and sepsis"
     ],
-    "ctaText": "Ask about your Santa Maria case"
+    "ctaText": "Ask a Santa Maria malpractice attorney to review your records"
   },
   "whyChoose": {
-    "title": "Why Santa Maria Patients Turn to LawProactive",
+    "title": "Why Santa Maria Residents Use LawProactive for Malpractice Matters",
     "items": [
       {
-        "title": "MICRA deadlines are short",
-        "desc": "The clock generally starts when you discover the harm and runs for one year, with a firm three-year outer limit. An early conversation with an attorney helps protect that window."
-      },
-      {
-        "title": "The 90-day notice is handled",
-        "desc": "California requires written notice to the provider before a malpractice suit begins. Attorneys in our network know how to time that step so it does not cost you the case."
+        "title": "The MICRA deadline gets tracked early",
+        "desc": "One year from discovery is not much time once a 90-day pre-suit notice is factored in. The attorney you are connected with can calendar both dates from your first conversation."
       },
       {
         "title": "Expert review, not guesswork",
-        "desc": "A bad outcome alone does not prove negligence, so nearly every claim needs a qualified medical expert. Your matched attorney arranges that review and explains what it means for you."
+        "desc": "Almost every California malpractice claim needs a qualified medical expert to confirm the standard of care was breached. Network attorneys arrange that review before anything is filed, so you learn early whether the case is viable."
+      },
+      {
+        "title": "Damages explained honestly",
+        "desc": "Non-economic damages are capped under MICRA, and that cap adjusts upward each year. An independent attorney can walk you through what is and is not recoverable in your specific situation, with no fee unless there is a recovery."
       }
     ]
   },
   "faq": {
     "items": [
       {
-        "question": "Does the MICRA cap mean my Santa Maria case is not worth pursuing?",
-        "answer": "Not necessarily. The cap applies only to non-economic damages such as pain and emotional distress, and the figure rises each year under current law. Economic losses like medical bills, future care, and lost income are not subject to that cap. An attorney can walk you through how the cap fits your specific situation."
+        "question": "My treatment in Santa Maria did not go well. Does that mean I have a malpractice case?",
+        "answer": "Not by itself. California law separates a bad outcome from negligent care, and only the latter supports a claim. An attorney will typically have a qualified medical expert compare what your providers did against what a reasonably careful provider in the same specialty would have done. If that review shows a breach that caused harm, you may have a case."
       },
       {
-        "question": "I was treated in Santa Barbara County but live elsewhere. Can I still get connected?",
-        "answer": "Yes. What matters is where the care was provided and the facts of what happened, not your home address. If you were treated in Santa Maria or nearby and believe the care fell short, we can connect you with an independent attorney who handles California claims."
+        "question": "How long do I have to file in Santa Barbara County?",
+        "answer": "Under MICRA, you generally have one year from when you discovered, or should have discovered, the injury, and in no event more than three years from the date of the injury. You must also serve a 90-day notice of intent on each provider before filing suit. Because these windows overlap, it is wise to speak with an attorney well before the one-year mark."
       },
       {
-        "question": "How do I know whether what happened to me was actually malpractice?",
-        "answer": "You do not have to figure that out alone. Malpractice means a provider departed from the accepted standard of care and that departure caused harm, which usually takes a medical expert to confirm. An attorney in our network can review your records and give you an honest assessment before you decide anything."
+        "question": "What does it cost to talk with an attorney through LawProactive?",
+        "answer": "Nothing. LawProactive is a free connection service, not a law firm, and we do not charge you for the introduction. The independent attorneys in our network handle medical malpractice on contingency, meaning there is no attorney fee unless there is a recovery."
       }
     ]
   }

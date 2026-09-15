@@ -1,62 +1,62 @@
 {
   "_meta": {
     "voice": "brand-standard",
-    "model": "claude-sonnet-5",
-    "generatedAt": "2026-09-14",
+    "model": "claude-fable-5-1",
+    "generatedAt": "2026-09-15",
     "practice": "wrongful-death",
     "note": "fillmore wrongful-death silo (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "Fillmore Wrongful Death Claims | LawProactive",
-    "metaDescription": "Free connection to an independent wrongful death attorney serving Fillmore, CA families. No fee unless there's a recovery. Ventura County."
+    "metaTitle": "Fillmore Wrongful Death Attorney Connection | LawProactive",
+    "metaDescription": "Lost a loved one in Fillmore, CA? LawProactive connects families with an independent wrongful death attorney for free. No fee unless there is a recovery."
   },
   "hero": {
-    "subtitle": "When a crash on Rt 126 or Ventura Street takes a Fillmore family member, the days after are overwhelming. LawProactive can connect you with an independent attorney who handles wrongful death claims across Ventura County at no upfront cost."
+    "subtitle": "Losing someone in Fillmore to another person's carelessness leaves more than grief behind. We connect Ventura County families, at no cost, with an independent wrongful death attorney who can carry the legal weight while you tend to what matters."
   },
   "about": {
     "title": "Fillmore Wrongful Death Claims",
-    "longDescription": "Losing someone in a traffic collision changes everything, and Fillmore families often find themselves navigating grief while questions about what happened linger. Public records show 58 injury collisions and 2 traffic deaths in the most recent reporting year, with Rt 126, Ventura Street, and A Street among the corridors seeing the most reported crashes. Crashes here tend to cluster on Friday evenings, when commuter and local traffic overlap. Under California law, wrongful death claims are limited to specific surviving family members, and there's a strict two-year window from the date of death to act. LawProactive doesn't practice law ourselves; we simply connect Fillmore families with an independent personal injury attorney who can review what happened and explain the options, working on contingency so there's no fee unless a recovery is made.",
-    "commonInjuriesTitle": "Situations That Lead to Wrongful Death Claims",
+    "longDescription": "When someone dies because another person was careless, the questions arrive quietly and all at once. How does the household keep going? In Fillmore, a Ventura County town of about 15,500 people, a loss like this is felt on every block, and the two traffic deaths recorded here in 2025 were not statistics to the families who lived through them. Many of the collisions logged in town cluster along Route 126 where it runs as Ventura Street, and on A Street. California law allows a surviving spouse or domestic partner and children to bring a wrongful death claim first, with certain dependents and heirs able to step in when they are not present. The claim is civil and moves separately from any criminal case, and it generally must be filed within two years of the death, sooner if a public agency is involved. LawProactive is a free service, not a law firm. We listen, then connect you with an independent attorney who handles these cases on contingency, so there is no fee unless there is a recovery.",
+    "commonInjuriesTitle": "Losses That Often Lead to Wrongful Death Claims in Fillmore",
     "commonInjuries": [
-      ",",
-      " ],"
+      "Fatal collisions on Route 126 and Ventura Street",
+      "Pedestrian and bicyclist deaths on town streets",
+      "Truck and commercial vehicle crashes",
+      "Fatal falls or hazards on someone else's property",
+      "Deaths tied to medical or nursing home negligence",
+      "Farm, ranch and other workplace fatalities"
     ],
-    "ctaText": "Connect with an independent attorney at no cost to talk through your options."
+    "ctaText": "Talk with us for free about a wrongful death claim in Fillmore."
   },
   "whyChoose": {
-    "title": "Why Fillmore Families Reach Out to LawProactive",
+    "title": "Why Fillmore Families Turn to LawProactive",
     "items": [
       {
-        "title": "Standing Rules Are Specific",
-        "desc": "California limits who can bring a wrongful death claim, generally starting with a spouse, domestic partner, or children before other dependents or heirs. An attorney can clarify where you fit before time runs short."
+        "title": "Clarity on who can bring the claim",
+        "desc": "California limits standing to a spouse or domestic partner and children first, then certain dependents and heirs. An attorney in our network can sort out who in your family is eligible before anything is filed."
       },
       {
-        "title": "The Two-Year Clock Is Firm",
-        "desc": "Claims must generally be filed within two years of the date of death, and that window shrinks considerably if a government entity like a county road agency may be involved. Acting early preserves evidence and options."
+        "title": "Deadlines handled early",
+        "desc": "Most wrongful death claims must be filed within two years of the date of death, and the window is shorter when a city, county or state agency may share fault. Connecting sooner protects those dates."
       },
       {
-        "title": "Recoverable Losses Go Beyond Medical Bills",
-        "desc": "California law allows families to seek funeral and burial costs, lost financial support, and compensation for lost love, companionship, and guidance. An independent attorney can help identify which losses apply to your family's situation."
+        "title": "Every category of loss accounted for",
+        "desc": "Recoverable losses include funeral and burial costs, the financial support your loved one would have provided, and the love, companionship and guidance your family lost. Network attorneys work on contingency, so there is no fee unless there is a recovery."
       }
     ]
   },
   "faq": {
     "items": [
       {
-        "question": "How long do we have to file a wrongful death claim in Fillmore?",
-        "answer": "California generally allows two years from the date of death to file a wrongful death claim. If a government entity, such as a county or state road agency, may share responsibility for the crash, the deadline to act can be much shorter. Speaking with an attorney early helps make sure that window isn't missed."
+        "question": "My family member was killed in a crash on Route 126 in Fillmore and the other driver faces charges. Do we still need a civil claim?",
+        "answer": "Yes, the two proceed on separate tracks. A criminal case is brought by the Ventura County prosecutor and is about punishment, not about compensating your family. A wrongful death claim is a civil action you control, and it can move forward whether or not charges are filed or result in a conviction."
       },
       {
-        "question": "Who is allowed to file a wrongful death claim under California law?",
-        "answer": "Typically, a surviving spouse, domestic partner, or children have the first right to file. If none exist, other dependents or heirs may qualify depending on the family's circumstances. An independent attorney can review your specific situation to explain where you stand."
+        "question": "Who in our family is allowed to file a wrongful death claim in California?",
+        "answer": "The surviving spouse or registered domestic partner and the children have the first right to bring the claim. If there is no spouse, partner or child, certain financially dependent relatives and legal heirs may qualify instead. An attorney can review your family situation and explain who should be named."
       },
       {
-        "question": "Does a criminal case against the other driver affect our civil claim?",
-        "answer": "No, a wrongful death claim is a separate civil action from any criminal charges that may be filed after a crash on roads like Rt 126 or Ventura Street. The two proceedings run independently, and a criminal outcome doesn't determine the civil result. Many families pursue both at the same time."
-      },
-      {
-        "question": "What kinds of compensation can a wrongful death claim cover?",
-        "answer": "California law allows recovery for funeral and burial expenses, the financial support the deceased would have provided, and the loss of love, companionship, and guidance. Every family's losses look different, so it helps to discuss specifics with an attorney rather than relying on general examples."
+        "question": "How much time do we have, and what can be recovered?",
+        "answer": "In most cases the deadline is two years from the date of death, but if a government entity may be responsible, the first required step comes much sooner. Recoverable losses include funeral and burial expenses, the income and support your loved one would have contributed, and the loss of companionship, love and guidance. LawProactive can connect you with an independent attorney at no charge to review these questions."
       }
     ]
   }

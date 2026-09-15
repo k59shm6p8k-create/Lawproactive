@@ -1,58 +1,62 @@
 {
   "_meta": {
     "voice": "brand-standard",
-    "model": "claude-sonnet-5",
-    "generatedAt": "2026-09-13",
+    "model": "claude-fable-5-1",
+    "generatedAt": "2026-09-15",
     "practice": "product-liability",
     "note": "benicia product-liability silo (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "Benicia Product Liability Help | LawProactive",
-    "metaDescription": "Hurt by a defective product in Benicia? Get connected free with an independent CA attorney. No fee unless you recover."
+    "metaTitle": "Benicia Product Liability Lawyer Match | LawProactive",
+    "metaDescription": "Hurt by a defective product in Benicia, CA? LawProactive connects you free with an independent product liability attorney. No fee unless you recover."
   },
   "hero": {
-    "subtitle": "When a faulty product injures someone in Benicia, California's strict liability rules can shift the burden away from the victim. LawProactive connects you free with an independent attorney who handles defective product claims in Solano County."
+    "subtitle": "A defective product in a Benicia home, workplace, or vehicle can change a life in seconds. LawProactive connects you, at no cost, with an independent attorney who handles California product liability claims."
   },
   "about": {
     "title": "Benicia Product Liability Claims",
-    "longDescription": "A defective product can turn an ordinary afternoon in Benicia into a trip to the emergency room, whether it's a malfunctioning tool used near I-780, a faulty appliance in a home off E 2nd Street, or defective auto parts involved in a crash along Lake Herman Road or I-680. California law generally allows injured people to pursue strict liability claims against manufacturers, distributors, and retailers without having to prove negligence — only that the product was defective and that the defect caused harm. With 89 injury collisions and 115 people injured across Benicia in the most recent reported year, some of these incidents likely trace back to vehicle parts, safety equipment, or consumer goods that didn't perform as they should have. LawProactive is a free service, not a law firm, that connects injured Benicia residents with an independent attorney who can evaluate whether a product defect played a role in their injury and explain the next steps at no upfront cost.",
-    "commonInjuriesTitle": "Injuries Often Linked to Defective Products",
+    "longDescription": "Benicia is a waterfront city of roughly 28,000 people in Solano County, and the products in its homes along E 2nd Street and its cars on I-780 come from factories far away. When one of them fails — a space heater that ignites, a car seat latch that gives way, a saw with a missing guard — the harm lands on a local family. California treats these cases differently from an ordinary negligence claim. Under strict liability, you generally do not have to prove the manufacturer was careless. You need to show the product had a defect in its design, its manufacturing, or its warnings, and that the defect caused your injury. Responsibility can reach the maker, the distributor, and the store that sold it. LawProactive is not a law firm. We are a free service that connects Benicia residents with an independent product liability attorney who works on contingency, so there is no fee unless there is a recovery. Keep the product, its packaging, and any receipts; in these cases, the item itself is often the most important evidence you have.",
+    "commonInjuriesTitle": "Injuries Often Tied to Defective Products",
     "commonInjuries": [
-      "Burns from malfunctioning appliances or batteries",
-      "Traumatic injuries from failed vehicle components (brakes, tires, airbags)",
-      "Lacerations or amputations from defective power tools",
-      "Head or spinal injuries from failed safety equipment",
-      "Poisoning or illness from mislabeled or contaminated products",
-      "Fractures from collapsing furniture or unstable consumer goods"
+      "Burns from appliances, batteries, or e-cigarettes",
+      "Lacerations and amputations from power tools",
+      "Crash injuries linked to airbag, brake, or tire defects",
+      "Head injuries from failed helmets or child seats",
+      "Poisoning or illness from contaminated food and drugs",
+      "Fractures from collapsing furniture, ladders, or equipment"
     ],
-    "ctaText": "Talk to an independent attorney about your product injury — free, with no obligation."
+    "ctaText": "Tell us what happened and we will connect you with an attorney, free of charge."
   },
   "whyChoose": {
-    "title": "Why Benicia Residents Turn to LawProactive",
+    "title": "Why Benicia Residents Use LawProactive for Product Cases",
     "items": [
       {
-        "title": "Strict Liability Can Simplify Your Case",
-        "desc": "Under California law, you often don't need to prove the manufacturer was careless — only that the product was defective and caused your injury. This can make pursuing a claim more straightforward than in many other injury cases."
+        "title": "Strict Liability Changes the Focus",
+        "desc": "In California you generally need to show a defect existed and caused your injury — not that anyone was negligent. The attorneys we connect you with build cases around that standard."
       },
       {
-        "title": "Multiple Parties May Share Responsibility",
-        "desc": "Manufacturers, distributors, and retailers can all potentially be held liable for a defective product, which may give an injured Benicia resident more than one path to pursue a claim."
+        "title": "Every Link in the Chain Can Answer",
+        "desc": "The manufacturer, the distributor, and the Benicia retailer that sold the product may each be responsible. An independent attorney can identify all of them rather than stopping at the first name on the box."
       },
       {
-        "title": "Preserving the Product Matters",
-        "desc": "Since defect claims hinge on the product itself, an attorney can advise you early on how to safely preserve the item as evidence rather than repairing, discarding, or losing it."
+        "title": "Preserving the Product Comes First",
+        "desc": "A defective item that gets thrown out or repaired can weaken an otherwise solid claim. The attorney you are connected with can help arrange proper storage and expert inspection early, and you pay nothing unless there is a recovery."
       }
     ]
   },
   "faq": {
     "items": [
       {
-        "question": "Do I have to prove the manufacturer was negligent?",
-        "answer": "Not necessarily. California's strict liability standard generally lets you focus on showing the product had a defect — in design, manufacturing, or warning labels — and that the defect caused your injury. This is different from many other personal injury claims that require proving negligence."
+        "question": "My crash on I-780 might have involved a defective airbag or brakes. Is that a product liability case?",
+        "answer": "It can be. Benicia recorded 89 injury collisions in 2025, and some crashes on corridors like I-780 and I-680 involve a vehicle part that did not perform as designed. If an airbag failed to deploy, a tire separated, or brakes gave out, the manufacturer may be liable under strict liability even if another driver was also at fault. Do not let the vehicle be scrapped or repaired until an attorney has looked at it."
       },
       {
-        "question": "What should I do with the defective product after an injury in Benicia?",
-        "answer": ""
+        "question": "Do I have to prove the company was careless?",
+        "answer": "Usually not. California product liability often runs on strict liability, which means the question is whether the product had a design, manufacturing, or warning defect and whether that defect caused your injury. How careful the company was is generally beside the point. That said, the facts of each case differ, and an attorney can tell you which theory fits yours."
+      },
+      {
+        "question": "I threw away the packaging but still have the product. Does that hurt my claim?",
+        "answer": "Keeping the product itself is the most important step, so you are in a reasonable position. Photos, receipts, order confirmations, and the model or lot number on the item can help fill in what the packaging would have shown. Store the product somewhere safe and do not try to fix or test it. An attorney connected through LawProactive can advise on preserving it properly."
       }
     ]
   }

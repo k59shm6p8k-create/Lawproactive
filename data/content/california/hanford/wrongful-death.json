@@ -1,61 +1,62 @@
 {
   "_meta": {
     "voice": "brand-standard",
-    "model": "claude-sonnet-5",
-    "generatedAt": "2026-09-13",
+    "model": "claude-fable-5-1",
+    "generatedAt": "2026-09-15",
     "practice": "wrongful-death",
     "note": "hanford wrongful-death silo (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "Hanford Wrongful Death Claims | LawProactive",
-    "metaDescription": "Free help connecting Hanford, CA families with an independent wrongful death attorney. No fee unless there's a recovery. Call to get started."
+    "metaTitle": "Hanford Wrongful Death Attorney Connection | LawProactive",
+    "metaDescription": "Lost a loved one in Hanford or Kings County? LawProactive connects families with an independent wrongful death attorney at no cost. Free to start."
   },
   "hero": {
-    "subtitle": "When a Hanford family loses someone to a preventable crash, the road ahead can feel impossible to navigate. LawProactive can connect you with an independent attorney near Kings County who handles wrongful death claims on contingency."
+    "subtitle": "When a preventable death touches a Hanford family, the questions come faster than the answers. LawProactive connects you, for free, with an independent Kings County wrongful death attorney who can explain what comes next."
   },
   "about": {
     "title": "Hanford Wrongful Death Claims",
-    "longDescription": "Losing a family member in a collision on Hanford roads changes everything, often overnight. Local corridors like N 11th Avenue, 12th Avenue, N 10th Avenue and 11th Avenue see a steady flow of traffic, and while Kings County's most recent count shows no traffic deaths alongside 80 injury collisions, any fatal outcome from a crash can open the door to a wrongful death claim. California law limits who may bring this type of civil action, generally starting with a surviving spouse, domestic partner, or children, and extending to certain other dependents or heirs when no closer family exists. LawProactive doesn't handle these cases directly; instead, we connect grieving families in Hanford with an independent personal injury attorney who can review the circumstances, explain your options, and help you understand the deadlines that apply. There's no fee unless the attorney recovers something on your behalf. Reaching out costs nothing and starts the process of getting real answers during an incredibly difficult time.",
-    "commonInjuriesTitle": "Situations That Can Lead to a Wrongful Death Claim",
+    "longDescription": "Kings County recorded no traffic deaths inside Hanford in 2025, which is good news for a city of about 55,000 people. It also means that when a family here does lose someone — whether on N 11th Avenue, at a job site, in a hospital, or in a fall that should never have happened — the loss feels especially out of place. The same year saw 80 injury collisions and 107 people hurt, a reminder that serious crashes still happen here. California law lets a surviving spouse or domestic partner and children bring a wrongful death claim first, with certain dependents and heirs able to step in when there is no one in that first group. The claim is civil and moves on its own track, apart from any criminal charges. Most families have two years from the date of death to file, and far less if a city, county, or state agency is involved. LawProactive is a free service, not a law firm; we connect you with an independent attorney who handles these cases on contingency.",
+    "commonInjuriesTitle": "Losses That Commonly Lead to Wrongful Death Claims",
     "commonInjuries": [
-      ") this list adjust]},"
+      "Fatal car and truck collisions on corridors such as 12th Avenue and N 10th Avenue",
+      "Pedestrian and bicycle deaths at crosswalks and driveways",
+      "Farm, packing-house, and other workplace fatalities",
+      "Deaths tied to medical or nursing-home neglect",
+      "Drownings and fatal falls on someone else's property",
+      "Deaths caused by defective vehicles, equipment, or products"
     ],
-    "ctaText": "Get connected with an independent attorney today."
+    "ctaText": "Talk with an independent Hanford wrongful death attorney at no cost."
   },
   "whyChoose": {
     "title": "Why Hanford Families Turn to LawProactive",
     "items": [
       {
-        "title": "Understanding Who Can File",
-        "desc": "California restricts standing in wrongful death cases to a spouse, domestic partner, or children first, with other dependents or heirs eligible only when no closer family survives. An attorney can help clarify where your family fits before any claim moves forward."
+        "title": "Clarity on who may file",
+        "desc": "California limits standing to a spouse or domestic partner and children first, then certain dependents and heirs. The attorney we connect you with will sort out who belongs on the claim before anything is filed."
       },
       {
-        "title": "Awareness of the Filing Deadline",
-        "desc": "Wrongful death claims in California generally must be filed within two years of the date of death, though claims against a government entity carry a much shorter window. Missing this deadline can permanently close the door on a claim, so early guidance matters."
+        "title": "Deadlines handled early",
+        "desc": "The general two-year window runs from the date of death, and claims involving a government entity close much sooner. Getting an attorney involved early protects your family's options."
       },
       {
-        "title": "Clarity on What Losses Can Be Recovered",
-        "desc": "California law allows families to seek funeral and burial costs, lost financial support, and compensation for the loss of love, companionship and guidance. An independent attorney can walk through how these categories might apply to your family's specific loss."
+        "title": "A civil case, on its own track",
+        "desc": "A wrongful death claim is separate from any criminal proceeding and seeks funeral and burial costs, lost financial support, and the loss of love, companionship, and guidance. Network attorneys work on contingency, so there is no fee unless there is a recovery."
       }
     ]
   },
   "faq": {
     "items": [
       {
-        "question": "Who is allowed to file a wrongful death claim in California?",
-        "answer": "Typically, a surviving spouse, domestic partner, or children have the first right to file. If none of those relatives exist, other dependents or heirs may be permitted to bring the claim instead. An attorney can review your family situation to confirm where you stand."
+        "question": "Hanford had no traffic deaths in 2025 — do wrongful death claims still happen here?",
+        "answer": "They do. Wrongful death covers any death caused by another party's negligence or wrongdoing, not only crashes, so claims in Kings County often stem from workplace incidents, medical neglect, unsafe property, or defective products. And with 80 injury collisions on Hanford roads that same year, a fatal crash on a busy stretch like 11th Avenue remains possible in any given year."
       },
       {
-        "question": "How long do we have to file after losing someone in a Hanford crash?",
-        "answer": "California generally allows two years from the date of death to file a wrongful death claim, though claims involving a government entity, such as a city road issue, often require action much sooner. Given how quickly these deadlines can arrive, it helps to get guidance early rather than waiting."
+        "question": "My sibling died and had no spouse or children. Can I bring a claim?",
+        "answer": "Possibly. California gives first priority to a spouse or domestic partner and children, but when none exist, certain dependents and heirs under the intestate succession rules may have standing. An attorney will review your family situation to confirm who qualifies."
       },
       {
-        "question": "Is a wrongful death claim connected to any criminal charges from the crash?",
-        "answer": "No, a wrongful death claim is a separate civil action, independent of any criminal case that may or may not be filed against the at-fault driver. Even if criminal charges are never brought, your family can still pursue a civil claim. An attorney can explain how the two processes typically unfold on separate tracks."
-      },
-      {
-        "question": "Does LawProactive charge anything to help my family?",
-        "answer": "No, LawProactive is a free service that connects you with an independent attorney; we are not a law firm ourselves. Attorneys in the network generally work on contingency, meaning there's no fee unless they recover something for your family."
+        "question": "The other driver is facing criminal charges. Do we have to wait for that case to end?",
+        "answer": "No. A wrongful death claim is a civil action and proceeds separately from any criminal case, with its own rules and its own two-year filing deadline. Waiting for a criminal verdict can put that deadline at risk, especially if a public agency is involved and the window is shorter."
       }
     ]
   }
