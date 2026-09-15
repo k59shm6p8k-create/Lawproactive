@@ -65,6 +65,14 @@ const nextConfig = {
         destination: '/',
         permanent: true,
       },
+      // California City moved to its correct slug (the old /california row was a
+      // bogus "California, pop 111" entry). 301 keeps the old URL's SEO/indexing
+      // and prevents a 404.
+      {
+        source: '/personal-injury-lawyer/california/california',
+        destination: '/personal-injury-lawyer/california/california-city',
+        permanent: true,
+      },
       // Legacy single-city URLs (most specific first)
       {
         source: '/los-angeles',
