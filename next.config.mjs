@@ -19,6 +19,19 @@ const nextConfig = {
   compress: true,
   // 'standalone' es para despliegues en contenedores. Si usas Vercel, esto no es necesario.
   output: 'standalone',
+  // The city/practice pages read their content from data/**/*.json at request
+  // time via fs.readFile(process.cwd() + 'data/...'). Those dynamic paths are
+  // invisible to Next.js's file tracer, so on Vercel the JSON is NOT bundled
+  // into the serverless functions and every city page 404s (fs.readFile ENOENT
+  // -> validateLocation false -> notFound). Force the data files into the
+  // traced bundle for those routes so they resolve at runtime.
+  outputFileTracingIncludes: {
+    '/personal-injury-lawyer/[state]/[city]': ['./data/**/*.json'],
+    '/personal-injury-lawyer/[state]/[city]/[practice]': ['./data/**/*.json'],
+    '/locations': ['./data/**/*.json'],
+    '/sitemap-locations.xml': ['./data/**/*.json'],
+    '/sitemap-categories.xml': ['./data/**/*.json'],
+  },
   reactCompiler: true,
   experimental: {
     // optimizeCss: true, // Puedes probar a habilitarlo para mejorar el CSS.
