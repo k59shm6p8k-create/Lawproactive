@@ -41,6 +41,9 @@ const BANNED: { rule: string; re: RegExp; sev: Sev; why: string; allowIfNegated?
   { rule: 'phone-number', re: /(\(\d{3}\)\s*\d{3}[-.\s]?\d{4}|\b\d{3}[-.]\d{3}[-.]\d{4}\b)/, sev: 'ERROR', why: 'no hardcoded phone numbers' },
   { rule: 'claims-to-be-firm', re: /\bwe are a law firm\b/i, sev: 'ERROR', why: 'LawProactive is a connection service, not a law firm' },
   { rule: 'fake-review', re: /\b(5[- ]star|five[- ]star)\b/i, sev: 'WARN', why: 'reviews are renter-managed in the CMS' },
+  // Stub content from a truncated/failed generation. Must never ship — it renders
+  // the literal word on the page. ERROR so CI blocks it and it gets regenerated.
+  { rule: 'placeholder', re: /\bplaceholder\b/i, sev: 'ERROR', why: 'stub/placeholder copy — regenerate this file' },
 ];
 
 // Negators that, appearing just before a banned stem, turn it into a compliant

@@ -16,27 +16,12 @@
   "about": {
     "title": "Woodlake Medical Malpractice Claims",
     "longDescription": "Woodlake residents rely on a handful of nearby clinics and hospitals in Tulare County for care, and most visits go the way they should. But when a diagnosis is missed, a medication is mismanaged, or a surgical step is skipped, the harm can follow a patient long after they've left the exam room. California law gives injured patients a path to hold providers accountable, but medical malpractice cases move on strict timelines and almost always require review by a qualified medical expert before a claim can go forward. LawProactive doesn't practice law or represent clients directly — we're a free connection service that helps Woodlake residents reach an independent, contingency-fee attorney who can evaluate what happened, explain the notice requirements, and walk through whether the facts support a malpractice claim. There's no upfront cost to get that conversation started, and no obligation attached to asking.rn",
-    "commonInjuriesTitle": "placeholder",
-    "commonInjuries": [
-      "placeholder"
-    ],
-    "ctaText": "placeholder"
+    "commonInjuries": []
   },
   "whyChoose": {
-    "title": "placeholder",
-    "items": [
-      {
-        "title": "placeholder",
-        "desc": "placeholder"
-      }
-    ]
+    "items": []
   },
   "faq": {
-    "items": [
-      {
-        "question": "placeholder",
-        "answer": "placeholder"
-      }
-    ]
+    "items": []
   }
 }

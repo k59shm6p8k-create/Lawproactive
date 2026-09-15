@@ -16,27 +16,12 @@
   "about": {
     "title": "Menlo Park Medical Malpractice Claims",
     "longDescription": "Menlo Park residents rely on a mix of local clinics and larger San Mateo County medical centers, and most visits go the way they should. But when a diagnosis is missed, a surgery goes wrong, or medication is mismanaged, the effects can follow someone for years. California law treats these cases differently than a typical injury claim — there are shorter windows to act, notice requirements before a lawsuit can even be filed, and rules about the kind of expert review a case needs. LawProactive doesn't practice law or take on cases directly; instead, we connect Menlo Park residents with independent attorneys who understand how MICRA shapes a medical malpractice claim from the very first step. If you're unsure whether what happened to you counts as malpractice or simply an unfortunate outcome, talking to someone who reviews these cases regularly can help you understand where you stand.",
-    "commonInjuriesTitle": "placeholder",
-    "commonInjuries": [
-      "placeholder"
-    ],
-    "ctaText": "placeholder"
+    "commonInjuries": []
   },
   "whyChoose": {
-    "title": "placeholder",
-    "items": [
-      {
-        "title": "placeholder",
-        "desc": "placeholder"
-      }
-    ]
+    "items": []
   },
   "faq": {
-    "items": [
-      {
-        "question": "placeholder",
-        "answer": "placeholder"
-      }
-    ]
+    "items": []
   }
 }

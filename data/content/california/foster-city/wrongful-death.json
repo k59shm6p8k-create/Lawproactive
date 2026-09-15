@@ -19,24 +19,12 @@
     "commonInjuriesTitle": "Fatal Crash Circumstances We Commonly Hear About",
     "commonInjuries": [
       ") ,"
-    ],
-    "ctaText": "placeholder"
+    ]
   },
   "whyChoose": {
-    "title": "placeholder",
-    "items": [
-      {
-        "title": "placeholder",
-        "desc": "placeholder"
-      }
-    ]
+    "items": []
   },
   "faq": {
-    "items": [
-      {
-        "question": "placeholder",
-        "answer": "placeholder"
-      }
-    ]
+    "items": []
   }
 }
