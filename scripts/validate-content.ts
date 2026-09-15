@@ -105,10 +105,13 @@ function checkStructure(doc: any, isCity: boolean, add: (s: Sev, r: string, d: s
   // For arrays that means this city serves the GENERIC template copy, identical to every
   // other city that failed the same way: exactly the duplicate content this pipeline
   // exists to prevent. So empty arrays are errors (regenerate), empty headings are not.
+  // `want` is a MINIMUM, not an exact count. A thin array (fewer than `want`)
+  // risks falling back toward generic/duplicate copy, so it is flagged; extra
+  // unique items (e.g. 4 FAQs where 3 are asked) only add value and are fine.
   const countCheck = (arr: any, want: number, label: string) => {
     if (!Array.isArray(arr)) return;
     if (arr.length === 0) add('ERROR', 'empty', `${label} is EMPTY — page falls back to generic template copy (regenerate this file)`);
-    else if (arr.length !== want) add('WARN', 'count', `${label} = ${arr.length} (want ${want})`);
+    else if (arr.length < want) add('WARN', 'count', `${label} = ${arr.length} (want ${want}+)`);
   };
 
   countCheck(doc?.about?.commonInjuries, 6, 'about.commonInjuries');
@@ -134,7 +137,7 @@ function checkStructure(doc: any, isCity: boolean, add: (s: Sev, r: string, d: s
   if (isCity) {
     need(Array.isArray(doc?.painPoints?.items), 'missing', 'painPoints.items');
     const pp = doc?.painPoints?.items;
-    if (Array.isArray(pp) && pp.length !== 4) add('WARN', 'count', `painPoints.items = ${pp.length} (want 4)`);
+    if (Array.isArray(pp) && pp.length < 4) add('WARN', 'count', `painPoints.items = ${pp.length} (want 4+)`);
   }
 
   // Every generated page must disclaim the firm relationship somewhere.
