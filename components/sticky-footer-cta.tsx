@@ -98,7 +98,7 @@ export function StickyFooterCTA({ city, state }: StickyFooterCTAProps) {
           <TwoStepLeadModal
             trigger={
               <Button
-                className="text-white font-bold transition-all duration-300 hover:opacity-90"
+                className="cta-glow text-white font-bold transition-all duration-300 hover:opacity-90"
                 style={{ backgroundColor: '#e06e00', borderColor: '#e06e00' }}
               >
                 Get My Free Case Review

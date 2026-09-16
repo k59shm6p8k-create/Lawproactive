@@ -74,6 +74,92 @@ body {
     color: white !important;
     border-color: #0B6B65;
   }
+
+  /* ── CTA glow + shine ──
+     Applied to the primary conversion buttons. A soft, slow pulsing glow
+     draws the eye, and a periodic diagonal "shine" sweeps across the face.
+     Uses ::before as a non-interactive overlay so it never blocks clicks. */
+  .cta-glow {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+    animation: cta-pulse 2.8s ease-in-out infinite;
+  }
+
+  .cta-glow::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -75%;
+    width: 50%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+    background: linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.55) 50%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    transform: skewX(-20deg);
+    animation: cta-shine 4.2s ease-in-out infinite;
+  }
+
+  /* Keep label/icons above the shine overlay */
+  .cta-glow > * {
+    position: relative;
+    z-index: 2;
+  }
+
+  @keyframes cta-pulse {
+    0%,
+    100% {
+      box-shadow: 0 0 0 0 rgba(224, 110, 0, 0);
+      filter: brightness(1);
+    }
+    50% {
+      box-shadow: 0 0 22px 4px rgba(224, 110, 0, 0.55);
+      filter: brightness(1.06);
+    }
+  }
+
+  /* Teal variant for the teal-background CTAs */
+  .cta-glow-teal {
+    animation-name: cta-pulse-teal;
+  }
+  @keyframes cta-pulse-teal {
+    0%,
+    100% {
+      box-shadow: 0 0 0 0 rgba(11, 107, 101, 0);
+      filter: brightness(1);
+    }
+    50% {
+      box-shadow: 0 0 22px 4px rgba(11, 107, 101, 0.55);
+      filter: brightness(1.06);
+    }
+  }
+
+  @keyframes cta-shine {
+    0% {
+      left: -75%;
+    }
+    /* Sweep quickly, then rest until the next cycle */
+    35%,
+    100% {
+      left: 130%;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cta-glow,
+  .cta-glow-teal {
+    animation: none;
+  }
+  .cta-glow::before {
+    animation: none;
+    display: none;
+  }
 }
 
 @layer base {

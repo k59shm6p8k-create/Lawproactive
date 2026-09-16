@@ -34,6 +34,7 @@ import { getLawyerForTerritory } from "@/lib/get-lawyer-for-territory"
 import { getStateLawInfo } from "@/data/state-laws"
 import { generateAccidentStats } from "@/data/accident-stats"
 import { getAccidentData } from "@/lib/get-accident-data"
+import { getLocalResources } from "@/lib/get-local-resources"
 
 // Import animation components
 import {
@@ -138,6 +139,9 @@ export default async function PersonalInjuryLanding({ params }: PageProps) {
 
   // Get state-specific legal information
   const stateLawInfo = getStateLawInfo(paramState)
+
+  // Web-verified local resources for this city (null until verified → safe fallback).
+  const localResources = paramState === 'california' ? await getLocalResources(paramCity) : null
 
   // Fetch real SWITRS crash data for this city (California-only, where loaded).
   // Falls back to the modeled estimate below when no real data exists.
@@ -310,7 +314,7 @@ export default async function PersonalInjuryLanding({ params }: PageProps) {
                   trigger={
                     <Button
                       size="lg"
-                      className="text-white font-bold text-lg px-8 py-4 mb-8 shadow-2xl hover:opacity-90"
+                      className="cta-glow text-white font-bold text-lg px-8 py-4 mb-8 shadow-2xl hover:opacity-90"
                       style={{ backgroundColor: '#e06e00' }}
                     >
                       {config.hero.ctaText}
@@ -519,7 +523,7 @@ export default async function PersonalInjuryLanding({ params }: PageProps) {
               <AnimatedButton magneticStrength={0.2} hoverScale={1.05}>
                 <TwoStepLeadModal
                   trigger={
-                    <Button size="lg" className="text-white font-bold text-lg px-8 py-4 shadow-xl hover:opacity-90" style={{ backgroundColor: '#e06e00' }}>
+                    <Button size="lg" className="cta-glow text-white font-bold text-lg px-8 py-4 shadow-xl hover:opacity-90" style={{ backgroundColor: '#e06e00' }}>
                       {config.painPoints.ctaText}
                     </Button>
                   }
@@ -568,7 +572,7 @@ export default async function PersonalInjuryLanding({ params }: PageProps) {
                 <AnimatedButton magneticStrength={0.2} hoverScale={1.05}>
                   <TwoStepLeadModal
                     trigger={
-                      <Button size="lg" className="text-white font-bold text-lg px-8 py-4 shadow-xl hover:opacity-90" style={{ backgroundColor: '#0B6B65' }}>
+                      <Button size="lg" className="cta-glow cta-glow-teal text-white font-bold text-lg px-8 py-4 shadow-xl hover:opacity-90" style={{ backgroundColor: '#0B6B65' }}>
                         {config.valueProp.ctaText}
                       </Button>
                     }
@@ -615,7 +619,7 @@ export default async function PersonalInjuryLanding({ params }: PageProps) {
                 <AnimatedButton magneticStrength={0.2} hoverScale={1.05}>
                   <TwoStepLeadModal
                     trigger={
-                      <Button size="lg" className="text-white font-bold text-lg px-8 py-4 shadow-xl hover:opacity-90" style={{ backgroundColor: '#0B6B65' }}>
+                      <Button size="lg" className="cta-glow cta-glow-teal text-white font-bold text-lg px-8 py-4 shadow-xl hover:opacity-90" style={{ backgroundColor: '#0B6B65' }}>
                         {config.howItWorks.ctaText}
                       </Button>
                     }
@@ -653,7 +657,7 @@ export default async function PersonalInjuryLanding({ params }: PageProps) {
               <AnimatedButton magneticStrength={0.2} hoverScale={1.05}>
                 <TwoStepLeadModal
                   trigger={
-                    <Button size="lg" className="text-white font-bold text-lg px-8 py-4 shadow-xl hover:opacity-90" style={{ backgroundColor: '#e06e00' }}>
+                    <Button size="lg" className="cta-glow text-white font-bold text-lg px-8 py-4 shadow-xl hover:opacity-90" style={{ backgroundColor: '#e06e00' }}>
                       {config.riskReversal.ctaText}
                     </Button>
                   }
@@ -875,6 +879,7 @@ export default async function PersonalInjuryLanding({ params }: PageProps) {
           cityName={city}
           stateName={state}
           landmark={cityData.localStats.landmark}
+          resources={localResources}
         />
 
         {/* City Google Map Section */}
