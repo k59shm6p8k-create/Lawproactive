@@ -136,11 +136,10 @@ async function status() {
 async function fetchBatch() {
   const id = process.argv[3];
   const client = makeClient();
-  const files: string[] = JSON.parse(await fs.readFile(`/tmp/wl/${id}.json`, 'utf8').catch(() => '[]'));
-  const byId = new Map(files.map((rel) => [Buffer.from(rel).toString('base64url').slice(0, 64), rel]));
   let ok = 0, fail = 0;
   for await (const entry of await client.messages.batches.results(id)) {
-    const rel = byId.get(entry.custom_id); if (!rel) continue;
+    // custom_id is base64url(relPath); decode directly so we don't depend on any temp file.
+    const rel = Buffer.from(entry.custom_id, 'base64url').toString('utf8'); if (!rel) continue;
     if (entry.result.type !== 'succeeded') { fail++; console.error('FAIL', rel, entry.result.type); continue; }
     try {
       const text = entry.result.message.content.filter((c: any) => c.type === 'text').map((c: any) => c.text).join('');
