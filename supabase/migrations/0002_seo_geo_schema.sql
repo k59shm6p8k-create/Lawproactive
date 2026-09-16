@@ -289,6 +289,31 @@ from public.page_seo s
 where s.sitemap_include is true and s.noindex is false;
 
 -- ============================================================================
+-- GEO helper: nearest active cities to a point (used by lib/db/geo.ts)
+-- Returns cities within radius_km, closest first, with distance in meters.
+-- ============================================================================
+create or replace function public.nearby_cities(
+  lat double precision,
+  lng double precision,
+  radius_km double precision default 80,
+  max_rows integer default 20
+)
+returns table (
+  id uuid, name text, slug citext, state_code char(2),
+  latitude double precision, longitude double precision, distance_m double precision
+)
+language sql stable as $$
+  select c.id, c.name, c.slug, c.state_code, c.latitude, c.longitude,
+         st_distance(c.geog, st_setsrid(st_makepoint(lng, lat), 4326)::geography) as distance_m
+  from public.cities c
+  where c.status = 'active'
+    and c.geog is not null
+    and st_dwithin(c.geog, st_setsrid(st_makepoint(lng, lat), 4326)::geography, radius_km * 1000)
+  order by c.geog <-> st_setsrid(st_makepoint(lng, lat), 4326)::geography
+  limit max_rows;
+$$;
+
+-- ============================================================================
 -- ROW LEVEL SECURITY
 --   * Geo / SEO / content / practice_areas  -> public READ (anon).
 --   * leads   -> public INSERT only (no read) so the site can capture, but

@@ -4,8 +4,19 @@ A production-ready Postgres/Supabase schema for the programmatic personal-injury
 platform, plus a seeder that fills it from the data already in this repo.
 
 ## Files
-- `migrations/0002_seo_geo_schema.sql` — the schema (tables, indexes, RLS, a sitemap view).
+- `migrations/0002_seo_geo_schema.sql` — the schema (tables, indexes, RLS, `nearby_cities()` function, sitemap view).
 - `../scripts/seed-seo-geo.ts` — populates it from repo data (idempotent; safe to re-run).
+- `../lib/db/` — **turnkey Next.js data-access layer** (typed helpers, fail-safe). Import from `@/lib/db`.
+
+## Next.js integration (already written — just import)
+No queries to hand-write. From `@/lib/db`:
+- `getPageSeo(path)` + `toNextMetadata(seo)` + `getJsonLd(seo)` — drop into `generateMetadata()`.
+- `getCityBySlug(state, slug)`, `listCities(state)`, `getNearbyCities(lat, lng, km)` — geo + "near me".
+- `createLead(input, { ipHash, userAgent })` — the lead form's submit (whitelists fields).
+- `getActiveAttorney(state, city, practice?)` — who rented the territory (else show the "available" card).
+- `getRedirect(path)` — DB-driven 301/302s for `middleware.ts`.
+
+Every helper returns `null` / `[]` / `{ ok:false }` on any error, so the site never crashes on a DB issue. Types for every table live in `lib/db/database.types.ts`.
 
 ## Apply it (2 steps)
 ```bash
