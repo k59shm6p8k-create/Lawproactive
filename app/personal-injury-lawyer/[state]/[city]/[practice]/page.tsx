@@ -236,7 +236,7 @@ export default async function PracticeAreaPage({ params }: PageProps) {
                     trigger={
                       <Button
                         size="lg"
-                        className="text-white font-bold text-lg px-8 py-4 mb-8 shadow-2xl hover:opacity-90"
+                        className="text-white font-bold text-base md:text-lg px-6 md:px-8 py-4 mb-8 h-auto whitespace-normal text-center leading-snug max-w-[calc(100vw-2rem)] md:max-w-none shadow-2xl hover:opacity-90"
                         style={{ backgroundColor: '#e06e00' }}
                       >
                         {config.hero.ctaText}
@@ -326,7 +326,7 @@ export default async function PracticeAreaPage({ params }: PageProps) {
                     trigger={
                       <Button
                         size="lg"
-                        className="text-white font-bold text-lg px-8 py-4 shadow-xl hover:opacity-90"
+                        className="text-white font-bold text-base md:text-lg px-6 md:px-8 py-4 h-auto whitespace-normal text-center leading-snug max-w-[calc(100vw-2rem)] md:max-w-none shadow-xl hover:opacity-90"
                         style={{ backgroundColor: '#0B6B65' }}
                       >
                         {config.about?.ctaText || `Discuss Your ${practiceArea.name} Case`}
@@ -481,7 +481,7 @@ export default async function PracticeAreaPage({ params }: PageProps) {
                   trigger={
                     <Button
                       size="lg"
-                      className="text-white font-bold text-lg px-8 py-4 shadow-2xl hover:opacity-90"
+                      className="text-white font-bold text-base md:text-lg px-6 md:px-8 py-4 h-auto whitespace-normal text-center leading-snug max-w-[calc(100vw-2rem)] md:max-w-none shadow-2xl hover:opacity-90"
                       style={{ backgroundColor: '#e06e00' }}
                     >
                       Get My Free Case Evaluation
