@@ -82,9 +82,21 @@ async function rewriteDoc(client: Anthropic, doc: any): Promise<any> {
 }
 function fileFor(rel: string) { return path.join(CA, rel.endsWith('.json') ? rel : rel + '.json'); }
 
+const VALUE_FLAGS = new Set(['--model', '--limit', '--only']);
+function positionalArgs(): string[] {
+  const out: string[] = [];
+  const args = process.argv.slice(3);
+  for (let i = 0; i < args.length; i++) {
+    const a = args[i];
+    if (a.startsWith('--')) { if (VALUE_FLAGS.has(a)) i++; continue; }
+    out.push(a);
+  }
+  return out;
+}
+
 async function proof() {
   const write = process.argv.includes('--write');
-  const targets = process.argv.slice(3).filter((a) => !a.startsWith('--'));
+  const targets = positionalArgs();
   const client = makeClient();
   for (const t of targets) {
     const file = fileFor(t);
