@@ -1,0 +1,22 @@
+{
+  "city_slug": "american-canyon",
+  "county": "Napa",
+  "hospital": null,
+  "police": {
+    "name": "American Canyon Police Department",
+    "type": "contract_pd",
+    "address": "911 Donaldson Way East, American Canyon, CA 94503",
+    "phone": null,
+    "source_url": "https://www.cityofamericancanyon.org/government/public-safety/police",
+    "snippet": "If you were the victim in a crime, or involved in a traffic accident, you may request a copy of that report from the American Canyon Police Department (911 Donaldson Way, American Canyon), Monday through Friday from 8 AM - 5 PM.",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:54:25.325Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

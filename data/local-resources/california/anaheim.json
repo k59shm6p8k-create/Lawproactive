@@ -1,0 +1,36 @@
+{
+  "city_slug": "anaheim",
+  "county": "Orange",
+  "hospital": {
+    "name": "AHMC Anaheim Regional Medical Center",
+    "address": "1111 West La Palma Avenue Anaheim, CA 92801",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/ahmc-anaheim-regional-medical-center/",
+    "snippet": "Address: 1111 West La Palma Avenue Anaheim, CA 92801",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Anaheim Police Department",
+    "type": "city_pd",
+    "address": "425 S Harbor Boulevard Anaheim, CA 92805",
+    "phone": null,
+    "source_url": "https://pd.anaheim.net/218/View",
+    "snippet": "425 S Harbor Boulevard Anaheim, CA 92805",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "Fullerton DMV Office",
+    "address": "909 W. Valencia Drive, Fullerton, CA 92832",
+    "phone": null,
+    "source_url": "https://www.dmv.ca.gov/portal/business-partner/aaa-anaheim-branch/",
+    "snippet": "Fullerton DMV Office · 909 W. Valencia Drive, Fullerton, CA 92832",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:54:40.394Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

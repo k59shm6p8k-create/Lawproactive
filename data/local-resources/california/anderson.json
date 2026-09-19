@@ -1,0 +1,29 @@
+{
+  "city_slug": "anderson",
+  "county": "Shasta",
+  "hospital": null,
+  "police": {
+    "name": "Anderson Police Department",
+    "type": "city_pd",
+    "address": "2220 North Street, Anderson, CA 96007",
+    "phone": "530-378-6600",
+    "source_url": "https://www.ci.anderson.ca.us/departments/police/index.php",
+    "snippet": "530 378 6600 2220 North St., Anderson, 96007",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "DMV Partner - Coastal Valley Property Records & Services (CVPRS)",
+    "address": "19902 Hirsch Court, Anderson, CA 96007",
+    "phone": "1-530-378-6962",
+    "source_url": "https://www.dmv.ca.gov/portal/business-partner/cvprs/",
+    "snippet": "19902 Hirsch Court, Anderson, CA 96007 1-530-378-6962",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:55:07.212Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}
