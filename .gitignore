@@ -49,3 +49,8 @@ next-env.d.ts
 Thumbs.db
 # silo pipeline runtime batch state
 scripts/generate-silos/.batches/
+
+# local dev server log & scratch scripts
+dev.log
+_*.mjs
+_*.out
