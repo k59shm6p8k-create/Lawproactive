@@ -1,0 +1,29 @@
+{
+  "city_slug": "cudahy",
+  "county": "Los Angeles",
+  "hospital": null,
+  "police": {
+    "name": "Los Angeles County Sheriff's Department - East LA Station",
+    "type": "sheriff",
+    "address": "5019 E. Third St, East Los Angeles, CA 90022",
+    "phone": "(323) 264-4151",
+    "source_url": "https://lasd.org/east-los-angeles/",
+    "snippet": "(323) 264-4151 5019 E. Third St. East Los Angeles, CA 90022 · Serving the areas of: City of Commerce, City of Cudahy, City of Maywood",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California DMV - Cudahy",
+    "address": "7910 Atlantic Blvd, Suite L, Cudahy, CA 90201",
+    "phone": null,
+    "source_url": "https://www.dmv.ca.gov/portal/business-partner/cudahy-7910-atlantic-bl-ste-l/",
+    "snippet": "Cudahy - 7910 Atlantic Bl Ste L - California DMV",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:12:29.373Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

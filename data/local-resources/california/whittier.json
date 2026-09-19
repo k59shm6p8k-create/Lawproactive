@@ -1,0 +1,45 @@
+{
+  "city_slug": "whittier",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Whittier Hospital Medical Center",
+    "address": "9080 Colima Road, Whittier, CA 90605",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/whittier-hospital-medical-center/",
+    "snippet": "Address: 9080 Colima Road Whittier, CA 90605",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Whittier Police Department",
+    "type": "city_pd",
+    "address": "13200 Penn Street, Whittier, CA 90602",
+    "phone": null,
+    "source_url": "https://www.cityofwhittier.org/government/police/about-the-wpd",
+    "snippet": "The new station opened on October 26, 2010 and resides on the west side of City Hall at 13200 Penn Street.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Southeast District - Whittier Courthouse",
+    "serves_note": "Jurisdiction over La Habra Heights, Pico Rivera, Santa Fe Springs and Whittier",
+    "address": "7339 South Painter Avenue, Whittier, CA 90602",
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176788/los-angeles-county-superior-court---southeast-district---whittier-courthouse",
+    "snippet": "Address: 7339 S. Painter Ave. Whittier CA 90602",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Santa Fe Springs Area",
+    "address": "10051 Orr and Day Road, Santa Fe Springs, CA 90670",
+    "phone": null,
+    "source_url": "https://m.chp.ca.gov/office.aspx",
+    "snippet": "Santa Fe Springs 10051 Orr and Day Rd. Santa Fe Springs, CA 90670-3597",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:24:08.778Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

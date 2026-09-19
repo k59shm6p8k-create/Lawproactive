@@ -1,0 +1,38 @@
+{
+  "city_slug": "portola",
+  "county": "Plumas",
+  "hospital": {
+    "name": "Eastern Plumas Hospital-Portola Campus",
+    "address": "500 1st Ave, Portola, CA 96122",
+    "phone": "(530) 832-6500",
+    "source_url": "https://www.ephc.org/",
+    "snippet": "500 1st Ave. Portola, CA 96122 (530) 832-6500",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Plumas County Sheriff's Office",
+    "type": "contract_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.cityofportola.gov/law-enforcement",
+    "snippet": "The Plumas County Sheriff's Office is under contract to provide law enforcement services within the City.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Plumas",
+    "branch": "Portola-Loyalton Courthouse",
+    "serves_note": "Serves Plumas and Sierra Counties",
+    "address": null,
+    "phone": null,
+    "source_url": "https://courts.ca.gov/facilities/plumassierra-counties-plumassierra-regional-courthouse",
+    "snippet": "Built to serve the needs of both Plumas and Sierra Superior Courts, the Portola-Loyalton Courthouse is the first multi-jurisdictional courthouse built in the state.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:57:10.300Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

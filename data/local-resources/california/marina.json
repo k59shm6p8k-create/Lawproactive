@@ -1,0 +1,22 @@
+{
+  "city_slug": "marina",
+  "county": "Monterey",
+  "hospital": null,
+  "police": {
+    "name": "Marina Police Department",
+    "type": "city_pd",
+    "address": "211 Hillcrest Avenue, Marina, CA 93933",
+    "phone": null,
+    "source_url": "https://www.cityofmarina.org/directory.aspx?did=3",
+    "snippet": "211 Hillcrest Avenue Marina, CA 93933",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:41:41.174Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

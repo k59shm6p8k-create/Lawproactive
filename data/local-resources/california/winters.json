@@ -1,0 +1,22 @@
+{
+  "city_slug": "winters",
+  "county": "Yolo",
+  "hospital": null,
+  "police": {
+    "name": "Winters Police Department",
+    "type": "city_pd",
+    "address": "318 1st Street, Winters, CA 95694",
+    "phone": "530-795-4910",
+    "source_url": "https://www.cityofwinters.org/158/Police",
+    "snippet": "318 1st Street · Winters, CA 95694 · Phone: 530-795-4910",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:25:16.723Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "city_slug": "belvedere",
+  "county": "Marin",
+  "hospital": null,
+  "police": {
+    "name": "Belvedere Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "(415) 435-3266",
+    "source_url": "https://www.cityofbelvedere.org/question/how-do-i-contact-police-personnel/",
+    "snippet": "For non-emergencies, please call (415) 435-3266.",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Marin",
+    "branch": "Civic Center, Hall of Justice",
+    "serves_note": "Serves Marin County civil filings; civil clerk located in Room 113",
+    "address": null,
+    "phone": "(415) 444-7040",
+    "source_url": "https://www.marin.courts.ca.gov/general-information/contact-us",
+    "snippet": "Phone: (415) 444-7040 Email: civil@marin.courts.ca.gov Location: Civic Center, Hall of Justice, Room 113",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:59:42.991Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

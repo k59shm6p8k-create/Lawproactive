@@ -1,0 +1,22 @@
+{
+  "city_slug": "holtville",
+  "county": "Imperial",
+  "hospital": null,
+  "police": {
+    "name": "Imperial County Sheriff's Office",
+    "type": "contract_pd",
+    "address": "585 Fern Avenue, Holtville, CA 92250",
+    "phone": "(760) 356-2991",
+    "source_url": "https://www.holtville.ca.gov/departments/public-safety/law-enforcement/",
+    "snippet": "The Holtville Police Department and the Holtville Fire Department are located in the same facility at 585 Fern Avenue, Holtville, CA 92250. The non-emergency phone number for the Holtville Police Department is (760) 356-2991.",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:28:22.057Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

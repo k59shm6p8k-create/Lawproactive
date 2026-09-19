@@ -1,0 +1,38 @@
+{
+  "city_slug": "coalinga",
+  "county": "Fresno",
+  "hospital": {
+    "name": "Coalinga Regional Medical Center",
+    "address": "1191 Phelps Avenue, Coalinga, CA 93210",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/coalinga-regional-medical-center/",
+    "snippet": "Address: 1191 Phelps Avenue Coalinga, CA 93210",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Coalinga Police Department",
+    "type": "city_pd",
+    "address": "270 N 6th Street, Coalinga, CA 93210",
+    "phone": "(559) 935-1525",
+    "source_url": "https://www.coalinga.com/Directory.aspx?did=16",
+    "snippet": "270 N 6th Street Coalinga , CA 93210Phone: 559-935-1525",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Fresno",
+    "branch": "Coalinga Branch",
+    "serves_note": "Serves Coalinga and surrounding area for civil, criminal, family law, probate, and juvenile proceedings",
+    "address": "160 W. Elm Street, Coalinga, CA 93210",
+    "phone": null,
+    "source_url": "https://www.fresno.courts.ca.gov/",
+    "snippet": "160 W. Elm Street, Coalinga, CA 93210 Fresno County · Court System Type: Civil, Criminal",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:09:14.926Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

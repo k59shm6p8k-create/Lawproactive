@@ -1,0 +1,38 @@
+{
+  "city_slug": "nevada-city",
+  "county": "Nevada",
+  "hospital": {
+    "name": "Sierra Nevada Memorial Hospital",
+    "address": "155 Glasson Way, Grass Valley, CA 95945",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/sierra-nevada-memorial-hospital/",
+    "snippet": "Address: 155 Glasson Way Grass Valley, CA 95945",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Nevada City Police Department",
+    "type": "city_pd",
+    "address": "317 Broad Street, Nevada City, CA 95959",
+    "phone": "530-265-4700",
+    "source_url": "https://www.nevadacityca.gov/276/Police-Department",
+    "snippet": "317 Broad Street Nevada City, CA 95959Phone: 530-265-4700",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Nevada",
+    "branch": "Nevada City Courthouse",
+    "serves_note": "Handles civil cases for Nevada City and Truckee area",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.nevada.courts.ca.gov/divisions/civil-division",
+    "snippet": "The Civil Division handles cases involving disputes between private parties filed in Nevada City and Truckee.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:47:43.653Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

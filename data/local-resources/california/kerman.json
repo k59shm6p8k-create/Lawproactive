@@ -1,0 +1,36 @@
+{
+  "city_slug": "kerman",
+  "county": "Fresno",
+  "hospital": {
+    "name": "United Health Centers of the San Joaquin Valley",
+    "address": "517 S Madera Ave Kerman, CA 93630",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/united-health-centers-of-the-san-joaquin-valley-3/",
+    "snippet": "Address: 517 S Madera Ave Kerman, CA 93630",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Kerman Police Department",
+    "type": "city_pd",
+    "address": "850 S Madera Avenue Kerman, CA 93630",
+    "phone": "559-550-0559",
+    "source_url": "https://www.cityofkerman.gov/Directory.aspx?did=24",
+    "snippet": "850 S Madera Avenue Kerman, CA 93630 Phone: 559-550-0559",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol Fresno Area",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/central-division/offices/(435)-fresno",
+    "snippet": "officers patrolling over 4,045 miles of freeways and unincorporated roadways in and around the cities of Clovis, Reedley, Sanger, Selma, Kingsburg, Kerman, Fresno",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:31:49.501Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

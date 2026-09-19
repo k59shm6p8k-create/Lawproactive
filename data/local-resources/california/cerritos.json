@@ -1,0 +1,38 @@
+{
+  "city_slug": "cerritos",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "College Hospital Cerritos",
+    "address": null,
+    "phone": null,
+    "source_url": "https://en.wikipedia.org/wiki/College_Hospital",
+    "snippet": "College Hospital is an acute psychiatric hospital in Cerritos, California.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Los Angeles County Sheriff's Department - Cerritos Station",
+    "type": "sheriff",
+    "address": null,
+    "phone": "(562) 860-0044",
+    "source_url": "https://lasd.org/cerritos/",
+    "snippet": "contact Cerritos Station via phone at (562) 860-0044",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Bellflower Courthouse",
+    "serves_note": "Serves Artesia, Bellflower, Cerritos, Hawaiian Gardens, Lakewood, and Norwalk",
+    "address": null,
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176783/los-angeles-county-superior-court---southeast-district---bellflower-courthouse",
+    "snippet": "This state trial court is an L A County Superior Court with jurisdiction over cases that take place in Artesia, Bellflower, Cerritos, Hawaiian Gardens, Lakewood, and Norwalk.",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:06:39.788Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

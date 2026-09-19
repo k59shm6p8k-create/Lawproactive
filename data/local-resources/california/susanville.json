@@ -1,0 +1,45 @@
+{
+  "city_slug": "susanville",
+  "county": "Lassen",
+  "hospital": {
+    "name": "Banner Lassen Medical Center",
+    "address": "1800 Spring Ridge Drive, Susanville, CA 96130",
+    "phone": "530-252-2000",
+    "source_url": "https://www.bannerhealth.com/locations/susanville/banner-lassen-medical-center",
+    "snippet": "Address: 1800 Spring Ridge Drive Susanville, CA 96130 · 530-252-2000",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Susanville Police Department",
+    "type": "city_pd",
+    "address": "1801 Main Street, Susanville, CA 96130",
+    "phone": "530-257-5603",
+    "source_url": "https://www.cityofsusanville.gov/directory.aspx?did=9",
+    "snippet": "1801 Main Street Susanville , CA 96130Phone: 530-257-5603 | 24-Hour Dispatch: 530-257-2171",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Lassen",
+    "branch": "Hall of Justice",
+    "serves_note": "Serves all of Lassen County; located in county seat of Susanville",
+    "address": "2610 Riverside Drive, Susanville, CA 96130",
+    "phone": "(530) 251-8205",
+    "source_url": "https://www.lassen.courts.ca.gov/general-information/location-directions",
+    "snippet": "Hall of Justice 2610 Riverside DriveSusanville, CA 96130 (530) 251-8205",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Susanville",
+    "address": "472-400 Diamond Crest Road, Susanville, CA 96130-5001",
+    "phone": "530-257-2191",
+    "source_url": "https://www.chp.ca.gov/find-an-office/northern-division/140-susanville/",
+    "snippet": "Susanville 472-400 Diamond Crest Roa Susanville, CA 96130-5001 · Phone (530) 257-2191",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:15:19.319Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "city_slug": "san-jacinto",
+  "county": "Riverside",
+  "hospital": null,
+  "police": {
+    "name": "San Jacinto Police Department",
+    "type": "contract_pd",
+    "address": "160 W. Sixth Street San Jacinto CA 92583",
+    "phone": "(951) 654-2702",
+    "source_url": "https://www.sanjacintoca.gov/city_departments/public-safety/police-department",
+    "snippet": "Contact Information San Jacinto Police Department 160 W. Sixth Street San Jacinto CA 92583 Phone: (951) 654-2702",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Riverside",
+    "branch": "Hemet Branch",
+    "serves_note": "San Jacinto civil cases file at Hemet courthouse; Corona Branch handles small claims, family law, eviction, and traffic",
+    "address": "880 N. State Street Hemet, CA 92543",
+    "phone": null,
+    "source_url": "https://www.riverside.courts.ca.gov/general-information/locations-contact-info",
+    "snippet": "Hemet Court 880 N. State Street Hemet, CA 92543",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "CHP San Gorgonio Pass Area",
+    "address": "195 Highland Springs Ave. Beaumont, CA 92223",
+    "phone": "(951) 769-2000",
+    "source_url": "https://www.chp.ca.gov/find-an-office/border-division/655-san-gorgonio-pass/",
+    "snippet": "195 S. Highland Springs Avenue Beaumont, CA 92223 (951) 769-2000",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:05:20.851Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

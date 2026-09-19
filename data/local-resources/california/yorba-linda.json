@@ -1,0 +1,36 @@
+{
+  "city_slug": "yorba-linda",
+  "county": "Orange",
+  "hospital": {
+    "name": "UCI Health — Yorba Linda",
+    "address": "18637 Yorba Linda Boulevard, Yorba Linda, CA 92886",
+    "phone": null,
+    "source_url": "https://www.wellness.com/dir/6661662/hospital/uci-health-yorba-linda/yorba-linda/ca",
+    "snippet": "UCI Health — Yorba Linda is a Hospital at 18637 Yorba Linda Boulevard, Yorba Linda, CA 92886",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Orange County Sheriff's Department (Yorba Linda Police Services)",
+    "type": "contract_pd",
+    "address": "20994 Yorba Linda Boulevard, Yorba Linda, CA 92887",
+    "phone": "(714) 779-7098",
+    "source_url": "https://www.ocsheriff.gov/location/yorba-linda-police-services",
+    "snippet": "Yorba Linda contracts with the Orange County Sheriff's Department for law enforcement services. Location: 20994 Yorba Linda Boulevard Yorba Linda, CA 92887 United States Phone: (714) 779-7098",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol — Santa Ana",
+    "address": "2031 E. Santa Clara Ave., Santa Ana, CA 92705-7838",
+    "phone": null,
+    "source_url": "https://m.chp.ca.gov/office.aspx",
+    "snippet": "Santa Ana 2031 E. Santa Clara Ave. Santa Ana, CA 92705-7838",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:26:02.174Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

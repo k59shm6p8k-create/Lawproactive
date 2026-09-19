@@ -1,0 +1,45 @@
+{
+  "city_slug": "upland",
+  "county": "San Bernardino",
+  "hospital": {
+    "name": "San Antonio Regional Hospital",
+    "address": "999 San Bernardino Road, Upland, CA 91786",
+    "phone": null,
+    "source_url": "https://www.sarh.org/services/emergency-services",
+    "snippet": "24-Hour Emergency Department 999 San Bernardino Road, Upland, California 91786",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Upland Police Department",
+    "type": "city_pd",
+    "address": "1499 W. 13th St, Upland, CA 91786",
+    "phone": "909-946-7624",
+    "source_url": "https://www.uplandca.gov/police/",
+    "snippet": "Upland Police Department 1499 W. 13th St. Upland, CA 91786 · Business Line (909) 946-7624",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Bernardino",
+    "branch": "Rancho Cucamonga District",
+    "serves_note": "Serves Upland and surrounding cities (Alta Loma, Chino, Chino Hills, Etiwanda, Guasti, Montclair, Ontario, Rancho Cucamonga, parts of Pomona, Mt. Baldy) for civil filings",
+    "address": null,
+    "phone": null,
+    "source_url": "https://sanbernardino.courts.ca.gov/general-information/where-can-i-file",
+    "snippet": "Alta Loma, Chino, Chino Hills, Etiwanda, Guasti, Montclair, Ontario, Rancho Cucamonga, Upland, parts of Pomona, and unincorporated areas of Mt. Baldy.",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Rancho Cucamonga Area",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/inland-division/855-rancho-cucamonga/",
+    "snippet": "our office patrols over 250 square miles of freeways and unincorporated roadways in and around the cities of Chino, Chino Hills, Fontana, Montclair, Ontario, Rancho Cucamonga, Upland, Mt. Baldy, and San Antonio Heights.",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:19:41.287Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

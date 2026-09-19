@@ -1,0 +1,31 @@
+{
+  "city_slug": "sutter-creek",
+  "county": "Amador",
+  "hospital": null,
+  "police": {
+    "name": "Sutter Creek Police Department",
+    "type": "city_pd",
+    "address": "18 Main Street, Sutter Creek, CA 95685",
+    "phone": null,
+    "source_url": "https://www.cityofsuttercreek.org/police-department",
+    "snippet": "Sutter Creek Police Department, 18 Main Street, Sutter Creek, CA 95685, Phone: 209-267-5647",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Amador",
+    "branch": "Jackson Courthouse",
+    "serves_note": "Serves all of Amador County including Sutter Creek; civil filings accepted at main location and satellite office in Sutter Creek",
+    "address": "500 Argonaut Lane, Jackson, CA 95642",
+    "phone": null,
+    "source_url": "https://amador.courts.ca.gov/divisions/civil",
+    "snippet": "All documents are filed at the Clerks Office, located at 500 Argonaut Lane, Jackson, CA.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:15:34.194Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "city_slug": "avenal",
+  "county": "Kings",
+  "hospital": null,
+  "police": {
+    "name": "Avenal Police Department",
+    "type": "city_pd",
+    "address": "317 Alpine Street, Avenal, CA 93204",
+    "phone": "559-386-4444",
+    "source_url": "https://www.cityofavenal.gov/307/Community-Response-Team",
+    "snippet": "Office Location: 317 Alpine Street Avenal, CA 93204 · Contact Information: Ph: 559-386-4444",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "Hanford CHP",
+    "address": "1565 Glendale Ave., Hanford, CA 93230-0831",
+    "phone": "559-582-0231",
+    "source_url": "https://cad.chp.ca.gov/htm.net/locations.htm",
+    "snippet": "HANFORD CHP 1565 Glendale Ave. Hanford 93230-0831 559-582-0231",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:57:38.403Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

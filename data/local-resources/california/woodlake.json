@@ -1,0 +1,29 @@
+{
+  "city_slug": "woodlake",
+  "county": "Tulare",
+  "hospital": {
+    "name": "Family Healthcare Network",
+    "address": "201 E Lakeview Ave, Woodlake, CA 93286",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/family-healthcare-network-9/",
+    "snippet": "Address: 201 E Lakeview Ave Woodlake, CA 93286",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Woodlake Police Department",
+    "type": "city_pd",
+    "address": "350 N. Valencia Blvd., Woodlake, CA 93286",
+    "phone": "(559) 564-3346",
+    "source_url": "https://cityofwoodlake.com/departments/police/",
+    "snippet": "350 N. Valencia Blvd., Woodlake, CA 93286 (559) 564-3346",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:25:27.447Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

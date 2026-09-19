@@ -1,0 +1,30 @@
+{
+  "city_slug": "mammoth-lakes",
+  "county": "Mono",
+  "hospital": {
+    "name": "Mammoth Hospital",
+    "address": "85 Sierra Park Road, Mammoth Lakes, CA 93546",
+    "phone": null,
+    "source_url": "https://mammothhospital.org/about-us/locations/",
+    "snippet": "Mammoth Hospital Emergency Department 85 Sierra Park Road Mammoth Lakes, CA 93546 760-924-4076",
+    "confidence": "review"
+  },
+  "police": null,
+  "court": {
+    "court_name": "Superior Court of California, County of Mono",
+    "branch": "South County Branch",
+    "serves_note": "Serves Mammoth Lakes and southern Mono County for civil filings",
+    "address": "100 Thompsons Way, PO Box 1037, Mammoth Lakes, CA 93546",
+    "phone": "760-924-5444",
+    "source_url": "https://www.mono.courts.ca.gov/location/mammoth-lakes-courthouse",
+    "snippet": "Mono County Superior Court P.O. Box 1037 100 Thompsons Way Mammoth Lakes, CA 93546 ... Telephone: (760) 924-5444",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:40:51.881Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

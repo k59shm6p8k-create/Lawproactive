@@ -1,0 +1,22 @@
+{
+  "city_slug": "san-marino",
+  "county": "Los Angeles",
+  "hospital": null,
+  "police": {
+    "name": "San Marino Police Department",
+    "type": "city_pd",
+    "address": "2200 Huntington Drive, San Marino, CA 91108",
+    "phone": "(626) 300-0720",
+    "source_url": "https://sanmarinoca.gov/community/faqs/police.php",
+    "snippet": "The San Marino Police Department is located on the corner of San Marino Avenue and Huntington Drive at: 2200 Huntington Drive, San Marino, CA 91108... Please call 626-300-0720.",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:06:51.863Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

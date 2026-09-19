@@ -1,0 +1,31 @@
+{
+  "city_slug": "dinuba",
+  "county": "Tulare",
+  "hospital": null,
+  "police": {
+    "name": "Dinuba Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "(559) 591-5911",
+    "source_url": "https://www.dinuba.org/departments/police-department",
+    "snippet": "For more information, contact the Dinuba Police Department: (559) 591-5911",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Tulare",
+    "branch": "Dinuba Division",
+    "serves_note": "Serves eastern parts of Tulare County with civil, traffic, and some family law matters",
+    "address": "640 South Alta Avenue, Dinuba, CA 93618",
+    "phone": "(559) 595-6400",
+    "source_url": "https://www.tulare.courts.ca.gov/general-information/locations-contact-info",
+    "snippet": "Dinuba 640 South Alta Avenue, Dinuba, CA 93618 559-595-6400",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:15:11.754Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

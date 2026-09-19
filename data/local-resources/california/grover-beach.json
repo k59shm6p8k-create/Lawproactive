@@ -1,0 +1,31 @@
+{
+  "city_slug": "grover-beach",
+  "county": "San Luis Obispo",
+  "hospital": null,
+  "police": {
+    "name": "Grover Beach Police Department",
+    "type": "city_pd",
+    "address": "711 Rockaway Avenue, Grover Beach, CA 93433",
+    "phone": "(805) 473-4511",
+    "source_url": "https://www.groverbeach.org/Directory/Home/DepartmentListing?DID=24",
+    "snippet": "Police Department Physical Address: 711 Rockaway Avenue Grover Beach, CA 93433 Phone: Dispatch: (805) 473-4511",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Luis Obispo",
+    "branch": "Civil & Family Law Branch",
+    "serves_note": "Grover Beach civil filings are processed at the Civil & Family Law Branch in San Luis Obispo; the Grover Beach Branch handles traffic court only",
+    "address": "1050 Monterey Street, Room 220, San Luis Obispo, CA 93408",
+    "phone": "(805) 706-3600",
+    "source_url": "https://www.slo.courts.ca.gov/general-information/location-contact-info",
+    "snippet": "Civil & Family Law Branch 1050 Monterey Street Rm 220 San Luis Obispo, CA 93408 (805) 706-3600",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:25:04.744Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

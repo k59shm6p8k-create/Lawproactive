@@ -1,0 +1,31 @@
+{
+  "city_slug": "san-juan-bautista",
+  "county": "San Benito",
+  "hospital": null,
+  "police": {
+    "name": "San Benito County Sheriff's Office",
+    "type": "sheriff",
+    "address": null,
+    "phone": "(831) 636-4080",
+    "source_url": "https://www.san-juan-bautista.ca.us/departments/law_enforcement/index.php",
+    "snippet": "For non-emergencies, dial (831) 636-4080.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Benito",
+    "branch": "Main Courthouse",
+    "serves_note": "County seat in Hollister; serves all civil filings for San Benito County",
+    "address": "450 Fourth Street, Hollister, CA 95023",
+    "phone": "(831) 636-4057",
+    "source_url": "https://www.sanbenito.courts.ca.gov/general-information",
+    "snippet": "Main Courthouse 450 Fourth Street Hollister, CA 95023 Phone: (831) 636-4057",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:05:55.160Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

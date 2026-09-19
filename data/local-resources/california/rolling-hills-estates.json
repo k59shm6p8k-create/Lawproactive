@@ -1,0 +1,38 @@
+{
+  "city_slug": "rolling-hills-estates",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Torrance Memorial Medical Center",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.healthgrades.com/hospital-directory/ca-california/rolling-hills-estates",
+    "snippet": "Torrance Memorial Medical Center is a medical facility located in Torrance, CA.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Los Angeles County Sheriff's Department - Lomita Station",
+    "type": "contract_pd",
+    "address": "26123 Narbonne Avenue, Lomita, CA 90717",
+    "phone": "(310) 539-1661",
+    "source_url": "https://lasd.org/lomita/",
+    "snippet": "Serving the areas of: City of Lomita, City of Rancho Palos Verdes, City of Rolling Hills Estates, City of Rolling Hills, Unincorporated Area of La Rambla, Unincorporated Area of Academy Hill, Unincorporated Area of Palos Verdes Peninsula, Unincorporated Area of Westfield. (310) 539-1661 26123 Narbonne Avenue, Lomita, CA 90717",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Southwest District - Torrance Courthouse",
+    "serves_note": "Serves Rolling Hills Estates and Southwest Los Angeles County for civil filings",
+    "address": "825 Maple Ave, Torrance, CA 90503",
+    "phone": null,
+    "source_url": "https://www.lacourt.ca.gov/pages/cp/gi-courthouses-all",
+    "snippet": "Torrance Courthouse 825 Maple Ave. Torrance, CA 90503",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:02:09.279Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

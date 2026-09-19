@@ -1,0 +1,31 @@
+{
+  "city_slug": "moraga",
+  "county": "Contra Costa",
+  "hospital": null,
+  "police": {
+    "name": "Moraga Police Department",
+    "type": "city_pd",
+    "address": "329 Rheem Boulevard, Moraga, CA 94556",
+    "phone": "925-888-7055",
+    "source_url": "https://www.moraga.ca.us/directory.aspx?did=7",
+    "snippet": "329 Rheem Boulevard Moraga, CA 94556Phone: 925-888-7055",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Contra Costa",
+    "branch": "Walnut Creek",
+    "serves_note": "Walnut Creek branch serves civil filings for the Lamorinda area including Moraga",
+    "address": "640 Ygnacio Valley Road, Walnut Creek, CA 94596",
+    "phone": "925-608-1000",
+    "source_url": "https://contracosta.courts.ca.gov/locations",
+    "snippet": "640 Ygnacio Valley Road Walnut Creek, CA 94596 (925) 608-1000",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:45:52.215Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "city_slug": "los-alamitos",
+  "county": "Orange",
+  "hospital": {
+    "name": "UCI Health—Los Alamitos",
+    "address": "3751 Katella Ave, Los Alamitos, CA 90720",
+    "phone": "(562) 598-1311",
+    "source_url": "https://www.ucihealth.org/locations/los-alamitos/uci-health-los-alamitos",
+    "snippet": "UCI Health — Los Alamitos is located at 3751 Katella Ave., Los Alamitos, CA 92720. Please call 562-598-1311 to schedule an appointment.",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Los Alamitos Police Department",
+    "type": "city_pd",
+    "address": "3201 Katella Avenue, Los Alamitos, CA 90720",
+    "phone": "(562) 431-2255",
+    "source_url": "https://cityoflosalamitos.org/216/Department-Directory",
+    "snippet": "Physical Address:View Map · 3201 Katella Avenue Los Alamitos, CA 90720Phone: (562) 431-2255",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "Santa Fe Springs CHP",
+    "address": "10051 Orr and Day Rd., Santa Fe Springs, CA 90670",
+    "phone": "(562) 868-0503",
+    "source_url": "https://cad.chp.ca.gov/htm.net/locations.htm",
+    "snippet": "SANTA FE SPRINGS CHP 10051 Orr and Day Rd. Santa Fe Springs 90670-3597 562-868-0503",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:39:05.352Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

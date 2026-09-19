@@ -1,0 +1,45 @@
+{
+  "city_slug": "rocklin",
+  "county": "Placer",
+  "hospital": {
+    "name": "Sutter Roseville Medical Center",
+    "address": "1 Medical Plaza Drive, Roseville CA 95661",
+    "phone": "916-781-1800",
+    "source_url": "https://www.sutterhealth.org/find-location/facility/sutter-roseville-medical-center-emergency-department",
+    "snippet": "Contact Sutter Roseville Medical Center Emergency Department at 9167811800. Sutter Roseville Medical Center Emergency Department is located at 1 Medical Plaza Drive, Roseville CA 95661",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Rocklin Police Department",
+    "type": "city_pd",
+    "address": "4080 Rocklin Road, Rocklin, CA 95677",
+    "phone": "916-625-5400",
+    "source_url": "https://www.rocklin.ca.us/police",
+    "snippet": "The Rocklin Police Department provides law enforcement and public safety services to the Rocklin community. The headquarters and public counter are at 4080 Rocklin Road, Rocklin, CA 95677. For non emergency needs, call (916) 625-5400",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Placer",
+    "branch": "Roseville Courthouse (Civil Division)",
+    "serves_note": "Serves Rocklin and surrounding Placer County communities for civil filings",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.placer.courts.ca.gov/online-services.shtml",
+    "snippet": "Schedule an appointment to visit our Self-Help Center, Family Division or Civil Division at the Courthouse in Roseville.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Department of Motor Vehicles - Rocklin",
+    "address": "5245 South Grove, Rocklin, CA 95677",
+    "phone": null,
+    "source_url": "https://www.dmv.ca.gov/portal/field-office/rocklin/",
+    "snippet": "Field Office · 5245 South Grove, Rocklin, CA 95677",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:01:34.850Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

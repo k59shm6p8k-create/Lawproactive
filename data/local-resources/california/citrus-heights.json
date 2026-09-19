@@ -1,0 +1,29 @@
+{
+  "city_slug": "citrus-heights",
+  "county": "Sacramento",
+  "hospital": {
+    "name": "Mercy San Juan Medical Center",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.superpages.com/citrus-heights-ca/hospitals",
+    "snippet": "Emergency Room - Mercy San Juan Medical Center is an emergency room that offers many services, including emergency surgery, diagnostic imaging, and blood tests.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Citrus Heights Police Department",
+    "type": "city_pd",
+    "address": "6315 Fountain Square Drive, Citrus Heights, CA 95621",
+    "phone": "916-727-5500",
+    "source_url": "https://www.citrusheights.net/370/Contact-Us",
+    "snippet": "Physical Address View Map 6315 Fountain Square Drive Citrus Heights, CA 95621 ... Phone: 916-727-5500",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:07:53.007Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

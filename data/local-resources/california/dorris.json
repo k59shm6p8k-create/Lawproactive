@@ -1,0 +1,22 @@
+{
+  "city_slug": "dorris",
+  "county": "Siskiyou",
+  "hospital": null,
+  "police": {
+    "name": "Siskiyou County Sheriff Department",
+    "type": "contract_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.dorrisca.us/departments/law-enforcement/",
+    "snippet": "The City of Dorris contracted for law enforcement services in 1996 with Siskiyou County Sheriff Department.",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:15:33.459Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

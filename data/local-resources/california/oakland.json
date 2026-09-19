@@ -1,0 +1,45 @@
+{
+  "city_slug": "oakland",
+  "county": "Alameda",
+  "hospital": {
+    "name": "Highland Hospital",
+    "address": "1411 E. 31st St., Oakland, CA 94602",
+    "phone": "510-437-4800",
+    "source_url": "https://www.alamedahealthsystem.org/locations/highland-hospital/",
+    "snippet": "Highland Hospital 1411 E. 31st St. Acute Care Tower, fifth floor Oakland, CA 94602 Driving Directions 510-437-4800",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Oakland Police Department",
+    "type": "city_pd",
+    "address": "455 7th Street, Oakland, CA",
+    "phone": null,
+    "source_url": "https://www.facebook.com/oaklandpoliceca/",
+    "snippet": "We are located in downtown Oakland at 455 7th Street.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Alameda",
+    "branch": "René C. Davidson Courthouse",
+    "serves_note": "Serves Oakland and Alameda County for civil filings",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.alameda.courts.ca.gov/divisions/civil",
+    "snippet": "Rene C. Davidson Courthouse (Oakland)",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Oakland Area",
+    "address": "3601 Telegraph Avenue, Oakland, CA 94609-2498",
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/golden-gate-division/370-oakland/",
+    "snippet": "Oakland 3601 Telegraph Avenue Oakland 94609-2498",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:49:26.027Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

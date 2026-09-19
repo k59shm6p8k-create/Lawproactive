@@ -1,0 +1,38 @@
+{
+  "city_slug": "antioch",
+  "county": "Contra Costa",
+  "hospital": {
+    "name": "Sutter Delta Medical Center",
+    "address": "3901 Lone Tree Way, Antioch, CA 94509",
+    "phone": null,
+    "source_url": "https://www.sutterhealth.org/find-location/facility/sutter-delta-medical-center-emergency-department",
+    "snippet": "Sutter Delta Medical Center Emergency Department is located at 3901 Lone Tree Way, Antioch CA 94509 and is part of the Sutter Health Network.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Antioch Police Department",
+    "type": "city_pd",
+    "address": "300 L Street, Antioch, CA 94509",
+    "phone": null,
+    "source_url": "https://www.antiochca.gov/186/Police-Department",
+    "snippet": "The department is located downtown at 300 \"L\" Street, near the Marina.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Contra Costa",
+    "branch": "Richard E. Arnason Justice Center",
+    "serves_note": "Serves Antioch, Bay Point, Bethel Island, Brentwood, Byron, Discovery Bay, Knightsen, Oakley and Pittsburg (East County)",
+    "address": null,
+    "phone": null,
+    "source_url": "https://contracosta.courts.ca.gov/richard-e-arnason-justice-center",
+    "snippet": "It is the courthouse for the former Delta Judicial District – the East County -- and serves the communities of Antioch, Bay Point, Bethel Island, Brentwood, Byron, Discovery Bay, Knightsen, Oakley and Pittsburg.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:55:26.650Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "city_slug": "la-canada-flintridge",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Huntington Hospital",
+    "address": "100 W. California Boulevard Pasadena, CA 91109",
+    "phone": "(626) 397-5000",
+    "source_url": "https://lcf.ca.gov/public-safety/",
+    "snippet": "Huntington Memorial Hospital 100 W. California Boulevard Pasadena, CA 91109 (626) 397-5000",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Los Angeles County Sheriff's Department - Crescenta Valley Station",
+    "type": "contract_pd",
+    "address": "4554 Briggs Ave. La Crescenta, CA 91214",
+    "phone": "(818) 248-3464",
+    "source_url": "https://lasd.org/crescenta-valley/",
+    "snippet": "818-248-3464 4554 Briggs Ave. La Crescenta, CA 91214 · Serving the areas of: City of La Cañada Flintridge",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "North Central District - Glendale",
+    "serves_note": "Handles civil, criminal, and traffic cases for Glendale, La Canada Flintridge, La Crescenta, and Montrose",
+    "address": "600 E. Broadway Glendale, CA 91206",
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176786/los-angeles-county-superior-court---north-central-district---glendale",
+    "snippet": "This state trial court is an L A County Superior Court with jurisdiction over cases that take place in Glendale, La Canada Flintridge, La Crescenta and Montrose. Address: 600 E. Broadway Glendale CA 91206",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Altadena Area",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/southern-division/575-altadena/",
+    "snippet": "The Altadena Area office is responsible for patrolling approximately 400 square miles, including the unincorporated communities of Altadena, La Crescenta, Chapman Woods and Pasadena... Angeles Crest Highway... from La Cañada – Flintridge",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:32:30.067Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

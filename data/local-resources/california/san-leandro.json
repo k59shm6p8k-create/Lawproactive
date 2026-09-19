@@ -1,0 +1,29 @@
+{
+  "city_slug": "san-leandro",
+  "county": "Alameda",
+  "hospital": {
+    "name": "San Leandro Hospital",
+    "address": "13855 E. 14th St. San Leandro, CA 94578",
+    "phone": "510-357-6500",
+    "source_url": "https://www.alamedahealthsystem.org/locations/san-leandro-hospital/",
+    "snippet": "Address: San Leandro Hospital 13855 E. 14th St. San Leandro, CA 94578 ... Phone: 510-357-6500",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "San Leandro Police Department",
+    "type": "city_pd",
+    "address": "901 E 14th Street San Leandro, CA 94577",
+    "phone": "510-577-2740",
+    "source_url": "https://www.sanleandro.org/Directory.aspx?DID=36",
+    "snippet": "901 E 14th Street San Leandro, CA 94577Phone: 510-577-2740",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:06:17.172Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

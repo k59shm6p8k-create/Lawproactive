@@ -1,0 +1,38 @@
+{
+  "city_slug": "thousand-oaks",
+  "county": "Ventura",
+  "hospital": {
+    "name": "Los Robles Regional Medical Center",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.losrobleshospital.com/specialties/emergency-care",
+    "snippet": "Our emergency room in Thousand Oaks is open 24/7 to provide fast, quality care for a wide range of conditions, including heart attack and stroke.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Ventura County Sheriff's Office - East Valley Station",
+    "type": "sheriff",
+    "address": "2101 E. Olsen Road, Thousand Oaks, CA 91360",
+    "phone": "(805) 494-8209",
+    "source_url": "https://oag.ca.gov/fingerprints/locations/ventura-county-sheriff-east-valley-station",
+    "snippet": "Address: 2101 E. Olsen Road · Thousand Oaks, CA 91360... Phone: (805) 494-8209",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Ventura",
+    "branch": "Ventura Hall of Justice / East County Courthouse (Simi Valley)",
+    "serves_note": "Thousand Oaks residents typically use East County Courthouse in Simi Valley for civil filings, though main courthouse in Ventura also serves the city",
+    "address": null,
+    "phone": null,
+    "source_url": "https://ventura.courts.ca.gov/",
+    "snippet": "The Ventura County Superior Court serves the community by providing fair, impartial, and accessible justice. As the trial court for Ventura County, the Court handles a wide range of cases, including criminal, civil, family law, probate, juvenile, traffic, and small claims matters.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:16:45.911Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

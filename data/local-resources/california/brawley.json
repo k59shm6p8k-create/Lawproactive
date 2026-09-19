@@ -1,0 +1,38 @@
+{
+  "city_slug": "brawley",
+  "county": "Imperial",
+  "hospital": {
+    "name": "Pioneers Memorial Healthcare District",
+    "address": "207 West Legion Road, Brawley, CA 92227",
+    "phone": "(760) 351-3333",
+    "source_url": "https://pmhd.org/emergency/",
+    "snippet": "District Main Campus 207 West Legion Road Brawley, CA 92227 Tel: 760.351.3333",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Brawley Police Department",
+    "type": "city_pd",
+    "address": "351 Main Street, Brawley, CA 92227",
+    "phone": null,
+    "source_url": "https://www.brawley-ca.gov/departments/police-department",
+    "snippet": "If special arrangement or other accommodations are required, please contact the Brawley Police Department - Records Staff at (760) 351-7769.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Imperial",
+    "branch": "Brawley Branch",
+    "serves_note": "Handles traffic, small claims, and limited civil matters",
+    "address": "220 Main Street, Brawley, CA 92227",
+    "phone": null,
+    "source_url": "https://www.imperial.courts.ca.gov/",
+    "snippet": "Court - Brawley Branch 220 Main Street Brawley, CA 92227 760-482-2200 Superior Court of California, County of Imperial Hours: Monday-Friday, 8:00 AM - 4:00 PM Handles traffic, small claims, and limited civil matters",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:01:52.987Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

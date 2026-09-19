@@ -1,0 +1,36 @@
+{
+  "city_slug": "dana-point",
+  "county": "Orange",
+  "hospital": {
+    "name": "Mission Hospital-Laguna Beach",
+    "address": "31872 Coast Hwy, Laguna Beach, CA 92651",
+    "phone": null,
+    "source_url": "https://urgentcarearlingtonva.com/hospitals-in-dana-point-california-orange-county/",
+    "snippet": "Mission Hospital Laguna Beach is a renowned medical facility located at 31872 Coast Hwy, Laguna Beach, CA 92651, just a short drive from Dana Point.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Dana Point Police Services",
+    "type": "sheriff",
+    "address": "33282 Golden Lantern Suite 140, Dana Point, CA 92629",
+    "phone": "(949) 248-3531",
+    "source_url": "https://ocsheriff.gov/location/dana-point-police-services",
+    "snippet": "Phone: (949) 248-3531 · 33282 Golden Lantern Suite 140 Dana Point, CA 92629",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Santa Ana",
+    "address": "2031 E. Santa Clara Ave., Santa Ana, CA 92705-7838",
+    "phone": null,
+    "source_url": "https://m.chp.ca.gov/office.aspx",
+    "snippet": "Santa Ana 2031 E. Santa Clara Ave. Santa Ana, CA 92705-7838",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:13:33.677Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

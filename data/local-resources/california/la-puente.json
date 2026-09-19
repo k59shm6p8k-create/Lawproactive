@@ -1,0 +1,38 @@
+{
+  "city_slug": "la-puente",
+  "county": "Los Angeles",
+  "hospital": null,
+  "police": {
+    "name": "Los Angeles County Sheriff's Department - Industry Station",
+    "type": "sheriff",
+    "address": "150 North Hudson Ave, City of Industry, CA 91744",
+    "phone": "(626) 330-3322",
+    "source_url": "https://lasd.org/industry/",
+    "snippet": "(626) 330-3322 150 North Hudson Ave. City of Industry, CA 91744 · Serving the areas of: City of Industry, City of La Puente",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Pomona Courthouse North",
+    "serves_note": "Serves El Monte, La Puente, Rosemead, and South El Monte",
+    "address": null,
+    "phone": "(909) 802-9944",
+    "source_url": "https://locator.lacounty.gov/lac/Location/3178257/los-angeles-county-superior-court---east-district---pomona-courthouse-north",
+    "snippet": "This state trial court is an L A County Superior Court with jurisdiction over cases that take place in El Monte, La Puente, Rosemead and South El Monte. Civil/Small Claims/Criminal Service/Intake (909) 802-9944",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Baldwin Park",
+    "address": "14039 Francisquito Ave, Baldwin Park, CA 91706",
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3048031/california-state-highway-patrol---chp---baldwin-park",
+    "snippet": "Address: 14039 Francisquito Ave. Baldwin Park CA 91706",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:33:39.562Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

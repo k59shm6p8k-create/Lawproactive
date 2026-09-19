@@ -1,0 +1,45 @@
+{
+  "city_slug": "bishop",
+  "county": "Inyo",
+  "hospital": {
+    "name": "Northern Inyo Hospital",
+    "address": "150 Pioneer Lane Bishop, CA 93514",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/northern-inyo-hospital/",
+    "snippet": "Address: 150 Pioneer Lane Bishop, CA 93514",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Bishop Police Department",
+    "type": "city_pd",
+    "address": "207 West Line Street, Bishop, CA 93514",
+    "phone": "(760) 873-5866",
+    "source_url": "https://oag.ca.gov/fingerprints/locations/bishop-police-department",
+    "snippet": "207 W. Line Street · Bishop, CA 93514 · County: Inyo · Phone: (760) 873-5866",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Inyo",
+    "branch": "Bishop Courthouse",
+    "serves_note": "Serves northern Inyo County; handles all case types including civil filings",
+    "address": "301 West Line Street Bishop, CA 93514",
+    "phone": "(760) 872-3038",
+    "source_url": "https://www.inyo.courts.ca.gov/location/bishop-courthouse",
+    "snippet": "County of Inyo · Department 301 West Line Street Bishop, CA 93514 · 760-872-3038",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol Bishop Area",
+    "address": "469 South Main Street Bishop, CA 93514-3490",
+    "phone": "(760) 872-5150",
+    "source_url": "https://www.chp.ca.gov/find-an-office/inland-division/825-bishop/",
+    "snippet": "469 S. Main Street , Bishop, CA, United States, California · (760) 872-5150",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:01:03.827Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "city_slug": "la-quinta",
+  "county": "Riverside",
+  "hospital": {
+    "name": "Eisenhower George and Julia Argyros Health Center",
+    "address": "45280 Seeley Dr, La Quinta, CA",
+    "phone": "(760) 610-7200",
+    "source_url": "https://www.laquintaca.gov/about-us/resident-services/hospitals",
+    "snippet": "Eisenhower George and Julia Argyros Health Center (non-emergent health care) 45280 Seeley Dr, La Quinta, CA Phone: (760) 610-7200",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Riverside County Sheriff's Department - Thermal Sheriff's Station (La Quinta)",
+    "type": "contract_pd",
+    "address": "78495 Calle Tampico La Quinta, CA 92253",
+    "phone": "(760) 863-8990",
+    "source_url": "https://www.laquintaca.gov/?navid=1441",
+    "snippet": "78495 Calle Tampico La Quinta, CA 92253 La Quinta Police Station at Thermal Station - Phone: (760) 863-8990",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Riverside",
+    "branch": "Palm Springs Courthouse",
+    "serves_note": "Civil filings for La Quinta and zip code 92254",
+    "address": "3255 E. Tahquitz Canyon Way, Palm Springs, CA 92262",
+    "phone": null,
+    "source_url": "https://www.riverside.courts.ca.gov/system/files/filecivil.pdf",
+    "snippet": "Palm Springs Courthouse located at 3255 E. Tahquitz Canyon Way, Palm Springs, CA 92262... La Quinta · 92254",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:33:48.373Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

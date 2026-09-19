@@ -1,0 +1,45 @@
+{
+  "city_slug": "lakeport",
+  "county": "Lake",
+  "hospital": {
+    "name": "Sutter Lakeside Hospital",
+    "address": "5176 Hill Road East, Lakeport, CA 95453",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/sutter-lakeside-hospital/",
+    "snippet": "Address: 5176 Hill Road East Lakeport, CA 95453",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Lakeport Police Department",
+    "type": "city_pd",
+    "address": "2025 South Main Street, Lakeport, CA 95453",
+    "phone": "707-263-5491",
+    "source_url": "https://www.cityoflakeport.com/police/police_staff_directory.php",
+    "snippet": "2025 South Main Street Lakeport, CA 95453 · Main Phone: 707-263-5491",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Lake",
+    "branch": "Lakeport Courthouse",
+    "serves_note": "Lakeport and surrounding area; handles civil, criminal, family law, juvenile, probate, and small claims cases",
+    "address": "255 North Forbes Street, 4th Floor, Room 417, Lakeport, CA 95453",
+    "phone": "707-263-2374",
+    "source_url": "https://lake.courts.ca.gov/location/lakeport-courthouse",
+    "snippet": "255 North Forbes Street 4th Floor, Room 417 Lakeport, CA 95453 · (707) 263-2374",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "Clear Lake CHP",
+    "address": "5700 Live Oak Drive, Kelseyville, CA 95451",
+    "phone": "707-279-0103",
+    "source_url": "https://cad.chp.ca.gov/htm.net/locations.htm",
+    "snippet": "CLEAR LAKE CHP 5700 Live Oak Drive Kelseyville 95451 707-279-0103",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:35:32.900Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

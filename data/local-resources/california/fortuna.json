@@ -1,0 +1,45 @@
+{
+  "city_slug": "fortuna",
+  "county": "Humboldt",
+  "hospital": {
+    "name": "Providence Redwood Memorial Hospital",
+    "address": "3300 Renner Drive, Fortuna, CA 95540",
+    "phone": "707-725-7328",
+    "source_url": "https://www.providence.org/locations/norcal/redwood-memorial/emergency-department",
+    "snippet": "Open 24 hours a day, 7 days a week · 707-725-7328 · 3300 Renner Dr, Fortuna, CA 95540",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Fortuna Police Department",
+    "type": "city_pd",
+    "address": "2600 Newburg Road, Fortuna, CA 95540",
+    "phone": "707-725-7550",
+    "source_url": "https://www.friendlyfortuna.com/departments/police_department/fopd/contacting_the_department.php",
+    "snippet": "The Fortuna Police Department is located at 2600 Newburg Road, Fortuna California 95540. For non-emergency services, please contact us at (707) 725-7550",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Humboldt",
+    "branch": "Humboldt County Courthouse (Eureka)",
+    "serves_note": "Serves all of Humboldt County including Fortuna for civil filings",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.humboldt.courts.ca.gov/general-information",
+    "snippet": "The Superior Court of California, County of Humboldt is located in the City of Eureka and shares space with the County in the County Courthouse Building.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Humboldt Area Office",
+    "address": "255 East Samoa Boulevard, Arcata, CA 95521",
+    "phone": null,
+    "source_url": "https://m.chp.ca.gov/office.aspx",
+    "snippet": "Humboldt 255 East Samoa Blvd., Arcata, CA 95521-6797",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:21:19.668Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "city_slug": "fowler",
+  "county": "Fresno",
+  "hospital": null,
+  "police": {
+    "name": "Fowler Police Department",
+    "type": "city_pd",
+    "address": "128 S. 5th Street, Fowler, CA 93625",
+    "phone": "(559) 834-3254",
+    "source_url": "https://www.fowlercity.org/police-department",
+    "snippet": "Office Phone Number (559) 834-3254 ... Address · 128 S. 5th St.",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:21:56.622Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

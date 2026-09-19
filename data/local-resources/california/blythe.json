@@ -1,0 +1,45 @@
+{
+  "city_slug": "blythe",
+  "county": "Riverside",
+  "hospital": {
+    "name": "Palo Verde Hospital",
+    "address": "250 North First Street Blythe, CA 92225",
+    "phone": null,
+    "source_url": "https://www.paloverdehospital.org/107/Contact-Us",
+    "snippet": "Palo Verde Hospital 250 N First Street Blythe, California 92225",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Blythe Police Department",
+    "type": "city_pd",
+    "address": "240 N Spring Street Blythe, CA 92225",
+    "phone": "(760) 922-6111",
+    "source_url": "https://www.cityofblythe.ca.gov/Directory/Home/DepartmentListing?DID=73",
+    "snippet": "Police Department Physical Address: 240 N Spring Street Blythe, CA 92225 Phone: (760) 922-6111",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Riverside",
+    "branch": "Blythe Courthouse",
+    "serves_note": "Serves civil, evictions, small claims, family law, criminal, and traffic cases for Blythe and surrounding areas",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.riverside.courts.ca.gov/location/blythe-courthouse",
+    "snippet": "The Blythe Courthouse is located in the easternmost part of Riverside County.",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Blythe Office",
+    "address": "430 South Broadway Blythe, CA 92225",
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/border-division/660-blythe/",
+    "snippet": "Blythe 430 S. Broadway Blythe, CA 92225-2898",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:01:28.312Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

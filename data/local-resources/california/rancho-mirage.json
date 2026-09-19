@@ -1,0 +1,45 @@
+{
+  "city_slug": "rancho-mirage",
+  "county": "Riverside",
+  "hospital": {
+    "name": "Eisenhower Medical Center",
+    "address": "39000 Bob Hope Drive, Rancho Mirage, CA 92270",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/eisenhower-medical-center/",
+    "snippet": "Address: 39000 Bob Hope Drive Rancho Mirage, CA 92270",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Riverside County Sheriff's Department (Rancho Mirage Sheriff's Station)",
+    "type": "contract_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://ranchomirageca.gov/our_city/city_departments/police/divisions.php",
+    "snippet": "The basic law enforcement protection is provided to the City of Rancho Mirage by contractual agreement with the Riverside County Sheriff's Department.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Riverside",
+    "branch": "Palm Springs Courthouse",
+    "serves_note": "Eastern division serving Rancho Mirage and surrounding Coachella Valley area",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.riverside.courts.ca.gov/divisions/civil",
+    "snippet": "Eastern (Palm Springs)",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol",
+    "address": "79-650 Varner Road, Indio, CA 92203",
+    "phone": "760-772-8911",
+    "source_url": "https://ranchomirageca.gov/our_city/public_safety/police/",
+    "snippet": "California Highway Patrol 79-650 Varner Road Indio, CA 92203 Phone: (760) 772-8911",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:58:07.054Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

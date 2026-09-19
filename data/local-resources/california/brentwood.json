@@ -1,0 +1,31 @@
+{
+  "city_slug": "brentwood",
+  "county": "Contra Costa",
+  "hospital": null,
+  "police": {
+    "name": "Brentwood Police Department",
+    "type": "city_pd",
+    "address": "9100 Brentwood Boulevard, Brentwood, CA 94513",
+    "phone": null,
+    "source_url": "https://www.brentwoodca.gov/government/police/contact-us",
+    "snippet": "Brentwood Police Department 9100 Brentwood Blvd Brentwood, CA 94513",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Contra Costa",
+    "branch": "Richard E. Arnason Justice Center (Pittsburg)",
+    "serves_note": "Serves East County including Brentwood for civil/family law/small claims matters",
+    "address": "1000 Center Drive, Pittsburg, CA 94565",
+    "phone": "(925) 608-1000",
+    "source_url": "https://contracosta.courts.ca.gov/locations",
+    "snippet": "1000 Center Drive, Pittsburg, CA 94565 (925) 608-1000",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:02:15.501Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

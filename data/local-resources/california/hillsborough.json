@@ -1,0 +1,22 @@
+{
+  "city_slug": "hillsborough",
+  "county": "San Mateo",
+  "hospital": null,
+  "police": {
+    "name": "Hillsborough Police Department",
+    "type": "city_pd",
+    "address": "1600 Floribunda Avenue, Hillsborough, CA 94010",
+    "phone": "(650) 375-7470",
+    "source_url": "https://www.hillsborough.net/231/Police",
+    "snippet": "1600 Floribunda Ave, Hillsborough, CA, United States, California · (650) 375-7470",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:28:00.052Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

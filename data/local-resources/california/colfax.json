@@ -1,0 +1,22 @@
+{
+  "city_slug": "colfax",
+  "county": "Placer",
+  "hospital": null,
+  "police": {
+    "name": "Placer County Sheriff's Office",
+    "type": "sheriff",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.placer.ca.gov/2269/Colfax-Substation",
+    "snippet": "The City of Colfax contracts it's law enforcement needs through the Placer County Sheriff's Office.",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:29:45.489Z",
+    "searches": 5,
+    "stop": "end_turn"
+  }
+}

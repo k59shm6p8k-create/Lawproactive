@@ -1,0 +1,45 @@
+{
+  "city_slug": "marysville",
+  "county": "Yuba",
+  "hospital": {
+    "name": "Adventist Health and Rideout",
+    "address": "726 Fourth St Marysville, CA 95901",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/adventist-health-and-rideout/",
+    "snippet": "Address: 726 Fourth St Marysville, CA 95901",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Marysville Police Department",
+    "type": "city_pd",
+    "address": "316 6th Street, Marysville, CA 95901",
+    "phone": "530-749-3900",
+    "source_url": "https://www.marysvillepd.org/contact-1",
+    "snippet": "316 6th Street, Marysville, CA 95901 · (530) 749-3900 Non-emergency",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Yuba",
+    "branch": "Yuba County Superior Court - Civil Division",
+    "serves_note": "Serves Yuba County civil filings, including Marysville",
+    "address": "215 Fifth Street, Suite 200, Marysville, CA 95901",
+    "phone": "530-740-1800",
+    "source_url": "https://www.yuba.courts.ca.gov/divisions/civil",
+    "snippet": "Yuba County Superior Court 215 Fifth Street, Suite 200 Marysville, CA 95901 Phone: (530) 740-1800",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "CHP Yuba-Sutter Area Office",
+    "address": "1619 Poole Avenue, Yuba City, CA",
+    "phone": "530-645-6200",
+    "source_url": "https://www.facebook.com/p/CHP-Yuba-Sutter-100064524738920/",
+    "snippet": "1619 Poole Avenue, Yuba City, CA, United States, California · (530) 645-6200",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:41:57.988Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

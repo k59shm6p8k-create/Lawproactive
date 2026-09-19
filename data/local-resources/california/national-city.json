@@ -1,0 +1,45 @@
+{
+  "city_slug": "national-city",
+  "county": "San Diego",
+  "hospital": {
+    "name": "Paradise Valley Hospital",
+    "address": "2400 East Fourth Street, National City, CA 91950",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/paradise-valley-hospital/",
+    "snippet": "Address: 2400 East Fourth Street National City, CA 91950",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "National City Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "(619) 336-4400",
+    "source_url": "https://www.nationalcityca.gov/government/police",
+    "snippet": "National City Police Department - Records: (619) 336-4400",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Diego",
+    "branch": "South County Regional Center",
+    "serves_note": "Serves South County including National City",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.sdcourt.ca.gov/",
+    "snippet": "Three satellite courts are used to support communities in East County (El Cajon), North County (Vista), and South County (Chula Vista).",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "Avenida Registration Services (DMV Business Partner)",
+    "address": "333 Highland Ave Suite B, National City, CA 91950",
+    "phone": "1-619-285-5555",
+    "source_url": "https://www.dmv.ca.gov/portal/business-partner/avenida-registration-services-national-city/",
+    "snippet": "333 Highland Ave Suite B, National City, CA 91950 1-619-285-5555",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:47:21.583Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

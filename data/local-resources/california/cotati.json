@@ -1,0 +1,38 @@
+{
+  "city_slug": "cotati",
+  "county": "Sonoma",
+  "hospital": null,
+  "police": {
+    "name": "Cotati Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "707-792-4611",
+    "source_url": "https://www.cotaticity.gov/229/Police",
+    "snippet": "We encourage Cotati residents to program in the non-emergency telephone number into their telephones, 707-792-4611.",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Sonoma",
+    "branch": "Civil and Family Law Courthouse",
+    "serves_note": "Serves civil filings for Sonoma County including Cotati",
+    "address": "3055 Cleveland Avenue, Santa Rosa, CA 95403",
+    "phone": "707-521-6500",
+    "source_url": "https://sonoma.courts.ca.gov/locations",
+    "snippet": "Civil and Family Law Courthouse · 3055 Cleveland Avenue, Santa Rosa, CA 95403 (707) 521-6500",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Santa Rosa Area Office",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/golden-gate-division/offices/(360)-santa-rosa",
+    "snippet": "The Santa Rosa Area office of the California Highway Patrol provides service to the majority of Sonoma County",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:11:54.635Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

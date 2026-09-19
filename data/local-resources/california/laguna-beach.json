@@ -1,0 +1,36 @@
+{
+  "city_slug": "laguna-beach",
+  "county": "Orange",
+  "hospital": {
+    "name": "Mission Hospital Laguna Beach",
+    "address": "31872 Coast Hwy, Laguna Beach, CA 92651",
+    "phone": "949-499-1311",
+    "source_url": "https://www.providence.org/locations/socal/mission-hospital-laguna-beach/contact-us",
+    "snippet": "31872 Coast Hwy Laguna Beach, CA 92651 Map and Directions · Main Phone: 949-499-1311",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Laguna Beach Police Department",
+    "type": "city_pd",
+    "address": "505 Forest Avenue, Laguna Beach, CA 92651",
+    "phone": "949-497-0701",
+    "source_url": "https://www.lagunabeachcity.net/government/departments/police",
+    "snippet": "Laguna Beach Police 505 Forest Avenue (949) 497-0701",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "Laguna Hills DMV Office",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.dmv.ca.gov/portal/business-partner/aaa-laguna-hills-branch/",
+    "snippet": "25181 Paseo De Alicia, Laguna Hills, CA 92653",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:34:26.040Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

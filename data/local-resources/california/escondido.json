@@ -1,0 +1,38 @@
+{
+  "city_slug": "escondido",
+  "county": "San Diego",
+  "hospital": {
+    "name": "Palomar UC San Diego Health Escondido",
+    "address": "2185 Citracado Parkway, Escondido, CA 92029",
+    "phone": "(442) 281-5000",
+    "source_url": "https://www.palomarhealthmedicalgroup.org/locations/palomar-medical-center-escondido/",
+    "snippet": "2185 Citracado Parkway Escondido, CA 92029 (442)281-5000",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Escondido Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "(760) 839-4722",
+    "source_url": "https://escondido.gov/172/Police",
+    "snippet": "Escondido Police Department Communications Center at 760-839-4722",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Diego",
+    "branch": "North County",
+    "serves_note": "Serves most of Northern San Diego County including Escondido for civil cases",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.sdcourt.ca.gov/sdcourt/generalinformation/courtlocations/northcountycourthouse",
+    "snippet": "The North County Superior Court is a full service branch court. Currently the Court hears Criminal, Civil, Family Law, Appeals, Adoption, Traffic and Minor Offense cases.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:18:41.906Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

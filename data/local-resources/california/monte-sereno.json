@@ -1,0 +1,31 @@
+{
+  "city_slug": "monte-sereno",
+  "county": "Santa Clara",
+  "hospital": null,
+  "police": {
+    "name": "Los Gatos-Monte Sereno Police Department",
+    "type": "contract_pd",
+    "address": "110 E. Main Street, Los Gatos, CA 95030",
+    "phone": null,
+    "source_url": "https://www.losgatosca.gov/Directory.aspx?did=76",
+    "snippet": "110 E. Main Street Los Gatos, CA 95030",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Santa Clara",
+    "branch": "Downtown Superior Court (DTS)",
+    "serves_note": "Handles civil, probate, and small claims cases including those from Monte Sereno",
+    "address": "191 N. First St., San Jose, CA 95113",
+    "phone": null,
+    "source_url": "https://santaclara.courts.ca.gov/general-information/locations-contact-info/santa-clara-county-courthouse-locations",
+    "snippet": "Civil, Probate, and Small Claims; Depts. 1-16 191 N. First St., San Jose, CA 95113",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:44:53.231Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

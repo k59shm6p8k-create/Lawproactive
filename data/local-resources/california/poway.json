@@ -1,0 +1,45 @@
+{
+  "city_slug": "poway",
+  "county": "San Diego",
+  "hospital": {
+    "name": "Palomar Medical Center Poway",
+    "address": "15615 Pomerado Road, Poway, CA 92064",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/pomerado-hospital/",
+    "snippet": "Address: 15615 Pomerado Road Poway, CA 92064",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "San Diego Sheriff's Department - Poway Station",
+    "type": "contract_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://poway.org/202/Law-Enforcement",
+    "snippet": "The City of Poway has contracted with the San Diego Sheriff's Department (SDSO) since incorporation.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Diego",
+    "branch": null,
+    "serves_note": "Civil filings for Poway per San Diego Superior Court district",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.sdcourt.ca.gov/sdcourt/civil2/civilwheretofile",
+    "snippet": "Find the zip code or city name where the person or company you are suing lives or does business",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "DMV Poway",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.dmv.ca.gov/portal/field-office/poway/",
+    "snippet": "DMV field offices accept Cash, Check, Credit Card, Debit Card, Digital Wallet, and Money order.",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:57:32.754Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

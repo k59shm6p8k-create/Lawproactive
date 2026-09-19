@@ -1,0 +1,38 @@
+{
+  "city_slug": "palmdale",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Palmdale Regional Medical Center",
+    "address": "38600 Medical Center Drive, Palmdale, CA 93551",
+    "phone": "661-382-5000",
+    "source_url": "https://healthy.kaiserpermanente.org/southern-california/facilities/palmdale-regional-medical-center-430045",
+    "snippet": "38600 Medical Center Dr · Palmdale, CA 93551 · Directions · 7 Days · Open 24 hours · Information · 661-382-5000",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Los Angeles County Sheriff's Department – Palmdale Station",
+    "type": "sheriff",
+    "address": "750 East Avenue Q, Palmdale, CA 93550",
+    "phone": "661-272-2400",
+    "source_url": "https://lasd.org/palmdale/",
+    "snippet": "(661) 272-2400 750 East Avenue Q, Palmdale, CA 93550",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Michael D. Antonovich Antelope Valley Courthouse",
+    "serves_note": "Serves Antelope Valley including Palmdale for civil filings",
+    "address": "42011 4th Street West, Lancaster, CA 93534",
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176793/los-angeles-county-superior-court---north-district---michael-d-antonovich-antelope-valley-courthouse",
+    "snippet": "This state trial court is an L A County Superior Court with jurisdiction over cases that take place in the Antelope Valley. Address: 42011 4th St. W. Lancaster CA 93534",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:52:25.194Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

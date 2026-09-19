@@ -1,0 +1,22 @@
+{
+  "city_slug": "parlier",
+  "county": "Fresno",
+  "hospital": null,
+  "police": {
+    "name": "Parlier Police Department",
+    "type": "city_pd",
+    "address": "8770 South Mendocino Avenue, Parlier, CA 93648",
+    "phone": "559-646-6600",
+    "source_url": "https://parlier.ca.us/directory.aspx?did=17",
+    "snippet": "8770 South Mendocino Avenue Suite A Parlier, CA 93648Phone: 559 646-6600",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:53:10.926Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

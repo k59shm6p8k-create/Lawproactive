@@ -1,0 +1,29 @@
+{
+  "city_slug": "irvine",
+  "county": "Orange",
+  "hospital": {
+    "name": "UCI Health — Irvine",
+    "address": "19210 Jamboree Road, Irvine, CA",
+    "phone": "714-456-7002",
+    "source_url": "https://www.ucihealth.org/locations/irvine/acute-care-hospital",
+    "snippet": "UCI Health — Irvine is located at 19210 Jamboree Road in Irvine. Contact us at 714-456-7002",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Irvine Police Department",
+    "type": "city_pd",
+    "address": "1 Civic Center Plaza, Irvine, CA 92606",
+    "phone": "949-724-7000",
+    "source_url": "https://irvinepd.gov/executive-command-staff/",
+    "snippet": "Irvine Police Department 1 Civic Center Plaza Irvine, CA 92606 (949) 724-7000",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:30:51.963Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

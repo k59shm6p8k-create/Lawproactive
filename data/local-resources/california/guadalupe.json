@@ -1,0 +1,31 @@
+{
+  "city_slug": "guadalupe",
+  "county": "Santa Barbara",
+  "hospital": null,
+  "police": {
+    "name": "Guadalupe Police Department",
+    "type": "city_pd",
+    "address": "4490 10th Street",
+    "phone": "805-343-2112",
+    "source_url": "https://cityofguadalupe.org/police/",
+    "snippet": "Appointment Location: Guadalupe Police Department 4490 10th Street Guadalupe, CA 93434 Phone: 805-343-2112",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Santa Barbara",
+    "branch": "Santa Maria Division",
+    "serves_note": "Serves northern Santa Barbara County including Guadalupe for civil filings",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.santabarbara.courts.ca.gov/forms-filing/local-rules/superior-court-organization-locations",
+    "snippet": "In the Civil Office in Santa Barbara, the drop box is available until 5pm; in Lompoc, until 4pm; in Santa Maria, the drop box is available 24 hours per day.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:25:16.798Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

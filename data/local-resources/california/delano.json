@@ -1,0 +1,38 @@
+{
+  "city_slug": "delano",
+  "county": "Kern",
+  "hospital": {
+    "name": "Adventist Health Delano",
+    "address": "1401 Garces Highway, Delano, CA 93215",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/adventist-health-delano/",
+    "snippet": "Address: 1401 Garces Highway Delano, CA 93215",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Delano Police Department",
+    "type": "city_pd",
+    "address": "2330 High Street, Delano, CA 93215",
+    "phone": null,
+    "source_url": "https://www.cityofdelano.org/105/Police-Department",
+    "snippet": "The Delano Police Department is located at 2330 High Street and is responsible for public safety in the city of Delano, CA.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Kern",
+    "branch": "Delano",
+    "serves_note": "Serves Delano and surrounding area for civil filings",
+    "address": "1122 Jefferson St, Delano, CA 93215",
+    "phone": "661-610-7300",
+    "source_url": "https://www.kern.courts.ca.gov/location/delano",
+    "snippet": "1122 Jefferson St Delano, CA 93215 · (661) 610-7300",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:14:36.173Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

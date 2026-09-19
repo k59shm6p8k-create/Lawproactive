@@ -1,0 +1,31 @@
+{
+  "city_slug": "livingston",
+  "county": "Merced",
+  "hospital": null,
+  "police": {
+    "name": "Livingston Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "209-394-7616",
+    "source_url": "https://www.merced.courts.ca.gov/forms-filing/local-forms",
+    "snippet": "Livingston Police Department 209-394-7616",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Merced",
+    "branch": "Old Merced Courthouse",
+    "serves_note": "Civil division serving Merced County",
+    "address": "627 W 21st Street, Merced, CA 95340",
+    "phone": "209-725-4111",
+    "source_url": "https://www.merced.courts.ca.gov/divisions/civil-division",
+    "snippet": "Old Merced Courthouse 627 W 21st Street Merced, CA 95340 · Tel: (209) 725-4111",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:28:03.311Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

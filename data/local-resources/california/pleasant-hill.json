@@ -1,0 +1,31 @@
+{
+  "city_slug": "pleasant-hill",
+  "county": "Contra Costa",
+  "hospital": null,
+  "police": {
+    "name": "Pleasant Hill Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "(925) 288-4600",
+    "source_url": "https://www.phillca.gov/Directory/Home/DepartmentListing?DID=9",
+    "snippet": "Police Physical Address: Pleasant Hill, CA 94523 Phone: (925) 288-4600",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Contra Costa",
+    "branch": "Wakefield Taylor Courthouse",
+    "serves_note": "Civil filings",
+    "address": null,
+    "phone": null,
+    "source_url": "https://contracosta.courts.ca.gov/forms-filing/where-file",
+    "snippet": "All civil cases are filed and heard in the Wakefield Taylor Courthouse in Martinez.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:55:48.013Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "city_slug": "carpinteria",
+  "county": "Santa Barbara",
+  "hospital": null,
+  "police": {
+    "name": "Santa Barbara County Sheriff's Office - Carpinteria Station",
+    "type": "contract_pd",
+    "address": "5775 Carpinteria Ave, Carpinteria, CA 93013",
+    "phone": "(805) 568-3399",
+    "source_url": "https://www.sbsheriff.org/command-and-divisions/law-enforcement-operations/south-county-operations-division/coastal-bureau-city-carpinteria/",
+    "snippet": "Address: 5775 Carpinteria Ave Carpinteria, CA. 93013 Phone #'s:(805) 568-3399",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Santa Barbara",
+    "branch": "Santa Barbara Courthouse (Anacapa Division)",
+    "serves_note": "Civil filings for south county including Carpinteria",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.santabarbara.courts.ca.gov/general-information/locations-contact-info",
+    "snippet": "For cases filed in south Santa Barbara County, which includes, but is not limited to, Goleta, Santa Barbara, and Carpinteria, send the Copy Request Form",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:05:52.600Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

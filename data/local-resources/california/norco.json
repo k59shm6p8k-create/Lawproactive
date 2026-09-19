@@ -1,0 +1,22 @@
+{
+  "city_slug": "norco",
+  "county": "Riverside",
+  "hospital": null,
+  "police": {
+    "name": "Riverside County Sheriff's Department",
+    "type": "contract_pd",
+    "address": "2870 Clark Avenue, Norco, CA 92860",
+    "phone": "951-270-5673",
+    "source_url": "https://www.riversidesheriff.org/Directory.aspx?did=73",
+    "snippet": "2870 Clark Avenue Norco CA 92860...Phone: 951-270-5673",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:48:29.843Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

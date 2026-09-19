@@ -1,0 +1,45 @@
+{
+  "city_slug": "yreka",
+  "county": "Siskiyou",
+  "hospital": {
+    "name": "Fairchild Medical Center",
+    "address": "444 Bruce Street, Yreka, CA 96097",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/fairchild-medical-center/",
+    "snippet": "Address: 444 Bruce Street Yreka, CA 96097",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Yreka Police Department",
+    "type": "city_pd",
+    "address": "1400 Fairlane Road, Yreka, CA 96097",
+    "phone": "(530) 841-2300",
+    "source_url": "https://www.ci.yreka.ca.us/314/Police-Directory",
+    "snippet": "1400 Fairlane Road Yreka, CA 96097Phone: 530-841-2300",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Siskiyou",
+    "branch": "Yreka",
+    "serves_note": "Serves Siskiyou County civil filings; courthouse location in Yreka",
+    "address": "411 Fourth Street, Yreka, CA 96097",
+    "phone": "(530) 842-0411",
+    "source_url": "https://www.siskiyou.courts.ca.gov/general-information/location-contact-info",
+    "snippet": "Superior Court of California, County of Siskiyou 411 Fourth Street Yreka, CA 96097 (530) 842-0411",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol, Yreka Area",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/northern-division/145-yreka/",
+    "snippet": "You can also contact us by calling the Yreka Area office at (542) 842-0530",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:26:28.840Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

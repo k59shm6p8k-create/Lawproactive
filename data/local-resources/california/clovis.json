@@ -1,0 +1,45 @@
+{
+  "city_slug": "clovis",
+  "county": "Fresno",
+  "hospital": {
+    "name": "Clovis Community Medical Center",
+    "address": "2755 Herndon Avenue, Clovis, CA 93611",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/clovis-community-medical-center/",
+    "snippet": "Address: 2755 Herndon Avenue Clovis, CA 93611",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Clovis Police Department",
+    "type": "city_pd",
+    "address": "1233 Fifth Street, Clovis, CA 93612",
+    "phone": "(559) 324-2400",
+    "source_url": "https://www.clovisca.gov/services/police/about/contact_clovis_pd.php",
+    "snippet": "Clovis Police Department: 1233 Fifth Street, Clovis, CA, 93612 Records: (559) 324-2400",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Fresno",
+    "branch": "Clovis Courthouse",
+    "serves_note": "Serves Clovis and surrounding areas for civil filings",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.fresno.courts.ca.gov/",
+    "snippet": "Fresno County Superior Court handles all court records for Clovis",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol Fresno Area",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/central-division/435-fresno/",
+    "snippet": "Our officers patrol over 4,045 miles of state highways, freeways, and unincorporated roadways, serving the communities of Clovis",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:08:49.500Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

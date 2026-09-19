@@ -1,0 +1,29 @@
+{
+  "city_slug": "vernon",
+  "county": "Los Angeles",
+  "hospital": null,
+  "police": {
+    "name": "City of Vernon Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "(323) 587-5171",
+    "source_url": "https://locator.lacounty.gov/lac/Location/3175462/city-of-vernon-police-department",
+    "snippet": "Business Line Service/Intake (323) 587-5171",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "CHP South Los Angeles",
+    "address": "19700 Hamilton Ave. Torrance, CA 90502-1395",
+    "phone": null,
+    "source_url": "https://m.chp.ca.gov/office.aspx",
+    "snippet": "South Los Angeles 19700 Hamilton Ave. Torrance, CA 90502-1395",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:20:29.050Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "city_slug": "apple-valley",
+  "county": "San Bernardino",
+  "hospital": {
+    "name": "Providence St. Mary Medical Center",
+    "address": "18300 Highway 18, Apple Valley, CA 92307",
+    "phone": null,
+    "source_url": "https://www.providence.org/locations/socal/st-mary-medical-center/emergency-services",
+    "snippet": "18300 Highway 18, 1st Floor, Apple Valley, CA 92307",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "San Bernardino County Sheriff's Department - Apple Valley Station",
+    "type": "sheriff",
+    "address": "14931 Dale Evans Parkway, Apple Valley, CA",
+    "phone": "760-240-7400",
+    "source_url": "https://wp.sbcounty.gov/sheriff/patrol-stations/apple-valley/",
+    "snippet": "Apple Valley Police Department · San Bernardino County Sheriff's Department Apple Valley, California · Police Station · 14931 Dale Evans Pkwy, Apple Valley, CA, United States, California · (760) 240-7400",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Bernardino",
+    "branch": "Victorville District",
+    "serves_note": "Serves Apple Valley and surrounding Victor Valley communities for civil filings",
+    "address": null,
+    "phone": null,
+    "source_url": "https://sanbernardino.courts.ca.gov/general-information/where-can-i-file",
+    "snippet": "Adelanto, Apple Valley, Baldwin Lake, Big Bear City, Big Bear Lake, Erwin Lake, Everything East of Kelbaker Road and South of Nipton on I-40, Fawnskin, Ft. Irwin, Hesperia and unincorporated areas of El Mirage, Helendale, Lake Williams, Lucerne Valley, Moonridge, North of Snow Valley on 330, Oak Hills, Oro Grande, Phelan, Pinon Hills, Victorville, Wrightwood",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:55:38.854Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

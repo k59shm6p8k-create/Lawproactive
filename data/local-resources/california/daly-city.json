@@ -1,0 +1,45 @@
+{
+  "city_slug": "daly-city",
+  "county": "San Mateo",
+  "hospital": {
+    "name": "Seton Medical Center",
+    "address": "1900 Sullivan Ave, Daly City, CA 94015",
+    "phone": "650-992-4000",
+    "source_url": "https://www.ahmchealth.com/smc/smc/getpage.php?name=Emergency_Care",
+    "snippet": "Seton: 1900 Sullivan Ave, Daly City, CA 94015 • 650-992-4000",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Daly City Police Department",
+    "type": "city_pd",
+    "address": "333 90th St, Daly City, CA 94015",
+    "phone": "650-991-8119",
+    "source_url": "https://oag.ca.gov/fingerprints/locations/daly-city-police-department",
+    "snippet": "333 90th Street · Daly City, CA 94015 · County: San Mateo · Phone: (650) 991-8119",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Mateo",
+    "branch": "Northern Branch",
+    "serves_note": "Serves Daly City and surrounding areas for civil filings",
+    "address": "1050 Mission Road, South San Francisco, CA 94080",
+    "phone": null,
+    "source_url": "https://sanmateo.courts.ca.gov/general-information/locations-contact-info/court-judicial-district-and-geographical-areas",
+    "snippet": "Northern Branch Southern Branch Address 1050 Mission Road, South San Francisco, CA 94080 Hall of Justice: 400 County Center, Redwood City, CA 94063 Jurisdiction Airport BART Brisbane Broadmoor Burlingame California Highway Patrol Colma Daly City Fish and Wildlife Peninsula Humane Society",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California DMV - Daly City Field Office",
+    "address": "1500 Sullivan Avenue, Daly City, CA 94015",
+    "phone": null,
+    "source_url": "https://www.dmv.ca.gov/portal/field-office/daly-city/",
+    "snippet": "Field Office · 1500 Sullivan Avenue, Daly City, CA 94015",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:13:18.106Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

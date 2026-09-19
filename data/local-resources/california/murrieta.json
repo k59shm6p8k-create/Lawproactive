@@ -1,0 +1,38 @@
+{
+  "city_slug": "murrieta",
+  "county": "Riverside",
+  "hospital": {
+    "name": "Rancho Springs Hospital",
+    "address": null,
+    "phone": null,
+    "source_url": "https://swhranchosprings.com/services/emergency-department/",
+    "snippet": "The Emergency Department (ED) at Rancho Springs Hospital plays an essential role in caring for the urgent health needs of residents of Southwest Riverside County.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Murrieta Police Department",
+    "type": "city_pd",
+    "address": "2 Town Square, Murrieta, CA 92562",
+    "phone": "(951) 304-2677",
+    "source_url": "https://www.murrietaca.gov/Directory.aspx?DID=32",
+    "snippet": "2 Town Square Murrieta, CA 92562Phone: (951) 304-2677",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Riverside",
+    "branch": "Historic Courthouse",
+    "serves_note": "Unlimited civil cases from Murrieta (effective August 1, 2026)",
+    "address": null,
+    "phone": null,
+    "source_url": "https://riverside.courts.ca.gov/news/riverside-superior-court-announces-civil-filing-location-adjustments",
+    "snippet": "Unlimited civil cases originating from Lake Elsinore, Hemet, Winchester, Homeland, Wildomar, and Murrieta will be filed at the Historic Courthouse in Riverside.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:46:59.300Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

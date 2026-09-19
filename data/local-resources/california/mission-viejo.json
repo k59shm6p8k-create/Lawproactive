@@ -1,0 +1,29 @@
+{
+  "city_slug": "mission-viejo",
+  "county": "Orange",
+  "hospital": {
+    "name": "Providence Mission Hospital Mission Viejo",
+    "address": "27700 Medical Center Rd, Tower 1, Mission Viejo, CA 92691",
+    "phone": "949-364-1400",
+    "source_url": "https://www.providence.org/locations/socal/mission-hospital-mission-viejo/departments",
+    "snippet": "Emergency Care · 27700 Medical Center Rd, Tower 1 , Mission Viejo, CA 92691 · 949-364-1400",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Orange County Sheriff's Department - Mission Viejo Police Services",
+    "type": "contract_pd",
+    "address": null,
+    "phone": "949-770-6011",
+    "source_url": "https://www.missionviejo.gov/departments/police-services",
+    "snippet": "The City of Mission Viejo contracts with the Orange County Sheriff's Department for Police Services. ... 949-770-6011 for 24-hour Non-emergency dispatch",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:43:55.668Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

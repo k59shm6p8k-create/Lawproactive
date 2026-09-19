@@ -1,0 +1,45 @@
+{
+  "city_slug": "san-fernando",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Pacifica Hospital of the Valley",
+    "address": null,
+    "phone": "818-252-2184",
+    "source_url": "https://pacificahospital.com/",
+    "snippet": "Staffed for 24hr-emergencies, dial 911 or call us 818.252.2184",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "San Fernando Police Department",
+    "type": "city_pd",
+    "address": "910 First St, San Fernando, CA 91340",
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3068922/city-of-san-fernando-police-department",
+    "snippet": "Address: 910 First St. San Fernando CA 91340",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "San Fernando Courthouse",
+    "serves_note": "North Valley District, serves northeast portion of San Fernando Valley",
+    "address": "900 Third Street, San Fernando, CA 91340",
+    "phone": null,
+    "source_url": "https://www.lacourt.ca.gov/home",
+    "snippet": "San Fernando Courthouse 900 Third Street San Fernando, CA 91340",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - West Valley Area",
+    "address": "5825 De Soto Ave, Woodland Hills, CA 91367",
+    "phone": "818-888-0980",
+    "source_url": "https://cad.chp.ca.gov/htm.net/locations.htm",
+    "snippet": "WEST VALLEY CHP 5825 De Soto Ave. Woodland Hills 91367-5297 818-888-0980",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:04:43.117Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

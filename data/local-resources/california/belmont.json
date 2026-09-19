@@ -1,0 +1,22 @@
+{
+  "city_slug": "belmont",
+  "county": "San Mateo",
+  "hospital": null,
+  "police": {
+    "name": "Belmont Police Department",
+    "type": "city_pd",
+    "address": "One Twin Pines Lane, Belmont, CA 94002",
+    "phone": "650-595-7400",
+    "source_url": "https://www.belmont.gov/departments/police",
+    "snippet": "One Twin Pines Lane Belmont, CA 94002 Main Line: (650) 595-7400",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:59:30.862Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

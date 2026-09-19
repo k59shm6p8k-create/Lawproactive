@@ -1,0 +1,38 @@
+{
+  "city_slug": "watsonville",
+  "county": "Santa Cruz",
+  "hospital": {
+    "name": "Watsonville Community Hospital",
+    "address": "75 Nielson Street, Watsonville, CA 95076",
+    "phone": null,
+    "source_url": "https://www.santacruz.courts.ca.gov/divisions/civil-division",
+    "snippet": "75 Nielson Street, Watsonville, CA 95076",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Watsonville Police Department",
+    "type": "city_pd",
+    "address": "215 Union Street, Watsonville, CA 95076",
+    "phone": "831-768-3300",
+    "source_url": "https://www.watsonville.gov/directory.aspx?did=11",
+    "snippet": "215 Union Street Watsonville, CA 95076Phone: 831-768-3300",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Santa Cruz",
+    "branch": "Watsonville Courthouse",
+    "serves_note": "Civil filings, small claims, family, juvenile, restraining orders, traffic",
+    "address": "1 Second Street, Watsonville, CA 95076",
+    "phone": null,
+    "source_url": "https://www.santacruz.courts.ca.gov/location/watsonville-courthouse",
+    "snippet": "1 Second Street, Watsonville, CA 95076",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:22:19.325Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

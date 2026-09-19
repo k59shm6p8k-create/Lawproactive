@@ -1,0 +1,31 @@
+{
+  "city_slug": "fairfax",
+  "county": "Marin",
+  "hospital": null,
+  "police": {
+    "name": "Fairfax Police Department",
+    "type": "city_pd",
+    "address": "144 Bolinas Road, Fairfax, CA 94930",
+    "phone": "(415) 453-5330",
+    "source_url": "https://oag.ca.gov/fingerprints/locations/fairfax-police-department",
+    "snippet": "Address: 144 Bolinas Road · Fairfax, CA 94930 ... Phone: (415) 453-5330",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Marin",
+    "branch": "Civic Center",
+    "serves_note": "Serves Marin County including Fairfax",
+    "address": "3501 Civic Center Drive, San Rafael, California 94903",
+    "phone": "(415) 444-7000",
+    "source_url": "https://www.marin.courts.ca.gov/general-information/contact-us",
+    "snippet": "Marin County Superior Court 3501 Civic Center Drive San Rafael, California 94903 (415) 444-7000",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:19:23.295Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

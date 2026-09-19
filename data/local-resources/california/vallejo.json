@@ -1,0 +1,45 @@
+{
+  "city_slug": "vallejo",
+  "county": "Solano",
+  "hospital": {
+    "name": "Kaiser Foundation Hospital & Rehab Center - Vallejo",
+    "address": "975 Sereno Drive, Vallejo, CA 94589",
+    "phone": "707-651-1025",
+    "source_url": "https://healthy.kaiserpermanente.org/northern-california/facilities/Vallejo-Medical-Center-100316/departments/emergency-medicine-dlp-103386",
+    "snippet": "Emergency · 975 Sereno Dr Vallejo, CA 94589 · 7 days · open 24 hours · Advice (24 hours) 707-651-1025 (Local)",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Vallejo Police Department",
+    "type": "city_pd",
+    "address": "111 Amador Street, Vallejo, CA 94590",
+    "phone": "707-648-4321",
+    "source_url": "https://vallejo.hosted.civiclive.com/city_hall/departments___divisions/police",
+    "snippet": "111 Amador Street Vallejo, CA 94590 Non-Emergencies (707) 648-4321",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Solano",
+    "branch": "Solano Justice Building",
+    "serves_note": "Vallejo branch serves southern part of Solano County; handles civil, criminal, traffic and limited civil cases",
+    "address": "321 Tuolumne Street, Vallejo, CA 94590",
+    "phone": "707-561-7880",
+    "source_url": "https://solano.courts.ca.gov/general-information/clerk-services",
+    "snippet": "Solano Justice Building · 321 Tuolumne St Vallejo, CA 94590 · Phone : (707) 561-7880",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Golden Gate Division",
+    "address": "1551 Benicia Road, Vallejo, CA 94591",
+    "phone": null,
+    "source_url": "https://cad.chp.ca.gov/htm.net/locations.htm",
+    "snippet": "CHP GOLDEN GATE COMMUNICATIONS CENTER 1551 Benicia Road Vallejo 94591-7568 707-641-8300",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:20:05.541Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

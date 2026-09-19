@@ -1,0 +1,45 @@
+{
+  "city_slug": "santa-maria",
+  "county": "Santa Barbara",
+  "hospital": {
+    "name": "Marian Regional Medical Center",
+    "address": "1400 East Church Street Santa Maria, CA 93454",
+    "phone": null,
+    "source_url": "https://www.santabarbara.courts.ca.gov/location/santa-maria-cook-division",
+    "snippet": "Our Emergency Room at Dignity Health - Marian Regional Medical Center is dedicated to delivering high quality, compassionate care to 1400 E Church St, Santa Maria, CA 93454",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Santa Maria Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "(805) 928-3781",
+    "source_url": "https://oag.ca.gov/fingerprints/locations/santa-maria-police-department",
+    "snippet": "County: Santa Barbara · Phone: (805) 928-3781",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Santa Barbara",
+    "branch": "Cook Division",
+    "serves_note": "Civil, Appeals, Divorce Records, Adoptions, Small Claims, Probate for North County area including Santa Maria",
+    "address": "312 East Cook Street, Building E, Santa Maria, CA 93454",
+    "phone": null,
+    "source_url": "https://www.santabarbara.courts.ca.gov/location/santa-maria-cook-division",
+    "snippet": "312 East Cook Street Building E Santa Maria, CA 93454 ... Appeals Civil Domestic Violence Family Law Mental Health Probate Restraining Orders Small Claims",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Santa Maria Area Office",
+    "address": "1710 N. Carlotti Dr. Santa Maria, CA 93454-1505",
+    "phone": "(805) 349-8728",
+    "source_url": "https://www.chp.ca.gov/find-an-office/coastal-division/750-santa-maria/",
+    "snippet": "Santa Maria 1710 N. Carlotti Dr. Santa Maria, CA 93454-1505 · Phone (805) 349-8728",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:09:11.357Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

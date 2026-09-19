@@ -1,0 +1,38 @@
+{
+  "city_slug": "hesperia",
+  "county": "San Bernardino",
+  "hospital": null,
+  "police": {
+    "name": "Hesperia Police Department (San Bernardino County Sheriff)",
+    "type": "sheriff",
+    "address": "15840 Smoke Tree Street, Hesperia, CA 92345",
+    "phone": "(760) 947-1500",
+    "source_url": "http://www.hesperiaca.gov/Directory/Home/DepartmentListing?DID=7",
+    "snippet": "Physical Address: 15840 Smoke Tree Street Hesperia, CA 92345 Phone: (760) 947-1500",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Bernardino",
+    "branch": "Victorville District",
+    "serves_note": "Hesperia is served by the Victorville District for civil filings",
+    "address": "14455 Civic Drive, Victorville, CA 92392",
+    "phone": null,
+    "source_url": "https://sanbernardino.courts.ca.gov/locations",
+    "snippet": "14455 Civic Drive, Victorville, CA 92392",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Victorville Area Office",
+    "address": "14210 Amargosa Road, Victorville, CA 92395",
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/inland-division/850-victorville/",
+    "snippet": "CHP Victorville Area Office: 14210 Amargosa Road, Victorville, CA 92392",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:27:24.634Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

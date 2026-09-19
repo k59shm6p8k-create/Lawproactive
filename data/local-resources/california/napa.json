@@ -1,0 +1,45 @@
+{
+  "city_slug": "napa",
+  "county": "Napa",
+  "hospital": {
+    "name": "Providence Queen of the Valley Medical Center",
+    "address": "1000 Trancas Street, Napa, CA 94558",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/queen-of-the-valley-medical-center/",
+    "snippet": "Address: 1000 Trancas Street Napa, CA 94558",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Napa Police Department",
+    "type": "city_pd",
+    "address": "1539 First Street, Napa, CA 94559",
+    "phone": "707-257-9573",
+    "source_url": "https://www.cityofnapa.org/440/Police-Department",
+    "snippet": "Physical Address · 1539 First Street Napa, CA 94559 · Phone Number 707-257-9573",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Napa",
+    "branch": "Historic Courthouse",
+    "serves_note": "Civil filings for Napa County",
+    "address": "825 Brown Street, Napa, CA 94559",
+    "phone": null,
+    "source_url": "https://www.napa.courts.ca.gov/divisions/civil",
+    "snippet": "Historic Courthouse 825 Brown St. Napa, CA 94559 · Office hours: Monday - Friday 8:00 a.m. to 4:00 p.m.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Napa Area",
+    "address": "975 Golden Gate Drive, Napa, CA 94558",
+    "phone": "707-253-4906",
+    "source_url": "https://www.chp.ca.gov/find-an-office/golden-gate-division/325-napa/",
+    "snippet": "California Highway Patrol 975 Golden Gate Drive Napa, CA 94558 Phone: 707-253-4906",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:47:09.686Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

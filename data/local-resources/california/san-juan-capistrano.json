@@ -1,0 +1,36 @@
+{
+  "city_slug": "san-juan-capistrano",
+  "county": "Orange",
+  "hospital": {
+    "name": "Mission Viejo Hospital (Saddleback Medical Center)",
+    "address": "27700 Medical Center Road, Mission Viejo, CA 92691",
+    "phone": "(949) 364-1400",
+    "source_url": "https://healthcarecomps.com/hospitals/ca/?zip=92675",
+    "snippet": "27700 MEDICAL CENTER RD MISSION VIEJO, CA 92691 (949) 364-1400 Acute Care Hospitals Has emergency room",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "San Juan Capistrano Police Services (Orange County Sheriff's Department)",
+    "type": "contract_pd",
+    "address": "32506 Paseo Adelanto, San Juan Capistrano, CA 92675",
+    "phone": "(949) 443-6369",
+    "source_url": "https://www.ocsheriff.gov/location/san-juan-capistrano-police-services",
+    "snippet": "32506 Paseo Adelanto San Juan Capistrano, CA 92675 United States phone Phone: (949) 443-6369",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol (CHP) Capistrano Area",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/border-division/offices/(690)-capistrano",
+    "snippet": "The California Highway Patrol, Capistrano Area, proudly serves the South Orange County Region",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:06:07.232Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

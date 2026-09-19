@@ -1,0 +1,45 @@
+{
+  "city_slug": "yuba-city",
+  "county": "Sutter",
+  "hospital": {
+    "name": "Adventist Health and Rideout",
+    "address": "726 4th Street, Marysville, CA 95901",
+    "phone": "(530) 749-4300",
+    "source_url": "https://www.yubacity.net/community/hospital___health.php",
+    "snippet": "Emergency Room Adventist Health and Rideout · 726 4th Street, Marysville | (530) 749-4300",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Yuba City Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.sutter.gov/community/residents/law-enforcement-justice",
+    "snippet": "City of Yuba City Police Main website for the City of Yuba City Police department.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Sutter",
+    "branch": "Sutter County Superior Courthouse",
+    "serves_note": "Serves all of Sutter County including Yuba City for civil filings",
+    "address": "1175 Civic Center Blvd, Yuba City, CA 95993",
+    "phone": "(530) 822-3304",
+    "source_url": "https://www.sutter.courts.ca.gov/divisions/civil",
+    "snippet": "Sutter County Superior Courthouse 1175 Civic Center Blvd Yuba City, CA 95993 Phone: 530-822-3304",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "CHP Yuba-Sutter Area",
+    "address": "1619 Poole Boulevard, Yuba City, CA 95993",
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/valley-division/285-yuba-sutter/",
+    "snippet": "1619 Poole Blvd. Yuba City 95993-2608 530-674-5141",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:26:39.481Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

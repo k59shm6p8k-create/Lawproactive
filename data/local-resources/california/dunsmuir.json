@@ -1,0 +1,31 @@
+{
+  "city_slug": "dunsmuir",
+  "county": "Siskiyou",
+  "hospital": null,
+  "police": {
+    "name": "Siskiyou County Sheriff's Office",
+    "type": "contract_pd",
+    "address": "305 Butte Street, Yreka, CA 96097",
+    "phone": "530-842-8300",
+    "source_url": "https://www.siskiyoucounty.gov/sheriff/page/dunsmuir",
+    "snippet": "Headquarters 305 Butte Street Yreka, CA 96097 Phone: 530-842-8300",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Siskiyou",
+    "branch": null,
+    "serves_note": "County-level court serving Dunsmuir",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.siskiyou.courts.ca.gov/",
+    "snippet": "Superior Court of California | County of Siskiyou",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:16:24.943Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

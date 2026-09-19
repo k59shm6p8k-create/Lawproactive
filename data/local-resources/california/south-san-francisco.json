@@ -1,0 +1,36 @@
+{
+  "city_slug": "south-san-francisco",
+  "county": "San Mateo",
+  "hospital": {
+    "name": "Kaiser Foundation Hospital South San Francisco",
+    "address": "1200 El Camino Real, South San Francisco, CA 94080",
+    "phone": null,
+    "source_url": "https://healthy.kaiserpermanente.org/northern-california/facilities/south-san-francisco-medical-center-100319",
+    "snippet": "The Emergency Department at South San Francisco Medical Center is open 24 hours, including holidays, and is located at 1200 El Camino Real, South San Francisco, CA 94080.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "South San Francisco Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "(650) 877-8922",
+    "source_url": "https://www.ssfca.gov/Departments/Police-Department/Divisions",
+    "snippet": "Community Relations: (650) 877-8922 Email (General Questions and Concerns): web-pd@ssfca.gov",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - San Francisco Area Office",
+    "address": "455 Eighth Street, San Francisco, CA 94103",
+    "phone": "(415) 557-1094",
+    "source_url": "https://cad.chp.ca.gov/htm.net/locations.htm",
+    "snippet": "SAN FRANCISCO CHP 455 Eighth Street San Francisco 94103 415-557-1094",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:14:14.255Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

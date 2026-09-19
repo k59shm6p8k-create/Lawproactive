@@ -1,0 +1,38 @@
+{
+  "city_slug": "monrovia",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Monrovia Memorial Hospital",
+    "address": "323 South Heliotrope Avenue, Monrovia, CA 91016",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/monrovia-memorial-hospital/",
+    "snippet": "Address: 323 South Heliotrope Avenue Monrovia, CA 91016",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Monrovia Police Department",
+    "type": "city_pd",
+    "address": "140 E. Lime Ave. Monrovia CA 91016",
+    "phone": "626-256-8000",
+    "source_url": "https://www.monroviaca.gov/your-government/police-department",
+    "snippet": "Address: 140 E. Lime Ave. Monrovia CA 91016 ... Phones: Direct Dispatch - Emergency Number Emergency (626) 256-8088, FAX (626) 256-8025, Service/Intake (626) 256-8000",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Monrovia Courthouse",
+    "serves_note": "Serves Monrovia and surrounding areas including Altadena, Arcadia, Pasadena and Sierra Madre",
+    "address": "300 W Maple Ave, Monrovia, CA 91016",
+    "phone": null,
+    "source_url": "https://www.lacourt.ca.gov/pages/cp/gi-courthouses-all",
+    "snippet": "300 W Maple Ave · Monrovia, CA 91016",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:44:15.433Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

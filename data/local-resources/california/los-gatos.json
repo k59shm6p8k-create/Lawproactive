@@ -1,0 +1,29 @@
+{
+  "city_slug": "los-gatos",
+  "county": "Santa Clara",
+  "hospital": {
+    "name": "El Camino Hospital Los Gatos",
+    "address": "815 Pollard Road, Los Gatos, CA 95032",
+    "phone": null,
+    "source_url": "https://www.elcaminohealth.org/",
+    "snippet": "Address: 815 Pollard Road Los Gatos, CA 95032",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Los Gatos-Monte Sereno Police Department",
+    "type": "city_pd",
+    "address": "110 E. Main Street, Los Gatos, CA 95030",
+    "phone": "(408) 354-8600",
+    "source_url": "https://www.losgatosca.gov/2827/Police-Services",
+    "snippet": "110 E. Main Street, Los Gatos, CA, United States, California · (408) 354-8600",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:39:50.598Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

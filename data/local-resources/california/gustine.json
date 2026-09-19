@@ -1,0 +1,22 @@
+{
+  "city_slug": "gustine",
+  "county": "Merced",
+  "hospital": null,
+  "police": {
+    "name": "Gustine Police Department",
+    "type": "city_pd",
+    "address": "682 Third Avenue, Gustine, CA 95322",
+    "phone": "(209) 854-3737",
+    "source_url": "https://www.cityofgustine.com/pview.aspx?id=14069&catid=0",
+    "snippet": "Police Department 682 Third Ave. Gustine, CA 95322 Phone: 209-854-3737",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:25:25.420Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

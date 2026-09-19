@@ -1,0 +1,45 @@
+{
+  "city_slug": "santa-barbara",
+  "county": "Santa Barbara",
+  "hospital": {
+    "name": "Santa Barbara Cottage Hospital",
+    "address": "400 W. Pueblo Street, Santa Barbara, CA 93105",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/santa-barbara-cottage-hospital/",
+    "snippet": "Address: 400 W. Pueblo Street Santa Barbara, CA 93105",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Santa Barbara Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://santabarbaraca.gov/government/departments/santa-barbara-police-department",
+    "snippet": "Non-Emergency Dispatch: 805-882-8900 Contact SBPD",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Santa Barbara",
+    "branch": "Anacapa Division (Civil)",
+    "serves_note": "Serves civil cases in Santa Barbara city and county; main courthouse campus in Santa Barbara county seat",
+    "address": "1100 Anacapa Street, Santa Barbara, CA 93121",
+    "phone": null,
+    "source_url": "https://www.santabarbara.courts.ca.gov/divisions/civil",
+    "snippet": "1100 Anacapa St (Santa Barbara, Civil)",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Santa Barbara Area",
+    "address": "6465 Calle Real, Goleta, CA 93117-1597",
+    "phone": "805-770-4800",
+    "source_url": "https://www.chp.ca.gov/find-an-office/coastal-division/offices/(760)-santa-barbara",
+    "snippet": "(805) 770-4800 · 6465 Calle Real · Goleta , CA 93117-1535",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:08:16.667Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

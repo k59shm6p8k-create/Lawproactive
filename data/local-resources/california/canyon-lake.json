@@ -1,0 +1,22 @@
+{
+  "city_slug": "canyon-lake",
+  "county": "Riverside",
+  "hospital": null,
+  "police": {
+    "name": "Riverside County Sheriff's Office",
+    "type": "contract_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.canyonlakeca.gov/index.asp?SEC=CBA8016B-8C82-4D66-8D42-55EBE337DBD7",
+    "snippet": "Until the Canyon Lake Police Department is operational, the City of Canyon Lake will continue to receive contracted law enforcement services through the Riverside County Sheriff's Office (RSO).",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:29:34.148Z",
+    "searches": 5,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "city_slug": "roseville",
+  "county": "Placer",
+  "hospital": {
+    "name": "Sutter Roseville Medical Center",
+    "address": "1 Medical Plaza Drive, Roseville, CA 95661",
+    "phone": "916-781-1800",
+    "source_url": "https://www.sutterhealth.org/find-location/facility/sutter-roseville-medical-center-emergency-department",
+    "snippet": "Sutter Roseville Medical Center Emergency Department is located at 1 Medical Plaza Drive, Roseville CA 95661... Contact Sutter Roseville Medical Center Emergency Department at 9167811800.",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Roseville Police Department",
+    "type": "city_pd",
+    "address": "1051 Junction Blvd, Roseville, CA 95678",
+    "phone": "916-774-5000",
+    "source_url": "https://cityofroseville.hosted.civiclive.com/government/departments/police_department",
+    "snippet": "Roseville Police Department 1051 Junction Blvd. Roseville, CA 95678 916-774-5000 (Non-emergency)",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Placer",
+    "branch": "Bill Santucci Justice Center",
+    "serves_note": "Serves all of Placer County including Roseville for civil filings",
+    "address": "10820 Justice Center Drive, Roseville, CA 95678",
+    "phone": null,
+    "source_url": "https://placer.courts.ca.gov/",
+    "snippet": "Schedule an appointment to visit our Self-Help Center, Family Division or Civil Division at the Courthouse in Roseville... 10820 Justice Center Drive Roseville , CA 95678",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:02:32.585Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

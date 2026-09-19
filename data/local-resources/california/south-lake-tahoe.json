@@ -1,0 +1,45 @@
+{
+  "city_slug": "south-lake-tahoe",
+  "county": "El Dorado",
+  "hospital": {
+    "name": "Barton Memorial Hospital",
+    "address": "2170 South Avenue, South Lake Tahoe, CA 96150",
+    "phone": null,
+    "source_url": "https://www.bartonhealth.org/find-a-location/locations-profile/barton-memorial-hospital/",
+    "snippet": "Barton Memorial Hospital, a component of Barton Health, consists of ... Barton Memorial Hospital offers comprehensive emergency and critical care in Lake Tahoe. Address: 2170 South Avenue South Lake Tahoe, CA 96150",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "South Lake Tahoe Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.cityofslt.gov/302/Police-Department",
+    "snippet": "The South Lake Tahoe Police Department is a full-service police department that strives to make your experience at South Lake Tahoe safe and crime-free.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of El Dorado",
+    "branch": "South Lake Tahoe Branch",
+    "serves_note": "Serves South Lake Tahoe and East Slope area for civil, criminal, family law, juvenile, probate, and small claims filings",
+    "address": "1354 Johnson Boulevard, South Lake Tahoe, CA 96150",
+    "phone": "(530) 573-3075",
+    "source_url": "https://www.eldorado.courts.ca.gov/location/south-lake-tahoe-branch",
+    "snippet": "County of El Dorado · East Slope · 1354 Johnson Blvd. South Lake Tahoe, CA 96150 · (530) 573-3075",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - South Lake Tahoe Area",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/valley-division/246-south-lake-tahoe/",
+    "snippet": "The California Highway Patrol's South Lake Tahoe Area is staffed with one lieutenant commander, three sergeants, twenty officers, two civilian clerical staff, one civilian automotive technician and one civilian part-time maintenance worker.",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:13:47.813Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "city_slug": "arcadia",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "USC Arcadia Hospital",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.keckmedicine.org/locations/300-w-huntington-drive-arcadia/",
+    "snippet": "USC Arcadia Hospital, part of Keck Medicine of USC, is a 348-licensed-bed community hospital that has been serving the health care needs of patients in the San Gabriel Valley and surrounding communities, for more than a century.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Arcadia Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "(626) 574-5151",
+    "source_url": "https://www.arcadiacapolice.gov/about_us/contact_us.php",
+    "snippet": "If you have information or would like to leave an anonymous tip about a recent crime or a suspect at large, please contact our department at (626) 574-5151 at any time.",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Northeast District - Pasadena",
+    "serves_note": "Jurisdiction over Altadena, Arcadia, Monrovia, Pasadena, and Sierra Madre",
+    "address": null,
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176782/los-angeles-county-superior-court---northeast-district---pasadena",
+    "snippet": "This state trial court is an L A County Superior Court with jurisdiction over cases that take place in Altadena, Arcadia, Monrovia, Pasadena and Sierra Madre.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:55:52.989Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

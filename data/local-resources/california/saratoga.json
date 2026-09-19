@@ -1,0 +1,22 @@
+{
+  "city_slug": "saratoga",
+  "county": "Santa Clara",
+  "hospital": null,
+  "police": {
+    "name": "Santa Clara County Sheriff's Office",
+    "type": "sheriff",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.saratoga.ca.us/195/Sheriffs-Office",
+    "snippet": "The Sheriff's Office serves the communities of Saratoga, Cupertino, Los Altos Hills, and the unincorporated areas of the County.",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:10:07.382Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

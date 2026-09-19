@@ -1,0 +1,29 @@
+{
+  "city_slug": "seaside",
+  "county": "Monterey",
+  "hospital": {
+    "name": "Community Hospital of the Monterey Peninsula",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.healthgrades.com/hospital-directory/ca-california/seaside",
+    "snippet": "Community Hospital of the Monterey Peninsula is a medical facility located in Monterey, CA.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Seaside Police Department",
+    "type": "city_pd",
+    "address": "440 Harcourt Ave, Seaside, CA",
+    "phone": null,
+    "source_url": "https://www.facebook.com/p/Seaside-Police-Officers-Association-100064427962663/",
+    "snippet": "440 Harcourt Ave, Seaside, CA, United States, California",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:10:54.737Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "city_slug": "westminster",
+  "county": "Orange",
+  "hospital": {
+    "name": "Kindred Hospital Westminster",
+    "address": "200 Hospital Circle, Westminster, CA 92683",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/kindred-hospital-westminster/",
+    "snippet": "Address: 200 Hospital Circle Westminster, CA 92683 · Facility License Type: General Acute Care Hospital",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Westminster Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "714-548-3212",
+    "source_url": "https://www.westminster-ca.gov/departments/police",
+    "snippet": "Please call dispatch at 714-548-3212 to report a crime in Westminster, California.",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Westminster Area",
+    "address": "13200 Golden West Street, Westminster, CA 92683",
+    "phone": "714-892-4426",
+    "source_url": "https://m.chp.ca.gov/office.aspx?id=670",
+    "snippet": "Westminster 13200 Golden West St. Westminster, CA 92683-2299 · Phone (714) 892-4426",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:23:29.868Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

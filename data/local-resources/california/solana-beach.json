@@ -1,0 +1,29 @@
+{
+  "city_slug": "solana-beach",
+  "county": "San Diego",
+  "hospital": {
+    "name": "Scripps Memorial Hospital Encinitas",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.scripps.org/services/emergency-services",
+    "snippet": "Serving coastal North County communities, including Solana Beach, Cardiff and Carlsbad.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "San Diego County Sheriff's Department - North Coastal Station",
+    "type": "contract_pd",
+    "address": "175 North El Camino Real, Encinitas",
+    "phone": null,
+    "source_url": "https://www.cityofsolanabeach.ca.gov/en/community/public-safety/law-enforcement",
+    "snippet": "The North Coastal Sheriff Station is located in Encinitas at 175 North El Camino Real, and the station provides services for the cities of Encinitas, Solana Beach, Del Mar, and the unincorporated area of Rancho Santa Fe.",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:12:31.788Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

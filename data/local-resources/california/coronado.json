@@ -1,0 +1,29 @@
+{
+  "city_slug": "coronado",
+  "county": "San Diego",
+  "hospital": {
+    "name": "Sharp Coronado Hospital",
+    "address": "250 Prospect Place, Coronado, CA 92118",
+    "phone": "(619) 522-3722",
+    "source_url": "https://www.sharp.com/locations/sharp-coronado-emergency-room",
+    "snippet": "+1 (619) 522-3722 · 250 Prospect Pl · Coronado, CA 92118",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Coronado Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "(619) 522-7350",
+    "source_url": "https://www.coronado.ca.us/formcenter/contact-forms-5/contact-police-services-56",
+    "snippet": "For Non-Emergencies, dial 619-522-7350",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:11:20.187Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

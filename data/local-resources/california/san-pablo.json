@@ -1,0 +1,31 @@
+{
+  "city_slug": "san-pablo",
+  "county": "Contra Costa",
+  "hospital": null,
+  "police": {
+    "name": "San Pablo Police Department",
+    "type": "city_pd",
+    "address": "13880 San Pablo Avenue San Pablo, CA 94806",
+    "phone": "(510) 215-3130",
+    "source_url": "https://www.sanpabloca.gov/Directory.aspx?did=27",
+    "snippet": "13880 San Pablo Avenue San Pablo, CA 94806Phone: (510) 215-3130",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Contra Costa",
+    "branch": "George D. Carroll Courthouse",
+    "serves_note": "Serves San Pablo and surrounding West County communities",
+    "address": null,
+    "phone": null,
+    "source_url": "https://contracosta.courts.ca.gov/location/george-d-carroll-courthouse",
+    "snippet": "This court serves the communities of Crockett, El Cerrito, El Sobrante, Hercules, Kensington, North Richmond, Pinole, Point Richmond, Port Costa, Richmond, Rodeo, Rollingwood, San Pablo, and Tilden Park North.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:07:13.120Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "city_slug": "artesia",
+  "county": "Los Angeles",
+  "hospital": null,
+  "police": {
+    "name": "Los Angeles County Sheriff's Department - Lakewood Station",
+    "type": "sheriff",
+    "address": null,
+    "phone": null,
+    "source_url": "https://en.wikipedia.org/wiki/Artesia,_California",
+    "snippet": "The Los Angeles County Sheriff's Department operates the Lakewood Station in Lakewood, serving Artesia.",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Southeast District - Bellflower Courthouse",
+    "serves_note": "Serves Artesia, Bellflower, Cerritos, Hawaiian Gardens, Lakewood, and Norwalk",
+    "address": "10025 E. Flower St. Bellflower CA 90706",
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176783/los-angeles-county-superior-court---southeast-district---bellflower-courthouse",
+    "snippet": "This state trial court is an L A County Superior Court with jurisdiction over cases that take place in Artesia, Bellflower, Cerritos, Hawaiian Gardens, Lakewood, and Norwalk. Address: 10025 E. Flower St. Bellflower CA 90706",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:56:24.254Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

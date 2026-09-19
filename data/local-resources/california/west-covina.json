@@ -1,0 +1,45 @@
+{
+  "city_slug": "west-covina",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Emanate Health Queen of the Valley Hospital",
+    "address": "1115 South Sunset Avenue, West Covina, CA 91790",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/citrus-valley-medical-center-qv-campus/",
+    "snippet": "Address: 1115 South Sunset Avenue West Covina, CA 91790",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "West Covina Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "626-939-8500",
+    "source_url": "https://locator.lacounty.gov/lac/Location/3175463/city-of-west-covina-police-department",
+    "snippet": "Service/Intake and Administration (626) 939-8500",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "West Covina Courthouse",
+    "serves_note": "Serves West Covina and surrounding San Gabriel Valley cities; East District",
+    "address": null,
+    "phone": "626-813-3236",
+    "source_url": "https://locator.lacounty.gov/lac/Location/3178259/los-angeles-county-superior-court---east-district---west-covina-courthouse",
+    "snippet": "Civil Service/Intake (626) 813-3236",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Baldwin Park",
+    "address": "14039 Francisquito Avenue, Baldwin Park, CA 91706",
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3048031/california-state-highway-patrol---chp---baldwin-park",
+    "snippet": "Address: 14039 Francisquito Ave. Baldwin Park CA 91706",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:22:39.354Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

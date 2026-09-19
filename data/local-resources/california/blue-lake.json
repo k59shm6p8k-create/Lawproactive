@@ -1,0 +1,31 @@
+{
+  "city_slug": "blue-lake",
+  "county": "Humboldt",
+  "hospital": null,
+  "police": {
+    "name": "Humboldt County Sheriff's Office",
+    "type": "sheriff",
+    "address": null,
+    "phone": null,
+    "source_url": "https://bluelake.ca.gov/city-services/public-safety/",
+    "snippet": "The City of Blue Lake contracts with the Humboldt County Sheriff Department for all Law Enforcement services.",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Humboldt",
+    "branch": "Eureka Courthouse",
+    "serves_note": "Serves all of Humboldt County including Blue Lake",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.humboldt.courts.ca.gov/general-information",
+    "snippet": "The Superior Court of California, County of Humboldt is located in the City of Eureka and shares space with the County in the County Courthouse Building.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:01:18.830Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

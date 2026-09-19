@@ -1,0 +1,29 @@
+{
+  "city_slug": "piedmont",
+  "county": "Alameda",
+  "hospital": null,
+  "police": {
+    "name": "Piedmont Police Department",
+    "type": "city_pd",
+    "address": "403 Highland Avenue, Piedmont, CA",
+    "phone": "(510) 420-3000",
+    "source_url": "https://www.facebook.com/p/Piedmont-Police-Department-100067774249791/",
+    "snippet": "Police Station · 403 Highland Avenue, Piedmont, CA, United States, California · (510) 420-3000",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Oakland Area",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/golden-gate-division/370-oakland/",
+    "snippet": "The California Highway Patrol (CHP) Oakland Area is honored to serve the communities of Oakland, Berkeley, Piedmont, Emeryville, Albany, El Cerrito, San Pablo, El Sobrante, and Richmond",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:54:35.525Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "city_slug": "arroyo-grande",
+  "county": "San Luis Obispo",
+  "hospital": {
+    "name": "Arroyo Grande Community Hospital",
+    "address": "345 South Halcyon Road, Arroyo Grande, CA 93420",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/marian-regional-medical-center-arroyo-grande/",
+    "snippet": "Address: 345 South Halcyon Road Arroyo Grande, CA 93420",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Arroyo Grande Police Department",
+    "type": "city_pd",
+    "address": "200 N. Halcyon Road, Arroyo Grande, CA 93420",
+    "phone": "805-473-5110",
+    "source_url": "https://www.arroyogrande.org/Directory.aspx?did=18",
+    "snippet": "200 N. Halcyon Road Arroyo Grande CA 93420...Phone: 805-473-5110",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:56:11.687Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

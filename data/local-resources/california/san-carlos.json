@@ -1,0 +1,29 @@
+{
+  "city_slug": "san-carlos",
+  "county": "San Mateo",
+  "hospital": {
+    "name": "Mills-Peninsula Medical Center",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.solvhealth.com/ca/c/san-carlos-ca-urgent-care",
+    "snippet": "For emergencies, Mills-Peninsula Medical Center in Burlingame has the nearest full ER.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "San Mateo County Sheriff's Office - San Carlos Police Bureau",
+    "type": "sheriff",
+    "address": "600 Elm Street, San Carlos, CA 94070",
+    "phone": "(650) 802-4277",
+    "source_url": "https://www.cityofsancarlos.org/business_detail_T10_R142.php",
+    "snippet": "(650) 802-4277 Chief of Police Mike Tabak SHERIFFS_scpb@smcgov.org 600 Elm Street, San Carlos, CA94070",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:03:57.231Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

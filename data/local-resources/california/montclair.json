@@ -1,0 +1,29 @@
+{
+  "city_slug": "montclair",
+  "county": "San Bernardino",
+  "hospital": {
+    "name": "Montclair Hospital Medical Center",
+    "address": "5000 San Bernardino Street, Montclair, CA 91763",
+    "phone": "(909) 625-5411",
+    "source_url": "https://www.cityofmontclair.org/question/how-do-i-find-a-hospital/",
+    "snippet": "Montclair Hospital Medical Center 5000 San Bernardino Street Montclair, CA 91763 (909) 625-5411",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Montclair Police Department",
+    "type": "city_pd",
+    "address": "4870 Arrow Highway, Montclair, CA 91763",
+    "phone": "(909) 448-3600",
+    "source_url": "https://www.cityofmontclair.org/police-department-directory/",
+    "snippet": "Montclair Police Department 4870 Arrow Highway, Montclair, CA 91763 Business Office (909) 448-3600",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:44:39.657Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

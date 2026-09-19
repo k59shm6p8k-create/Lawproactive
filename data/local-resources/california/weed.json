@@ -1,0 +1,29 @@
+{
+  "city_slug": "weed",
+  "county": "Siskiyou",
+  "hospital": {
+    "name": "Mercy Medical Center Mt. Shasta",
+    "address": null,
+    "phone": null,
+    "source_url": "https://weedchamber.com/resources/medical",
+    "snippet": "Mercy Medical Center Mt. Shasta, a designated Critical Access Hospital, is just minutes away from Weed and offers sophisticated compassionate health care services.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Weed Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://ci.weed.ca.us/police-department/",
+    "snippet": "The Weed Police Department provides professional law-enforcement, emergency-communications, public-safety, and community-support services to the residents, businesses, and visitors of Weed.",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:22:28.209Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

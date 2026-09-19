@@ -1,0 +1,45 @@
+{
+  "city_slug": "redlands",
+  "county": "San Bernardino",
+  "hospital": {
+    "name": "Redlands Community Hospital",
+    "address": "350 Terracina Boulevard, Redlands, CA 92373",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/redlands-community-hospital/",
+    "snippet": "Address: 350 Terracina Boulevard Redlands, CA 92373",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Redlands Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "909-798-7786",
+    "source_url": "https://www.redlands.gov/police-department-contact/",
+    "snippet": "Records Unit: (909) 798-7786",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Bernardino",
+    "branch": "San Bernardino Justice Center",
+    "serves_note": "Redlands and surrounding communities in San Bernardino County; civil filings processed at San Bernardino District",
+    "address": null,
+    "phone": null,
+    "source_url": "https://sanbernardino.courts.ca.gov/general-information/where-can-i-file",
+    "snippet": "Baldy, San Bernardino, Colton, Devore, Grand Terrace, Loma Linda, Bryn Mawr, Highland, Yucaipa, Redlands",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Department of Motor Vehicles (Redlands Field Office)",
+    "address": "1659 W Lugonia Avenue, Redlands, CA 92374",
+    "phone": null,
+    "source_url": "https://www.dmv.ca.gov/portal/field-office/redlands/",
+    "snippet": "Field Office · 1659 W Lugonia Avenue, Redlands, CA 92374",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:59:01.386Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

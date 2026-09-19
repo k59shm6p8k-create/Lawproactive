@@ -1,0 +1,29 @@
+{
+  "city_slug": "loomis",
+  "county": "Placer",
+  "hospital": {
+    "name": "Sutter Roseville Medical Center",
+    "address": "1 Medical Plaza Drive, Roseville, CA 95661",
+    "phone": "(916) 781-1000",
+    "source_url": "https://loomis.ca.gov/question/where-can-i-find-the-nearest-hospitals/",
+    "snippet": "Sutter Roseville Medical Center · 1 Medical Plaza Drive, Roseville, CA 95661 (916)781-1000",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Placer County Sheriff's Office",
+    "type": "sheriff",
+    "address": null,
+    "phone": "(916) 652-2400",
+    "source_url": "https://loomis.ca.gov/departments/placer-county-sheriff/",
+    "snippet": "Commander- Lieutenant Jason Doolittle · (916) 652-2400 · PCSO_LoomisSub@placer.ca.gov · Placer County Sheriffs Loomis Office",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:38:52.133Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

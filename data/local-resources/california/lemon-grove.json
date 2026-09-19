@@ -1,0 +1,22 @@
+{
+  "city_slug": "lemon-grove",
+  "county": "San Diego",
+  "hospital": null,
+  "police": {
+    "name": "San Diego County Sheriff - Lemon Grove Substation",
+    "type": "contract_pd",
+    "address": "3240 Main St, Lemon Grove, CA 91945",
+    "phone": null,
+    "source_url": "https://en.wikipedia.org/wiki/San_Diego_County_Sheriff's_Office",
+    "snippet": "Lemon Grove Substation 3240 Main St Lemon Grove, CA 91945",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:36:41.448Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

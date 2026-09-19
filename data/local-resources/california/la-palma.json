@@ -1,0 +1,29 @@
+{
+  "city_slug": "la-palma",
+  "county": "Orange",
+  "hospital": {
+    "name": "La Palma Intercommunity Hospital",
+    "address": "7901 Walker Street, La Palma, CA 90623",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/la-palma-intercommunity-hospital/",
+    "snippet": "Address: 7901 Walker Street La Palma, CA 90623",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "La Palma Police Department",
+    "type": "city_pd",
+    "address": "7792 Walker Street, La Palma, CA 90623",
+    "phone": "714-690-3370",
+    "source_url": "https://www.lapalmaca.gov/Directory.aspx?did=19",
+    "snippet": "Police Station 7792 Walker St. La Palma, CA 90623Phone: 714-690-3370",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:33:25.932Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

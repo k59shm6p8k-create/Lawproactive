@@ -1,0 +1,38 @@
+{
+  "city_slug": "west-hollywood",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Cedars-Sinai Medical Center",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.cedars-sinai.org/locations/emergency-department-148.html",
+    "snippet": "North Tower is located at 8701 Gracie Allen Drive between San Vicente Boulevard and George Burns Road.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "West Hollywood Sheriff's Station",
+    "type": "sheriff",
+    "address": "780 N. San Vicente Bl. West Hollywood, CA 90069",
+    "phone": "(310) 855-8850",
+    "source_url": "https://lasd.org/west-hollywood/",
+    "snippet": "(310) 855-8850 780 N. San Vicente Bl. West Hollywood, CA 90069",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "West District - Beverly Hills",
+    "serves_note": "Handles civil, small claims, and traffic cases in Beverly Hills and West Hollywood",
+    "address": null,
+    "phone": "(310) 288-1308",
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176537/los-angeles-county-superior-court---west-district---beverly-hills",
+    "snippet": "Civil Division Service/Intake (310) 288-1308",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:22:49.438Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "city_slug": "big-bear-lake",
+  "county": "San Bernardino",
+  "hospital": {
+    "name": "Bear Valley Community Hospital",
+    "address": "41870 Garstin Drive, Big Bear Lake, CA 92315",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/bear-valley-community-hospital/",
+    "snippet": "Address: 41870 Garstin Drive Big Bear Lake, CA 92315",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "San Bernardino County Sheriff's Department - Big Bear Patrol Station",
+    "type": "contract_pd",
+    "address": "477 Summit Boulevard, Big Bear Lake, CA 92315",
+    "phone": null,
+    "source_url": "https://www.citybigbearlake.com/index.php/en/services-main/public-safety/law-enforcement",
+    "snippet": "The City contracts with the San Bernardino County Sheriff's Department for criminal law and traffic enforcement. Big Bear Lake Patrol Station 477 Summit Blvd. Big Bear Lake",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Bernardino",
+    "branch": "Big Bear District",
+    "serves_note": "Serves Big Bear Lake and Big Bear Valley; civil matters including small claims, landlord-tenant, and civil restraining orders",
+    "address": "477 Summit Boulevard, Big Bear Lake, CA 92315",
+    "phone": "760-718-3734",
+    "source_url": "https://sanbernardino.courts.ca.gov/location/big-bear-district",
+    "snippet": "477 Summit Blvd Big Bear Lake, CA 92315 · Small Claims Landlord Tenant Civil Restraining Orders · Phone: (760) 718-3734",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "Redline Vehicle Registration Services (DMV Partner)",
+    "address": "40703 Big Bear Boulevard, Big Bear Lake, CA 92315",
+    "phone": "909-866-7137",
+    "source_url": "https://www.dmv.ca.gov/portal/business-partner/redline-vehicle-registration-services-new/",
+    "snippet": "40703 Big Bear Blvd, Big Bear Lake, CA 92315 1-909-866-7137",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:00:38.499Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

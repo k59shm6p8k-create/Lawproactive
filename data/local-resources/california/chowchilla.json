@@ -1,0 +1,45 @@
+{
+  "city_slug": "chowchilla",
+  "county": "Madera",
+  "hospital": {
+    "name": "Camarena Health",
+    "address": "300 Prosperity Blvd, Chowchilla, CA 93610",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/camarena-health/",
+    "snippet": "Address: 300 Prosperity Blvd. Chowchilla, CA 93610",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Chowchilla Police Department",
+    "type": "city_pd",
+    "address": "130 S Second Street, Chowchilla, CA 93610",
+    "phone": "(559) 665-8600",
+    "source_url": "https://www.cityofchowchilla.org/directory.aspx?did=14",
+    "snippet": "130 S Second Street Chowchilla, CA 93610Phone: (559) 665-8600",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Madera",
+    "branch": "Chowchilla Division",
+    "serves_note": "Serves Chowchilla and surrounding areas for civil filings",
+    "address": "141 South 2nd Street, Chowchilla, CA 93610",
+    "phone": null,
+    "source_url": "https://www.madera.courts.ca.gov/",
+    "snippet": "Madera County Superior Court 141 South 2Nd Street Chowchilla, CA 93610",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "CHP Chowchilla River",
+    "address": "8820 S. Highway 99, Le Grand, CA 95333",
+    "phone": "(559) 665-2904",
+    "source_url": "https://www.chp.ca.gov/find-an-office/central-division/464-chowchilla-river/",
+    "snippet": "CHOWCHILLA RIVER INSPECTION FACILITY CHP 8820 S. Highway 99 Le Grand 95333 559-665-2904",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:07:27.350Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

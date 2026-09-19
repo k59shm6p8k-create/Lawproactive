@@ -1,0 +1,29 @@
+{
+  "city_slug": "reedley",
+  "county": "Fresno",
+  "hospital": {
+    "name": "Adventist Health Reedley",
+    "address": "372 W Cypress Avenue, Reedley, CA 93654",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/adventist-health-reedley/",
+    "snippet": "Address: 372 West Cypress Avenue Reedley, CA 93654",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Reedley Police Department",
+    "type": "city_pd",
+    "address": "843 G Street, Reedley, CA 93654",
+    "phone": null,
+    "source_url": "https://reedley.ca.gov/police-department/",
+    "snippet": "CONTACT INFORMATION Reedley Police Department 843 \"G\" Street Reedley, CA 93654",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:59:38.145Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

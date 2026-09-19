@@ -1,0 +1,22 @@
+{
+  "city_slug": "calimesa",
+  "county": "Riverside",
+  "hospital": null,
+  "police": {
+    "name": "Riverside County Sheriff's Department (Cabazon Station)",
+    "type": "sheriff",
+    "address": "50290 Main Street, Cabazon, CA 92230",
+    "phone": null,
+    "source_url": "https://www.calimesa.gov/directory.aspx?did=14",
+    "snippet": "50290 Main Street Cabazon, CA 92230",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:04:09.497Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

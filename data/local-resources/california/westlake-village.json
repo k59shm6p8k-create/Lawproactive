@@ -1,0 +1,36 @@
+{
+  "city_slug": "westlake-village",
+  "county": "Los Angeles County",
+  "hospital": {
+    "name": "Los Robles Hospital & Medical Center - East Campus",
+    "address": "150 Via Merida, Westlake Village, CA",
+    "phone": null,
+    "source_url": "https://localoffices.org/hospitals/california/westlake-village",
+    "snippet": "Los Robles Hospital & Medical Center - East Campus is located at 150 Via Merida, Westlake Village, CA.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Los Angeles County Sheriff's Department - Malibu/Lost Hills Station",
+    "type": "sheriff",
+    "address": null,
+    "phone": null,
+    "source_url": "https://lasd.org/malibu-lost-hills/",
+    "snippet": "Serving: Agoura Hills, Calabasas, Hidden Hills, Malibu, Westlake Village, & County Areas",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - West Valley Area",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/southern-division/580-west-valley/",
+    "snippet": "The California Highway Patrol's (CHP) West Valley Area office has a patrol area of approximately 400 square miles, providing services to residents within the City of Los Angeles, Hidden Hills, Calabasas, Agoura Hills, Westlake Village, Malibu, Lake Manor, Twin Lakes, San Fernando, and Topanga Canyon",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:23:17.168Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

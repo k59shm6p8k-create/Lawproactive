@@ -1,0 +1,22 @@
+{
+  "city_slug": "lindsay",
+  "county": "Tulare",
+  "hospital": null,
+  "police": {
+    "name": "Lindsay Police Department",
+    "type": "city_pd",
+    "address": "251 E. Honolulu St., Lindsay, CA 93247",
+    "phone": "559-562-7102",
+    "source_url": "https://www.lindsay.ca.us/directory",
+    "snippet": "251 E. Honolulu St. | Lindsay, CA 93247 | 559-562-7102",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:37:15.775Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

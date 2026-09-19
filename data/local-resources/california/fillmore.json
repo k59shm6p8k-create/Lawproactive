@@ -1,0 +1,22 @@
+{
+  "city_slug": "fillmore",
+  "county": "Ventura",
+  "hospital": null,
+  "police": {
+    "name": "Fillmore Police Department",
+    "type": "contract_pd",
+    "address": "524 Sespe Avenue, Fillmore, CA 93015",
+    "phone": null,
+    "source_url": "https://www.fillmoreca.gov/1315/Public-Safety",
+    "snippet": "The Fillmore Police Center (524 Sespe Avenue, Fillmore, CA 93015) provides a location in the community where citizens can reach the Fillmore Police administrative personnel, patrol personnel, investigators, traffic officers, school resource officer.",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:20:11.826Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

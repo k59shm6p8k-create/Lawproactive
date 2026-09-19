@@ -1,0 +1,31 @@
+{
+  "city_slug": "angels",
+  "county": "Calaveras",
+  "hospital": null,
+  "police": {
+    "name": "Angels Camp Police Department",
+    "type": "city_pd",
+    "address": "200 Monte Verda Street, Angels Camp, CA 95222",
+    "phone": null,
+    "source_url": "https://angelscamp.gov/police/",
+    "snippet": "200 Monte Verda Street, PO Box 459, Angels Camp, CA",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Calaveras",
+    "branch": null,
+    "serves_note": "Serves all of Calaveras County including Angels",
+    "address": "400 Government Center Drive, San Andreas, CA 95249",
+    "phone": null,
+    "source_url": "https://www.calaveras.courts.ca.gov/",
+    "snippet": "Superior Court of California, County of Calaveras, 400 Government Center Drive, San Andreas, CA 95249-9794",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:55:16.001Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

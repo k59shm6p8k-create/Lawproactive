@@ -1,0 +1,36 @@
+{
+  "city_slug": "santa-ana",
+  "county": "Orange",
+  "hospital": {
+    "name": "Orange County Global Medical Center",
+    "address": "1001 N Tustin Ave, Santa Ana, CA 92705",
+    "phone": "(714) 475-1234",
+    "source_url": "https://www.heresantaana.com/healthcare/",
+    "snippet": "Address: 1001 N Tustin Ave, Santa Ana, CA 92705 Main Phone: (714) 475‑1234",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Santa Ana Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.santa-ana.org/departments/police/",
+    "snippet": "Lobby Hours Monday-Friday: 9:00 a.m. - 4:00 p.m. Saturday-Sunday: Closed Emergency services: Available 24/7/365",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Santa Ana",
+    "address": "2031 E. Santa Clara Ave, Santa Ana, CA 92705",
+    "phone": null,
+    "source_url": "https://m.chp.ca.gov/office.aspx?id=675",
+    "snippet": "Santa Ana 2031 E. Santa Clara Ave. Santa Ana, CA 92705-7838",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:08:06.385Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "city_slug": "villa-park",
+  "county": "Orange",
+  "hospital": null,
+  "police": {
+    "name": "Orange County Sheriff's Department - Villa Park Police Services",
+    "type": "contract_pd",
+    "address": "17855 Santiago Boulevard, Villa Park, CA 92861",
+    "phone": "(714) 647-1851",
+    "source_url": "https://www.ocsheriff.gov/location/villa-park-police-services",
+    "snippet": "17855 Santiago Boulevard Villa Park, CA 92861 United States View Map Get Directions · phone · Phone: (714) 647-1851",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:20:52.096Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

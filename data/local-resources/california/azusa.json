@@ -1,0 +1,22 @@
+{
+  "city_slug": "azusa",
+  "county": "Los Angeles",
+  "hospital": null,
+  "police": {
+    "name": "Azusa Police Department",
+    "type": "city_pd",
+    "address": "725 N. Alameda Ave. Azusa, CA 91702",
+    "phone": null,
+    "source_url": "https://www.azusaca.gov/195/Police",
+    "snippet": "Physical Address 725 N. Alameda Ave. Azusa, CA 91702",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:57:48.711Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

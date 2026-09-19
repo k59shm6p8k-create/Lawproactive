@@ -1,0 +1,29 @@
+{
+  "city_slug": "kingsburg",
+  "county": "Fresno",
+  "hospital": {
+    "name": "Kingsburg Medical Center",
+    "address": "1200 Smith Street, Kingsburg, CA",
+    "phone": null,
+    "source_url": "https://www.wellness.com/dir/3240258/hospital/kingsburg-medical-center/kingsburg/ca",
+    "snippet": "Kingsburg Medical Center is a Hospital facility at 1200 Smith Street in Kingsburg, CA.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Kingsburg Police Department",
+    "type": "city_pd",
+    "address": "1300 California Street, Kingsburg, CA 93631",
+    "phone": "559-897-2931",
+    "source_url": "https://www.cityofkingsburg-ca.gov/directory.aspx?did=14",
+    "snippet": "1300 California Street Kingsburg CA 93631 Phone · 1-559-897-2931",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:32:17.899Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "city_slug": "clearlake",
+  "county": "Lake",
+  "hospital": {
+    "name": "Adventist Health Clearlake",
+    "address": "15630 18th Ave, Clearlake, CA 95422",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/adventist-health-clearlake/",
+    "snippet": "Address: 15630 18th Ave Clearlake, CA 95422... Emergency Room Service Level: Standby",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Clearlake Police Department",
+    "type": "city_pd",
+    "address": "14050 Olympic Drive, Clearlake, CA 95422",
+    "phone": "707-994-8251",
+    "source_url": "https://clearlake.ca.us/210/Police-Department",
+    "snippet": "14050 Olympic Drive Clearlake, CA 95422Phone: (707) 994-8251",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Lake",
+    "branch": "Clearlake Branch",
+    "serves_note": "Clearlake Branch serves the city of Clearlake for small claims, traffic, unlawful detainer, and other matters",
+    "address": "7000-A South Center Drive, Clearlake, CA 95422",
+    "phone": "707-994-6598",
+    "source_url": "https://lake.courts.ca.gov/location/clearlake-branch",
+    "snippet": "7000-A South Center Drive Clearlake, CA 95422 · (707) 994-6598",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Clear Lake Area",
+    "address": "5700 Live Oak Dr, Kelseyville, CA",
+    "phone": "707-281-5200",
+    "source_url": "https://www.chp.ca.gov/find-an-office/northern-division/151-clear-lake/",
+    "snippet": "For questions call CHP Clear Lake at (707) 281-5200... 5700 Live Oak Dr, Kelseyville, CA",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:08:24.115Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

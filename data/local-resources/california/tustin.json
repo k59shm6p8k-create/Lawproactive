@@ -1,0 +1,36 @@
+{
+  "city_slug": "tustin",
+  "county": "Orange",
+  "hospital": {
+    "name": "Foothill Regional Medical Center",
+    "address": null,
+    "phone": "714-619-7700",
+    "source_url": "https://www.foothillregionalmedicalcenter.com/our-services/emergency-services/",
+    "snippet": "If you have any questions about our emergency services, please call us at (714) 619-7700.",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Tustin Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "714-573-3200",
+    "source_url": "https://www.facebook.com/tustinpolice/",
+    "snippet": "(714) 573-3200",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "AAA Tustin Branch",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.dmv.ca.gov/portal/business-partner/aaa-tustin-branch/",
+    "snippet": "AAA Tustin Branch",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:18:51.277Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

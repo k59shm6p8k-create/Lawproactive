@@ -1,0 +1,22 @@
+{
+  "city_slug": "greenfield",
+  "county": "Monterey",
+  "hospital": null,
+  "police": {
+    "name": "Greenfield Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.greenfieldca.gov/233/Police-Department",
+    "snippet": "The Police Department is comprised of 26 sworn, 7 civilian employees and 1 volunteer dedicated to serving the City of Greenfield.",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:24:38.003Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

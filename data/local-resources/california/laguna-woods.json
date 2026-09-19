@@ -1,0 +1,22 @@
+{
+  "city_slug": "laguna-woods",
+  "county": "Orange",
+  "hospital": null,
+  "police": {
+    "name": "Orange County Sheriff's Department - Laguna Woods Police Services",
+    "type": "contract_pd",
+    "address": null,
+    "phone": "(949) 770-6011",
+    "source_url": "https://www.cityoflagunawoods.org/law-enforcement/",
+    "snippet": "To report a crime that is not a life-threatening emergency or that has already occurred, please call the Orange County Sheriff 's Department at (949) 770-6011",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:35:01.102Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

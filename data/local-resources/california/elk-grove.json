@@ -1,0 +1,31 @@
+{
+  "city_slug": "elk-grove",
+  "county": "Sacramento",
+  "hospital": null,
+  "police": {
+    "name": "Elk Grove Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://elkgrove.gov/departments-and-divisions/police-department",
+    "snippet": "The Police Department provides law enforcement and policing services to the City of Elk Grove.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Sacramento",
+    "branch": null,
+    "serves_note": "Sacramento County Superior Court serves Elk Grove residents",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.saccourt.ca.gov/",
+    "snippet": "Sacramento Superior Court",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:17:51.504Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

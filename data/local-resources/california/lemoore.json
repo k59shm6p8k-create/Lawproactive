@@ -1,0 +1,22 @@
+{
+  "city_slug": "lemoore",
+  "county": "Kings",
+  "hospital": null,
+  "police": {
+    "name": "Lemoore Police Department",
+    "type": "city_pd",
+    "address": "657 Fox Street, Lemoore, CA 93245",
+    "phone": "(559) 924-9574",
+    "source_url": "https://oag.ca.gov/fingerprints/locations/lemoore-police-department",
+    "snippet": "Address: 657 Fox Street · Lemoore, CA 93245 Get directions · County: Kings · Phone: (559) 924-9574",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:36:52.917Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

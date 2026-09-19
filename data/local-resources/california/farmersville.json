@@ -1,0 +1,38 @@
+{
+  "city_slug": "farmersville",
+  "county": "Tulare",
+  "hospital": {
+    "name": "Farmersville Health Care Center",
+    "address": "660 E Visalia Rd, Farmersville, CA 93223",
+    "phone": "(559) 594-6788",
+    "source_url": "https://doctor.webmd.com/practice/farmersville-health-care-center-9fe68ff5-0d95-44ce-a2f8-714a49daefff",
+    "snippet": "Farmersville Health Care Center is located at 660 E Visalia Rd, Farmersville, CA, 93223. The contact number for Farmersville Health Care Center is (559) 594-6788.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Farmersville Police Department",
+    "type": "city_pd",
+    "address": "909 W Visalia Road, Farmersville, CA 93223",
+    "phone": "559-747-1243",
+    "source_url": "https://www.cityoffarmersville-ca.gov/202/Police-Department",
+    "snippet": "Physical Address 909 W Visalia Road Farmersville, CA 93223 · Phone: 559-747-1243",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Tulare",
+    "branch": "Visalia",
+    "serves_note": "County-level civil filings for Tulare County including Farmersville",
+    "address": "221 S. Mooney Blvd, Visalia, CA 93291",
+    "phone": null,
+    "source_url": "https://www.tulare.courts.ca.gov/",
+    "snippet": "Visalia (County Civic Center) 221 S. Mooney Blvd. Visalia, CA 93291",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:19:48.557Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "city_slug": "signal-hill",
+  "county": "Los Angeles",
+  "hospital": null,
+  "police": {
+    "name": "Signal Hill Police Department",
+    "type": "city_pd",
+    "address": "2745 Walnut Avenue, Signal Hill, CA 90755",
+    "phone": "562-989-7200",
+    "source_url": "https://www.cityofsignalhill.org/Directory/Home/DepartmentListing?DID=5",
+    "snippet": "Police Administration Physical Address: 2745 Walnut Avenue Signal Hill, CA 90755 Phone: 562- 989-7200",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "South District - Long Beach Courthouse",
+    "serves_note": "Serves Long Beach, Signal Hill, Catalina Island, San Pedro, Wilmington, Harbor City and portions of the county strip",
+    "address": null,
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176789/los-angeles-county-superior-court---south-district---long-beach-courthouse",
+    "snippet": "This state trial court is an L A County Superior Court with jurisdiction over cases that take place in Long Beach, Signal Hill, Catalina Island, San Pedro, Wilmington, Harbor City and portions of the county strip.",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:12:09.747Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

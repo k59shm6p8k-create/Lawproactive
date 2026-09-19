@@ -1,0 +1,31 @@
+{
+  "city_slug": "jurupa-valley",
+  "county": "Riverside",
+  "hospital": null,
+  "police": {
+    "name": "Jurupa Valley Station, Riverside County Sheriff's Department",
+    "type": "contract_pd",
+    "address": "7477 Mission Boulevard, Jurupa Valley, CA 92509",
+    "phone": "951-955-2600",
+    "source_url": "https://www.riversidesheriff.org/facilities/facility/details/Jurupa-Valley-Station-1",
+    "snippet": "7477 Mission Boulevard Jurupa Valley, CA 92509 · Phone: 951-955-2600",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Riverside",
+    "branch": "Corona Courthouse",
+    "serves_note": "Serves Jurupa Valley (zip 92509) for unlimited civil cases",
+    "address": "505 S. Buena Vista, Room 201, Corona, CA 92882",
+    "phone": null,
+    "source_url": "https://www.riverside.courts.ca.gov/system/files/filecivil.pdf",
+    "snippet": "Corona Courthouse located at 505 S. Buena Vista, Room 201 Corona, CA · 92882 · Zip Code(s)... 92503,92504,92509",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:31:38.951Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

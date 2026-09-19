@@ -1,0 +1,45 @@
+{
+  "city_slug": "barstow",
+  "county": "San Bernardino",
+  "hospital": {
+    "name": "Barstow Community Hospital",
+    "address": "820 East Mountain View Street, Barstow, CA 92311",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/barstow-community-hospital/",
+    "snippet": "Address: 820 East Mountain View St Barstow, CA 92311",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Barstow Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.barstowca.org/departments/police",
+    "snippet": "The Barstow Police Department is a law enforcement agency serving the city of Barstow, California.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Bernardino",
+    "branch": "Barstow District",
+    "serves_note": "Serves civil cases filed in Barstow area",
+    "address": "235 East Mountain View Street, Barstow, CA 92311",
+    "phone": "760-718-3734",
+    "source_url": "https://sanbernardino.courts.ca.gov/location/barstow-district",
+    "snippet": "235 East Mountain View Street Barstow, CA 92311 · Small Claims Landlord Tenant Civil Restraining Orders Family Law Child Support Traffic · Phone: (760) 718-3734",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Barstow Area Office",
+    "address": "300 East Mountain View Street, Barstow, CA 92311",
+    "phone": "760-255-5900",
+    "source_url": "https://www.chp.ca.gov/find-an-office/inland-division/835-barstow-communications-center/",
+    "snippet": "300 E Mountain View St, Barstow, CA, United States, California · (760) 255-5900",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:58:32.825Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

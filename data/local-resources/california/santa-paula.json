@@ -1,0 +1,38 @@
+{
+  "city_slug": "santa-paula",
+  "county": "Ventura",
+  "hospital": {
+    "name": "Santa Paula Hospital",
+    "address": "825 North Tenth Street, Santa Paula, CA 93060",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/ventura-county-medical-center-santa-paula-hospital/",
+    "snippet": "Address: 825 North 10th Street Santa Paula, CA 93060... Emergency Room Service Level: Standby",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Santa Paula Police Department",
+    "type": "city_pd",
+    "address": "214 S 10th Street, Santa Paula, CA 93060",
+    "phone": "805-525-4474",
+    "source_url": "https://spcity.org/directory.aspx?did=17",
+    "snippet": "214 S 10th Street Santa Paula CA 93060... Phone: 805-525-4474",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Ventura",
+    "branch": "Hall of Justice",
+    "serves_note": "Civil cases for Ventura County including Santa Paula",
+    "address": "800 South Victoria Avenue, Ventura, CA 93009",
+    "phone": null,
+    "source_url": "https://ventura.courts.ca.gov/locations",
+    "snippet": "Hall of Justice · 800 South Victoria Avenue, Ventura, CA 93009",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:09:31.727Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

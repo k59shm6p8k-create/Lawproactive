@@ -1,0 +1,31 @@
+{
+  "city_slug": "suisun-city",
+  "county": "Solano",
+  "hospital": null,
+  "police": {
+    "name": "Suisun City Police Department",
+    "type": "city_pd",
+    "address": "701 Civic Center Blvd, Suisun City, CA 94585",
+    "phone": "707-421-7350",
+    "source_url": "https://www.discoverpolicing.org/agency/suisun-city-police-department/",
+    "snippet": "Address: 701 Civic Center Boulevard, Suisun City, CA 94585 · Phone: 707-421-7350",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Solano",
+    "branch": "Old Solano Courthouse",
+    "serves_note": "Serves Suisun City and surrounding area for civil filings",
+    "address": "580 Texas Street, Fairfield, CA 94533",
+    "phone": null,
+    "source_url": "https://solano.courts.ca.gov/civil-forms-fees-filing-instructions",
+    "snippet": "Documents are filed by appointment only in the civil clerk's division located at 580 Texas Street, Fairfield, CA",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:14:56.945Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

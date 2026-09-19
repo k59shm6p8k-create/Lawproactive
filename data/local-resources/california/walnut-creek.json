@@ -1,0 +1,29 @@
+{
+  "city_slug": "walnut-creek",
+  "county": "Contra Costa",
+  "hospital": {
+    "name": "John Muir Medical Center Walnut Creek",
+    "address": "1601 Ygnacio Valley Rd., Walnut Creek, CA 94598",
+    "phone": "925-939-5800",
+    "source_url": "https://www.johnmuirhealth.com/services/emergency-services.html",
+    "snippet": "Walnut Creek Medical Center 1601 Ygnacio Valley Rd., Walnut Creek, CA 94598 Emergency Services: (925) 939-5800",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Walnut Creek Police Department",
+    "type": "city_pd",
+    "address": "1666 North Main Street, Walnut Creek, CA 94596",
+    "phone": null,
+    "source_url": "https://www.walnutcreekpdca.gov/i-want-to/report/crime",
+    "snippet": "Visit the Police Department on the first floor of City Hall to report a crime in-person: 1666 North Main Street, Walnut Creek, CA 94596",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:21:46.769Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

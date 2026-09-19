@@ -1,0 +1,45 @@
+{
+  "city_slug": "sierra-madre",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "USC Arcadia Hospital",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.keckmedicine.org/locations/300-w-huntington-drive-arcadia/",
+    "snippet": "USC Arcadia Hospital, part of Keck Medicine of USC, is a 348-licensed-bed community hospital that has been serving the health care needs of patients in the San Gabriel Valley",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Sierra Madre Police Department",
+    "type": "city_pd",
+    "address": "242 W. Sierra Madre Blvd., Sierra Madre, CA 91024",
+    "phone": "(626) 355-1414",
+    "source_url": "https://www.sierramadreca.gov/safety-resilience/police/",
+    "snippet": "Sierra Madre Police Department 242 W. Sierra Madre Blvd., Sierra Madre, CA 91024 (626) 355-1414",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Northeast District - Pasadena",
+    "serves_note": "Serves Sierra Madre and surrounding areas in the Northeast district",
+    "address": null,
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176782/los-angeles-county-superior-court---northeast-district---pasadena",
+    "snippet": "Los Angeles County Superior Court - Northeast District - Pasadena",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Altadena",
+    "address": "2130 Windsor Ave. Altadena, CA 91001-5369",
+    "phone": null,
+    "source_url": "https://m.chp.ca.gov/office.aspx",
+    "snippet": "Altadena 2130 Windsor Ave. Altadena, CA 91001-5369",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:11:58.104Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

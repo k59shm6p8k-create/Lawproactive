@@ -1,0 +1,38 @@
+{
+  "city_slug": "simi-valley",
+  "county": "Ventura",
+  "hospital": {
+    "name": "Adventist Health Simi Valley",
+    "address": "2975 Sycamore Drive, Simi Valley, CA 93065",
+    "phone": null,
+    "source_url": "https://www.adventisthealth.org/simi-valley/locations/adventist-health-simi-valley-emergency-room/",
+    "snippet": "2975 Sycamore Drive",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Simi Valley Police Department",
+    "type": "city_pd",
+    "address": "3901 Alamo Street, Simi Valley, CA 93063",
+    "phone": "805-583-6950",
+    "source_url": "https://www.simivalley.org/departments/police-department",
+    "snippet": "3901 Alamo Street, Simi Valley, CA 93063 (805) 583-6950",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Ventura",
+    "branch": "East County Courthouse",
+    "serves_note": "Serves Simi Valley and eastern Ventura County for civil filings",
+    "address": "3855-F Alamo Street, Simi Valley, CA 93063",
+    "phone": null,
+    "source_url": "https://ventura.courts.ca.gov/",
+    "snippet": "3855-F Alamo Street Simi Valley, CA 93063",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:12:17.552Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "city_slug": "santa-fe-springs",
+  "county": "Los Angeles",
+  "hospital": null,
+  "police": {
+    "name": "Whittier Police Department (Santa Fe Springs Services Center)",
+    "type": "contract_pd",
+    "address": "11576 Telegraph Road, Santa Fe Springs, CA 90670",
+    "phone": "(562) 409-1850",
+    "source_url": "https://www.santafesprings.gov/our_community/services/frequently_asked_questions/police_services.php",
+    "snippet": "The Police Services Center (PSC) is located at 11576 Telegraph Road, Santa Fe Springs, CA 90670... You may also reach the PSC by calling (562) 409-1850",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Norwalk Courthouse",
+    "serves_note": "Serves Santa Fe Springs civil filings (Southeast District)",
+    "address": "12720 Norwalk Blvd, Norwalk, CA 90650",
+    "phone": null,
+    "source_url": "https://www.santafesprings.gov/our_community/services/frequently_asked_questions/general_questions.php",
+    "snippet": "Where is the Superior Court? Southeast District · Norwalk Courthouse · 12720 Norwalk Blvd. Norwalk, CA 90650",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Santa Fe Springs",
+    "address": "10051 Orr and Day Road, Santa Fe Springs, CA 90670",
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/southern-division/offices/(550)-santa-fe-springs",
+    "snippet": "Santa Fe Springs 10051 Orr and Day Rd. Santa Fe Springs, CA 90670-3597",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:09:00.764Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

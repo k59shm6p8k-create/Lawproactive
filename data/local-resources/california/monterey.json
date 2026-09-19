@@ -1,0 +1,45 @@
+{
+  "city_slug": "monterey",
+  "county": "Monterey",
+  "hospital": {
+    "name": "Community Hospital of the Monterey Peninsula",
+    "address": "23625 Holman Hwy, Monterey, CA 93940",
+    "phone": "(831) 625-4900",
+    "source_url": "https://www.montagehealth.org/locations/profile/community-hospital-monterey-peninsula/",
+    "snippet": "23625 Holman Hwy · Monterey, CA 93940 · +1 (831) 625-4900",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Monterey Police Department",
+    "type": "city_pd",
+    "address": "351 Madison Street, Monterey, CA 93940",
+    "phone": null,
+    "source_url": "https://monterey.gov/your_city_hall/departments/police/index.php",
+    "snippet": "Monterey Police Department 351 Madison Street Monterey, CA 93940",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Monterey",
+    "branch": "Monterey Division",
+    "serves_note": "Serves Monterey and surrounding areas for civil, family law, probate, and domestic violence matters.",
+    "address": "1200 Aguajito Road, Monterey, CA 93940",
+    "phone": null,
+    "source_url": "https://www.monterey.courts.ca.gov/divisions/records/civil-family-probate-court-records",
+    "snippet": "Submit a Request for Audio Recording of Court Proceedings PDF Document to the Clerk's Office of the Superior Court, Attention: Records, 1200 Aguajito Road, Monterey, CA 93940.",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Monterey Area",
+    "address": "960 East Blanco Road, Salinas, CA 93901",
+    "phone": "(831) 796-2100",
+    "source_url": "https://www.chp.ca.gov/find-an-office/coastal-division/730-monterey/",
+    "snippet": "Monterey 960 E. Blanco Road. Salinas, CA 93901 · Phone (831) 796-2100",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:45:16.869Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

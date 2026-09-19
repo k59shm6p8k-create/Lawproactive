@@ -1,0 +1,22 @@
+{
+  "city_slug": "danville",
+  "county": "Contra Costa",
+  "hospital": null,
+  "police": {
+    "name": "Danville Police Department",
+    "type": "city_pd",
+    "address": "500 La Gonda Way, Danville, CA 94526",
+    "phone": "925-314-3700",
+    "source_url": "https://www.danville.ca.gov/171/Community-Services",
+    "snippet": "Physical Address 500 La Gonda Way Danville, CA 94526 ... Phone: 925-314-3700",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:13:46.787Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

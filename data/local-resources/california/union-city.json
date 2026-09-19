@@ -1,0 +1,38 @@
+{
+  "city_slug": "union-city",
+  "county": "Alameda",
+  "hospital": null,
+  "police": {
+    "name": "Union City Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.unioncityca.gov/677/Police",
+    "snippet": "The Union City Police Department is a dedicated team of men and women honored to serve our diverse, unified, and growing community.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Alameda",
+    "branch": null,
+    "serves_note": "Union City is in Alameda County; civil filings handled by Alameda County Superior Court",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.alameda.courts.ca.gov/",
+    "snippet": "The Superior Court of California, County of Alameda, provides the public with online access to Civil, Family, Probate, Mental Health, and Adoption case records",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "UNITED ALL SERVICES LLC (DMV-authorized partner)",
+    "address": "32210 Alvarado Blvd, Union City, CA 94587",
+    "phone": "1-510-400-6811",
+    "source_url": "https://www.dmv.ca.gov/portal/business-partner/united-all-services-llc/",
+    "snippet": "32210 Alvarado Blvd, Union City, CA 94587 1-510-400-6811",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:19:29.690Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "city_slug": "mountain-view",
+  "county": "Santa Clara",
+  "hospital": {
+    "name": "El Camino Hospital Mountain View",
+    "address": "2500 Grant Rd, Mountain View, CA 94040",
+    "phone": "650-940-7000",
+    "source_url": "https://www.getcare.elcaminohealth.org/locations/mountain-view-hospital-campus/2500-grant-rd/hospital-mv",
+    "snippet": "2500 Grant Rd Mountain View, CA 94040 ... Phone650-940-7000",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Mountain View Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "650-903-6344",
+    "source_url": "https://oag.ca.gov/fingerprints/locations/mountain-view-police-department",
+    "snippet": "Street · Mountain View, CA 94041 ... Phone: (650) 903-6344",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:46:47.509Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

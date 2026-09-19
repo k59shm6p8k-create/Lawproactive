@@ -1,0 +1,45 @@
+{
+  "city_slug": "west-sacramento",
+  "county": "Sacramento",
+  "hospital": {
+    "name": "Sutter Medical Center, Sacramento",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.sutterhealth.org/find-location/facility/sutter-medical-center-emergency-department-1043247173",
+    "snippet": "Located in Sacramento, we're available 24/7 to treat all types of medical emergencies in adults and children.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "West Sacramento Police Department",
+    "type": "city_pd",
+    "address": "550 Jefferson Boulevard, West Sacramento, CA 95605",
+    "phone": "916-617-4900",
+    "source_url": "https://californiainmateroster.org/california/police-department/west-sacramento-police-department/",
+    "snippet": "The department works out of its main station situated at 550 Jefferson Boulevard, West Sacramento, California, 95605. Those in requirement can reach the department via phone by calling 916-617-4900.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Sacramento",
+    "branch": "Tani G. Cantil-Sakauye Sacramento County Courthouse",
+    "serves_note": "Serves all civil cases in Sacramento County, including West Sacramento",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.saccourt.ca.gov/locations/downtown.aspx",
+    "snippet": "The Tani G. Cantil-Sakauye Sacramento County Courthouse houses 53 courtrooms between the 3rd and 17th floors.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "North Sacramento CHP",
+    "address": "5109 Tyler Street, Sacramento, CA 95841-2583",
+    "phone": "916-348-2300",
+    "source_url": "https://cad.chp.ca.gov/htm.net/locations.htm",
+    "snippet": "NORTH SACRAMENTO CHP 5109 Tyler Street Sacramento 95841-2583 916-348-2300",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:23:03.532Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

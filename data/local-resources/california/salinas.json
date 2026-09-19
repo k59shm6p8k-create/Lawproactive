@@ -1,0 +1,38 @@
+{
+  "city_slug": "salinas",
+  "county": "Monterey",
+  "hospital": {
+    "name": "Salinas Valley Health Medical Center",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.salinasvalleyhealth.com/locations/salinas-valley-health-medical-center/",
+    "snippet": "At the core of the system is a 269-bed acute care hospital with several distinct specializations and programs.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Salinas Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "(831) 758-7286",
+    "source_url": "https://police.salinas.gov/",
+    "snippet": "Office of the Chief: 831-758-7286",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Monterey",
+    "branch": "Salinas",
+    "serves_note": "Serves Salinas for civil filings and court matters",
+    "address": "240 Church Street, Salinas, CA 93901",
+    "phone": null,
+    "source_url": "https://www.monterey.courts.ca.gov/",
+    "snippet": "Courtroom 1-11 240 Church St. Salinas, CA 93901 United States",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:03:09.708Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

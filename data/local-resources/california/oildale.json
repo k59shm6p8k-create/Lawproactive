@@ -1,0 +1,29 @@
+{
+  "city_slug": "oildale",
+  "county": "Kern",
+  "hospital": null,
+  "police": {
+    "name": "Kern County Sheriff's Office",
+    "type": "sheriff",
+    "address": "1350 Norris Road, Bakersfield, CA 93308",
+    "phone": "(661) 391-7500",
+    "source_url": "https://www.kernsheriff.org/",
+    "snippet": "(661) 391-7500 1350 Norris Rd. Bakersfield CA 93308",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Bakersfield Area",
+    "address": "9855 Compagnoni Street, Bakersfield, CA 93313",
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/central-division/420-bakersfield/",
+    "snippet": "The Bakersfield Area office is currently located at 9855 Compagnoni Street, Bakersfield, CA 93313",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:49:58.253Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

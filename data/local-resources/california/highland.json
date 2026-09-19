@@ -1,0 +1,31 @@
+{
+  "city_slug": "highland",
+  "county": "San Bernardino",
+  "hospital": null,
+  "police": {
+    "name": "San Bernardino County Sheriff's Department - Highland Station",
+    "type": "contract_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://wp.sbcounty.gov/sheriff/patrol-stations/highland/",
+    "snippet": "The City of Highland has chosen to contract for its law enforcement services through the San Bernardino County Sheriff's Department since its incorporation.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Bernardino",
+    "branch": "San Bernardino Justice Center",
+    "serves_note": "Serves Highland and surrounding San Bernardino County areas for civil filings",
+    "address": null,
+    "phone": null,
+    "source_url": "https://sanbernardino.courts.ca.gov/general-information/where-can-i-file",
+    "snippet": "San Bernardino, Colton, Grand Terrace, Loma Linda, Bryn Mawr, Highland, Yucaipa, Redlands...",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:27:48.703Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

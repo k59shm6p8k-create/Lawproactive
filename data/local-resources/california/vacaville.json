@@ -1,0 +1,29 @@
+{
+  "city_slug": "vacaville",
+  "county": "Solano",
+  "hospital": {
+    "name": "Kaiser Permanente Vacaville Medical Center",
+    "address": "1 Quality Drive, Vacaville, CA 95688",
+    "phone": "707-624-2600",
+    "source_url": "https://healthy.kaiserpermanente.org/northern-california/facilities/vacaville-medical-center-100315/departments/emergency-medicine-dlp-108505",
+    "snippet": "Emergency Services · 1 Quality Dr, 1st Floor Vacaville, CA 95688 · Directions · 7 days · open 24 hours · Advice Nurse (24 hours) 707-624-2600 (Local)",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Vacaville Police Department",
+    "type": "city_pd",
+    "address": "660 Merchant Street, Vacaville, CA 95688",
+    "phone": "707-449-5200",
+    "source_url": "https://www.cityofvacaville.gov/government/police-department/contact-us",
+    "snippet": "The Police Department is located at 660 Merchant Street, Vacaville, CA 95688. If you need an officer's assistance, please call the non-emergency number 24/7 at 707-449-5200.",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:19:55.521Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

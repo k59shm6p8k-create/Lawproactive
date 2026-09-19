@@ -1,0 +1,38 @@
+{
+  "city_slug": "loyalton",
+  "county": "Sierra",
+  "hospital": {
+    "name": "Eastern Plumas Hospital-Loyalton Campus",
+    "address": "700 Third St, Loyalton, CA 96118",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/eastern-plumas-hospital-loyalton-campus-d-p-snf/",
+    "snippet": "Address: 700 Third St Loyalton, CA 96118",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Sierra County Sheriff's Office",
+    "type": "sheriff",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.sierracounty.ca.gov/430/Loyalton-Substation",
+    "snippet": "The Sheriff's Office maintains a substation in Loyalton to serve deputies on duty east of the Yuba Pass.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Sierra",
+    "branch": null,
+    "serves_note": "Civil filings handled at Plumas/Sierra Regional Courthouse in Portola (opened December 2009); main courthouse in Downieville",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.sierra.courts.ca.gov/location/sierra-county-superior-court",
+    "snippet": "The Sierra County Superior Court is the trial court that serves Sierra County in California.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:40:05.243Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

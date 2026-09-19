@@ -1,0 +1,36 @@
+{
+  "city_slug": "gilroy",
+  "county": "Santa Clara",
+  "hospital": {
+    "name": "St. Louise Regional Hospital",
+    "address": "9400 No Name Uno, Gilroy, CA 95020",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/st-louise-regional-hospital/",
+    "snippet": "Address: 9400 No Name Uno Gilroy, CA 95020",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Gilroy Police Department",
+    "type": "city_pd",
+    "address": "7301 Hanna Street, Gilroy, CA 95020",
+    "phone": "408-846-0350",
+    "source_url": "https://www.cityofgilroy.org/436/Police-Department",
+    "snippet": "7301 Hanna St. Gilroy, CA 95020 Phone: 408-846-0350",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California DMV - Gilroy Field Office",
+    "address": "6984 Automall Parkway, Suite A, Gilroy, CA 95020",
+    "phone": null,
+    "source_url": "https://www.dmv.ca.gov/portal/field-office/gilroy/",
+    "snippet": "6984 Automall Parkway Suite A, Gilroy, CA 95020",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:23:17.816Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

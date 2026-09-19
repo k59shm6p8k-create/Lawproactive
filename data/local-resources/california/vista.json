@@ -1,0 +1,38 @@
+{
+  "city_slug": "vista",
+  "county": "San Diego",
+  "hospital": null,
+  "police": {
+    "name": "San Diego County Sheriff - Vista Station",
+    "type": "contract_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.vista.gov/Home/Components/ServiceDirectory/ServiceDirectory/34/26?sortn=SDDepts",
+    "snippet": "The City of Vista contracts with the San Diego County Sheriff's Department to provide law enforcement.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Diego",
+    "branch": "North County Regional Center",
+    "serves_note": "Serves Vista and most of Northern San Diego County for civil, criminal, traffic, family, and juvenile cases",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.sdcourt.ca.gov/sdcourt/generalinformation/courtlocations/northcountycourthouse",
+    "snippet": "The North County Superior Court is a full service branch court. Currently the Court hears Criminal, Civil, Family Law, Appeals, Adoption, Traffic and Minor Offense cases.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Department of Motor Vehicles - Chula Vista",
+    "address": "30 N Glover Avenue, Chula Vista, CA 91910",
+    "phone": null,
+    "source_url": "https://www.dmv.ca.gov/portal/field-office/chula-vista/",
+    "snippet": "30 N Glover Avenue, Chula Vista, CA 91910",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:21:24.939Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

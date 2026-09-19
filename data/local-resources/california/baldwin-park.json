@@ -1,0 +1,45 @@
+{
+  "city_slug": "baldwin-park",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Kaiser Permanente Baldwin Park Medical Center",
+    "address": "1011 Baldwin Park Boulevard, Baldwin Park, CA 91706",
+    "phone": null,
+    "source_url": "https://healthy.kaiserpermanente.org/southern-california/facilities/baldwin-park-medical-center-100167",
+    "snippet": "1011 Baldwin Park Blvd., 3rd Floor near Labor & Delivery, room 3926, use Elevator A, Baldwin Park, CA 91706",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Baldwin Park Police Department",
+    "type": "city_pd",
+    "address": "14403 E. Pacific Avenue, Baldwin Park, CA 91706",
+    "phone": "(626) 960-1955",
+    "source_url": "https://www.baldwinpark.com/457/Contact-the-Police-Department",
+    "snippet": "14403 Pacific Avenue Baldwin Park, CA 91706 · Phone Number 626-960-1955",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "El Monte Courthouse",
+    "serves_note": "Serves Baldwin Park and eastern Los Angeles County cities",
+    "address": "11234 East Valley Boulevard, El Monte, CA 91731",
+    "phone": "(626) 401-2298",
+    "source_url": "https://www.lacourt.ca.gov/",
+    "snippet": "Los Angeles County Superior Court—East District El Monte Courthouse 11234 East Valley Boulevard El Monte, CA 91731 Phone: (626) 401-2298 (Criminal)",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Baldwin Park",
+    "address": "14039 Francisquito Avenue, Baldwin Park, CA 91706",
+    "phone": "(626) 338-1164",
+    "source_url": "https://www.chp.ca.gov/find-an-office/southern-division/525-baldwin-park/",
+    "snippet": "Baldwin Park CHP 14039 Francisquito Ave. Baldwin Park 91706-5999 626-338-1164",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:58:13.076Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "city_slug": "el-cajon",
+  "county": "San Diego",
+  "hospital": {
+    "name": "Sharp Grossmont Hospital",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.sharp.com/locations/sharp-grossmont-emergency-room",
+    "snippet": "Sharp Grossmont's emergency room is available 24 hours a day and serves East County communities such as El Cajon, La Mesa and Santee.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "El Cajon Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.elcajon.gov/your-government/departments/police",
+    "snippet": "The El Cajon Police Department is the primary law enforcement agency of El Cajon, California.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Diego",
+    "branch": "East County Regional Center",
+    "serves_note": "Serves East County communities including El Cajon; hears Criminal, Family, Civil Harassment & Elder/Dependent Adult Abuse Restraining Orders and Juvenile Dependency cases.",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.sdcourt.ca.gov/sdcourt/generalinformation/courtlocations/eastcountyregional",
+    "snippet": "The East County Regional Center hears Criminal, Family, Civil Harassment & Elder/Dependent Adult Abuse Restraining Orders and Juvenile Dependency cases.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - El Cajon Area Office",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/border-division/680-el-cajon/",
+    "snippet": "The El Cajon Area office was established in 1976, when the California Highway Patrol recognized that providing the highest level of Safety, Service, and Security to San Diego East County was no longer feasible from its then, Mission Valley office.",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:17:00.700Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

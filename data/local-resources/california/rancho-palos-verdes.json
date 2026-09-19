@@ -1,0 +1,31 @@
+{
+  "city_slug": "rancho-palos-verdes",
+  "county": "Los Angeles",
+  "hospital": null,
+  "police": {
+    "name": "Los Angeles County Sheriff's Department, Lomita Sheriff's Station",
+    "type": "sheriff",
+    "address": "26123 Narbonne Avenue, Lomita, CA 90717",
+    "phone": "(310) 539-1661",
+    "source_url": "https://lasd.org/lomita/",
+    "snippet": "(310) 539-1661 26123 Narbonne Avenue, Lomita, CA 90717",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Southwest District - Torrance Courthouse",
+    "serves_note": "Serves Rancho Palos Verdes and surrounding South Bay cities",
+    "address": "825 Maple Ave. Torrance CA 90503",
+    "phone": "(310) 222-8809",
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176785/los-angeles-county-superior-court---southwest-district---torrance-courthouse",
+    "snippet": "Address: 825 Maple Ave. Torrance CA 90503 ... Civil cases Service/Intake (310) 222-8809",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:58:19.004Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

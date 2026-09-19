@@ -1,0 +1,45 @@
+{
+  "city_slug": "los-altos-hills",
+  "county": "Santa Clara",
+  "hospital": {
+    "name": "UCLA West Valley Medical Center",
+    "address": "7300 Medical Center Drive West Hills, CA 91307",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/west-hills-hospital-and-medical-center/",
+    "snippet": "Address: 7300 Medical Center Drive West Hills, CA 91307 · HCAI ID: 106190859 · Facility License Type: General Acute Care Hospital",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Santa Clara County Sheriff's Office, West Valley Division",
+    "type": "sheriff",
+    "address": null,
+    "phone": "408-868-6612",
+    "source_url": "https://www.losaltoshills.ca.gov/500/Report-an-Issue-to-the-Sheriff",
+    "snippet": "The division commander is Captain Neil Valenzuela, who serves as the Chief of Police for the Town of Los Altos Hills. He may be contacted at 408-868-6612",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Santa Clara",
+    "branch": null,
+    "serves_note": null,
+    "address": "191 North First Street San José, California 95113",
+    "phone": "408-882-2700",
+    "source_url": "https://www.losaltoshills.ca.gov/DocumentCenter/View/5493/Padovan",
+    "snippet": "Superior Court of California · County of Santa Clara · 191 North First Street · San José, California 95113 · (408) 882-2700",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol, West Valley Office",
+    "address": "5825 De Soto Ave. Woodland Hills, CA 91367-5297",
+    "phone": null,
+    "source_url": "https://m.chp.ca.gov/office.aspx",
+    "snippet": "West Valley 5825 De Soto Ave. Woodland Hills, CA 91367-5297",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:39:29.435Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

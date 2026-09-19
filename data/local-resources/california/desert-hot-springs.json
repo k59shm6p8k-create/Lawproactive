@@ -1,0 +1,36 @@
+{
+  "city_slug": "desert-hot-springs",
+  "county": "Riverside",
+  "hospital": {
+    "name": "Desert Regional Medical Center",
+    "address": "1150 North Indian Canyon Drive, Palm Springs, CA 92262",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/desert-regional-medical-center/",
+    "snippet": "Address: 1150 North Indian Canyon Drive Palm Springs, CA 92262",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Desert Hot Springs Police Department",
+    "type": "city_pd",
+    "address": "65950 Pierson Boulevard, Desert Hot Springs, CA 92240",
+    "phone": "760-329-2904",
+    "source_url": "https://www.muckrock.com/agency/desert-hot-springs-3184/desert-hot-springs-police-department-18705/",
+    "snippet": "65-950 Pierson Blvd., Desert Hot Springs, CA 92240 ... Phone · (760) 329-2904",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Department of Motor Vehicles - Palm Springs Office",
+    "address": "425 S. Sunrise Way, Building A, Palm Springs, CA 92262",
+    "phone": null,
+    "source_url": "https://www.cityofdhs.org/question/where-is-my-nearest-dmv/",
+    "snippet": "The nearest DMV office is located at 425 S. Sunrise Way Building A, Palm Springs, CA 92262.",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:14:48.573Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

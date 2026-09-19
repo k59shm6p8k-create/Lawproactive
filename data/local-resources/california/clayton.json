@@ -1,0 +1,22 @@
+{
+  "city_slug": "clayton",
+  "county": "Contra Costa",
+  "hospital": null,
+  "police": {
+    "name": "Clayton Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.claytonca.gov/239/Police",
+    "snippet": "The Clayton Police Department has served the Clayton community with dedication since 1972.",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:08:15.180Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

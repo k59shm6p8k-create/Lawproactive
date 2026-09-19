@@ -1,0 +1,36 @@
+{
+  "city_slug": "pismo-beach",
+  "county": "San Luis Obispo",
+  "hospital": {
+    "name": "Dignity Health-Arroyo Grande Community Hospital",
+    "address": null,
+    "phone": "(805) 489-4261",
+    "source_url": "https://www.thepismobeachhotel.com/Hospitals-Pismo-Beach-California.php",
+    "snippet": "Hospital Emergency Room Admitting: (805) 489-4261",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Pismo Beach Police Department",
+    "type": "city_pd",
+    "address": "1000 Bello Street, Pismo Beach, CA 93449",
+    "phone": "(805) 773-2208",
+    "source_url": "http://www.pismobeach.org/Directory.aspx?did=7",
+    "snippet": "1000 Bello Street Pismo Beach, CA 93449Phone: (805) 773-2208",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "San Luis Obispo DMV",
+    "address": "3190 S. Higuera Street, San Luis Obispo, CA 93401",
+    "phone": "(800) 777-0133",
+    "source_url": "https://www.dmv-test-pro.com/california/san-luis-obispo/pismo-beach/dmv-near-me",
+    "snippet": "San Luis Obispo DMV Office · 3190 S. Higuera Street, San Luis Obispo, CA 93401 · (800) 777-0133",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:54:59.510Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

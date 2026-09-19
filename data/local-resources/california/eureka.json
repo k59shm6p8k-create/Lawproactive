@@ -1,0 +1,45 @@
+{
+  "city_slug": "eureka",
+  "county": "Humboldt",
+  "hospital": {
+    "name": "Providence St. Joseph Hospital Eureka",
+    "address": "2700 Dolbeer Street, Eureka, CA 95501",
+    "phone": "707-719-0550",
+    "source_url": "https://www.providence.org/locations/norcal/st-joseph-hospital-eureka/departments",
+    "snippet": "2700 Dolbeer St, Eureka, CA 95501 · 707-719-0550",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Eureka Police Department",
+    "type": "city_pd",
+    "address": "604 C Street, Eureka, CA 95501",
+    "phone": "707-441-4060",
+    "source_url": "https://www.eurekaca.gov/176/About-EPD",
+    "snippet": "Physical Address View Map 604 C Street Eureka, CA 95501 · Phone: 707-441-4060 · Business and Records Office: 707-441-4060",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Humboldt",
+    "branch": "Humboldt County Courthouse",
+    "serves_note": "Central courthouse serving Eureka and Humboldt County for civil filings",
+    "address": null,
+    "phone": "707-445-7256",
+    "source_url": "https://www.humboldt.courts.ca.gov/location/humboldt-county-courthouse",
+    "snippet": "421 \"I\" Street, Eureka, CA 95501 Office Hours: 9:00 a.m. - 2:00 p.m. Drop Box Hours: 8:00 a.m. - 4:00 p.m.Phone: (707) 445-7256",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Humboldt Area",
+    "address": "255 East Samoa Boulevard, Arcata, CA 95521",
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/northern-division/125-humboldt/",
+    "snippet": "Humboldt 255 East Samoa Blvd., Arcata, CA 95521-6797",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:19:02.429Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "city_slug": "placerville",
+  "county": "El Dorado",
+  "hospital": {
+    "name": "Marshall Medical Center",
+    "address": "1100 Marshall Way, Placerville, CA 95667",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/marshall-medical-center/",
+    "snippet": "Address: 1100 Marshall Way Placerville, CA 95667",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Placerville Police Department",
+    "type": "city_pd",
+    "address": "730 Main Street, Placerville, CA 95667",
+    "phone": "(530) 642-5210",
+    "source_url": "https://www.cityofplacerville.org/police",
+    "snippet": "Placerville Police Department 730 Main Street Placerville, CA 95667 Business Office Hours Monday - Friday: 8:00 AM - 4:30 PM 9-1-1 Emergency (530) 642-5210 Business Office (530) 642-5280 Non-Emergency (530) 642-5258",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:55:33.306Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

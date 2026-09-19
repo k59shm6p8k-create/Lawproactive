@@ -1,0 +1,29 @@
+{
+  "city_slug": "manhattan-beach",
+  "county": "Los Angeles",
+  "hospital": null,
+  "police": {
+    "name": "Manhattan Beach Police Department",
+    "type": "city_pd",
+    "address": "420 15th Street, Manhattan Beach, CA 90266",
+    "phone": "(310) 545-4566",
+    "source_url": "https://www.manhattanbeach.gov/departments/police-department",
+    "snippet": "Manhattan Beach Police Department 420 15th Street, Manhattan Beach, CA 90266 Emergency 9-1-1 Non-Emergency Calls (310) 545-4566",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "AAA Manhattan Beach Branch (DMV Service Partner)",
+    "address": "700 South Aviation Boulevard, Manhattan Beach, CA 90266",
+    "phone": "1-310-376-0521",
+    "source_url": "https://www.dmv.ca.gov/portal/business-partner/aaa-manhattan-beach-branch/",
+    "snippet": "700 South Aviation Boulevard, Manhattan Beach, CA 90266 1-310-376-0521",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:41:10.070Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

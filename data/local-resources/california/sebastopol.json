@@ -1,0 +1,38 @@
+{
+  "city_slug": "sebastopol",
+  "county": "Sonoma",
+  "hospital": {
+    "name": "Sonoma Specialty Hospital",
+    "address": "501 Petaluma Avenue, Sebastopol, CA 95472",
+    "phone": "707-823-8511",
+    "source_url": "https://sonomaspecialtyhospital.org/contact-us/",
+    "snippet": "501 Petaluma Avenue, Sebastopol, CA 95472 · Phone :- 707-823-8511",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Sebastopol Police Department",
+    "type": "city_pd",
+    "address": "6850 Laguna Park Way, Sebastopol, CA 95472",
+    "phone": "707-829-4400",
+    "source_url": "https://www.cityofsebastopol.gov/departments/police/",
+    "snippet": "6850 Laguna Park Way Sebastopol, CA 95472 Phone: 707-829-4400",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Sonoma",
+    "branch": "Civil and Family Law Courthouse",
+    "serves_note": "Serves civil filings for Sonoma County including Sebastopol",
+    "address": "3055 Cleveland Avenue, Santa Rosa, CA 95403",
+    "phone": null,
+    "source_url": "https://sonoma.courts.ca.gov/general-information/locations-contact-info",
+    "snippet": "Civil and Family Law Courthouse 3055 Cleveland Avenue, Santa Rosa CA 95403 Hours Monday-Friday 8 a.m. to 3:30 p.m.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:11:03.848Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

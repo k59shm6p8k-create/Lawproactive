@@ -1,0 +1,38 @@
+{
+  "city_slug": "martinez",
+  "county": "Contra Costa",
+  "hospital": {
+    "name": "Contra Costa Regional Medical Center",
+    "address": "2500 Alhambra Avenue, Martinez, CA 94553",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/contra-costa-regional-medical-center/",
+    "snippet": "Address: 2500 Alhambra Avenue Martinez, CA 94553",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Martinez Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "(925) 372-3440",
+    "source_url": "https://www.cityofmartinez.org/departments/police/contact-us",
+    "snippet": "For non-emergency calls, please dial (925) 372-3440",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Contra Costa",
+    "branch": "Wakefield Taylor Courthouse",
+    "serves_note": "Civil cases filed and heard; all civil cases are filed and heard in the Wakefield Taylor Courthouse in Martinez",
+    "address": null,
+    "phone": null,
+    "source_url": "https://contracosta.courts.ca.gov/location/wakefield-taylor-courthouse",
+    "snippet": "All civil cases are filed and heard in the Wakefield Taylor Courthouse in Martinez",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:41:49.208Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

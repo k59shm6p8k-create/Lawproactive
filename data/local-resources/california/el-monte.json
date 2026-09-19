@@ -1,0 +1,38 @@
+{
+  "city_slug": "el-monte",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Greater El Monte Community Hospital",
+    "address": "1701 Santa Anita Ave, South El Monte, CA 91733",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/greater-el-monte-community-hospital/",
+    "snippet": "Address: 1701 Santa Anita Avenue South El Monte, CA 91733",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "El Monte Police Department",
+    "type": "city_pd",
+    "address": "11333 Valley Boulevard, El Monte, CA 91731",
+    "phone": "626-580-2100",
+    "source_url": "https://www.ci.el-monte.ca.us/directory.aspx?did=13",
+    "snippet": "11333 Valley Boulevard El Monte, CA 91731 Phone: 626-580-2100",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "East District - El Monte Courthouse",
+    "serves_note": "Jurisdiction over cases in El Monte, La Puente, Rosemead, and South El Monte",
+    "address": "11234 E. Valley Blvd, El Monte, CA 91731",
+    "phone": "626-575-4117",
+    "source_url": "https://locator.lacounty.gov/lac/Location/3069081/los-angeles-county-superior-court---east-district---el-monte-courthouse",
+    "snippet": "Address: 11234 E. Valley Blvd. El Monte CA 91731 ... Civil Service/Intake (626) 575-4117",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:17:28.721Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

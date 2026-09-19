@@ -1,0 +1,36 @@
+{
+  "city_slug": "costa-mesa",
+  "county": "Orange",
+  "hospital": {
+    "name": "College Hospital Costa Mesa",
+    "address": null,
+    "phone": null,
+    "source_url": "https://chcm.us/",
+    "snippet": "College Hospital Costa Mesa is a facility specializing in psychiatric and medical/surgical services as well as outpatient, and partial hospitalization programs (PHP's).",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Costa Mesa Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.costamesaca.gov/government/departments-and-divisions/police",
+    "snippet": "Since 1953, we have been dedicated to serving the community by upholding the law and enhancing public safety with honor and respect.",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "CHP Santa Ana",
+    "address": "2031 E. Santa Clara Ave. Santa Ana, CA 92705-7838",
+    "phone": "(714) 567-6000",
+    "source_url": "https://cad.chp.ca.gov/htm.net/locations.htm",
+    "snippet": "SANTA ANA CHP 2031 E. Santa Clara Ave. Santa Ana 92705-7838 714-567-6000",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:11:43.943Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

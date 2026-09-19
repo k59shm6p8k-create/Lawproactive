@@ -1,0 +1,22 @@
+{
+  "city_slug": "mcfarland",
+  "county": "Kern",
+  "hospital": null,
+  "police": {
+    "name": "McFarland Police Department",
+    "type": "city_pd",
+    "address": "401 W. Kern Ave, McFarland, CA 93250",
+    "phone": "661-792-2121",
+    "source_url": "https://www.mcfarlandcity.org/emergency-services-public-safety/police/",
+    "snippet": "Physical Address 401 W. Kern Ave McFarland, CA 93250 ... the business telephone 661-792-2121",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:42:20.688Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

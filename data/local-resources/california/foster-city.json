@@ -1,0 +1,29 @@
+{
+  "city_slug": "foster-city",
+  "county": "San Mateo",
+  "hospital": null,
+  "police": {
+    "name": "Foster City Police Department",
+    "type": "city_pd",
+    "address": "1030 E. Hillsdale Blvd., Foster City, CA 94404",
+    "phone": "(650) 286-3200",
+    "source_url": "https://www.fostercity.org/police",
+    "snippet": "Address: 1030 E. Hillsdale Blvd. Foster City, CA 94404 · (650) 286-3200",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "CHP - Redwood City Office",
+    "address": null,
+    "phone": "(650) 369-6261",
+    "source_url": "https://www.fostercity.org/police/page/community-resources",
+    "snippet": "The CHP- Redwood City office [By appointment only: (650) 369-6261]",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:21:31.799Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

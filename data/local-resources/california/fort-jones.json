@@ -1,0 +1,22 @@
+{
+  "city_slug": "fort-jones",
+  "county": "Siskiyou",
+  "hospital": null,
+  "police": {
+    "name": "Etna Police Department",
+    "type": "contract_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://fortjonesca.org/policedepartment-report/",
+    "snippet": "Each month, the Police Department (Etna PD, with whom the Town of Fort Jones contracts) presents a report to the City Council.",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:21:06.240Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

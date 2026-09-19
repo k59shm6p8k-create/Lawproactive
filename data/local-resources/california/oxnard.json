@@ -1,0 +1,45 @@
+{
+  "city_slug": "oxnard",
+  "county": "Ventura",
+  "hospital": {
+    "name": "St. John's Regional Medical Center",
+    "address": "1600 North Rose Avenue, Oxnard, CA 93030",
+    "phone": "(805) 988-2500",
+    "source_url": "https://locations.dignityhealth.org/emergency-room-at-dignity-health-st-johns-regional-medical-center",
+    "snippet": "Our Emergency Room at Dignity Health - St. John's Regional Medical Center is dedicated to delivering high quality, compassionate care to 1600 N Rose Ave, Oxnard, CA 93030 and nearby communities. Visit us at or call (805) 988-2500 for more information.",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Oxnard Police Department",
+    "type": "city_pd",
+    "address": "251 South C Street, Oxnard, CA 93030",
+    "phone": null,
+    "source_url": "https://www.oxnard.gov/police-department",
+    "snippet": "Oxnard Police Department - 251 South C Street - Oxnard, CA 93030 | Non-emergency line: (805) 385-7740",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Ventura",
+    "branch": "Hall of Justice (Ventura)",
+    "serves_note": "Handles civil, criminal, family, and small claims cases for Ventura County; civil filings for Oxnard residents",
+    "address": "800 South Victoria Avenue, Ventura, CA 93009",
+    "phone": null,
+    "source_url": "https://ventura.courts.ca.gov/locations",
+    "snippet": "800 South Victoria Avenue, Ventura, CA 93009 · Dedicated to Justice Steven Z. Perren",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Ventura Area",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/coastal-division/765-ventura/",
+    "snippet": "Located along the scenic coast of Southern California, the Ventura Area of the California Highway Patrol is responsible for patrolling a diverse and expansive region that includes approximately 175 miles of freeway, including state routes and 542 miles of unincorporated roadways within its 1,843 square mile territory. The Ventura Area encompasses a variety of communities, including the city of Ventura, Oxnard, Camarillo, Santa Paula, Ojai and surrounding unincorporated areas.",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:51:34.160Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

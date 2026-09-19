@@ -1,0 +1,38 @@
+{
+  "city_slug": "indio",
+  "county": "Riverside",
+  "hospital": {
+    "name": "John F. Kennedy Memorial Hospital",
+    "address": "47111 Monroe Street, Indio, CA 92201",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/john-f-kennedy-memorial-hospital/",
+    "snippet": "Address: 47111 Monroe Street Indio, CA 92201",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Indio Police Department",
+    "type": "city_pd",
+    "address": "46800 Jackson Street, Indio, CA 92201",
+    "phone": "(760) 391-4057",
+    "source_url": "https://www.indiopd.org/",
+    "snippet": "46800 Jackson Street Indio Ca, 92201 Office: (760) 391-4057",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Riverside",
+    "branch": "Larson Justice Center",
+    "serves_note": "Serves Indio and surrounding area; handles Family Law and Criminal cases at this branch; civil filings per Administrative Order",
+    "address": "46-200 Oasis Street, Indio, CA 92201",
+    "phone": null,
+    "source_url": "https://www.riverside.courts.ca.gov/",
+    "snippet": "Larson Justice Center (Indio) 46-200 Oasis Street Indio, CA 92201",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:29:57.582Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

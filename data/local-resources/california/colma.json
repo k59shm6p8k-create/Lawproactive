@@ -1,0 +1,29 @@
+{
+  "city_slug": "colma",
+  "county": "San Mateo",
+  "hospital": {
+    "name": "Kaiser Permanente South San Francisco",
+    "address": "1200 El Camino Real, South San Francisco, CA 94080",
+    "phone": null,
+    "source_url": "https://www.colma.ca.gov/question/how-do-i-find-a-hospital/",
+    "snippet": "Kaiser Permanente in South San Francisco 1200 El Camino Real South San Francisco, CA 94080",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Colma Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.colma.ca.gov/departments/police/",
+    "snippet": "The members of Colma Police Department are proud to serve those who live, visit, or do business in the Town of Colma",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:09:38.567Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

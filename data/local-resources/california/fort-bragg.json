@@ -1,0 +1,45 @@
+{
+  "city_slug": "fort-bragg",
+  "county": "Mendocino",
+  "hospital": {
+    "name": "Adventist Health Mendocino Coast",
+    "address": "700 River Drive, Fort Bragg, CA 95437",
+    "phone": "707-961-1234",
+    "source_url": "https://www.adventisthealth.org/mendocino-coast/locations/",
+    "snippet": "700 River Drive, Fort Bragg, California 95437 · View details 707-961-1234",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Fort Bragg Police Department",
+    "type": "city_pd",
+    "address": "250 Cypress Street, Fort Bragg, CA 95437",
+    "phone": "707-961-2800",
+    "source_url": "https://oag.ca.gov/fingerprints/locations/fort-bragg-police-dept",
+    "snippet": "Address: 250 Cypress Street · Fort Bragg, CA 95437 · Phone: (707) 961-2800 Ext #101",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Mendocino",
+    "branch": "Ten Mile Branch",
+    "serves_note": "Serves Fort Bragg and surrounding area for civil filings",
+    "address": "700 South Franklin Street, Fort Bragg, CA 95437",
+    "phone": null,
+    "source_url": "https://www.mendocino.courts.ca.gov/general-information/locations-contact-info",
+    "snippet": "Fort Bragg - Ten Mile Branch 700 South Franklin Street Fort Bragg, CA 95437",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California DMV - Fort Bragg",
+    "address": "410 S Franklin Street, Fort Bragg, CA 95437",
+    "phone": null,
+    "source_url": "https://www.dmv.ca.gov/portal/field-office/fort-bragg/",
+    "snippet": "Field Office · 410 S Franklin Street, Fort Bragg, CA 95437",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:20:55.685Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

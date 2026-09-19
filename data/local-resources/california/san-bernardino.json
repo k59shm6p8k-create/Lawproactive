@@ -1,0 +1,45 @@
+{
+  "city_slug": "san-bernardino",
+  "county": "San Bernardino",
+  "hospital": {
+    "name": "St. Bernardine Medical Center",
+    "address": "2101 North Waterman Avenue, San Bernardino, CA 92404",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/st-bernardine-medical-center/",
+    "snippet": "Address: 2101 North Waterman Avenue San Bernardino, CA 92404 · Emergency Room Service Level: Basic",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "San Bernardino Police Department",
+    "type": "city_pd",
+    "address": "710 North D Street, San Bernardino, CA 92401",
+    "phone": "909-383-5311",
+    "source_url": "https://www.sanbernardino.gov/m/directory/department?did=30",
+    "snippet": "Physical Address · 710 North D Street San Bernardino , CA 92401 · Phone Number 909-383-5311",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Bernardino",
+    "branch": "San Bernardino District – Civil Division",
+    "serves_note": "Serves the City of San Bernardino for civil filings",
+    "address": "247 West Third Street, San Bernardino, CA 92415-0210",
+    "phone": "909-708-8678",
+    "source_url": "https://sanbernardino.courts.ca.gov/location/civil-division-san-bernardino-district",
+    "snippet": "Superior Court of California County of San Bernardino San Bernardino District – Civil Division 247 West Third Street San Bernardino, CA 92415-0210 · Civil Information (909) 708-8678",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - San Bernardino Area",
+    "address": "2211 Western Avenue, San Bernardino, CA 92411-1243",
+    "phone": "909-383-4247",
+    "source_url": "https://cad.chp.ca.gov/htm.net/locations.htm",
+    "snippet": "SAN BERNARDINO CHP 2211 Western Ave. San Bernardino 92411-1243 909-383-4247",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:03:35.570Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

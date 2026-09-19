@@ -1,0 +1,38 @@
+{
+  "city_slug": "truckee",
+  "county": "Nevada",
+  "hospital": {
+    "name": "Tahoe Forest Hospital",
+    "address": "10121 Pine Ave, Truckee, CA 96161",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/tahoe-forest-hospital/",
+    "snippet": "Address: 10121 Pine Ave Truckee, CA 96161",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Truckee Police Department",
+    "type": "city_pd",
+    "address": "10183 Truckee Airport Road, Truckee, CA 96161",
+    "phone": "(530) 550-2323",
+    "source_url": "https://www.truckeepolice.gov/",
+    "snippet": "10183 Truckee Airport Road Truckee, CA 96161 530.550.2323",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Nevada",
+    "branch": "Truckee",
+    "serves_note": "Handles civil cases filed in Truckee",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.nevada.courts.ca.gov/divisions/civil-division",
+    "snippet": "The handles cases involving disputes between private parties filed in Nevada City and Truckee.",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:17:41.095Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

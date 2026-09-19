@@ -1,0 +1,29 @@
+{
+  "city_slug": "calabasas",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "UCLA West Valley Medical Center",
+    "address": "7300 Medical Center Dr, West Hills, CA 91307",
+    "phone": "818-676-4000",
+    "source_url": "https://www.uclahealth.org/hospitals/west-valley",
+    "snippet": "Call the main 818-676-4000 hospital line for more information and support. ... Address 7300 Medical Center Dr. West Hills, CA 91307",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Malibu/Lost Hills Sheriff's Station",
+    "type": "sheriff",
+    "address": "27050 Agoura Road, Agoura, CA 91301",
+    "phone": "818-878-1808",
+    "source_url": "https://www.cityofcalabasas.com/government/sheriff-contract-lasd",
+    "snippet": "Law enforcement services are provided to residents through a contract with the Los Angeles County Sheriff's Department. ... Malibu/Lost Hills Sheriff Station 27050 Agoura Road Agoura, CA 91301 818-878-1808",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:03:25.281Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "city_slug": "la-mirada",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Vista Specialty Hospital of La Mirada",
+    "address": "14900 Imperial Highway, La Mirada, CA 90638",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/kindred-hospital-la-mirada/",
+    "snippet": "Address: 14900 Imperial Highway La Mirada, CA 90638",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Los Angeles County Sheriff's Department (La Mirada Community Sheriff's Station)",
+    "type": "sheriff",
+    "address": "13716 La Mirada Boulevard, La Mirada, California 90638",
+    "phone": "562-902-2960",
+    "source_url": "https://www.cityoflamirada.org/departments/public-safety",
+    "snippet": "La Mirada Community Sheriff's Station 13716 La Mirada Boulevard La Mirada, California 90638 (562) 902-2960",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Santa Fe Springs Area",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/southern-division/550-santa-fe-springs/",
+    "snippet": "The Santa Fe Springs Area serves the southeast portion of Los Angeles County encompassing the cities of Artesia, Bellflower, Cerritos, Downey, Hawaiian Gardens, La Habra Heights, La Mirada, Lakewood, Norwalk, Paramount, Pico Rivera, Santa Fe Springs, and Whittier.",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:33:14.513Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

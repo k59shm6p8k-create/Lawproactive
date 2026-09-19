@@ -1,0 +1,29 @@
+{
+  "city_slug": "culver-city",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Southern California Hospital at Culver City",
+    "address": "3828 Delmas Terrace, Culver City, CA 90232",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/southern-california-hospital-at-culver-city/",
+    "snippet": "Address: 3828 Delmas Terrace Culver City, CA 90232",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Culver City Police Department",
+    "type": "city_pd",
+    "address": "4040 Duquesne Ave, Culver City CA 90232",
+    "phone": "310-837-1221",
+    "source_url": "https://locator.lacounty.gov/lac/Location/3175452/city-of-culver-city-police-department",
+    "snippet": "Address: 4040 Duquesne Ave. Culver City CA 90232 ... Phones: ... Non-Emergency Service/Intake (310) 837-1221",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:12:42.574Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

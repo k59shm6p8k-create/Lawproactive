@@ -1,0 +1,29 @@
+{
+  "city_slug": "ross",
+  "county": "Marin",
+  "hospital": {
+    "name": "MarinHealth Medical Center",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.mymarinhealth.org/locations/medical-center/",
+    "snippet": "Marin General Hospital is now MarinHealth Medical Center.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Ross Police Department",
+    "type": "city_pd",
+    "address": "33 Sir Francis Drake Boulevard, Ross, CA 94957",
+    "phone": "(415) 453-1453",
+    "source_url": "https://www.townofrossca.gov/police/page/personnel",
+    "snippet": "Street Address: 33 Sir Francis Drake Boulevard Ross, CA 94957... Contact Chief Aguilar (415) 453-1453 ext. 101",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:02:43.195Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

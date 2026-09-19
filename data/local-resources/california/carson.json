@@ -1,0 +1,45 @@
+{
+  "city_slug": "carson",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Harbor-UCLA Medical Center",
+    "address": "1000 W. Carson St. Torrance, CA 90509",
+    "phone": null,
+    "source_url": "https://dhs.lacounty.gov/lageneral/our-services/emergency-services/",
+    "snippet": "Harbor-UCLA Medical Center 1000 W. Carson St. Torrance, CA 90509",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Los Angeles County Sheriff's Department - Carson Station",
+    "type": "sheriff",
+    "address": "21356 S. Avalon Blvd. Carson, CA 90745",
+    "phone": "310-830-1123",
+    "source_url": "https://lasd.org/carson/",
+    "snippet": "If an immediate law enforcement response is needed, please call 9-1-1 or contact Carson Station via phone at (310) 830-1123. If you are seeking a public complaint, please contact Carson Station via phone at (310) 830-1123 or in-person at 21356 S. Avalon Blvd. Carson, CA 90745",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "South Central District - Compton",
+    "serves_note": "Serves Carson, Compton, Lynwood, Paramount and unincorporated areas",
+    "address": "200 W. Compton Blvd. Compton CA 90220",
+    "phone": "310-603-7842",
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176538/los-angeles-county-superior-court---south-central-district---compton",
+    "snippet": "This is a superior court with jurisdiction over cases that take place in Carson, Compton, Lynwood, Paramount and unincorporated areas of Los Angeles. Address: 200 W. Compton Blvd. Compton CA 90220 ... Civil/Small Claims Service/Intake (310) 603-7842",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - South Los Angeles Area Office",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/southern-division/offices/(530)-south-los-angeles",
+    "snippet": "The South Los Angeles Area office services the communities of Torrance, Carson, Gardena, Redondo Beach, Rancho Palos Verdes, Compton, Willowbrook and Long Beach.",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:06:04.901Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

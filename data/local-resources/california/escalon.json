@@ -1,0 +1,29 @@
+{
+  "city_slug": "escalon",
+  "county": "San Joaquin",
+  "hospital": {
+    "name": "Oak Valley Hospital - Escalon Community Health Center",
+    "address": null,
+    "phone": null,
+    "source_url": "https://oakvalleyhospital.com/escalon-community-health-center/",
+    "snippet": "Oak Valley Hospital proudly operates four conveniently located Community Health Centers in Riverbank, Oakdale, Escalon, and Waterford",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Escalon Police Department",
+    "type": "city_pd",
+    "address": "2040 McHenry Avenue, Escalon, CA 95320",
+    "phone": "209-838-7093",
+    "source_url": "https://211sj.org/v2-detail/?idServiceAtLocation=25050789",
+    "snippet": "Address: 2040 McHenry Avenue, Escalon, CA 95320 Phone: Non-Emergency Number: 209-838-7093",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:18:28.732Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

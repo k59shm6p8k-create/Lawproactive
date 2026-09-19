@@ -1,0 +1,38 @@
+{
+  "city_slug": "lynwood",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "St. Francis Medical Center",
+    "address": "3630 E. Imperial Highway, Lynwood, CA 90262",
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3179410/st-francis-medical-center---prime-healthcare",
+    "snippet": "Address: 3630 E. Imperial Highway Lynwood CA 90262",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Los Angeles County Sheriff's Department - Century Station",
+    "type": "sheriff",
+    "address": "11703 S. Alameda Street, Lynwood, CA 90262",
+    "phone": "(323) 568-4800",
+    "source_url": "https://lasd.org/century/",
+    "snippet": "contact Century Station via phone at (323) 568-4800 or in-person at 11703 S. Alameda Street, Lynwood, CA 90262",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "South Central District - Compton",
+    "serves_note": "Serves Lynwood, Compton, Carson, Paramount and surrounding areas",
+    "address": null,
+    "phone": "(310) 603-7842",
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176538/los-angeles-county-superior-court---south-central-district---compton",
+    "snippet": "Civil/Small Claims Service/Intake (310) 603-7842",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:40:15.858Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

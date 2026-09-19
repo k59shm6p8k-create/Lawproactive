@@ -1,0 +1,22 @@
+{
+  "city_slug": "paso-robles",
+  "county": "San Luis Obispo",
+  "hospital": null,
+  "police": {
+    "name": "Paso Robles Police Department",
+    "type": "city_pd",
+    "address": "900 Park Street, Paso Robles, CA 93446",
+    "phone": "805-237-6464",
+    "source_url": "https://www.prcity.com/760/Contact-Us",
+    "snippet": "Physical Address 900 Park Street Paso Robles, CA 93446 · Phone: 805-237-6464",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:53:32.714Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

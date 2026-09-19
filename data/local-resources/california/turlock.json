@@ -1,0 +1,38 @@
+{
+  "city_slug": "turlock",
+  "county": "Stanislaus",
+  "hospital": {
+    "name": "Emanuel Medical Center",
+    "address": "825 Delbon Ave, Turlock, CA 95382",
+    "phone": "(209) 664-2816",
+    "source_url": "https://www.cvdoctorshealthsystem.com/services/emergency-room/emergency-room-locations",
+    "snippet": "Emergency Hospital · Emanuel Medical Center · 825 Delbon Ave., Turlock, CA 95382 · (209) 664-2816",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Turlock Police Department",
+    "type": "city_pd",
+    "address": "244 North Broadway, Turlock, CA",
+    "phone": "(209) 668-5550",
+    "source_url": "https://www.cityofturlock.org/policedepartment/",
+    "snippet": "We are located at 244 North Broadway, and can be reached at (209) 668-5550.",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Stanislaus",
+    "branch": "Civil Division (Main Office)",
+    "serves_note": "Serves Turlock for civil filings. General civil cases file at Modesto office; Small Claims/UD at Turlock location.",
+    "address": "801 10th Street, 4th Floor, Modesto, CA 95354",
+    "phone": null,
+    "source_url": "https://www.stanislaus.courts.ca.gov/divisions/civil",
+    "snippet": "Civil Clerk's Office: City Towers 801 10th Street, 4th Floor Modesto, CA 95354 [Unlawful Detainer and Small Claims filings are handled at the Turlock location: 300 Starr Avenue, Turlock, CA 95380]",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:18:20.191Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

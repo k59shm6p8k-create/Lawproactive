@@ -1,0 +1,38 @@
+{
+  "city_slug": "solvang",
+  "county": "Santa Barbara",
+  "hospital": {
+    "name": "Santa Ynez Valley Cottage Hospital",
+    "address": "2050 Viborg Road, Solvang, CA 93463",
+    "phone": "805-686-3989",
+    "source_url": "https://www.cottagehealth.org/santa-ynez-valley-cottage-hospital/emergency-department/",
+    "snippet": "2050 Viborg Rd., Solvang, CA 93463 · For more info on the treatments and services available at Santa Ynez Valley Cottage Hospital's Emergency Department, please call 805-686-3989.",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Santa Barbara County Sheriff's Office - Solvang Station",
+    "type": "sheriff",
+    "address": "1745 Mission Drive, Solvang, CA 93463",
+    "phone": "805-686-5000",
+    "source_url": "https://www.cityofsolvang.com/272/Public-Safety",
+    "snippet": "The City of Solvang contracts with the Santa Barbara County Sheriff's Office for law enforcement services. For non-emergency police calls, please call 805-686-5000. The Solvang Sheriff Substation is located at 1745 Mission Drive.",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Santa Barbara",
+    "branch": "Lompoc Division",
+    "serves_note": "Civil filings for Solvang area; traffic matters handled at Solvang courthouse on specific days",
+    "address": "115 Civic Center Drive, Lompoc, CA 93436",
+    "phone": null,
+    "source_url": "https://www.santabarbara.courts.ca.gov/location/solvang",
+    "snippet": "Effective 10/14/14 all documents to be filed at the Lompoc Division, 115 Civic Center Drive, Lompoc, CA 93436",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:12:54.241Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "city_slug": "ventura",
+  "county": "Ventura",
+  "hospital": {
+    "name": "Ventura County Medical Center",
+    "address": "300 Hillmont Avenue, Ventura, CA 93003",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/ventura-county-medical-center/",
+    "snippet": "Address: 300 Hillmont Ave Ventura, CA 93003",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Ventura Police Department",
+    "type": "city_pd",
+    "address": "1425 Dowell Drive, Ventura, CA 93003",
+    "phone": null,
+    "source_url": "https://www.cityofventura.ca.gov/directory.aspx?did=77",
+    "snippet": "1425 Dowell Drive Ventura, CA 93003",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Ventura Area Office",
+    "address": "4656 Valentine Road, Ventura, CA 93003-5740",
+    "phone": "805-477-4100",
+    "source_url": "https://www.chp.ca.gov/find-an-office/coastal-division/765-ventura/",
+    "snippet": "Ventura 4656 Valentine Rd. Ventura, CA 93003-5740 · Phone (805) 477-4100",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:20:16.890Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

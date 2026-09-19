@@ -1,0 +1,38 @@
+{
+  "city_slug": "santee",
+  "county": "San Diego",
+  "hospital": null,
+  "police": {
+    "name": "Santee Sheriff's Station",
+    "type": "sheriff",
+    "address": null,
+    "phone": "(619) 956-4021",
+    "source_url": "https://www.sdsheriff.gov/Home/Components/FacilityDirectory/FacilityDirectory/42/34",
+    "snippet": "For additional information or to schedule a program, contact the Santee Crime Prevention Unit at (619) 956-4021.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Diego",
+    "branch": "East County Regional Center",
+    "serves_note": "Serves East County including Santee for criminal, family, and civil matters",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.sdcourt.ca.gov/sdcourt/generalinformation/courtlocations/eastcountyregional",
+    "snippet": "The East County Regional Center hears Criminal, Family, Civil Harassment & Elder/Dependent Adult Abuse Restraining Orders",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - San Diego Area",
+    "address": "9330 Farnham Street, San Diego, CA",
+    "phone": "(858) 650-3600",
+    "source_url": "https://www.facebook.com/CHPBorderDivision",
+    "snippet": "9330 Farnham Street, San Diego, CA, United States, California · (858) 650-3600",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:09:54.503Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

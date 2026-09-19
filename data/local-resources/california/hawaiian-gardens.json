@@ -1,0 +1,38 @@
+{
+  "city_slug": "hawaiian-gardens",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Gardens Regional Hospital and Medical Center",
+    "address": null,
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3179413/gardens-regional-hospital-medical-center",
+    "snippet": "Gardens Regional Hospital and Medical Center formerly doing business as Tri-City Regional Medical Center",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Los Angeles County Sheriff's Department - Lakewood Station",
+    "type": "sheriff",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.hgcity.org/government/departments/public-safety",
+    "snippet": "The City of Hawaiian Gardens contracts with the Los Angeles Sheriff's Department to provide law enforcement services.",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Bellflower Courthouse",
+    "serves_note": "Serves Artesia, Bellflower, Cerritos, Hawaiian Gardens, Lakewood, and Norwalk",
+    "address": null,
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176783/los-angeles-county-superior-court---southeast-district---bellflower-courthouse",
+    "snippet": "This state trial court is an L A County Superior Court with jurisdiction over cases that take place in Artesia, Bellflower, Cerritos, Hawaiian Gardens, Lakewood, and Norwalk.",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:25:59.620Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "city_slug": "auburn",
+  "county": "Placer",
+  "hospital": {
+    "name": "Sutter Auburn Faith Hospital",
+    "address": "11815 Education Street, Auburn, CA 95602",
+    "phone": "530-888-4550",
+    "source_url": "https://www.sutterhealth.org/find-location/facility/sutter-auburn-faith-hospital-emergency-department",
+    "snippet": "Sutter Auburn Faith Hospital Emergency Department is located at 11815 Education Street, Auburn CA 95602 and is part of the Sutter Health Network. Contact Sutter Auburn Faith Hospital Emergency Department at 5308884550.",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Auburn Police Department",
+    "type": "city_pd",
+    "address": "1215 Lincoln Way, Auburn, CA 95603",
+    "phone": "530-823-4237",
+    "source_url": "https://www.auburn.ca.gov/directory.aspx?did=10",
+    "snippet": "Records Division Physical Address: 1215 Lincoln Way Auburn, CA 95603 Phone: 530-823-4237, ext. 501",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Placer",
+    "branch": "Historic Auburn Courthouse",
+    "serves_note": "Serves Placer County; civil filings handled at Auburn branch",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.placer.courts.ca.gov/general-information/history-court",
+    "snippet": "In 2008, the court moved from Auburn to Roseville to the newly constructed Santucci Justice Center. The Auburn Jail and Juvenile Courtroom's remain in Auburn",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Auburn Area",
+    "address": null,
+    "phone": "530-885-8697",
+    "source_url": "https://www.chp.ca.gov/find-an-office/valley-division/offices/(220)-auburn",
+    "snippet": "(Yard) 248 Sutherland Dr., Auburn, CA 95603 (530) 885-8697",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:57:15.290Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

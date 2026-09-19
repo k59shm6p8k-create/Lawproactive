@@ -1,0 +1,31 @@
+{
+  "city_slug": "arvin",
+  "county": "Kern",
+  "hospital": null,
+  "police": {
+    "name": "Arvin Police Department",
+    "type": "city_pd",
+    "address": "200 Campus Drive, Arvin, CA 93203",
+    "phone": "(661) 854-5583",
+    "source_url": "https://oag.ca.gov/fingerprints/locations/arvin-police-department",
+    "snippet": "Address: 200 Campus Drive · Arvin, CA 93203 Get directions · County: Kern · Phone: (661) 854-5583",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Kern",
+    "branch": "Arvin/Lamont Branch",
+    "serves_note": "Serves Arvin and Lamont for civil filings, traffic, and criminal matters",
+    "address": "12022 Main Street, Lamont, CA 93241",
+    "phone": "(661) 868-5800",
+    "source_url": "https://www.kern.courts.ca.gov/",
+    "snippet": "Arvin / Lamont Branch Court 12022 Main Street, Lamont, CA 93241 (661) 868-5800",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:56:32.538Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

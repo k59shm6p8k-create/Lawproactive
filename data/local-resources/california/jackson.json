@@ -1,0 +1,36 @@
+{
+  "city_slug": "jackson",
+  "county": "Amador",
+  "hospital": {
+    "name": "Sutter Amador Hospital",
+    "address": "200 Mission Blvd., Jackson, CA 95642",
+    "phone": "209-223-7555",
+    "source_url": "https://www.sutterhealth.org/find-location/facility/sutter-amador-hospital-emergency-department",
+    "snippet": "Contact Sutter Amador Hospital Emergency Department at 2092237555. Sutter Amador Hospital Emergency Department is located at 200 Mission Blvd., Jackson CA 95642",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Jackson Police Department",
+    "type": "city_pd",
+    "address": "33 Broadway, Jackson, CA 95642",
+    "phone": "209-223-1771",
+    "source_url": "https://www.amadorcounty.gov/departments/office-of-emergency-services/emergency-information/law-enforcement-agencies",
+    "snippet": "City of Jackson Police Department, 33 Broadway, Jackson, CA 95642, Phone: 209-223-1771",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Amador Office",
+    "address": "301 Clinton Road, Jackson, CA 95642",
+    "phone": "209-223-4890",
+    "source_url": "https://www.amadorcounty.gov/departments/office-of-emergency-services/emergency-information/law-enforcement-agencies",
+    "snippet": "California Highway Patrol, Amador Office, 301 Clinton Road, Jackson, CA 95642, Phone: 209-223-4890",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:31:26.727Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

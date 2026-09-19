@@ -1,0 +1,22 @@
+{
+  "city_slug": "orange-cove",
+  "county": "Fresno",
+  "hospital": null,
+  "police": {
+    "name": "Orange Cove Police Department",
+    "type": "city_pd",
+    "address": "550 Center Street, Orange Cove, California 93646",
+    "phone": "559-626-5106",
+    "source_url": "https://cityoforangecove.com/police/",
+    "snippet": "Orange Cove Police Department 550 Center Street Orange Cove, California 93646 Telephone: 559-626-5106",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:28:11.471Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

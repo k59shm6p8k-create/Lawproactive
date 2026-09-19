@@ -1,0 +1,31 @@
+{
+  "city_slug": "brisbane",
+  "county": "San Mateo",
+  "hospital": null,
+  "police": {
+    "name": "Brisbane Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "415-467-1212",
+    "source_url": "https://www.brisbaneca.gov/165/Police-Department",
+    "snippet": "Our officers can be reached 24 / 7 by phone at 415-467-1212.",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Mateo",
+    "branch": "Southern Branch (Hall of Justice)",
+    "serves_note": "Serves Brisbane and surrounding areas for civil filings",
+    "address": "400 County Center, Redwood City, CA 94063",
+    "phone": null,
+    "source_url": "https://sanmateo.courts.ca.gov/divisions/civil-division",
+    "snippet": "The Southern Branch of the San Mateo County Superior Court is located in the Hall of Justice and Records at 400 County Center, Redwood City, CA 94063.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:02:28.052Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

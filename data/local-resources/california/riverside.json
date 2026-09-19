@@ -1,0 +1,45 @@
+{
+  "city_slug": "riverside",
+  "county": "Riverside",
+  "hospital": {
+    "name": "Riverside Community Hospital",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.riversidecommunityhospital.com/specialties/emergency-care",
+    "snippet": "We are centrally located off the 91 or 60 freeway in downtown Riverside, California.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Riverside Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "(951) 354-2007",
+    "source_url": "https://www.riversideca.gov/rpd/",
+    "snippet": "If you wish to report a crime, request a police officer, or have a general concern, please contact our 24-Hour Non-Emergency Dispatch Center at (951) 354-2007.",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Riverside",
+    "branch": "Historic Courthouse",
+    "serves_note": "Serves Riverside city and surrounding western Riverside County areas",
+    "address": "4050 Main Street, Riverside, CA 92501",
+    "phone": null,
+    "source_url": "https://www.riverside.courts.ca.gov/system/files/filecivil.pdf",
+    "snippet": "Riverside Historic Courthouse located at 4050 Main Street, Riverside, CA 92501",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Riverside Area Office",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/inland-division/840-riverside/",
+    "snippet": "The Riverside Area Office is responsible for providing service to most of western Riverside County, which is one of the largest and most populated metropolitan areas in Southern California.",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:01:23.717Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

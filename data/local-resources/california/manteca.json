@@ -1,0 +1,36 @@
+{
+  "city_slug": "manteca",
+  "county": "San Joaquin",
+  "hospital": {
+    "name": "Doctors Hospital of Manteca",
+    "address": "1205 East North Street, Manteca, CA 95336",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/doctors-hospital-of-manteca/",
+    "snippet": "Address: 1205 East North Street Manteca, CA 95336",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Manteca Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "209-456-8108",
+    "source_url": "https://www.manteca.gov/departments/police-department",
+    "snippet": "Police Records: 209-456-8108",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Department of Motor Vehicles - Manteca Field Office",
+    "address": "955 Davis Street, Manteca, CA 95336",
+    "phone": null,
+    "source_url": "https://www.dmv.ca.gov/portal/field-office/manteca/",
+    "snippet": "Field Office · 955 Davis Street, Manteca, CA 95336",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:41:20.539Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

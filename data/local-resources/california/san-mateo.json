@@ -1,0 +1,45 @@
+{
+  "city_slug": "san-mateo",
+  "county": "San Mateo",
+  "hospital": {
+    "name": "San Mateo Medical Center",
+    "address": "222 West 39th Avenue, San Mateo, CA 94403",
+    "phone": null,
+    "source_url": "https://www.smchealth.org/smmc-services-emergency",
+    "snippet": "Our emergency services are located on the first floor of the hospital at 222 West 39th Avenue, San Mateo, CA 94403.",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "San Mateo Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.cityofsanmateo.org/662/Contact-Us",
+    "snippet": "Police Reports & General Information Direct: (650) 522-7710 Open Monday - Friday Hours: 8:00 a.m. - 5:00 p.m.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Mateo",
+    "branch": "Southern Branch (Hall of Justice and Records)",
+    "serves_note": "Serves San Mateo city for civil filings",
+    "address": null,
+    "phone": null,
+    "source_url": "https://sanmateo.courts.ca.gov/divisions/civil-division",
+    "snippet": "The Civil Division hears cases on the 1st floor of the Southern Branch location.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "CHP Redwood City Area Office",
+    "address": null,
+    "phone": "(650) 779-2700",
+    "source_url": "https://www.facebook.com/RedwoodCityCHP/",
+    "snippet": "For questions or comments, call CHP Redwood City at (650) 779-2700",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:07:02.678Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

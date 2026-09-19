@@ -1,0 +1,29 @@
+{
+  "city_slug": "placentia",
+  "county": "Orange",
+  "hospital": {
+    "name": "UCI Health—Placentia Linda",
+    "address": "1301 N. Rose Drive, Placentia, CA 92870",
+    "phone": "714-993-2000",
+    "source_url": "https://www.ucihealth.org/locations/placentia/uci-health-placentia-linda",
+    "snippet": "UCI Health — Placentia Linda is located at 1301 N. Rose Drive, Placentia, CA 92870. Please call 714-993-2000 to schedule an appointment.",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Placentia Police Department",
+    "type": "city_pd",
+    "address": "401 E Chapman Avenue, Placentia, CA 92870",
+    "phone": null,
+    "source_url": "https://www.placentia.org/17/Police",
+    "snippet": "Physical Address View Map 401 E Chapman Avenue Placentia, CA 92870",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:55:24.292Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

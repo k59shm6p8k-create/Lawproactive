@@ -1,0 +1,45 @@
+{
+  "city_slug": "san-diego",
+  "county": "San Diego",
+  "hospital": {
+    "name": "Scripps Mercy Hospital San Diego",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.scripps.org/locations/er/scripps-mercy-hospital-san-diego-emergency-room",
+    "snippet": "The Conrad Prebys Emergency and Trauma Center is located on the campus of Scripps Mercy Hospital San Diego, near the corner of 5th Avenue and Washington Street in Hillcrest.",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "San Diego Police Department",
+    "type": "city_pd",
+    "address": "1401 Broadway, San Diego, CA 92101",
+    "phone": null,
+    "source_url": "https://www.sandiego.gov/department/contact-0",
+    "snippet": "San Diego Police Department Attention: Recruiting 1401 Broadway, MS 769 San Diego, CA 92101-5729 Phone: (619) 531-COPS (2677)",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Diego",
+    "branch": "Central Courthouse / Hall of Justice",
+    "serves_note": "Serves civil filing matters for San Diego city (Central Division)",
+    "address": "330 West Broadway, Room 225, San Diego, CA 92101",
+    "phone": null,
+    "source_url": "https://www.sdcourt.ca.gov/",
+    "snippet": "available for viewing via a File&Serve Xpress subscription through LexisNexis or on the court's internal Coordinated Proceedings (CP)/Judicial Council Coordination Proceedings (JCCP) document viewer kiosk located in the Civil Business Office at the Hall of Justice, 330 W. Broadway, Room 225, San Diego, CA 92101.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - San Diego",
+    "address": "4902 Pacific Highway, San Diego, CA 92110-4097",
+    "phone": "619-220-5492",
+    "source_url": "https://www.chp.ca.gov/find-an-office/border-division/645-san-diego/",
+    "snippet": "San Diego 4902 Pacific Hwy. San Diego, CA 92110-4097 · Phone (619) 220-5492",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:04:19.547Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

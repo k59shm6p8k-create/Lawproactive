@@ -1,0 +1,38 @@
+{
+  "city_slug": "el-segundo",
+  "county": "Los Angeles",
+  "hospital": null,
+  "police": {
+    "name": "El Segundo Police Department",
+    "type": "city_pd",
+    "address": "348 Main St. El Segundo CA 90245",
+    "phone": "310-524-2760",
+    "source_url": "https://locator.lacounty.gov/lac/Location/3175454/city-of-el-segundo-police-department",
+    "snippet": "Address: 348 Main St. El Segundo CA 90245 ... Non-Emergency ... Emergency (310) 524-2760",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Southwest District - Inglewood",
+    "serves_note": "Serves Inglewood, Lennox, Hawthorne, El Segundo, and unincorporated areas",
+    "address": "1 Regent St. Inglewood CA 90301",
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176787/los-angeles-county-superior-court---southwest-district---inglewood",
+    "snippet": "This state trial court is an L A County Superior Court with jurisdiction over cases that take place in Inglewood, Lennox, Hawthorne, El Segundo, and unincorporated areas of Los Angeles. Address: 1 Regent St. Inglewood CA 90301",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California DMV - El Segundo Driver Safety Office",
+    "address": "390 N. Pacific Coast Highway Suite 2075 El Segundo CA 90245",
+    "phone": "833-543-7703",
+    "source_url": "https://www.dmv.ca.gov/portal/driver-education-and-safety/driver-safety-offices/",
+    "snippet": "El Segundo · Address: 390 N. Pacific Coast Highway Suite 2075 90245-4470 ... Phone (833) 543-7703",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:17:41.066Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

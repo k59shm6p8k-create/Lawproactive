@@ -1,0 +1,38 @@
+{
+  "city_slug": "ridgecrest",
+  "county": "Kern",
+  "hospital": {
+    "name": "Ridgecrest Regional Hospital",
+    "address": "1081 N China Lake Blvd, Ridgecrest, CA 93555",
+    "phone": "(760) 446-3551",
+    "source_url": "https://www.rrh.org/locations/e-emergency/",
+    "snippet": "1081 N China Lake Blvd Ridgecrest, CA 93555 Get Directions · Phone: (760) 446-3551",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Ridgecrest Police Department",
+    "type": "city_pd",
+    "address": "100 W California Avenue, Ridgecrest, CA 93555",
+    "phone": "(760) 499-5100",
+    "source_url": "https://www.ridgecrest-ca.gov/Directory.aspx?DID=14",
+    "snippet": "100 W California Avenue Ridgecrest, CA 93555Phone: 760-499-5100Emergency Phone: 911",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Kern",
+    "branch": "Ridgecrest",
+    "serves_note": "Serves Ridgecrest and surrounding areas in Kern County",
+    "address": "132 E Coso Ave, Ridgecrest, CA 93555",
+    "phone": "(661) 610-7450",
+    "source_url": "https://www.kern.courts.ca.gov/location/ridgecrest",
+    "snippet": "132 E Coso Ave Ridgecrest, CA 93555 · (661) 610-7450",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:00:20.837Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

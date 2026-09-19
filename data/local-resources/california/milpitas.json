@@ -1,0 +1,38 @@
+{
+  "city_slug": "milpitas",
+  "county": "Santa Clara",
+  "hospital": null,
+  "police": {
+    "name": "Milpitas Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://nextdoor.com/agency-detail/ca/milpitas/milpitas-police-department/",
+    "snippet": "908-586-2400 for non-emergency",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Santa Clara",
+    "branch": "San Jose Civil Courthouse",
+    "serves_note": "Civil filings for Milpitas",
+    "address": "191 North First Street, San Jose, CA 95113",
+    "phone": "408-882-2700",
+    "source_url": "https://www.milpitas.gov/BusinessDirectoryII.aspx?BID=24",
+    "snippet": "Superior Court Santa Clara County 191 North First Street San Jose, CA 95113 Phone: 408-882-2700",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "AAA Milpitas Branch (DMV-authorized)",
+    "address": "607 E Calaveras Blvd Ste 607, Milpitas, CA 95035",
+    "phone": "408-635-0100",
+    "source_url": "https://www.dmv.ca.gov/portal/business-partner/aaa-milpitas-branch/",
+    "snippet": "607 E Calaveras Blvd Ste 607, Milpitas, CA 95035 1-408-635-0100",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:43:41.221Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

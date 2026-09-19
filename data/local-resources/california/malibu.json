@@ -1,0 +1,45 @@
+{
+  "city_slug": "malibu",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Malibu Urgent Care Center",
+    "address": "23815 Stuart Ranch Road, Malibu, CA",
+    "phone": null,
+    "source_url": "https://www.uclahealth.org/locations/malibu-immediate-care",
+    "snippet": "23815 Stuart Ranch Rd.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Malibu/Lost Hills Sheriff's Station",
+    "type": "sheriff",
+    "address": null,
+    "phone": "(818) 878-1808",
+    "source_url": "https://lasd.org/malibu-lost-hills/",
+    "snippet": "If an immediate law enforcement response is needed, please call 9-1-1 or contact Malibu/Lost Hills Station via phone at (818) 878-1808.",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "West District - Malibu",
+    "serves_note": "Serves civil cases in Malibu and surrounding areas",
+    "address": null,
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176791/los-angeles-county-superior-court---west-district---malibu",
+    "snippet": "This state trial court is an L A County Superior Court with jurisdiction over cases that take place in Malibu.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "CHP West Valley Area Office",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/southern-division/580-west-valley/",
+    "snippet": "The California Highway Patrol's (CHP) West Valley Area office has a patrol area of approximately 400 square miles, providing services to residents within the City of Los Angeles, Hidden Hills, Calabasas, Agoura Hills, Westlake Village, Malibu, Lake Manor, Twin Lakes, San Fernando, and Topanga Canyon",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:40:41.742Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

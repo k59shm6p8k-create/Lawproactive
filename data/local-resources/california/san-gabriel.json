@@ -1,0 +1,45 @@
+{
+  "city_slug": "san-gabriel",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "San Gabriel Valley Medical Center",
+    "address": "438 W. Las Tunas Drive, San Gabriel, CA 91776",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/san-gabriel-valley-medical-center/",
+    "snippet": "Address: 438 W. Las Tunas Drive San Gabriel, CA 91776",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "San Gabriel Police Department",
+    "type": "city_pd",
+    "address": "625 S. Del Mar Avenue, San Gabriel, CA 91776",
+    "phone": "(626) 308-2828",
+    "source_url": "https://www.sangabrielcity.com/97/Police",
+    "snippet": "DIAL 911 in a life-threatening emergency Police Dispatch (626) 308-2828 Address 625 S. Del Mar Avenue, San Gabriel, CA 91776",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Northeast District - Alhambra",
+    "serves_note": "Civil filings for San Gabriel Valley area",
+    "address": "150 W. Commonwealth Ave., Alhambra, CA 91801",
+    "phone": "(626) 308-5521",
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176781/los-angeles-county-superior-court---northeast-district---alhambra",
+    "snippet": "Address: 150 W. Commonwealth Ave. Alhambra CA 91801 Civil/Small Claims Service/Intake (626) 308-5521",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Baldwin Park Area",
+    "address": "14039 Francisquito Ave., Baldwin Park, CA 91706",
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3048031/california-state-highway-patrol---chp---baldwin-park",
+    "snippet": "Address: 14039 Francisquito Ave. Baldwin Park CA 91706",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:05:08.507Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

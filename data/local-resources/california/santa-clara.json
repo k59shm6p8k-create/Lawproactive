@@ -1,0 +1,45 @@
+{
+  "city_slug": "santa-clara",
+  "county": "Santa Clara",
+  "hospital": {
+    "name": "Kaiser Foundation Hospital - Santa Clara",
+    "address": "700 Lawrence Expressway, Santa Clara, CA 95051",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/kaiser-foundation-hospital-santa-clara/",
+    "snippet": "Address: 700 Lawrence Expressway Santa Clara, CA 95051",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Santa Clara Police Department",
+    "type": "city_pd",
+    "address": "601 El Camino Real, Santa Clara, CA 95050",
+    "phone": "408-615-5580",
+    "source_url": "https://da.santaclaracounty.gov/prosecution/law-enforcement-links",
+    "snippet": "Santa Clara Police Department 601 El Camino Real Santa Clara, California 95050 (408) 261-5300 -- business line (408) 615-5580 -- records line",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Santa Clara",
+    "branch": "Downtown Superior Court",
+    "serves_note": "Serves Santa Clara city for civil filings; located in San Jose",
+    "address": null,
+    "phone": null,
+    "source_url": "https://santaclara.courts.ca.gov/divisions/civil-division",
+    "snippet": "Civil cases in Santa Clara County are heard in the Downtown Superior Court",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "Santa Clara DMV Office",
+    "address": "3665 Flora Vista Ave, Santa Clara, CA 95051",
+    "phone": null,
+    "source_url": "https://www.dmv.ca.gov/portal/field-office/santa-clara/",
+    "snippet": "3665 Flora Vista Ave. Santa Clara, CA 95051",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:08:24.951Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

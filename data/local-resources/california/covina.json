@@ -1,0 +1,45 @@
+{
+  "city_slug": "covina",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Emanate Health Inter-Community Hospital",
+    "address": "210 W. San Bernardino Rd. Covina, CA 91723",
+    "phone": "(626) 331-7331",
+    "source_url": "https://reentry.networkofcare.org/losangeles/services/agency?pid=EMANATEHEALTHINTERCOMMUNITYHOSPITALEmergencyRoomCare_1776_21_0",
+    "snippet": "Service/Intake (626) 331-7331 ... 210 W. San Bernardino Rd. Covina, California 91723",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "City of Covina Police Department",
+    "type": "city_pd",
+    "address": "444 N. Citrus Ave. Covina, CA 91723",
+    "phone": "626.331.3391",
+    "source_url": "https://covinapd.org/contact",
+    "snippet": "444 N. Citrus Ave. Covina, CA 91723 · Phone: 626.331.3391",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "West Covina Courthouse",
+    "serves_note": "Serves civil filings for Covina and surrounding areas",
+    "address": null,
+    "phone": "(626) 813-3236",
+    "source_url": "https://locator.lacounty.gov/lac/Location/3178259/los-angeles-county-superior-court---east-district---west-covina-courthouse",
+    "snippet": "Civil Service/Intake (626) 813-3236",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Baldwin Park",
+    "address": "14039 Francisquito Ave. Baldwin Park, CA 91706",
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3048031/california-state-highway-patrol---chp---baldwin-park",
+    "snippet": "Address: 14039 Francisquito Ave. Baldwin Park CA 91706",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:12:07.926Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

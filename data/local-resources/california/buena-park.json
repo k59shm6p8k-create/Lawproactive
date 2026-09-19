@@ -1,0 +1,29 @@
+{
+  "city_slug": "buena-park",
+  "county": "Orange",
+  "hospital": {
+    "name": "La Palma Intercommunity Hospital",
+    "address": "7901 Walker Street, La Palma, CA 90623",
+    "phone": "(714) 670-7400",
+    "source_url": "https://www.buenapark.com/residents/disaster_preparedness/emergency_services.php",
+    "snippet": "La Palma Intercommunity Hospital 7901 Walker Street, La Palma, CA 90623 (714) 670-7400",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Buena Park Police Department",
+    "type": "city_pd",
+    "address": "6640 Beach Boulevard, Buena Park, CA 90622",
+    "phone": "(714) 562-3950",
+    "source_url": "https://buenaparkcityjailca.org/police-department/",
+    "snippet": "The Buena Park Police Department serves the city of Buena Park from its headquarters at 6640 Beach Boulevard, Buena Park, CA 90622. Non‑emergency dispatch is available at (714) 562‑3902 and the front counter at (714) 562‑3950.",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:02:50.211Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

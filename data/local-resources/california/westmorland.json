@@ -1,0 +1,22 @@
+{
+  "city_slug": "westmorland",
+  "county": "Imperial",
+  "hospital": null,
+  "police": {
+    "name": "Westmorland Police Department",
+    "type": "city_pd",
+    "address": "355 South Center Street, Westmorland, CA 92281",
+    "phone": null,
+    "source_url": "https://www.cityofwestmorland.net/departments/police-department/",
+    "snippet": "To request an officer call Brawley Dispatch: (760) 344-2111. The department operates out of its main station situated at 355 South Center Street, Westmorland, California, 92281.",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:23:40.769Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

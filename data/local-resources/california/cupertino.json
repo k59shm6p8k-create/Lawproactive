@@ -1,0 +1,31 @@
+{
+  "city_slug": "cupertino",
+  "county": "Santa Clara",
+  "hospital": null,
+  "police": {
+    "name": "Santa Clara County Sheriff's Office, West Valley Division",
+    "type": "sheriff",
+    "address": "1601 S. De Anza Blvd., Suite #148, Cupertino, CA 95014",
+    "phone": "408-868-6600",
+    "source_url": "https://www.cupertino.org/our-city/departments/public-safety-programs/sheriff-s-office",
+    "snippet": "Santa Clara County Sheriff's Office West Valley Division 1601 S. De Anza Blvd., Suite #148 Cupertino, Ca 95014 408.868.6600",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Santa Clara",
+    "branch": "Downtown Superior Court",
+    "serves_note": "Serves Cupertino and surrounding areas for civil cases",
+    "address": null,
+    "phone": null,
+    "source_url": "https://santaclara.courts.ca.gov/divisions/civil-division",
+    "snippet": "Civil cases in Santa Clara County are heard in the Downtown Superior Court and the Old Courthouse.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:12:54.661Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

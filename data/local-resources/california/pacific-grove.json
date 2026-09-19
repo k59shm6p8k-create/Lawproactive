@@ -1,0 +1,29 @@
+{
+  "city_slug": "pacific-grove",
+  "county": "Monterey",
+  "hospital": null,
+  "police": {
+    "name": "Pacific Grove Police Department",
+    "type": "city_pd",
+    "address": "580 Pine Avenue, Pacific Grove, CA 93950",
+    "phone": "(831) 648-3143",
+    "source_url": "https://www.cityofpacificgrove.gov/our_city/departments/police/index.php",
+    "snippet": "Pacific Grove Police 580 Pine Avenue Pacific Grove, CA 93950 Phone: (831) 648-3143",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Monterey",
+    "address": "960 East Blanco Road, Salinas, CA 93901",
+    "phone": "(831) 796-2100",
+    "source_url": "https://www.cityofpacificgrove.gov/our_city/departments/police/police_services/law_enforcement_resources.php",
+    "snippet": "California Highway Patrol - Monterey 960 East Blanco Road, Salinas, CA 93901 Phone: (831) 796-2100",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:51:45.205Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

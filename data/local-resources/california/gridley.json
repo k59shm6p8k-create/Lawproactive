@@ -1,0 +1,38 @@
+{
+  "city_slug": "gridley",
+  "county": "Butte",
+  "hospital": {
+    "name": "Orchard Hospital",
+    "address": "240 Spruce Street, Gridley, CA 95948",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/orchard-hospital/",
+    "snippet": "Address: 240 Spruce Street Gridley, CA 95948",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Gridley Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "530-846-5670",
+    "source_url": "https://www.gridleyca.gov/176/Gridley-Police-Department",
+    "snippet": "please call our 24-hour non-emergency dispatch center number at 530-846-5670",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Butte",
+    "branch": "North Butte County Courthouse (Chico)",
+    "serves_note": "Civil filing division for Gridley and all Butte County communities",
+    "address": null,
+    "phone": "530-532-7009",
+    "source_url": "https://www.butte.courts.ca.gov/general-information/locations-contact-info",
+    "snippet": "Civil (530) 532‑7009",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:24:48.781Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

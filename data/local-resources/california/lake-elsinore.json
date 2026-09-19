@@ -1,0 +1,38 @@
+{
+  "city_slug": "lake-elsinore",
+  "county": "Riverside",
+  "hospital": {
+    "name": "Southwest Healthcare Inland Valley Hospital",
+    "address": null,
+    "phone": null,
+    "source_url": "https://swhinlandvalley.com/patients-visitors/directions-and-map/",
+    "snippet": "From the Lake Elsinore area: Take Interstate 15 south. Exit left (east) on Clinton Keith Road. Turn right on Inland Valley Drive. Continue to the Hospital on the right-hand side of Inland Valley Drive.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Riverside County Sheriff - Lake Elsinore Station",
+    "type": "contract_pd",
+    "address": "333 Limited Avenue, Lake Elsinore, CA 92530",
+    "phone": "(951) 245-3300",
+    "source_url": "https://oag.ca.gov/fingerprints/locations/riverside-county-sheriff-lake-elsinore-station",
+    "snippet": "Address: 333 Limited Avenue Lake Elsinore, CA 92530 County: Riverside Phone: (951) 245-3300",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Riverside",
+    "branch": "Historic Courthouse (unlimited civil) / Corona Courthouse (limited civil & small claims)",
+    "serves_note": "Unlimited civil cases from Lake Elsinore file at Historic Courthouse, Riverside; limited civil, small claims, and unlawful detainer cases file at Corona Courthouse",
+    "address": null,
+    "phone": null,
+    "source_url": "https://riverside.courts.ca.gov/news/riverside-superior-court-announces-civil-filing-location-adjustments",
+    "snippet": "Unlimited civil cases originating from Lake Elsinore, Hemet, Winchester, Homeland, Wildomar, and Murrieta will be filed at the Historic Courthouse in Riverside. Limited civil cases, small claims cases, and unlawful detainer cases originating from Lake Elsinore and Wildomar will be filed at the Corona Courthouse.",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:35:12.692Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

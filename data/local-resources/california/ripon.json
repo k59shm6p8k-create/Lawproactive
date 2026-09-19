@@ -1,0 +1,22 @@
+{
+  "city_slug": "ripon",
+  "county": "San Joaquin",
+  "hospital": null,
+  "police": {
+    "name": "Ripon Police Department",
+    "type": "city_pd",
+    "address": "259 N. Wilma Ave. Ripon, CA 95366",
+    "phone": "209-599-2102",
+    "source_url": "https://www.cityofripon.org/536/Police-Department",
+    "snippet": "259 N. Wilma Ave. Ripon, CA 95366 Phone: 209-599-2102",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:00:57.886Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "city_slug": "los-banos",
+  "county": "Merced",
+  "hospital": {
+    "name": "Memorial Hospital Los Banos",
+    "address": "520 West I Street, Los Banos, CA 93635",
+    "phone": "209-826-0591",
+    "source_url": "https://www.sutterhealth.org/find-location/facility/memorial-hospital-los-banos-emergency-department",
+    "snippet": "Memorial Hospital Los Banos Emergency Department is located at 520 West I Street, Los Banos CA 93635... Contact Memorial Hospital Los Banos Emergency Department at 2098260591.",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Los Banos Police Department",
+    "type": "city_pd",
+    "address": "1111 G Street, Los Banos, CA 93635",
+    "phone": null,
+    "source_url": "https://losbanos.org/city-government/departments/police/",
+    "snippet": "Los Banos Police Department 1111 G Street Los Banos CA, 93635",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Merced",
+    "branch": "Los Banos Division / Robert M. Falasco Justice Center",
+    "serves_note": "Serves western Merced County, including Los Banos, for civil, criminal, family law, and traffic matters",
+    "address": "1159 G Street, Los Banos, CA 93635",
+    "phone": "209-725-4124",
+    "source_url": "https://www.merced.courts.ca.gov/location/los-banos-robert-m-falasco-justice-center",
+    "snippet": "1159 \"G\" St. Los Banos, CA 93635 · (209) 725-4124... Adult Civil Criminal Juvenile Small Claims Traffic",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Los Banos Area",
+    "address": "706 West Pacheco Boulevard, Los Banos, CA 93635",
+    "phone": "209-710-3600",
+    "source_url": "https://www.chp.ca.gov/find-an-office/central-division/461-los-banos/",
+    "snippet": "706 West Pacheco Blvd, Los Banos, CA, United States, California (209) 710-3600",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:39:38.551Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

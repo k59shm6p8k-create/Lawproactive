@@ -1,0 +1,22 @@
+{
+  "city_slug": "woodside",
+  "county": "San Mateo",
+  "hospital": null,
+  "police": {
+    "name": "San Mateo County Sheriff's Office",
+    "type": "contract_pd",
+    "address": "330 Bradford Street, Redwood City, CA 94063",
+    "phone": "650-363-4911",
+    "source_url": "https://www.smcsheriff.com/taxonomy/term/23",
+    "snippet": "330 Bradford Street Redwood City, CA 94063 (650) 363-4911",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:25:50.805Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

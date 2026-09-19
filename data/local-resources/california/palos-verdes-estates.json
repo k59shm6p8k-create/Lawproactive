@@ -1,0 +1,38 @@
+{
+  "city_slug": "palos-verdes-estates",
+  "county": "Los Angeles",
+  "hospital": null,
+  "police": {
+    "name": "Palos Verdes Estates Police Department",
+    "type": "city_pd",
+    "address": "340 Palos Verdes Dr W, Palos Verdes Estates, CA 90274",
+    "phone": "(310) 378-4211",
+    "source_url": "https://locator.lacounty.gov/lac/Location/3068974/city-of-palos-verdes-estates-police-department",
+    "snippet": "Address: 340 Palos Verdes Dr W Palos Verdes Estates CA 90274... Phones: Community Relations Officer Service/Intake (310) 378-4211",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Southwest District - Torrance Courthouse",
+    "serves_note": "Serves Palos Verdes Estates and surrounding South Bay communities for civil filings",
+    "address": null,
+    "phone": "(310) 222-8809",
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176785/los-angeles-county-superior-court---southwest-district---torrance-courthouse",
+    "snippet": "Civil cases Service/Intake (310) 222-8809",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - South Los Angeles Area Office",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/southern-division/offices/(530)-south-los-angeles",
+    "snippet": "The South Los Angeles Area office services the communities of Torrance, Carson, Gardena, Redondo Beach, Rancho Palos Verdes, Compton, Willowbrook and Long Beach.",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:52:50.176Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

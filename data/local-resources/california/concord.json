@@ -1,0 +1,36 @@
+{
+  "city_slug": "concord",
+  "county": "Contra Costa",
+  "hospital": {
+    "name": "John Muir Medical Center - Concord Campus",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.johnmuirhealth.com/locations/john-muir-medical-center-concord.html",
+    "snippet": "Our Concord Medical Center is a 276-licensed bed hospital that serves Contra Costa and southern Solano counties.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Concord Police Department",
+    "type": "city_pd",
+    "address": "1350 Galindo Street, Concord, CA 94520",
+    "phone": null,
+    "source_url": "https://www.cityofconcord.org/police",
+    "snippet": "Physical Address View Map 1350 Galindo Street Concord, CA 94520",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Contra Costa Area Office",
+    "address": "5001 Blum Rd., Martinez, CA 94553",
+    "phone": "(925) 646-4980",
+    "source_url": "https://www.chp.ca.gov/find-an-office/golden-gate-division/320-contra-costa/",
+    "snippet": "If you would like to speak to an officer in person, please contact the CHP Contra Costa Area Office at 925-646-4980, or visit us at 5001 Blum Rd., Martinez, CA 94553 (Monday-Friday, 8 a.m. - 5 p.m.).",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:10:40.046Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "city_slug": "sausalito",
+  "county": "Marin",
+  "hospital": {
+    "name": "MarinHealth Medical Center",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.solvhealth.com/ca/c/sausalito-ca-urgent-care",
+    "snippet": "Go to the ER (the closest is MarinHealth Medical Center (Greenbrae)) for chest pain, severe bleeding, head injury with loss of consciousness, stroke symptoms, or any other emergency.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Sausalito Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "(415) 289-4170",
+    "source_url": "https://www.sausalito.gov/departments/police-department",
+    "snippet": "Any questions about the Sausalito Police Department may be directed to (415) 289-4170.",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Marin",
+    "branch": "Civic Center Courthouse",
+    "serves_note": "Serves all civil matters in Marin County including Sausalito",
+    "address": "3501 Civic Center Drive, Room 275, San Rafael, CA 94903",
+    "phone": "(415) 444-7046",
+    "source_url": "https://www.marin.courts.ca.gov/",
+    "snippet": "The main courthouse is located at 3501 Civic Center Drive, Room 275, San Rafael, CA 94903 (phone: 415-444-7046).",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:10:18.762Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

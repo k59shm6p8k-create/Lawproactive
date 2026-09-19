@@ -1,0 +1,45 @@
+{
+  "city_slug": "san-francisco",
+  "county": "San Francisco",
+  "hospital": {
+    "name": "Zuckerberg San Francisco General Hospital and Trauma Center",
+    "address": "1001 Potrero Avenue, San Francisco, CA 94110",
+    "phone": null,
+    "source_url": "https://www.sf.gov/location--zuckerberg-san-francisco-general-hospital-and-trauma-center",
+    "snippet": "Zuckerberg San Francisco General Hospital & Trauma Center1001 Potrero Avenue San Francisco, CA 94110",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "San Francisco Police Department",
+    "type": "city_pd",
+    "address": "1245 3rd Street, San Francisco, CA 94158",
+    "phone": null,
+    "source_url": "https://www.sf.gov/departments--police-commission",
+    "snippet": "Police CommissionSan Francisco Police Department Headquarters 1245 3rd Street 6th floor San Francisco, CA 94158",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Francisco",
+    "branch": "Civic Center Courthouse",
+    "serves_note": "Civil filings for San Francisco County",
+    "address": "400 McAllister Street, Room 103, San Francisco, CA 94102",
+    "phone": "415-551-3808",
+    "source_url": "https://sf.courts.ca.gov/divisions/civil-division/civil-clerks-office",
+    "snippet": "400 McAllister St., Room 103 San Francisco, CA 94102-4514 (415) 551-3808",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - San Francisco Area",
+    "address": "455 Eighth Street, San Francisco, CA 94103",
+    "phone": "415-276-5300",
+    "source_url": "https://www.chp.ca.gov/find-an-office/golden-gate-division/335-san-francisco/",
+    "snippet": "Phone: (415) 276-5300 · Address: 455 Eighth Street San Francisco , CA 94103",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:04:54.830Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "city_slug": "rancho-santa-margarita",
+  "county": "Orange",
+  "hospital": null,
+  "police": {
+    "name": "Orange County Sheriff's Department",
+    "type": "contract_pd",
+    "address": null,
+    "phone": "949-770-6011",
+    "source_url": "https://www.ocsheriff.gov/patrol-areas/rancho-santa-margarita",
+    "snippet": "Sheriff's Non-Emergency Dispatch: 714-647-7000 or 949-770-6011",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol",
+    "address": "32951 Camino Capistrano, San Juan Capistrano, CA 92675",
+    "phone": null,
+    "source_url": "https://www.cityofrsm.org/FAQ.aspx?QID=77",
+    "snippet": "The California Highway Patrol (CHP) located at 32951 Camino Capistrano, San Juan Capistrano 92675",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:58:31.123Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

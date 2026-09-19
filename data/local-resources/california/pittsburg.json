@@ -1,0 +1,45 @@
+{
+  "city_slug": "pittsburg",
+  "county": "Contra Costa",
+  "hospital": {
+    "name": "Los Medanos Community Hospital",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.healthgrades.com/hospital-directory/ca-california/pittsburg",
+    "snippet": "Los Medanos Community Hospital is a medical facility located in Pittsburg, CA",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Pittsburg Police Department",
+    "type": "city_pd",
+    "address": "65 Civic Avenue, Pittsburg, CA 94565",
+    "phone": "(925) 252-4980",
+    "source_url": "https://oag.ca.gov/fingerprints/locations/pittsburg-police-department",
+    "snippet": "Civic Avenue · Pittsburg, CA 94565 · County: Contra Costa · Phone: (925) 252-4980",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Contra Costa",
+    "branch": "Richard E. Arnason Justice Center",
+    "serves_note": "Serves the communities of Antioch, Bay Point, Bethel Island, Brentwood, Byron, Discovery Bay, Knightsen, Oakley and Pittsburg",
+    "address": "1000 Center Drive, Pittsburg, CA 94565",
+    "phone": "(925) 608-1000",
+    "source_url": "https://contracosta.courts.ca.gov/richard-e-arnason-justice-center",
+    "snippet": "Pittsburg Superior Court 1000 Center Drive Pittsburg, CA 94565 Civil / Small Claims / Criminal (925) 608-1000",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Department of Motor Vehicles",
+    "address": "1399 Buchanan Road, Pittsburg, CA 94565",
+    "phone": null,
+    "source_url": "https://www.dmv.ca.gov/portal/field-office/pittsburg/",
+    "snippet": "Field Office · 1399 Buchanan Road, Pittsburg, CA 94565",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:55:11.581Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

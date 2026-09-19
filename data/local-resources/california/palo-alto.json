@@ -1,0 +1,45 @@
+{
+  "city_slug": "palo-alto",
+  "county": "Santa Clara",
+  "hospital": {
+    "name": "Stanford Healthcare - Marc and Laura Andreessen Adult Emergency Department",
+    "address": "1199 Welch Road, Palo Alto, CA 94304",
+    "phone": null,
+    "source_url": "https://stanfordhealthcare.org/content/shc/en-tools/maps/clinics/adult-emergency-department-1199-welch.html",
+    "snippet": "Marc and Laura Andreessen Adult Emergency Department · 1199 Welch Rd Palo Alto, CA 94304",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Palo Alto Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "650-329-2413",
+    "source_url": "https://www.paloalto.gov/Departments/Police",
+    "snippet": "Report crime to our 24-hour dispatch center at (650) 329-2413.",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Santa Clara",
+    "branch": "Palo Alto Courthouse",
+    "serves_note": "Handles civil and criminal cases for Palo Alto and surrounding areas",
+    "address": "270 Grant Avenue, Palo Alto, CA 94306",
+    "phone": null,
+    "source_url": "https://santaclara.courts.ca.gov/location/palo-alto-courthouse",
+    "snippet": "270 Grant Avenue, Palo Alto, CA 94306",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - San Jose Area Office",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/golden-gate-division/340-san-jose/",
+    "snippet": "The San Jose Office of the California Highway Patrol uses several different courts as noted below. Santa Clara Traffic Court| 301 Diana Avenue Morgan Hill (408) 556-3000 · Palo Alto Traffic Court 270 Grant Avenue Palo Alto, CA 94306 (650)",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:52:38.264Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

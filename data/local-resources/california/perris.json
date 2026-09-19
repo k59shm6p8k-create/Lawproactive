@@ -1,0 +1,31 @@
+{
+  "city_slug": "perris",
+  "county": "Riverside",
+  "hospital": null,
+  "police": {
+    "name": "Riverside County Sheriff's Department - Perris Station",
+    "type": "contract_pd",
+    "address": "137 N. Perris Blvd Suite A, Perris, CA 92570",
+    "phone": null,
+    "source_url": "https://www.riversidesheriff.org/746/Perris-Station",
+    "snippet": "Centrally located in the Perris Station region, the City of Perris contracts with the Riverside County Sheriff's Office to provide police services for the city. 137 N. Perris Blvd Suite A Perris CA 92570",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Riverside",
+    "branch": null,
+    "serves_note": "Perris civil cases file at designated courthouse; Perris Small Claims is a separate filing location",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.riverside.courts.ca.gov/online-services/search-court-records-public-access",
+    "snippet": "September 1996 to present – Perris Small Claims",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:53:55.082Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

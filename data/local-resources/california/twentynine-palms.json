@@ -1,0 +1,38 @@
+{
+  "city_slug": "twentynine-palms",
+  "county": "San Bernardino",
+  "hospital": null,
+  "police": {
+    "name": "San Bernardino County Sheriff's Department - Morongo Basin Station",
+    "type": "contract_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://wp.sbcounty.gov/sheriff/patrol-stations/twentynine-palms/",
+    "snippet": "The San Bernardino County Sheriff's Department transitioned from providing police protection to the unincorporated area of Twentynine Palms to being an integral part of an incorporated community's contract police department in July of 1988.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Bernardino",
+    "branch": "Joshua Tree District",
+    "serves_note": "Serves Twentynine Palms and surrounding areas including Joshua Tree, Landers, Pioneertown, and unincorporated areas of Johnson Valley, Morongo Valley, Yucca Valley",
+    "address": null,
+    "phone": null,
+    "source_url": "https://sanbernardino.courts.ca.gov/location/joshua-tree-district",
+    "snippet": "The Joshua Tree Court is located on the corner of Highway 62 and White Feather Road.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Department of Motor Vehicles",
+    "address": "3668 Adobe Road G-J, Twentynine Palms, CA 92277",
+    "phone": null,
+    "source_url": "https://www.dmv.ca.gov/portal/field-office/twentynine-palms/",
+    "snippet": "Field Office · 3668 Adobe Road G-J, Twentynine Palms, CA 92277",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:19:08.688Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

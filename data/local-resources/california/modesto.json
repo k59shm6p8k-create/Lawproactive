@@ -1,0 +1,45 @@
+{
+  "city_slug": "modesto",
+  "county": "Stanislaus",
+  "hospital": {
+    "name": "Memorial Medical Center",
+    "address": "1700 Coffee Road Modesto, CA 95355",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/memorial-medical-center-modesto/",
+    "snippet": "Address: 1700 Coffee Road Modesto, CA 95355 ... Emergency Room Service Level: Basic",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Modesto Police Department",
+    "type": "city_pd",
+    "address": "600 10th Street Modesto, CA 95354",
+    "phone": "209-572-9500",
+    "source_url": "https://www.modestogov.com/directory.aspx?did=7",
+    "snippet": "Physical Address:View Map · 600 10th Street Modesto, CA 95354Phone: 209-572-9500",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Stanislaus",
+    "branch": "City Towers Courthouse (Civil)",
+    "serves_note": "Handles civil lawsuits and probate matters for Stanislaus County",
+    "address": "801 10th Street Modesto, CA 95354",
+    "phone": null,
+    "source_url": "https://www.stanislaus.courts.ca.gov/",
+    "snippet": "Civil and Probate Division (Estates, Trusts and Conservatorships) 801 10th Street Modesto, CA 95354",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Modesto Area Office",
+    "address": "4030 Kiernan Avenue Modesto, CA 95356-9761",
+    "phone": "209-545-7440",
+    "source_url": "https://cad.chp.ca.gov/htm.net/locations.htm",
+    "snippet": "MODESTO CHP 4030 Kiernan Avenue Modesto 95356-9761 209-545-7440",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:44:05.692Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

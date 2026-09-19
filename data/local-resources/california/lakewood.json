@@ -1,0 +1,45 @@
+{
+  "city_slug": "lakewood",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "UCI Health — Lakewood",
+    "address": "3700 E. South St., Lakewood, CA 90712",
+    "phone": "562-531-2550",
+    "source_url": "https://www.ucihealth.org/locations/lakewood/uci-health-lakewood-emergency-department",
+    "snippet": "UCI Health — Lakewood Emergency Department is located at 3700 E. South St., Lakewood, CA 90712. Please call 562-531-2550 to schedule an appointment.",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Lakewood Sheriff Station",
+    "type": "sheriff",
+    "address": null,
+    "phone": "562-623-3500",
+    "source_url": "https://lasd.org/lakewood/",
+    "snippet": "In order to request a report, please call (562) 623-3500 prior to arriving at Lakewood Station with the file/report number of your case, to check if the report is available.",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Bellflower Courthouse",
+    "serves_note": "Southeast District; serves Lakewood and surrounding areas for civil filings",
+    "address": "10025 East Flower Street, Bellflower, CA 90706",
+    "phone": null,
+    "source_url": "https://www.lacourt.ca.gov/home",
+    "snippet": "Bellflower Courthouse 10025 East Flower Street Bellflower, CA 90706",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California DMV Kiosk at Albertsons",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.dmv.ca.gov/portal/kiosk/albertsons-in-lakewood/",
+    "snippet": "Kiosks are self-serve stations where you can complete certain registration services and request driver or vehicle records.",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:35:43.710Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "city_slug": "hermosa-beach",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Torrance Memorial Medical Center",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.torrancememorial.org/locations/locations-profile/Torrance%20Memorial%20Physician%20Network%20Primary%20Care%20Hermosa%20Beach/?id=378",
+    "snippet": "Torrance Memorial Physician Network Primary Care - Hermosa Beach 705 Pier Ave Suite A Hermosa Beach, CA 90254",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Hermosa Beach Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.hermosabeach.gov/our-government/police-department",
+    "snippet": "Welcome to the Hermosa Beach Police Department. The men and women of this Department are proud to serve",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Southwest District - Torrance Courthouse",
+    "serves_note": "Serves Hermosa Beach, Manhattan Beach, Gardena, Lawndale, Lomita, Palos Verdes Estates, Rancho Palos Verdes, Redondo Beach, Rolling Hills, Rolling Hills Estates, and Torrance west of Western Ave",
+    "address": null,
+    "phone": "(310) 222-8809",
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176785/los-angeles-county-superior-court---southwest-district---torrance-courthouse",
+    "snippet": "Civil cases Service/Intake (310) 222-8809",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:27:13.419Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

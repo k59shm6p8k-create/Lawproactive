@@ -1,0 +1,22 @@
+{
+  "city_slug": "industry",
+  "county": "Los Angeles",
+  "hospital": null,
+  "police": {
+    "name": "Los Angeles County Sheriff's Department - Industry Station",
+    "type": "sheriff",
+    "address": "150 North Hudson Ave., City of Industry, CA 91744",
+    "phone": "(626) 330-3322",
+    "source_url": "https://lasd.org/stations/",
+    "snippet": "(626) 330-3322 • 150 North Hudson Ave. City of Industry, CA 91744 • www.lasd.org/industry",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:30:10.086Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

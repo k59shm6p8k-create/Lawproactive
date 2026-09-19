@@ -1,0 +1,38 @@
+{
+  "city_slug": "etna",
+  "county": "Siskiyou",
+  "hospital": {
+    "name": "Scott Valley Rural Health Clinic",
+    "address": "Etna, CA",
+    "phone": null,
+    "source_url": "https://scottvalley.fairchildmed.org/",
+    "snippet": "Scott Valley Rural Health Clinic located in Etna, California provides healthcare to the rural area of Scott Valley",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Etna Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.etnaca.com/police/",
+    "snippet": "442 Main Street Etna, CA, 96027-0460",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Siskiyou",
+    "branch": "Yreka",
+    "serves_note": "Main courthouse serving Siskiyou County civil filings",
+    "address": "411 Fourth Street, Yreka, CA 96097",
+    "phone": "530-842-0411",
+    "source_url": "https://www.siskiyou.courts.ca.gov/location/siskiyou-county-superior-court",
+    "snippet": "Superior Court of California, County of Siskiyou 411 Fourth Street Yreka, CA 96097 · (530) 842-0411",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:18:51.101Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

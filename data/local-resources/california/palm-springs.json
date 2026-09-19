@@ -1,0 +1,45 @@
+{
+  "city_slug": "palm-springs",
+  "county": "Riverside",
+  "hospital": {
+    "name": "Desert Regional Medical Center",
+    "address": "1150 North Indian Canyon Drive, Palm Springs, CA 92262",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/desert-regional-medical-center/",
+    "snippet": "Address: 1150 North Indian Canyon Drive Palm Springs, CA 92262",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Palm Springs Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.palmspringsca.gov/government/departments/police",
+    "snippet": "The Palm Springs Police Department (PSPD) is the agency responsible for law enforcement within the city of Palm Springs, California",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Riverside",
+    "branch": "Palm Springs Courthouse",
+    "serves_note": "Serves Palm Springs and surrounding areas for civil filings",
+    "address": "3255 E Tahquitz Canyon Way, Palm Springs, CA 92262",
+    "phone": null,
+    "source_url": "https://www.riverside.courts.ca.gov/location/palm-springs-courthouse",
+    "snippet": "3255 E Tahquitz Canyon Way, Palm Springs, CA 92262",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Department of Motor Vehicles - Palm Springs Field Office",
+    "address": "950 N Farrell Drive, Palm Springs, CA 92262",
+    "phone": null,
+    "source_url": "https://www.dmv.ca.gov/portal/field-office/palm-springs/",
+    "snippet": "Field Office · 950 N Farrell Drive, Palm Springs, CA 92262",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:52:14.167Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

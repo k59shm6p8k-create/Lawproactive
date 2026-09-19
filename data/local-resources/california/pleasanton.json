@@ -1,0 +1,36 @@
+{
+  "city_slug": "pleasanton",
+  "county": "Alameda",
+  "hospital": {
+    "name": "Stanford Health Care Tri-Valley",
+    "address": "5555 W. Las Positas Boulevard, Pleasanton, CA 94588",
+    "phone": "925-416-3418",
+    "source_url": "https://stanfordhealthcare.org/tri-valley/medical-clinics/emergency-department-5555-w-las-positas.html",
+    "snippet": "5555 W. Las Positas Boulevard Pleasanton, CA 94588 Phone: 925-416-3418",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Pleasanton Police Department",
+    "type": "city_pd",
+    "address": "4833 Bernal Avenue, Pleasanton, CA 94566",
+    "phone": "925-931-5100",
+    "source_url": "https://www.cityofpleasantonca.gov/our-government/police/",
+    "snippet": "Lobby open 24 hours a day 4833 Bernal Avenue PO Box 909, Pleasanton, CA 94566 · (925) 931-5100 — Police Non-Emergency Number (925) 931-5122 — Police Emergency Number (925) 931-5125 — Records",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Department of Motor Vehicles - Pleasanton Field Office",
+    "address": "6300 W Las Positas Blvd, Pleasanton, CA 94588",
+    "phone": null,
+    "source_url": "https://www.dmv.ca.gov/portal/field-office/pleasanton/",
+    "snippet": "Field Office · 6300 W Las Positas Blvd, Pleasanton, CA 94588",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:56:01.716Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

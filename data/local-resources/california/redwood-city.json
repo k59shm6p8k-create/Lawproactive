@@ -1,0 +1,45 @@
+{
+  "city_slug": "redwood-city",
+  "county": "San Mateo",
+  "hospital": {
+    "name": "Sequoia Hospital",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.dignityhealth.org/bayarea/locations/sequoia/services/emergency-services",
+    "snippet": "Sequoia Hospital's Emergency Room is conveniently located on the corner of Alameda de las Pulgas and Whipple Ave. We're open 24/7",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Redwood City Police Department",
+    "type": "city_pd",
+    "address": "1301 Maple Street, Redwood City, CA 94063",
+    "phone": "650-780-7100",
+    "source_url": "https://www.redwoodcity.org/departments/police-department",
+    "snippet": "Emergency: 9-1-1 or 650-369-3331 24-hour Dispatch Center (non-emergency): 650-780-7118 Main Business Number: 650-780-7100 (Monday thru Friday 8 a.m. - 5:30 p.m.) After hours / weekends (non-emergency): 650-780- 7100 ... Headquarters: 1301 Maple Street Redwood City, CA 94063",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Mateo",
+    "branch": "Hall of Justice (Redwood City)",
+    "serves_note": "Redwood City serves as county seat; civil filings handled at 400 County Center location",
+    "address": "400 County Center, Redwood City, CA 94063",
+    "phone": "650-261-5100",
+    "source_url": "https://sanmateo.courts.ca.gov/divisions/civil-division",
+    "snippet": "Hall of Justice 400 County Center, 1st Floor, Room A Redwood City, CA 94063 [Directions] Phone Number and Phone Hours: (650) 261-5100 Monday - Friday: 8:30 a.m. - 1:00 p.m.",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Department of Motor Vehicles (DMV) - Redwood City",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.dmv.ca.gov/portal/field-office/redwood-city/",
+    "snippet": "Redwood City field office",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:59:26.791Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

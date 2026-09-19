@@ -1,0 +1,29 @@
+{
+  "city_slug": "emeryville",
+  "county": "Alameda",
+  "hospital": null,
+  "police": {
+    "name": "Emeryville Police Department",
+    "type": "city_pd",
+    "address": "2449 Powell Street, Emeryville, CA 94608",
+    "phone": "(510) 596-3718",
+    "source_url": "https://oag.ca.gov/fingerprints/locations/emeryville-police-department",
+    "snippet": "2449 Powell Street · Emeryville, CA 94608 Get directions · County: Alameda · Phone: (510) 596-3718",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Oakland Area",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/golden-gate-division/370-oakland/",
+    "snippet": "The California Highway Patrol (CHP) Oakland Area is honored to serve the communities of Oakland, Berkeley, Piedmont, Emeryville, Albany, El Cerrito, San Pablo, El Sobrante, and Richmond",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:18:04.553Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

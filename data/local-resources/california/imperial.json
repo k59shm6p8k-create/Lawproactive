@@ -1,0 +1,45 @@
+{
+  "city_slug": "imperial",
+  "county": "Imperial",
+  "hospital": {
+    "name": "El Centro Regional Medical Center",
+    "address": "1415 Ross Avenue, El Centro, CA 92243",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/el-centro-regional-medical-center/",
+    "snippet": "Address: 1415 Ross Avenue El Centro, CA 92243",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Imperial Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.imperial.ca.gov/210/Police",
+    "snippet": "The City of Imperial Police Department's primary responsibilities include responding to requests for emergency and non-emergency police service",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Imperial",
+    "branch": "El Centro Courthouse (Civil Division)",
+    "serves_note": "Civil filings for Imperial County, including the city of Imperial",
+    "address": "939 West Main Street, El Centro, CA 92243",
+    "phone": null,
+    "source_url": "https://www.imperial.courts.ca.gov/divisions/civil-division",
+    "snippet": "The Civil Division is located in the Downtown El Centro Courthouse at 939 W Main Street, El Centro",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - El Centro Area",
+    "address": "2331 U.S. Highway 86, Imperial, CA 92251",
+    "phone": "760-312-1800",
+    "source_url": "https://www.chp.ca.gov/find-an-office/border-division/625-el-centro/",
+    "snippet": "Phone: (760) 312-1800 Address: 2331 U.S. Highway 86 Imperial, CA 92251",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:29:21.819Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

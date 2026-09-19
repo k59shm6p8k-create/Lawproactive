@@ -1,0 +1,45 @@
+{
+  "city_slug": "merced",
+  "county": "Merced",
+  "hospital": {
+    "name": "Mercy Medical Center - Merced",
+    "address": "333 Mercy Avenue Merced, CA 95340",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/mercy-medical-center-merced/",
+    "snippet": "Address: 333 Mercy Avenue Merced, CA 95340",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Merced Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "(209) 385-4730",
+    "source_url": "https://www.cityofmerced.gov/public-safety/police/contact-numbers",
+    "snippet": "Records: (209) 385-4730",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Merced",
+    "branch": "Old Merced Courthouse",
+    "serves_note": "Serves Merced County for civil filings; handles civil, small claims, probate, adoption, and related matters.",
+    "address": "627 W 21st Street Merced, CA 95340",
+    "phone": "(209) 725-4111",
+    "source_url": "https://www.merced.courts.ca.gov/divisions/civil-division",
+    "snippet": "Old Merced Courthouse 627 W 21st Street Merced, CA 95340 · Tel: (209) 725-4111",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Merced Area",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/central-division/offices/(460)-merced",
+    "snippet": "In 1995, the CHP Merced Area office is located to the City of Atwater adjacent to State Route 99.",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:43:05.694Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

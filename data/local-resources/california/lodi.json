@@ -1,0 +1,36 @@
+{
+  "city_slug": "lodi",
+  "county": "San Joaquin",
+  "hospital": {
+    "name": "Adventist Health Lodi Memorial",
+    "address": "975 South Fairmont Avenue, Lodi, CA 95240",
+    "phone": "209-334-3411",
+    "source_url": "https://www.adventisthealth.org/lodi-memorial/locations/",
+    "snippet": "975 South Fairmont Avenue, Lodi, California 95240 · View details 209-334-3411",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Lodi Police Department",
+    "type": "city_pd",
+    "address": "215 West Elm Street, Lodi, CA 95240",
+    "phone": "209-333-6727",
+    "source_url": "https://www.lodi.gov/215/Police",
+    "snippet": "Physical Address 215 West Elm Street Lodi, CA 95240 · Business Phone: (209) 333-6727",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Stockton Area Office",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/valley-division/265-stockton-communications-center/",
+    "snippet": "The CHP - Stockton office has the honor of serving the people of San Joaquin County",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:37:57.749Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

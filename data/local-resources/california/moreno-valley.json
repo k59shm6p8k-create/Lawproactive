@@ -1,0 +1,38 @@
+{
+  "city_slug": "moreno-valley",
+  "county": "Riverside",
+  "hospital": {
+    "name": "Kaiser Permanente Moreno Valley Medical Center",
+    "address": "27300 Iris Ave, Moreno Valley, CA 92555",
+    "phone": "951-251-6000",
+    "source_url": "https://healthy.kaiserpermanente.org/southern-california/facilities/moreno-valley-medical-center-300019/departments/emergency-medicine-dlp-101708",
+    "snippet": "27300 Iris Ave Moreno Valley, CA 92555 ... Emergency Department ... 951-251-6000 (Local) Open 24 hours",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Riverside County Sheriff's Department - Moreno Valley Station",
+    "type": "sheriff",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.riversidesheriff.org/745/Moreno-Valley-Station",
+    "snippet": "The Riverside County Sheriff's Office and the City of Moreno Valley entered into a contract for law enforcement services in 1985. The Moreno Valley Sheriff's Station conducts law enforcement, collision investigation and many other specialized services",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Riverside",
+    "branch": "Moreno Valley Courthouse",
+    "serves_note": "Serves Moreno Valley and Riverside County for civil, traffic, small claims, and unlawful detainer cases",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.riverside.courts.ca.gov/location/moreno-valley-courthouse",
+    "snippet": "The Moreno Valley Court consists of two adjacent buildings, one of which houses two courtrooms and the other, which houses a clerk's office and other customer service programs.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:46:04.011Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

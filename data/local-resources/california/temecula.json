@@ -1,0 +1,45 @@
+{
+  "city_slug": "temecula",
+  "county": "Riverside",
+  "hospital": {
+    "name": "Temecula Valley Hospital",
+    "address": "31700 Temecula Parkway, Temecula, CA 92592",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/temecula-valley-hospital/",
+    "snippet": "Address: 31700 Temecula Pkwy Temecula, CA 92592",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Temecula Police Department (Southwest Station)",
+    "type": "contract_pd",
+    "address": "30755-A Auld Road, Murrieta, CA 92563",
+    "phone": "951-696-3000",
+    "source_url": "https://temeculaca.gov/directory.aspx?did=7",
+    "snippet": "Southwest Station · 30755-A Auld Road Murrieta CA 92563 Phone: 951-696-3000",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Riverside",
+    "branch": "Temecula Courthouse",
+    "serves_note": "Serves Temecula and surrounding areas for civil, criminal, traffic, and other case types",
+    "address": "41002 County Center Drive #100, Temecula, CA 92591",
+    "phone": null,
+    "source_url": "https://www.riverside.courts.ca.gov/location/temecula-courthouse",
+    "snippet": "Temecula Courthouse:41002 County Center Drive #100, Temecula, CA 92591",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Temecula Area Office",
+    "address": "27685 Commerce Center Drive, Temecula, CA 92590",
+    "phone": "951-466-4300",
+    "source_url": "https://www.chp.ca.gov/find-an-office/border-division/685-temecula/",
+    "snippet": "27685 Commerce Center Dr Temecula Ca 92590 (951) 466-4300",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:16:24.800Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

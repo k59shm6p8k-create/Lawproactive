@@ -1,0 +1,22 @@
+{
+  "city_slug": "bradbury",
+  "county": "Los Angeles",
+  "hospital": null,
+  "police": {
+    "name": "Los Angeles County Sheriff's Department",
+    "type": "sheriff",
+    "address": "8838 Las Tunas Drive, Temple City, CA 91780",
+    "phone": "(626) 285-7171",
+    "source_url": "https://www.bradburyca.gov/community/public_safety/index.php",
+    "snippet": "Los Angeles County Sheriff's Department Temple Station Sheriff's Department 8838 Las Tunas Drive, Temple City Ph. 626.448.9861 or 626.285.7171",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:01:40.859Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

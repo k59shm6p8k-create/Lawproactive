@@ -1,0 +1,31 @@
+{
+  "city_slug": "south-gate",
+  "county": "Los Angeles",
+  "hospital": null,
+  "police": {
+    "name": "City of South Gate Police Department",
+    "type": "city_pd",
+    "address": "8620 California Avenue, South Gate, CA 90280",
+    "phone": "323-563-5436",
+    "source_url": "https://www.cityofsouthgate.org/Government/Departments/Police-Department",
+    "snippet": "South Gate Police Station ​8620 California Avenue South Gate, CA 90280 Non Emergency: 323.563.5436",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Southeast District - Huntington Park",
+    "serves_note": "Serves Bell, Bell Gardens, Cudahy, Huntington Park, Maywood, South Gate and Vernon",
+    "address": "6548 Miles Ave. Huntington Park CA 90255",
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176777/los-angeles-county-superior-court---southeast-district---huntington-park",
+    "snippet": "This state trial court is an L A County Superior Court with jurisdication over cases that take place in Bell, Bell Gardens, Cudahy, Huntington Park, Maywood, South Gate and Vernon. Address: 6548 Miles Ave. Huntington Park CA 90255",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:13:35.183Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

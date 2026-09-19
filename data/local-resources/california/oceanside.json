@@ -1,0 +1,45 @@
+{
+  "city_slug": "oceanside",
+  "county": "San Diego",
+  "hospital": {
+    "name": "Tri-City Medical Center",
+    "address": "4002 Vista Way Oceanside, CA 92056",
+    "phone": "760-724-8411",
+    "source_url": "https://healthy.kaiserpermanente.org/southern-california/facilities/tri-city-medical-center-429818/departments/emergency-medicine-dlp-298707",
+    "snippet": "Emergency Department · 4002 Vista Way Oceanside, CA 92056 · 7 days per week · open 24 hours · Information · 760-724-8411 (Local)",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Oceanside Police Department",
+    "type": "city_pd",
+    "address": "3855 Mission Avenue Oceanside, CA 92054",
+    "phone": null,
+    "source_url": "https://records.ci.oceanside.ca.us/gov/police/default.asp",
+    "snippet": "Oceanside Police Department · 3855 Mission Avenue Oceanside, CA 92054",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Diego",
+    "branch": "North County",
+    "serves_note": "Serves northern San Diego County including Vista, Oceanside, Carlsbad, Escondido, San Marcos, and surrounding communities; hears Civil, Criminal, Family Law, Appeals, Adoption, Traffic and Minor Offense cases",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.sdcourt.ca.gov/sdcourt/generalinformation/courtlocations/northcountycourthouse",
+    "snippet": "The North County Superior Court is a full service branch court. Currently the Court hears Criminal, Civil, Family Law, Appeals, Adoption, Traffic and Minor Offense cases. This branch court has a venue encompassing most of Northern San Diego County.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Oceanside Area",
+    "address": "1888 Oceanside Blvd. Oceanside, CA 92054-3486",
+    "phone": "760-757-1675",
+    "source_url": "https://m.chp.ca.gov/office.aspx?id=650",
+    "snippet": "Oceanside 1888 Oceanside Blvd. Oceanside, CA 92054-3486 · Phone (760) 757-1675",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:49:47.641Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

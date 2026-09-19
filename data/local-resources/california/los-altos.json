@@ -1,0 +1,22 @@
+{
+  "city_slug": "los-altos",
+  "county": "Santa Clara",
+  "hospital": null,
+  "police": {
+    "name": "Los Altos Police Department",
+    "type": "city_pd",
+    "address": "1 N San Antonio Road, Los Altos, CA 94022",
+    "phone": "650-947-2770",
+    "source_url": "https://www.losaltosca.gov/Directory.aspx?did=21",
+    "snippet": "1 N San Antonio Road Los Altos, CA 94022Phone: 650-947-2770",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:39:15.256Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

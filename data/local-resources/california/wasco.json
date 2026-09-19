@@ -1,0 +1,22 @@
+{
+  "city_slug": "wasco",
+  "county": "Kern",
+  "hospital": null,
+  "police": {
+    "name": "Wasco Police Department",
+    "type": "city_pd",
+    "address": "748 F Street, Wasco, CA",
+    "phone": "661-758-7266",
+    "source_url": "https://www.kget.com/news/local-news/wasco-police-department-to-take-lead-role-in-law-enforcement-in-wasco-beginning-april-18/",
+    "snippet": "The department will operate out of the KCSO Wasco Substation at 748 F St. in Wasco. The department's main line for dispatchers will be 661-758-7266.",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:21:58.859Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

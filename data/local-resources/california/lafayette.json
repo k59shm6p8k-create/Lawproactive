@@ -1,0 +1,22 @@
+{
+  "city_slug": "lafayette",
+  "county": "Contra Costa",
+  "hospital": null,
+  "police": {
+    "name": "Lafayette Police Department",
+    "type": "contract_pd",
+    "address": "3675 Mt. Diablo Blvd #130, Lafayette, CA 94549",
+    "phone": null,
+    "source_url": "https://oag.ca.gov/fingerprints/locations/lafayette-police-department",
+    "snippet": "Address: 3675 Mt. Diablo Blvd · #130 · Lafayette, CA 94549",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:34:13.989Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

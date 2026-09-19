@@ -1,0 +1,29 @@
+{
+  "city_slug": "oakdale",
+  "county": "Stanislaus",
+  "hospital": {
+    "name": "Oak Valley Hospital",
+    "address": "350 South Oak Street, Oakdale, CA 95361",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/oak-valley-hospital-district/",
+    "snippet": "Address: 350 South Oak Street Oakdale, CA 95361",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Oakdale Police Department",
+    "type": "city_pd",
+    "address": "250 North Third Avenue, Oakdale, CA 95361",
+    "phone": "209-847-2231",
+    "source_url": "https://www.oakdalegov.com/about-7",
+    "snippet": "Oakdale Police Department · 250 N. 3rd Avenue · Oakdale, CA 95361 · Non-Emergency 209-847-2231",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:49:14.577Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

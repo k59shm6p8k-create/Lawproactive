@@ -1,0 +1,45 @@
+{
+  "city_slug": "pomona",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Pomona Valley Hospital Medical Center",
+    "address": "1798 N. Garey Ave. Pomona CA 91767",
+    "phone": "909-865-9500",
+    "source_url": "https://locator.lacounty.gov/lac/Location/3179396/pomona-valley-hospital-medical-center",
+    "snippet": "Address: 1798 N. Garey Ave. Pomona CA 91767...•Emergency Services · 909.865.9500",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Pomona Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.pomonaca.gov/government/departments/police-department/administrative-services-division",
+    "snippet": "Records Bureau personnel can be reached by calling 909-620-2161",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Pomona Courthouse South",
+    "serves_note": "Serves Pomona and surrounding areas in Los Angeles County East District for civil filings",
+    "address": null,
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3178258/los-angeles-county-superior-court---east-district---pomona-courthouse-south",
+    "snippet": "Civil / Name Change Service/Intake (909) 620-3023",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Department of Motor Vehicles - Pomona Field Office",
+    "address": "1600 S Garey Avenue, Pomona, CA 91766",
+    "phone": null,
+    "source_url": "https://www.dmv.ca.gov/portal/field-office/pomona/",
+    "snippet": "Field Office · 1600 S Garey Avenue, Pomona, CA 91766",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:56:35.609Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

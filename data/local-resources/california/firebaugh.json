@@ -1,0 +1,31 @@
+{
+  "city_slug": "firebaugh",
+  "county": "Fresno",
+  "hospital": null,
+  "police": {
+    "name": "Firebaugh Police Department",
+    "type": "city_pd",
+    "address": "1325 \"O\" Street, Firebaugh, CA",
+    "phone": null,
+    "source_url": "https://firebaugh.org/police/",
+    "snippet": "Address: 1325 \"O\" Street, Firebaugh, CA.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Fresno",
+    "branch": null,
+    "serves_note": null,
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.fresno.courts.ca.gov/",
+    "snippet": "The Superior Court of California, County of Fresno, will serve the community and enhance public trust and confidence in the administration of justice",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:20:23.098Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

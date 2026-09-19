@@ -1,0 +1,22 @@
+{
+  "city_slug": "grand-terrace",
+  "county": "San Bernardino",
+  "hospital": null,
+  "police": {
+    "name": "San Bernardino County Sheriff's Department - Central Station",
+    "type": "contract_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://wp.sbcounty.gov/sheriff/patrol-stations/central-station/",
+    "snippet": "Central Station is responsible for contract law enforcement in the cities of Grand Terrace and Loma Linda",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:24:15.661Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

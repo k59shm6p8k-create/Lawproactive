@@ -1,0 +1,22 @@
+{
+  "city_slug": "walnut",
+  "county": "Los Angeles",
+  "hospital": null,
+  "police": {
+    "name": "Los Angeles County Sheriff's Department, Walnut/Diamond Bar Station",
+    "type": "sheriff",
+    "address": "21695 E. Valley Blvd., Walnut, CA 91789",
+    "phone": "(909) 595-2264",
+    "source_url": "https://lasd.org/walnut-diamond-bar/",
+    "snippet": "Walnut: (909) 595-2264, Diamond Bar: (626) 913-1715 21695 E. Valley Blvd. Walnut, CA 91789",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:28:24.960Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

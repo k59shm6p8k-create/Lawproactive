@@ -1,0 +1,45 @@
+{
+  "city_slug": "chico",
+  "county": "Butte",
+  "hospital": {
+    "name": "Enloe Medical Center",
+    "address": "1531 Esplanade, Chico, CA 95926",
+    "phone": null,
+    "source_url": "https://www.enloe.org/locations/locations-profile/enloe-medical-center/",
+    "snippet": "Address: 1531 Esplanade, Chico, CA. 95926",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Chico Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "(530) 897-4900",
+    "source_url": "https://chicoca.gov/City-Services/Public-Safety/Police-Department/",
+    "snippet": "(530) 897-4900 Non-emergency response",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Butte",
+    "branch": "North Butte County Courthouse",
+    "serves_note": "Serves Chico area; handles civil, criminal, family law, traffic, and probate cases",
+    "address": "1775 Concord Avenue, Chico, CA 95928",
+    "phone": null,
+    "source_url": "https://www.butte.courts.ca.gov/location/north-butte-county-courthouse",
+    "snippet": "Filing Location for Paper Documents: North Butte County Courthouse 1775 Concord Avenue Chico, CA 95928",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Chico Area Office",
+    "address": null,
+    "phone": "(530) 332-2800",
+    "source_url": "https://www.chp.ca.gov/find-an-office/valley-division/241-chico/",
+    "snippet": "You can contact us by calling the Chico Area office at (530) 332‐2800.",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:06:51.918Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

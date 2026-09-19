@@ -1,0 +1,45 @@
+{
+  "city_slug": "fremont",
+  "county": "Alameda",
+  "hospital": {
+    "name": "Washington Hospital",
+    "address": "2000 Mowry Ave, Fremont, CA 94538",
+    "phone": null,
+    "source_url": "https://www.washingtonhealth.com/services/emergency-medicine/",
+    "snippet": "Washington Health's Emergency Department is located at 2000 Mowry Avenue in Fremont.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Fremont Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "510-790-6800",
+    "source_url": "https://www.fremontpolice.gov/about-us/about-fremont-police/police-campus-directions-and-contact",
+    "snippet": "General Services and Records Unit: (510) 790-6800, option 3",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Alameda",
+    "branch": "Fremont Hall of Justice",
+    "serves_note": "Serves Fremont and surrounding Alameda County areas for civil filings",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.alameda.courts.ca.gov/",
+    "snippet": "If you need to file an Ability to Pay Petition you may do so in person at the Dublin, Wiley Manuel or Fremont Courthouse.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "CHP Nimitz Commercial Vehicle Enforcement Facility",
+    "address": "4416 I-880, Fremont, CA 94538",
+    "phone": "510-794-3658",
+    "source_url": "https://cad.chp.ca.gov/htm.net/locations.htm",
+    "snippet": "CHP NIMITZ INSPECTION FACILITY 4416 I-880 Fremont 94538-1196 510-794-3658",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:22:10.853Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

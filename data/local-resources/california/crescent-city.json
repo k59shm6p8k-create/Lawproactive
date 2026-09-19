@@ -1,0 +1,45 @@
+{
+  "city_slug": "crescent-city",
+  "county": "Del Norte",
+  "hospital": {
+    "name": "Sutter Coast Hospital",
+    "address": "800 East Washington Boulevard, Crescent City, CA 95531",
+    "phone": "(707) 464-8511",
+    "source_url": "https://www.sutterhealth.org/find-location/facility/sutter-coast-hospital-1043246975",
+    "snippet": "800 East Washington Blvd., Crescent City, CA 95531 | (707) 464-8511",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Crescent City Police Department",
+    "type": "city_pd",
+    "address": "686 G Street, Crescent City, CA 95531",
+    "phone": null,
+    "source_url": "https://www.crescentcity.org/departments/Police/police-faq",
+    "snippet": "Crescent City Police Department attn: Chief of Police, 686 G St., Crescent City, CA 95531",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Del Norte",
+    "branch": "Del Norte County Courthouse",
+    "serves_note": "Serves all of Del Norte County; civil filings processed at courthouse in Crescent City",
+    "address": "450 H Street, Room 209, Crescent City, CA 95531",
+    "phone": "(707) 464-8115",
+    "source_url": "https://www.delnorte.courts.ca.gov/divisions/civil-division",
+    "snippet": "450 H Street, Room 209 Crescent City, CA 95531 (707) 464-8115",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Crescent City Area",
+    "address": "1444 Parkway Drive, Crescent City, CA 95531-8502",
+    "phone": "(707) 464-3117",
+    "source_url": "https://www.chp.ca.gov/find-an-office/northern-division/120-crescent-city/",
+    "snippet": "CRESCENT CITY CHP 1444 Parkway Drive Crescent City 95531-8502 707-464-3117",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:12:17.002Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

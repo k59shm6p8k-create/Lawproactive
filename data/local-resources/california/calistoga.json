@@ -1,0 +1,38 @@
+{
+  "city_slug": "calistoga",
+  "county": "Napa",
+  "hospital": {
+    "name": "St. Helena Hospital",
+    "address": "650 Sanitarium Drive, Deer Park, CA 94576",
+    "phone": "707-963-3611",
+    "source_url": "https://www.calistogaca.gov/residents/medical-services",
+    "snippet": "St. Helena Hospital 650 Sanitarium Drive Deer Park, CA 94576 707-963-3611 Distance: 11 miles",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Calistoga Police Department",
+    "type": "city_pd",
+    "address": "1232 Washington Street, Calistoga, CA 94551",
+    "phone": "707-942-2810",
+    "source_url": "https://www.countyofnapa.org/1460/Staff-Directory",
+    "snippet": "Calistoga Police Department · 1232 Washington Street Calistoga CA 94551 Phone: 707-942-2810",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Napa",
+    "branch": "Civil Courthouse",
+    "serves_note": "County-wide; Napa County only has one Superior Court",
+    "address": "825 Brown Street, Napa, CA 94559",
+    "phone": null,
+    "source_url": "https://www.napa.courts.ca.gov/general-information/locations-contact-info",
+    "snippet": "825 Brown Street Napa, CA 94559",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:04:34.311Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

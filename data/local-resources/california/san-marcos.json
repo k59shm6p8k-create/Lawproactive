@@ -1,0 +1,45 @@
+{
+  "city_slug": "san-marcos",
+  "county": "San Diego",
+  "hospital": {
+    "name": "Kaiser Permanente San Marcos Medical Center",
+    "address": "360 Rush Dr, San Marcos, CA 92078",
+    "phone": "(833) 574-2273",
+    "source_url": "https://healthy.kaiserpermanente.org/southern-california/facilities/kaiser-permanente-san-marcos-medical-center-139213",
+    "snippet": "360 Rush Dr · FL 1 · San Marcos, CA 92078 · +1 (833) 574-2273 · Emergency Room · San Marcos, CA",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "San Diego County Sheriff - San Marcos Station",
+    "type": "contract_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.sdsheriff.gov/Home/Components/FacilityDirectory/FacilityDirectory/40/61",
+    "snippet": "Since its incorporation in 1963, the City of San Marcos has contracted law enforcement services with the San Diego County Sheriff's Office.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Diego",
+    "branch": "North County Superior Court",
+    "serves_note": "Serves northern San Diego County including San Marcos; handles Civil, Criminal, Family Law, Appeals, Adoption, and Traffic cases",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.sdcourt.ca.gov/sdcourt/generalinformation/courtlocations/northcountycourthouse",
+    "snippet": "The North County Superior Court is a full service branch court. Currently the Court hears Criminal, Civil, Family Law, Appeals, Adoption, Traffic and Minor Offense cases. This branch court has a venue encompassing most of Northern San Diego County.",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California DMV - San Marcos Field Office",
+    "address": "590 Rancheros Drive, San Marcos, CA 92069",
+    "phone": null,
+    "source_url": "https://www.dmv.ca.gov/portal/field-office/san-marcos/",
+    "snippet": "590 Rancheros Drive, San Marcos, CA 92069",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:06:39.834Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

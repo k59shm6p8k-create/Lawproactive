@@ -1,0 +1,38 @@
+{
+  "city_slug": "lompoc",
+  "county": "Santa Barbara",
+  "hospital": {
+    "name": "Lompoc Valley Medical Center",
+    "address": "1515 E. Ocean Avenue, Lompoc, CA 93436",
+    "phone": "(805) 737-3300",
+    "source_url": "https://www.lompocvmc.com/locations",
+    "snippet": "1515 E Ocean Ave, Lompoc CA 93436 · Telephone (805) 737-3300",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Lompoc Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "(805) 736-2341",
+    "source_url": "https://oag.ca.gov/fingerprints/locations/lompoc-police-department",
+    "snippet": "Center Plaza · Lompoc, CA 93436 ... Phone: (805) 736-2341",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Santa Barbara",
+    "branch": "Lompoc Courthouse",
+    "serves_note": "Serves Lompoc and surrounding areas in Santa Barbara County for civil (limited jurisdiction), criminal, family law, and traffic matters",
+    "address": "115 Civic Center Plaza, Lompoc, CA 93436-6967",
+    "phone": null,
+    "source_url": "https://www.santabarbara.courts.ca.gov/location/lompoc-courthouse",
+    "snippet": "Lompoc Courthouse 115 Civic Center Plaza Lompoc, CA 93436-6967",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:38:30.201Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

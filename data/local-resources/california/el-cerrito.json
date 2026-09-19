@@ -1,0 +1,31 @@
+{
+  "city_slug": "el-cerrito",
+  "county": "Contra Costa",
+  "hospital": null,
+  "police": {
+    "name": "El Cerrito Police Department",
+    "type": "city_pd",
+    "address": "10900 San Pablo Ave, El Cerrito, CA 94530",
+    "phone": "510-215-4400",
+    "source_url": "http://www.elcerrito.gov/189/Department-Overview",
+    "snippet": "You can contact the Police Department at: 10900 San Pablo Ave. El Cerrito, CA 94530 Ph: (510) 215-4400",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Contra Costa",
+    "branch": "George D. Carroll Courthouse",
+    "serves_note": "Serves El Cerrito and west county communities including Richmond, San Pablo, Pinole, Hercules, Kensington, El Sobrante, North Richmond, Rodeo, Crockett and Port Costa",
+    "address": null,
+    "phone": null,
+    "source_url": "https://contracosta.courts.ca.gov/location/george-d-carroll-courthouse",
+    "snippet": "This court serves the communities of Crockett, El Cerrito, El Sobrante, Hercules, Kensington, North Richmond, Pinole, Point Richmond, Port Costa, Richmond, Rodeo, Rollingwood, San Pablo, and Tilden Park North.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:17:18.835Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

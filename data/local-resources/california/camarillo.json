@@ -1,0 +1,29 @@
+{
+  "city_slug": "camarillo",
+  "county": "Ventura",
+  "hospital": {
+    "name": "St. John's Hospital Camarillo",
+    "address": null,
+    "phone": null,
+    "source_url": "https://locations.dignityhealth.org/dignity-health-st-johns-hospital-camarillo",
+    "snippet": "Since 1912, St. John's has provided compassionate, quality health care to Ventura County and the surrounding area.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Camarillo Police Department",
+    "type": "contract_pd",
+    "address": "3701 E. Las Posas Road, Camarillo, CA 93010",
+    "phone": "(805) 388-5100",
+    "source_url": "https://oag.ca.gov/fingerprints/locations/camarillo-police-department",
+    "snippet": "Address: 3701 E. Las Posas Road · Camarillo, CA 93010 · Phone: (805) 388-5100",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:04:46.409Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "city_slug": "selma",
+  "county": "Fresno",
+  "hospital": {
+    "name": "Adventist Health Selma",
+    "address": "1141 Rose Avenue, Selma, CA 93662",
+    "phone": "(559) 856-6310",
+    "source_url": "https://www.adventisthealth.org/selma/services/emergency-care/",
+    "snippet": "Adventist Health Selma 1141 Rose Avenue, Selma, CA 93662 Phone: (559) 856-6310 Hours: Available 24/7",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Selma Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.cityofselma.com/departments/police.php",
+    "snippet": "The Selma Police Department is responsible for policing the incorporated city of Selma",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Fresno",
+    "branch": "Selma Courthouse",
+    "serves_note": "Serves Selma and surrounding areas for civil and criminal matters",
+    "address": "2424 McCall, Selma, CA 93662",
+    "phone": null,
+    "source_url": "https://www.fresno.courts.ca.gov/",
+    "snippet": "Selma Courthouse is located in Fresno County at 2424 McCall, Selma, CA 93662. It houses the Superior Court for Fresno County.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Fresno Area",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/central-division/435-fresno/",
+    "snippet": "As part of the CHP's Central Division, the Fresno Area provides professional law enforcement services throughout Fresno County...serving the communities of Clovis, Reedley, Sanger, Selma",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:11:15.790Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

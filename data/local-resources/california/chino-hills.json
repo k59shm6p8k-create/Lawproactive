@@ -1,0 +1,38 @@
+{
+  "city_slug": "chino-hills",
+  "county": "San Bernardino",
+  "hospital": {
+    "name": "Chino Valley Medical Center",
+    "address": null,
+    "phone": null,
+    "source_url": "https://cvmc.com/",
+    "snippet": "Get trusted, 24/7 medical care at Chino Valley Medical Center in Chino, CA. Emergency services, surgery, imaging, and specialized care, all in one place.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "San Bernardino County Sheriff's Department - Chino Hills Station",
+    "type": "contract_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chinohills.org/17/Police",
+    "snippet": "The City of Chino Hills has contracted with the San Bernardino County Sheriff's Department for law enforcement services since incorporation in 1991.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Bernardino",
+    "branch": "San Bernardino District",
+    "serves_note": "Chino Hills civil cases are filed at San Bernardino District per county court filing locations",
+    "address": null,
+    "phone": null,
+    "source_url": "https://sanbernardino.courts.ca.gov/general-information/where-can-i-file",
+    "snippet": "Chino Hills listed among cities served by San Bernardino District for civil filings",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:07:14.661Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

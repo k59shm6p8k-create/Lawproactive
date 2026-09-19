@@ -1,0 +1,45 @@
+{
+  "city_slug": "fairfield",
+  "county": "Solano",
+  "hospital": {
+    "name": "NorthBay Medical Center",
+    "address": null,
+    "phone": "707-646-5000",
+    "source_url": "https://healthy.kaiserpermanente.org/northern-california/facilities/northbay-medical-center-433919",
+    "snippet": "Fairfield, CA 94533 · Directions · 7 Days · Open 24 hours · Information · 707-646-5000",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Fairfield Police Department",
+    "type": "city_pd",
+    "address": "1000 Webster St, Fairfield, CA 94533",
+    "phone": "707-428-7362",
+    "source_url": "https://www.fairfield.ca.gov/government/city-departments/police/about-us",
+    "snippet": "Fairfield Police Department 1000 Webster St Fairfield, CA 94533 O| (707) 428-7362",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Solano",
+    "branch": "Old Solano Courthouse (Civil Division)",
+    "serves_note": "Serves civil filings for Fairfield and Solano County",
+    "address": "580 Texas Street, Fairfield, CA 94533",
+    "phone": null,
+    "source_url": "https://solano.courts.ca.gov/civil-forms-fees-filing-instructions",
+    "snippet": "Documents are filed by appointment only in the civil clerk's division located at 580 Texas Street, Fairfield, CA",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Solano Area Office",
+    "address": "3050 Travis Blvd, Fairfield, CA 94534",
+    "phone": "707-428-2100",
+    "source_url": "https://m.chp.ca.gov/office.aspx?id=365",
+    "snippet": "Solano 3050 Travis Blvd. Fairfield, CA 94534 · Phone (707) 428-2100",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:19:37.058Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

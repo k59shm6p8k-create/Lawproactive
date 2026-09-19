@@ -1,0 +1,29 @@
+{
+  "city_slug": "cloverdale",
+  "county": "Sonoma",
+  "hospital": {
+    "name": "Healdsburg District Hospital",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.cloverdale.net/116/Health-Care",
+    "snippet": "Healdsburg District Hospital is 15 minutes from Cloverdale.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Cloverdale Police Department",
+    "type": "city_pd",
+    "address": "112 Broad Street, Cloverdale, CA 95425",
+    "phone": "707-894-2150",
+    "source_url": "https://www.cloverdale.net/Directory/Home/DepartmentListing?DID=9",
+    "snippet": "Physical Address: 112 Broad Street Cloverdale, CA 95425 Phone: 707-894-2150",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:08:35.958Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

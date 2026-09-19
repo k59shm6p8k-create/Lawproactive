@@ -1,0 +1,29 @@
+{
+  "city_slug": "coachella",
+  "county": "Riverside",
+  "hospital": null,
+  "police": {
+    "name": "Riverside County Sheriff's Department (Thermal Station)",
+    "type": "contract_pd",
+    "address": "86-625 Airport Blvd, Thermal, CA 92274",
+    "phone": "(760) 863-8990",
+    "source_url": "https://www.coachella.org/departments/police-department/faqs",
+    "snippet": "Thermal Sheriff Station 86-625 Airport Blvd. Thermal, CA 92274 Ph: (760) 863-8990",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol (CHP) Indio Area",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/border-division/630-indio/",
+    "snippet": "There are many cities within our jurisdiction including Desert Hot Springs, Palm Springs, Cathedral City, Rancho Mirage, Palm Desert, Indian Wells, La Quinta, Indio and Coachella.",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:09:03.159Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

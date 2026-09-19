@@ -1,0 +1,45 @@
+{
+  "city_slug": "hanford",
+  "county": "Kings",
+  "hospital": {
+    "name": "Adventist Health Hanford",
+    "address": "115 Mall Drive, Hanford, CA 93230",
+    "phone": "(559) 582-9000",
+    "source_url": "https://www.adventisthealth.org/hanford/services/emergency-care/",
+    "snippet": "Adventist Health Hanford 115 Mall Drive, Hanford, CA 93230 Phone: (559) 582-9000",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Hanford Police Department",
+    "type": "city_pd",
+    "address": "425 North Irwin Street, Hanford, CA 93230",
+    "phone": "(559) 585-2540",
+    "source_url": "https://www.ci.hanford.ca.us/directory.aspx?did=51",
+    "snippet": "425 North Irwin Street Hanford, CA 93230 Phone: 559-585-2540",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Kings",
+    "branch": "Hanford Courthouse",
+    "serves_note": "Serves civil filings and all case types for Kings County",
+    "address": null,
+    "phone": null,
+    "source_url": "https://courts.ca.gov/facilities/kings-county-new-hanford-courthouse",
+    "snippet": "The new facility is designed to handle all types of proceedings, including criminal, traffic, civil, family law, juvenile dependency",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol, Hanford Area",
+    "address": "1565 Glendale Ave, Hanford, CA 93230",
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/central-division/440-hanford/",
+    "snippet": "Hanford 1565 Glendale Ave. Hanford, CA 93230-0831",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:25:46.367Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

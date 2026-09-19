@@ -1,0 +1,31 @@
+{
+  "city_slug": "exeter",
+  "county": "Tulare",
+  "hospital": null,
+  "police": {
+    "name": "Exeter Police Department",
+    "type": "city_pd",
+    "address": "100 N. C Street, Exeter, CA 93221",
+    "phone": "559-592-3103",
+    "source_url": "https://cityofexeter.ca.gov/departments/exeter-police-department/",
+    "snippet": "100 N. C Street, Exeter, CA, United States, California · (559) 592-3103",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Tulare",
+    "branch": null,
+    "serves_note": "North County Jurisdiction (includes Visalia/Exeter/Dinuba)",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.tulare.courts.ca.gov/general-information/judicial-assignments",
+    "snippet": "Child Support: North County Jurisdiction (Visalia/Exeter/Dinuba)",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:19:12.423Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

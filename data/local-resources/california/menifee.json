@@ -1,0 +1,45 @@
+{
+  "city_slug": "menifee",
+  "county": "Riverside",
+  "hospital": {
+    "name": "Menifee Global Medical Center",
+    "address": "28400 McCall Boulevard, Sun City, CA 92585",
+    "phone": "(951) 679-8888",
+    "source_url": "https://www.medicalrecords.com/hospital/menifee-valley-medical-center",
+    "snippet": "28400 McCall Blvd, Sun City, CA 92585, USA · (951) 679-8888",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Menifee Police Department",
+    "type": "city_pd",
+    "address": "29714 Haun Road, Menifee, CA",
+    "phone": null,
+    "source_url": "https://nextdoor.com/agency-detail/ca/menifee/menifee-police-department-1/",
+    "snippet": "Join us for the first Blue Envelope Informational Meeting on March 1,2025 at 9:30 AM at the Menifee Police Department (29714 Haun Road, Menifee, CA)",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Riverside",
+    "branch": "Menifee Justice Center",
+    "serves_note": "Serves civil, family law, and small claims matters for mid-county Riverside area including Menifee",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.riverside.courts.ca.gov/location/menifee-justice-center",
+    "snippet": "Menifee Justice Center is a three-level building that houses 9 courtrooms",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Temecula Office",
+    "address": "27685 Commerce Center Drive, Temecula, CA 92590",
+    "phone": "(951) 506-2000",
+    "source_url": "https://www.menifee.ca.gov/BusinessDirectoryII.aspx?lngBusinessCategoryID=28",
+    "snippet": "Highway Patrol Temecula Office 27685 Commerce Center Dr. Temecula, CA 92590 Phone: (951) 506-2000",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:42:46.642Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

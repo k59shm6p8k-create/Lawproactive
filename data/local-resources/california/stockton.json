@@ -1,0 +1,36 @@
+{
+  "city_slug": "stockton",
+  "county": "San Joaquin",
+  "hospital": {
+    "name": "St. Joseph's Medical Center of Stockton",
+    "address": "1800 North California Street Stockton, CA 95204",
+    "phone": "209-467-6400",
+    "source_url": "https://www.sjgov.org/department/ems2/providershospitals/providershospitals",
+    "snippet": "1800 N California St Stockton, CA 95204 · Phone: (209) 467-6400",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Stockton Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "209-937-8495",
+    "source_url": "https://211sj.org/v2-detail/?idServiceAtLocation=24527365",
+    "snippet": "Crime Reports Number: 209-937-8495",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Stockton Area Office",
+    "address": "2720 Wilcox Road, Stockton, CA 95215",
+    "phone": "209-938-4800",
+    "source_url": "https://211sj.org/v2-detail/?idServiceAtLocation=56661566",
+    "snippet": "Address: 2720 Wilcox Road, Stockton, CA 95215 · CHP Stockton Office Number: 209-938-4800",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:14:45.078Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

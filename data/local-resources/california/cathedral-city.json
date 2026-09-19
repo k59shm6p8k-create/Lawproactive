@@ -1,0 +1,29 @@
+{
+  "city_slug": "cathedral-city",
+  "county": "Riverside",
+  "hospital": {
+    "name": "Desert Regional Medical Center",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.desertcarenetwork.com/locations/detail/desert-regional-medical-center",
+    "snippet": "Emergency treatment at the only designated Level 1 trauma center in the Coachella Valley, serving eastern Riverside and San Bernardino counties.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Cathedral City Police Department",
+    "type": "city_pd",
+    "address": "68700 Avenida Lalo Guerrero, Cathedral City, CA 92234",
+    "phone": "(760) 770-0300",
+    "source_url": "https://www.cathedralcity.gov/departments/police-department/who-we-are",
+    "snippet": "68700 Avenida Lalo Guerrero Cathedral City, CA 92234 Emergency: Dial 9-1-1 Non-Emergency: (760) 770-0300",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:06:15.744Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

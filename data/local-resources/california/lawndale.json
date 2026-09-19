@@ -1,0 +1,38 @@
+{
+  "city_slug": "lawndale",
+  "county": "Los Angeles",
+  "hospital": null,
+  "police": {
+    "name": "Los Angeles County Sheriff's Department - Lawndale Sheriff's Service Center",
+    "type": "sheriff",
+    "address": null,
+    "phone": "(310) 219-2750",
+    "source_url": "https://www.lawndale.ca.gov/government/departments/sheriff_s_department",
+    "snippet": "LAWNDALE SHERIFF'S SERVICE CENTER Open for general business Tuesday through Thursday 9:00 a.m. to 5:00 p.m. (310) 219-2750",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Southwest District - Torrance Courthouse",
+    "serves_note": "Serves Gardena, Hermosa Beach, Lawndale, Lomita, Manhattan Beach, Palos Verdes Estates, Rancho Palos Verdes, Redondo Beach, Rolling Hills, Rolling Hills Estates, and Torrance area west of Western Ave.",
+    "address": null,
+    "phone": "(310) 222-8809",
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176785/los-angeles-county-superior-court---southwest-district---torrance-courthouse",
+    "snippet": "Civil cases Service/Intake (310) 222-8809",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - South Los Angeles",
+    "address": "19700 Hamilton Ave. Torrance, CA 90502-1395",
+    "phone": null,
+    "source_url": "https://m.chp.ca.gov/office.aspx",
+    "snippet": "South Los Angeles 19700 Hamilton Ave. Torrance, CA 90502-1395",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:36:30.854Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

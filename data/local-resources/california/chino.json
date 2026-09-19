@@ -1,0 +1,45 @@
+{
+  "city_slug": "chino",
+  "county": "San Bernardino",
+  "hospital": {
+    "name": "Chino Valley Medical Center",
+    "address": "5451 Walnut Avenue Chino, CA 91710",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/chino-valley-medical-center/",
+    "snippet": "Address: 5451 Walnut Avenue Chino, CA 91710",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Chino Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "(909) 334-3001",
+    "source_url": "https://oag.ca.gov/fingerprints/locations/chino-police-department",
+    "snippet": "Phone: (909) 334-3001 · Email: records@chinopd.org",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Bernardino",
+    "branch": "Chino District",
+    "serves_note": "Serves Chino and surrounding communities for civil filings",
+    "address": null,
+    "phone": null,
+    "source_url": "https://sanbernardino.courts.ca.gov/general-information/where-can-i-file",
+    "snippet": "Civil Harassment Restraining Orders for Big Bear and its surrounding communities... Chino, Chino Hills, Etiwanda, Guasti, Montclair, Ontario, Rancho Cucamonga, Upland",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol Rancho Cucamonga Area",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/inland-division/offices/(855)-rancho-cucamonga",
+    "snippet": "our office patrols over 250 square miles of freeways and unincorporated roadways in and around the cities of Chino, Chino Hills, Fontana, Montclair, Ontario, Rancho Cucamonga, Upland",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:07:02.785Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

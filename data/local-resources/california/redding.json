@@ -1,0 +1,45 @@
+{
+  "city_slug": "redding",
+  "county": "Shasta",
+  "hospital": {
+    "name": "Mercy Medical Center Redding",
+    "address": "2175 Rosaline Avenue, Redding, CA 96001",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/mercy-medical-center-redding/",
+    "snippet": "Address: 2175 Rosaline Avenue Redding, CA 96001 ... Emergency Room Service Level: Basic",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Redding Police Department",
+    "type": "city_pd",
+    "address": "777 Cypress Avenue, Redding, CA 96001",
+    "phone": null,
+    "source_url": "https://www.cityofredding.gov/government/departments/police/index.php",
+    "snippet": "HOURS Monday-Friday 8 am - 5 pm ADDRESS 777 Cypress Avenue Redding, CA 96001",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Shasta",
+    "branch": "Main Courthouse",
+    "serves_note": "Serves Shasta County including Redding for civil filings",
+    "address": "1515 Court Street, Redding, CA 96001",
+    "phone": "(530) 245-6789",
+    "source_url": "https://www.shasta.courts.ca.gov/divisions/civil-division",
+    "snippet": "Main Courthouse, 1515 Court Street, Redding CA 96001 ... Office Hours: 8:30 AM to 4:00 PM Email Civil Division (530) 245-6789",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Redding Area",
+    "address": "2503 Cascade Boulevard, Redding, CA 96003",
+    "phone": "(530) 242-3200",
+    "source_url": "https://m.chp.ca.gov/office.aspx/?id=135",
+    "snippet": "Redding 2503 Cascade Blvd. Redding, CA 96003-0999 · Phone (530) 242-3200",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:58:52.084Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

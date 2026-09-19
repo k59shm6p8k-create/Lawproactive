@@ -1,0 +1,29 @@
+{
+  "city_slug": "ione",
+  "county": "Amador",
+  "hospital": {
+    "name": "Sutter Amador Hospital",
+    "address": "200 Mission Blvd, Jackson, CA 95642",
+    "phone": "209-223-7500",
+    "source_url": "https://www.ione.ca.gov/about-ione/page/new-resident-information",
+    "snippet": "Sutter Amador Hospital is located in Jackson and it is approximately 15 minutes from Ione. Address: 200 Mission Blvd, Jackson, CA 95642 Phone:(209) 223-7500",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Ione Police Department",
+    "type": "city_pd",
+    "address": "1 East Main Street, Ione, CA 95640",
+    "phone": "209-274-2456",
+    "source_url": "https://www.amadorcounty.gov/departments/office-of-emergency-services/emergency-information/law-enforcement-agencies",
+    "snippet": "City of Ione Police Department, 1 East Main Street, PO Box 398, Ione, CA 95640, Phone: 209-274-2456",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:30:39.970Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "city_slug": "maywood",
+  "county": "Los Angeles",
+  "hospital": null,
+  "police": {
+    "name": "Los Angeles County Sheriff's Department - East Los Angeles Station",
+    "type": "sheriff",
+    "address": "5019 East Third Street, Los Angeles, CA",
+    "phone": "(323) 562-5005",
+    "source_url": "https://www.cityofmaywood.com/283/Public-Safety",
+    "snippet": "Residents can either visit the local substation or the East Los Angeles Sheriff's Station located at 5019 East Third Street. To make a criminal report of non-emergency matters, please contact East Los Angeles Sheriff's Station at (323) 562-5005",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Southeast District - Huntington Park",
+    "serves_note": "Serves Bell, Bell Gardens, Cudahy, Huntington Park, Maywood, South Gate and Vernon",
+    "address": "6548 Miles Ave. Huntington Park CA 90255",
+    "phone": "(323) 586-6365",
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176777/los-angeles-county-superior-court---southeast-district---huntington-park",
+    "snippet": "This state trial court is an L A County Superior Court with jurisdication over cases that take place in Bell, Bell Gardens, Cudahy, Huntington Park, Maywood, South Gate and Vernon. Address: 6548 Miles Ave. Huntington Park CA 90255 ... Civil Service/Intake (323) 586-6365",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:42:10.000Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

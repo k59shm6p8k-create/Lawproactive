@@ -1,0 +1,22 @@
+{
+  "city_slug": "sanger",
+  "county": "Fresno",
+  "hospital": null,
+  "police": {
+    "name": "Sanger Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.ci.sanger.ca.us/182/Police",
+    "snippet": "The Sanger Police Department is dedicated to upholding the highest standards of professionalism in law enforcement.",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:07:57.886Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

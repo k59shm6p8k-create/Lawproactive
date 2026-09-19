@@ -1,0 +1,38 @@
+{
+  "city_slug": "shafter",
+  "county": "Kern",
+  "hospital": null,
+  "police": {
+    "name": "Shafter Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "661-746-8500",
+    "source_url": "https://www.shafterca.gov/157/Police-Department",
+    "snippet": "If you want to contact us to ask a question, email the Police Department or call 661-746-8500.",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Kern",
+    "branch": "Shafter",
+    "serves_note": "Shafter/Wasco Branch",
+    "address": "325 Central Valley Hwy, Shafter, CA 93263",
+    "phone": "661-610-7200",
+    "source_url": "https://www.kern.courts.ca.gov/location/shafter",
+    "snippet": "Get Directions · 325 Central Valley Hwy Shafter, CA 93263 · (661) 610-7200",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Department of Motor Vehicles - Shafter",
+    "address": "548 Walker Street, Shafter, CA 93263",
+    "phone": null,
+    "source_url": "https://www.dmv.ca.gov/portal/field-office/shafter/",
+    "snippet": "Field Office · 548 Walker Street, Shafter, CA 93263",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:11:31.853Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

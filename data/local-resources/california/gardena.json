@@ -1,0 +1,29 @@
+{
+  "city_slug": "gardena",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Memorial Hospital of Gardena",
+    "address": "1145 W. Redondo Beach Blvd., Gardena, CA 90247",
+    "phone": "(310) 532-4200",
+    "source_url": "https://www.pipelinehealth.us/locations/",
+    "snippet": "Memorial Hospital of Gardena is a 172-bed hospital that has been serving Gardena and Los Angeles for more than 60 years. 1145 W. Redondo Beach Blvd. Gardena, CA 90247 (310) 532-4200",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Gardena Police Department",
+    "type": "city_pd",
+    "address": "1718 West 162nd Street, Gardena, CA 90247",
+    "phone": "(310) 217-9670",
+    "source_url": "https://gardenapd.org/",
+    "snippet": "Gardena Police Department | Ph: (310) 217-9670 1718 West 162nd Street, Gardena, CA 90247",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:23:05.288Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

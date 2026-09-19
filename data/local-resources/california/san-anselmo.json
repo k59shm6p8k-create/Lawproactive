@@ -1,0 +1,31 @@
+{
+  "city_slug": "san-anselmo",
+  "county": "Marin",
+  "hospital": null,
+  "police": {
+    "name": "Central Marin Police Authority",
+    "type": "contract_pd",
+    "address": "525 San Anselmo Avenue, San Anselmo, CA 94960",
+    "phone": "415-258-4610",
+    "source_url": "https://www.sananselmo.gov/FAQ.aspx?QID=81",
+    "snippet": "There is a local office located on the first floor of the San Anselmo Town Hall - at 525 San Anselmo Avenue ... Phone: (415) 258-4610",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Marin",
+    "branch": "Civic Center, Hall of Justice",
+    "serves_note": "Serves all of Marin County including San Anselmo for civil filings",
+    "address": null,
+    "phone": "415-444-7040",
+    "source_url": "https://www.marin.courts.ca.gov/location/marin-county-superior-court",
+    "snippet": "Phone: (415) 444-7040 Email: civil@marin.courts.ca.gov Location: Civic Center, Hall of Justice, Room 113",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:03:24.799Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

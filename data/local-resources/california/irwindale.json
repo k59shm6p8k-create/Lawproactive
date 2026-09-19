@@ -1,0 +1,31 @@
+{
+  "city_slug": "irwindale",
+  "county": "Los Angeles",
+  "hospital": null,
+  "police": {
+    "name": "Irwindale Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "(626) 430-2244",
+    "source_url": "https://www.irwindaleca.gov/616/Police",
+    "snippet": "Phones: Direct Dispatch - Emergency and Non-Emergency Number Service/Intake (626) 430-2244",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "West Covina Courthouse",
+    "serves_note": "Handles traffic citations and most criminal matters for Irwindale; refer to LA County Superior Court locator for civil filings",
+    "address": "1427 West Covina Parkway, West Covina, CA 91790",
+    "phone": null,
+    "source_url": "https://www.irwindaleca.gov/FAQ.aspx?QID=79",
+    "snippet": "Most matters, including traffic citations and most criminal matters, are handled through the West Covina Courthouse, located at: 1427 West Covina Parkway West Covina, CA 91790",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:31:05.303Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

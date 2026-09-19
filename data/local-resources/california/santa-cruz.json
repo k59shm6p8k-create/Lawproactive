@@ -1,0 +1,45 @@
+{
+  "city_slug": "santa-cruz",
+  "county": "Santa Cruz",
+  "hospital": {
+    "name": "Dominican Hospital",
+    "address": "1555 Soquel Drive, Santa Cruz, CA",
+    "phone": "(831) 462-7703",
+    "source_url": "https://health.ucsc.edu/resources/after-hours-care/",
+    "snippet": "Dominican Hospital Emergency Room 1555 Soquel Drive, Santa Cruz Phone: (831) 462-7703",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Santa Cruz Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.santacruzca.gov/Government/City-Departments/Police",
+    "snippet": "The Santa Cruz Police Department is dedicated and proud to serve the residents of and visitors to our city.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Santa Cruz",
+    "branch": "Santa Cruz Courthouse (Civil Division)",
+    "serves_note": "Serves the city of Santa Cruz for civil filings",
+    "address": "701 Ocean Street, Room 110, Santa Cruz, CA 95060",
+    "phone": null,
+    "source_url": "https://www.santacruz.courts.ca.gov/divisions/civil-division",
+    "snippet": "Location Superior Court of California, County of Santa Cruz 701 Ocean Street, Room 110 Santa Cruz, CA 95060",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Santa Cruz Area",
+    "address": "10395 Soquel Dr, Aptos, CA 95003-4937",
+    "phone": "(831) 662-0511",
+    "source_url": "https://www.chp.ca.gov/find-an-office/coastal-division/720-santa-cruz/",
+    "snippet": "Santa Cruz 10395 Soquel Dr. Aptos 95003-4937 831-662-0511",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:08:48.164Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

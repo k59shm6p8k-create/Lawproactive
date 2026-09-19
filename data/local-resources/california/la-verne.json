@@ -1,0 +1,36 @@
+{
+  "city_slug": "la-verne",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Pomona Valley Health Center - Urgent Care - La Verne",
+    "address": "2333 Foothill Boulevard Suite C La Verne, CA 91750",
+    "phone": "909-392-6511",
+    "source_url": "https://www.pvhmc.org/locations/pomona-valley-health-center-urgent-care-la-verne/",
+    "snippet": "2333 Foothill Boulevard Suite C La Verne, CA 91750 Get Directions Phone: 909-392-6511",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "La Verne Police Department",
+    "type": "city_pd",
+    "address": "2061 Third St. La Verne CA 91750",
+    "phone": null,
+    "source_url": "https://www.laverneca.gov/204/Police",
+    "snippet": "Address: 2061 Third St. La Verne CA 91750",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "Pomona DMV Office",
+    "address": "1600 S. Garey Ave., Pomona, CA 91766",
+    "phone": "800-777-0133",
+    "source_url": "https://www.dmv.ca.gov/portal/business-partner/aaa-la-verne-branch/",
+    "snippet": "Pomona DMV Office · 1600 S. Garey Ave., Pomona, CA 91766 · (800) 777-0133",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:34:01.832Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

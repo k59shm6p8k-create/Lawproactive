@@ -1,0 +1,45 @@
+{
+  "city_slug": "hayward",
+  "county": "Alameda",
+  "hospital": {
+    "name": "St. Rose Hospital",
+    "address": "27200 Calaroga Avenue, Hayward, CA 94545",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/st-rose-hospital/",
+    "snippet": "Address: 27200 Calaroga Avenue Hayward, CA 94545",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Hayward Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.hayward-ca.gov/police-department",
+    "snippet": "The Hayward Police Department is built on teamwork, camaraderie, and community.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Alameda",
+    "branch": "Hayward Hall of Justice",
+    "serves_note": "Civil filings for Hayward and surrounding areas; Department 502-522",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.alameda.courts.ca.gov/location/hayward-hall-justice",
+    "snippet": "Departments: 502 - 522 (Dept. 501 houses the Self-Help Center) Appeals Civil Domestic Violence Family Law Name Change & Gender Affirmation Restraining Orders Small Claims Unlawful Detainer",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Hayward Area Office",
+    "address": null,
+    "phone": "510-489-1500",
+    "source_url": "https://www.chp.ca.gov/find-an-office/golden-gate-division/345-hayward/",
+    "snippet": "call the CHP Hayward Office at (510) 489-1500",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:26:25.709Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

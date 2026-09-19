@@ -1,0 +1,22 @@
+{
+  "city_slug": "san-clemente",
+  "county": "Orange",
+  "hospital": null,
+  "police": {
+    "name": "Orange County Sheriff's Department - San Clemente Police Services",
+    "type": "sheriff",
+    "address": "910 Calle Negocio, San Clemente, CA 92673",
+    "phone": "949-361-8225",
+    "source_url": "https://ocsheriff.gov/location/san-clemente-police-services",
+    "snippet": "910 Calle Negocio San Clemente, CA 92673 United States View Map Get Directions · phone · Phone: (949) 361-8225",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:04:08.047Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

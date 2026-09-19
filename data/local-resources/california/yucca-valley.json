@@ -1,0 +1,31 @@
+{
+  "city_slug": "yucca-valley",
+  "county": "San Bernardino",
+  "hospital": null,
+  "police": {
+    "name": "San Bernardino County Sheriff's Department - Yucca Valley Station (Morongo Basin Station)",
+    "type": "contract_pd",
+    "address": "63665 29 Palms Hwy, Joshua Tree, CA 92252",
+    "phone": "(760) 366-4175",
+    "source_url": "https://wp.sbcounty.gov/sheriff/patrol-stations/yucca-valley/",
+    "snippet": "Address:63665 29 Palms HwyJoshua Tree, California 92252 Phone:(760) 366-4175",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Bernardino",
+    "branch": "Joshua Tree District",
+    "serves_note": "Yucca Valley and surrounding communities including Joshua Tree, Landers, Pioneertown, Twentynine Palms",
+    "address": null,
+    "phone": null,
+    "source_url": "https://sanbernardino.courts.ca.gov/location/joshua-tree-district",
+    "snippet": "The Joshua Tree Court is located on the corner of Highway 62 and White Feather Road.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:27:02.080Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

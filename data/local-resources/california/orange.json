@@ -1,0 +1,29 @@
+{
+  "city_slug": "orange",
+  "county": "Orange",
+  "hospital": {
+    "name": "UCI Health — Orange",
+    "address": "101 The City Drive, Orange, CA 92868",
+    "phone": "714-456-6011",
+    "source_url": "https://www.ucihealth.org/locations/orange/uci-medical-center",
+    "snippet": "UCI Medical Center 101 The City Dr. 714.456.6011",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Orange Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.cityoforange.org/our-city/departments/police",
+    "snippet": "Orange Police Department",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:50:32.687Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

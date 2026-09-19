@@ -1,0 +1,38 @@
+{
+  "city_slug": "mill-valley",
+  "county": "Marin",
+  "hospital": null,
+  "police": {
+    "name": "Mill Valley Police Department",
+    "type": "city_pd",
+    "address": "1 Hamilton Drive, Mill Valley, CA 94941",
+    "phone": "415-389-4100",
+    "source_url": "https://www.cityofmillvalley.gov/directory.aspx?did=18",
+    "snippet": "Mill Valley Police Department 1 Hamilton Drive Mill Valley, CA 94941 Phone: 415-389-4100",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Marin",
+    "branch": "Civic Center, Hall of Justice",
+    "serves_note": "Serves all of Marin County including Mill Valley for civil filings",
+    "address": "3501 Civic Center Drive, San Rafael, CA 94903",
+    "phone": "415-444-7000",
+    "source_url": "https://www.marin.courts.ca.gov/general-information/contact-us",
+    "snippet": "Marin County Superior Court 3501 Civic Center Drive San Rafael, California 94903 (415) 444-7000",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Marin",
+    "address": "53 San Clemente Dr, Corte Madera, CA 94925",
+    "phone": null,
+    "source_url": "https://m.chp.ca.gov/office.aspx",
+    "snippet": "Marin 53 San Clemente Dr. Corte Madera, CA 94925-1206",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:43:18.785Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

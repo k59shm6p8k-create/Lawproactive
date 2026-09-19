@@ -1,0 +1,36 @@
+{
+  "city_slug": "monterey-park",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Monterey Park Hospital",
+    "address": "900 South Atlantic Boulevard, Monterey Park, CA 91754",
+    "phone": "626-570-9000",
+    "source_url": "https://www.ahmchealth.com/mph/",
+    "snippet": "Call them today for more information at 626-570-9000.",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Monterey Park Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "626-307-1211",
+    "source_url": "https://www.montereypark.ca.gov/Directory.aspx?did=11",
+    "snippet": "Police Dept. Records/Front Counter: 626-307-1211",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - East Los Angeles",
+    "address": "1601 Corporate Center Drive, Monterey Park, CA 91754",
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/southern-division/535-east-los-angeles/",
+    "snippet": "Address: 1601 Corporate Center Dr. Monterey Park CA 91754",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:45:27.557Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "city_slug": "larkspur",
+  "county": "Marin",
+  "hospital": {
+    "name": "Kaiser Permanente San Rafael Medical Center",
+    "address": "99 Montecillo Rd, San Rafael, CA 94903",
+    "phone": "415-444-2000",
+    "source_url": "https://maps.apple.com/place?place-id=I5A3E32F5F649AC39",
+    "snippet": "Emergency Room | Kaiser Permanente San Rafael Medical Center · Every Day, Open 24 Hours · Open · +1 (415) 444-2000 · 99 Montecillo Rd · San Rafael, CA 94903",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Central Marin Police Authority",
+    "type": "contract_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.centralmarinpolice.org/",
+    "snippet": "The Central Marin Police Authority is a full-service police agency for the communities of Larkspur, Corte Madera, and San Anselmo comprising of approximately 35,000 residents.",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:36:05.784Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

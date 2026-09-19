@@ -1,0 +1,38 @@
+{
+  "city_slug": "gonzales",
+  "county": "Monterey",
+  "hospital": {
+    "name": "Gonzales Healthcare Systems / Memorial Hospital",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.gonzaleshealthcare.com/services/emergency-department/",
+    "snippet": "Our ED is designated as a Level IV Trauma Facility and is staffed with licensed physicians and nursing staff specially trained for emergency care.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Gonzales Police Department",
+    "type": "city_pd",
+    "address": "109 4th Street, Gonzales, CA 93926",
+    "phone": "831-675-5010",
+    "source_url": "https://oag.ca.gov/fingerprints/locations/gonzales-police-department",
+    "snippet": "109 4th Street · Gonzales, CA 93926 ... Phone: (831) 675-5010",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Monterey",
+    "branch": "Salinas Courthouse",
+    "serves_note": "Main courthouse serving Monterey County including Gonzales",
+    "address": "240 Church St, Salinas, CA 93901",
+    "phone": null,
+    "source_url": "https://www.monterey.courts.ca.gov/",
+    "snippet": "Courtroom 1-11 240 Church St. Salinas, CA 93901 United States",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:24:04.887Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

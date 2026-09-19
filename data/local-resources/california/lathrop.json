@@ -1,0 +1,29 @@
+{
+  "city_slug": "lathrop",
+  "county": "San Joaquin",
+  "hospital": {
+    "name": "Kaiser Permanente Manteca Medical Center",
+    "address": "1777 W Yosemite Ave, Manteca, CA 95337",
+    "phone": null,
+    "source_url": "https://healthy.kaiserpermanente.org/northern-california/facilities/manteca-medical-center-100356",
+    "snippet": "Manteca Medical Center Hours: 7 days, 8 a.m. to 4 p.m. After-hours: 7 days, 4 p.m. to 8 a.m. ... Hospital 1777 W Yosemite Ave Manteca, CA 95337",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Lathrop Police Department",
+    "type": "city_pd",
+    "address": "940 River Islands Parkway, Lathrop, CA 95330",
+    "phone": "209-249-2000",
+    "source_url": "https://www.ci.lathrop.ca.us/police",
+    "snippet": "Lathrop Police Department · 940 River Islands Parkway Lathrop , CA 95330 · Phone Numbers: (209) 249-2000 - Police Dispatch Emergency",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:36:17.955Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "city_slug": "port-hueneme",
+  "county": "Ventura",
+  "hospital": null,
+  "police": {
+    "name": "Port Hueneme Police Department",
+    "type": "city_pd",
+    "address": "250 N Ventura Road, Port Hueneme, CA 93041",
+    "phone": "805-986-6530",
+    "source_url": "https://www.ci.port-hueneme.ca.us/directory.aspx?did=25",
+    "snippet": "250 N Ventura Road Port Hueneme, CA 93041Phone: 805-986-6530Emergency Phone: 911",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "DMV Oxnard Express",
+    "address": "137 N Ventura Road, Port Hueneme, CA 93041",
+    "phone": null,
+    "source_url": "https://www.dmv.ca.gov/portal/field-office/oxnard-express/",
+    "snippet": "Field Office · 137 N Ventura Rd, Port Hueneme, CA 93041",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:56:46.834Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

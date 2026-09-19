@@ -1,0 +1,29 @@
+{
+  "city_slug": "mendota",
+  "county": "Fresno",
+  "hospital": {
+    "name": "United Health Centers of the San Joaquin Valley",
+    "address": "121 Barboza St, Mendota, CA 93640",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/united-health-centers-of-the-san-joaquin-valley/",
+    "snippet": "Address: 121 Barboza St Mendota, CA 93640",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Mendota Police Department",
+    "type": "city_pd",
+    "address": "1759 7th Street, Mendota, CA",
+    "phone": "(559) 600-3111",
+    "source_url": "https://www.facebook.com/p/Mendota-Police-Department-100064693419148/",
+    "snippet": "1759 7th Street, Mendota, CA, United States, California · (559) 600-3111",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:42:31.426Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

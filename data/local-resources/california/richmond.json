@@ -1,0 +1,45 @@
+{
+  "city_slug": "richmond",
+  "county": "Contra Costa",
+  "hospital": {
+    "name": "Kaiser Foundation Hospital - Richmond",
+    "address": "901 Nevin Ave, Richmond, CA 94801",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/kaiser-foundation-hospital-richmond-campus/",
+    "snippet": "Address: 901 Nevin Ave Richmond, CA 94801",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Richmond Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.ci.richmond.ca.us/82/Police-Department",
+    "snippet": "The Richmond Police Department serves a diverse community of approximately 116,000 residents",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Contra Costa",
+    "branch": "George D. Carroll Courthouse",
+    "serves_note": "Serves Richmond, Crockett, El Cerrito, El Sobrante, Hercules, Kensington, North Richmond, Pinole, Point Richmond, Port Costa, Rodeo, Rollingwood, San Pablo, and Tilden Park North",
+    "address": "100 37th Street, Richmond, CA 94805",
+    "phone": null,
+    "source_url": "https://contracosta.courts.ca.gov/location/george-d-carroll-courthouse",
+    "snippet": "The Superior Court building in Richmond is located at 100 – 37th Street in Richmond.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Contra Costa Area",
+    "address": "5001 Blum Road, Martinez, CA 94553",
+    "phone": "925-646-4980",
+    "source_url": "https://www.chp.ca.gov/find-an-office/golden-gate-division/320-contra-costa/",
+    "snippet": "If you would like to speak to an officer in person, please contact the CHP Contra Costa Area Office at 925-646-4980, or visit us at 5001 Blum Rd., Martinez, CA 94553",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:00:02.985Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

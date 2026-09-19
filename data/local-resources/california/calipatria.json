@@ -1,0 +1,31 @@
+{
+  "city_slug": "calipatria",
+  "county": "Imperial",
+  "hospital": null,
+  "police": {
+    "name": "Calipatria Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "(760) 348-2212",
+    "source_url": "https://www.calipatria.com/contact-us/",
+    "snippet": "Calipatria, CA 92233 Office: (760) 348-2212 Dispatch Non-Emergency: (760) 344-2111",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Imperial",
+    "branch": "Downtown El Centro Courthouse",
+    "serves_note": "Civil filings for Imperial County, including Calipatria",
+    "address": "939 W Main Street, El Centro, CA",
+    "phone": null,
+    "source_url": "https://www.imperial.courts.ca.gov/divisions/civil-division",
+    "snippet": "The is located in the Downtown El Centro Courthouse at 939 W Main Street, El Centro Office Hours Civil offices are open Monday through Friday from 8 AM to 4 PM.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:04:23.097Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

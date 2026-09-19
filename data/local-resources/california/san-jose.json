@@ -1,0 +1,36 @@
+{
+  "city_slug": "san-jose",
+  "county": "Santa Clara",
+  "hospital": {
+    "name": "Good Samaritan Hospital",
+    "address": "2425 Samaritan Drive, San Jose, CA 95124",
+    "phone": null,
+    "source_url": "https://www.goodsamsanjose.com/specialties/emergency-care",
+    "snippet": "Good Samaritan Hospital · 2425 Samaritan Drive San Jose, CA 95124",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "San Jose Police Department",
+    "type": "city_pd",
+    "address": "201 W. Mission Street, San Jose, CA 95110",
+    "phone": "408-277-8900",
+    "source_url": "https://www.sjpd.org/about-us/office-of-the-chief-of-police",
+    "snippet": "201 W. Mission Street, San Jose, CA 95110 408-277-8900",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - San Jose Area",
+    "address": "2020 Junction Avenue, San Jose, CA 95131-2187",
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/golden-gate-division/offices/(340)-san-jose",
+    "snippet": "San Jose 2020 Junction Ave. San Jose, CA 95131-2187",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:05:45.532Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

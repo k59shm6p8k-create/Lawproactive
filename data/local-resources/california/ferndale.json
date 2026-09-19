@@ -1,0 +1,38 @@
+{
+  "city_slug": "ferndale",
+  "county": "Humboldt",
+  "hospital": {
+    "name": "Providence Redwood Memorial Hospital",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.visitferndale.com/relocation-guide",
+    "snippet": "The nearest hospitals are Providence Redwood Memorial Hospital in Fortuna and Providence St. Joseph Hospital in Eureka.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Ferndale Police Department",
+    "type": "city_pd",
+    "address": "600 Berding Street, Ferndale, CA 95536",
+    "phone": "(707) 786-4025",
+    "source_url": "https://ci.ferndale.ca.us/departments/police/",
+    "snippet": "600 Berding Street P.O. Box 1096 Ferndale, CA 95536 Office: (707) 786-4025",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Humboldt",
+    "branch": "Humboldt County Courthouse",
+    "serves_note": "All court cases in Humboldt County, including civil filings for Ferndale, are handled at the Eureka courthouse.",
+    "address": "825 5th Street, Eureka, CA 95501",
+    "phone": "(707) 445-7256",
+    "source_url": "https://www.humboldt.courts.ca.gov/general-information/contact-uslocations",
+    "snippet": "Humboldt County Courthouse 825 5th StreetEureka, CA 95501 (707) 445-7256",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:20:00.474Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

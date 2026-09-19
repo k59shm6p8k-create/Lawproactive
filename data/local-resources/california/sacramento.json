@@ -1,0 +1,36 @@
+{
+  "city_slug": "sacramento",
+  "county": "Sacramento",
+  "hospital": {
+    "name": "UC Davis Medical Center Emergency Department",
+    "address": "4301 X Street, Sacramento, CA 95817",
+    "phone": null,
+    "source_url": "https://health.ucdavis.edu/medical-center/services-specialties/emergency/",
+    "snippet": "Surgery and Emergency Services Pavilion Just inside main entrance on 4301 X St., Sacramento, CA 95817",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Sacramento Police Department",
+    "type": "city_pd",
+    "address": "5770 Freeport Boulevard, Sacramento, CA 95822",
+    "phone": "(916) 808-0780",
+    "source_url": "https://oag.ca.gov/fingerprints/locations/sacramento-police-department",
+    "snippet": "Address: 5770 Freeport Blvd · 100 · Sacramento, CA 95822 · Phone: (916) 808-0780",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol South Sacramento Area",
+    "address": "6 Massie Court, Sacramento, CA 95823",
+    "phone": null,
+    "source_url": "https://m.chp.ca.gov/office.aspx",
+    "snippet": "South Sacramento 6 Massie Ct. Sacramento, CA 95823-4390",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:02:58.142Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

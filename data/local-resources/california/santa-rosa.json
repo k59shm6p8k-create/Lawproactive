@@ -1,0 +1,45 @@
+{
+  "city_slug": "santa-rosa",
+  "county": "Sonoma",
+  "hospital": {
+    "name": "Santa Rosa Regional Hospital",
+    "address": "30 Mark West Springs Road, Santa Rosa CA 95403",
+    "phone": null,
+    "source_url": "https://www.sutterhealth.org/find-location/facility/sutter-santa-rosa-regional-hospital-emergency-department",
+    "snippet": "Sutter Santa Rosa Regional Hospital Emergency Department is located at 30 Mark West Springs Road, Santa Rosa CA 95403",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Santa Rosa Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "707-543-3550",
+    "source_url": "https://www.srcity.org/Directory.aspx?DID=22",
+    "snippet": "Administration Offices Phone: 707-543-3550",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Sonoma",
+    "branch": "Civil and Family Law Courthouse",
+    "serves_note": "Serves civil filings for Santa Rosa and Sonoma County",
+    "address": "3055 Cleveland Ave., Santa Rosa CA 95403",
+    "phone": "707-521-6610",
+    "source_url": "https://sonoma.courts.ca.gov/divisions/civil",
+    "snippet": "Civil and Family Law Courthouse 3055 Cleveland Ave. Santa Rosa CA 95403 Phone: (707) 521-6610",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Santa Rosa Area",
+    "address": "6100 LaBath Avenue, Rohnert Park, CA 94928-7915",
+    "phone": "707-806-5600",
+    "source_url": "https://x.com/CHPSantaRosa",
+    "snippet": "Office Phone: (707) 806-5600. 6100 Labath Ave. Rohnert Park",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:09:40.526Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

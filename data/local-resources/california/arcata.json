@@ -1,0 +1,45 @@
+{
+  "city_slug": "arcata",
+  "county": "Humboldt",
+  "hospital": {
+    "name": "Mad River Community Hospital",
+    "address": "3800 Janes Road, Arcata, CA 95521",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/mad-river-community-hospital/",
+    "snippet": "Address: 3800 Janes Road Arcata, CA 95521",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Arcata Police Department",
+    "type": "city_pd",
+    "address": "736 F Street, Arcata, CA 95521",
+    "phone": "(707) 822-2428",
+    "source_url": "https://oag.ca.gov/fingerprints/locations/arcata-police-depart",
+    "snippet": "Address: 736 F Street · Arcata, CA 95521 County: Humboldt · Phone: (707) 822-2428",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Humboldt",
+    "branch": "Main Eureka Courthouse",
+    "serves_note": "Serves Arcata and Humboldt County; civil filings at main courthouse",
+    "address": null,
+    "phone": "(707) 445-7256",
+    "source_url": "https://www.humboldt.courts.ca.gov/locations",
+    "snippet": "Clerk's Office: Case Inquiries, Filing, or Payment Questions 421 \"I\" Street, Eureka, CA 95501 Phone: (707) 445-7256",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Humboldt Area",
+    "address": "255 East Samoa Blvd, Arcata, CA 95521",
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/northern-division/125-humboldt/",
+    "snippet": "Address: 255 East Samoa Blvd. Arcata, CA 95521",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:56:01.609Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

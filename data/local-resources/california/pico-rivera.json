@@ -1,0 +1,29 @@
+{
+  "city_slug": "pico-rivera",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Beverly Hospital",
+    "address": "309 W Beverly Blvd, Montebello, CA 90640",
+    "phone": "(323) 726-1222",
+    "source_url": "https://healthcarecomps.com/hospitals/ca/?zip=90660",
+    "snippet": "2.0 mi Voluntary non-profit - Private · 309 W BEVERLY BLVD MONTEBELLO, CA 90640 · (323) 726-1222 · Acute Care Hospitals · Has emergency room",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Los Angeles County Sheriff's Department - Pico Rivera Station",
+    "type": "sheriff",
+    "address": "6631 Passons Boulevard, Pico Rivera, CA 90660",
+    "phone": "(562) 949-2421",
+    "source_url": "https://lasd.org/pico-rivera/",
+    "snippet": "(562) 949-2421 6631 Passons Blvd. Pico Rivera, CA 90660",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:54:22.528Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

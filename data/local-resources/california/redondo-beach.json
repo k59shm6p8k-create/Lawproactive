@@ -1,0 +1,38 @@
+{
+  "city_slug": "redondo-beach",
+  "county": "Los Angeles",
+  "hospital": null,
+  "police": {
+    "name": "Redondo Beach Police Department",
+    "type": "city_pd",
+    "address": "401 Diamond Street, Redondo Beach, California 90277",
+    "phone": null,
+    "source_url": "https://redondo.org/departments/police/how_do_i/contact_us.php",
+    "snippet": "Main Station Redondo Beach Police Department 401 Diamond Street (or) P.O. Box 639 Redondo Beach, California 90277-0639",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Southwest District (Torrance Courthouse)",
+    "serves_note": "Serves Redondo Beach and surrounding South Bay cities for civil filings",
+    "address": null,
+    "phone": "(310) 222-8809",
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176785/los-angeles-county-superior-court---southwest-district---torrance-courthouse",
+    "snippet": "Civil cases Service/Intake (310) 222-8809",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - South Los Angeles Area",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/southern-division/530-south-los-angeles/",
+    "snippet": "The South Los Angeles Area services the communities of Torrance, Carson, Gardena, Redondo Beach, Rancho Palos Verdes, Compton, Willowbrook, and Long Beach.",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:59:15.367Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

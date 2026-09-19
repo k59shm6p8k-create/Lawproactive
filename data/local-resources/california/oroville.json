@@ -1,0 +1,45 @@
+{
+  "city_slug": "oroville",
+  "county": "Butte",
+  "hospital": {
+    "name": "Oroville Hospital",
+    "address": "2767 Olive Highway, Oroville, CA 95966",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/oroville-hospital/",
+    "snippet": "Address: 2767 Olive Highway Oroville, CA 95966",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Oroville Police Department",
+    "type": "city_pd",
+    "address": "2055 Lincoln Street, Oroville, CA 95965",
+    "phone": "530-538-2444",
+    "source_url": "https://www.orovilleca.gov/Directory.aspx?did=25",
+    "snippet": "2055 Lincoln Street Oroville, CA 95965Phone: 530-538-2444",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Butte",
+    "branch": "Butte County Courthouse",
+    "serves_note": "Serves southern Butte County including Oroville; main courthouse handling all civil, criminal, family law, and juvenile proceedings",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.butte.courts.ca.gov/",
+    "snippet": "One Court Street, Oroville, CA 95965-3303",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Oroville",
+    "address": null,
+    "phone": "530-538-2700",
+    "source_url": "https://www.chp.ca.gov/find-an-office/valley-division/offices/(240)-oroville",
+    "snippet": "Please contact the Oroville CHP Area office at (530) 538-2700",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:51:20.162Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

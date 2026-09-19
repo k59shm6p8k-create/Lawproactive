@@ -1,0 +1,38 @@
+{
+  "city_slug": "goleta",
+  "county": "Santa Barbara",
+  "hospital": {
+    "name": "Goleta Valley Cottage Hospital",
+    "address": "351 S. Patterson Ave, Santa Barbara, CA 93111",
+    "phone": null,
+    "source_url": "https://www.cottagehealth.org/locations/emergency-care/",
+    "snippet": "351 S. Patterson Ave. Goleta, CA 93111",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Santa Barbara County Sheriff's Office (Goleta Valley Bureau)",
+    "type": "sheriff",
+    "address": null,
+    "phone": "(805) 683-2724",
+    "source_url": "https://www.cityofgoleta.org/your-city/city-manager-s-office/public-safety/goleta-police-department",
+    "snippet": "Police services for the City of Goleta are provided by the Santa Barbara County Sheriff's Office. Call 805-683-2724 for all non-emergency situations.",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Santa Barbara",
+    "branch": "South County Division (Santa Barbara)",
+    "serves_note": "Goleta is in South County; civil filings directed to Santa Barbara clerk's office",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.santabarbara.courts.ca.gov/divisions/civil",
+    "snippet": "\"South County\" includes the cities of Carpinteria, Santa Barbara, and Goleta",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:23:49.223Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

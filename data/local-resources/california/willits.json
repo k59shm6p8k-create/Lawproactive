@@ -1,0 +1,29 @@
+{
+  "city_slug": "willits",
+  "county": "Mendocino",
+  "hospital": {
+    "name": "Adventist Health Howard Memorial",
+    "address": "1 Marcela Drive, Willits, CA 95490",
+    "phone": "707-459-6801",
+    "source_url": "https://www.adventisthealth.org/howard-memorial/locations/",
+    "snippet": "1 Marcela Drive, Willits, California 95490 · View details 707-459-6801",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Willits Police Department",
+    "type": "city_pd",
+    "address": "125 E Commercial Street, suite #150, Willits, CA 95490",
+    "phone": "707-459-6122",
+    "source_url": "https://www.cityofwillits.org/185/Police-Department",
+    "snippet": "Justice Center 125 E Commercial Street Willits, CA 95490 · Phone Number 707-459-6122",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:24:42.920Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

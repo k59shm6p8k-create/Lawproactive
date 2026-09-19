@@ -1,0 +1,31 @@
+{
+  "city_slug": "tehama",
+  "county": "Tehama",
+  "hospital": null,
+  "police": {
+    "name": "Tehama County Sheriff's Office",
+    "type": "sheriff",
+    "address": null,
+    "phone": null,
+    "source_url": "https://cityoftehama.us/police-department",
+    "snippet": "The Tehama County Sheriff's Department is committed to making a positive difference in the lives of our citizens through professionally supported and trained officers.",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Tehama",
+    "branch": "Civil & Family Law Division",
+    "serves_note": "Serves Tehama County for civil filings",
+    "address": "1740 Walnut Street, Red Bluff, CA 96080",
+    "phone": "(530) 527-6441",
+    "source_url": "https://www.tehama.courts.ca.gov/divisions/civil-family-law",
+    "snippet": "Tehama County Superior Civil & Family Law Division 1740 Walnut Street Red Bluff, CA 96080 · Monday - Friday: 8:30 a.m. to 4:30 p.m. · Phone: (530) 527-6441",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:16:12.784Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

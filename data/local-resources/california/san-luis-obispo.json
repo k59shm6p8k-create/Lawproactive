@@ -1,0 +1,45 @@
+{
+  "city_slug": "san-luis-obispo",
+  "county": "San Luis Obispo",
+  "hospital": {
+    "name": "French Hospital Medical Center",
+    "address": "1911 Johnson Avenue, San Luis Obispo, CA 93401",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/french-hospital-medical-center/",
+    "snippet": "Address: 1911 Johnson Avenue San Luis Obispo, CA 93401",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "San Luis Obispo Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.slocity.org/government/department-directory/police-department",
+    "snippet": "Chief Rick Scott has over 24 years of experience in police operations and leadership and serves as the Chief of Police for the San Luis Obispo Police Department in California.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Luis Obispo",
+    "branch": "San Luis Obispo",
+    "serves_note": "Serves San Luis Obispo city and county for civil filings",
+    "address": "1050 Monterey Street, San Luis Obispo, CA",
+    "phone": null,
+    "source_url": "https://www.slo.courts.ca.gov/divisions/civil",
+    "snippet": "Civil Walk up Window Hours in San Luis Obispo: 1050 Monterey Street, Monday-Thursday, 8:30 a.m. - 12:00 p.m.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - San Luis Obispo Area",
+    "address": "675 California Blvd, San Luis Obispo, CA 93401",
+    "phone": "(805) 594-8700",
+    "source_url": "https://www.chp.ca.gov/find-an-office/coastal-division/offices/(745)-san-luis-obispo",
+    "snippet": "675 California Blvd, San Luis Obispo, CA, United States, California (805) 594-8700",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:06:28.557Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

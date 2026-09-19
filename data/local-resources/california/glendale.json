@@ -1,0 +1,45 @@
+{
+  "city_slug": "glendale",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Glendale Memorial Hospital and Health Center",
+    "address": "1420 South Central Avenue, Glendale, CA 91204",
+    "phone": null,
+    "source_url": "https://www.glendaleca.gov/government/departments/police-department",
+    "snippet": "1420 South Central Avenue Glendale, CA 91204",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Glendale Police Department",
+    "type": "city_pd",
+    "address": "131 N Isabel St, Glendale, CA 91206",
+    "phone": "(818) 548-3135",
+    "source_url": "https://www.glendaleca.gov/government/departments/police-department/contact-us",
+    "snippet": "Records Call (818) 548-3135 to request a police report · 131 N Isabel St Glendale, CA 91206",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "North Central District - Glendale",
+    "serves_note": "Jurisdiction over civil, criminal, juvenile, and traffic cases for Glendale, La Canada Flintridge, La Crescenta, and Montrose",
+    "address": "600 E. Broadway, Glendale, CA 91206",
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176786/los-angeles-county-superior-court---north-central-district---glendale",
+    "snippet": "This state trial court is an L A County Superior Court with jurisdiction over cases that take place in Glendale, La Canada Flintridge, La Crescenta and Montrose. Address: 600 E. Broadway Glendale CA 91206",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Department of Motor Vehicles - Glendale",
+    "address": "1335 W Glenoaks Boulevard, Glendale, CA 91201",
+    "phone": null,
+    "source_url": "https://www.dmv.ca.gov/portal/field-office/glendale/",
+    "snippet": "Field Office · 1335 W Glenoaks Boulevard, Glendale, CA 91201",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:23:27.146Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

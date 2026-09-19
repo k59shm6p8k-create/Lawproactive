@@ -1,0 +1,45 @@
+{
+  "city_slug": "beaumont",
+  "county": "Riverside",
+  "hospital": {
+    "name": "San Gorgonio Memorial Hospital",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.healthgrades.com/hospital-directory/ca-california/beaumont",
+    "snippet": "San Gorgonio Memorial Hospital is a medical facility located in Banning, CA.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Beaumont Police Department",
+    "type": "city_pd",
+    "address": "660 Orange Avenue, Beaumont, CA 92223",
+    "phone": "951-769-8500",
+    "source_url": "https://beaumontca.gov/directory.aspx?did=7",
+    "snippet": "660 Orange Avenue Beaumont, CA 92223Phone: 951-769-8500",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Riverside",
+    "branch": "Banning Courthouse",
+    "serves_note": "Serves Beaumont area for civil filings",
+    "address": "135 N Alessandro Road, Banning, CA 92220",
+    "phone": null,
+    "source_url": "https://www.beaumontca.gov/1216/Records",
+    "snippet": "Banning Courthouse 135 N Alessandro Road Banning, CA 92220",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Inland Empire",
+    "address": null,
+    "phone": null,
+    "source_url": "https://en.wikipedia.org/wiki/Beaumont,_California",
+    "snippet": "The California Highway Patrol has a regional office on the Beaumont side of Highland Springs Avenue",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:58:44.612Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

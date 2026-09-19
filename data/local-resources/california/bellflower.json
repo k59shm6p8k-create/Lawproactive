@@ -1,0 +1,29 @@
+{
+  "city_slug": "bellflower",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Los Angeles Community Hospital at Bellflower",
+    "address": "9542 Artesia Boulevard, Bellflower, CA 90706",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/los-angeles-community-hospital-at-bellflower/",
+    "snippet": "Address: 9542 Artesia Boulevard Bellflower, CA 90706",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Los Angeles County Sheriff's Department - Bellflower Substation",
+    "type": "sheriff",
+    "address": "16615 Bellflower Boulevard, Bellflower, CA 90706",
+    "phone": "(562) 925-0124",
+    "source_url": "https://bellflower.ca.gov/departments/public_safety/emergency_contacts.php",
+    "snippet": "Public Safety Department 16615 Bellflower Boulevard Bellflower, CA 90706 562 925 0124",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:59:19.119Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "city_slug": "rio-dell",
+  "county": "Humboldt",
+  "hospital": null,
+  "police": {
+    "name": "Rio Dell Police Department",
+    "type": "city_pd",
+    "address": "675 Wildwood Avenue, Rio Dell, California 95562",
+    "phone": null,
+    "source_url": "https://www.cityofriodell.ca.gov/215/Police",
+    "snippet": "The department works out of its main station situated at 675 Wildwood Avenue, Rio Dell, California, 95562.",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "CHP Humboldt Area Office",
+    "address": "255 East Samoa Blvd., Arcata, CA 95521-6797",
+    "phone": null,
+    "source_url": "https://m.chp.ca.gov/office.aspx",
+    "snippet": "Humboldt 255 East Samoa Blvd., Arcata, CA 95521-6797",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:00:32.903Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

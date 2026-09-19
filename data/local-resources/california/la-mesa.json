@@ -1,0 +1,36 @@
+{
+  "city_slug": "la-mesa",
+  "county": "San Diego",
+  "hospital": {
+    "name": "Sharp Grossmont Hospital",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.sharp.com/locations/sharp-grossmont-emergency-room",
+    "snippet": "Sharp Grossmont Hospital is located in La Mesa, California. Our emergency room is a convenient option for those living and working in La Mesa, El Cajon, Santee and surrounding East County communities of San Diego.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "La Mesa Police Department",
+    "type": "city_pd",
+    "address": "8085 University Avenue, La Mesa, CA 91942",
+    "phone": "(619) 667-1400",
+    "source_url": "https://www.cityoflamesa.gov/directory.aspx?did=4",
+    "snippet": "8085 University Avenue La Mesa, CA 91942Phone: 619.667.1400",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol (CHP) - El Cajon",
+    "address": null,
+    "phone": "(619) 401-2000",
+    "source_url": "https://www.cityoflamesa.gov/183/Police-Info-Counter",
+    "snippet": "California Highway Patrol (CHP) - El Cajon · 619.401.2000 (By appointment only)",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:33:02.968Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

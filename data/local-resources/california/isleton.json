@@ -1,0 +1,31 @@
+{
+  "city_slug": "isleton",
+  "county": "Sacramento",
+  "hospital": null,
+  "police": {
+    "name": "Sacramento County Sheriff's Department",
+    "type": "sheriff",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.cbsnews.com/sacramento/news/sheriffs-department-again-taking-over-law-enforcement-in-isleton/",
+    "snippet": "The Sacramento County Sheriff's Department formally assumed responsibility for law enforcement in Isleton",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Sacramento",
+    "branch": "Gordon D. Schaber Sacramento County Courthouse",
+    "serves_note": "Serves all Sacramento County for civil filings",
+    "address": "720 9th Street Sacramento, CA 95814",
+    "phone": "916-874-5522",
+    "source_url": "https://saccourt.ca.gov/locations/locations.aspx/default.aspx",
+    "snippet": "Gordon D. Schaber Sacramento County Courthouse · 720 9th Street Sacramento, CA 95814 Civil Hours: 8:30 a.m. to 4:00 p.m., Monday through Friday (excluding court holidays) 916-874-5522",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:31:17.236Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

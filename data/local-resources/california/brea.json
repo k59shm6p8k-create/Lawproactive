@@ -1,0 +1,22 @@
+{
+  "city_slug": "brea",
+  "county": "Orange",
+  "hospital": null,
+  "police": {
+    "name": "Brea Police Department",
+    "type": "city_pd",
+    "address": "1 Civic Center Circle, Brea, CA 92821",
+    "phone": "714-990-7625",
+    "source_url": "https://www.cityofbrea.gov/Directory.aspx?DID=8",
+    "snippet": "Physical Address: 1 Civic Center Circle Brea, CA 92821Phone: 714-990-7625",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:02:02.716Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

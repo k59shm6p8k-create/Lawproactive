@@ -1,0 +1,45 @@
+{
+  "city_slug": "inglewood",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Centinela Hospital Medical Center",
+    "address": "555 East Hardy Street, Inglewood, CA 90301",
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3179349/centinela-hospital-medical-center",
+    "snippet": "Address: 555 E. Hardy St. Inglewood CA 90301",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Inglewood Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "(310) 412-5211",
+    "source_url": "https://locator.lacounty.gov/lac/Location/3052997/inglewood-police-department",
+    "snippet": "24 Hour Info/Front Desk Service/Intake (310) 412-5211",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Southwest District - Inglewood Courthouse",
+    "serves_note": "Serves Inglewood, Lennox, Hawthorne, El Segundo, and unincorporated areas of Los Angeles County",
+    "address": "1 Regent Street, Inglewood, CA 90301",
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176787/los-angeles-county-superior-court---southwest-district---inglewood",
+    "snippet": "Address: 1 Regent St. Inglewood CA 90301",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - West Los Angeles Area",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/southern-division/565-west-los-angeles/",
+    "snippet": "West Los Angeles CHP serves...Inglewood",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:30:28.316Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

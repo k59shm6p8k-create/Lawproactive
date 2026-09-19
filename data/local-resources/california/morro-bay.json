@@ -1,0 +1,29 @@
+{
+  "city_slug": "morro-bay",
+  "county": "San Luis Obispo",
+  "hospital": null,
+  "police": {
+    "name": "Morro Bay Police Department",
+    "type": "city_pd",
+    "address": "850 Morro Bay Boulevard, Morro Bay, CA 93442",
+    "phone": "805-772-6225",
+    "source_url": "https://www.morrobayca.gov/directory.aspx?did=7",
+    "snippet": "850 Morro Bay Boulevard Morro Bay, CA 93442Phone: 805-772-6225",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "Department of Motor Vehicles - San Luis Obispo",
+    "address": "3190 S. Higuera St, San Luis Obispo, CA 93401",
+    "phone": "(800) 777-0133",
+    "source_url": "https://www.needtags.com/dmv-office-location/morro-bay",
+    "snippet": "DMV Office in San Luis Obispo · 3190 S. Higuera St · San Luis Obispo, CA 93401 · (800) 777-0133 · 12.6 miles from Morro Bay",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:46:28.120Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

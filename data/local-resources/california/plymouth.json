@@ -1,0 +1,22 @@
+{
+  "city_slug": "plymouth",
+  "county": "Amador",
+  "hospital": null,
+  "police": {
+    "name": "Amador County Sheriff's Office",
+    "type": "sheriff",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.amadorsheriff.org/operations-division/patrol-bureau",
+    "snippet": "The Patrol Bureau is the most visible element of the Amador County Sheriff's Office and is responsible for providing law enforcement and crime prevention services to the residents of the unincorporated areas of Amador County, as well as the City of Plymouth and the City of Amador City.",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:56:13.502Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

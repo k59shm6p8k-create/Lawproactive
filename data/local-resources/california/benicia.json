@@ -1,0 +1,38 @@
+{
+  "city_slug": "benicia",
+  "county": "Solano",
+  "hospital": null,
+  "police": {
+    "name": "Benicia Police Department",
+    "type": "city_pd",
+    "address": "200 East L Street, Benicia, CA 94510",
+    "phone": "707-745-3412",
+    "source_url": "https://www.ci.benicia.ca.us/police",
+    "snippet": "Benicia Police Department 200 East L Street Benicia, CA 94510 · 707-745-3412",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Solano",
+    "branch": null,
+    "serves_note": "Benicia is in Solano County; see solano.courts.ca.gov for civil filing locations",
+    "address": null,
+    "phone": null,
+    "source_url": "https://solano.courts.ca.gov/",
+    "snippet": "Benicia is located in Solano County based on city official resources and Solano County Superior Court jurisdiction",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "CHP Solano Area Office",
+    "address": "3050 Travis Blvd. Fairfield, CA 94533-3443",
+    "phone": "707-428-2100",
+    "source_url": "https://cad.chp.ca.gov/htm.net/locations.htm",
+    "snippet": "SOLANO CHP 3050 Travis Blvd. Fairfield 94533-3443 707-428-2100",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:59:53.037Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

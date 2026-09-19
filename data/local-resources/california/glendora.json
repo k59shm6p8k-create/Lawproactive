@@ -1,0 +1,29 @@
+{
+  "city_slug": "glendora",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Emanate Health Foothill Presbyterian Hospital",
+    "address": "250 South Grand Avenue, Glendora, CA 91741",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/foothill-presbyterian-hospital-johnston-memorial/",
+    "snippet": "Address: 250 South Grand Avenue Glendora, CA 91741 ... Emergency Room Service Level: Basic",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Glendora Police Department",
+    "type": "city_pd",
+    "address": "150 South Glendora Avenue, Glendora, CA 91741",
+    "phone": "626-914-8250",
+    "source_url": "https://hcai.ca.gov/facility/foothill-presbyterian-hospital-johnston-memorial/",
+    "snippet": "150 South Glendora Avenue, Glendora, California, 91741 (626) 914-8250",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:23:38.214Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

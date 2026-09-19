@@ -1,0 +1,36 @@
+{
+  "city_slug": "millbrae",
+  "county": "San Mateo",
+  "hospital": {
+    "name": "Mills Peninsula Medical Center",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.sutterhealth.org/find-location/facility/mills-peninsula-medical-center-1043246780",
+    "snippet": "Sutter Mills Peninsula Medical Center, Burlingame Campus provides emergency services",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "San Mateo County Sheriff's Office - Millbrae Police Bureau",
+    "type": "contract_pd",
+    "address": "581 Magnolia Avenue, Millbrae, CA 94030",
+    "phone": "650-259-2300",
+    "source_url": "https://www.smcsheriff.com/patrol-services/millbrae-police-bureau",
+    "snippet": "581 Magnolia Avenue (View Map) Millbrae, CA 94030 ​ (650) 259-2300",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "CHP San Francisco Area",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/golden-gate-division/335-san-francisco/",
+    "snippet": "the San Francisco Area's jurisdiction begins at the toll plaza at the east end of the Bay Bridge, across the bridge and through the City of San Francisco, south on the Peninsula (US 101 and I-280) to the City of Millbrae",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:43:30.289Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

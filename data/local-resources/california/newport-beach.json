@@ -1,0 +1,36 @@
+{
+  "city_slug": "newport-beach",
+  "county": "Orange",
+  "hospital": {
+    "name": "Hoag Hospital Newport Beach",
+    "address": "1 Hoag Drive, Newport Beach, CA 92663",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/hoag-memorial-hospital-presbyterian/",
+    "snippet": "Address: 1 Hoag Drive Newport Beach, CA 92663",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Newport Beach Police Department",
+    "type": "city_pd",
+    "address": "870 Santa Barbara Drive, Newport Beach, CA 92660",
+    "phone": "949-644-3717",
+    "source_url": "https://www.nbpd.org/",
+    "snippet": "870 Santa Barbara Dr, Newport Beach, CA, United States, California · (949) 644-3717",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Santa Ana Area Office",
+    "address": "2031 E. Santa Clara Avenue, Santa Ana, CA 92705-7838",
+    "phone": null,
+    "source_url": "https://m.chp.ca.gov/office.aspx",
+    "snippet": "Santa Ana 2031 E. Santa Clara Ave. Santa Ana, CA 92705-7838",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:48:18.686Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

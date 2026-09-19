@@ -1,0 +1,45 @@
+{
+  "city_slug": "sonoma",
+  "county": "Sonoma",
+  "hospital": {
+    "name": "Sonoma Valley Hospital",
+    "address": "347 Andrieux Street, Sonoma, CA 95476",
+    "phone": null,
+    "source_url": "https://www.sonomavalleyhospital.org/directions-and-parking/",
+    "snippet": "347 Andrieux St. Sonoma, CA 95476",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Sonoma Police Department",
+    "type": "contract_pd",
+    "address": "175 First Street West, Sonoma, CA 95476",
+    "phone": "707-996-3602",
+    "source_url": "https://www.sonomasheriff.org/contract-cities",
+    "snippet": "In 2004, the City of Sonoma contracted with the Sonoma County Sheriff's Office to provide law enforcement services. 175 First Street West Sonoma CA 95476 Phone: (707) 996-3602",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Sonoma",
+    "branch": "Hall of Justice",
+    "serves_note": "Serves Sonoma County for civil filings; all civil cases filed at Santa Rosa location",
+    "address": "625 Administration Drive, Santa Rosa, CA 95403",
+    "phone": "707-521-6500",
+    "source_url": "https://sonoma.courts.ca.gov/general-information",
+    "snippet": "Hall of Justice 625 Administration Drive Santa Rosa, CA 95403 Phone: (707) 521-6500",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Santa Rosa Area Office",
+    "address": null,
+    "phone": "707-588-1400",
+    "source_url": "https://www.sonomasheriff.org/other-agency-resources",
+    "snippet": "California Highway Patrol (CHP) 707.588.1400",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:13:04.402Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

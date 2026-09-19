@@ -1,0 +1,45 @@
+{
+  "city_slug": "visalia",
+  "county": "Tulare",
+  "hospital": {
+    "name": "Kaweah Health Medical Center",
+    "address": "400 W Mineral King Avenue, Visalia, CA 93291",
+    "phone": null,
+    "source_url": "https://www.kaweahhealth.org/location/kaweah-health-emergency-department",
+    "snippet": "400 West Mineral King Avenue Visalia, CA 93291",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Visalia Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "(559) 713-4231",
+    "source_url": "https://oag.ca.gov/fingerprints/locations/visalia-police-department",
+    "snippet": "South Johnson Street · Visalia, CA 93291... Phone: (559) 713-4231",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Tulare",
+    "branch": "Visalia (County Civic Center)",
+    "serves_note": "Serves Visalia and surrounding areas for civil, criminal, family law, probate, and juvenile matters",
+    "address": "221 S. Mooney Blvd., Visalia, CA 93291",
+    "phone": null,
+    "source_url": "https://www.tulare.courts.ca.gov/location/visalia-county-civic-center",
+    "snippet": "Visalia (County Civic Center) 221 S. Mooney Blvd. Visalia, CA 93291",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Visalia",
+    "address": "5025 W Noble Ave, Visalia, CA 93277",
+    "phone": "(559) 839-2810",
+    "source_url": "https://www.chp.ca.gov/find-an-office/central-division/480-visalia/",
+    "snippet": "+1 (559) 839-2810 · 5025 W Noble Ave · Visalia, CA 93277",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:21:04.579Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

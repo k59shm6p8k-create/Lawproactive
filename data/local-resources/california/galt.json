@@ -1,0 +1,22 @@
+{
+  "city_slug": "galt",
+  "county": "Sacramento",
+  "hospital": null,
+  "police": {
+    "name": "Galt Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "(209) 366-7000",
+    "source_url": "https://www.cityofgalt.org/government/police-department",
+    "snippet": "please contact us via telephone at (209) 366-7000",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:22:45.650Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "city_slug": "grass-valley",
+  "county": "Nevada",
+  "hospital": {
+    "name": "Sierra Nevada Memorial Hospital",
+    "address": "155 Glasson Way Grass Valley, CA 95945",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/sierra-nevada-memorial-hospital/",
+    "snippet": "Address: 155 Glasson Way Grass Valley, CA 95945",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Grass Valley Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.grassvalleyca.gov/police-department",
+    "snippet": "The Grass Valley Police Department is a full-service, community policing organization.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Nevada",
+    "branch": "Nevada City Branch",
+    "serves_note": "Serves Grass Valley and Nevada County for civil filings",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.nevada.courts.ca.gov/",
+    "snippet": "Legal matters originating in Grass Valley fall under the jurisdiction of the Nevada County Superior Court, located in Nevada City.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol Grass Valley Area",
+    "address": null,
+    "phone": "530-477-4900",
+    "source_url": "https://www.chp.ca.gov/find-an-office/valley-division/230-grass-valley/",
+    "snippet": "Grass Valley CHP Area office at (530) 477-4900",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:24:27.298Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

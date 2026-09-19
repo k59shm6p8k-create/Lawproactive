@@ -1,0 +1,36 @@
+{
+  "city_slug": "san-bruno",
+  "county": "San Mateo",
+  "hospital": {
+    "name": "South San Francisco Medical Center",
+    "address": "1200 El Camino Real, South San Francisco, CA",
+    "phone": null,
+    "source_url": "https://healthy.kaiserpermanente.org/northern-california/facilities/san-bruno-medical-offices-100329/departments/adult-primary-care-dlp-104623",
+    "snippet": "The emergency department at South San Francisco Medical Center is open 24/7, including holidays, and is located at 1200 El Camino Real, South San Francisco.",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "San Bruno Police Department",
+    "type": "city_pd",
+    "address": "1177 Huntington Avenue, San Bruno, CA 94066",
+    "phone": "650-616-7100",
+    "source_url": "https://www.sanbruno.ca.gov/Directory.aspx?did=29",
+    "snippet": "1177 Huntington Avenue San Bruno, CA 94066 Phone: 650-616-7100",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "DMV Partner (Instant Auto Registration)",
+    "address": "1710 El Camino Real Ste D, San Bruno, CA 94066",
+    "phone": "650-464-6353",
+    "source_url": "https://www.dmv.ca.gov/portal/business-partner/instant-auto-registration-san-bruno/",
+    "snippet": "1710 El Camino Real Ste D, San Bruno, CA 94066 1-650-464-6353",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:03:46.415Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

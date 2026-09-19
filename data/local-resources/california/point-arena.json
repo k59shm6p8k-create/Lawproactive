@@ -1,0 +1,29 @@
+{
+  "city_slug": "point-arena",
+  "county": "Mendocino",
+  "hospital": {
+    "name": "Point Arena Medical Clinic",
+    "address": "30 Mill St, Point Arena, CA 95468",
+    "phone": "(707) 882-1704",
+    "source_url": "https://www.ruralcommunityhealth.org/arch-member-centers/point-arena-medical-clinic",
+    "snippet": "Point Arena Medical Clinic 30 Mill St. Point Arena, CA 95468 (707) 882-1704",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Mendocino County Sheriff's Office",
+    "type": "sheriff",
+    "address": null,
+    "phone": "(707) 463-4411",
+    "source_url": "https://www.mendocinocounty.gov/?city=Point+Arena",
+    "snippet": "Contact the Mendocino County Sheriff's Office at (707) 463-4411",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:56:26.339Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

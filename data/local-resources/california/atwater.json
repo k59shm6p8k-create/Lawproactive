@@ -1,0 +1,22 @@
+{
+  "city_slug": "atwater",
+  "county": "Merced",
+  "hospital": null,
+  "police": {
+    "name": "Atwater Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.atwater.org/departments/police/",
+    "snippet": "The Chief of Police plans, organizes, directs, and coordinates the activities of the Atwater Police Department.",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:57:03.782Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

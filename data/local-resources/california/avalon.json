@@ -1,0 +1,29 @@
+{
+  "city_slug": "avalon",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Catalina Island Medical Center",
+    "address": "100 Falls Canyon Road, Avalon, CA 90704",
+    "phone": "(310) 510-0700",
+    "source_url": "https://catalinaislandhealth.org/emergency-services/",
+    "snippet": "Google Map: Catalina Island Health, 100 Falls Canyon Rd. Avalon CA ... Call the hospital's main number (310) 510-0700",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Los Angeles County Sheriff's Department - Avalon Station",
+    "type": "sheriff",
+    "address": "215 Sumner Ave. Avalon CA 90704",
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3177204/avalon-sheriffs-station",
+    "snippet": "Address: 215 Sumner Ave. Avalon CA 90704",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:57:27.174Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "city_slug": "cypress",
+  "county": "Orange",
+  "hospital": null,
+  "police": {
+    "name": "Cypress Police Department",
+    "type": "city_pd",
+    "address": "5275 Orange Avenue, Cypress, CA 90630",
+    "phone": "(714) 229-6600",
+    "source_url": "https://www.cypressca.org/departments/police/",
+    "snippet": "Cypress Police Department 5275 Orange Avenue Cypress, CA 90630 Non-Emergency Phone: (714) 229-6600",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:13:06.106Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

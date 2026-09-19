@@ -1,0 +1,29 @@
+{
+  "city_slug": "claremont",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Pomona Valley Hospital Medical Center",
+    "address": "1798 N. Garey Avenue, Pomona, CA 91767",
+    "phone": "(909) 865-9500",
+    "source_url": "https://services.claremont.edu/wp-content/uploads/2023/08/After-Hours-and-Emergency-Care-including-7C-Health-1.pdf",
+    "snippet": "Pomona Valley Hospital Medical Center · 1798 N. Garey Avenue · Pomona, CA 91767 · (909) 865-9500 Phone · (909) 865-9600 Emergency Room",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Claremont Police Department",
+    "type": "city_pd",
+    "address": "570 W. Bonita Ave, Claremont, CA 91711",
+    "phone": "(909) 626-1296",
+    "source_url": "https://www.claremontca.gov/City-Services/Public-Safety/Police/About-and-Contact/Contact-Police",
+    "snippet": "Claremont Police Department570 W. Bonita Ave. Claremont, CA 91711Phone Numbers:Emergency Number: 911Non-Emergency Dispatch: (909) 626-1296",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:08:05.139Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

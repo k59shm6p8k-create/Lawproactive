@@ -1,0 +1,22 @@
+{
+  "city_slug": "wheatland",
+  "county": "Yuba",
+  "hospital": null,
+  "police": {
+    "name": "Wheatland Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "530-633-2821",
+    "source_url": "https://www.wheatland.ca.gov/1232/Police",
+    "snippet": "24/7 Dispatch (530) 633-2821 · Fax: (530) 633-4033 · Office: (530) 633-2016",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:23:52.905Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

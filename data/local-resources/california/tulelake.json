@@ -1,0 +1,29 @@
+{
+  "city_slug": "tulelake",
+  "county": "Siskiyou",
+  "hospital": null,
+  "police": {
+    "name": "Tulelake Police Department",
+    "type": "city_pd",
+    "address": "470 C Street, Tulelake, CA 96134",
+    "phone": "530-667-5284",
+    "source_url": "https://cityoftulelake.com/contact-us/",
+    "snippet": "Tulelake Police Department · 470 C Street · PO Box 400 · Tulelake, CA 96134 · Phone: 530-667-5284",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "CHP Yreka Area (Tulelake Resident Post)",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/northern-division/145-yreka/",
+    "snippet": "resident post officers patrol the remote communities of Happy Camp, Tulelake, and Dorris",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:18:04.450Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

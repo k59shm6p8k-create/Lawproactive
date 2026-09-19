@@ -1,0 +1,45 @@
+{
+  "city_slug": "tulare",
+  "county": "Tulare",
+  "hospital": {
+    "name": "Adventist Health Tulare",
+    "address": "869 North Cherry Street, Tulare, CA 93274",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/adventist-health-tulare/",
+    "snippet": "Address: 869 North Cherry Street Tulare, CA 93274",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Tulare Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.tulare.ca.gov/government/departments/police",
+    "snippet": "The Tulare Police Department office is open Monday through Friday from 8 a.m. to 5 p.m.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Tulare",
+    "branch": "Visalia Division",
+    "serves_note": "Civil filing division serving Tulare city",
+    "address": "221 S. Mooney Blvd, Room 201, Visalia, CA 93291",
+    "phone": null,
+    "source_url": "https://www.tulare.courts.ca.gov/",
+    "snippet": "Visalia Division- Civil Legal Filings 221 S. Mooney Blvd., Room 201 Visalia, Ca 93291",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol Visalia Area",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/central-division/offices/(480)-visalia",
+    "snippet": "The California Highway Patrol Visalia Area is proud to serve the residents of Tulare County",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:17:53.101Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

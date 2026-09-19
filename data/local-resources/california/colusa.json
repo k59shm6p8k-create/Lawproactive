@@ -1,0 +1,45 @@
+{
+  "city_slug": "colusa",
+  "county": "Colusa",
+  "hospital": {
+    "name": "Colusa Medical Center",
+    "address": "199 E Webster Street, Colusa, CA 95932",
+    "phone": "530-619-0800",
+    "source_url": "https://colusamedcenter.com/directory/",
+    "snippet": "Colusa Medical Center Hospital 199 E Webster Street Colusa CA 95932 530-619-0800",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "City of Colusa Police Department",
+    "type": "city_pd",
+    "address": "260 6th Street, Colusa, CA",
+    "phone": null,
+    "source_url": "https://cityofcolusa.com/police-department/",
+    "snippet": "The main station is located at 260 6th Street.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Colusa",
+    "branch": "Courthouse Annex",
+    "serves_note": "Serves Colusa County; civil filings handled at Annex (532 Oak Street)",
+    "address": "532 Oak Street, Colusa, CA 95932",
+    "phone": null,
+    "source_url": "https://www.colusa.courts.ca.gov/",
+    "snippet": "Court Executive Officer Colusa Superior Court 532 Oak Street Colusa, CA 95932",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Department of Motor Vehicles (DMV) - Colusa Field Office",
+    "address": "1025 Bridge St STE B, Colusa, CA 95932",
+    "phone": null,
+    "source_url": "https://www.dmv.ca.gov/portal/field-office/colusa/",
+    "snippet": "Field Office · 1025 Bridge St STE B, Colusa, CA 95932",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:10:04.393Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

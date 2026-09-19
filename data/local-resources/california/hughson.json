@@ -1,0 +1,31 @@
+{
+  "city_slug": "hughson",
+  "county": "Stanislaus",
+  "hospital": null,
+  "police": {
+    "name": "Hughson Police Services",
+    "type": "contract_pd",
+    "address": "7018 Pine Street, Hughson, CA 95326",
+    "phone": "209-883-4054",
+    "source_url": "https://www.cityofhughsonca.gov/contact-us",
+    "snippet": "7018 Pine Street | PO Box 9 | Hughson, CA 95326 | 209.883.4054",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Stanislaus",
+    "branch": "City Towers Courthouse",
+    "serves_note": "Civil and Probate Division serving Hughson",
+    "address": "801 10th Street, Modesto, CA 95354",
+    "phone": "209-530-3100",
+    "source_url": "https://www.stanislaus.courts.ca.gov/general-information/locations-contact-info",
+    "snippet": "City Towers Courthouse (Civil) Civil and Probate Division (Estates, Trusts and Conservatorships)801 10th StreetModesto, CA 95354 (209) 530-3100",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:28:36.072Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

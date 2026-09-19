@@ -1,0 +1,22 @@
+{
+  "city_slug": "huron",
+  "county": "Fresno",
+  "hospital": null,
+  "police": {
+    "name": "Huron Police Department",
+    "type": "city_pd",
+    "address": "36389 S. Lassen Avenue, Huron, CA 93234",
+    "phone": "(559) 945-2348",
+    "source_url": "https://oag.ca.gov/fingerprints/locations/huron-police-department",
+    "snippet": "36389 S. Lassen Avenue · Huron, CA 93234 ... Phone: (559) 945-2348",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:29:09.802Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

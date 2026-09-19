@@ -1,0 +1,45 @@
+{
+  "city_slug": "hollister",
+  "county": "San Benito",
+  "hospital": {
+    "name": "Hazel Hawkins Memorial Hospital",
+    "address": "911 Sunset Drive Hollister, CA 95023",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/hazel-hawkins-memorial-hospital/",
+    "snippet": "Address: 911 Sunset Drive Hollister, CA 95023",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Hollister Police Department",
+    "type": "city_pd",
+    "address": "395 Apollo Way, Hollister, CA 95023",
+    "phone": null,
+    "source_url": "https://hollister.ca.gov/government/police/index.php",
+    "snippet": "You may pick up an application for release of information at the Hollister Police Department located at 395 Apollo Way",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Benito",
+    "branch": "Main Courthouse",
+    "serves_note": "Serves San Benito County; located in Hollister, the county seat",
+    "address": "450 Fourth Street Hollister, CA 95023",
+    "phone": "831-636-4057",
+    "source_url": "https://www.sanbenito.courts.ca.gov/general-information/locations-contact-info",
+    "snippet": "Main Courthouse 450 Fourth StreetHollister, CA 95023 (831) 636-4057",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Hollister-Gilroy Area",
+    "address": "740 Renz Ln. Gilroy, CA 95020-9584",
+    "phone": "408-848-2324",
+    "source_url": "https://m.chp.ca.gov/office.aspx?id=725",
+    "snippet": "Hollister - Gilroy 740 Renz Ln. Gilroy, CA 95020-9584 Phone (408) 848-2324",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:28:10.960Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

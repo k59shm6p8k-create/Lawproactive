@@ -1,0 +1,29 @@
+{
+  "city_slug": "san-dimas",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "San Dimas Community Hospital",
+    "address": "1350 West Covina Boulevard, San Dimas, CA 91773",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/san-dimas-community-hospital/",
+    "snippet": "Address: 1350 West Covina Boulevard San Dimas, CA 91773",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Los Angeles County Sheriff's Department – San Dimas Station",
+    "type": "sheriff",
+    "address": null,
+    "phone": null,
+    "source_url": "https://lasd.org/sandimas/",
+    "snippet": "San Dimas Sheriff's Station is located in the eastern portion of Los Angeles County...serves the City of San Dimas and the unincorporated communities",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:04:29.801Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

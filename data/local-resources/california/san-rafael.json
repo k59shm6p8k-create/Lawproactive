@@ -1,0 +1,45 @@
+{
+  "city_slug": "san-rafael",
+  "county": "Marin",
+  "hospital": {
+    "name": "Kaiser Permanente San Rafael Medical Center",
+    "address": "99 Montecillo Road, San Rafael, CA 94903",
+    "phone": "415-444-2400",
+    "source_url": "https://healthy.kaiserpermanente.org/northern-california/facilities/San-Rafael-Medical-Center-100327/departments/emergency-medicine-dlp-103550",
+    "snippet": "Emergency Services · 7 days, 24 hours · 99 Montecillo Rd San Rafael, CA 94903 · Directions · Information · 415-444-2400 (Local)",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "San Rafael Police Department",
+    "type": "city_pd",
+    "address": "1375 Fifth Avenue, San Rafael, CA 94901",
+    "phone": "415-485-3000",
+    "source_url": "https://www.srpd.org/contact",
+    "snippet": "San Rafael Police Department 1375 Fifth Avenue San Rafael, CA 94901 · Lobby Hours: Monday-Friday: 8:00 AM - 5:00 PM Saturday: 10:00 AM - 2:00 PM Sunday: Closed · phone · Email Directory  · Sort by: | Default | First Name | Last Name · Emergency: 911 Non-Emergency: (415) 485-3000",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Marin",
+    "branch": "Civic Center Courthouse",
+    "serves_note": "Serves civil filings for Marin County including San Rafael",
+    "address": "20 North San Pedro Road, San Rafael, CA 94903",
+    "phone": "415-472-3733",
+    "source_url": "https://www.marin.courts.ca.gov/",
+    "snippet": "Address: 20 North San Pedro Road, San Rafael, CA 94903. Phone: (415) 472-3733",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol, Marin Area",
+    "address": "3501 Civic Center Drive, Room C10, San Rafael, CA 94903",
+    "phone": "415-444-7180",
+    "source_url": "https://www.chp.ca.gov/find-an-office/golden-gate-division/offices/(350)-marin",
+    "snippet": "Marin County 3501 Civic Center Drive, Room C10 San Rafael, CA 94903 (415)444-7180",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:07:27.333Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

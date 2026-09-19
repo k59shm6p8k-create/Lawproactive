@@ -1,0 +1,45 @@
+{
+  "city_slug": "el-centro",
+  "county": "Imperial",
+  "hospital": {
+    "name": "El Centro Regional Medical Center",
+    "address": "1415 Ross Avenue, El Centro, CA 92243",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/el-centro-regional-medical-center/",
+    "snippet": "Address: 1415 Ross Avenue El Centro, CA 92243",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "El Centro Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.cityofelcentro.org/1251/Police",
+    "snippet": "El Centro Police Department",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Imperial",
+    "branch": "El Centro Courthouse",
+    "serves_note": "Serves civil, probate, family, juvenile, small claims, and traffic cases for Imperial County",
+    "address": "939 West Main Street, El Centro, CA 92243",
+    "phone": "(760) 482-2200",
+    "source_url": "https://www.imperial.courts.ca.gov/location/el-centro-courthouse",
+    "snippet": "939 West Main Street El Centro, CA 92243 · (760) 482-2200",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Department of Motor Vehicles - El Centro Field Office",
+    "address": "233 North Imperial Avenue, El Centro, CA 92243",
+    "phone": null,
+    "source_url": "https://www.dmv.ca.gov/portal/field-office/el-centro/",
+    "snippet": "Field Office · 233 N Imperial Avenue, El Centro, CA 92243",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:17:08.651Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

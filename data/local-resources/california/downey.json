@@ -1,0 +1,29 @@
+{
+  "city_slug": "downey",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "PIH Health Downey Hospital",
+    "address": "11500 Brookshire Ave, Downey, CA 90241",
+    "phone": null,
+    "source_url": "https://www.pihhealth.org/find-a-location/locations-profile/pih-health-hospital-downey/",
+    "snippet": "PIH Health Downey Hospital 11500 Brookshire Ave. Downey, CA 90241",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Downey Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "562-904-2315",
+    "source_url": "https://www.downeyca.org/our-city/departments/police/welcome-to-the-downey-police-department/department-services",
+    "snippet": "Phone · (562) 904-2315",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:15:54.376Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

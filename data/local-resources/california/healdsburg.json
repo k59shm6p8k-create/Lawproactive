@@ -1,0 +1,38 @@
+{
+  "city_slug": "healdsburg",
+  "county": "Sonoma",
+  "hospital": {
+    "name": "Healdsburg Hospital",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.providence.org/locations/norcal/healdsburg-district-hospital",
+    "snippet": "Healdsburg Hospital is the primary inpatient, outpatient and emergency care provider for the 60,000 residents of Healdsburg, Windsor, Geyserville and Cloverdale.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Healdsburg Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "707-431-3377",
+    "source_url": "https://healdsburg.gov/Directory.aspx?did=28",
+    "snippet": "707-431-3377Link: Police Department Page",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Sonoma",
+    "branch": "Civil and Family Law Courthouse",
+    "serves_note": "Serves Sonoma County; civil filings for Healdsburg processed here",
+    "address": "3055 Cleveland Avenue, Santa Rosa, CA 95403",
+    "phone": null,
+    "source_url": "https://sonoma.courts.ca.gov/divisions/civil",
+    "snippet": "Civil and Family Law Courthouse 3055 Cleveland Ave.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:26:37.921Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

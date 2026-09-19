@@ -1,0 +1,31 @@
+{
+  "city_slug": "carlsbad",
+  "county": "San Diego",
+  "hospital": null,
+  "police": {
+    "name": "Carlsbad Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.carlsbadca.gov/departments/police",
+    "snippet": "The patrol division provides the fundamental base for the City of Carlsbad Police Department's law enforcement services.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Diego",
+    "branch": "North County Division",
+    "serves_note": "Serves Carlsbad and North County San Diego; venue for civil filings in Carlsbad",
+    "address": "325 South Melrose Drive, Vista, CA 92083",
+    "phone": "760-940-4442",
+    "source_url": "https://www.carlsbadca.gov/city-hall/city-attorney/courts",
+    "snippet": "Superior Court - North County Division 325 South Melrose Drive Vista, CA 92083 Business Office: 760-726-9595 Superior Court: 760-940-4442",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:05:30.322Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

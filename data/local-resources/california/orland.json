@@ -1,0 +1,31 @@
+{
+  "city_slug": "orland",
+  "county": "Glenn",
+  "hospital": null,
+  "police": {
+    "name": "Orland Police Department",
+    "type": "city_pd",
+    "address": "817 Fourth Street, Orland, CA 95963",
+    "phone": "530-865-1616",
+    "source_url": "https://www.cityoforland.com/police-department/",
+    "snippet": "We are located at 817 Fourth Street Orland, CA 95963. (530) 865-1616",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Glenn",
+    "branch": "Orland Branch",
+    "serves_note": "Serves Orland and surrounding communities",
+    "address": "821 East South Street, Orland, CA 95963",
+    "phone": null,
+    "source_url": "https://www.glenn.courts.ca.gov/",
+    "snippet": "Orland Branch · 821 East South Street Orland, CA 95963",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:51:06.856Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

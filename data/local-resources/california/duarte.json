@@ -1,0 +1,29 @@
+{
+  "city_slug": "duarte",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "City of Hope Helford Clinical Research Hospital",
+    "address": "1500 Duarte Road, Duarte, CA 91010",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/city-of-hope-helford-clinical-research-hospital/",
+    "snippet": "Address: 1500 Duarte Road Duarte, CA 91010",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Los Angeles County Sheriff's Department (Duarte Satellite Station)",
+    "type": "sheriff",
+    "address": "1042 Huntington Drive, Duarte, CA 91010",
+    "phone": null,
+    "source_url": "https://www.cityofduarte.ca.gov/government/departments/public-safety/emergency-services/sheriff-services",
+    "snippet": "The Duarte Satellite Station located at 1042 Huntington Drive is the launching center for 30 male and female officers that begin and end their shift here to provide Duarte, Bradbury and the unincorporated area west of Duarte with law enforcement services 24 hours a day.",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:16:05.412Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

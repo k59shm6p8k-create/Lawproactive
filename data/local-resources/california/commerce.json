@@ -1,0 +1,22 @@
+{
+  "city_slug": "commerce",
+  "county": "Los Angeles",
+  "hospital": null,
+  "police": {
+    "name": "Los Angeles County Sheriff's Department",
+    "type": "contract_pd",
+    "address": null,
+    "phone": "(323) 264-4151",
+    "source_url": "https://www.ci.commerce.ca.us/visitors/public-safety",
+    "snippet": "The Los Angeles County Sheriff's Department provides police services for the City on contract basis. Please contact the Los Angeles County Sheriff's Department at (323) 264-4151",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:10:14.732Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

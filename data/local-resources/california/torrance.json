@@ -1,0 +1,29 @@
+{
+  "city_slug": "torrance",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Torrance Memorial Medical Center",
+    "address": "3330 Lomita Blvd, Torrance, CA 90505",
+    "phone": "310-784-4997",
+    "source_url": "https://www.torrancememorial.org/locations/locations-profile/emergency-department/",
+    "snippet": "3330 Lomita Blvd Torrance, CA 90505 · Get Driving Directions · Main: 310-784-4997",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Torrance Police Department",
+    "type": "city_pd",
+    "address": "3300 Civic Center Dr., Torrance, CA 90503",
+    "phone": "310-328-3456",
+    "source_url": "https://locator.lacounty.gov/lac/Location/3175442/city-of-torrance-police-department",
+    "snippet": "Address: 3300 Civic Center Dr. Torrance CA 90503 · Website: https://www.torranceca.gov/our-city/police Hours: Monday through Sunday, 24 hours per day. Phones: Animal Control (310) 618-3850, Community Affairs Service/Intake (310) 618-6391, Direct Dispatch - Emergency Number Emergency (310) 320-2611, Non-Emergency Service/Intake (310) 328-3456",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:17:10.363Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

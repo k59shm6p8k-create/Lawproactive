@@ -1,0 +1,22 @@
+{
+  "city_slug": "maricopa",
+  "county": "Kern",
+  "hospital": null,
+  "police": {
+    "name": "Kern County Sheriff's Office",
+    "type": "contract_pd",
+    "address": "801 Stanislaus St, Maricopa, CA 93252",
+    "phone": "(661) 769-8239",
+    "source_url": "https://cityofmaricopa.org/government-2/",
+    "snippet": "KCSO (kernsheriff.org) (661) 769-8239 801 Stanislaus St, Maricopa, CA 93252",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:29:56.879Z",
+    "searches": 5,
+    "stop": "end_turn"
+  }
+}

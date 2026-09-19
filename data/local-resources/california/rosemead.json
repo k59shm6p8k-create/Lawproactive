@@ -1,0 +1,38 @@
+{
+  "city_slug": "rosemead",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "L.A. Downtown Medical Center - Ingleside Campus",
+    "address": "7500 Hellman Avenue, Rosemead, CA 91770",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/silver-lake-medical-center-ingleside-campus-d-p-aph/",
+    "snippet": "Address: 7500 Hellman Avenue Rosemead, CA 91770 · HCAI ID: 106190410 · Facility License Type: General Acute Care Hospital",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Los Angeles County Sheriff's Department - Rosemead Public Safety Center",
+    "type": "sheriff",
+    "address": null,
+    "phone": null,
+    "source_url": "https://rosemeadca.hosted.civiclive.com/government/city_departments/public_safety",
+    "snippet": "Rosemead's Chief of Police (Los Angeles County Sheriff's Department Lieutenant) manages all public safety services including law enforcement services with the Los Angeles County Sheriff's Department",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Pomona Courthouse South (East District)",
+    "serves_note": "Civil jurisdiction over El Monte, La Puente, Rosemead and South El Monte",
+    "address": null,
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3178258/los-angeles-county-superior-court---east-district---pomona-courthouse-south",
+    "snippet": "This state trial court is an L A County Superior Court with jurisdiction over cases that take place in El Monte, La Puente, Rosemead and South El Monte.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:02:21.520Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

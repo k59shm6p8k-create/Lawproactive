@@ -1,0 +1,36 @@
+{
+  "city_slug": "huntington-park",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Community Hospital of Huntington Park",
+    "address": "2623 East Slauson Avenue, Huntington Park, CA 90255",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/community-hospital-of-huntington-park/",
+    "snippet": "Address: 2623 East Slauson Avenue Huntington Park, CA 90255",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Huntington Park Police Department",
+    "type": "city_pd",
+    "address": "6542 Miles Avenue, Huntington Park, CA 90255",
+    "phone": "(323) 584-6254",
+    "source_url": "https://hppolice.org/department-directory/",
+    "snippet": "6542 Miles Avenue Huntington Park, CA 90255 Non-Emergency (323) 584-6254",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - East Los Angeles Office",
+    "address": "1601 Corporate Center Drive, Monterey Park, CA 91754-2020",
+    "phone": "323-980-4600",
+    "source_url": "https://cad.chp.ca.gov/htm.net/locations.htm",
+    "snippet": "EAST LOS ANGELES CHP 1601 Corporate Center Drive Monterey Park, CA 91754-2020 323-980-4600",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:28:58.629Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

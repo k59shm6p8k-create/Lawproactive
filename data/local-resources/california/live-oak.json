@@ -1,0 +1,31 @@
+{
+  "city_slug": "live-oak",
+  "county": "Sutter",
+  "hospital": null,
+  "police": {
+    "name": "Sutter County Sheriff - Live Oak Substation",
+    "type": "contract_pd",
+    "address": null,
+    "phone": "(530) 695-2122",
+    "source_url": "https://www.suttersheriff.gov/divisions/operations-division/live-oak-substation",
+    "snippet": "If you have any concerns or questions, please feel free to call the Live Oak Substation at (530) 695-2122.",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Sutter",
+    "branch": "Sutter County Superior Courthouse",
+    "serves_note": "Serves all of Sutter County including Live Oak for civil filings",
+    "address": "1175 Civic Center Blvd, Yuba City, CA 95993",
+    "phone": "(530) 822-3304",
+    "source_url": "https://www.sutter.courts.ca.gov/divisions/civil",
+    "snippet": "Sutter County Superior Courthouse 1175 Civic Center Blvd Yuba City, CA 95993 Phone: 530-822-3304",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:37:26.513Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

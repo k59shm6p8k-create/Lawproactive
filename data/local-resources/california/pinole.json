@@ -1,0 +1,31 @@
+{
+  "city_slug": "pinole",
+  "county": "Contra Costa",
+  "hospital": null,
+  "police": {
+    "name": "Pinole Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "510-724-8950",
+    "source_url": "https://oag.ca.gov/fingerprints/locations/pinole-police-department",
+    "snippet": "Tennent Avenue · Pinole, CA 94564 · County: Contra Costa · Phone: (510) 724-8950",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Contra Costa",
+    "branch": "George D. Carroll Courthouse",
+    "serves_note": "Serves Pinole for civil filings",
+    "address": null,
+    "phone": null,
+    "source_url": "https://contracosta.courts.ca.gov/location/george-d-carroll-courthouse",
+    "snippet": "This court serves the communities of Crockett, El Cerrito, El Sobrante, Hercules, Kensington, North Richmond, Pinole, Point Richmond, Port Costa, Richmond, Rodeo, Rollingwood, San Pablo, and Tilden Park North.",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:54:46.151Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

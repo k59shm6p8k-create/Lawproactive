@@ -1,0 +1,22 @@
+{
+  "city_slug": "seal-beach",
+  "county": "Orange",
+  "hospital": null,
+  "police": {
+    "name": "Seal Beach Police Department",
+    "type": "city_pd",
+    "address": "911 Seal Beach Boulevard, Seal Beach, CA 90740",
+    "phone": null,
+    "source_url": "https://sealbeachpd.com/",
+    "snippet": "911 Seal Beach Boulevard Seal Beach, CA 90740",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:10:41.196Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

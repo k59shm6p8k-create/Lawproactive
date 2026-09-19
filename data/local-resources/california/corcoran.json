@@ -1,0 +1,22 @@
+{
+  "city_slug": "corcoran",
+  "county": "Kings",
+  "hospital": null,
+  "police": {
+    "name": "Corcoran Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://cityofcorcoran.ca.gov/departments/police/index.php",
+    "snippet": "Corcoran P.D.",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:10:50.446Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

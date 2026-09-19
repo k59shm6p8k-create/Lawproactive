@@ -1,0 +1,22 @@
+{
+  "city_slug": "eastvale",
+  "county": "Riverside",
+  "hospital": null,
+  "police": {
+    "name": "Riverside County Sheriff's Office (Jurupa Valley Station)",
+    "type": "contract_pd",
+    "address": "7477 Mission Boulevard, Jurupa Valley, CA 92509",
+    "phone": "951.776.1099",
+    "source_url": "https://www.eastvaleca.gov/services/law-enforcement-services",
+    "snippet": "The officers responsible for Eastvale are housed at the Jurupa Valley Sheriff's Station located at 7477 Mission Boulevard, Jurupa Valley, CA 92509. For non-emergencies, please reach out at 951.776.1099",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:16:48.120Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "city_slug": "rancho-cordova",
+  "county": "Sacramento",
+  "hospital": null,
+  "police": {
+    "name": "Rancho Cordova Police Department",
+    "type": "contract_pd",
+    "address": "2897 Kilgore Road, Rancho Cordova, CA 95670",
+    "phone": "(916) 875-9654",
+    "source_url": "https://oag.ca.gov/fingerprints/locations/rancho-cordova-police-dept-sacramento-sheriff-dept",
+    "snippet": "Address: 2897 Kilgore Road · Rancho Cordova, CA 95670 ... Phone: (916) 875-9654",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:57:43.613Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "city_slug": "burbank",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Providence Saint Joseph Medical Center",
+    "address": null,
+    "phone": "818-847-4055",
+    "source_url": "https://www.providence.org/locations/socal/saint-joseph-medical-center/emergency-care",
+    "snippet": "To contact the ER group contracted to our hospital, please call 818-847-4055.",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Burbank Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "818-238-3130",
+    "source_url": "https://www.burbankca.gov/web/police-department",
+    "snippet": "Business Calls Service/Intake (818) 238-3130",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "North Central District - Burbank",
+    "serves_note": "Serves Burbank for civil cases over $25,000 and all criminal, traffic matters",
+    "address": "300 East Olive, Burbank, CA 91502",
+    "phone": null,
+    "source_url": "https://www.lacourt.ca.gov/",
+    "snippet": "Burbank Courthouse 300 East Olive Burbank, CA 91502",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:03:01.888Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

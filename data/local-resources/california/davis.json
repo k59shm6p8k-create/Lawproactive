@@ -1,0 +1,36 @@
+{
+  "city_slug": "davis",
+  "county": "Yolo",
+  "hospital": {
+    "name": "Sutter Davis Hospital",
+    "address": null,
+    "phone": "530-750-5210",
+    "source_url": "https://www.sutterhealth.org/find-location/facility/sutter-davis-hospital-1043246737",
+    "snippet": "For information, call 530-750-5210.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Davis Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "530-747-5400",
+    "source_url": "https://www.cityofdavis.org/city-hall/police-department",
+    "snippet": "If you need assistance (on public or private property) with someone making you feel unsafe, is acting aggressively or blocking a doorway, etc., then please call 911 in an emergency or 530-747-5400 for a non-emergency.",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California DMV - Davis Field Office",
+    "address": "505 Pole Line Road, Davis, CA 95616",
+    "phone": null,
+    "source_url": "https://www.dmv.ca.gov/portal/field-office/davis/",
+    "snippet": "Field Office · 505 Pole Line Road, Davis, CA 95616",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:13:58.901Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

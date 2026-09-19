@@ -1,0 +1,31 @@
+{
+  "city_slug": "dixon",
+  "county": "Solano",
+  "hospital": null,
+  "police": {
+    "name": "Dixon Police Department",
+    "type": "city_pd",
+    "address": "201 West A Street, Dixon, CA 95620",
+    "phone": "707-678-7070",
+    "source_url": "https://www.dixonpoliceca.gov/MissionStatement",
+    "snippet": "Dixon Police Department 201 West A Street Dixon, CA 95620 Phone: 707-678-7070",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Solano",
+    "branch": "Old Solano Courthouse",
+    "serves_note": "Serves Dixon for civil filings",
+    "address": "580 Texas Street, Fairfield, CA 94533",
+    "phone": null,
+    "source_url": "https://solano.courts.ca.gov/civil-forms-fees-filing-instructions",
+    "snippet": "Submit completed form to the Division via email at: CivilDivision@solano.ca.gov or in person, via drop box, or mail to 580 Texas St., Fairfield, CA 94533.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:15:23.441Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

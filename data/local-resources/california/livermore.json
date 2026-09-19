@@ -1,0 +1,22 @@
+{
+  "city_slug": "livermore",
+  "county": "Alameda",
+  "hospital": null,
+  "police": {
+    "name": "Livermore Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://police.livermoreca.gov/contact",
+    "snippet": "Contact the Records Division at (925)371-4909 Monday – Friday 8:00a.m. to 5:00p.m.",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:37:38.018Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "city_slug": "morgan-hill",
+  "county": "Santa Clara",
+  "hospital": {
+    "name": "St. Louise Regional Hospital",
+    "address": "9400 No Name Uno, Gilroy, CA 95020",
+    "phone": "408-848-2000",
+    "source_url": "https://slrh.scvh.org/healthcare-services/emergency-department",
+    "snippet": "Emergency Department Contact · 9400 No Name Uno Gilroy, CA 95020 · (408) 848-2000",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Morgan Hill Police Department",
+    "type": "city_pd",
+    "address": "17605 Monterey Street, Morgan Hill, CA 95037",
+    "phone": "408-776-7300",
+    "source_url": "https://www.morganhill.ca.gov/129/Police-Department",
+    "snippet": "The department functions out of its main station situated at 17605 Monterey Street, Morgan Hill, California, 95037. Those in requirement can reach the department via phone by calling 408-776-7300.",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "DMV Kiosk",
+    "address": "840 E Dunne Avenue, Morgan Hill, CA 95037",
+    "phone": null,
+    "source_url": "https://www.waze.com/live-map/directions/us/ca/morgan-hill/california-dmv-kiosk?to=place.ChIJX1wTD2chjoARu2dUvvB_9G0",
+    "snippet": "California DMV Kiosk, 840 E Dunne Ave, Morgan Hill",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:46:16.641Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

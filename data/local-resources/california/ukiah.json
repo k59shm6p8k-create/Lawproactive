@@ -1,0 +1,45 @@
+{
+  "city_slug": "ukiah",
+  "county": "Mendocino",
+  "hospital": {
+    "name": "Adventist Health Ukiah Valley",
+    "address": "275 Hospital Drive, Ukiah, CA 95482",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/adventist-health-ukiah-valley/",
+    "snippet": "Address: 275 Hospital Drive Ukiah, CA 95482",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Ukiah Police Department",
+    "type": "city_pd",
+    "address": "300 Seminary Avenue, Ukiah, CA 95482",
+    "phone": "707-463-6241",
+    "source_url": "https://oag.ca.gov/fingerprints/locations/ukiah-police-department",
+    "snippet": "300 Seminary Avenue · Ukiah, CA 95482 ... Phone: (707) 463-6241",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Mendocino",
+    "branch": "Mendocino County Courthouse",
+    "serves_note": "Serves Mendocino County for civil filings; Ukiah courthouse location serves the county including Ukiah",
+    "address": "100 North State Street, Room 107, Ukiah, CA 95482",
+    "phone": null,
+    "source_url": "https://www.mendocino.courts.ca.gov/divisions/civil-division",
+    "snippet": "Mendocino County Courthouse, 100 North State Street, Room 107, Ukiah CA 95482",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Ukiah",
+    "address": "540 South Orchard Avenue, Ukiah, CA 95482",
+    "phone": "707-467-4420",
+    "source_url": "https://www.chp.ca.gov/find-an-office/northern-division/150-ukiah/",
+    "snippet": "UKIAH CHP 540 South Orchard Avenue Ukiah 95482 707-467-4420",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:19:18.294Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

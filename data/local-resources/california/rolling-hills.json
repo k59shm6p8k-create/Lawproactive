@@ -1,0 +1,31 @@
+{
+  "city_slug": "rolling-hills",
+  "county": "Los Angeles",
+  "hospital": null,
+  "police": {
+    "name": "Lomita Sheriff's Station",
+    "type": "contract_pd",
+    "address": "26123 Narbonne Avenue, Lomita, CA 90717",
+    "phone": "310-539-1661",
+    "source_url": "https://www.rolling-hills.org/government/sheriff/index.php",
+    "snippet": "Lomita Station of the Los Angeles County Sheriff's Department 26123 Narbonne Ave., Lomita, CA 90717 Phone: 310-539-1661",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Southwest District - Torrance Courthouse",
+    "serves_note": "Serves Rolling Hills, Rolling Hills Estates, Palos Verdes Estates, Rancho Palos Verdes, Lomita, and surrounding areas",
+    "address": "825 Maple Ave., Torrance, CA 90503",
+    "phone": "310-222-8809",
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176785/los-angeles-county-superior-court---southwest-district---torrance-courthouse",
+    "snippet": "Address: 825 Maple Ave. Torrance CA 90503 ... Civil cases Service/Intake (310) 222-8809",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:01:57.108Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

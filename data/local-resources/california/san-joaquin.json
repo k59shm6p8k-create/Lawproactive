@@ -1,0 +1,45 @@
+{
+  "city_slug": "san-joaquin",
+  "county": "Fresno",
+  "hospital": {
+    "name": "San Joaquin General Hospital",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.sanjoaquingeneral.org/emergency",
+    "snippet": "San Joaquin General Hospital's 24/7 emergency department provides immediate care for serious illnesses and injuries throughout San Joaquin County.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Fresno County Sheriff's Office",
+    "type": "sheriff",
+    "address": null,
+    "phone": null,
+    "source_url": "https://sjsheriff.org/patrol-division",
+    "snippet": "The Patrol Division has 138 deputies providing law enforcement services to the community.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Fresno",
+    "branch": "B.F. Sisk Courthouse",
+    "serves_note": "Civil cases for Fresno County, including San Joaquin city",
+    "address": "1100 Van Ness Avenue, Fresno, CA 93724",
+    "phone": "559-457-1900",
+    "source_url": "https://www.fresno.courts.ca.gov/divisions/civil/civil-unlimited",
+    "snippet": "Unlimited Civil cases are heard at the B.F. Sisk Courthouse. 1100 Van Ness Avenue Fresno, CA 93721-2220 Telephone: (559) 457-1900",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Fresno Area",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/central-division/435-fresno/",
+    "snippet": "Our officers patrol over 4,045 miles of state highways, freeways, and unincorporated roadways, serving the communities of Clovis, Reedley, Sanger, Selma, Kingsburg, Kerman, Fresno, Parlier, Orange Cove, Mendota, Fowler, Del Rey, San Joaquin, Auberry, Shaver Lake, Caruthers, Biola, Easton, Riverdale, Laton, and Tranquility.",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:30:12.613Z",
+    "searches": 5,
+    "stop": "end_turn"
+  }
+}

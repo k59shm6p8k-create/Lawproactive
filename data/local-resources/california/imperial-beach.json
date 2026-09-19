@@ -1,0 +1,36 @@
+{
+  "city_slug": "imperial-beach",
+  "county": "San Diego",
+  "hospital": {
+    "name": "Scripps Mercy Hospital Chula Vista",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.scripps.org/locations/er/scripps-mercy-hospital-chula-vista-emergency-room",
+    "snippet": "Located less than 10 miles from the US-Mexico border, Scripps Mercy serves the cities of Chula Vista, Otay Mesa, National City, Imperial Beach, Bonita and beyond.",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "San Diego County Sheriff - Imperial Beach Substation",
+    "type": "sheriff",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.sdsheriff.gov/Home/Components/FacilityDirectory/FacilityDirectory/20/61",
+    "snippet": "Since 1983, it has also provided law enforcement services for the city of Imperial Beach, which is the most southwesterly city in the continental United States.",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "CHP El Centro Area Office",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/border-division/625-el-centro/",
+    "snippet": "The El Centro Area office is located in Imperial County in the southeast region of California.",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:29:34.476Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

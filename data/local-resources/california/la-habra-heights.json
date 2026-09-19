@@ -1,0 +1,38 @@
+{
+  "city_slug": "la-habra-heights",
+  "county": "Los Angeles",
+  "hospital": null,
+  "police": {
+    "name": "Los Angeles County Sheriff's Department - Industry Station",
+    "type": "contract_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.lhhcity.org/180/Sheriffs-Department",
+    "snippet": "The Los Angeles County Sheriff's Department (LASD) Industry Station provides law enforcement services for the City of La Habra Heights.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Southeast District - Whittier Courthouse",
+    "serves_note": "Serves La Habra Heights, Pico Rivera, Santa Fe Springs and Whittier",
+    "address": "7339 S. Painter Ave. Whittier CA 90602",
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176788/los-angeles-county-superior-court---southeast-district---whittier-courthouse",
+    "snippet": "This state trial court is an LA County Superior Court with jurisdiction over cases that take place in La Habra Heights, Pico Rivera, Santa Fe Springs and Whittier. Address: 7339 S. Painter Ave. Whittier CA 90602",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Santa Fe Springs Area",
+    "address": "10051 Orr and Day Rd. Santa Fe Springs, CA 90670-3597",
+    "phone": null,
+    "source_url": "https://m.chp.ca.gov/office.aspx",
+    "snippet": "Santa Fe Springs 10051 Orr and Day Rd. Santa Fe Springs, CA 90670-3597",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:32:53.717Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

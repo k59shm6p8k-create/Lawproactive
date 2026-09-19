@@ -1,0 +1,29 @@
+{
+  "city_slug": "fullerton",
+  "county": "Orange",
+  "hospital": {
+    "name": "Providence St. Jude Medical Center",
+    "address": "101 E. Valencia Mesa Dr., Fullerton, CA 92835",
+    "phone": "714-871-3280",
+    "source_url": "https://www.providence.org/locations/socal/st-jude-medical-center/departments",
+    "snippet": "Emergency Services · 101 E Valencia Mesa Dr, Fullerton, CA 92835 · 714-871-3280",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Fullerton Police Department",
+    "type": "city_pd",
+    "address": "237 W. Commonwealth Ave, Fullerton, CA 92832",
+    "phone": null,
+    "source_url": "https://www.cityoffullerton.com/Home/Components/FacilityDirectory/FacilityDirectory/150/",
+    "snippet": "Address:237 W. Commonwealth Ave Fullerton, CA 92832",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:22:36.022Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

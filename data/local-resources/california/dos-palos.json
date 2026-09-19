@@ -1,0 +1,38 @@
+{
+  "city_slug": "dos-palos",
+  "county": "Merced",
+  "hospital": {
+    "name": "Dos Palos Memorial Hospital",
+    "address": "2118 Marguerite Street, Dos Palos, CA 93620",
+    "phone": "209-392-6106",
+    "source_url": "https://www.wellness.com/dir/3241999/hospital/dos-palos-memorial-hospital/dos-palos/ca",
+    "snippet": "Dos Palos Memorial Hospital is a Hospital at 2118 Marguerite Street, Dos Palos, CA 93620. Please call Dos Palos Memorial Hospital at (209) 392-6106",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Dos Palos Police Department",
+    "type": "city_pd",
+    "address": "1546 Golden Gate Avenue, Dos Palos, CA 93620",
+    "phone": null,
+    "source_url": "https://www.dospalos.gov/departments/police",
+    "snippet": "Address: 1546 Golden Gate Ave. Dos Palos, CA 93620",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Merced",
+    "branch": "Los Banos Division",
+    "serves_note": "Dos Palos civil filings handled by Los Banos Division; Dos Palos branch no longer hearing matters",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.merced.courts.ca.gov/divisions/los-banos",
+    "snippet": "Notice: The Dos Palos and Gustine branches will no longer be hearing matters. All matters will be handled through the Los Banos division.",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:15:42.625Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

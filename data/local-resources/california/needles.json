@@ -1,0 +1,38 @@
+{
+  "city_slug": "needles",
+  "county": "San Bernardino",
+  "hospital": {
+    "name": "Colorado River Medical Center",
+    "address": "1401 Bailey Avenue, Needles, CA 92363",
+    "phone": "(760) 326-7100",
+    "source_url": "https://crmccares.com/contact-page/",
+    "snippet": "Colorado River Medical Center 1401 Bailey Avenue, Needles, California 92363, United States (760) 326-7100",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "San Bernardino County Sheriff's Department - Colorado River Station",
+    "type": "contract_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://wp.sbcounty.gov/sheriff/patrol-stations/needles/",
+    "snippet": "The city contracted with the San Bernardino County Sheriff's Department for law enforcement services in December 1989",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Bernardino",
+    "branch": "Needles District",
+    "serves_note": "Handles family law, small claims, unlawful detainers, domestic violence, civil harassment, traffic matters, and other civil cases for Needles area",
+    "address": null,
+    "phone": null,
+    "source_url": "https://sanbernardino.courts.ca.gov/location/needles-district",
+    "snippet": "Superior Court Commissioners hear matters including, but not limited to, family law, probate (limited filings), small claims, unlawful detainers (eviction), domestic violence, civil harassment, and traffic matters",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:47:33.214Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

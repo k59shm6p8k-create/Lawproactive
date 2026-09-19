@@ -1,0 +1,31 @@
+{
+  "city_slug": "half-moon-bay",
+  "county": "San Mateo",
+  "hospital": null,
+  "police": {
+    "name": "San Mateo County Sheriff's Office (Coastside Patrol Bureau)",
+    "type": "sheriff",
+    "address": "537 Kelly Avenue, Half Moon Bay, CA 94019",
+    "phone": "(650) 726-8288",
+    "source_url": "https://www.halfmoonbay.gov/directory.aspx?did=17",
+    "snippet": "537 Kelly Avenue Half Moon Bay, CA 94019Phone: (650) 726-8288",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Mateo",
+    "branch": null,
+    "serves_note": null,
+    "address": null,
+    "phone": null,
+    "source_url": "https://sanmateo.courts.ca.gov/locations",
+    "snippet": "Southern Branch: Hall of Justice and Records · 400 County Center, Redwood City, CA 94063 (650) 261-5100 · Northern Branch · 1050 Mission Road, South San Francisco, CA 94080 (650) 261-5100",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:25:35.769Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

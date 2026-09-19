@@ -1,0 +1,29 @@
+{
+  "city_slug": "stanton",
+  "county": "Orange",
+  "hospital": null,
+  "police": {
+    "name": "Orange County Sheriff's Department - Stanton Police Services",
+    "type": "sheriff",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.ocsheriff.gov/patrol-areas/stanton",
+    "snippet": "The Orange County Sheriff's Department has provided law enforcement services for Stanton since February of 1988",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "CHP Orange County Communications Center",
+    "address": "6681 Marine Way, Irvine, CA 92618",
+    "phone": "949-784-6700",
+    "source_url": "https://cad.chp.ca.gov/HTM.Net/locations.htm",
+    "snippet": "CHP ORANGE COUNTY COMMUNICATIONS CENTER 6681 Marine Way Irvine 92618 949-784-6700",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:14:36.060Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "city_slug": "hemet",
+  "county": "Riverside",
+  "hospital": {
+    "name": "Hemet Global Medical Center",
+    "address": "1117 East Devonshire, Hemet, CA 92543",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/hemet-global-medical-center/",
+    "snippet": "Address: 1117 East Devonshire Hemet, CA 92543",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Hemet Police Department",
+    "type": "city_pd",
+    "address": "450 E Latham Avenue, Hemet, CA 92543",
+    "phone": "951-765-2400",
+    "source_url": "https://www.hemetca.gov/directory.aspx?did=33",
+    "snippet": "450 E Latham Avenue Hemet CA 92543 Phone: (951) 765-2400",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Riverside",
+    "branch": "Hemet Courthouse",
+    "serves_note": "Limited civil, juvenile, and traffic matters; civil filings relocated to Menifee Justice Center",
+    "address": null,
+    "phone": "951-306-3561",
+    "source_url": "https://www.hemetca.gov/Faq.aspx?QID=77",
+    "snippet": "If you have questions regarding traffic tickets, small claims, or family law you can contact the Riverside Superior Court at (951) 306-3561.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:26:51.226Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "city_slug": "la-habra",
+  "county": "Orange",
+  "hospital": null,
+  "police": {
+    "name": "La Habra Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.lahabraca.gov/395/About-Us",
+    "snippet": "Since 1925, the La Habra Police Department has been dedicated to providing the residents of this community with a safe environment in which to live and work.",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:32:41.550Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

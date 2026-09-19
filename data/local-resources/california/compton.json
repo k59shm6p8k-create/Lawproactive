@@ -1,0 +1,38 @@
+{
+  "city_slug": "compton",
+  "county": "Los Angeles",
+  "hospital": null,
+  "police": {
+    "name": "Los Angeles County Sheriff's Department - Compton Station",
+    "type": "sheriff",
+    "address": null,
+    "phone": null,
+    "source_url": "https://lasd.org/compton/",
+    "snippet": "Serving the areas of: City of Compton, East Rancho Dominguez, Unincorporated Gardena, Rosewood.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "South Central District - Compton Courthouse",
+    "serves_note": "Serves Compton and surrounding areas in Los Angeles County",
+    "address": "200 West Compton Blvd, Compton, CA 90220",
+    "phone": null,
+    "source_url": "https://www.lacourt.ca.gov/apps/courthouse/com/courtrooms",
+    "snippet": "Compton Courthouse 200 West Compton Blvd. Compton, CA 90220",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Department of Motor Vehicles - Compton Field Office",
+    "address": "2111 South Santa Fe Avenue, Compton, CA 90221",
+    "phone": null,
+    "source_url": "https://www.dmv.ca.gov/portal/field-office/compton/",
+    "snippet": "Field Office · 2111 South Santa Fe Avenue, Compton, CA 90221",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:10:28.813Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

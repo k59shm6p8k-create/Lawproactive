@@ -1,0 +1,29 @@
+{
+  "city_slug": "biggs",
+  "county": "Butte",
+  "hospital": {
+    "name": "Orchard Hospital",
+    "address": "240 Spruce Street, Gridley, CA",
+    "phone": "(530) 846-9000",
+    "source_url": "https://orchardhospital.com/clinic-services/",
+    "snippet": "240 Spruce Street, Gridley CAinfo@orchardhospital.com(530) 846-9000",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Gridley Police Department",
+    "type": "contract_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.biggs-ca.gov/City-Services/Public-Safety/Gridley-Police-Department/index.html",
+    "snippet": "July 1, 2025, The Gridley Police Department began providing law enforcement services in the City of Biggs. This includes 24/7 law enforcement and response.",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:00:55.327Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

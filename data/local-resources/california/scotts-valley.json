@@ -1,0 +1,22 @@
+{
+  "city_slug": "scotts-valley",
+  "county": "Santa Cruz",
+  "hospital": null,
+  "police": {
+    "name": "Scotts Valley Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.scottsvalley.gov/431/Police-Department",
+    "snippet": "Your Scotts Valley Police Department is committed to exemplary customer service",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:10:29.044Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

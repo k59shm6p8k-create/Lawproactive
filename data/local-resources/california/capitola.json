@@ -1,0 +1,29 @@
+{
+  "city_slug": "capitola",
+  "county": "Santa Cruz",
+  "hospital": {
+    "name": "Dominican Hospital",
+    "address": "1555 Soquel Drive, Santa Cruz, CA 95065",
+    "phone": "833-931-0460",
+    "source_url": "https://www.findhelp.org/dignity-health--santa-cruz-ca--emergency-services/6166581216673792?postal=95010",
+    "snippet": "Dominican Hospital · 1.93 miles away · 1555 Soquel Drive Santa Cruz, CA 95065 · Phone 833-931-0460",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Capitola Police Department",
+    "type": "city_pd",
+    "address": "422 Capitola Avenue, Capitola, CA 95010",
+    "phone": "831-475-4935",
+    "source_url": "https://www.discoverpolicing.org/agency/capitola-police-department/",
+    "snippet": "Address: 422 Capitola Avenue, Capitola, CA 95010 · Phone: 831-475-4935",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:05:17.348Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

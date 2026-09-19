@@ -1,0 +1,22 @@
+{
+  "city_slug": "campbell",
+  "county": "Santa Clara",
+  "hospital": null,
+  "police": {
+    "name": "Campbell Police Department",
+    "type": "city_pd",
+    "address": "70 N. First Street, Campbell, CA 95008",
+    "phone": "(408) 866-2101",
+    "source_url": "https://www.campbellca.gov/1526/Police-Department",
+    "snippet": "70 N. First Street Campbell, CA 95008 Emergency - 911 or (408) 378-8161 Non-emergency - (408)866-2101",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:04:56.930Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

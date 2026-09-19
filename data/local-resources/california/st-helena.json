@@ -1,0 +1,36 @@
+{
+  "city_slug": "st-helena",
+  "county": "Napa",
+  "hospital": {
+    "name": "Adventist Health St. Helena",
+    "address": "10 Woodland Road, St. Helena, CA 94574",
+    "phone": "707-963-3611",
+    "source_url": "https://www.adventisthealth.org/st-helena/locations/",
+    "snippet": "10 Woodland Road, St. Helena, California 94574 · View details 707-963-3611",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "St. Helena Police Department",
+    "type": "city_pd",
+    "address": "1088 College Avenue, St. Helena, CA 94574",
+    "phone": "707-967-2850",
+    "source_url": "https://www.cityofsthelena.gov/235/Police",
+    "snippet": "Physical Address 1088 College Avenue St. Helena, CA 94574 ... Please contact our non-emergency line (707-967-2850)",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Napa Office",
+    "address": "975 Golden Gate Drive, Napa, CA 94558-9601",
+    "phone": null,
+    "source_url": "https://m.chp.ca.gov/office.aspx",
+    "snippet": "Napa 975 Golden Gate Dr. Napa, CA 94558-9601",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:14:24.617Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

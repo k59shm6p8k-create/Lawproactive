@@ -1,0 +1,45 @@
+{
+  "city_slug": "victorville",
+  "county": "San Bernardino",
+  "hospital": {
+    "name": "Desert Valley Hospital",
+    "address": "16850 Bear Valley Road, Victorville, CA 92395",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/desert-valley-hospital/",
+    "snippet": "Address: 16850 Bear Valley Road Victorville, CA 92395",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Victorville Police Department",
+    "type": "contract_pd",
+    "address": "14200 Amargosa Road, Victorville, CA 92392",
+    "phone": "(760) 241-2911",
+    "source_url": "https://wp.sbcounty.gov/sheriff/patrol-stations/victorville/",
+    "snippet": "The Victorville Station has the distinction of being San Bernardino County Sheriff's Department's first contract city operation, serving as the Victorville Police Department since 1962... Address14200 Amargosa RoadVictorville, California 92392 Phone:(760) 241-2911",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Bernardino",
+    "branch": "Civil Division of the Victorville District",
+    "serves_note": "Serves Victorville and surrounding High Desert communities for civil filings",
+    "address": "14455 Civic Drive, Victorville, CA 92392",
+    "phone": null,
+    "source_url": "https://sanbernardino.courts.ca.gov/location/civil-division-victorville-district",
+    "snippet": "Superior Court of California County of San Bernardino Civil Division – Victorville District 14455 Civic Drive Victorville, CA 92392",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Victorville Area",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/inland-division/850-victorville/",
+    "snippet": "The California Highway Patrol (CHP) Victorville Area is proud to serve the High Desert communities of Apple Valley, Victorville, Hesperia, Phelan, Pinon Hills, Lucerne Valley, Wrightwood, Silver Lakes, Helendale, Ore Grande, Spring Valley Lake, Oak Hills and Adelanto.",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:20:38.538Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

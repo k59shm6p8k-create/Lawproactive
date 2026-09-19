@@ -1,0 +1,29 @@
+{
+  "city_slug": "paradise",
+  "county": "Butte",
+  "hospital": null,
+  "police": {
+    "name": "Paradise Police Department",
+    "type": "city_pd",
+    "address": "5595 Black Olive Drive, Paradise, CA 95969",
+    "phone": "(530) 872-6161",
+    "source_url": "https://www.paradiseca.gov/police/custom-contact-page/police-department-contact-information",
+    "snippet": "5595 Black Olive Drive Paradise, CA 95969 · (530) 872-6161",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Department of Motor Vehicles - Paradise",
+    "address": "5921 Clark Road, Paradise, CA 95969",
+    "phone": "(800) 777-0133",
+    "source_url": "https://amvsonline.com/office/details/601",
+    "snippet": "5921 Clark Road, Paradise, CA 95969 · (800)777-0133",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:53:00.605Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

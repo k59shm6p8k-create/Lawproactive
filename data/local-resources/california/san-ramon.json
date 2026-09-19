@@ -1,0 +1,29 @@
+{
+  "city_slug": "san-ramon",
+  "county": "Contra Costa",
+  "hospital": {
+    "name": "San Ramon Regional Medical Center",
+    "address": "6001 Norris Canyon Road, San Ramon, CA 94583",
+    "phone": "(925) 275-9200",
+    "source_url": "https://www.sanramonmedctr.com/services/emergency-room/emergency-room-locations",
+    "snippet": "Emergency Hospital · San Ramon Regional Medical Center · 6001 Norris Canyon Road, San Ramon, CA 94583 · (925) 275-9200",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "San Ramon Police Department",
+    "type": "city_pd",
+    "address": "2401 Crow Canyon Road, San Ramon, CA 94583",
+    "phone": "(925) 973-2700",
+    "source_url": "https://www.sanramon.ca.gov/our_city/departments_and_divisions/police/about_srpd",
+    "snippet": "Emergency: 9-1-1 Main: (925) 973-2700 Fax: (925) 838-2925 Office Hours: Monday - Friday 8:00 am - 5:00 pm Address: 2401 Crow Canyon Rd San Ramon, CA 94583",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:07:38.220Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

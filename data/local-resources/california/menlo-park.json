@@ -1,0 +1,38 @@
+{
+  "city_slug": "menlo-park",
+  "county": "San Mateo",
+  "hospital": {
+    "name": "Menlo Park Surgical Hospital",
+    "address": "570 Willow Rd, Menlo Park, CA 94025",
+    "phone": "(650) 324-8500",
+    "source_url": "https://www.medicalrecords.com/hospital/menlo-park-surgical-hospital",
+    "snippet": "570 Willow Rd, Menlo Park, CA 94025, USA · (650) 324-8500",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Menlo Park Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.menlopark.gov/Government/Departments/Police",
+    "snippet": "The Police Department strives to provide the best possible police services. For more than 80 years, the department has worked hard every day to protect those who live, work and visit Menlo Park.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Mateo",
+    "branch": "Southern Branch (Hall of Justice and Records)",
+    "serves_note": "Serves Menlo Park and surrounding cities in central San Mateo County",
+    "address": "400 County Center, Redwood City, CA 94063",
+    "phone": null,
+    "source_url": "https://sanmateo.courts.ca.gov/general-information/locations-contact-info/maps-directions",
+    "snippet": "Southern Branch: Hall of Justice and Records 400 County Center Redwood City, CA 94063 Executive Officer/Clerk and Jury Commissioner, Administration, Civil, Criminal, Family Law, Family Law Facilitators, Jury, Probate, Records Management and Small Claims.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:42:55.880Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

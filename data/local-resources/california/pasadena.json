@@ -1,0 +1,45 @@
+{
+  "city_slug": "pasadena",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Huntington Hospital",
+    "address": "100 W. California Blvd., Pasadena, CA 91105",
+    "phone": null,
+    "source_url": "https://www.cedars-sinai.org/locations/emergency-room-huntington-health-7063853.html",
+    "snippet": "100 W. California Blvd. Pasadena, CA 91105",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Pasadena Police Department",
+    "type": "city_pd",
+    "address": "207 N. Garfield Ave., Pasadena, CA 91101",
+    "phone": null,
+    "source_url": "https://www.cityofpasadena.net/police/",
+    "snippet": "207 N. Garfield Ave. Pasadena CA 91101",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Northeast District - Pasadena",
+    "serves_note": "Handles civil, criminal, small claims, and adult and juvenile cases for Altadena, Arcadia, Monrovia, Pasadena, and Sierra Madre",
+    "address": null,
+    "phone": "(626) 356-5415",
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176782/los-angeles-county-superior-court---northeast-district---pasadena",
+    "snippet": "Civil/Small Claims Service/Intake (626) 356-5415",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Altadena Area Office",
+    "address": "2130 Windsor Ave., Altadena, CA 91001",
+    "phone": "(626) 296-8100",
+    "source_url": "https://m.chp.ca.gov/office.aspx?id=575",
+    "snippet": "Altadena 2130 Windsor Ave. Altadena, CA 91001-5369 Phone (626) 296-8100",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:53:22.401Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

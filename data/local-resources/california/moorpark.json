@@ -1,0 +1,29 @@
+{
+  "city_slug": "moorpark",
+  "county": "Ventura",
+  "hospital": null,
+  "police": {
+    "name": "Moorpark Police Department",
+    "type": "contract_pd",
+    "address": "610 Spring Road, Moorpark, CA 93021",
+    "phone": "805-532-2700",
+    "source_url": "https://sheriff.venturacounty.gov/station/",
+    "snippet": "The Moorpark Police Department is located at 610 Spring Road, and our phone number is (805) 532-2700.",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Moorpark Area",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/coastal-division/770-moorpark/",
+    "snippet": "The California Highway Patrol (CHP), Moorpark Area office, is housed within the Moorpark Police Services Center building in the city of Moorpark located in Ventura County.",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:45:40.073Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

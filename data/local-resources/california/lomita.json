@@ -1,0 +1,38 @@
+{
+  "city_slug": "lomita",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Torrance Memorial Medical Center",
+    "address": "3330 Lomita Blvd, Torrance, CA 90505",
+    "phone": "310-784-4997",
+    "source_url": "https://www.torrancememorial.org/locations/locations-profile/Torrance%20Memorial%20Emergency%20Department/?id=115",
+    "snippet": "3330 Lomita Blvd Torrance, CA 90505 · Main: 310-784-4997 · Emergency Care",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Los Angeles County Sheriff's Department – Lomita Station",
+    "type": "sheriff",
+    "address": null,
+    "phone": "310-539-1661",
+    "source_url": "https://lasd.org/lomita/",
+    "snippet": "contact Lomita Station via phone at (310) 539-1661",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Southwest District – Torrance Courthouse",
+    "serves_note": "Serves Lomita and surrounding South Bay cities for civil, criminal, and traffic cases",
+    "address": null,
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176785/los-angeles-county-superior-court---southwest-district---torrance-courthouse",
+    "snippet": "jurisdiction over cases that take place in Gardena, Hermosa Beach, Lawndale, Lomita, Manhattan Beach, Palos Verdes Estates",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:38:19.780Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

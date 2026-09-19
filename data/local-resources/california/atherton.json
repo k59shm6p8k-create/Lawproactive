@@ -1,0 +1,22 @@
+{
+  "city_slug": "atherton",
+  "county": "San Mateo",
+  "hospital": null,
+  "police": {
+    "name": "Atherton Police Department",
+    "type": "city_pd",
+    "address": "80 Fair Oaks Lane, Atherton, CA 94027",
+    "phone": "650-688-6500",
+    "source_url": "https://www.athertonca.gov/Directory/Home/DepartmentListing?DID=12",
+    "snippet": "Physical Address: 80 Fair Oaks Lane Atherton, CA 94027 ... Phone: 650-688-6500",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:56:52.805Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

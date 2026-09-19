@@ -1,0 +1,45 @@
+{
+  "city_slug": "sonora",
+  "county": "Tuolumne",
+  "hospital": {
+    "name": "Adventist Health Sonora",
+    "address": "1000 Greenley Road, Sonora, CA 95370",
+    "phone": null,
+    "source_url": "https://www.adventisthealth.org/sonora/locations/adventist-health-sonora-emergency-department/",
+    "snippet": "1000 Greenley Road, Sonora, CA 95370 ... emergency room is open 24 hours a day, seven days a week",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Sonora Police Department",
+    "type": "city_pd",
+    "address": "100 S. Green St. Sonora, CA 95370",
+    "phone": "(209) 532-8143",
+    "source_url": "https://sonoraca.com/city-services/departments/sonora-police-department/",
+    "snippet": "100 S. Green St. Sonora, CA 95370 Phone: (209) 532-8143",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Tuolumne",
+    "branch": "Tuolumne County Superior Court",
+    "serves_note": "Serves civil filings for Tuolumne County, including Sonora",
+    "address": "12855 Justice Center Dr. Sonora, CA 95370",
+    "phone": "(209) 533-5555",
+    "source_url": "https://www.tuolumne.courts.ca.gov/",
+    "snippet": "12855 Justice Center Dr. Sonora, CA ... Or by phone: (209) 533-5555",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Sonora Area",
+    "address": "18437 Fifth Avenue Jamestown, CA 95327",
+    "phone": "(209) 984-3944",
+    "source_url": "https://www.chp.ca.gov/find-an-office/central-division/425-sonora/",
+    "snippet": "Phone: (209) 984-3944 · Address: 18437 Fifth Avenue Jamestown , CA 95327",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:13:13.071Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

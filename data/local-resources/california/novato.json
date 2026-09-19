@@ -1,0 +1,38 @@
+{
+  "city_slug": "novato",
+  "county": "Marin",
+  "hospital": {
+    "name": "Novato Community Hospital",
+    "address": "180 Rowland Way, Novato, CA 94945",
+    "phone": null,
+    "source_url": "https://www.sutterhealth.org/find-location/facility/novato-community-hospital-emergency-department",
+    "snippet": "Novato Community Hospital Emergency Department is located at 180 Rowland Way, Novato CA 94945",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Novato Police Department",
+    "type": "city_pd",
+    "address": "909 Machin Avenue, Novato, CA 94945",
+    "phone": null,
+    "source_url": "https://www.novato.gov/government/police-department",
+    "snippet": "The facility is located at 909 Machin Avenue, Novato, CA, 94945",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Marin",
+    "branch": "Novato",
+    "serves_note": "Serves Novato and surrounding areas for civil filings",
+    "address": "88 Rowland Way, Suite 200, Novato, CA 94945",
+    "phone": null,
+    "source_url": "https://www.marin.courts.ca.gov/",
+    "snippet": "Address: 88 Rowland Way, Suite 200, Novato, CA 94945",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:49:02.320Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

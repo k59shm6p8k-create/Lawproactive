@@ -1,0 +1,36 @@
+{
+  "city_slug": "hidden-hills",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "UCLA West Valley Medical Center",
+    "address": "7300 Medical Center Drive West Hills, CA 91307",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/west-hills-hospital-and-medical-center/",
+    "snippet": "Address: 7300 Medical Center Drive West Hills, CA 91307",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Los Angeles County Sheriff's Department - Malibu/Lost Hills Station",
+    "type": "sheriff",
+    "address": "27050 Agoura Road, Agoura, CA 91301",
+    "phone": "818-878-1808",
+    "source_url": "https://lasd.org/malibu-lost-hills/",
+    "snippet": "Serving: Agoura Hills, Calabasas, Hidden Hills, Malibu, Westlake Village, & County Areas (818) 878-1808 27050 Agoura Road, Agoura, CA 91301-5336",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - West Valley Area",
+    "address": "5825 De Soto Avenue, Woodland Hills, CA 91367-5297",
+    "phone": null,
+    "source_url": "https://m.chp.ca.gov/office.aspx",
+    "snippet": "West Valley 5825 De Soto Ave. Woodland Hills, CA 91367-5297",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:27:38.417Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

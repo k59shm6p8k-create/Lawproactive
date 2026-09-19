@@ -1,0 +1,45 @@
+{
+  "city_slug": "lancaster",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Antelope Valley Medical Center",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.avmc.org/locations/antelope-valley-hospital/",
+    "snippet": "Antelope Valley Medical Center is the only full-service, acute-care hospital in the Antelope Valley.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Los Angeles County Sheriff's Department - Lancaster Station",
+    "type": "sheriff",
+    "address": null,
+    "phone": "661-948-8466",
+    "source_url": "https://lasd.org/lancaster/contactus/",
+    "snippet": "To report a non-emergency crime, suspicious activity, or request law enforcement response, please call (661)948-8466",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Michael D. Antonovich Antelope Valley Courthouse",
+    "serves_note": "Serves Antelope Valley including Lancaster for civil filings",
+    "address": null,
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176793/los-angeles-county-superior-court---north-district---michael-d-antonovich-antelope-valley-courthouse",
+    "snippet": "This state trial court is an L A County Superior Court with jurisdiction over cases that take place in the Antelope Valley.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Antelope Valley",
+    "address": "2041 W Ave I, Lancaster, CA 93534",
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3068998/california-state-highway-patrol---chp---antelope-valley",
+    "snippet": "Address: 2041 W Ave I Lancaster CA 93534, Hours: Monday - Friday: 8:00 AM – 5:00 PM",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:35:55.438Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "city_slug": "corte-madera",
+  "county": "Marin",
+  "hospital": null,
+  "police": {
+    "name": "Central Marin Police Authority",
+    "type": "contract_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.marinlafco.org/central-marin-police-authority",
+    "snippet": "The Central Marin Police Authority was established in January 2013 through a joint powers agreement binding the City of Larkspur and towns of Corte Madera and San Anselmo.",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "CHP Marin",
+    "address": "53 San Clemente Dr. Corte Madera, CA 94925",
+    "phone": null,
+    "source_url": "https://m.chp.ca.gov/office.aspx",
+    "snippet": "Marin 53 San Clemente Dr. Corte Madera, CA 94925-1206",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:11:32.884Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

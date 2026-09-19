@@ -1,0 +1,45 @@
+{
+  "city_slug": "fontana",
+  "county": "San Bernardino",
+  "hospital": {
+    "name": "Kaiser Foundation Hospital - Fontana",
+    "address": "9961 Sierra Avenue, Fontana, CA 92335",
+    "phone": "909-427-5000",
+    "source_url": "https://healthy.kaiserpermanente.org/southern-california/facilities/Fontana-Medical-Center-100127/departments/emergency-medicine-dlp-101055",
+    "snippet": "9961 Sierra Ave Fontana, CA 92335 ... Emergency information · 909-427-5000 (Local)",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Fontana Police Department",
+    "type": "city_pd",
+    "address": "17005 Upland Avenue, Fontana, CA 92335",
+    "phone": "909-350-7740",
+    "source_url": "https://www.fontanaca.gov/Directory/Home/DepartmentListing?DID=7",
+    "snippet": "Physical Address: 17005 Upland Avenue Fontana, CA 92335 Phone: (909) 350-7740",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Bernardino",
+    "branch": "Fontana District",
+    "serves_note": "Serves Fontana and surrounding areas for civil, traffic, small claims, landlord/tenant, and probate filings.",
+    "address": "17780 Arrow Boulevard, Fontana, CA 92335",
+    "phone": "909-350-9322",
+    "source_url": "https://sanbernardino.courts.ca.gov/location/fontana-district",
+    "snippet": "17780 Arrow Boulevard Fontana, CA 92335 · (909) 350-9322 · Building hours: Monday - Friday: 8:00am - 4:00pm",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Department of Motor Vehicles - Fontana Field Office",
+    "address": "8026 Hemlock Ave, Fontana, CA 92336",
+    "phone": null,
+    "source_url": "https://www.dmv.ca.gov/portal/field-office/fontana/",
+    "snippet": "Field Office · 8026 Hemlock Ave, Fontana, CA 92336",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:20:44.596Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

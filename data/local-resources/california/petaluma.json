@@ -1,0 +1,38 @@
+{
+  "city_slug": "petaluma",
+  "county": "Sonoma",
+  "hospital": {
+    "name": "Petaluma Valley Hospital",
+    "address": "400 N McDowell Blvd, Petaluma, CA 94954",
+    "phone": "(707) 778-1111",
+    "source_url": "https://www.providence.org/locations/norcal/petaluma-valley-hospital/departments",
+    "snippet": "Emergency Department · 400 N McDowell Blvd, Petaluma, CA 94954 · 707-778-1111",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Petaluma Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://cityofpetaluma.org/departments/police-department/",
+    "snippet": "The Petaluma Police Department, which has been has been providing professional law enforcement services since 1858.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Sonoma",
+    "branch": "Hall of Justice",
+    "serves_note": "Primary civil and criminal courthouse; all Sonoma County residents including Petaluma file here",
+    "address": "625 Administration Drive, Santa Rosa, CA 95403",
+    "phone": "(707) 521-6500",
+    "source_url": "https://sonoma.courts.ca.gov/locations",
+    "snippet": "Hall of Justice · 625 Administration Drive, Santa Rosa, CA 95403 (707) 521-6500",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:54:07.374Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

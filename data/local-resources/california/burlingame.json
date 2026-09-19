@@ -1,0 +1,45 @@
+{
+  "city_slug": "burlingame",
+  "county": "San Mateo",
+  "hospital": {
+    "name": "Mills-Peninsula Medical Center",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.sutterhealth.org/find-location/facility/mills-peninsula-medical-center-1043246780",
+    "snippet": "Sutter Mills Peninsula Medical Center, Burlingame Campus provides emergency services... (650) 696 5400",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Burlingame Police Department",
+    "type": "city_pd",
+    "address": "1111 Trousdale Drive Burlingame, CA 94010",
+    "phone": null,
+    "source_url": "https://www.burlingame.org/516/Police",
+    "snippet": "Physical Address 1111 Trousdale Drive Burlingame, CA 94010",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Mateo",
+    "branch": null,
+    "serves_note": "Burlingame is under San Mateo County Superior Court jurisdiction",
+    "address": null,
+    "phone": null,
+    "source_url": "https://sanmateo.courts.ca.gov/general-information/locations-contact-info",
+    "snippet": "Maps and Directions Southern Branch: Hall of Justice and Records » Northern Branch » Central Branch » Juvenile Branch »",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "San Mateo DMV Office",
+    "address": "425 N. Amphlett Blvd., San Mateo, CA 94401",
+    "phone": "(800) 777-0133",
+    "source_url": "https://www.dmv-test-pro.com/california/san-mateo/burlingame/dmv-near-me",
+    "snippet": "San Mateo DMV Office · 425 N. Amphlett Blvd., San Mateo, CA 94401 · (800) 777-0133",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:03:12.976Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "city_slug": "windsor",
+  "county": "Sonoma",
+  "hospital": {
+    "name": "Healdsburg Hospital",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.providence.org/locations/norcal/healdsburg-district-hospital",
+    "snippet": "Healdsburg Hospital is the primary inpatient, outpatient and emergency care provider for the 60,000 residents of Healdsburg, Windsor, Geyserville and Cloverdale.",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Windsor Police Department",
+    "type": "contract_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.sonomasheriff.org/contract-cities",
+    "snippet": "In 1992 the Town of Windsor voted to contract with the Sonoma County Sheriff's Office for the provision of law enforcement services.",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:25:05.809Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "city_slug": "calexico",
+  "county": "Imperial",
+  "hospital": {
+    "name": "Calexico Outpatient Center / El Centro Regional Medical Center",
+    "address": "495 Birch Street, Calexico, CA 92231",
+    "phone": null,
+    "source_url": "https://www.ecrmc.org/",
+    "snippet": "Calexico Outpatient Center · Address 495 Birch Street Calexico, CA 92231",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Calexico Police Department",
+    "type": "city_pd",
+    "address": "420 E. Fifth Street, Calexico, CA 92231",
+    "phone": "(760) 768-2140",
+    "source_url": "https://www.calexico.ca.gov/index.asp?SEC=B41B8D07-2F0D-4B47-A3B5-C0554A31D653",
+    "snippet": "Calexico Police Department 420 E. Fifth Street Calexico, California 92231 Business Line: (760) 768-2140",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Imperial",
+    "branch": "Calexico Courthouse",
+    "serves_note": "Civil filings for Calexico and surrounding area",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.imperial.courts.ca.gov/divisions/civil-division",
+    "snippet": "The Civil Division is located in the Downtown El Centro Courthouse at 939 W Main Street, El Centro",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Calexico Commercial Vehicle Enforcement Facility",
+    "address": null,
+    "phone": "(760) 618-7800",
+    "source_url": "https://www.chp.ca.gov/find-an-office/border-division/626-calexico-commercial-vehicle-enforcement-facility/",
+    "snippet": "For questions call CHP Calexico at (760) 618-7800",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:03:39.036Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

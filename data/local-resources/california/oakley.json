@@ -1,0 +1,38 @@
+{
+  "city_slug": "oakley",
+  "county": "Contra Costa",
+  "hospital": {
+    "name": "Contra Costa Regional Medical Center",
+    "address": "2500 Alhambra Avenue, Martinez",
+    "phone": null,
+    "source_url": "https://www.oakleyca.gov/286/Hospitals-Clinics",
+    "snippet": "The Center is a full-service county hospital and offers a complete array of patient-centered health care services located at 2500 Alhambra Avenue in Martinez.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Oakley Police Department",
+    "type": "city_pd",
+    "address": "3231 Main Street, Oakley, CA 94561",
+    "phone": "925-625-8855",
+    "source_url": "https://www.oakleyca.gov/324/Police-Department",
+    "snippet": "Physical Address · 3231 Main Street Oakley, CA 94561 · Phone Number 925-625-8855",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Contra Costa",
+    "branch": null,
+    "serves_note": "Oakley is in Contra Costa County",
+    "address": null,
+    "phone": null,
+    "source_url": "https://contracosta.courts.ca.gov/",
+    "snippet": "Home | Superior Court of California | County of Contra Costa",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:49:35.793Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

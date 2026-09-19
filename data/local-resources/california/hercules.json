@@ -1,0 +1,22 @@
+{
+  "city_slug": "hercules",
+  "county": "Contra Costa",
+  "hospital": null,
+  "police": {
+    "name": "Hercules Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.herculesca.gov/government/police",
+    "snippet": "The Hercules Police Department serves a community of seven square miles and over 20,000 people.",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:27:01.817Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "city_slug": "taft",
+  "county": "Kern",
+  "hospital": null,
+  "police": {
+    "name": "Taft Police Department",
+    "type": "city_pd",
+    "address": "320 Commerce Way, Taft, CA 93268",
+    "phone": "(661) 763-3101",
+    "source_url": "https://oag.ca.gov/fingerprints/locations/taft-police-department",
+    "snippet": "Address: 320 Commerce Way · Taft, CA 93268 ... Phone: (661) 763-3101",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Kern",
+    "branch": "Taft",
+    "serves_note": "Serves Taft and surrounding area for criminal, family law, traffic, civil and small claims matters",
+    "address": "311 Lincoln St, Taft, CA 93268",
+    "phone": "(661) 868-5800",
+    "source_url": "https://www.kern.courts.ca.gov/location/taft",
+    "snippet": "311 Lincoln St Taft, CA 93268 · (661) 868-5800 · Matters Served: Criminal Family Law Traffic Civil and Small Claims",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:15:47.584Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

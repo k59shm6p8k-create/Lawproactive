@@ -1,0 +1,36 @@
+{
+  "city_slug": "tracy",
+  "county": "San Joaquin",
+  "hospital": {
+    "name": "Sutter Tracy Community Hospital",
+    "address": "1420 North Tracy Boulevard, Tracy, CA 95376",
+    "phone": "209-835-1500",
+    "source_url": "https://www.sutterhealth.org/find-location/facility/sutter-tracy-community-hospital-emergency-department",
+    "snippet": "Contact Sutter Tracy Community Hospital Emergency Department at 2098351500. Sutter Tracy Community Hospital Emergency Department is located at 1420 North Tracy Blvd., Tracy CA 95376",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Tracy Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://tracypd.com/",
+    "snippet": "The Tracy Police Department provides law enforcement services for the city of Tracy, California.",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Tracy Office",
+    "address": "1175 East Pescadero Avenue, Tracy, CA 95376",
+    "phone": "209-319-4300",
+    "source_url": "https://www.chp.ca.gov/find-an-office/valley-division/offices/(266)-tracy",
+    "snippet": "Phone: CHP Tracy Office Number: 209-319-4300 Address: 1175 East Pescadero Avenue, Tracy, CA 95376",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:17:19.646Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

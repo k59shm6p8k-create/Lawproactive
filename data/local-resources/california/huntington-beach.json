@@ -1,0 +1,29 @@
+{
+  "city_slug": "huntington-beach",
+  "county": "Orange",
+  "hospital": {
+    "name": "Huntington Beach Hospital",
+    "address": "17772 Beach Boulevard, Huntington Beach, CA 92647",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/huntington-beach-hospital/",
+    "snippet": "Address: 17772 Beach Boulevard Huntington Beach, CA 92647",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Huntington Beach Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.huntingtonbeachca.gov/departments/police/index.php",
+    "snippet": "The Police Department delivers professional and responsive public safety services to residents, visitors, schools, and businesses while serving the community with dignity and respect.",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:28:46.536Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "city_slug": "bakersfield",
+  "county": "Kern",
+  "hospital": {
+    "name": "Adventist Health Bakersfield",
+    "address": "2615 Chester Avenue, Bakersfield, CA",
+    "phone": null,
+    "source_url": "https://www.adventisthealth.org/bakersfield/services/emergency-services/",
+    "snippet": "The Emergency Department entrance of Adventist Health Bakersfield, located at 2615 Chester Avenue in Bakersfield, has now returned to its original location at the front of the hospital.",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Bakersfield Police Department",
+    "type": "city_pd",
+    "address": "1601 Truxtun Avenue, Bakersfield, CA 93301",
+    "phone": "(661) 327-7111",
+    "source_url": "https://nextdoor.com/agency-detail/ca/bakersfield/bakersfield-police-department/",
+    "snippet": "Main Headquarters – 1601 Truxtun Avenue, Bakersfield, CA 93301 Westside Substation – 1301 Buena Vista Road, Bakersfield, CA 93311 Non-emergency (661) 327-7111",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Kern",
+    "branch": "Metropolitan Division",
+    "serves_note": "Handles criminal, traffic, and limited civil matters for the Bakersfield area; civil cases filed at this location",
+    "address": null,
+    "phone": "(661) 610-6000",
+    "source_url": "https://www.kern.courts.ca.gov/",
+    "snippet": "Kern County Superior Court - Metropolitan Division 1415 Truxtun Avenue, Bakersfield, CA 93301 Phone: (661) 610-6000",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Bakersfield Area Office",
+    "address": "9855 Compagnoni Street, Bakersfield, CA 93313",
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/central-division/420-bakersfield/",
+    "snippet": "The Bakersfield Area office is currently located at 9855 Compagnoni Street, Bakersfield, CA 93313, just off of SR-99.",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:58:01.198Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

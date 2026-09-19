@@ -1,0 +1,29 @@
+{
+  "city_slug": "trinidad",
+  "county": "Humboldt",
+  "hospital": null,
+  "police": {
+    "name": "Humboldt County Sheriff's Office",
+    "type": "sheriff",
+    "address": "380 Janis Court, Trinidad, CA 95570",
+    "phone": "707-677-0227",
+    "source_url": "https://humboldtgov.org/Directory/Home/DepartmentListing?DID=55",
+    "snippet": "Physical Address: 380 Janis Court Trinidad, CA 95570 Phone: 707-677-0227",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "CHP Humboldt Office",
+    "address": "255 East Samoa Blvd., Arcata, CA 95521-6797",
+    "phone": null,
+    "source_url": "https://m.chp.ca.gov/office.aspx",
+    "snippet": "Humboldt 255 East Samoa Blvd., Arcata, CA 95521-6797",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:17:31.926Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

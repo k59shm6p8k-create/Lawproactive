@@ -1,0 +1,36 @@
+{
+  "city_slug": "laguna-hills",
+  "county": "Orange",
+  "hospital": {
+    "name": "MemorialCare Saddleback Medical Center",
+    "address": "24451 Health Center Drive, Laguna Hills, CA 92653",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/memorialcare-saddleback-medical-center/",
+    "snippet": "Address: 24451 Health Center Drive Laguna Hills, CA 92653",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Orange County Sheriff's Department",
+    "type": "contract_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.lagunahillsca.gov/346/Police-Services",
+    "snippet": "The City contracts with the Orange County Sheriff's Department for its law enforcement services.",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California DMV Field Office",
+    "address": null,
+    "phone": null,
+    "source_url": "https://en.wikipedia.org/wiki/Laguna_Hills,_California",
+    "snippet": "Laguna Hills is home to one of the California DMV field offices",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:34:37.702Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

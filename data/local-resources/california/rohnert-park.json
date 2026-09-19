@@ -1,0 +1,45 @@
+{
+  "city_slug": "rohnert-park",
+  "county": "Sonoma",
+  "hospital": {
+    "name": "St. Joseph's Health-Rohnert Park",
+    "address": "1450 Medical Center Dr, Rohnert Park, CA 94928",
+    "phone": "(707) 584-0672",
+    "source_url": "https://www.healthgrades.com/urgent-care-directory/st-josephs-health-rohnert-park-uc1008",
+    "snippet": "1450 Medical Center Dr, Rohnert Park CA 94928 · CallDirections(707) 584-0672",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Rohnert Park Department of Public Safety",
+    "type": "city_pd",
+    "address": "500 City Center Drive, Rohnert Park, CA 94928",
+    "phone": "(707) 584-2606",
+    "source_url": "https://www.rpcity.org/directory.aspx?did=19",
+    "snippet": "Public Safety Records Bureau · 500 City Center Drive Rohnert Park CA 94928 · Phone: 707-584-2606",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Sonoma",
+    "branch": "Civil and Family Law Courthouse",
+    "serves_note": "Serves Sonoma County for civil filings including Rohnert Park",
+    "address": "3055 Cleveland Avenue, Santa Rosa, CA 95403",
+    "phone": null,
+    "source_url": "https://sonoma.courts.ca.gov/general-information/locations-contact-info",
+    "snippet": "Civil and Family Law Courthouse 3055 Cleveland Avenue, Santa Rosa CA 95403",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol Santa Rosa Area",
+    "address": "6100 LaBath Avenue, Rohnert Park, CA 94928",
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/golden-gate-division/360-santa-rosa/",
+    "snippet": "Address: 6100 LaBath Avenue Rohnert Park , CA 94928",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:01:45.896Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

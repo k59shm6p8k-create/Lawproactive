@@ -1,0 +1,38 @@
+{
+  "city_slug": "encinitas",
+  "county": "San Diego",
+  "hospital": {
+    "name": "Scripps Memorial Hospital Encinitas",
+    "address": "354 Santa Fe Drive, Encinitas, CA 92024",
+    "phone": null,
+    "source_url": "https://www.scripps.org/locations/hospitals/scripps-memorial-hospital-encinitas",
+    "snippet": "Our main entrance at 354 Santa Fe Drive, located at a traffic light, brings you in front of the hospital.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "San Diego County Sheriff - North Coastal Station",
+    "type": "contract_pd",
+    "address": "175 North El Camino Real, Encinitas, CA 92024-2899",
+    "phone": null,
+    "source_url": "https://www.encinitasca.gov/government/departments/public-safety/law-enforcement",
+    "snippet": "The North Coastal Sheriff Station is located in Encinitas at 175 North El Camino Real, and the station provides services for the cities of Encinitas, Solana Beach, Del Mar, and the unincorporated area of Rancho Santa Fe.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Diego",
+    "branch": "North County Division",
+    "serves_note": "Encinitas civil filings route to the North County filing district",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.sdcourt.ca.gov/sdcourt/civil2/civilwheretofile",
+    "snippet": "The venue associated to the court location and address where your case should be filed are detailed in the Zip Code List (SDSC Form # ADM-254).",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:18:14.827Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

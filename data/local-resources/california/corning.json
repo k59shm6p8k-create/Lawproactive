@@ -1,0 +1,22 @@
+{
+  "city_slug": "corning",
+  "county": "Tehama",
+  "hospital": null,
+  "police": {
+    "name": "Corning Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.corning.org/departments/police-department/",
+    "snippet": "The Corning Police Department is dedicated to enhancing the quality of life in our community",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:11:00.140Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "city_slug": "long-beach",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "MemorialCare Long Beach Medical Center",
+    "address": "2801 Atlantic Avenue Long Beach, CA 90806",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/long-beach-memorial-medical-center/",
+    "snippet": "Address: 2801 Atlantic Avenue Long Beach, CA 90806",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Long Beach Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.longbeach.gov/police/",
+    "snippet": "Long Beach Police Department is to collaborate to reduce crime, enhance safety, build trust, and support the wellness of our workforce and our community",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Governor George Deukmejian Courthouse",
+    "serves_note": "Serves Long Beach, Signal Hill, Catalina Island, San Pedro, Wilmington, Harbor City and portions of the county strip; civil filings",
+    "address": null,
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176789/los-angeles-county-superior-court---south-district---long-beach-courthouse",
+    "snippet": "This state trial court is an L A County Superior Court with jurisdiction over cases that take place in Long Beach, Signal Hill, Catalina Island, San Pedro, Wilmington, Harbor City and portions of the county strip.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - South Los Angeles Area",
+    "address": "19700 Hamilton Ave. Torrance CA 90502",
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3068997/california-state-highway-patrol---chp---south-los-angeles",
+    "snippet": "Address: 19700 Hamilton Ave. Torrance CA 90502 ... Areas Served: Torrance, Carson, Gardena, Redondo Beach, Rancho Palos Verdes, Compton, Lakewood and Long Beach.",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:38:41.771Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

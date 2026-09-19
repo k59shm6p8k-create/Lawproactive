@@ -1,0 +1,22 @@
+{
+  "city_slug": "montague",
+  "county": "Siskiyou",
+  "hospital": null,
+  "police": {
+    "name": "Siskiyou County Sheriff's Office",
+    "type": "sheriff",
+    "address": "305 Butte Street, Yreka, CA 96097",
+    "phone": "530-842-8300",
+    "source_url": "https://www.siskiyoucounty.gov/police/custom-contact-page/police-contact-information",
+    "snippet": "Siskiyou County Sheriff Headquarters 305 Butte Street Yreka, CA 96097 Phone: 530-842-8300",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:44:26.542Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

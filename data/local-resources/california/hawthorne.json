@@ -1,0 +1,22 @@
+{
+  "city_slug": "hawthorne",
+  "county": "Los Angeles",
+  "hospital": null,
+  "police": {
+    "name": "Hawthorne Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "(310) 349-2700",
+    "source_url": "https://locator.lacounty.gov/lac/Location/3068923/city-of-hawthorne-police-department",
+    "snippet": "Service/Intake (310) 349-2700",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:26:11.863Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

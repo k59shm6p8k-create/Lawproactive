@@ -1,0 +1,45 @@
+{
+  "city_slug": "santa-monica",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Santa Monica UCLA Medical Center",
+    "address": "1250 16th Street, Santa Monica, CA 90404",
+    "phone": null,
+    "source_url": "https://www.uclahealth.org/hospitals/santa-monica",
+    "snippet": "We're located at 1250 16th St.",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Santa Monica Police Department",
+    "type": "city_pd",
+    "address": "333 Olympic Drive, Santa Monica, CA 90401",
+    "phone": "310-458-8491",
+    "source_url": "https://www.santamonica.gov/departments/police",
+    "snippet": "333 Olympic Drive (Special Operations Division) Santa Monica, CA 90401. Please contact SMPD's Records Unit for detailed information on the fees and process. Call 310-458-8491 for non-emergency police dispatch",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Santa Monica Courthouse",
+    "serves_note": "West District; serves Santa Monica and surrounding area for civil filings",
+    "address": "1725 Main Street, Santa Monica, CA 90401",
+    "phone": null,
+    "source_url": "https://www.lacourt.ca.gov/pages/cp/gi-courthouses-sm-info",
+    "snippet": "Santa Monica Courthouse 1725 Main Street Santa Monica, CA 90401",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol West Los Angeles Area Office",
+    "address": "6300 Bristol Parkway, Culver City, CA 90230",
+    "phone": "310-642-3939",
+    "source_url": "https://cad.chp.ca.gov/htm.net/locations.htm",
+    "snippet": "WEST LOS ANGELES CHP 6300 Bristol Parkway Culver City 90230 310-642-3939",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:09:21.950Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

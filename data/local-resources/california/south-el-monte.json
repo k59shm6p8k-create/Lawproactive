@@ -1,0 +1,38 @@
+{
+  "city_slug": "south-el-monte",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Greater El Monte Community Hospital",
+    "address": "1701 Santa Anita Avenue, South El Monte, CA 91733",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/greater-el-monte-community-hospital/",
+    "snippet": "Address: 1701 Santa Anita Avenue South El Monte, CA 91733",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Los Angeles County Sheriff's Department",
+    "type": "sheriff",
+    "address": "8838 Las Tunas Drive, Temple City, CA 91780",
+    "phone": "626-285-7171",
+    "source_url": "https://www.cityofsouthelmonte.org/179/Los-Angeles-County-Sheriffs-Department",
+    "snippet": "The City of South El Monte contracts with the Los Angeles County Sheriff's Department (LASD) for law enforcement services. Designated deputies of the Sheriff's Temple Station oversee the safety of South El Monte community members. For additional information, please call the Sheriff's Temple Station at 626-285-7171. Physical Address 8838 Las Tunas Drive Temple City, CA 91780",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "El Monte Courthouse",
+    "serves_note": "Serves El Monte, La Puente, Rosemead and South El Monte",
+    "address": "11234 E. Valley Blvd, El Monte, CA 91731",
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3069081/los-angeles-county-superior-court---east-district---el-monte-courthouse",
+    "snippet": "This state trial court is an L A County Superior Court with jurisdiction over cases that take place in El Monte, La Puente, Rosemead and South El Monte. Address: 11234 E. Valley Blvd. El Monte CA 91731",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:13:23.868Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

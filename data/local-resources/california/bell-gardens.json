@@ -1,0 +1,22 @@
+{
+  "city_slug": "bell-gardens",
+  "county": "Los Angeles",
+  "hospital": null,
+  "police": {
+    "name": "Bell Gardens Police Department",
+    "type": "city_pd",
+    "address": "7100 Garfield Avenue, Bell Gardens, CA 90201",
+    "phone": null,
+    "source_url": "https://www.bellgardens.org/government/public-safety/police-department",
+    "snippet": "7100 Garfield Ave Bell Gardens, CA 90201 · Mon - Thu: 7:30am – 6:00pm",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:59:07.846Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

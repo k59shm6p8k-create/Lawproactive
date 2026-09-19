@@ -1,0 +1,45 @@
+{
+  "city_slug": "red-bluff",
+  "county": "Tehama",
+  "hospital": {
+    "name": "St. Elizabeth Community Hospital",
+    "address": "2550 Sister Mary Columba Dr, Red Bluff, CA 96080",
+    "phone": "530-529-8000",
+    "source_url": "https://www.commonspirit.org/find-a-location/emergency-room-dignity-health-st-elizabeth-community-hospital-3519",
+    "snippet": "2550 Sister Mary Columba Dr, Red Bluff, CA 96080 · Emergency Room · Call: 530-529-8000",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Red Bluff Police Department",
+    "type": "city_pd",
+    "address": "555 Washington Street, Red Bluff, CA 96080",
+    "phone": "530-527-3131",
+    "source_url": "https://content.redbluffchamber.com/list/member/red-bluff-police-department-red-bluff-840",
+    "snippet": "Red Bluff Police Department · Visit Website · 555 Washington Street · Red Bluff, CA 96080 · (530) 527-3131",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Tehama",
+    "branch": "Red Bluff Courthouse",
+    "serves_note": "Civil and all case types for Tehama County",
+    "address": "1740 Walnut Street, Red Bluff, CA 96080",
+    "phone": null,
+    "source_url": "https://www.tehama.courts.ca.gov/",
+    "snippet": "1740 Walnut Street, Red Bluff, California 96080 · Court Website · Record Search · To make a payment by phone call (530) 737-5100",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Red Bluff Area",
+    "address": "2550 Main Street, Red Bluff, CA 96080",
+    "phone": "530-527-2034",
+    "source_url": "https://www.chp.ca.gov/find-an-office/northern-division/130-red-bluff/",
+    "snippet": "RED BLUFF CHP 2550 Main Street Red Bluff 96080-2336 530-527-2034",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:58:40.858Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

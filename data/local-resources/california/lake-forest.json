@@ -1,0 +1,22 @@
+{
+  "city_slug": "lake-forest",
+  "county": "Orange",
+  "hospital": null,
+  "police": {
+    "name": "Orange County Sheriff's Department (Lake Forest Police Services)",
+    "type": "contract_pd",
+    "address": "20202 Windrow Dr, Lake Forest, CA 92630",
+    "phone": null,
+    "source_url": "https://www.lakeforestca.gov/departments/police/index.php",
+    "snippet": "OC Sheriff's Department Substation, 20202 Windrow Dr, Lake Forest, CA 92630",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:35:23.422Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

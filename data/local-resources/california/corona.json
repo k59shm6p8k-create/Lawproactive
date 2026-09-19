@@ -1,0 +1,45 @@
+{
+  "city_slug": "corona",
+  "county": "Riverside",
+  "hospital": {
+    "name": "Corona Regional Medical Center",
+    "address": "800 South Main Street Corona, CA 92882",
+    "phone": "951-737-4343",
+    "source_url": "https://swhcoronaregional.com/services/emergency-services/",
+    "snippet": "Corona Regional Medical Center 800 South Main Street Corona, CA 92882 Phone: 951-737-4343",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Corona Police Department",
+    "type": "city_pd",
+    "address": "730 Public Safety Way Corona, CA 92880",
+    "phone": "951-736-2330",
+    "source_url": "https://www.coronaca.gov/departments/police",
+    "snippet": "Corona Police 730 Public Safety Way - Corona, CA 92880 Non-emergency (951) 736-2330 option 2",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Riverside",
+    "branch": "Corona Courthouse",
+    "serves_note": "Serves Corona for civil, small claims, unlawful detainer, and traffic matters",
+    "address": "505 S. Buena Vista Ave, #201, Corona, CA 92882",
+    "phone": "951-777-3147",
+    "source_url": "https://www.riverside.courts.ca.gov/location/corona-courthouse",
+    "snippet": "505 S. Buena Vista Ave. #201, Corona, CA 92882 · (951) 777-3147 · Small Claims Unlawful Detainers Civil Traffic",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "Corona Test Only - DMV",
+    "address": "2189 Sampson Ave Ste B110, Corona, CA 92879",
+    "phone": "1-951-284-1700",
+    "source_url": "https://www.dmv.ca.gov/portal/business-partner/corona-test-only/",
+    "snippet": "2189 SAMPSON AVE STE B110, CORONA, CA 92879 1-951-284-1700",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:11:08.669Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

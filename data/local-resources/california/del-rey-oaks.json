@@ -1,0 +1,22 @@
+{
+  "city_slug": "del-rey-oaks",
+  "county": "Monterey",
+  "hospital": null,
+  "police": {
+    "name": "Del Rey Oaks Police Department",
+    "type": "city_pd",
+    "address": "650 Canyon Del Rey Blvd, Del Rey Oaks, CA 93940",
+    "phone": null,
+    "source_url": "https://www.delreyoaks.org/police",
+    "snippet": "Police Department at 650 Canyon Del Rey Road or call (831) 375-8525",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:14:23.681Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

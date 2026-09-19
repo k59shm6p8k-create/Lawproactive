@@ -1,0 +1,22 @@
+{
+  "city_slug": "riverbank",
+  "county": "Stanislaus",
+  "hospital": null,
+  "police": {
+    "name": "Riverbank Police Services",
+    "type": "contract_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.riverbank.org/161/Police-Department",
+    "snippet": "Law enforcement services for the City of Riverbank are performed under contract with the Stanislaus County Sheriff's Department.",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:01:10.817Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

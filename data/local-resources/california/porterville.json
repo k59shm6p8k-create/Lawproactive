@@ -1,0 +1,45 @@
+{
+  "city_slug": "porterville",
+  "county": "Tulare",
+  "hospital": {
+    "name": "Sierra View Medical Center",
+    "address": "465 West Putnam Avenue Porterville, CA 93257",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/sierra-view-medical-center/",
+    "snippet": "Address: 465 West Putnam Avenue Porterville, CA 93257 ... Emergency Room Service Level: Basic ... Facility Status: Open",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Porterville Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.ci.porterville.ca.us/departments/police/index.php",
+    "snippet": "Welcome to the Porterville Police Department's website.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Tulare",
+    "branch": "South County Justice Center (Porterville)",
+    "serves_note": "Serves civil filings for Porterville and southern Tulare County",
+    "address": "300 East Olive Porterville, CA 93257",
+    "phone": "559-782-3700",
+    "source_url": "https://www.tulare.courts.ca.gov/location/porterville",
+    "snippet": "300 E. Olive Porterville, CA 93257 · 559-782-3700 · Building hours: Monday - Friday: 8:00am - 4:00pm",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol (CHP) Porterville Office",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/central-division/481-porterville/",
+    "snippet": "The Porterville office patrols state routes and unincorporated roadways in and around the cities of Porterville, Lindsay",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:56:56.355Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

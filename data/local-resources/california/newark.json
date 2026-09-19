@@ -1,0 +1,22 @@
+{
+  "city_slug": "newark",
+  "county": "Alameda",
+  "hospital": null,
+  "police": {
+    "name": "Newark Police Department",
+    "type": "city_pd",
+    "address": "37077 Newark Blvd, Newark, CA 94560",
+    "phone": null,
+    "source_url": "https://www.newarkca.gov/departments/police",
+    "snippet": "Police Department City of Newark 37077 Newark Blvd Newark, CA 94560",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:47:53.294Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

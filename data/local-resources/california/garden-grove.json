@@ -1,0 +1,36 @@
+{
+  "city_slug": "garden-grove",
+  "county": "Orange",
+  "hospital": {
+    "name": "Garden Grove Hospital Medical Center",
+    "address": "12601 Garden Grove Boulevard, Garden Grove, CA 92843",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/garden-grove-hospital-and-medical-center/",
+    "snippet": "Address: 12601 Garden Grove Blvd. Garden Grove, CA 92843-1908",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Garden Grove Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "(714) 741-5704",
+    "source_url": "https://ggcity.org/police",
+    "snippet": "You may call the non-emergency Police Department line at (714) 741-5704 if you need to report a crime and/or ask for assistance with a non-emergency incident.",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "DMV Partner - 1 Registration Services",
+    "address": "13117 Harbor Boulevard, Garden Grove, CA 92843",
+    "phone": "(714) 534-5400",
+    "source_url": "https://qr.dmv.ca.gov/portal/locations/page/4/?q=GARDEN+GROVE+92843",
+    "snippet": "13117 Harbor Blvd, Garden Grove, CA 92843 1-714-534-5400",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:22:56.292Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

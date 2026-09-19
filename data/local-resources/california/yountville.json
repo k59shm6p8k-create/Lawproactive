@@ -1,0 +1,38 @@
+{
+  "city_slug": "yountville",
+  "county": "Napa",
+  "hospital": {
+    "name": "Veterans Home of California-Yountville",
+    "address": null,
+    "phone": "707-944-4500",
+    "source_url": "https://www.calvet.ca.gov/VetHomes/Pages/Yountville.aspx",
+    "snippet": "Veterans Home of California, Yountville 260 California Drive Yountville, CA 94599 Get Directions General Information Call: 707-944-4500",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Napa County Sheriff's Office - Town of Yountville",
+    "type": "contract_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.napacounty.gov/1576/Patrol",
+    "snippet": "The Patrol Bureau is responsible for providing law enforcement and crime prevention services to the residents of the unincorporated area of Napa County and the Town of Yountville.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Napa",
+    "branch": null,
+    "serves_note": null,
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.napa.courts.ca.gov/",
+    "snippet": "It is the mission of the Napa Superior Court to render fair and equal justice; to inspire trust and confidence in the legal system; and to serve the public with courtesy and efficiency.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:26:17.076Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

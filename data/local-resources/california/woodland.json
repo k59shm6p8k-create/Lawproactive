@@ -1,0 +1,38 @@
+{
+  "city_slug": "woodland",
+  "county": "Yolo",
+  "hospital": {
+    "name": "Woodland Memorial Hospital",
+    "address": "1325 Cottonwood Street, Woodland, CA 95695",
+    "phone": "(530) 662-3961",
+    "source_url": "https://www.dignityhealth.org/sacramento/locations/woodland-memorial-hospital",
+    "snippet": "Quality, Risk, Safety and Customer Services Woodland Memorial Hospital 1325 Cottonwood St. Woodland, CA 95695 (530) 662-3961",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Woodland Police Department",
+    "type": "city_pd",
+    "address": "1000 Lincoln Avenue, Woodland, CA 95695",
+    "phone": "(530) 661-7800",
+    "source_url": "https://cityofwoodland.gov/directory.aspx?did=25",
+    "snippet": "Physical Address:View Map · 1000 Lincoln Avenue Woodland, CA 95695Phone: 530-661-7800",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Yolo",
+    "branch": "Woodland Courthouse",
+    "serves_note": "Serves entire Yolo County for all civil, criminal, family, probate, juvenile, and small claims filings",
+    "address": "1000 Main Street, Woodland, CA 95695",
+    "phone": "(530) 406-6704",
+    "source_url": "https://www.yolo.courts.ca.gov/divisions/civil",
+    "snippet": "Civil Division 1000 Main Street, Woodland, CA 95695 (530) 406-6704",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:25:41.128Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

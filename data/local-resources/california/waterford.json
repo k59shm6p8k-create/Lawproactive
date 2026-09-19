@@ -1,0 +1,29 @@
+{
+  "city_slug": "waterford",
+  "county": "Stanislaus",
+  "hospital": {
+    "name": "Oak Valley Hospital District",
+    "address": "350 South Oak Street, Oakdale, CA 95361",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/oak-valley-hospital-district/",
+    "snippet": "Address: 350 South Oak Street Oakdale, CA 95361",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Waterford Police Services",
+    "type": "contract_pd",
+    "address": "115 E Street, Waterford, CA 95386",
+    "phone": "(209) 525-7051",
+    "source_url": "https://ftp.scsdonline.com/other/sheriff-s-department-contacts.html",
+    "snippet": "Waterford Police Services · 115 E Street · Waterford, CA 95386 · (209) 525-7051",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:22:10.992Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

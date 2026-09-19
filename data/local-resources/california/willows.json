@@ -1,0 +1,37 @@
+{
+  "city_slug": "willows",
+  "county": "Glenn",
+  "hospital": {
+    "name": "Glenn Medical Center",
+    "address": "1133 W. Sycamore St., Willows, CA 95988",
+    "phone": "(530) 934-1800",
+    "source_url": "https://gmcmed.org/contact/",
+    "snippet": "Glenn Medical Center 1133 W. Sycamore St. Willows,CA 95988 Phone: (530)-934-1832 24-Hour Emergency Care Phone: (530) 934-1800",
+    "confidence": "high"
+  },
+  "police": null,
+  "court": {
+    "court_name": "Superior Court of California, County of Glenn",
+    "branch": "Main Courthouse (Willows)",
+    "serves_note": "Serves the city of Willows and all civil filings in Glenn County",
+    "address": "526 West Sycamore Street, Willows, CA 95988",
+    "phone": "(530) 934-6446",
+    "source_url": "https://www.glenn.courts.ca.gov/general-information/locations-contact-info",
+    "snippet": "Superior Court of California, County of Glenn 526 West Sycamore Street Willows, CA 95988 (530) 934-6446",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol (Regional office)",
+    "address": null,
+    "phone": null,
+    "source_url": "https://en.wikipedia.org/wiki/Willows,_California",
+    "snippet": "The city is home to regional government offices, including the California Highway Patrol, the California Department of Motor Vehicles",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:24:54.737Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

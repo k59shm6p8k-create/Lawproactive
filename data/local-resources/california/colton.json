@@ -1,0 +1,36 @@
+{
+  "city_slug": "colton",
+  "county": "San Bernardino",
+  "hospital": {
+    "name": "Arrowhead Regional Medical Center",
+    "address": "400 N. Pepper Avenue, Colton, CA 92324",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/arrowhead-regional-medical-center/",
+    "snippet": "Address: 400 N. Pepper Avenue Colton, CA 92324-1816",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Colton Police Department",
+    "type": "city_pd",
+    "address": "650 N La Cadena Dr, Colton, CA 92324",
+    "phone": "909-370-5000",
+    "source_url": "https://www.coltonca.gov/Directory/Home/DepartmentListing?DID=15",
+    "snippet": "Physical Address: 650 N La Cadena Dr Colton, CA 92324 Phone: 909-370-5000",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol, San Bernardino Area",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/inland-division/offices/(860)-san-bernardino",
+    "snippet": "The Cities of San Bernardino, Rialto, Colton, Fontana, Grand Terrace, Loma Linda, Redlands and Yucaipa all fall within the geographical boundaries of the San Bernardino Area.",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:09:52.426Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

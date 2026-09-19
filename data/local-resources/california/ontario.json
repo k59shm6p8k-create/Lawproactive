@@ -1,0 +1,29 @@
+{
+  "city_slug": "ontario",
+  "county": "San Bernardino",
+  "hospital": {
+    "name": "Kaiser Foundation Hospital - Ontario",
+    "address": "2295 S. Vineyard Avenue, Ontario, CA 91761",
+    "phone": null,
+    "source_url": "https://healthy.kaiserpermanente.org/southern-california/facilities/ontario-medical-center-300511",
+    "snippet": "Hospital and Medical Offices 2295 S Vineyard Ave Ontario, CA 91761... Emergency services",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Ontario Police Department",
+    "type": "city_pd",
+    "address": "2500 S. Archibald Avenue, Ontario, CA 91761",
+    "phone": "909-395-2001",
+    "source_url": "https://www.ontarioca.gov/government/police/about-us/contact-us",
+    "snippet": "ONTARIO POLICE DEPARTMENT 2500 S. Archibald Avenue • Ontario, CA 91761... Front Desk: (909) 395-2001",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:50:19.955Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

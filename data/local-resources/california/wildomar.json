@@ -1,0 +1,29 @@
+{
+  "city_slug": "wildomar",
+  "county": "Riverside",
+  "hospital": {
+    "name": "Inland Valley Medical Center",
+    "address": "36485 Inland Valley Drive, Wildomar, CA 92595",
+    "phone": "951-677-1111",
+    "source_url": "https://swhinlandvalley.com/services/emergency-services/",
+    "snippet": "Southwest Healthcare Inland Valley Hospital 36485 Inland Valley Drive Wildomar, CA 92595 Phone: 951-677-1111",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Riverside County Sheriff's Department (Lake Elsinore Station)",
+    "type": "contract_pd",
+    "address": "333 Limited Avenue, Lake Elsinore, CA 92530",
+    "phone": null,
+    "source_url": "https://www.riversidesheriff.org/743/Lake-Elsinore-Station",
+    "snippet": "The City of Wildomar contracts with the Riverside County Sheriff's Office for police services, local policing is directed from a sheriff's station at 333 Limited Avenue in Lake Elsinore.",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:24:20.501Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

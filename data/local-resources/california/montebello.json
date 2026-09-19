@@ -1,0 +1,36 @@
+{
+  "city_slug": "montebello",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Adventist Health White Memorial Montebello",
+    "address": "309 West Beverly Boulevard, Montebello, CA 90640",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/beverly-hospital/",
+    "snippet": "Address: 309 West Beverly Boulevard Montebello, CA 90640",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Montebello Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.montebelloca.gov/departments/police",
+    "snippet": "We are a full-service law enforcement agency providing police service to about 64,000 residents, businesses, and visitors of Montebello, California.",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - East Los Angeles Area",
+    "address": "1601 Corporate Center Drive, Monterey Park, CA 91754",
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3054639/california-state-highway-patrol---chp---east-los-angeles",
+    "snippet": "Address: 1601 Corporate Center Dr. Monterey Park CA 91754",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:45:05.739Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

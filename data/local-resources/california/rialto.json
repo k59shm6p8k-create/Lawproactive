@@ -1,0 +1,31 @@
+{
+  "city_slug": "rialto",
+  "county": "San Bernardino",
+  "hospital": null,
+  "police": {
+    "name": "Rialto Police Department",
+    "type": "city_pd",
+    "address": "128 N. Willow Ave. Rialto, CA 92376",
+    "phone": "(909) 820-2550",
+    "source_url": "https://www.rialtoca.gov/m/directory/department?did=53",
+    "snippet": "Physical Address · 128 N. Willow Ave. Rialto, CA 92376 · Phone Number 909-820-2550",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Bernardino",
+    "branch": "Fontana District",
+    "serves_note": "Fontana, Rialto, Crestmore, Bloomington, and unincorporated areas",
+    "address": null,
+    "phone": null,
+    "source_url": "https://sanbernardino.courts.ca.gov/general-information/where-can-i-file",
+    "snippet": "Fontana, Rialto, Crestmore, Bloomington, and unincorporated areas of Lytle Creek, Johnson Valley, Joshua Tree, Yucca Valley, Twentynine Palms, unincorporated areas of Morongo Valley, Landers, Pioneertown.",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:59:51.560Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

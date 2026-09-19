@@ -1,0 +1,45 @@
+{
+  "city_slug": "banning",
+  "county": "Riverside",
+  "hospital": {
+    "name": "San Gorgonio Memorial Hospital",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.sgmh.org/emergency-services",
+    "snippet": "Our emergency department at San Gorgonio Memorial Hospital (SGMH) is located on the eastern end of the hospital, with its entrance on Memorial Drive West, off of North Highland Springs, in Banning, California.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Banning Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "http://www.banning.ca.us/17/Police-Department",
+    "snippet": "The Banning Police Department is open 24 hours a day, 7 days a week, 365 days a year to serve the needs of our growing city.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Riverside",
+    "branch": "Banning Justice Center",
+    "serves_note": "Serves Banning and surrounding areas for civil, criminal, traffic, domestic relations, juvenile, mental health, and probate matters",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.riverside.courts.ca.gov/location/banning-justice-center",
+    "snippet": "The Banning Justice Center is located in southeast Riverside County and is a three level building that houses six courtrooms",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "CHP - Desert Hills Commercial Vehicle Enforcement Facility",
+    "address": "47250 Interstate 10, Banning, CA 92220",
+    "phone": "951-572-4039",
+    "source_url": "https://cad.chp.ca.gov/htm.net/locations.htm",
+    "snippet": "DESERT HILLS INSPECTION FACILITY CHP 47250 Interstate 10 Banning 92220 951-572-4039",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:58:23.054Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

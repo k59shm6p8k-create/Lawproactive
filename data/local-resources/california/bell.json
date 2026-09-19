@@ -1,0 +1,38 @@
+{
+  "city_slug": "bell",
+  "county": "Los Angeles",
+  "hospital": null,
+  "police": {
+    "name": "Bell Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.cityofbell.gov/City-Hall/Police",
+    "snippet": "The Bell Police Department provides 24/7 full-service policing",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Southeast District - Huntington Park",
+    "serves_note": "Serves Bell, Bell Gardens, Cudahy, Huntington Park, Maywood, South Gate and Vernon",
+    "address": "6548 Miles Ave, Huntington Park CA 90255",
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176777/los-angeles-county-superior-court---southeast-district---huntington-park",
+    "snippet": "This state trial court is an L A County Superior Court with jurisdication over cases that take place in Bell, Bell Gardens, Cudahy, Huntington Park, Maywood, South Gate and Vernon. Address: 6548 Miles Ave. Huntington Park CA 90255",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - South Los Angeles",
+    "address": "19700 Hamilton Ave, Torrance CA 90502",
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3068997/california-highway-patrol---south-los-angeles",
+    "snippet": "Address: 19700 Hamilton Ave. Torrance CA 90502 · Website: https://www.chp.ca.gov/find-an-office/southern-division/530-south-los-angeles/",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:58:56.877Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

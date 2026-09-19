@@ -1,0 +1,36 @@
+{
+  "city_slug": "king-city",
+  "county": "Monterey",
+  "hospital": {
+    "name": "George L. Mee Memorial Hospital",
+    "address": "300 Canal Street King City, CA 93930",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/george-l-mee-memorial-hospital/",
+    "snippet": "Address: 300 Canal Street King City, CA 93930",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "King City Police Department",
+    "type": "city_pd",
+    "address": "415 Bassett Street King City, CA 93930",
+    "phone": "831-385-4848",
+    "source_url": "https://www.kingcity.com/Directory.aspx?DID=15",
+    "snippet": "415 Bassett Street King City, CA 93930Phone: 831-385-4848",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California DMV - King City",
+    "address": "101 E San Antonio Dr, King City, CA 93930",
+    "phone": null,
+    "source_url": "https://www.dmv.ca.gov/portal/field-office/king-city/",
+    "snippet": "Field Office · 101 E San Antonio Dr, King City, CA 93930",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:31:57.839Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

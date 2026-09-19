@@ -1,0 +1,22 @@
+{
+  "city_slug": "lincoln",
+  "county": "Placer",
+  "hospital": null,
+  "police": {
+    "name": "Lincoln Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.lincolnca.gov/living-here/police-and-fire/police-department/",
+    "snippet": "The Lincoln Police Department provides service for the entire City of Lincoln",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:37:04.082Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

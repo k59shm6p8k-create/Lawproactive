@@ -1,0 +1,22 @@
+{
+  "city_slug": "soledad",
+  "county": "Monterey",
+  "hospital": null,
+  "police": {
+    "name": "Soledad Police Department",
+    "type": "city_pd",
+    "address": "236 Main St., Soledad, CA 93960",
+    "phone": "(831) 223-5120",
+    "source_url": "https://www.cityofsoledad.com/police-department/",
+    "snippet": "Physical Address: 236 Main St., Soledad, CA 93960 Mailing Address: P.O. Box 606, Soledad, CA 93960 Phone: (831) 223-5120",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:12:43.372Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "city_slug": "ceres",
+  "county": "Stanislaus",
+  "hospital": null,
+  "police": {
+    "name": "Ceres Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "209-538-5714",
+    "source_url": "https://www.ceres.gov/696/CONTACT-US",
+    "snippet": "RECORDS · 209-538-5714 · 209-538-5707 · 8:30am to 4:30pm, Monday through Friday",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:06:26.937Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

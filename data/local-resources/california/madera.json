@@ -1,0 +1,45 @@
+{
+  "city_slug": "madera",
+  "county": "Madera",
+  "hospital": {
+    "name": "Madera Community Hospital",
+    "address": "1250 East Almond Avenue, Madera, CA 93637",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/madera-community-hospital/",
+    "snippet": "Address: 1250 East Almond Avenue Madera, CA 93637",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Madera Police Department",
+    "type": "city_pd",
+    "address": "330 S C Street, Madera, CA 93638",
+    "phone": "(559) 675-4220",
+    "source_url": "https://www.madera.gov/emergency-protective-services/police-department/",
+    "snippet": "Madera Police Department 330 S C Street Madera, CA 93638 Non-Emergency Phone 1 (559) 675-4220",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Madera",
+    "branch": "Madera Superior Court",
+    "serves_note": "Full-service court handling all case types for Madera County; civil filings at main courthouse",
+    "address": "120 North Lake Street, Madera, CA 93638",
+    "phone": "(559) 901-3212",
+    "source_url": "https://www.madera.courts.ca.gov/location/madera-superior-court",
+    "snippet": "120 North Lake Street Madera, CA 93638 (559) 901-3212",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Madera Area",
+    "address": "3051 Airport Drive, Madera, CA 93637-8709",
+    "phone": "(559) 675-1025",
+    "source_url": "https://m.chp.ca.gov/office.aspx?id=450",
+    "snippet": "Madera 3051 Airport Dr. Madera, CA 93637-8709 Phone (559) 675-1025",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:40:27.812Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

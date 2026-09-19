@@ -1,0 +1,31 @@
+{
+  "city_slug": "sunnyvale",
+  "county": "Santa Clara",
+  "hospital": null,
+  "police": {
+    "name": "Sunnyvale Department of Public Safety",
+    "type": "city_pd",
+    "address": null,
+    "phone": "408-730-7100",
+    "source_url": "https://www.sunnyvale.ca.gov/your-government/departments/public-safety",
+    "snippet": "For all other matters, call 408-730-7100.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Santa Clara",
+    "branch": "Downtown Superior Court",
+    "serves_note": "Civil cases for Sunnyvale heard at Downtown Superior Court and Old Courthouse",
+    "address": null,
+    "phone": null,
+    "source_url": "https://santaclara.courts.ca.gov/divisions/civil-division",
+    "snippet": "Civil cases in Santa Clara County are heard in the Downtown Superior Court and the Old Courthouse.",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:15:08.268Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "city_slug": "rio-vista",
+  "county": "Solano",
+  "hospital": null,
+  "police": {
+    "name": "Rio Vista Police Department",
+    "type": "contract_pd",
+    "address": "50 Poppy House Road, Rio Vista, CA 94571",
+    "phone": "707-374-6366",
+    "source_url": "https://www.riovistacity.com/police/page/police-services",
+    "snippet": "Rio Vista Police Department 50 Poppy House Road Rio Vista, CA 94571 ... Administrative Office/Lobby: 707-374-6366",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:00:45.424Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

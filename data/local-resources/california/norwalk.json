@@ -1,0 +1,38 @@
+{
+  "city_slug": "norwalk",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Norwalk Community Hospital (Los Angeles Community Hospital at Norwalk)",
+    "address": "13222 Bloomfield Avenue, Norwalk, CA 90650",
+    "phone": "(562) 863-4763",
+    "source_url": "https://locator.lacounty.gov/lac/Location/3179392/norwalk-community-hospital",
+    "snippet": "Address: 13222 Bloomfield Ave. Norwalk CA 90650 ... Emergency Room open 24 hours a day Phones: Service/Intake and Administration (562) 863-4763",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Los Angeles County Sheriff's Department, Norwalk Station",
+    "type": "sheriff",
+    "address": "12335 Civic Center Drive, Norwalk, CA 90650",
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3177214/norwalk-sheriff-station",
+    "snippet": "Address: 12335 Civic Center Dr. Norwalk CA 90650 ... Serving the areas of: City of Norwalk, City of La Mirada, South Unincorporated Whittier, East Unincorporated Whittier.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Southeast District - Norwalk Courthouse",
+    "serves_note": "Serves Norwalk and surrounding areas for civil, criminal, family, juvenile, probate, and small claims cases",
+    "address": "12720 Norwalk Boulevard, Norwalk, CA 90650",
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176778/los-angeles-county-superior-court---southeast-district---norwalk",
+    "snippet": "This state trial court is an L A County Superior Court with jurisdiction over cases in Norwalk. Address: 12720 Norwalk Blvd. Norwalk CA 90650",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:48:51.447Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

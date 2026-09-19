@@ -1,0 +1,36 @@
+{
+  "city_slug": "diamond-bar",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "San Dimas Community Hospital",
+    "address": null,
+    "phone": null,
+    "source_url": "https://sandimashospital.com/",
+    "snippet": "San Dimas Community hospital proudly serves the communities of San Dimas, La Verne, Glendora, Covina, West Covina, Azusa, Diamond Bar, Walnut, Pomona, Claremont and Ontario. We offer a full range of services, including 24-hour emergency services",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Los Angeles County Sheriff's Department – Walnut/Diamond Bar Station",
+    "type": "contract_pd",
+    "address": "21695 E. Valley Blvd. Walnut, CA 91789",
+    "phone": "(626) 913-1715",
+    "source_url": "https://lasd.org/walnut-diamond-bar/",
+    "snippet": "Walnut: (909) 595-2264, Diamond Bar: (626) 913-1715 21695 E. Valley Blvd. Walnut, CA 91789 ... Serving the areas of: City of Walnut, City of Diamond Bar",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "AAA Diamond Bar Branch (DMV Partner)",
+    "address": "2843 Diamond Bar Blvd, Diamond Bar, CA 91765",
+    "phone": "(909) 444-0299",
+    "source_url": "https://www.dmv.ca.gov/portal/business-partner/aaa-diamond-bar-branch/",
+    "snippet": "2843 Diamond Bar Blvd, Diamond Bar, CA 91765 1-909-444-0299",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:15:00.258Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

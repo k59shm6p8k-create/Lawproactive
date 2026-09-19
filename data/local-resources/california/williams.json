@@ -1,0 +1,38 @@
+{
+  "city_slug": "williams",
+  "county": "Colusa",
+  "hospital": {
+    "name": "Colusa Medical Center",
+    "address": null,
+    "phone": null,
+    "source_url": "https://colusamedcenter.com/",
+    "snippet": "Colusa Medical Center",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Williams Police Department",
+    "type": "city_pd",
+    "address": "700 North Street, Williams, CA 95987",
+    "phone": "(530) 473-2661",
+    "source_url": "https://www.cityofwilliams.org/services/police/contact_us.php",
+    "snippet": "City of Williams Police Department 700 North Street Williams, CA 95987 Phone:(530) 473-2661",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Colusa",
+    "branch": null,
+    "serves_note": "Serves all of Colusa County including Williams",
+    "address": "532 Oak Street, Colusa, CA 95932",
+    "phone": null,
+    "source_url": "https://www.colusa.courts.ca.gov/",
+    "snippet": "Officer Colusa Superior Court 532 Oak Street Colusa, CA 95932",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:24:33.005Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

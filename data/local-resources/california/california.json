@@ -1,0 +1,45 @@
+{
+  "city_slug": "california",
+  "county": "Kern",
+  "hospital": {
+    "name": "Kern Medical",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.kernmedical.com/locations/hospital/",
+    "snippet": "Kern Medical is a leading Central Valley healthcare organization, a modern 222-bed hospital, a comprehensive offering of primary care and specialty clinics",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "California City Police Department",
+    "type": "city_pd",
+    "address": "21130 Hacienda Blvd California City, CA 93505",
+    "phone": "(760) 373-7044",
+    "source_url": "https://www.californiacity-ca.gov/CC/index.php/departments-1/finance-5",
+    "snippet": "21130 Hacienda Blvd California City, CA 93505 (760) 373-7044 Records (760) 373-8606",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Kern",
+    "branch": "Metropolitan Division",
+    "serves_note": "County-level court serves all of Kern County including California City",
+    "address": "1215 Truxtun Avenue Bakersfield, CA 93301",
+    "phone": null,
+    "source_url": "https://www.kern.courts.ca.gov/",
+    "snippet": "The primary Metropolitan Division is at 1215 Truxtun Avenue and handles criminal, traffic, and certain limited civil matters",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Mojave Area",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/inland-division/830-mojave/",
+    "snippet": "The Mojave Area serves eastern Kern County communities, which include Mojave Tehachapi, Rosamond, California City, Boron, Ridgecrest, and Inyokern",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:29:22.301Z",
+    "searches": 5,
+    "stop": "end_turn"
+  }
+}

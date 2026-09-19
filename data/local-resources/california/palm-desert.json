@@ -1,0 +1,45 @@
+{
+  "city_slug": "palm-desert",
+  "county": "Riverside",
+  "hospital": {
+    "name": "Desert Regional Medical Center",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.desertcarenetwork.com/locations/detail/desert-regional-medical-center",
+    "snippet": "An experienced medical staff focused on caring for the communities of Palm Springs, Cathedral City, Desert Hot Springs, Rancho Mirage, Palm Desert, Indian Wells, La Quinta, Indio and the larger Coachella Valley",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Riverside County Sheriff's Office - Palm Desert Station",
+    "type": "contract_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.riversidesheriff.org/744/Palm-Desert-Station",
+    "snippet": "The Riverside County Sheriff's Office has been providing law enforcement services to the City of Palm Desert since the city was founded in 1973.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Riverside",
+    "branch": "Palm Springs Courthouse",
+    "serves_note": "Serves Palm Desert and surrounding communities for civil filings",
+    "address": "3255 E Tahquitz Canyon Way, Palm Springs, CA 92262",
+    "phone": null,
+    "source_url": "https://www.riverside.courts.ca.gov/location/palm-springs-courthouse",
+    "snippet": "3255 E Tahquitz Canyon Way, Palm Springs, CA 92262 ... Limited Phone Hours: The clerk's office phone hours at this location are 7:30 a.m. to 2:00 p.m., Monday - Friday",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Department of Motor Vehicles - Palm Desert Field Office",
+    "address": "74-740 Technology Drive, Palm Desert, CA 92211",
+    "phone": null,
+    "source_url": "https://www.dmv.ca.gov/portal/kiosk/palm-desert-field-office/",
+    "snippet": "74-740 Technology Drive, Palm Desert, CA 92211",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:52:06.175Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

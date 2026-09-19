@@ -1,0 +1,36 @@
+{
+  "city_slug": "indian-wells",
+  "county": "Riverside",
+  "hospital": {
+    "name": "Eisenhower Medical Center",
+    "address": "39-000 Bob Hope Drive, Rancho Mirage, CA",
+    "phone": "760-340-3911",
+    "source_url": "https://indianwellschamber.com/wp-content/uploads/2018/10/Indian-Wells-Chamber-Visitors-Guide-2018.pdf",
+    "snippet": "Eisenhower Medical Center · 39-000 Bob Hope Drive, Rancho Mirage · 760-340-3911",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Riverside County Sheriff's Department",
+    "type": "contract_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.cityofindianwells.org/services/police",
+    "snippet": "Basic law enforcement protection is provided to the City of Indian Wells by contractual agreement with the Riverside County Sheriff's Department.",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Indio Area",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/border-division/630-indio/",
+    "snippet": "There are many cities within our jurisdiction including Desert Hot Springs, Palm Springs, Cathedral City, Rancho Mirage, Palm Desert, Indian Wells, La Quinta, Indio and Coachella.",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:29:46.710Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

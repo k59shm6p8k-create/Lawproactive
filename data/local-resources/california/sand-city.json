@@ -1,0 +1,22 @@
+{
+  "city_slug": "sand-city",
+  "county": "Monterey",
+  "hospital": null,
+  "police": {
+    "name": "Sand City Police Department",
+    "type": "city_pd",
+    "address": "1 Pendergrass Way, Sand City, CA 93955",
+    "phone": "(831) 394-1451",
+    "source_url": "https://sandcity.org/police-department/",
+    "snippet": "Sand City Police Department 1 Pendergrass Way Sand City, CA 93955 ... Phone: (831) 394-1451",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:07:47.695Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

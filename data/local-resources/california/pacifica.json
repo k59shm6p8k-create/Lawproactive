@@ -1,0 +1,22 @@
+{
+  "city_slug": "pacifica",
+  "county": "San Mateo",
+  "hospital": null,
+  "police": {
+    "name": "Pacifica Police Department",
+    "type": "city_pd",
+    "address": "2075 Coast Highway, Pacifica, CA 94044",
+    "phone": null,
+    "source_url": "https://www.cityofpacifica.org/departments/police",
+    "snippet": "Pacifica Police Department 2075 Coast Hwy Pacifica, CA 94044",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:51:56.749Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

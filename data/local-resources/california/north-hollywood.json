@@ -1,0 +1,22 @@
+{
+  "city_slug": "north-hollywood",
+  "county": "Los Angeles",
+  "hospital": null,
+  "police": {
+    "name": "Los Angeles Police Department - North Hollywood Community Police Station",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.lapdonline.org/lapd-contact/valley-bureau/north-hollywood-community-police-station/",
+    "snippet": "North Hollywood Community Police Station - LAPD Online",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:48:41.808Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

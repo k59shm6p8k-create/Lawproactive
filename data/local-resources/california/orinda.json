@@ -1,0 +1,31 @@
+{
+  "city_slug": "orinda",
+  "county": "Contra Costa",
+  "hospital": null,
+  "police": {
+    "name": "Orinda Police Department (Contra Costa County Sheriff contract)",
+    "type": "contract_pd",
+    "address": "22 Orinda Way, 2nd Floor, Orinda, CA 94563",
+    "phone": "925-254-6820",
+    "source_url": "https://www.cityoforinda.gov/directory.aspx?did=12",
+    "snippet": "22 Orinda Way 2nd Floor Orinda, CA 94563Phone: 925-254-6820",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Contra Costa",
+    "branch": "Wakefield Taylor Courthouse",
+    "serves_note": "All civil cases are filed and heard in the Wakefield Taylor Courthouse in Martinez",
+    "address": "725 Court Street, Martinez, CA 94553",
+    "phone": "925-608-1000",
+    "source_url": "https://contracosta.courts.ca.gov/locations",
+    "snippet": "725 Court Street, Martinez, CA 94553 (925) 608-1000",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:50:53.907Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

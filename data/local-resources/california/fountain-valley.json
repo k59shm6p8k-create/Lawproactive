@@ -1,0 +1,29 @@
+{
+  "city_slug": "fountain-valley",
+  "county": "Orange",
+  "hospital": {
+    "name": "UCI Health — Fountain Valley",
+    "address": "17100 Euclid St., Fountain Valley, CA 92708",
+    "phone": "714-966-7200",
+    "source_url": "https://www.ucihealth.org/locations/fountain-valley/uci-health-fountain-valley-emergency-department",
+    "snippet": "UCI Health — Fountain Valley Emergency Department is located at 17100 Euclid St., Fountain Valley, CA 92708. Please call 714-966-7200 to schedule an appointment.",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Fountain Valley Police Department",
+    "type": "city_pd",
+    "address": "10200 Slater Avenue, Fountain Valley, CA 92708",
+    "phone": "714-593-4485",
+    "source_url": "https://www.fountainvalley.gov/371/Department-Directory",
+    "snippet": "Physical Address 10200 Slater Avenue Fountain Valley, CA 92708 Phone Number 714-593-4485",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:21:43.512Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

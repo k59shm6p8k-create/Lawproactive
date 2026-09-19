@@ -1,0 +1,45 @@
+{
+  "city_slug": "south-pasadena",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Huntington Hospital",
+    "address": "100 W. California Blvd, Pasadena, CA 91105",
+    "phone": "(626) 397-5555",
+    "source_url": "https://healthy.kaiserpermanente.org/southern-california/facilities/huntington-hospital-429437",
+    "snippet": "100 W California Blvd · Pasadena, CA 91105 · 7 Days · Open 24 hours · Information · 626-397-5555",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "South Pasadena Police Department",
+    "type": "city_pd",
+    "address": "1422 Mission St, South Pasadena, CA 91030",
+    "phone": "(626) 403-7270",
+    "source_url": "https://locator.lacounty.gov/lac/Location/3175461/city-of-south-pasadena-police-department",
+    "snippet": "Address: 1422 Mission St. South Pasadena CA 91030 · Service/Intake (626) 403-7270",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Northeast District - Pasadena Courthouse",
+    "serves_note": "Serves Altadena, Arcadia, Monrovia, Pasadena and Sierra Madre (including South Pasadena civil filings)",
+    "address": "300 E. Walnut St, Pasadena, CA 91101",
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176782/los-angeles-county-superior-court---northeast-district---pasadena",
+    "snippet": "This state trial court is an L A County Superior Court with jurisdiction over cases that take place in Altadena, Arcadia, Monrovia, Pasadena and Sierra Madre. Address: 300 E. Walnut St. Pasadena CA 91101",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Department of Motor Vehicles - Pasadena Office",
+    "address": "49 S. Rosemead Boulevard, Pasadena, CA 91107",
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3175483/california-state-department-of-motor-vehicles---pasadena-dmv",
+    "snippet": "Address: 49 S. Rosemead Blvd. Pasadena CA 91107",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:14:01.293Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

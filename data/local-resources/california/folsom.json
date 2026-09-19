@@ -1,0 +1,29 @@
+{
+  "city_slug": "folsom",
+  "county": "Sacramento",
+  "hospital": {
+    "name": "Mercy Hospital of Folsom",
+    "address": "1650 Creekside Drive, Folsom, CA 95630",
+    "phone": "916-983-7400",
+    "source_url": "https://www.dignityhealth.org/sacramento/locations/mercy-hospital-of-folsom",
+    "snippet": "Mercy Hospital of Folsom 1650 Creekside Dr. Folsom, CA 95630 (916) 983-7400",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Folsom Police Department",
+    "type": "city_pd",
+    "address": "46 Natoma Street, Folsom, CA 95630",
+    "phone": "916-461-6400",
+    "source_url": "https://www.folsom.ca.us/government/police",
+    "snippet": "916-461-6400 (Business/Non-Emergency)",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:20:35.010Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

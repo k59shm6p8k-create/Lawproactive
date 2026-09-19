@@ -1,0 +1,36 @@
+{
+  "city_slug": "santa-clarita",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Henry Mayo Newhall Hospital",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.henrymayo.com/medical-services/emergency/",
+    "snippet": "Get fast emergency care in Santa Clarita Valley by visiting Henry Mayo Newhall Hospital's Emergency Room.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Santa Clarita Valley Sheriff's Station",
+    "type": "sheriff",
+    "address": "26201 Golden Valley Road, Santa Clarita, CA 91350",
+    "phone": null,
+    "source_url": "https://lasd.org/santa-clarita-valley/",
+    "snippet": "Santa Clarita contracts with the Los Angeles County Sheriff's Department (LASD) for municipal policing. Services are delivered by the Santa Clarita Valley (SCV) Sheriff's Station at 26201 Golden Valley Road, Santa Clarita, CA 91350.",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "CHP Newhall Area Office",
+    "address": null,
+    "phone": "(661) 600-1600",
+    "source_url": "https://www.chp.ca.gov/find-an-office/southern-division/540-newhall/",
+    "snippet": "Serving the Santa Clarita Valley & the unincorporated areas of Stevenson Ranch, Castaic, Agua Dulce and Val Verde. Office phone 661-600-1600",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:08:35.618Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

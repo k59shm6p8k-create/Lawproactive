@@ -1,0 +1,22 @@
+{
+  "city_slug": "newman",
+  "county": "Stanislaus",
+  "hospital": null,
+  "police": {
+    "name": "Newman Police Department",
+    "type": "city_pd",
+    "address": "1200 Main Street, Newman, CA 95360",
+    "phone": "209-862-2902",
+    "source_url": "https://oag.ca.gov/fingerprints/locations/city-newman-police-department",
+    "snippet": "Address: 1200 Main Street · Newman, CA 95360...Phone: (209) 862-2902",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:48:03.117Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

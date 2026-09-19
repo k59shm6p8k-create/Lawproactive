@@ -1,0 +1,38 @@
+{
+  "city_slug": "carmel-by-the-sea",
+  "county": "Monterey",
+  "hospital": {
+    "name": "Community Hospital of the Monterey Peninsula",
+    "address": null,
+    "phone": null,
+    "source_url": "https://urgentcarearlingtonva.com/hospitals-in-carmel-by-the-sea-california-monterey-county/",
+    "snippet": "The Community Hospital of the Monterey Peninsula is a renowned healthcare institution serving the Monterey County region, including Carmel-by-the-Sea.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Carmel-by-the-Sea Police Department",
+    "type": "city_pd",
+    "address": "South East Corner of Junipero and 4th Avenue, Carmel, CA 93921",
+    "phone": "(831) 624-6403",
+    "source_url": "https://oag.ca.gov/fingerprints/locations/carmel-police-department",
+    "snippet": "Address: South East Corner of Junipero and 4th Avenue, Carmel, CA 93921, Phone: (831) 624-6403",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Monterey",
+    "branch": "Salinas Courthouse",
+    "serves_note": "Central civil court division handling majority of civil filings and hearings for Monterey County",
+    "address": "240 Church Street, Salinas, CA 93901",
+    "phone": null,
+    "source_url": "https://www.monterey.courts.ca.gov/",
+    "snippet": "Courtroom 1-11 240 Church St. Salinas, CA 93901",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:05:41.528Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

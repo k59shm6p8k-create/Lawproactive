@@ -1,0 +1,29 @@
+{
+  "city_slug": "east-palo-alto",
+  "county": "San Mateo",
+  "hospital": {
+    "name": "Stanford Hospital - Marc and Laura Andreessen Adult Emergency Department",
+    "address": "1199 Welch Rd, Palo Alto, CA 94304",
+    "phone": null,
+    "source_url": "https://stanfordhealthcare.org/content/shc/en-tools/maps/clinics/adult-emergency-department-1199-welch.html",
+    "snippet": "1199 Welch Rd Palo Alto, CA 94304",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "East Palo Alto Police Department",
+    "type": "city_pd",
+    "address": "141 Demeter Street, East Palo Alto, CA 94303",
+    "phone": "650-321-1112",
+    "source_url": "https://www.cityofepa.org/police/custom-contact-page/police-contact-information",
+    "snippet": "141 Demeter Street East Palo Alto, CA 94303... Non-Emergency: (650) 321-1112 Records: (650) 853-3160",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:16:36.023Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

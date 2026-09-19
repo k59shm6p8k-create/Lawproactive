@@ -1,0 +1,22 @@
+{
+  "city_slug": "patterson",
+  "county": "Stanislaus",
+  "hospital": null,
+  "police": {
+    "name": "Patterson Police Services, Stanislaus County Sheriff's Department",
+    "type": "contract_pd",
+    "address": "33 S. Del Puerto Ave. Patterson, CA 95363",
+    "phone": "209-892-5071",
+    "source_url": "https://www.pattersonca.gov/Directory/Home/DepartmentListing?DID=15",
+    "snippet": "Police Department Physical Address: 33 S. Del Puerto Ave. Patterson, CA 95363 Phone: 209-892-5071",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:53:42.842Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

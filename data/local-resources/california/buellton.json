@@ -1,0 +1,36 @@
+{
+  "city_slug": "buellton",
+  "county": "Santa Barbara",
+  "hospital": {
+    "name": "Santa Ynez Valley Cottage Hospital",
+    "address": null,
+    "phone": null,
+    "source_url": "https://cityofbuellton.com/about/",
+    "snippet": "Santa Ynez Valley Cottage Hospital is located in Solvang with complete emergency and general services.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Santa Barbara County Sheriff's Office - Buellton Station",
+    "type": "contract_pd",
+    "address": "140 W. Highway 246, Buellton, CA 93427",
+    "phone": "805-686-8150",
+    "source_url": "https://www.sbsheriff.org/command-and-divisions/law-enforcement-operations/north-county-operations-division/buellton-station/",
+    "snippet": "140 W. Highway 246 Buellton, CA. 93427 Phone #'s: (805) 686-8150 Dispatch non-emergency 805-683-2724",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Buellton Area Office",
+    "address": "166 Industrial Way, Buellton, CA 93427",
+    "phone": "805-688-5551",
+    "source_url": "https://www.chp.ca.gov/find-an-office/coastal-division/offices/(755)-buellton",
+    "snippet": "166 Industrial Way, Buellton, CA, United States, California · (805) 688-5551",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:02:39.890Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

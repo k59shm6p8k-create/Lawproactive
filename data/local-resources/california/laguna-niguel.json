@@ -1,0 +1,29 @@
+{
+  "city_slug": "laguna-niguel",
+  "county": "Orange",
+  "hospital": {
+    "name": "Providence Mission Hospital",
+    "address": "27700 Medical Center Rd, Mission Viejo, CA 92691",
+    "phone": "(949) 364-1400",
+    "source_url": "https://www.cityoflagunaniguel.org/297/Hospitals",
+    "snippet": "Location: 27700 Medical Center Rd, Mission Viejo, CA 92691 Phone: (949) 364-1400 Mission Hospital website",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "OCSD - Laguna Niguel Police Services",
+    "type": "contract_pd",
+    "address": "30111 Crown Valley Parkway, Laguna Niguel, CA 92677",
+    "phone": "(949) 362-4346",
+    "source_url": "https://www.cityoflagunaniguel.org/Directory.aspx?did=76",
+    "snippet": "30111 Crown Valley Parkway Laguna Niguel, CA 92677 Phone: (949) 362-4346",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:34:48.797Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

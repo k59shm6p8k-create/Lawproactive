@@ -1,0 +1,31 @@
+{
+  "city_slug": "temple-city",
+  "county": "Los Angeles",
+  "hospital": null,
+  "police": {
+    "name": "Los Angeles County Sheriff's Department - Temple Station",
+    "type": "contract_pd",
+    "address": null,
+    "phone": "(626) 285-7171",
+    "source_url": "https://lasd.org/temple/",
+    "snippet": "If an immediate law enforcement response is needed, please call 9-1-1 or contact Temple Station via phone at (626) 285-7171.",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Northeast District - Alhambra Courthouse",
+    "serves_note": "Jurisdiction over cases in Alhambra, Monterey Park, San Gabriel and Temple City",
+    "address": null,
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176781/los-angeles-county-superior-court---northeast-district---alhambra",
+    "snippet": "This state trial court is an L A County Superior Court with jurisdiction over cases that take place in Alhambra, Monterey Park, San Gabriel and Temple City.",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:16:34.498Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

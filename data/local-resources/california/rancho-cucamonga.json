@@ -1,0 +1,38 @@
+{
+  "city_slug": "rancho-cucamonga",
+  "county": "San Bernardino",
+  "hospital": {
+    "name": "San Antonio Regional Hospital (Emergency Department)",
+    "address": "999 San Bernardino Road, Upland, CA 91786",
+    "phone": null,
+    "source_url": "https://www.sarh.org/make-an-appointment",
+    "snippet": "San Antonio Regional Hospital's Randall and Janell Lewis Emergency Department serves the community with 24-hour emergency care and is located at 999 San Bernardino Road, Upland, California 91786.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Rancho Cucamonga Police Department (San Bernardino County Sheriff's Department)",
+    "type": "contract_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.cityofrc.us/RCPD",
+    "snippet": "Since incorporation in 1977, law enforcement services in the City have been provided through a contract with the San Bernardino County Sheriff's Department.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Bernardino",
+    "branch": "Rancho Cucamonga District",
+    "serves_note": "Civil filings for Rancho Cucamonga and surrounding west-county communities",
+    "address": "8303 Haven Avenue, Rancho Cucamonga, CA 91730",
+    "phone": null,
+    "source_url": "https://sanbernardino.courts.ca.gov/location/civil-division-rancho-cucamonga-district",
+    "snippet": "Superior Court of California County of San Bernardino Civil Division – Rancho Cucamonga District 8303 Haven Avenue Rancho Cucamonga, CA 91730",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:57:54.981Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

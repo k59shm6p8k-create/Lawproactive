@@ -1,0 +1,38 @@
+{
+  "city_slug": "beverly-hills",
+  "county": "Los Angeles",
+  "hospital": null,
+  "police": {
+    "name": "Beverly Hills Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "310-285-2184",
+    "source_url": "https://www.beverlyhills.org/directory.aspx?did=52",
+    "snippet": "Phone: 310-285-2184 ... RECORDS BUREAU Phone: 310-285-2184",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Beverly Hills Courthouse",
+    "serves_note": "Serves Beverly Hills and West Hollywood for civil filings",
+    "address": "9355 Burton Way, Beverly Hills, CA 90210",
+    "phone": null,
+    "source_url": "https://www.lacourt.ca.gov/apps/courthouse/bh/detail",
+    "snippet": "Beverly Hills Courthouse 9355 Burton Way Beverly Hills, CA 90210",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol West Los Angeles",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.chp.ca.gov/find-an-office/southern-division/565-west-los-angeles/",
+    "snippet": "West Los Angeles CHP office serves several iconic beach cities and freeway-adjacent communities, including Santa Monica, Venice, El Segundo, Manhattan Beach, Beverly Hills, Culver City, Hawthorne, and Inglewood.",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:00:25.324Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

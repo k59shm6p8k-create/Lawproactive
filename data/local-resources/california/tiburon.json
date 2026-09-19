@@ -1,0 +1,38 @@
+{
+  "city_slug": "tiburon",
+  "county": "Marin",
+  "hospital": {
+    "name": "MarinHealth Medical Center",
+    "address": "Greenbrae, CA",
+    "phone": null,
+    "source_url": "https://www.solvhealth.com/ca/c/tiburon-ca-urgent-care",
+    "snippet": "the closest is MarinHealth Medical Center (Greenbrae) for chest pain, severe bleeding, head injury with loss of consciousness, stroke symptoms, or any other emergency",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Tiburon Police Department",
+    "type": "city_pd",
+    "address": "1155 Tiburon Blvd, Tiburon, CA 94920",
+    "phone": "(415) 789-2801",
+    "source_url": "https://oag.ca.gov/fingerprints/locations/tiburon-police-department",
+    "snippet": "1155 Tiburon Blvd. Tiburon, CA 94920... Phone: (415) 789-2801",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Marin",
+    "branch": "Civic Center, Hall of Justice",
+    "serves_note": "Serves all of Marin County including Tiburon",
+    "address": "Civic Center, Hall of Justice, San Rafael, CA",
+    "phone": "(415) 444-7040",
+    "source_url": "https://www.marin.courts.ca.gov/general-information/contact-us",
+    "snippet": "Phone: (415) 444-7040 Email: civil@marin.courts.ca.gov Location: Civic Center, Hall of Justice, Room 113",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:16:57.237Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

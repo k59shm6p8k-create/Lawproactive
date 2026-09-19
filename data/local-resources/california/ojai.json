@@ -1,0 +1,38 @@
+{
+  "city_slug": "ojai",
+  "county": "Ventura",
+  "hospital": {
+    "name": "Community Memorial Hospital – Ojai",
+    "address": "1306 Maricopa Highway, Ojai, CA 93023",
+    "phone": "805-948-1401",
+    "source_url": "https://www.mycmh.org/locations/community-memorial-hospital-ojai/",
+    "snippet": "Community Memorial Hospital · 1306 Maricopa Highway Ojai, CA 93023 Phone 805-948-1401",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Ojai Police Department (Ventura County Sheriff Contract)",
+    "type": "contract_pd",
+    "address": "402 S. Ventura Street, Ojai, CA 93023",
+    "phone": null,
+    "source_url": "https://ojaicity.org/ojai-police-department/",
+    "snippet": "Ojai's Police Department–provided by contract from the Ventura County Sheriff's Department– provide a School Resource Officer at Nordhoff High School. The Ojai Police station at 402 S. Ventura Street",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Ventura",
+    "branch": "Hall of Justice (Ventura)",
+    "serves_note": "Serves Ojai and Ventura County for civil filings",
+    "address": "800 South Victoria Avenue, Ventura, CA 93009",
+    "phone": null,
+    "source_url": "https://ventura.courts.ca.gov/locations",
+    "snippet": "Hall of Justice · 800 South Victoria Avenue, Ventura, CA 93009",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:50:09.661Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

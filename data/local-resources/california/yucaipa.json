@@ -1,0 +1,31 @@
+{
+  "city_slug": "yucaipa",
+  "county": "San Bernardino",
+  "hospital": null,
+  "police": {
+    "name": "San Bernardino County Sheriff's Department - Yucaipa Station",
+    "type": "sheriff",
+    "address": "34144 Yucaipa Boulevard, Yucaipa, CA 92399",
+    "phone": "(909) 918-2305",
+    "source_url": "https://wp.sbcounty.gov/sheriff/patrol-stations/yucaipa/",
+    "snippet": "Address34144 Yucaipa BoulevardYucaipa, California 92399 Phone:(909) 918-2305",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Bernardino",
+    "branch": "San Bernardino District - Civil Division",
+    "serves_note": "Yucaipa and surrounding communities file civil cases here",
+    "address": null,
+    "phone": null,
+    "source_url": "https://sanbernardino.courts.ca.gov/general-information/where-can-i-file",
+    "snippet": "San Bernardino, Colton, Devore, Grand Terrace, Loma Linda, Bryn Mawr, Highland, Yucaipa, Redlands",
+    "confidence": "review"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T11:26:50.911Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

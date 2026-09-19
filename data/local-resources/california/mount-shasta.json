@@ -1,0 +1,45 @@
+{
+  "city_slug": "mount-shasta",
+  "county": "Siskiyou",
+  "hospital": {
+    "name": "Mercy Medical Center Mt. Shasta",
+    "address": null,
+    "phone": "(530) 926-6111",
+    "source_url": "https://locations.dignityhealth.org/emergency-room-mercy-medical-center-mt-shasta",
+    "snippet": "For more information about emergency services, please call (530) 926-6111.",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Mount Shasta Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.mtshastaca.gov/police",
+    "snippet": "The purpose of the Mt. Shasta Police Department is to provide for the public safety of its residents and the visitors to the City of Mt. Shasta.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Siskiyou",
+    "branch": "Siskiyou County Superior Court",
+    "serves_note": "Serves all of Siskiyou County including Mount Shasta for civil filings",
+    "address": "411 Fourth Street Yreka, CA 96097",
+    "phone": "(530) 842-0411",
+    "source_url": "https://www.siskiyou.courts.ca.gov/general-information/location-contact-info",
+    "snippet": "Superior Court of California, County of Siskiyou 411 Fourth Street Yreka, CA 96097 (530) 842-0411",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Mt. Shasta Area",
+    "address": "618 West Jessie Street Mt. Shasta, CA 96067",
+    "phone": "(530) 926-2627",
+    "source_url": "https://cad.chp.ca.gov/htm.net/locations.htm",
+    "snippet": "MT. SHASTA CHP 618 West Jessie Street Mt. Shasta 96067-9760 530-926-2627",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:46:37.268Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

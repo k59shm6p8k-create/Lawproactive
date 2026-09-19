@@ -1,0 +1,38 @@
+{
+  "city_slug": "loma-linda",
+  "county": "San Bernardino",
+  "hospital": {
+    "name": "Loma Linda University Medical Center",
+    "address": "11234 Anderson St, Loma Linda, CA 92354",
+    "phone": "909-651-7233",
+    "source_url": "https://lluh.org/services/emergency-room",
+    "snippet": "11234 Anderson St, Loma Linda, CA 92354 · 909-651-7233 (Adult Emergency)",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "San Bernardino County Sheriff's Department - Central Station",
+    "type": "contract_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://wp.sbcounty.gov/sheriff/patrol-stations/central-station/",
+    "snippet": "Central Station is responsible for contract law enforcement in the cities of Grand Terrace and Loma Linda",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Bernardino",
+    "branch": "San Bernardino District",
+    "serves_note": "San Bernardino, Colton, Grand Terrace, Loma Linda, Bryn Mawr, Highland, Yucaipa, Redlands, and surrounding areas",
+    "address": null,
+    "phone": null,
+    "source_url": "https://sanbernardino.courts.ca.gov/general-information/where-can-i-file",
+    "snippet": "San Bernardino, Colton, Grand Terrace, Loma Linda, Bryn Mawr, Highland, Yucaipa, Redlands",
+    "confidence": "high"
+  },
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:38:07.771Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "city_slug": "dublin",
+  "county": "Alameda",
+  "hospital": {
+    "name": "San Ramon Regional Medical Center",
+    "address": "6001 Norris Canyon Road, San Ramon, CA",
+    "phone": "925-275-9200",
+    "source_url": "https://www.dublincorpcenter.com/main.cfm?sid=eprocedures&pid=econtacts",
+    "snippet": "San Ramon Regional Medical Center (24 Hour Emergency Room) 6001 Norris Canyon Road San Ramon, CA 925-275-9200",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Dublin Police Services",
+    "type": "contract_pd",
+    "address": "6361 Clark Avenue, Dublin, CA 94568",
+    "phone": "925-833-6670",
+    "source_url": "https://www.alamedasheriff.gov/Home/Components/FacilityDirectory/FacilityDirectory/38/33?backlist=%2F",
+    "snippet": "Address:6361 Clark Avenue Dublin, CA 94568 · Phone:(925) 833-6670 · Categories: Law Enforcement",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Alameda",
+    "branch": "East County Hall of Justice (Dublin)",
+    "serves_note": "Serves Dublin and East County civil, criminal, and traffic cases",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.alameda.courts.ca.gov/location/dublin-east-county-hall-justice",
+    "snippet": "Dublin - East County Hall of Justice",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol Dublin Office",
+    "address": "4999 Gleason Road, Dublin, CA 94568-3310",
+    "phone": "925-828-0466",
+    "source_url": "https://www.chp.ca.gov/find-an-office/golden-gate-division/390-dublin/",
+    "snippet": "Dublin 4999 Gleason Rd. Dublin, CA 94568-3310 · Phone (925) 828-0466",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T10:16:16.086Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}
