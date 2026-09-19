@@ -1,0 +1,29 @@
+{
+  "city_slug": "alameda",
+  "county": "Alameda",
+  "hospital": {
+    "name": "Alameda Hospital",
+    "address": "2070 Clinton Ave, Alameda, CA 94501",
+    "phone": null,
+    "source_url": "https://hcai.ca.gov/facility/alameda-hospital/",
+    "snippet": "Address: 2070 Clinton Ave Alameda, CA 94501",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Alameda Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": "510-337-8411",
+    "source_url": "https://cityofalamedaca.nextrequest.com/requests/new",
+    "snippet": "If you wish to submit a request to the Police Department, please email APDRecords@alamedaca.gov or call 510-337-8411",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:51:31.223Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

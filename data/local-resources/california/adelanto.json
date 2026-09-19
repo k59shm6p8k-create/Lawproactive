@@ -1,0 +1,38 @@
+{
+  "city_slug": "adelanto",
+  "county": "San Bernardino",
+  "hospital": null,
+  "police": {
+    "name": "San Bernardino County Sheriff's Department - Victor Valley Station",
+    "type": "sheriff",
+    "address": null,
+    "phone": null,
+    "source_url": "https://wp.sbcounty.gov/sheriff/patrol-stations/victor-valley/",
+    "snippet": "The Victor Valley Station provides law enforcement services to the communities of Adelanto, Helendale, Oro Grande, Silver Lakes, El Mirage, Spring Valley Lake, Oak Hills, Wrightwood and the unincorporated areas of the Victor Valley area not serviced by the cities of Hesperia, Victorville and the Town of Apple Valley.",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of San Bernardino",
+    "branch": "Victorville District",
+    "serves_note": "Civil and criminal filings for Adelanto",
+    "address": null,
+    "phone": null,
+    "source_url": "https://sanbernardino.courts.ca.gov/general-information/where-can-i-file",
+    "snippet": "Probate and Conservatorship matters are filed and heard in the Victorville District for the following areas: Adelanto, Apple Valley, Baker, Baldwin Lake, Barstow, Big Bear City, Big Bear Lake...",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Victorville Office",
+    "address": "14210 Amargosa Rd.",
+    "phone": null,
+    "source_url": "https://m.chp.ca.gov/office.aspx",
+    "snippet": "Victorville 14210 Amargosa Rd.",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:51:03.351Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

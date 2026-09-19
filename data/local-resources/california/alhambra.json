@@ -1,0 +1,45 @@
+{
+  "city_slug": "alhambra",
+  "county": "Los Angeles",
+  "hospital": {
+    "name": "Alhambra Hospital Medical Center",
+    "address": "100 South Raymond Avenue, Alhambra, CA 91801",
+    "phone": "626-570-1606",
+    "source_url": "https://www.alhambrahospital.com/getpage.php?name=services",
+    "snippet": "100 South Raymond Avenue Alhambra, CA 91801 · (626) 570-1606",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Alhambra Police Department",
+    "type": "city_pd",
+    "address": "211 S. First St. Alhambra CA 91801",
+    "phone": null,
+    "source_url": "https://locator.lacounty.gov/lac/Location/3179241/alhambra-police-department",
+    "snippet": "Address: 211 S. First St. Alhambra CA 91801",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Alhambra Courthouse (Northeast District)",
+    "serves_note": "Serves Alhambra, Monterey Park, San Gabriel, Temple City, Monrovia, South Pasadena, and San Marino",
+    "address": "150 West Commonwealth Ave., Alhambra CA 91801",
+    "phone": "626-308-5521",
+    "source_url": "https://locator.lacounty.gov/lac/Location/3176781/los-angeles-county-superior-court---northeast-district---alhambra",
+    "snippet": "Address: 150 W. Commonwealth Ave. Alhambra CA 91801 ... Civil/Small Claims Service/Intake (626) 308-5521",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "Beyond Services (DMV-authorized partner)",
+    "address": "1461 E Valley Blvd, Alhambra, CA 91801",
+    "phone": "626-524-1984",
+    "source_url": "https://qr.dmv.ca.gov/portal/business-partner/beyond-services/",
+    "snippet": "1461 E Valley Blvd, Alhambra, CA 91801 1-626-524-1984",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:51:56.265Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -31,9 +31,15 @@ const MODEL = argVal('--model') || 'claude-sonnet-5'
 const MAX_USES = parseInt(argVal('--max-uses') || '4')
 const SLEEP = parseInt(argVal('--sleep') || '1200')
 
-// Web search tool version depends on model family (per Anthropic docs).
-const NEW_SEARCH_MODELS = /opus-(4-8|4-7|4-6|5)|sonnet-(5|4-6)/
-const SEARCH_TOOL = NEW_SEARCH_MODELS.test(MODEL) ? 'web_search_20260209' : 'web_search_20250305'
+// Web search tool version. Default to the fast snippet tool (20250305): it
+// returns search results with source URLs + snippets — exactly what we need to
+// ground values — and runs in ~30s/city. The 20260209 tool deep-fetches whole
+// pages (10+ min/city), which is impractical at 482-city scale; opt into it with
+// --deep-search only if a specific city needs it.
+const SEARCH_TOOL = process.argv.includes('--deep-search') ? 'web_search_20260209' : 'web_search_20250305'
+// Multi-step tool use spends output tokens on each search before the final JSON,
+// so this must be generous or the JSON gets truncated (esp. on chattier models).
+const MAX_TOKENS = parseInt(argVal('--max-tokens') || '8000')
 
 // Never accept a data-broker / aggregator as a source (per the verification spec).
 const BLOCKED_DOMAINS = [
@@ -71,7 +77,8 @@ POLICE (do NOT assume "<City> Police Department" exists):
 COURT (California superior courts are COUNTY-level — there are 58, one per county; there is no "<City> Superior Court"):
 - Resolve which COUNTY the city is in, then the Superior Court of California, County of <County>, and the specific BRANCH/courthouse that serves this city (civil filings). Verify via courts.ca.gov ("Find My Court") or the county superior court's official site.
 - For cities in Los Angeles County, use the civil filing-district courthouse that serves the city.
-- "court_name" = e.g. "Superior Court of California, County of X"; "branch" = the courthouse/branch name; "serves_note" = short note on who/what area it serves. Return null if you cannot verify.
+- "court_name" = e.g. "Superior Court of California, County of X"; "branch" = the courthouse/branch name; "serves_note" = short note on who/what area it serves.
+- CRITICAL: the court source_url MUST be an official court/government page (courts.ca.gov, the county superior court's official site such as *.courts.ca.gov, lacourt.org, or a county .gov court locator). NEVER cite a law firm, attorney, or marketing page for the court. If you cannot confirm the serving branch from an official source, return null for the entire court object.
 
 OUTPUT: Return ONLY one strict JSON object, no prose, no code fences:
 {
@@ -97,8 +104,31 @@ function stripFence(s: string) {
 function extractJson(text: string): any {
   const t = stripFence(text)
   try { return JSON.parse(t) } catch {}
-  const m = t.match(/\{[\s\S]*\}/)
-  if (m) return JSON.parse(m[0])
+  // Scan for the LAST balanced {...} object (the final answer), ignoring braces
+  // inside strings. Robust to leading prose and to trailing truncation.
+  const candidates: string[] = []
+  for (let start = t.indexOf('{'); start !== -1; start = t.indexOf('{', start + 1)) {
+    let depth = 0, inStr = false, esc = false
+    for (let i = start; i < t.length; i++) {
+      const ch = t[i]
+      if (inStr) {
+        if (esc) esc = false
+        else if (ch === '\\') esc = true
+        else if (ch === '"') inStr = false
+      } else if (ch === '"') inStr = true
+      else if (ch === '{') depth++
+      else if (ch === '}') {
+        depth--
+        if (depth === 0) { candidates.push(t.slice(start, i + 1)); break }
+      }
+    }
+  }
+  for (let i = candidates.length - 1; i >= 0; i--) {
+    try { const o = JSON.parse(candidates[i]); if (o && typeof o === 'object' && 'city_slug' in o) return o } catch {}
+  }
+  for (let i = candidates.length - 1; i >= 0; i--) {
+    try { return JSON.parse(candidates[i]) } catch {}
+  }
   throw new Error('no JSON in response')
 }
 
@@ -111,10 +141,60 @@ let totalSearches = 0
 let totalIn = 0
 let totalOut = 0
 
+const digits = (s?: string | null) => (s || '').replace(/\D/g, '')
+
+/**
+ * Enforce grounding the model can't be trusted to self-police: a value must
+ * actually appear in the snippet it cites. If a phone's digits aren't in the
+ * snippet, null the phone (a mismatched number is a guess). A resource with no
+ * source_url or no snippet is dropped entirely. Also normalizes confidence.
+ */
+function groundResource<T extends any>(r: T | null): T | null {
+  if (!r || typeof r !== 'object') return null
+  const res = r as any
+  if (!res.source_url || !res.snippet) return null
+  const snapDigits = digits(res.snippet)
+  if (res.phone) {
+    const pd = digits(res.phone)
+    // 10-digit US number must be contained (contiguously) in the snippet's digits.
+    if (pd.length >= 7 && !snapDigits.includes(pd)) {
+      res.phone = null
+      if (res.confidence === 'high') res.confidence = 'review'
+    }
+  }
+  // A verified address should share a meaningful token (street number) with the
+  // snippet; if not, keep the name/phone but drop the unverifiable address.
+  if (res.address) {
+    const num = (res.address.match(/\d+/) || [])[0]
+    if (num && !snapDigits.includes(num)) res.address = null
+  }
+  if (res.confidence !== 'high' && res.confidence !== 'review') res.confidence = 'review'
+  return res
+}
+
+// A court branch is legally sensitive and easy to get wrong, so only accept it
+// from an official court/government source — never a law-firm or marketing page.
+function officialCourtSource(url?: string | null): boolean {
+  if (!url) return false
+  let host = ''
+  try { host = new URL(url).hostname.toLowerCase() } catch { return false }
+  if (/law|attorney|lawyer|legal|injury|firm|accident/.test(host)) return false
+  return host.endsWith('.gov') || host.includes('courts.ca.gov') || host === 'lacourt.org' || host.endsWith('.courts.ca.gov')
+}
+
+function groundAll(json: any): any {
+  json.hospital = groundResource(json.hospital)
+  json.police = groundResource(json.police)
+  json.court = groundResource(json.court)
+  if (json.court && !officialCourtSource(json.court.source_url)) json.court = null
+  json.chp_or_dmv = groundResource(json.chp_or_dmv)
+  return json
+}
+
 async function verifyCity(client: Anthropic, c: any): Promise<any> {
   const resp = await client.messages.create({
     model: MODEL,
-    max_tokens: 2000,
+    max_tokens: MAX_TOKENS,
     system: SYSTEM,
     tools: [{ type: SEARCH_TOOL as any, name: 'web_search', max_uses: MAX_USES, blocked_domains: BLOCKED_DOMAINS } as any],
     messages: [{ role: 'user', content: userPrompt(c) }],
@@ -125,21 +205,30 @@ async function verifyCity(client: Anthropic, c: any): Promise<any> {
   totalIn += (u.input_tokens ?? 0)
   totalOut += (u.output_tokens ?? 0)
   const text = resp.content.filter((b: any) => b.type === 'text').map((b: any) => b.text).join('')
-  const json = extractJson(text)
+  const json = groundAll(extractJson(text))
   json.city_slug = json.city_slug || c.slug
-  json._meta = { model: MODEL, verifiedAt: new Date().toISOString(), searches }
+  json._meta = { model: MODEL, verifiedAt: new Date().toISOString(), searches, stop: resp.stop_reason }
   console.log(`  ${c.slug}: ${searches} searches | in ${u.input_tokens} out ${u.output_tokens} | ` +
     `H:${json.hospital ? '✓' : '—'} P:${json.police ? json.police.type : '—'} ` +
     `C:${json.court ? '✓' : '—'} CHP:${json.chp_or_dmv ? '✓' : '—'}`)
   return json
 }
 
+const VALUE_FLAGS = new Set(['--model', '--max-uses', '--sleep', '--max-tokens', '--limit', '--offset', '--only'])
+function positionalSlugs(): string[] {
+  const out: string[] = []
+  const args = process.argv.slice(3)
+  for (let i = 0; i < args.length; i++) {
+    const a = args[i]
+    if (a.startsWith('--')) { if (VALUE_FLAGS.has(a)) i++; continue }
+    out.push(a)
+  }
+  return out
+}
+
 async function proof() {
   const write = process.argv.includes('--write')
-  const slugs = process.argv.slice(3).filter((a) => !a.startsWith('--') &&
-    process.argv[process.argv.indexOf(a) - 1] !== '--model' &&
-    process.argv[process.argv.indexOf(a) - 1] !== '--max-uses' &&
-    process.argv[process.argv.indexOf(a) - 1] !== '--sleep')
+  const slugs = positionalSlugs()
   const cities = await loadCities()
   const client = makeClient()
   if (write) await fs.mkdir(OUT_DIR, { recursive: true })
@@ -147,9 +236,11 @@ async function proof() {
   for (const slug of slugs) {
     const c = cities.find((x) => x.slug === slug)
     if (!c) { console.error(`  ${slug}: NOT in city list`); continue }
-    const json = await verifyCity(client, c)
-    console.log(JSON.stringify(json, null, 2))
-    if (write) { await fs.writeFile(path.join(OUT_DIR, `${slug}.json`), JSON.stringify(json, null, 2) + '\n') ; console.log('  (written)') }
+    try {
+      const json = await verifyCity(client, c)
+      console.log(JSON.stringify(json, null, 2))
+      if (write) { await fs.writeFile(path.join(OUT_DIR, `${slug}.json`), JSON.stringify(json, null, 2) + '\n'); console.log('  (written)') }
+    } catch (e) { console.error(`  ${slug}: FAIL ${(e as Error).message}`) }
     await sleep(SLEEP)
   }
   summary()
@@ -159,12 +250,24 @@ async function run() {
   const only = argVal('--only')?.split(',').map((s) => s.trim())
   const limit = argVal('--limit') ? parseInt(argVal('--limit')!) : undefined
   const offset = argVal('--offset') ? parseInt(argVal('--offset')!) : 0
+  const skipExisting = process.argv.includes('--skip-existing')
   let cities = await loadCities()
   if (only) cities = cities.filter((c) => only.includes(c.slug))
   else cities = cities.slice(offset, limit ? offset + limit : undefined)
   const client = makeClient()
   await fs.mkdir(OUT_DIR, { recursive: true })
-  console.log(`Model: ${MODEL} | search tool: ${SEARCH_TOOL} | max_uses: ${MAX_USES} | cities: ${cities.length}\n`)
+  let skipped = 0
+  if (skipExisting) {
+    const before = cities.length
+    const kept: any[] = []
+    for (const c of cities) {
+      try { await fs.access(path.join(OUT_DIR, `${c.slug}.json`)); } catch { kept.push(c); continue }
+      // file exists -> skip
+    }
+    cities = kept
+    skipped = before - cities.length
+  }
+  console.log(`Model: ${MODEL} | search tool: ${SEARCH_TOOL} | max_uses: ${MAX_USES} | to-do: ${cities.length}${skipped ? ` | skipped existing: ${skipped}` : ''}\n`)
   let ok = 0, fail = 0
   for (const c of cities) {
     try {
@@ -194,6 +297,22 @@ function summary() {
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms))
 
+// Re-apply the grounding guards to files already on disk (no API calls). Use
+// after tuning the guards so existing files match current rules.
+async function reground() {
+  let files = (await fs.readdir(OUT_DIR)).filter((f) => f.endsWith('.json'))
+  let changed = 0
+  for (const f of files) {
+    const p = path.join(OUT_DIR, f)
+    const json = JSON.parse((await fs.readFile(p, 'utf8')).replace(/^﻿/, ''))
+    const before = JSON.stringify({ h: json.hospital, p: json.police, c: json.court, d: json.chp_or_dmv })
+    groundAll(json)
+    const after = JSON.stringify({ h: json.hospital, p: json.police, c: json.court, d: json.chp_or_dmv })
+    if (before !== after) { await fs.writeFile(p, JSON.stringify(json, null, 2) + '\n'); changed++; console.log(`  regrounded ${f}`) }
+  }
+  console.log(`reground: ${changed}/${files.length} changed`)
+}
+
 const cmd = process.argv[2]
-;({ proof, run } as any)[cmd]?.().catch((e: any) => { console.error(e); process.exit(1) }) ??
-  console.log('cmd: proof <slugs...> [--write] | run [--limit N --offset M | --only a,b]  [--model .. --max-uses ..]')
+;({ proof, run, reground } as any)[cmd]?.().catch((e: any) => { console.error(e); process.exit(1) }) ??
+  console.log('cmd: proof <slugs...> [--write] | run [--limit N --offset M | --only a,b] [--skip-existing] [--model .. --max-uses ..] | reground')

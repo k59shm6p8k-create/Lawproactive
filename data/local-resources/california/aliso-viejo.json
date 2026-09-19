@@ -1,0 +1,29 @@
+{
+  "city_slug": "aliso-viejo",
+  "county": "Orange",
+  "hospital": null,
+  "police": {
+    "name": "Aliso Viejo Police Services (Orange County Sheriff's Department)",
+    "type": "contract_pd",
+    "address": "12 Journey, Suite 100, Aliso Viejo, CA 92656",
+    "phone": "(949) 425-2564",
+    "source_url": "https://ocsheriff.gov/location/aliso-viejo-police-services",
+    "snippet": "12 Journey, Suite 100 Aliso Viejo, CA 92656 United States ... Phone: (949) 425-2564",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol, Capistrano Area Office",
+    "address": "32951 Camino Capistrano, San Juan Capistrano, CA 92675",
+    "phone": "(949) 670-7030",
+    "source_url": "https://www.criminaldefensestrikeforce.com/aliso-viejo-dui-attorney",
+    "snippet": "CHP Capo is located at 32951 Camino Capistrano, San Juan Capistrano, CA 92675, (949) 670-7030.",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:52:06.854Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

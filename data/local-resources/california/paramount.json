@@ -1,0 +1,29 @@
+{
+  "city_slug": "paramount",
+  "county": "Los Angeles County",
+  "hospital": {
+    "name": "UCI Health — Lakewood Emergency Department (formerly Lakewood Regional Medical Center)",
+    "address": "3700 E. South St., Lakewood, CA 90712",
+    "phone": null,
+    "source_url": "https://www.ucihealth.org/locations/lakewood/uci-health-lakewood-emergency-department",
+    "snippet": "UCI Health — Lakewood Emergency Department is located at 3700 E. South St., Lakewood, CA 90712.",
+    "confidence": "review"
+  },
+  "police": {
+    "name": "Los Angeles County Sheriff's Department – Lakewood Station (Paramount Sheriff's Station)",
+    "type": "sheriff",
+    "address": null,
+    "phone": null,
+    "source_url": "https://lasd.org/lakewood/",
+    "snippet": "Serving the areas of: City of Artesia, City of Bellflower, City of Hawaiian Gardens, City of Lakewood, City of Paramount, Unincorporated Cerritos, Unincorporated Long Beach.",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-sonnet-5",
+    "verifiedAt": "2026-09-19T09:48:34.362Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "city_slug": "agoura-hills",
+  "county": "Los Angeles",
+  "hospital": null,
+  "police": {
+    "name": "Los Angeles County Sheriff's Department - Lost Hills Station",
+    "type": "contract_pd",
+    "address": "27050 Agoura Road, Agoura, CA 91301-5336",
+    "phone": "(818) 878-1808",
+    "source_url": "https://lasd.org/malibu-lost-hills/",
+    "snippet": "If an immediate law enforcement response is needed, please call 9-1-1 or contact Malibu/Lost Hills Station via phone at (818) 878-1808. If you are seeking a public complaint, please contact Malibu/Lost Hills Station via phone at (818) 878-1808 or in-person at 27050 Agoura Road, Agoura, CA 91301-5336",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:51:14.521Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

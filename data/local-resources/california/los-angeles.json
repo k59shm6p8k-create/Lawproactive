@@ -1,0 +1,22 @@
+{
+  "city_slug": "los-angeles",
+  "county": "Los Angeles",
+  "hospital": null,
+  "police": {
+    "name": "Los Angeles Police Department - Southwest Community Police Station",
+    "type": "city_pd",
+    "address": "1546 W. Martin Luther King Jr. Blvd., Los Angeles, CA 90062",
+    "phone": "(877) 275-5273",
+    "source_url": "https://locator.lacounty.gov/lac/Location/3175425/los-angeles-police-department---southwest-community-police-station",
+    "snippet": "Address: 1546 W. Martin Luther King Jr. Blvd. Los Angeles CA 90062 ... Non-emergency Police Response (ASK LAPD) Dispatch Service/Intake (877) 275-5273",
+    "confidence": "high"
+  },
+  "court": null,
+  "chp_or_dmv": null,
+  "_meta": {
+    "model": "claude-sonnet-5",
+    "verifiedAt": "2026-09-19T09:49:50.705Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

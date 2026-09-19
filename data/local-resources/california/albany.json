@@ -1,0 +1,38 @@
+{
+  "city_slug": "albany",
+  "county": "Alameda",
+  "hospital": null,
+  "police": {
+    "name": "Albany Police Department",
+    "type": "city_pd",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.albanyca.gov/Departments/Police-Department",
+    "snippet": "The Albany Police Department is responsible for the preservation of public peace, enforcement of laws, protection of life and property, and providing police related services to the community.",
+    "confidence": "review"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Alameda",
+    "branch": null,
+    "serves_note": "Alameda County",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.alameda.courts.ca.gov/",
+    "snippet": "The Superior Court of Alameda County",
+    "confidence": "review"
+  },
+  "chp_or_dmv": {
+    "name": "El Cerrito DMV Office",
+    "address": "6400 Manila Avenue, El Cerrito, CA 94530",
+    "phone": null,
+    "source_url": "https://local.dmv.org/california/alameda-county/albany/dmv-office-locations.php",
+    "snippet": "6400 Manila Avenue, El Cerrito, CA 94530",
+    "confidence": "review"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:51:41.622Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

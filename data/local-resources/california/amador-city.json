@@ -1,0 +1,36 @@
+{
+  "city_slug": "amador-city",
+  "county": "Amador",
+  "hospital": {
+    "name": "Sutter-Amador Hospital",
+    "address": "200 Mission Blvd, Jackson, CA 95642",
+    "phone": "209-223-7500",
+    "source_url": "https://www.amadorcounty.gov/departments/office-of-emergency-services/emergency-information/hospitals-and-medical-services",
+    "snippet": "Sutter-Amador Hospital, 200 Mission Blvd, Jackson, CA 95642, Phone: 209-223-7500",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Amador County Sheriff's Office",
+    "type": "sheriff",
+    "address": null,
+    "phone": null,
+    "source_url": "https://www.amadorsheriff.org/operations-division/patrol-bureau",
+    "snippet": "responsible for providing law enforcement and crime prevention services to the residents of the unincorporated areas of Amador County, as well as the City of Plymouth and the City of Amador City",
+    "confidence": "review"
+  },
+  "court": null,
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Amador Area Office",
+    "address": "301 Clinton Road, Jackson, CA 95642",
+    "phone": "209-418-6200",
+    "source_url": "https://cad.chp.ca.gov/htm.net/locations.htm",
+    "snippet": "AMADOR CHP 301 Clinton Road Jackson 95642-2604 209-418-6200",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-haiku-4-5",
+    "verifiedAt": "2026-09-19T09:52:22.155Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}

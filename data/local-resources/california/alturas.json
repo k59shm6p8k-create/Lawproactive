@@ -1,0 +1,45 @@
+{
+  "city_slug": "alturas",
+  "county": "Modoc",
+  "hospital": {
+    "name": "Modoc Medical Center",
+    "address": "1111 N. Nagle Street, Alturas, CA 96101",
+    "phone": "(530) 708-8800",
+    "source_url": "https://modocmedicalcenter.org/contact-us/",
+    "snippet": "1111 N. Nagle Street Alturas, CA 96101 ... HOSPITAL · 530.708.8800",
+    "confidence": "high"
+  },
+  "police": {
+    "name": "Alturas Police Department",
+    "type": "city_pd",
+    "address": "200 W. North Street, Alturas, CA 96101",
+    "phone": "(530) 233-2011",
+    "source_url": "https://oag.ca.gov/fingerprints/locations/alturas-city-police-department",
+    "snippet": "Address: 200 W. North Street · Alturas, CA 96101 ... Phone: (530) 233-2011",
+    "confidence": "high"
+  },
+  "court": {
+    "court_name": "Superior Court of California, County of Modoc",
+    "branch": "Robert A. Barclay Justice Center",
+    "serves_note": "Sole courthouse for Modoc County, handling civil, criminal, family, probate and other filings for all county residents including Alturas.",
+    "address": "205 S East Street, Alturas, CA 96101",
+    "phone": "(530) 233-6516",
+    "source_url": "https://www.modoc.courts.ca.gov/general-information/location-and-contact-information",
+    "snippet": "Telephone: (530) 233-6516 Fax: (530) 233-6500 ... Robert A. Barclay Justice Center 205 S East Street Alturas, CA 96101",
+    "confidence": "high"
+  },
+  "chp_or_dmv": {
+    "name": "California Highway Patrol - Alturas Area Office",
+    "address": "905 West C Street, Alturas, CA 96101-3117",
+    "phone": "(530) 233-2919",
+    "source_url": "https://cad.chp.ca.gov/HTM.Net/locations.htm",
+    "snippet": "ALTURAS CHP 905 West C Street Alturas 96101-3117 530-233-2919",
+    "confidence": "high"
+  },
+  "_meta": {
+    "model": "claude-sonnet-5",
+    "verifiedAt": "2026-09-19T09:48:53.123Z",
+    "searches": 4,
+    "stop": "end_turn"
+  }
+}
