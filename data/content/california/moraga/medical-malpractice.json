@@ -7,25 +7,25 @@
     "note": "moraga medical-malpractice silo (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "Moraga Medical Malpractice Help | LawProactive",
-    "metaDescription": "Free connection to an independent medical malpractice attorney for Moraga, CA patients. No fee unless you recover. MICRA deadlines apply."
+    "metaTitle": "Moraga Medical Malpractice Help | Free Case Review",
+    "metaDescription": "Free medical malpractice case review for Moraga, CA patients. No fee unless you recover. MICRA deadlines apply."
   },
   "hero": {
-    "subtitle": "If a diagnosis, surgery, or hospital stay in the Moraga area went wrong, LawProactive can connect you with an independent attorney who handles medical malpractice claims under California's MICRA rules — free of charge to you."
+    "subtitle": "If a diagnosis, surgery, or hospital stay in the Moraga area went wrong, we can help you understand your rights under California's MICRA rules — free of charge to you."
   },
   "about": {
     "title": "Moraga Medical Malpractice Claims",
-    "longDescription": "Moraga is a small, close-knit Contra Costa County community, and most residents drive out of town for hospital care or specialist treatment. That doesn't change the legal footing when something goes wrong during a procedure, a delayed diagnosis, or a hospital stay. California handles medical malpractice differently than a typical injury claim — the MICRA law sets a shorter filing window, requires a 90-day notice before a lawsuit, caps non-economic damages (with the cap rising each year), and almost always requires a qualified medical expert to support the claim. These rules make early legal guidance especially important, since a missed deadline can end a case before it starts. LawProactive doesn't practice law or handle claims directly — we connect Moraga residents with an independent, contingency-fee attorney who can review medical records, assess whether the standard of care was met, and explain what MICRA means for your specific timeline. There's no cost to find out where you stand.",
-    "commonInjuriesTitle": "Situations We Help Connect You On",
+    "longDescription": "Moraga is a small, close-knit Contra Costa County community, and most residents drive out of town for hospital care or specialist treatment. That doesn't change the legal footing when something goes wrong during a procedure, a delayed diagnosis, or a hospital stay. California handles medical malpractice differently than a typical injury claim — the MICRA law sets a shorter filing window, requires a 90-day notice before a lawsuit, caps non-economic damages (with the cap rising each year), and almost always requires a qualified medical expert to support the claim. These rules make early legal guidance especially important, since a missed deadline can end a case before it starts. Our team reviews medical records, assesses whether the standard of care was met, and explains what MICRA means for your specific timeline. There's no cost to find out where you stand.",
+    "commonInjuriesTitle": "Situations We Help With",
     "commonInjuries": [
       "Delayed or missed diagnosis",
       "Surgical errors or wrong-site surgery",
       "Medication or dosage mistakes",
-      "Birth injury or obstetric complications",
+      "Birth injury or obstetric complication",
       "Anesthesia-related complications",
       "Hospital-acquired infections or falls"
     ],
-    "ctaText": "Get connected with an independent attorney — free, no obligation."
+    "ctaText": "Contact us for your free case review — no obligation."
   },
   "whyChoose": {
     "title": "Why MICRA Rules Make Timing Critical",
@@ -36,11 +36,11 @@
       },
       {
         "title": "The Filing Window Is Short and Firm",
-        "desc": "Claims generally must be filed within one year of discovering the harm, and no later than three years from the injury itself. An attorney can help pinpoint where you stand on that timeline."
+        "desc": "Claims generally must be filed within one year of discovering the harm, and no later than three years from the injury itself. We can help pinpoint where you stand on that timeline."
       },
       {
         "title": "Expert Review Is Almost Always Required",
-        "desc": "A qualified medical expert typically has to confirm the standard of care was violated. The attorney network LawProactive connects you with can help arrange that kind of review."
+        "desc": "A qualified medical expert typically has to confirm the standard of care was violated. Our team can help arrange that kind of review."
       }
     ]
   },
@@ -48,15 +48,15 @@
     "items": [
       {
         "question": "Is a bad medical outcome automatically malpractice?",
-        "answer": "No. California law requires showing the provider fell below the accepted standard of care, not just that the result was disappointing or unexpected. An independent attorney can review your records to see whether that standard was actually met."
+        "answer": "No. California law requires showing the provider fell below the accepted standard of care, not just that the result was disappointing or unexpected. We can review your records to see whether that standard was actually met."
       },
       {
         "question": "Where would a Moraga malpractice case typically be filed?",
-        "answer": "Since Moraga is in Contra Costa County, most claims connected to care received here or nearby would generally be filed in Contra Costa County courts, though venue can depend on where the provider or facility is located. An attorney can confirm the right court for your situation."
+        "answer": "Since Moraga is in Contra Costa County, most claims connected to care received here or nearby would generally be filed in Contra Costa County courts, though venue can depend on where the provider or facility is located. We can confirm the right court for your situation."
       },
       {
-        "question": "How much does it cost to talk to an attorney through LawProactive?",
-        "answer": "Nothing. LawProactive is a free service that connects you with an independent attorney, and the attorneys in the network work on contingency — meaning there's no fee unless you recover compensation."
+        "question": "How much does it cost to talk to us about your case?",
+        "answer": "Nothing. We offer a free consultation, and we work on contingency — meaning there's no fee unless you recover compensation."
       }
     ]
   }

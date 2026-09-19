@@ -6,15 +6,15 @@
     "note": "loma-linda city page (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "Loma Linda, CA Injury Lawyer Match | Free Case Review",
-    "metaDescription": "Injured in Loma Linda? Free connection to an independent San Bernardino County attorney. 2 years to file. No fee unless you win."
+    "metaTitle": "Loma Linda, CA Injury Lawyer | Free Case Review",
+    "metaDescription": "Injured in Loma Linda? Free case review with a San Bernardino County attorney. 2 years to file. No fee unless you recover."
   },
   "hero": {
-    "subtitle": "Whether you're dealing with whiplash from a rear-end crash on Barton Road or a broken bone from a fall, we'll connect you with an independent attorney at no cost. Free help for injured residents throughout San Bernardino County."
+    "subtitle": "Whether you're dealing with whiplash from a rear-end crash on Barton Road or a broken bone from a fall, our team can help you understand your options at no cost. We serve injured residents throughout San Bernardino County."
   },
   "about": {
     "title": "Personal Injury Help in Loma Linda, California",
-    "longDescription": "Loma Linda is a small city, but its roads carry a steady stream of daily traffic — commuters heading to I-10, local trips along Redlands Boulevard, and cross-town drives on Mountain View Avenue and Barton Road. In the most recent full year on record, the city saw 80 injury collisions resulting in 105 injured people and 1 traffic death. Behind each of those numbers is someone dealing with medical bills, missed work, and an insurance company asking questions. LawProactive is a free service that helps injured people in Loma Linda get connected with an independent personal injury attorney who can look at what happened and explain their options. We are not a law firm — we don't handle your case or give legal advice ourselves. We simply make the introduction so you can talk to someone who does this work, at no upfront cost, since attorneys in our network only get paid if you recover compensation. If a crash on Barton Road, Redlands Boulevard, or elsewhere in the city left you hurt, it's worth a conversation before you decide anything with an insurance adjuster.",
+    "longDescription": "Loma Linda is a small city, but its roads carry a steady stream of daily traffic — commuters heading to I-10, local trips along Redlands Boulevard, and cross-town drives on Mountain View Avenue and Barton Road. In the most recent full year on record, the city saw 80 injury collisions resulting in 105 injured people and 1 traffic death. Behind each of those numbers is someone dealing with medical bills, missed work, and an insurance company asking questions. We provide free personal injury services that help injured people in Loma Linda review what happened and understand their legal options. Our team handles personal injury cases directly — we evaluate your situation and advise you at no upfront cost, since we only get paid if you recover compensation. If a crash on Barton Road, Redlands Boulevard, or elsewhere in the city left you hurt, it's worth a conversation before you decide anything with an insurance adjuster.",
     "commonInjuriesTitle": "Common Injuries We See",
     "commonInjuries": [
       "Whiplash and neck strain",
@@ -24,7 +24,7 @@
       "Cuts, bruises, and soft-tissue damage",
       "Torn ligaments and joint injuries"
     ],
-    "ctaText": "Get connected with an independent attorney — free, no obligation."
+    "ctaText": "Get your free case review — no obligation."
   },
   "whyChoose": {
     "title": "Why Talk to Someone Now",
@@ -39,11 +39,11 @@
       },
       {
         "title": "No Cap on Pain and Suffering",
-        "desc": "In an ordinary injury case in California, there's no legal ceiling on non-economic damages like pain and suffering. An attorney can help make sure that side of your claim isn't overlooked."
+        "desc": "In an ordinary injury case in California, there's no legal ceiling on non-economic damages like pain and suffering. We can help make sure that side of your claim isn't overlooked."
       },
       {
         "title": "You Pay Nothing Upfront",
-        "desc": "Attorneys in our network work on contingency, which means they only get paid if you receive a settlement or award. There's no hourly fee and no retainer required just to talk."
+        "desc": "We work on contingency, which means we only get paid if you receive a settlement or award. There's no hourly fee and no retainer required just to talk."
       }
     ]
   },
@@ -70,12 +70,12 @@
         "answer": "Based on public collision records, reported crashes in Loma Linda tend to be more frequent along corridors like I-10, Barton Road, Redlands Boulevard, and Mountain View Avenue, with a noticeable rise on Fridays between 5 and 7 p.m. This is simply a pattern in the data, not a judgment about any particular road."
       },
       {
-        "question": "Does LawProactive charge anything to connect me with an attorney?",
-        "answer": "No. LawProactive is a free service, and there's no cost to you for the connection. If you choose to work with the attorney you're matched with, they typically operate on contingency, meaning payment only comes from a settlement or award, not out of your pocket upfront."
+        "question": "Do you charge anything for a case review?",
+        "answer": "No. Our case review is free, and there's no cost to you upfront. We work on contingency, meaning payment only comes from a settlement or award, not out of your pocket."
       },
       {
-        "question": "Is LawProactive a law firm?",
-        "answer": "No, LawProactive is not a law firm and doesn't provide legal representation or advice. We connect injured people in Loma Linda with independent, licensed attorneys who can evaluate their situation and advise them directly."
+        "question": "Do you handle my case directly?",
+        "answer": "Yes, our team handles personal injury cases directly. We evaluate your situation and provide legal representation and advice to help you pursue your claim."
       }
     ]
   }

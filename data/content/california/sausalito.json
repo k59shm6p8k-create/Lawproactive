@@ -6,16 +6,16 @@
     "note": "sausalito city page (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "Sausalito, CA Injury Lawyer Connection | Free Review",
-    "metaDescription": "Injured in Sausalito, Marin County? Free connection to an independent attorney. 2 years to file, no fee unless you win."
+    "metaTitle": "Sausalito, CA Injury Attorney | Free Case Review",
+    "metaDescription": "Injured in Sausalito, Marin County? Free case review from our personal injury team. 2 years to file, no fee unless you recover."
   },
   "hero": {
-    "subtitle": "If a crash on Bridgeway or US-101 left you with whiplash, a broken bone, or worse, we can connect you with an independent attorney at no cost, serving Marin County."
+    "subtitle": "If a crash on Bridgeway or US-101 left you with whiplash, a broken bone, or worse, we can help. We serve Sausalito and Marin County with direct legal representation."
   },
   "about": {
     "title": "Personal Injury Help in Sausalito, California",
-    "longDescription": "Sausalito is a small town by population, but its roads carry a steady flow of commuters, visitors, and delivery traffic funneling toward US-101 and along Bridgeway. In the most recent year on record, the city logged 31 injury collisions and 38 people injured, with no traffic deaths reported. Many of these crashes cluster on Saturday afternoons between 3 and 5 p.m., when both local and through traffic converge on Bridgeway and the US-101 corridors, including the southbound approach. Whether you were rear-ended near the waterfront, sideswiped merging onto the freeway, or hurt as a pedestrian along Bridgeway's shops, the aftermath can bring medical bills, missed work, and uncertainty about what comes next. LawProactive is a free service that connects injured people in Sausalito with an independent personal injury attorney — we are not a law firm, and we do not represent you directly. Attorneys in our network work on contingency, meaning there's no fee unless you recover money. Reaching out costs nothing and puts you in touch with someone who can review your situation and explain your options under California law.",
-    "commonInjuriesTitle": "Common Injuries We See Referred",
+    "longDescription": "Sausalito is a small town by population, but its roads carry a steady flow of commuters, visitors, and delivery traffic funneling toward US-101 and along Bridgeway. In the most recent year on record, the city logged 31 injury collisions and 38 people injured, with no traffic deaths reported. Many of these crashes cluster on Saturday afternoons between 3 and 5 p.m., when both local and through traffic converge on Bridgeway and the US-101 corridors, including the southbound approach. Whether you were rear-ended near the waterfront, sideswiped merging onto the freeway, or hurt as a pedestrian along Bridgeway's shops, the aftermath can bring medical bills, missed work, and uncertainty about what comes next. We handle personal injury claims for injured people in Sausalito and work on contingency, meaning there's no fee unless you recover money. Reaching out costs nothing and lets us review your situation and explain your options under California law.",
+    "commonInjuriesTitle": "Common Injuries We Handle",
     "commonInjuries": [
       "Whiplash and neck strain",
       "Broken bones and fractures",
@@ -24,7 +24,7 @@
       "Cuts, bruises, and soft-tissue damage",
       "Shoulder and knee injuries from impact"
     ],
-    "ctaText": "Find out your options — the call is free."
+    "ctaText": "Contact us for your free case review."
   },
   "whyChoose": {
     "title": "Why Talk to an Attorney Sooner Rather Than Later",
@@ -35,7 +35,7 @@
       },
       {
         "title": "Being Partly at Fault Doesn't Shut the Door",
-        "desc": "California follows pure comparative fault, so even if you share some blame for what happened, you can still recover damages — just reduced by your percentage of fault. An attorney can help sort out how fault is allocated."
+        "desc": "California follows pure comparative fault, so even if you share some blame for what happened, you can still recover damages — just reduced by your percentage of fault. We can help sort out how fault is allocated."
       },
       {
         "title": "There's No Cap on Pain-and-Suffering Damages",
@@ -43,7 +43,7 @@
       },
       {
         "title": "No Recovery, No Fee",
-        "desc": "Attorneys in our network work on contingency, so you don't pay out of pocket to have your case reviewed or pursued. Legal fees only come out of a settlement or award if you win."
+        "desc": "We work on contingency, so you don't pay out of pocket to have your case reviewed or pursued. Legal fees only come out of a settlement or award if you recover."
       }
     ]
   },
@@ -58,8 +58,8 @@
   "faq": {
     "items": [
       {
-        "question": "Is LawProactive a law firm?",
-        "answer": "No. LawProactive is a free service that connects injured people with an independent personal injury attorney. We don't represent clients directly or charge any fees ourselves."
+        "question": "Are you a law firm?",
+        "answer": "Yes. We are a personal injury law firm that represents injured people directly. We don't charge any fees upfront."
       },
       {
         "question": "How much time do I have to file a claim in California?",
@@ -75,7 +75,7 @@
       },
       {
         "question": "Will I have to pay anything upfront to talk to an attorney?",
-        "answer": "No. Connecting with an attorney through LawProactive is free, and attorneys in our network work on contingency. That means they only get paid if you receive a settlement or award."
+        "answer": "No. Contacting us for a case review is free, and we work on contingency. That means we only get paid if you receive a settlement or award."
       }
     ]
   }

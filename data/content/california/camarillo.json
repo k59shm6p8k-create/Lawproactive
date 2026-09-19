@@ -7,14 +7,14 @@
   },
   "seo": {
     "metaTitle": "Camarillo, CA Injury Lawyer | Free Case Review",
-    "metaDescription": "Injured in Camarillo, Ventura County? Connect free with an independent attorney. 2 years to file. No fee unless you win."
+    "metaDescription": "Injured in Camarillo, Ventura County? Get a free case review from a personal injury attorney. 2 years to file. No fee unless you recover."
   },
   "hero": {
-    "subtitle": "Whether you were hurt in a rear-end collision on US-101 or a fall that wasn't your fault, we'll connect you free with an independent attorney serving Ventura County."
+    "subtitle": "Whether you were hurt in a rear-end collision on US-101 or a fall that wasn't your fault, we can review what happened and explain your options serving Ventura County."
   },
   "about": {
     "title": "Personal Injury Help in Camarillo, California",
-    "longDescription": "Camarillo's roads carry a lot of daily traffic, and the numbers reflect it: in the most recent reporting year, Ventura County logged 303 injury collisions involving Camarillo residents and visitors, with 411 people hurt and 3 lives lost. Corridors like Las Posas Road, the Ventura Freeway (US-101), Ponderosa Drive, and Santa Rosa Road see the heaviest collision counts, and reports tend to cluster on Friday evenings between 5 and 7 p.m. when commuters and weekend traffic overlap. If you or someone you love was hurt in one of these incidents, sorting out medical bills, insurance calls, and next steps can feel overwhelming on top of recovering physically. LawProactive is a free service — we are not a law firm — that connects injured people in Camarillo with an independent personal injury attorney who can review what happened and explain your options. There's no cost to get connected, and attorneys in our network work on contingency, meaning no fee unless there's a recovery. You don't have to figure this out alone or guess at deadlines; a quick, free conversation can help you understand where you stand.",
+    "longDescription": "Camarillo's roads carry a lot of daily traffic, and the numbers reflect it: in the most recent reporting year, Ventura County logged 303 injury collisions involving Camarillo residents and visitors, with 411 people hurt and 3 lives lost. Corridors like Las Posas Road, the Ventura Freeway (US-101), Ponderosa Drive, and Santa Rosa Road see the heaviest collision counts, and reports tend to cluster on Friday evenings between 5 and 7 p.m. when commuters and weekend traffic overlap. If you or someone you love was hurt in one of these incidents, sorting out medical bills, insurance calls, and next steps can feel overwhelming on top of recovering physically. We offer a free case review for injured people in Camarillo. Our team can review what happened and explain your options. There's no cost for an initial consultation, and we work on contingency, meaning no fee unless there's a recovery. You don't have to figure this out alone or guess at deadlines; a quick, free conversation can help you understand where you stand.",
     "commonInjuriesTitle": "Common Injuries We Hear About",
     "commonInjuries": [
       "Whiplash and neck strain from rear-end collisions",
@@ -24,7 +24,7 @@
       "Cuts, bruises, and soft tissue damage",
       "Injuries from slip-and-fall or premises incidents"
     ],
-    "ctaText": "Get connected with an independent attorney today — free, with no obligation."
+    "ctaText": "Contact us today for a free case review — no obligation."
   },
   "whyChoose": {
     "title": "Why Talk to Someone Now",
@@ -43,7 +43,7 @@
       },
       {
         "title": "You risk nothing to find out where you stand",
-        "desc": "Attorneys in our network work on contingency, so there's no fee unless there's a recovery. Getting informed costs you nothing upfront."
+        "desc": "We work on contingency, so there's no fee unless there's a recovery. Getting informed costs you nothing upfront."
       }
     ]
   },
@@ -70,12 +70,12 @@
         "answer": "Based on public-record collision counts, corridors like Las Posas Road, US-101, Ponderosa Drive, and Santa Rosa Road show the highest volume of reported crashes, with Friday evenings between 5 and 7 p.m. seeing more reports than other times. This reflects traffic volume patterns, not a judgment about any road."
       },
       {
-        "question": "Is LawProactive a law firm?",
-        "answer": "No. LawProactive is a free service that connects injured people with independent personal injury attorneys. We don't represent you directly, and there's no fee to get connected."
+        "question": "Is your firm a law firm?",
+        "answer": "We are a personal injury law office serving Camarillo and Ventura County. We represent you directly and handle your case."
       },
       {
-        "question": "Will I owe money if I talk to an attorney through LawProactive?",
-        "answer": "No. Attorneys in our network work on contingency, meaning they only get paid if you receive a settlement or award. There's no upfront cost to have your situation reviewed."
+        "question": "Will I owe money if I talk to an attorney?",
+        "answer": "No. We work on contingency, meaning we only get paid if you receive a settlement or award. There's no upfront cost to have your situation reviewed."
       }
     ]
   }

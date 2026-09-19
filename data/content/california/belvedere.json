@@ -6,15 +6,15 @@
     "note": "belvedere city page (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "Belvedere, CA Injury Lawyer Connection | Free Case Review",
-    "metaDescription": "Injured in Belvedere or Marin County? Connect free with an independent CA injury attorney. 2-year filing deadline. No fee unless you win."
+    "metaTitle": "Belvedere, CA Injury Lawyer | Free Case Review",
+    "metaDescription": "Injured in Belvedere or Marin County? Get a free case review from an injury attorney. 2-year filing deadline. No fee unless you recover."
   },
   "hero": {
-    "subtitle": "Whether it's a car crash, a bike collision, or a fall on someone's property, LawProactive connects injured people throughout Marin County with an independent attorney at no cost to you."
+    "subtitle": "Whether it's a car crash, a bike collision, or a fall on someone's property, we help injured people throughout Marin County. No cost to you."
   },
   "about": {
     "title": "Personal Injury Help in Belvedere, California",
-    "longDescription": "Belvedere is a small island city of about 2,121 people, tucked along the Marin County shoreline, with most local traffic moving through Peninsula Road, Bayview Avenue, Graham Avenue, and Beach Road. According to the most recent final state data, Belvedere recorded zero injury collisions, zero people injured, and zero traffic deaths in 2023 — a reflection of the city's small size and low-speed streets. That doesn't mean crashes never happen here, or that residents commuting into busier parts of Marin County, San Rafael, or across the bridge into San Francisco are immune from getting hurt. When something does happen — a rear-end collision on a coastal road, a slip on a wet dock, a bike accident near the water — LawProactive is here to help. We are a free connection service, not a law firm. We don't handle cases ourselves; we simply connect injured people with an independent personal injury attorney in our network who works on contingency, meaning there's no fee unless you recover compensation. There's no obligation to move forward, and reaching out costs nothing.",
+    "longDescription": "Belvedere is a small island city of about 2,121 people, tucked along the Marin County shoreline, with most local traffic moving through Peninsula Road, Bayview Avenue, Graham Avenue, and Beach Road. According to the most recent final state data, Belvedere recorded zero injury collisions, zero people injured, and zero traffic deaths in 2023 — a reflection of the city's small size and low-speed streets. That doesn't mean crashes never happen here, or that residents commuting into busier parts of Marin County, San Rafael, or across the bridge into San Francisco are immune from getting hurt. When something does happen — a rear-end collision on a coastal road, a slip on a wet dock, a bike accident near the water — we're here to help. We handle personal injury claims directly on a contingency basis, meaning there's no fee unless you recover compensation. There's no obligation to move forward, and reaching out costs nothing.",
     "commonInjuriesTitle": "Types of Injuries We Commonly Hear About",
     "commonInjuries": [
       "Whiplash and neck strain from rear-end collisions",
@@ -24,7 +24,7 @@
       "Cuts and bruises from slip-and-fall incidents",
       "Soft tissue injuries from low-speed collisions"
     ],
-    "ctaText": "Reach out today for a free, no-obligation connection to an independent attorney."
+    "ctaText": "Contact us today for a free case review."
   },
   "whyChoose": {
     "title": "What to Know Before You Wait",
@@ -43,7 +43,7 @@
       },
       {
         "title": "You Don't Pay Unless You Win",
-        "desc": "Attorneys in our network work on contingency, so there are no upfront fees. Payment only comes from a settlement or award, not out of your pocket."
+        "desc": "We work on contingency, so there are no upfront fees. Payment only comes from a settlement or award, not out of your pocket."
       }
     ]
   },
@@ -58,12 +58,12 @@
   "faq": {
     "items": [
       {
-        "question": "Is LawProactive a law firm?",
-        "answer": "No. LawProactive is a free service that connects injured people with an independent personal injury attorney. We don't represent clients directly or charge any fees ourselves."
+        "question": "Are you a law firm?",
+        "answer": "Yes. We're a personal injury law firm that handles cases directly on a contingency basis. We don't charge any upfront fees."
       },
       {
-        "question": "How much does it cost to use LawProactive?",
-        "answer": "Nothing. Our connection service is completely free, and any attorney you're matched with typically works on contingency, meaning they only get paid if you recover compensation."
+        "question": "How much does it cost to contact you?",
+        "answer": "Nothing. Your initial case review is completely free, and we only get paid if you recover compensation."
       },
       {
         "question": "How long do I have to file a claim in California?",
@@ -75,7 +75,7 @@
       },
       {
         "question": "What if I was partly responsible for the accident?",
-        "answer": "California's pure comparative fault rule means you can still pursue compensation even if you share some blame, though your recovery may be reduced by your percentage of fault. An independent attorney can help evaluate how fault might apply to your situation."
+        "answer": "California's pure comparative fault rule means you can still pursue compensation even if you share some blame, though your recovery may be reduced by your percentage of fault. We can help evaluate how fault might apply to your situation."
       }
     ]
   }

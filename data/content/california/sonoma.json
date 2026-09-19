@@ -6,15 +6,15 @@
     "note": "sonoma city page (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "Sonoma, CA Injury Lawyer Connection | Free Case Review",
-    "metaDescription": "Hurt in Sonoma County? Free connection to an independent injury attorney. 2 years to file, no fee unless you win. Get help now."
+    "metaTitle": "Sonoma, CA Injury Lawyer | Free Case Review",
+    "metaDescription": "Hurt in Sonoma County? Free case review from an injury attorney. 2 years to file, no fee unless you recover. Get help now."
   },
   "hero": {
-    "subtitle": "Whether you were hurt in a car wreck on Broadway or a fall somewhere else in town, we'll connect you free of charge with an independent attorney serving Sonoma County."
+    "subtitle": "Whether you were hurt in a car wreck on Broadway or a fall somewhere else in town, we can review your case free of charge and explain your options."
   },
   "about": {
     "title": "Personal Injury Help in Sonoma, California",
-    "longDescription": "Sonoma is a small town with busy stretches — Broadway, 5th Street W, W Napa Street, and Rt 12 see a steady flow of local and visiting traffic, and public records show 41 injury collisions in the most recent final year, leaving 51 people hurt. Fridays between 3 and 5 p.m. tend to show up more often in these reports, likely tied to end-of-week traffic and weekend visitors heading into wine country. Getting hurt in a collision or other accident here can leave you dealing with medical bills, missed work, and insurance calls you didn't ask for. LawProactive is a free service — not a law firm — that connects injured people in Sonoma with an independent personal injury attorney who can look at your situation and explain your options. There's no fee unless the attorney recovers money for you. We don't practice law or handle your case ourselves; we simply help you find someone who can. If you've been injured, reaching out costs nothing and can help you understand where you stand.",
+    "longDescription": "Sonoma is a small town with busy stretches — Broadway, 5th Street W, W Napa Street, and Rt 12 see a steady flow of local and visiting traffic, and public records show 41 injury collisions in the most recent final year, leaving 51 people hurt. Fridays between 3 and 5 p.m. tend to show up more often in these reports, likely tied to end-of-week traffic and weekend visitors heading into wine country. Getting hurt in a collision or other accident here can leave you dealing with medical bills, missed work, and insurance calls you didn't ask for. We offer a free consultation to review your injury claim and explain your options under California law. There's no fee unless we recover money for you. If you've been injured, reaching out costs nothing and can help you understand where you stand.",
     "commonInjuriesTitle": "Injuries We Commonly Hear About",
     "commonInjuries": [
       "Whiplash and neck injuries",
@@ -24,10 +24,10 @@
       "Cuts, bruises, and soft tissue damage",
       "Injuries from falls or pedestrian accidents"
     ],
-    "ctaText": "Reach out today for a free, no-obligation connection to an independent attorney."
+    "ctaText": "Contact us today for a free case review."
   },
   "whyChoose": {
-    "title": "Why People in Sonoma Turn to LawProactive",
+    "title": "Why People in Sonoma Choose Us",
     "items": [
       {
         "title": "You Have a Limited Window",
@@ -43,7 +43,7 @@
       },
       {
         "title": "No Fee Unless You Recover Money",
-        "desc": "Attorneys in our network work on contingency, meaning you pay nothing upfront and owe no fee unless they win compensation on your behalf."
+        "desc": "We work on contingency, meaning you pay nothing upfront and owe no fee unless we recover compensation on your behalf."
       }
     ]
   },
@@ -66,8 +66,8 @@
         "answer": "California uses pure comparative fault, which means you can still recover compensation even if you were partly to blame. Your total recovery would simply be reduced by your share of fault."
       },
       {
-        "question": "Is LawProactive a law firm?",
-        "answer": "No. LawProactive is a free connection service that helps injured people in Sonoma find an independent personal injury attorney. We don't provide legal representation ourselves."
+        "question": "Are you a law firm?",
+        "answer": "We are a personal injury law office that helps injured people in Sonoma review their claims and understand their legal options. We don't charge upfront fees."
       },
       {
         "question": "Where do crashes tend to cluster in Sonoma?",
@@ -75,7 +75,7 @@
       },
       {
         "question": "Do I have to pay anything upfront to speak with an attorney?",
-        "answer": "No. Connecting with an attorney through LawProactive is free, and attorneys in our network work on contingency, meaning they only get paid if you recover compensation."
+        "answer": "No. A free case review is available, and we work on contingency, meaning we only get paid if we recover compensation for you."
       }
     ]
   }

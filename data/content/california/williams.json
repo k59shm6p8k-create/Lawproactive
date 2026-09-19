@@ -6,15 +6,15 @@
     "note": "williams city page (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "Williams, CA Personal Injury Lawyer | Free Case Review",
-    "metaDescription": "Injured in Williams or Colusa County? Free, no-obligation attorney connection. 2 years to file. No fee unless you win."
+    "metaTitle": "Williams, CA Personal Injury Attorney | Free Case Review",
+    "metaDescription": "Injured in Williams or Colusa County? Free case review from our team. 2 years to file. No fee unless you recover."
   },
   "hero": {
-    "subtitle": "If you've been hurt in a car crash or fall in Williams, we can connect you with an independent attorney at no cost. Serving injured residents throughout Colusa County."
+    "subtitle": "If you've been hurt in a car crash or fall in Williams, our team can help. We serve injured residents throughout Colusa County."
   },
   "about": {
     "title": "Personal Injury Help in Williams, California",
-    "longDescription": "Williams is a small city, but its roads carry a lot of pass-through and local traffic. Rt 20 and I-5 both run through town, and E Street and 8th Street handle much of the day-to-day local traffic. In the most recent full year on record, Williams saw 10 injury collisions, 14 people hurt, and 1 traffic death — public numbers that show real people dealing with real injuries. If you were hurt in one of these crashes, or in any accident around town, sorting out medical bills, insurance calls, and lost work time can feel like a second job on top of recovering. LawProactive is a free service that helps injured people in Williams connect with an independent personal injury attorney who can look at what happened and explain your options. We are not a law firm, and we don't decide outcomes or make promises about your case. Attorneys in our network work on contingency, meaning there's no fee unless you recover money. Reaching out costs nothing and there's no obligation to move forward.",
+    "longDescription": "Williams is a small city, but its roads carry a lot of pass-through and local traffic. Rt 20 and I-5 both run through town, and E Street and 8th Street handle much of the day-to-day local traffic. In the most recent full year on record, Williams saw 10 injury collisions, 14 people hurt, and 1 traffic death — public numbers that show real people dealing with real injuries. If you were hurt in one of these crashes, or in any accident around town, sorting out medical bills, insurance calls, and lost work time can feel like a second job on top of recovering. We're here to help injured people in Williams understand their options and guide them through the process. Our team works on contingency, meaning there's no fee unless you recover money. Reaching out costs nothing and there's no obligation to move forward.",
     "commonInjuriesTitle": "Common Injuries We Hear About",
     "commonInjuries": [
       "Whiplash and neck strain",
@@ -24,7 +24,7 @@
       "Cuts, bruises, and soft-tissue damage",
       "Injuries from falls on someone else's property"
     ],
-    "ctaText": "Tell us what happened — the connection is free."
+    "ctaText": "Tell us what happened — your free case review starts here."
   },
   "whyChoose": {
     "title": "Why Talk to an Attorney Sooner Rather Than Later",
@@ -43,7 +43,7 @@
       },
       {
         "title": "You Pay Nothing Upfront",
-        "desc": "Attorneys in our network work on contingency, meaning they only get paid if you recover money. There's no hourly billing and no upfront cost to find out where you stand."
+        "desc": "We work on contingency, meaning we only get paid if you recover money. There's no hourly billing and no upfront cost to find out where you stand."
       }
     ]
   },
@@ -58,8 +58,8 @@
   "faq": {
     "items": [
       {
-        "question": "How much does it cost to talk to an attorney through LawProactive?",
-        "answer": "Nothing. LawProactive is a free service, and there's no cost to be connected with an independent attorney. If you move forward and the attorney takes your case, they work on contingency, so they only get paid if you recover compensation."
+        "question": "How much does it cost to talk to an attorney?",
+        "answer": "Nothing. There's no cost for your free case review. If you move forward and we take your case, we work on contingency, so we only get paid if you recover compensation."
       },
       {
         "question": "How long do I have to file a claim after an accident in Williams?",
@@ -74,8 +74,8 @@
         "answer": "California uses a pure comparative fault rule, which means being partly responsible doesn't automatically bar you from recovering money. Your compensation would typically be reduced by your percentage of fault, but you may still have a valid claim worth discussing."
       },
       {
-        "question": "Is LawProactive a law firm?",
-        "answer": "No. LawProactive is a free connection service that helps injured people get in touch with independent personal injury attorneys. We don't represent you directly or handle your case ourselves — that's the attorney's role once you're connected."
+        "question": "Does your firm represent me directly?",
+        "answer": "Yes. Our team handles personal injury claims in Williams and throughout Colusa County. We represent you directly and work on contingency — no upfront fees."
       }
     ]
   }

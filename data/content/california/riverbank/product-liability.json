@@ -7,15 +7,15 @@
     "note": "riverbank product-liability silo (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "Riverbank Product Liability Help | LawProactive",
-    "metaDescription": "Hurt by a defective product in Riverbank, CA? Get connected free with an independent attorney who handles product liability claims."
+    "metaTitle": "Riverbank Product Liability Help | Free Case Review",
+    "metaDescription": "Hurt by a defective product in Riverbank, CA? Get a free case review from an attorney who handles product liability claims."
   },
   "hero": {
-    "subtitle": "If a faulty product injured you or someone you love in Riverbank, LawProactive can connect you at no cost with an independent attorney who handles defective product claims across Stanislaus County."
+    "subtitle": "If a faulty product injured you or someone you love in Riverbank, our team can review your case at no cost and help you understand your options under California product liability law."
   },
   "about": {
     "title": "Riverbank Product Liability Claims",
-    "longDescription": "Riverbank residents rely on all kinds of products every day — from vehicle parts and farm equipment to household appliances and tools used along Patterson Road, Oakdale Road, and Claribel Road job sites. When one of those products fails because of a design flaw, a manufacturing mistake, or a missing warning, the consequences can be serious. California law treats these cases differently than typical negligence claims: injured people generally don't have to prove a manufacturer was careless, only that the product was defective and that the defect caused harm. That distinction matters in a smaller community like Riverbank, where injured residents may be dealing with a national manufacturer, a distributor, or a local retailer. LawProactive doesn't practice law or handle claims directly — we simply help connect injured Riverbank residents with an independent attorney who can review what happened, help preserve the product as evidence, and explain what options may exist under California product liability law.",
+    "longDescription": "Riverbank residents rely on all kinds of products every day — from vehicle parts and farm equipment to household appliances and tools used along Patterson Road, Oakdale Road, and Claribel Road job sites. When one of those products fails because of a design flaw, a manufacturing mistake, or a missing warning, the consequences can be serious. California law treats these cases differently than typical negligence claims: injured people generally don't have to prove a manufacturer was careless, only that the product was defective and that the defect caused harm. That distinction matters in a smaller community like Riverbank, where injured residents may be dealing with a national manufacturer, a distributor, or a local retailer. Our team handles product liability claims directly — we review what happened, help preserve the product as evidence, and explain what options may exist under California product liability law.",
     "commonInjuriesTitle": "Injuries Linked to Defective Products",
     "commonInjuries": [
       "Burns from malfunctioning appliances or batteries",
@@ -25,10 +25,10 @@
       "Chemical exposure or poisoning from mislabeled products",
       "Crush injuries from farm or industrial equipment failures"
     ],
-    "ctaText": "Get connected with an independent attorney to talk through your product liability claim — free, no obligation."
+    "ctaText": "Contact us today for a free case review to discuss your product liability claim — no obligation."
   },
   "whyChoose": {
-    "title": "Why Riverbank Residents Turn to LawProactive",
+    "title": "Why Riverbank Residents Choose Us",
     "items": [
       {
         "title": "Strict Liability Can Simplify the Path Forward",
@@ -40,7 +40,7 @@
       },
       {
         "title": "Preserving the Product Protects the Claim",
-        "desc": "An independent attorney can advise on safely preserving the defective item itself, since physical evidence is often central to proving a design, manufacturing, or warning defect claim."
+        "desc": "Our team can advise on safely preserving the defective item itself, since physical evidence is often central to proving a design, manufacturing, or warning defect claim."
       }
     ]
   },
@@ -48,19 +48,19 @@
     "items": [
       {
         "question": "Do I have to prove the manufacturer was careless?",
-        "answer": "Not necessarily. Under California's strict liability approach to product defects, you generally need to show the product was defective and that the defect caused your injury, rather than proving the company acted negligently. An independent attorney can review the specifics of your situation to see how this applies."
+        "answer": "Not necessarily. Under California's strict liability approach to product defects, you generally need to show the product was defective and that the defect caused your injury, rather than proving the company acted negligently. We can review the specifics of your situation to see how this applies."
       },
       {
         "question": "What should I do with the product that hurt me?",
-        "answer": "Try not to discard, repair, or alter it. Keeping the product in its post-incident condition, along with packaging, receipts, or manuals, can help an attorney evaluate whether a design, manufacturing, or warning defect was involved."
+        "answer": "Try not to discard, repair, or alter it. Keeping the product in its post-incident condition, along with packaging, receipts, or manuals, can help us evaluate whether a design, manufacturing, or warning defect was involved."
       },
       {
         "question": "I live in Riverbank — does it matter where the product was purchased?",
         "answer": "Not usually. Whether a defective product was bought locally near Oakdale Road or Claribel Road, or ordered online and shipped to a Riverbank address, California product liability principles can still apply. What matters most is where the injury occurred and who was involved in making, distributing, or selling the product."
       },
       {
-        "question": "Is there a cost to speak with someone through LawProactive?",
-        "answer": "No. LawProactive is a free service that connects injured people with an independent attorney, and attorneys in the network typically work on contingency, meaning there's no fee unless there's a recovery."
+        "question": "Is there a cost to speak with us?",
+        "answer": "No. Our initial consultation is free, and we typically work on contingency, meaning there's no fee unless there's a recovery."
       }
     ]
   }

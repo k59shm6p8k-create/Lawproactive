@@ -6,16 +6,16 @@
     "note": "campbell city page (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "Campbell, CA Injury Lawyer Connection | Free Case Review",
-    "metaDescription": "Hurt in a Campbell crash? Santa Clara County. 2 years to file. No fee unless you win. Free, no-obligation connection to an attorney."
+    "metaTitle": "Campbell, CA Injury Lawyer | Free Case Review",
+    "metaDescription": "Hurt in a Campbell crash? Santa Clara County. 2 years to file. No fee unless you win. Free case review from our team."
   },
   "hero": {
-    "subtitle": "If a car crash, fall, or workplace accident has left you hurt in Campbell, we can connect you with an independent attorney at no cost, serving people throughout Santa Clara County."
+    "subtitle": "If a car crash, fall, or workplace accident has left you hurt in Campbell, our team can help. We serve people throughout Santa Clara County."
   },
   "about": {
     "title": "Personal Injury Help in Campbell, California",
-    "longDescription": "Campbell may be a small city, but its roads carry a lot of daily traffic. In the most recent full year on record, Campbell saw 107 injury collisions, with 124 people hurt and 1 traffic death. Corridors like SR-17, San Tomas Expressway, and Hamilton Avenue show up often in these public collision counts, and reports tend to cluster on Fridays between 5 and 7 p.m., when commuters and weekend traffic overlap. Whether your injury happened at one of these corridors or elsewhere in the city, the aftermath is often the same: medical bills, missed work, and a lot of unanswered questions. LawProactive is a free service that helps injured people in Campbell connect with an independent personal injury attorney. We are not a law firm, and we don't handle your case ourselves — we simply make the introduction. Attorneys in our network work on contingency, meaning there's no fee unless you recover money. If you're trying to figure out your next step after an injury, reaching out for a free connection costs you nothing and puts you in touch with someone who can look at the specifics of what happened to you.",
-    "commonInjuriesTitle": "Common Injuries We See Connections For",
+    "longDescription": "Campbell may be a small city, but its roads carry a lot of daily traffic. In the most recent full year on record, Campbell saw 107 injury collisions, with 124 people hurt and 1 traffic death. Corridors like SR-17, San Tomas Expressway, and Hamilton Avenue show up often in these public collision counts, and reports tend to cluster on Fridays between 5 and 7 p.m., when commuters and weekend traffic overlap. Whether your injury happened at one of these corridors or elsewhere in the city, the aftermath is often the same: medical bills, missed work, and a lot of unanswered questions. We help injured people in Campbell by reviewing their cases and providing guidance on next steps. We work on contingency, meaning there's no fee unless you recover money. If you're trying to figure out your next step after an injury, reaching out for a free case review costs you nothing and lets us look at the specifics of what happened to you.",
+    "commonInjuriesTitle": "Common Injuries We Handle",
     "commonInjuries": [
       "Whiplash and neck injuries from rear-end collisions",
       "Broken bones from vehicle or pedestrian crashes",
@@ -24,7 +24,7 @@
       "Torn ligaments and soft tissue damage",
       "Cuts, bruises, and scarring from impact trauma"
     ],
-    "ctaText": "Find out where you stand — connect with an attorney for free."
+    "ctaText": "Find out where you stand — contact us for a free case review."
   },
   "whyChoose": {
     "title": "What California Law Means for Your Claim",
@@ -43,7 +43,7 @@
       },
       {
         "title": "No Fee Unless You Recover",
-        "desc": "Attorneys in our network work on contingency, so there's no upfront cost to get help. They only get paid if you win a settlement or verdict."
+        "desc": "We work on contingency, so there's no upfront cost to get help. We only get paid if you win a settlement or verdict."
       }
     ]
   },
@@ -51,8 +51,8 @@
     "items": [
       "Worrying about mounting medical bills with no income coming in",
       "Not knowing if the insurance company's offer is fair",
-      "Fear that admitting any fault will cost them their entire claim",
-      "Uncertainty about how much time they have left to act"
+      "Fear that admitting any fault will cost you your entire claim",
+      "Uncertainty about how much time you have left to act"
     ]
   },
   "faq": {
@@ -74,8 +74,8 @@
         "answer": "In most standard personal injury cases in California, there is no cap on non-economic damages such as pain and suffering. This is different from some other states, and it means your compensation isn't limited strictly to medical bills and lost income."
       },
       {
-        "question": "Does it cost anything to get connected with an attorney through LawProactive?",
-        "answer": "No, our connection service is completely free, and we are not a law firm ourselves. Attorneys in our network work on contingency, so if you do hire one, there's no fee unless they recover money for you."
+        "question": "Does it cost anything to get a case review?",
+        "answer": "No, our case review is completely free. We work on contingency, so if you do hire us, there's no fee unless we recover money for you."
       }
     ]
   }

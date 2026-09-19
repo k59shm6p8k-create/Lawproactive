@@ -7,14 +7,14 @@
   },
   "seo": {
     "metaTitle": "Signal Hill, CA Personal Injury Lawyer | Free Case Review",
-    "metaDescription": "Injured in Signal Hill? Free connection to an LA County injury attorney. 2 years to file. No fee unless you win."
+    "metaDescription": "Injured in Signal Hill? Get a free case review from a personal injury attorney serving LA County. 2 years to file. No fee unless you win."
   },
   "hero": {
-    "subtitle": "Whether you were hurt in a car crash on Cherry Avenue or suffered a fall or workplace injury elsewhere in Signal Hill, we can connect you free of charge with an independent attorney serving Los Angeles County."
+    "subtitle": "Whether you were hurt in a car crash on Cherry Avenue or suffered a fall or workplace injury elsewhere in Signal Hill, we can help. Contact us today for a free case review."
   },
   "about": {
     "title": "Personal Injury Help in Signal Hill, California",
-    "longDescription": "Signal Hill sits in the middle of Los Angeles County, and its compact street grid carries a steady flow of local and cut-through traffic along Cherry Avenue, Willow, Orange Avenue, and Spring. In the most recent full year on record, the city logged 165 injury collisions, with 254 people hurt and 2 lives lost. Those numbers reflect what happens on ordinary days along ordinary routes — not a verdict on any single road, just a record of how often people get hurt going about their lives. If you were injured in a crash, a fall, or another incident in Signal Hill, LawProactive can help. We're a free service, not a law firm, and we don't charge you anything to connect you with an independent personal injury attorney who works on contingency — meaning there's no fee unless you recover money. Our role is simple: listen to what happened, and put you in touch with someone equipped to evaluate your situation and advise you on next steps. You focus on healing; we'll handle the introduction.",
+    "longDescription": "Signal Hill sits in the middle of Los Angeles County, and its compact street grid carries a steady flow of local and cut-through traffic along Cherry Avenue, Willow, Orange Avenue, and Spring. In the most recent full year on record, the city logged 165 injury collisions, with 254 people hurt and 2 lives lost. Those numbers reflect what happens on ordinary days along ordinary routes — not a verdict on any single road, just a record of how often people get hurt going about their lives. If you were injured in a crash, a fall, or another incident in Signal Hill, our team can help. We work on contingency — meaning there's no fee unless you recover money. Our role is straightforward: listen to what happened, review your situation, and advise you on your next steps. You focus on healing; we'll handle your case.",
     "commonInjuriesTitle": "Common Injuries We See",
     "commonInjuries": [
       "Whiplash and neck strain",
@@ -24,10 +24,10 @@
       "Cuts, bruises, and soft-tissue damage",
       "Injuries from slip-and-fall accidents"
     ],
-    "ctaText": "Tell us what happened — the connection is free."
+    "ctaText": "Tell us what happened — get your free case review today."
   },
   "whyChoose": {
-    "title": "Why People in Signal Hill Turn to LawProactive",
+    "title": "Why People in Signal Hill Choose Us",
     "items": [
       {
         "title": "You Have a Limited Window to Act",
@@ -43,7 +43,7 @@
       },
       {
         "title": "You Pay Nothing Unless There's a Recovery",
-        "desc": "Attorneys in our network work on contingency, so there's no upfront cost to you. Their fee only comes out of money recovered on your behalf."
+        "desc": "We work on contingency, so there's no upfront cost to you. Our fee only comes out of money recovered on your behalf."
       }
     ]
   },
@@ -63,19 +63,19 @@
       },
       {
         "question": "What if I was partly responsible for the accident?",
-        "answer": "California uses pure comparative fault, meaning partial responsibility reduces your compensation but doesn't eliminate it. An attorney can help evaluate how fault might apply to your specific situation."
+        "answer": "California uses pure comparative fault, meaning partial responsibility reduces your compensation but doesn't eliminate it. We can help evaluate how fault might apply to your specific situation."
       },
       {
         "question": "Where do crashes tend to cluster in Signal Hill?",
         "answer": "Public crash records show that Cherry Avenue, Willow, Orange Avenue, and Spring carry some of the higher collision counts in the city, with Friday afternoons between 5 and 7 p.m. showing more reported crashes than other times. These are simply patterns in the public record, not a judgment about any particular road."
       },
       {
-        "question": "Does LawProactive charge anything to connect me with an attorney?",
-        "answer": "No. LawProactive is a free service, and we don't charge you for connecting you with an independent attorney. Attorneys in our network work on contingency, so they only get paid if you recover compensation."
+        "question": "Do you charge anything for a case review?",
+        "answer": "No. We provide free case reviews. Our team works on contingency, so we only get paid if you recover compensation."
       },
       {
-        "question": "Is LawProactive a law firm?",
-        "answer": "No, LawProactive is not a law firm and does not provide legal advice. We simply help connect injured people in Signal Hill and throughout Los Angeles County with independent attorneys who can evaluate their case."
+        "question": "Are you a law firm?",
+        "answer": "We are a personal injury law practice serving Signal Hill and throughout Los Angeles County. We evaluate cases and advise clients on their options."
       }
     ]
   }

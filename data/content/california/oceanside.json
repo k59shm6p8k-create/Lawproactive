@@ -7,14 +7,14 @@
   },
   "seo": {
     "metaTitle": "Oceanside, CA Personal Injury Lawyer | Free Case Review",
-    "metaDescription": "Hurt in Oceanside? Get connected free to an independent San Diego County injury attorney. 2 years to file in California; no fee unless you win."
+    "metaDescription": "Hurt in Oceanside? Get a free case review from a San Diego County injury attorney. 2 years to file in California; no fee unless you recover."
   },
   "hero": {
-    "subtitle": "From car crashes on Route 76 to slip-and-falls near the harbor, LawProactive connects injured Oceanside residents with an independent attorney at no cost. Serving all of San Diego County."
+    "subtitle": "From car crashes on Route 76 to slip-and-falls near the harbor, we help injured Oceanside residents understand their options at no cost. Serving all of San Diego County."
   },
   "about": {
     "title": "Personal Injury Help in Oceanside, California",
-    "longDescription": "Oceanside sits where Route 76 meets the coast, and its roads carry a steady mix of commuters, beachgoers, and weekend visitors. In 2025, public records counted 835 injury collisions inside the city, leaving 1,177 people hurt and 5 people dead. The corridors with the highest collision counts were Rt 76, Oceanside Boulevard, College Boulevard, and Mission Avenue, and reported crashes tended to peak on Fridays between 5 p.m. and 7 p.m. as the weekend rush built. Behind each of those numbers is a person who now has an adjuster on the phone and a stack of bills on the counter. That is where LawProactive comes in. We are a free service, not a law firm. We do not handle cases ourselves; instead, we connect people in Oceanside and across San Diego County with an independent personal injury attorney who can review what happened and explain the options in plain language. Being connected never costs anything, and the attorneys in our network work on contingency, meaning no fee unless there is a recovery. Whether you were rear-ended on Mission Avenue, struck while walking near the pier, or hurt in a fall at a local business, one short conversation can help you understand where you stand.",
+    "longDescription": "Oceanside sits where Route 76 meets the coast, and its roads carry a steady mix of commuters, beachgoers, and weekend visitors. In 2025, public records counted 835 injury collisions inside the city, leaving 1,177 people hurt and 5 people dead. The corridors with the highest collision counts were Rt 76, Oceanside Boulevard, College Boulevard, and Mission Avenue, and reported crashes tended to peak on Fridays between 5 p.m. and 7 p.m. as the weekend rush built. Behind each of those numbers is a person who now has an adjuster on the phone and a stack of bills on the counter. We handle personal injury claims for people in Oceanside and across San Diego County. We can review what happened and explain your options in plain language. Our team works on contingency, meaning no fee unless there is a recovery. Whether you were rear-ended on Mission Avenue, struck while walking near the pier, or hurt in a fall at a local business, one short conversation can help you understand where you stand.",
     "commonInjuriesTitle": "Injuries We Commonly See in Oceanside",
     "commonInjuries": [
       "Whiplash and neck strain from rear-end collisions",
@@ -24,7 +24,7 @@
       "Back injuries from slips and falls on business property",
       "Soft-tissue injuries that show up days after a crash"
     ],
-    "ctaText": "Tell us what happened and we will connect you with an attorney for free."
+    "ctaText": "Tell us what happened and we will review your case for free."
   },
   "whyChoose": {
     "title": "What California Law Means for Your Oceanside Claim",
@@ -43,7 +43,7 @@
       },
       {
         "title": "Contingency fees, nothing upfront",
-        "desc": "Attorneys in our network work on contingency. You pay no fee unless there is a recovery in your case, and connecting through LawProactive is free."
+        "desc": "We work on contingency. You pay no fee unless there is a recovery in your case, and our initial review is free."
       }
     ]
   },
@@ -67,15 +67,15 @@
       },
       {
         "question": "What if I was partly to blame for the collision?",
-        "answer": "California follows pure comparative fault. Your recovery is reduced by whatever percentage of fault is assigned to you, but you are not barred from recovering just because you share some responsibility. An attorney can help you understand how fault might be divided in your situation."
+        "answer": "California follows pure comparative fault. Your recovery is reduced by whatever percentage of fault is assigned to you, but you are not barred from recovering just because you share some responsibility. We can help you understand how fault might be divided in your situation."
       },
       {
-        "question": "Is LawProactive a law firm?",
-        "answer": "No. LawProactive is a free connection service, not a law firm, and we do not give legal advice or handle cases. We connect you with an independent personal injury attorney who can review your situation directly."
+        "question": "Do you handle personal injury cases?",
+        "answer": "Yes. We handle personal injury claims in Oceanside and throughout San Diego County. We review your situation directly and work on contingency, meaning you owe no attorney fee unless there is a recovery in your case."
       },
       {
-        "question": "How much does it cost to get an attorney through LawProactive?",
-        "answer": "Nothing to be connected, and the attorneys in our network work on contingency. That means you owe no attorney fee unless there is a recovery in your case. Any fee arrangement is agreed on directly between you and the attorney before work begins."
+        "question": "How much does it cost to get help with my case?",
+        "answer": "There is no cost for your initial review, and we work on contingency. That means you owe no attorney fee unless there is a recovery in your case. Any fee arrangement is agreed on directly between you and our team before work begins."
       }
     ]
   }

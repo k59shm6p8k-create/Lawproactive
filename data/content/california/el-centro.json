@@ -6,15 +6,15 @@
     "note": "el-centro city page (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "El Centro, CA Injury Lawyer Connection | Free Review",
-    "metaDescription": "Hurt in Imperial County? Get connected free to an independent El Centro injury attorney. 2 years to file. No fee unless you win."
+    "metaTitle": "El Centro, CA Injury Lawyer | Free Case Review",
+    "metaDescription": "Hurt in Imperial County? Get a free case review from an injury attorney. 2 years to file. No fee unless you recover."
   },
   "hero": {
-    "subtitle": "Whether you were hurt in a car wreck on Imperial Avenue or injured in a fall or workplace accident, we can connect you free of charge with an independent attorney serving Imperial County."
+    "subtitle": "Whether you were hurt in a car wreck on Imperial Avenue or injured in a fall or workplace accident, we can help you understand your options at no charge."
   },
   "about": {
     "title": "Personal Injury Help in El Centro, California",
-    "longDescription": "El Centro sits at the center of Imperial County, and like any city of its size, its roads see their share of collisions. In the most recent full year on record, El Centro logged 63 injury collisions, with 83 people hurt and 2 lives lost in traffic crashes. Public crash records show reports tend to cluster on Fridays between 1 and 3 p.m., and corridors like Imperial Avenue, 4th Street, Main Street, and La Brucherie Road show up repeatedly in these counts — not because any one of them is inherently unsafe, but simply because they carry heavy daily traffic. If you were hurt in a crash on one of these roads, or in any other kind of accident around El Centro, you may be dealing with medical bills, lost income, and a lot of uncertainty about what happens next. LawProactive is a free service that helps injured people in El Centro get connected with an independent personal injury attorney. We are not a law firm, we don't provide legal advice, and we never charge a fee to make the connection. Attorneys in our network work on contingency, meaning there's no fee unless they recover money on your behalf. Reaching out costs nothing and starts with a conversation about what happened to you.",
+    "longDescription": "El Centro sits at the center of Imperial County, and like any city of its size, its roads see their share of collisions. In the most recent full year on record, El Centro logged 63 injury collisions, with 83 people hurt and 2 lives lost in traffic crashes. Public crash records show reports tend to cluster on Fridays between 1 and 3 p.m., and corridors like Imperial Avenue, 4th Street, Main Street, and La Brucherie Road show up repeatedly in these counts — not because any one of them is inherently unsafe, but simply because they carry heavy daily traffic. If you were hurt in a crash on one of these roads, or in any other kind of accident around El Centro, you may be dealing with medical bills, lost income, and a lot of uncertainty about what happens next. We handle personal injury claims for injured people throughout El Centro and Imperial County. We don't charge for an initial conversation about your case, and we work on contingency, meaning there's no fee unless we recover money on your behalf. Reaching out costs nothing and starts with a conversation about what happened to you.",
     "commonInjuriesTitle": "Common Injuries We See",
     "commonInjuries": [
       "Whiplash and neck strain",
@@ -24,7 +24,7 @@
       "Cuts, bruises, and soft tissue damage",
       "Injuries from slip and fall accidents"
     ],
-    "ctaText": "Tell us what happened — it's free to connect with an attorney."
+    "ctaText": "Tell us what happened — it's free to get started."
   },
   "whyChoose": {
     "title": "What You Should Know Before You Wait",
@@ -43,7 +43,7 @@
       },
       {
         "title": "You Don't Pay Unless You Recover",
-        "desc": "Attorneys connected through LawProactive work on contingency, which means legal fees only apply if there's a settlement or award in your favor. There's no upfront cost to get advice about your situation."
+        "desc": "We work on contingency, which means legal fees only apply if there's a settlement or award in your favor. There's no upfront cost to get advice about your situation."
       }
     ]
   },
@@ -70,12 +70,12 @@
         "answer": "Public crash records show that reported collisions in El Centro tend to occur most often on Fridays between 1 and 3 p.m., with counts concentrated along Imperial Avenue, 4th Street, Main Street, and La Brucherie Road. These are simply where collision reports have been recorded most frequently, not a judgment about any particular road."
       },
       {
-        "question": "Is LawProactive a law firm?",
-        "answer": "No. LawProactive is a free service that connects injured people with independent personal injury attorneys. We don't provide legal representation ourselves, and there's no cost to use our service to find an attorney."
+        "question": "Do you handle injury claims in El Centro?",
+        "answer": "Yes. We handle personal injury claims for people hurt in El Centro and throughout Imperial County. There's no cost for an initial conversation, and we work on contingency, so you don't pay unless we recover compensation for you."
       },
       {
-        "question": "How much does it cost to talk to an attorney through LawProactive?",
-        "answer": "There's no cost to connect with an attorney through our service, and attorneys in our network work on contingency. That means they only get paid if you recover compensation, so there's no upfront fee to worry about."
+        "question": "How much does it cost to talk to an attorney?",
+        "answer": "There's no cost to contact us and discuss your case, and we work on contingency. That means we only get paid if you recover compensation, so there's no upfront fee to worry about."
       }
     ]
   }

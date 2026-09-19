@@ -6,16 +6,16 @@
     "note": "woodside city page (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "Woodside, CA Injury Lawyer Connection | Free Case Review",
-    "metaDescription": "Injured in Woodside, San Mateo County? Free help finding an attorney. 2 years to file. No fee unless you win. Connect today."
+    "metaTitle": "Woodside, CA Injury Lawyer | Free Case Review",
+    "metaDescription": "Injured in Woodside, San Mateo County? Free case review from an attorney. 2 years to file. No fee unless you win. Contact us today."
   },
   "hero": {
-    "subtitle": "If you've been hurt in a car crash, bicycle collision, or fall along Woodside's rural roads, we can connect you with an independent attorney at no cost. Serving injured residents throughout San Mateo County."
+    "subtitle": "If you've been hurt in a car crash, bicycle collision, or fall along Woodside's rural roads, we can help. Our team serves injured residents throughout San Mateo County."
   },
   "about": {
     "title": "Personal Injury Help in Woodside, California",
-    "longDescription": "Woodside's winding, rural character comes with its own traffic patterns. Public records show 42 injury collisions in the most recent reporting year, leaving 57 people hurt, with no reported traffic deaths. Corridors like Rt 84, Woodside Road, Portola Road, and La Honda Road see the highest volume of reported crashes, and Saturdays between 11 a.m. and 1 p.m. tend to be the busiest window for collisions — likely tied to weekend traffic heading toward the coast and surrounding trails. If you or someone you love was hurt in one of these incidents, sorting out medical bills, insurance calls, and next steps can feel overwhelming on top of recovering physically. LawProactive is a free service that connects injured people in Woodside with an independent personal injury attorney who can evaluate your situation. We are not a law firm, and we don't charge you anything to make the connection. Attorneys in our network work on contingency, meaning there's no fee unless you recover compensation. You focus on healing — let someone else worry about the paperwork and phone calls.",
-    "commonInjuriesTitle": "Common Injuries We See Connections For",
+    "longDescription": "Woodside's winding, rural character comes with its own traffic patterns. Public records show 42 injury collisions in the most recent reporting year, leaving 57 people hurt, with no reported traffic deaths. Corridors like Rt 84, Woodside Road, Portola Road, and La Honda Road see the highest volume of reported crashes, and Saturdays between 11 a.m. and 1 p.m. tend to be the busiest window for collisions — likely tied to weekend traffic heading toward the coast and surrounding trails. If you or someone you love was hurt in one of these incidents, sorting out medical bills, insurance calls, and next steps can feel overwhelming on top of recovering physically. We handle personal injury cases for residents throughout Woodside and San Mateo County. Our team can evaluate your situation at no cost, and we work on contingency, meaning there's no fee unless you recover compensation. You focus on healing — let us worry about the paperwork and phone calls.",
+    "commonInjuriesTitle": "Common Injuries We Handle",
     "commonInjuries": [
       "Whiplash and neck injuries from rear-end collisions",
       "Broken bones from vehicle or bicycle crashes",
@@ -24,18 +24,18 @@
       "Spinal injuries from high-speed collisions",
       "Cuts, bruises, and lacerations from pedestrian incidents"
     ],
-    "ctaText": "Find out if you have a case — the connection is free."
+    "ctaText": "Find out if you have a case — your free case review is just a call away."
   },
   "whyChoose": {
-    "title": "Why People in Woodside Turn to LawProactive",
+    "title": "Why Woodside Residents Choose Us",
     "items": [
       {
         "title": "You Have Two Years — But Don't Wait",
-        "desc": "California generally gives you two years from the date of injury to file a claim, though claims against a government entity can require notice in as little as six months. Connecting with an attorney early helps preserve evidence while it's still fresh."
+        "desc": "California generally gives you two years from the date of injury to file a claim, though claims against a government entity can require notice in as little as six months. Contacting us early helps preserve evidence while it's still fresh."
       },
       {
         "title": "Partial Fault Won't Shut You Out",
-        "desc": "California follows pure comparative fault, meaning even if you were partly responsible for what happened, you may still recover compensation reduced by your share of fault. An attorney can help sort out how fault gets calculated in your case."
+        "desc": "California follows pure comparative fault, meaning even if you were partly responsible for what happened, you may still recover compensation reduced by your share of fault. We can help sort out how fault gets calculated in your case."
       },
       {
         "title": "No Cap on What You May Recover",
@@ -43,7 +43,7 @@
       },
       {
         "title": "No Fee Unless You Win",
-        "desc": "Attorneys in our network work on contingency, so you don't pay out of pocket to get started. Legal fees only come from a recovery, which means there's no upfront financial risk to finding out where you stand."
+        "desc": "We work on contingency, so you don't pay out of pocket to get started. Legal fees only come from a recovery, which means there's no upfront financial risk to finding out where you stand."
       }
     ]
   },
@@ -58,12 +58,12 @@
   "faq": {
     "items": [
       {
-        "question": "How much does it cost to use LawProactive?",
-        "answer": "Nothing. LawProactive is a free service that connects you with an independent attorney. We are not a law firm, and there's no charge for making the connection."
+        "question": "How much does it cost to use your services?",
+        "answer": "Nothing. Our initial case review is free. We work on contingency, so there's no charge unless we recover compensation for you."
       },
       {
         "question": "What if I was partially at fault for the accident?",
-        "answer": "California uses pure comparative fault, so being partially responsible doesn't automatically bar you from recovering compensation. Your recovery would simply be reduced by your percentage of fault. An attorney can help evaluate how this might apply to your specific situation."
+        "answer": "California uses pure comparative fault, so being partially responsible doesn't automatically bar you from recovering compensation. Your recovery would simply be reduced by your percentage of fault. We can help evaluate how this might apply to your specific situation."
       },
       {
         "question": "How long do I have to file a claim in California?",
@@ -75,7 +75,7 @@
       },
       {
         "question": "Will I owe attorney fees if I don't recover anything?",
-        "answer": "No. Attorneys in the LawProactive network work on contingency, meaning fees only apply if you receive a settlement or award. There's no upfront cost to you to explore your options."
+        "answer": "No. We work on contingency, meaning fees only apply if you receive a settlement or award. There's no upfront cost to you to explore your options."
       }
     ]
   }

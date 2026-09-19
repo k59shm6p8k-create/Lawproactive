@@ -6,15 +6,15 @@
     "note": "coronado city page (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "Coronado, CA Injury Lawyer Connection | Free Case Review",
-    "metaDescription": "Injured in Coronado? Connect free with an independent San Diego County attorney. 2 years to file, no fee unless you win."
+    "metaTitle": "Coronado, CA Injury Lawyer | Free Case Review",
+    "metaDescription": "Injured in Coronado? Get a free case review from an attorney serving San Diego County. 2 years to file, no fee unless you recover."
   },
   "hero": {
-    "subtitle": "Whether you were hurt in a car crash, a bike collision, or a fall, we'll connect you free with an independent attorney serving San Diego County."
+    "subtitle": "Whether you were hurt in a car crash, a bike collision, or a fall, we can review your case free and explain your options."
   },
   "about": {
     "title": "Personal Injury Help in Coronado, California",
-    "longDescription": "Coronado's compact island streets carry a steady stream of visitors, cyclists, and residents, and that mix shows up in the numbers: 103 injury collisions and 140 people injured in the most recent full year, with no traffic deaths reported. Silver Strand Boulevard, Orange Avenue, 4th Street, and 3rd Street see the highest volume of reported collisions, and crash reports tend to cluster on Friday afternoons between 3 and 5 p.m., likely tied to weekend travel and beach traffic. If you were hurt anywhere in Coronado, sorting out medical care, insurance calls, and paperwork can feel like a lot on top of recovering. LawProactive is a free service — not a law firm — that connects injured people in San Diego County with an independent personal injury attorney who can look at what happened and explain your options. There's no cost to talk, and attorneys in our network work on contingency, meaning no fee unless there's a recovery. You don't have to figure out California's filing deadlines or fault rules alone; a quick conversation can help you understand where things stand before time works against you.",
+    "longDescription": "Coronado's compact island streets carry a steady stream of visitors, cyclists, and residents, and that mix shows up in the numbers: 103 injury collisions and 140 people injured in the most recent full year, with no traffic deaths reported. Silver Strand Boulevard, Orange Avenue, 4th Street, and 3rd Street see the highest volume of reported collisions, and crash reports tend to cluster on Friday afternoons between 3 and 5 p.m., likely tied to weekend travel and beach traffic. If you were hurt anywhere in Coronado, sorting out medical care, insurance calls, and paperwork can feel like a lot on top of recovering. We handle personal injury claims throughout San Diego County at no upfront cost. There's no fee to talk with us, and we work on contingency, meaning no fee unless there's a recovery. You don't have to figure out California's filing deadlines or fault rules alone; a conversation with our team can help you understand where things stand before time works against you.",
     "commonInjuriesTitle": "Common Injuries We Hear About",
     "commonInjuries": [
       "Whiplash and neck strain",
@@ -24,7 +24,7 @@
       "Back and spinal injuries",
       "Shoulder and knee ligament damage"
     ],
-    "ctaText": "Tell us what happened — the connection is free."
+    "ctaText": "Tell us what happened — get your free case review."
   },
   "whyChoose": {
     "title": "Why Talk to an Attorney Sooner Rather Than Later",
@@ -43,7 +43,7 @@
       },
       {
         "title": "You Pay Nothing Unless There's a Recovery",
-        "desc": "Attorneys in our network work on contingency, so there's no upfront cost to have your case reviewed. If there's no recovery, there's no fee."
+        "desc": "We work on contingency, so there's no upfront cost to have your case reviewed. If there's no recovery, there's no fee."
       }
     ]
   },
@@ -59,11 +59,11 @@
     "items": [
       {
         "question": "How long do I have to file an injury claim in Coronado?",
-        "answer": "California generally gives you 2 years from the date of the injury to file most personal injury claims. If a government entity, like the city, is involved, the window can be as short as 6 months to file a formal claim. An attorney can help you figure out which deadline applies to your situation."
+        "answer": "California generally gives you 2 years from the date of the injury to file most personal injury claims. If a government entity, like the city, is involved, the window can be as short as 6 months to file a formal claim. We can help you figure out which deadline applies to your situation."
       },
       {
         "question": "What if I was partly at fault for the accident?",
-        "answer": "California uses pure comparative fault, which means being partly responsible doesn't bar you from recovering compensation. Your recovery may simply be reduced by your percentage of fault. It's worth discussing the details with an attorney rather than assuming you're out of options."
+        "answer": "California uses pure comparative fault, which means being partly responsible doesn't bar you from recovering compensation. Your recovery may simply be reduced by your percentage of fault. It's worth discussing the details with us rather than assuming you're out of options."
       },
       {
         "question": "Where do crashes tend to happen in Coronado?",
@@ -71,11 +71,11 @@
       },
       {
         "question": "Is there a limit on how much I can recover for pain and suffering?",
-        "answer": "In ordinary personal injury cases, California does not cap non-economic damages such as pain and suffering. Your specific damages depend on the facts of your case, which an attorney can review with you."
+        "answer": "In ordinary personal injury cases, California does not cap non-economic damages such as pain and suffering. Your specific damages depend on the facts of your case, which we can review with you."
       },
       {
-        "question": "Does it cost anything to speak with an attorney through LawProactive?",
-        "answer": "No. LawProactive is a free service that connects you with an independent attorney, and we are not a law firm ourselves. Attorneys in our network work on contingency, so there's no fee unless you actually recover compensation."
+        "question": "Does it cost anything to speak with an attorney?",
+        "answer": "No. There's no cost for a free case review. We work on contingency, so there's no fee unless you actually recover compensation."
       }
     ]
   }

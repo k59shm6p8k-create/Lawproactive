@@ -7,15 +7,15 @@
     "note": "pinole medical-malpractice silo (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "Pinole Medical Malpractice Help | LawProactive",
-    "metaDescription": "Hurt by a medical error in Pinole? Get connected free with an independent malpractice attorney serving Contra Costa County. No fee unless you recover."
+    "metaTitle": "Pinole Medical Malpractice Help | Free Case Review",
+    "metaDescription": "Hurt by a medical error in Pinole? Get a free case review from an attorney serving Contra Costa County. No fee unless you recover."
   },
   "hero": {
-    "subtitle": "When a Pinole hospital visit or treatment plan goes wrong, sorting out whether it was malpractice versus an unfortunate outcome can be confusing. LawProactive can connect you at no cost with an independent attorney familiar with Contra Costa County medical cases."
+    "subtitle": "When a Pinole hospital visit or treatment plan goes wrong, sorting out whether it was malpractice versus an unfortunate outcome can be confusing. We can review your situation at no cost and explain how California medical malpractice law applies to your case."
   },
   "about": {
     "title": "Pinole Medical Malpractice Claims",
-    "longDescription": "Pinole residents rely on a mix of local clinics and larger Contra Costa County medical centers, and most visits end without incident. But when a diagnosis is missed, a surgery goes off track, or medication is mishandled, families are often left with more questions than answers. California's MICRA law shapes these cases in specific ways — from a strict notice period before filing suit to rules about non-economic damages and requirements around expert medical testimony. Because a bad result doesn't automatically mean malpractice occurred, these claims usually hinge on whether a provider's care fell below an accepted medical standard. LawProactive doesn't practice law or evaluate your case ourselves; instead, we connect you with an independent attorney who can review medical records, consult with qualified experts, and explain whether pursuing a claim makes sense for your situation, all without any upfront cost to you.",
+    "longDescription": "Pinole residents rely on a mix of local clinics and larger Contra Costa County medical centers, and most visits end without incident. But when a diagnosis is missed, a surgery goes off track, or medication is mishandled, families are often left with more questions than answers. California's MICRA law shapes these cases in specific ways — from a strict notice period before filing suit to rules about non-economic damages and requirements around expert medical testimony. Because a bad result doesn't automatically mean malpractice occurred, these claims usually hinge on whether a provider's care fell below an accepted medical standard. Our team reviews medical records, consults with qualified experts, and explains whether pursuing a claim makes sense for your situation, all without any upfront cost to you.",
     "commonInjuriesTitle": "Common Types of Medical Errors",
     "commonInjuries": [
       "Delayed or missed diagnosis",
@@ -25,7 +25,7 @@
       "Anesthesia complications",
       "Failure to monitor or follow up on test results"
     ],
-    "ctaText": "Ask about your situation — connecting with an attorney costs you nothing."
+    "ctaText": "Ask about your situation — a free case review costs you nothing."
   },
   "whyChoose": {
     "title": "What to Know About Medical Malpractice Law in California",
@@ -36,11 +36,11 @@
       },
       {
         "title": "Expert Review Is Almost Always Needed",
-        "desc": "Because medical decisions are technical, California law nearly always requires a qualified medical expert to weigh in on whether the standard of care was violated. An independent attorney can help arrange that kind of review."
+        "desc": "Because medical decisions are technical, California law nearly always requires a qualified medical expert to weigh in on whether the standard of care was violated. We can help arrange that kind of review for you."
       },
       {
         "title": "Damages Are Structured Under MICRA",
-        "desc": "California's MICRA law places a cap on non-economic damages, though that cap rises each year by statute. Understanding how this affects a potential claim is something an attorney can walk you through directly."
+        "desc": "California's MICRA law places a cap on non-economic damages, though that cap rises each year by statute. We can walk you through how this affects your potential claim."
       }
     ]
   },
@@ -48,15 +48,15 @@
     "items": [
       {
         "question": "How do I know if what happened to me counts as malpractice?",
-        "answer": "Not every poor outcome is the result of malpractice — sometimes complications happen even with proper care. The question is whether a provider's actions fell below the accepted medical standard, which usually requires a qualified expert's review. An independent attorney can help you understand where your situation stands."
+        "answer": "Not every poor outcome is the result of malpractice — sometimes complications happen even with proper care. The question is whether a provider's actions fell below the accepted medical standard, which usually requires a qualified expert's review. We can help you understand where your situation stands."
       },
       {
         "question": "Is there a local hospital or clinic in Pinole this typically involves?",
-        "answer": "Pinole residents often receive care at facilities throughout Contra Costa County rather than solely within city limits, so malpractice concerns can involve a range of providers. What matters most is the specific care given and whether it met accepted standards, not which building it happened in. An attorney can look into the details of your particular treatment."
+        "answer": "Pinole residents often receive care at facilities throughout Contra Costa County rather than solely within city limits, so malpractice concerns can involve a range of providers. What matters most is the specific care given and whether it met accepted standards, not which building it happened in. We can look into the details of your particular treatment."
       },
       {
-        "question": "What does it cost to talk to an attorney through LawProactive?",
-        "answer": "Nothing upfront. LawProactive is a free connection service, and attorneys in the network typically work on contingency, meaning they only get paid if you recover compensation. There's no obligation to move forward after an initial conversation."
+        "question": "What does it cost to talk to an attorney about my case?",
+        "answer": "Nothing upfront. We offer a free initial consultation, and our team typically works on contingency, meaning we only get paid if you recover compensation. There's no obligation to move forward after an initial conversation."
       }
     ]
   }

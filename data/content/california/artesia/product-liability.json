@@ -7,15 +7,15 @@
     "note": "artesia product-liability silo (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "Artesia Product Liability Help | LawProactive",
-    "metaDescription": "Hurt by a defective product in Artesia, CA? Get connected free to an independent injury attorney. No fee unless you recover."
+    "metaTitle": "Artesia Product Liability Help | Free Case Review",
+    "metaDescription": "Hurt by a defective product in Artesia, CA? Get a free case review from an injury attorney. No fee unless you recover."
   },
   "hero": {
-    "subtitle": "When a defective product causes harm along Pioneer Boulevard, South Street, or anywhere else in Artesia, you shouldn't have to sort out the legal side alone. LawProactive connects you free with an independent attorney who handles defective product claims."
+    "subtitle": "When a defective product causes harm along Pioneer Boulevard, South Street, or anywhere else in Artesia, you shouldn't have to sort out the legal side alone. We handle defective product claims and can review what happened at no cost."
   },
   "about": {
     "title": "Artesia Product Liability Claims",
-    "longDescription": "A defective product doesn't announce itself before it fails — a faulty appliance, a car part that gives out, a tool that malfunctions on the job. In Artesia, a small city tucked into Los Angeles County with under 17,000 residents, these injuries can happen in a home near South Street or in a garage off Pioneer Boulevard just as easily as anywhere else. California law generally lets injured people pursue strict liability claims, meaning you don't have to prove the manufacturer was careless — only that the product was defective and that the defect caused your injury. That applies whether the flaw was in the design, the manufacturing process, or a missing warning label. Multiple parties along the supply chain, including manufacturers, distributors, and retailers, may share responsibility. LawProactive doesn't practice law itself; we simply connect you, at no cost, with an independent attorney in our network who can review what happened and explain your options. Attorneys we connect you with work on contingency, so there's no upfront fee.",
+    "longDescription": "A defective product doesn't announce itself before it fails — a faulty appliance, a car part that gives out, a tool that malfunctions on the job. In Artesia, a small city tucked into Los Angeles County with under 17,000 residents, these injuries can happen in a home near South Street or in a garage off Pioneer Boulevard just as easily as anywhere else. California law generally lets injured people pursue strict liability claims, meaning you don't have to prove the manufacturer was careless — only that the product was defective and that the defect caused your injury. That applies whether the flaw was in the design, the manufacturing process, or a missing warning label. Multiple parties along the supply chain, including manufacturers, distributors, and retailers, may share responsibility. Our team handles product liability claims directly and can review what happened and explain your options. We work on contingency, so there's no upfront fee.",
     "commonInjuriesTitle": "Injuries Often Linked to Defective Products",
     "commonInjuries": [
       "Burns from malfunctioning appliances or electronics",
@@ -25,7 +25,7 @@
       "Broken bones from collapsing furniture or structures",
       "Crush injuries from defective vehicle components"
     ],
-    "ctaText": "Tell us what happened — we'll connect you with an attorney at no cost."
+    "ctaText": "Tell us what happened — we'll review your case at no cost."
   },
   "whyChoose": {
     "title": "Why This Matters for Your Claim",
@@ -36,11 +36,11 @@
       },
       {
         "title": "Multiple Parties May Share Responsibility",
-        "desc": "Manufacturers, distributors, and retailers can all potentially be held liable, which may widen the pool of parties an attorney can pursue on your behalf."
+        "desc": "Manufacturers, distributors, and retailers can all potentially be held liable, which may widen the pool of parties we can pursue on your behalf."
       },
       {
         "title": "Preserving the Product Matters",
-        "desc": "Keeping the defective item, its packaging, and any related manuals can be critical evidence — an attorney can advise you on how to protect that evidence properly."
+        "desc": "Keeping the defective item, its packaging, and any related manuals can be critical evidence — we can advise you on how to protect that evidence properly."
       }
     ]
   },
@@ -48,7 +48,7 @@
     "items": [
       {
         "question": "Do I need to prove the manufacturer was careless?",
-        "answer": "Not necessarily. Under California's strict liability approach, you typically need to show the product was defective and that the defect caused your injury, not that the company acted negligently. An independent attorney can review the specifics of your situation to explain what applies to your case."
+        "answer": "Not necessarily. Under California's strict liability approach, you typically need to show the product was defective and that the defect caused your injury, not that the company acted negligently. We can review the specifics of your situation to explain what applies to your case."
       },
       {
         "question": "What should I do with the product that hurt me?",
@@ -56,11 +56,11 @@
       },
       {
         "question": "Is this common in a city as small as Artesia?",
-        "answer": "Product defects aren't tied to city size — they can happen in any home, garage, or business, including areas near Pioneer Boulevard or South Street in Artesia. Local crash data shows collisions do occur here, and product-related injuries can happen just as unpredictably in everyday settings."
+        "answer": "Product defects aren't tied to city size — they can happen in any home, garage, or business, including areas near Pioneer Boulevard or South Street in Artesia. Product-related injuries can happen just as unpredictably in everyday settings."
       },
       {
-        "question": "How much does it cost to get connected with an attorney?",
-        "answer": "Nothing upfront. LawProactive is a free service, and attorneys in our network typically work on contingency, meaning they only get paid if you recover compensation."
+        "question": "How much does it cost to get a case review?",
+        "answer": "Nothing upfront. Our case reviews are free, and we work on contingency, meaning we only get paid if you recover compensation."
       }
     ]
   }

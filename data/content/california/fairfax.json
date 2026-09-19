@@ -6,15 +6,15 @@
     "note": "fairfax city page (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "Fairfax, CA Injury Lawyer Connection | Free Case Review",
-    "metaDescription": "Injured in Fairfax, Marin County? Get connected free to an independent attorney. 2 years to file. No fee unless you win."
+    "metaTitle": "Fairfax, CA Injury Lawyer | Free Case Review",
+    "metaDescription": "Injured in Fairfax, Marin County? Get a free case review from an injury attorney. 2 years to file. No fee unless you recover."
   },
   "hero": {
-    "subtitle": "Whether you were hurt in a car crash on Sir Francis Drake Boulevard or injured as a pedestrian or cyclist elsewhere in town, we'll connect you free of charge with an independent attorney serving Marin County."
+    "subtitle": "Whether you were hurt in a car crash on Sir Francis Drake Boulevard or injured as a pedestrian or cyclist elsewhere in town, we can help. We serve Marin County and handle these cases on a free, no-fee-unless-you-recover basis."
   },
   "about": {
     "title": "Personal Injury Help in Fairfax, California",
-    "longDescription": "Fairfax is a small, tight-knit Marin County town, but its streets still see their share of collisions. Public records show 17 injury collisions in the most recent final crash year, leaving 19 people hurt and, tragically, 1 traffic death. Sir Francis Drake Boulevard, Bolinas Road, Broadway, and Center Boulevard carry the most reported crash activity in town, and Friday afternoons between 3 and 5 p.m. see the most reports. If you were hurt anywhere in Fairfax, sorting out medical bills, missed work, and insurance calls can feel overwhelming on top of recovering physically. LawProactive is a free service that connects injured people with an independent personal injury attorney in the area — we are not a law firm, and we don't handle your case ourselves. The attorneys in our network work on contingency, meaning there's no fee unless you recover compensation. Reaching out costs you nothing and there's no obligation to move forward. If you or someone you love was injured in a crash near Sir Francis Drake Boulevard, Bolinas Road, or anywhere else in Fairfax, it may help to talk with someone who understands California injury law before dealing with insurance adjusters alone.",
+    "longDescription": "Fairfax is a small, tight-knit Marin County town, but its streets still see their share of collisions. Public records show 17 injury collisions in the most recent final crash year, leaving 19 people hurt and, tragically, 1 traffic death. Sir Francis Drake Boulevard, Bolinas Road, Broadway, and Center Boulevard carry the most reported crash activity in town, and Friday afternoons between 3 and 5 p.m. see the most reports. If you were hurt anywhere in Fairfax, sorting out medical bills, missed work, and insurance calls can feel overwhelming on top of recovering physically. We handle personal injury claims for people injured in crashes throughout Fairfax and Marin County. Our team works on contingency, meaning there's no fee unless you recover compensation. Reaching out costs you nothing and there's no obligation to move forward. If you or someone you love was injured in a crash near Sir Francis Drake Boulevard, Bolinas Road, or anywhere else in Fairfax, it may help to talk with someone who understands California injury law before dealing with insurance adjusters alone.",
     "commonInjuriesTitle": "Common Injuries We See Reported",
     "commonInjuries": [
       "Whiplash and neck strain",
@@ -24,7 +24,7 @@
       "Cuts, bruises, and soft tissue damage",
       "Pedestrian and cyclist injuries"
     ],
-    "ctaText": "Reach out today for a free, no-obligation connection to an independent attorney."
+    "ctaText": "Contact us today for a free case review — no obligation."
   },
   "whyChoose": {
     "title": "Why Talk to an Attorney Before Settling",
@@ -35,7 +35,7 @@
       },
       {
         "title": "Partial Fault Won't Erase Your Claim",
-        "desc": "California follows pure comparative fault, meaning even if you're found partly responsible for a crash, you can still recover damages — just reduced by your share of fault. An attorney can help make sure your portion of blame isn't overstated by an insurer."
+        "desc": "California follows pure comparative fault, meaning even if you're found partly responsible for a crash, you can still recover damages — just reduced by your share of fault. We can help make sure your portion of blame isn't overstated by an insurer."
       },
       {
         "title": "No Cap on What You Can Recover for Pain and Suffering",
@@ -43,7 +43,7 @@
       },
       {
         "title": "No Fee Unless You Recover Something",
-        "desc": "Attorneys in our network work on contingency, so you don't pay out of pocket to get advice or representation. They only get paid if you receive a settlement or award."
+        "desc": "We work on contingency, so you don't pay out of pocket to get advice or representation. We only get paid if you receive a settlement or award."
       }
     ]
   },
@@ -63,7 +63,7 @@
       },
       {
         "question": "What if I was partly at fault for the crash?",
-        "answer": "California uses a pure comparative fault rule, so being partly responsible doesn't bar you from recovering compensation. Your recovery would simply be reduced by your percentage of fault. An attorney can help make sure the fault assigned to you is fair and accurate."
+        "answer": "California uses a pure comparative fault rule, so being partly responsible doesn't bar you from recovering compensation. Your recovery would simply be reduced by your percentage of fault. We can help make sure the fault assigned to you is fair and accurate."
       },
       {
         "question": "Where do crashes tend to cluster in Fairfax?",
@@ -71,11 +71,11 @@
       },
       {
         "question": "Will I owe money upfront to speak with an attorney?",
-        "answer": "No. LawProactive's connection service is free, and attorneys in our network work on contingency, meaning they only get paid if you receive a settlement or award. There's no upfront cost or obligation to move forward after speaking with someone."
+        "answer": "No. Our consultation is free, and we work on contingency, meaning we only get paid if you receive a settlement or award. There's no upfront cost or obligation to move forward after speaking with us."
       },
       {
-        "question": "Is LawProactive a law firm?",
-        "answer": "No. LawProactive is a free service that connects injured people with an independent personal injury attorney. We don't provide legal representation ourselves, and any advice or case handling would come from the attorney you're connected with."
+        "question": "Are you a law firm?",
+        "answer": "We are a personal injury law practice that handles cases for injured people in Fairfax and Marin County. We provide direct legal representation and work on a contingency basis — no fee unless you recover."
       }
     ]
   }

@@ -6,15 +6,15 @@
     "note": "cotati city page (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "Cotati, CA Injury Lawyer Connection | Free Case Review",
-    "metaDescription": "Hurt in Cotati? Free connection to an independent Sonoma County injury attorney. 2 years to file. No fee unless you win."
+    "metaTitle": "Cotati, CA Injury Lawyer | Free Case Review",
+    "metaDescription": "Hurt in Cotati? Free case review from a Sonoma County injury attorney. 2 years to file. No fee unless you recover."
   },
   "hero": {
-    "subtitle": "Whether you were hurt in a car crash on Old Redwood Highway or injured as a pedestrian near downtown, we can connect you with an independent personal injury attorney serving Sonoma County — free, with no obligation."
+    "subtitle": "Whether you were hurt in a car crash on Old Redwood Highway or injured as a pedestrian near downtown, our team can help you understand your options and review your case — free, with no obligation."
   },
   "about": {
     "title": "Personal Injury Help in Cotati, California",
-    "longDescription": "Cotati is a small city, but its roads carry a lot of daily traffic — Old Redwood Highway, Route 116, E Cotati Avenue, and Highway 116 all see steady commuter and local flow. In the most recent full year on record, Sonoma County logged 23 injury collisions and 26 injured people connected to Cotati, with no traffic deaths reported. Behind every one of those numbers is a person dealing with medical bills, missed work, and a lot of uncertainty about what comes next. LawProactive is a free service that helps injured people in Cotati get connected with an independent personal injury attorney who can review their situation and explain their options. We are not a law firm, we don't provide legal advice, and we never charge you anything to make the connection. If an attorney in our network agrees to take your case, they work on contingency, meaning there's no fee unless you recover compensation. Our goal is simple: make it easier for people who've been hurt through no fault of their own to find the right help, without adding more stress to an already difficult time.",
+    "longDescription": "Cotati is a small city, but its roads carry a lot of daily traffic — Old Redwood Highway, Route 116, E Cotati Avenue, and Highway 116 all see steady commuter and local flow. In the most recent full year on record, Sonoma County logged 23 injury collisions and 26 injured people connected to Cotati, with no traffic deaths reported. Behind every one of those numbers is a person dealing with medical bills, missed work, and a lot of uncertainty about what comes next. We're here to help injured people in Cotati get the legal representation they need. We handle personal injury cases and can review your situation and explain your options. If we take your case, we work on contingency, meaning there's no fee unless you recover compensation. Our goal is simple: make it easier for people who've been hurt through no fault of their own to find the right help, without adding more stress to an already difficult time.",
     "commonInjuriesTitle": "Common Injuries We See",
     "commonInjuries": [
       "Whiplash and neck strain",
@@ -24,10 +24,10 @@
       "Cuts, bruises, and soft tissue damage",
       "Injuries requiring physical therapy or surgery"
     ],
-    "ctaText": "Get connected with an independent attorney today, at no cost to you."
+    "ctaText": "Contact us today for a free case review."
   },
   "whyChoose": {
-    "title": "Why Cotati Residents Turn to LawProactive",
+    "title": "Why Cotati Residents Choose Us",
     "items": [
       {
         "title": "You Have Time, But Not Forever",
@@ -43,7 +43,7 @@
       },
       {
         "title": "No Fee Unless You Recover",
-        "desc": "Attorneys in our network work on contingency, so you don't pay upfront and you owe nothing in attorney fees unless there's a settlement or award in your favor."
+        "desc": "We work on contingency, so you don't pay upfront and you owe nothing in attorney fees unless there's a settlement or award in your favor."
       }
     ]
   },
@@ -58,8 +58,8 @@
   "faq": {
     "items": [
       {
-        "question": "How much does it cost to use LawProactive?",
-        "answer": "Nothing. LawProactive is a free service that connects you with an independent personal injury attorney in Sonoma County. There's no fee to get connected, and any attorney you work with typically operates on contingency, meaning they only get paid if you recover compensation."
+        "question": "How much does it cost to contact you?",
+        "answer": "Nothing. Our initial case review is free. If we take your case, we work on contingency, meaning you don't pay upfront and you owe nothing in attorney fees unless there's a settlement or award in your favor."
       },
       {
         "question": "How long do I have to file a claim in California?",
@@ -74,8 +74,8 @@
         "answer": "Public collision records show that Old Redwood Highway, Route 116, E Cotati Avenue, and Highway 116 are among the higher-volume corridors for reported injury collisions in Cotati, with activity often clustering around Friday afternoons between 3 and 5 p.m. This is neutral public-record data, not a statement about any particular road being unsafe."
       },
       {
-        "question": "Is LawProactive a law firm?",
-        "answer": "No. LawProactive is a free connection service, not a law firm. We help injured people get in touch with independent personal injury attorneys who can evaluate their case and provide legal advice directly."
+        "question": "Are you a law firm?",
+        "answer": "Yes, we handle personal injury cases in Sonoma County. We can evaluate your case and provide legal advice directly to help you understand your options."
       }
     ]
   }

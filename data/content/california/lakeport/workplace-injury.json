@@ -7,16 +7,16 @@
     "note": "lakeport workplace-injury silo (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "Lakeport Workplace Injury Help | LawProactive",
-    "metaDescription": "Hurt on the job in Lakeport? Get free help connecting with an independent attorney who handles workers' comp and third-party claims."
+    "metaTitle": "Lakeport Workplace Injury Help | Free Case Review",
+    "metaDescription": "Hurt on the job in Lakeport? Get a free case review for workers' comp and third-party injury claims."
   },
   "hero": {
-    "subtitle": "If you've been hurt while working in Lakeport, LawProactive can connect you with an independent attorney who understands both workers' compensation and third-party injury claims at no cost to you."
+    "subtitle": "If you've been hurt while working in Lakeport, we can review your claim at no cost to you. We handle both workers' compensation and third-party injury claims."
   },
   "about": {
     "title": "Lakeport Workplace Injury Claims",
-    "longDescription": "Lakeport's small size doesn't mean its workforce is exempt from job-site injuries — whether at a local business along Main Street, a construction site, or a service job that requires driving through town. In California, workers' compensation is generally the only path against your own employer, no matter who was at fault. But if a subcontractor, equipment manufacturer, property owner, or another driver contributed to your injury, you may have a separate claim against that third party. Lake County workers navigating these overlapping systems often benefit from guidance that keeps both timelines in view: report the injury to your employer within 30 days, and remember that any third-party civil claim carries its own two-year deadline. LawProactive doesn't practice law itself — we simply help injured workers in Lakeport connect with an independent attorney who can sort out which path, or paths, apply to their situation, free of charge.",
-    "commonInjuriesTitle": "Common Workplace Injuries We See",
+    "longDescription": "Lakeport's small size doesn't mean its workforce is exempt from job-site injuries — whether at a local business along Main Street, a construction site, or a service job that requires driving through town. In California, workers' compensation is generally the only path against your own employer, no matter who was at fault. But if a subcontractor, equipment manufacturer, property owner, or another driver contributed to your injury, you may have a separate claim against that third party. Lake County workers navigating these overlapping systems often benefit from guidance that keeps both timelines in view: report the injury to your employer within 30 days, and remember that any third-party civil claim carries its own two-year deadline. Our team helps injured workers in Lakeport understand which path, or paths, apply to their situation, free of charge.",
+    "commonInjuriesTitle": "Common Workplace Injuries We Handle",
     "commonInjuries": [
       "Back and spinal strain from lifting or falls",
       "Fractures from equipment or scaffolding accidents",
@@ -25,18 +25,18 @@
       "Burns or chemical exposure incidents",
       "Slip-and-fall injuries on job-site property"
     ],
-    "ctaText": "Get connected with an independent workplace injury attorney today, at no cost."
+    "ctaText": "Get your free case review today."
   },
   "whyChoose": {
-    "title": "Why Lakeport Workers Turn to LawProactive",
+    "title": "Why Lakeport Workers Choose Us",
     "items": [
       {
         "title": "Understanding the Exclusive Remedy Rule",
-        "desc": "Workers' comp is usually your only claim against your employer, but that doesn't close every door. An independent attorney can evaluate whether a third party's negligence opened a separate path to recovery."
+        "desc": "Workers' comp is usually your only claim against your employer, but that doesn't close every door. We can evaluate whether a third party's negligence opened a separate path to recovery."
       },
       {
         "title": "Protection Against Retaliation",
-        "desc": "California law makes it illegal for an employer to punish you for reporting a workplace injury. If you're worried about your job while healing, an attorney can help you understand your rights."
+        "desc": "California law makes it illegal for an employer to punish you for reporting a workplace injury. If you're worried about your job while healing, we can help you understand your rights."
       },
       {
         "title": "Two Clocks, Two Deadlines",
@@ -48,7 +48,7 @@
     "items": [
       {
         "question": "I was hurt at work in Lakeport — do I file workers' comp or a lawsuit?",
-        "answer": "In most cases, workers' compensation is your exclusive remedy against your employer, regardless of fault. However, if a third party — like a subcontractor, equipment maker, or another driver — contributed to your injury, you may also have a separate civil claim. An independent attorney can help sort out which applies to your situation."
+        "answer": "In most cases, workers' compensation is your exclusive remedy against your employer, regardless of fault. However, if a third party — like a subcontractor, equipment maker, or another driver — contributed to your injury, you may also have a separate civil claim. We can help sort out which applies to your situation."
       },
       {
         "question": "What if my injury happened while driving for work near Main Street or 11th Street?",
@@ -56,7 +56,7 @@
       },
       {
         "question": "Can my employer fire me for reporting a workplace injury?",
-        "answer": "No — California law prohibits retaliation against employees who report workplace injuries or file workers' compensation claims. If you believe you've faced retaliation, an independent attorney can help you understand what protections apply. LawProactive can connect you with someone who handles these situations at no upfront cost."
+        "answer": "No — California law prohibits retaliation against employees who report workplace injuries or file workers' compensation claims. If you believe you've faced retaliation, we can help you understand what protections apply. Contact us at no upfront cost."
       }
     ]
   }

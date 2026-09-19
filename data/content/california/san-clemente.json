@@ -7,14 +7,14 @@
   },
   "seo": {
     "metaTitle": "San Clemente, CA Injury Lawyer | Free Case Review",
-    "metaDescription": "Injured in San Clemente? Orange County residents have 2 years to file. Free attorney connection, no fee unless you win."
+    "metaDescription": "Injured in San Clemente? Orange County residents have 2 years to file. Free case review, no fee unless you recover."
   },
   "hero": {
-    "subtitle": "Whether you were hurt in a car crash on I-5 or a fall somewhere around town, we'll connect you with an independent attorney at no cost, serving all of Orange County."
+    "subtitle": "Whether you were hurt in a car crash on I-5 or a fall somewhere around town, our team can help you understand your options at no cost, serving all of Orange County."
   },
   "about": {
     "title": "Personal Injury Help in San Clemente, California",
-    "longDescription": "San Clemente's roads carry a steady mix of commuters, beachgoers, and local traffic, and that mix shows up in the numbers. In the most recent year on record, San Clemente saw 182 injury collisions and 240 people hurt, with one traffic death. Corridors like I-5 (San Diego Freeway), Avenida Pico, S El Camino Real, and N El Camino Real account for a large share of the reported collision activity in the city, and public records show reported crashes tend to cluster on Saturday afternoons between 3 and 5 p.m., when weekend traffic builds. If you were hurt in one of these collisions, or in any other kind of accident around San Clemente, LawProactive can help. We're a free service, not a law firm — we connect injured people with an independent personal injury attorney who can review what happened and explain your options. Attorneys in our network work on contingency, meaning there's no fee unless you recover money. You focus on healing; let us handle the introduction to someone who can help you sort out the rest.",
+    "longDescription": "San Clemente's roads carry a steady mix of commuters, beachgoers, and local traffic, and that mix shows up in the numbers. In the most recent year on record, San Clemente saw 182 injury collisions and 240 people hurt, with one traffic death. Corridors like I-5 (San Diego Freeway), Avenida Pico, S El Camino Real, and N El Camino Real account for a large share of the reported collision activity in the city, and public records show reported crashes tend to cluster on Saturday afternoons between 3 and 5 p.m., when weekend traffic builds. If you were hurt in one of these collisions, or in any other kind of accident around San Clemente, we can help. We're a free service — we review your case and explain your options. Our attorneys work on contingency, meaning there's no fee unless you recover money. You focus on healing; let us handle the rest.",
     "commonInjuriesTitle": "Common Injuries We See",
     "commonInjuries": [
       "Whiplash and neck injuries",
@@ -24,7 +24,7 @@
       "Cuts, bruises, and soft tissue damage",
       "Injuries from slip-and-fall accidents"
     ],
-    "ctaText": "Get connected with an independent attorney today, free of charge."
+    "ctaText": "Get your free case review today."
   },
   "whyChoose": {
     "title": "Why Act Now Matters",
@@ -43,7 +43,7 @@
       },
       {
         "title": "No Fee Unless You Win",
-        "desc": "Attorneys in our network work on contingency, meaning you pay nothing upfront and owe no fee unless there's a recovery in your case."
+        "desc": "Our attorneys work on contingency, meaning you pay nothing upfront and owe no fee unless there's a recovery in your case."
       }
     ]
   },
@@ -58,8 +58,8 @@
   "faq": {
     "items": [
       {
-        "question": "How much does it cost to talk to an attorney through LawProactive?",
-        "answer": "Nothing. LawProactive is a free service, and attorneys in our network work on contingency, so there's no fee unless you recover compensation."
+        "question": "How much does it cost to talk to an attorney?",
+        "answer": "Nothing. We offer a free case review, and our attorneys work on contingency, so there's no fee unless you recover compensation."
       },
       {
         "question": "How long do I have to file a claim after an accident in San Clemente?",
@@ -74,8 +74,8 @@
         "answer": "California uses a pure comparative fault rule, which means you can still pursue compensation even if you share some blame. Your recovery would simply be reduced by your percentage of fault."
       },
       {
-        "question": "Is LawProactive a law firm?",
-        "answer": "No. LawProactive is a free connection service that helps injured people find an independent personal injury attorney. We don't provide legal representation ourselves."
+        "question": "Are you a law firm?",
+        "answer": "We help injured people understand their options and take the next steps. Our attorneys provide the legal representation and handle your case directly, working on contingency so there's no fee unless you recover."
       }
     ]
   }

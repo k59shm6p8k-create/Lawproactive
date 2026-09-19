@@ -6,15 +6,15 @@
     "note": "el-cerrito city page (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "El Cerrito, CA Injury Lawyer Connection | Free Review",
-    "metaDescription": "Hurt in El Cerrito, Contra Costa County? Get connected free with an independent injury attorney. 2 years to file. No fee unless you win."
+    "metaTitle": "El Cerrito, CA Injury Lawyer | Free Review",
+    "metaDescription": "Hurt in El Cerrito, Contra Costa County? Get a free case review from an injury attorney. 2 years to file. No fee unless you recover."
   },
   "hero": {
-    "subtitle": "Whether you were hurt in a car crash, a fall, or a pedestrian collision, we can connect you at no cost with an independent attorney serving Contra Costa County."
+    "subtitle": "Whether you were hurt in a car crash, a fall, or a pedestrian collision, our team can review your case at no cost and help you understand your options in Contra Costa County."
   },
   "about": {
     "title": "Personal Injury Help in El Cerrito, California",
-    "longDescription": "El Cerrito is a compact, walkable city, but its streets still carry a steady flow of regional traffic. In the most recent full year on record, the city logged 52 injury collisions, with 63 people hurt and 4 lives lost. Corridors like San Pablo Avenue, I-80, Route 123, and Potrero Avenue see the highest volume of reported collisions, and crash reports tend to cluster on Wednesday afternoons between 4 and 6 p.m., a window when commuters, students, and shoppers all converge. If you were hurt in one of these incidents, you're likely dealing with pain, missed work, and a stack of paperwork you didn't ask for. LawProactive is a free service — we are not a law firm — that connects injured people in El Cerrito with an independent personal injury attorney who can review what happened. There's no cost to talk, and the attorneys we work with take cases on contingency, meaning no fee unless there's a recovery. You don't have to figure out the legal side alone while you're trying to heal.",
+    "longDescription": "El Cerrito is a compact, walkable city, but its streets still carry a steady flow of regional traffic. In the most recent full year on record, the city logged 52 injury collisions, with 63 people hurt and 4 lives lost. Corridors like San Pablo Avenue, I-80, Route 123, and Potrero Avenue see the highest volume of reported collisions, and crash reports tend to cluster on Wednesday afternoons between 4 and 6 p.m., a window when commuters, students, and shoppers all converge. If you were hurt in one of these incidents, you're likely dealing with pain, missed work, and a stack of paperwork you didn't ask for. We offer a free service to review what happened and help you understand your legal options. There's no cost to talk, and we take cases on contingency, meaning no fee unless there's a recovery. You don't have to figure out the legal side alone while you're trying to heal.",
     "commonInjuriesTitle": "Common Injuries We See Reported",
     "commonInjuries": [
       "Whiplash and neck strain",
@@ -43,7 +43,7 @@
       },
       {
         "title": "You Don't Pay Unless There's a Recovery",
-        "desc": "Attorneys in our network work on contingency, so there's no upfront legal fee. If there's no recovery, you owe no attorney fee for the work done."
+        "desc": "We work on contingency, so there's no upfront legal fee. If there's no recovery, you owe no attorney fee for the work done."
       }
     ]
   },
@@ -74,8 +74,8 @@
         "answer": "No. California does not cap non-economic damages, like pain and suffering, in typical personal injury cases. This differs from some other states that limit these types of damages."
       },
       {
-        "question": "Does it cost anything to get connected with an attorney through LawProactive?",
-        "answer": "No, connecting with an attorney through LawProactive is free, and LawProactive itself is not a law firm. The independent attorneys in our network work on contingency, meaning they only get paid if you receive a settlement or award."
+        "question": "Does it cost anything to get a free case review?",
+        "answer": "No, a case review is free. We work on contingency, meaning we only get paid if you receive a settlement or award."
       }
     ]
   }

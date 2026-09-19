@@ -7,14 +7,14 @@
   },
   "seo": {
     "metaTitle": "Colma, CA Personal Injury Lawyer | Free Case Review",
-    "metaDescription": "Injured in Colma? Free, no-obligation connection to a San Mateo County injury attorney. 2 years to file. No fee unless you win."
+    "metaDescription": "Injured in Colma? Free case review with a San Mateo County injury attorney. 2 years to file. No fee unless you win."
   },
   "hero": {
-    "subtitle": "Whether you were hurt in a car wreck on El Camino Real or suffered a fall or workplace injury elsewhere in town, LawProactive can connect you with an independent attorney at no cost, serving Colma and all of San Mateo County."
+    "subtitle": "Whether you were hurt in a car wreck on El Camino Real or suffered a fall or workplace injury elsewhere in town, we can review your case at no cost, serving Colma and all of San Mateo County."
   },
   "about": {
     "title": "Personal Injury Help in Colma, California",
-    "longDescription": "Colma is a small city, but its roads carry a steady flow of traffic passing through San Mateo County, and collisions still happen. Public records show 4 injury collisions in the most recent final crash year, with 5 people injured and no traffic deaths reported. Corridors like Hillside Boulevard, Junipero Serra Boulevard, and El Camino Real (SR-82) see the most reported activity, and Friday late mornings into early afternoon show up more often than other times in the data. If you were hurt in one of these incidents, or in any other kind of accident around town, sorting out medical bills, missed work, and insurance calls can feel overwhelming on top of recovering. LawProactive is a free service that connects injured people in Colma with an independent personal injury attorney who can review the details of what happened. We are not a law firm, and we don't decide your case or promise any result. Attorneys in our network work on contingency, meaning there's no fee unless there is a recovery. Reaching out costs nothing and puts you in touch with someone who can explain your options.",
+    "longDescription": "Colma is a small city, but its roads carry a steady flow of traffic passing through San Mateo County, and collisions still happen. Public records show 4 injury collisions in the most recent final crash year, with 5 people injured and no traffic deaths reported. Corridors like Hillside Boulevard, Junipero Serra Boulevard, and El Camino Real (SR-82) see the most reported activity, and Friday late mornings into early afternoon show up more often than other times in the data. If you were hurt in one of these incidents, or in any other kind of accident around town, sorting out medical bills, missed work, and insurance calls can feel overwhelming on top of recovering. We offer a free case review for injured people in Colma. Our team can review the details of what happened and explain your options. We work on contingency, meaning there's no fee unless there is a recovery. Reaching out costs nothing.",
     "commonInjuriesTitle": "Common Injuries We See",
     "commonInjuries": [
       "Whiplash and neck strain",
@@ -24,7 +24,7 @@
       "Cuts, bruises, and soft tissue damage",
       "Injuries from slip-and-fall accidents"
     ],
-    "ctaText": "Find out where you stand — connect with an attorney for free."
+    "ctaText": "Find out where you stand — contact us for your free case review."
   },
   "whyChoose": {
     "title": "Why Talk to an Attorney Sooner Rather Than Later",
@@ -35,7 +35,7 @@
       },
       {
         "title": "Being Partly at Fault Doesn't Shut You Out",
-        "desc": "California follows pure comparative fault, so even if you were partly responsible for what happened, you can still recover damages — just reduced by your share of fault. An attorney can help sort out how fault gets divided."
+        "desc": "California follows pure comparative fault, so even if you were partly responsible for what happened, you can still recover damages — just reduced by your share of fault. We can help sort out how fault gets divided."
       },
       {
         "title": "No Cap on What You Can Recover for Pain and Suffering",
@@ -43,7 +43,7 @@
       },
       {
         "title": "You Don't Pay Unless There's a Recovery",
-        "desc": "Attorneys in our network work on contingency, so there's no upfront cost to have your case reviewed. If there's no recovery, you owe no attorney fee."
+        "desc": "We work on contingency, so there's no upfront cost to have your case reviewed. If there's no recovery, you owe no attorney fee."
       }
     ]
   },
@@ -70,12 +70,12 @@
         "answer": "Based on public collision records, Hillside Boulevard, Junipero Serra Boulevard, and El Camino Real (SR-82) show the highest counts of reported crashes in Colma, with Friday late morning to early afternoon appearing more frequently than other times. These are neutral counts from public records, not a judgment about any particular road."
       },
       {
-        "question": "Is LawProactive a law firm?",
-        "answer": "No. LawProactive is a free service that connects injured people with independent personal injury attorneys. We don't represent you directly or handle your case ourselves — we simply help you get in touch with an attorney who can."
+        "question": "Are you a law firm?",
+        "answer": "We are personal injury attorneys who review cases directly. We don't represent you until you decide to work with us, and we handle your case ourselves."
       },
       {
         "question": "Will I have to pay anything upfront to talk to an attorney?",
-        "answer": "No. Connecting with an attorney through LawProactive is free, and attorneys in our network work on contingency. That means they only get paid if there's a recovery in your case."
+        "answer": "No. Our case review is free, and we work on contingency. That means we only get paid if there's a recovery in your case."
       }
     ]
   }

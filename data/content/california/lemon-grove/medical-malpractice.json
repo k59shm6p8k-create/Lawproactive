@@ -7,15 +7,15 @@
     "note": "lemon-grove medical-malpractice silo (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "Lemon Grove Medical Malpractice Help | LawProactive",
-    "metaDescription": "Hurt by a medical error in Lemon Grove? Get connected free to an independent CA attorney familiar with MICRA rules. No fee unless you recover."
+    "metaTitle": "Lemon Grove Medical Malpractice Help | Free Case Review",
+    "metaDescription": "Hurt by a medical error in Lemon Grove? Get a free review from a California attorney familiar with MICRA rules. No fee unless you recover."
   },
   "hero": {
-    "subtitle": "If a hospital visit or treatment in Lemon Grove left you worse off instead of better, you deserve straight answers about what happened. LawProactive can connect you, at no cost, with an independent California attorney who handles medical malpractice claims."
+    "subtitle": "If a hospital visit or treatment in Lemon Grove left you worse off instead of better, you deserve straight answers about what happened. Our team can review your case, at no cost, and explain your rights under California law if a medical error harmed you."
   },
   "about": {
     "title": "Lemon Grove Medical Malpractice Claims",
-    "longDescription": "Lemon Grove residents rely on a mix of local clinics and larger San Diego County hospital systems for care, and most visits go the way they should. But when a diagnosis is missed, a surgery goes wrong, or medication is mismanaged, the effects can follow a patient for years. California law gives injured patients a path to accountability, though medical malpractice cases carry strict rules that don't apply to ordinary injury claims — including a short filing window, a required pre-suit notice, and a cap on certain damages. A bad medical outcome by itself doesn't prove negligence occurred; a qualified medical expert typically has to review the case and confirm the care fell below an accepted standard. LawProactive doesn't provide legal advice or represent clients directly. Instead, we connect Lemon Grove residents free of charge with an independent attorney who can review medical records, explain the MICRA framework, and help determine whether a claim is worth pursuing.",
+    "longDescription": "Lemon Grove residents rely on a mix of local clinics and larger San Diego County hospital systems for care, and most visits go the way they should. But when a diagnosis is missed, a surgery goes wrong, or medication is mismanaged, the effects can follow a patient for years. California law gives injured patients a path to accountability, though medical malpractice cases carry strict rules that don't apply to ordinary injury claims — including a short filing window, a required pre-suit notice, and a cap on certain damages. A bad medical outcome by itself doesn't prove negligence occurred; a qualified medical expert typically has to review the case and confirm the care fell below an accepted standard. Our team reviews medical records, explains the MICRA framework, and helps determine whether a claim is worth pursuing.",
     "commonInjuriesTitle": "Injuries Linked to Medical Errors",
     "commonInjuries": [
       "Delayed or missed diagnosis",
@@ -25,7 +25,7 @@
       "Anesthesia complications",
       "Infections from inadequate post-op care"
     ],
-    "ctaText": "Get connected with an independent attorney at no cost."
+    "ctaText": "Get your free case review today."
   },
   "whyChoose": {
     "title": "What Matters in a California Medical Malpractice Claim",
@@ -48,7 +48,7 @@
     "items": [
       {
         "question": "How long do I have to bring a medical malpractice claim in Lemon Grove?",
-        "answer": "Under California's MICRA framework, you generally have one year from when you discovered (or reasonably should have discovered) the injury, but never more than three years from the date it happened. These deadlines are strict, so it helps to have records reviewed early. An attorney can look at your specific timeline and explain how it applies."
+        "answer": "Under California's MICRA framework, you generally have one year from when you discovered (or reasonably should have discovered) the injury, but never more than three years from the date it happened. These deadlines are strict, so it helps to have records reviewed early. We can look at your specific timeline and explain how it applies."
       },
       {
         "question": "Is a bad medical outcome automatically malpractice?",
@@ -56,11 +56,11 @@
       },
       {
         "question": "Does Lemon Grove have local hospitals involved in these claims?",
-        "answer": "Lemon Grove residents typically receive care through nearby San Diego County medical facilities and clinics, and claims can involve any provider — from a local urgent care to a larger hospital system. An independent attorney can help identify which providers may be involved in your specific situation."
+        "answer": "Lemon Grove residents typically receive care through nearby San Diego County medical facilities and clinics, and claims can involve any provider — from a local urgent care to a larger hospital system. We can help identify which providers may be involved in your specific situation."
       },
       {
-        "question": "What does LawProactive actually do?",
-        "answer": "We're a free connection service, not a law firm, so we don't handle your case or give legal advice ourselves. We simply help match you with an independent California attorney who reviews malpractice claims, and that attorney typically works on contingency, meaning there's no fee unless you recover."
+        "question": "How does this work?",
+        "answer": "We review your case for free and help you understand your rights under California medical malpractice law. Our team typically works on contingency, meaning there's no fee unless you recover."
       }
     ]
   }

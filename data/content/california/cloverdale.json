@@ -7,14 +7,14 @@
   },
   "seo": {
     "metaTitle": "Cloverdale, CA Injury Lawyer Help | Free Case Review",
-    "metaDescription": "Hurt in Cloverdale? Free connection to an independent Sonoma County attorney. 2 years to file. No fee unless you win."
+    "metaDescription": "Hurt in Cloverdale? Free case review with a personal injury attorney serving Sonoma County. 2 years to file. No fee unless you win."
   },
   "hero": {
-    "subtitle": "If a car crash, fall, or other accident left you hurt in Cloverdale, we can connect you with an independent attorney serving Sonoma County — free of charge, no obligation."
+    "subtitle": "If a car crash, fall, or other accident left you hurt in Cloverdale, our team can help you understand your options — free of charge, no obligation."
   },
   "about": {
     "title": "Personal Injury Help in Cloverdale, California",
-    "longDescription": "Cloverdale is a small city, but its streets carry a steady flow of local and pass-through traffic. Public records show 13 injury collisions in the most recent reporting year, leaving 18 people hurt. Corridors like S Cloverdale Boulevard, N Cloverdale Boulevard, Cloverdale Boulevard, and the stretch of US-101 Southbound running through town account for a meaningful share of reported crashes. These numbers are neutral counts, not judgments about any particular road — they simply reflect how much this small city's transportation network gets used every day. If you were injured in a collision on one of these roads, or anywhere else in Cloverdale, sorting out medical bills, missed work, and insurance calls can feel overwhelming on top of recovering physically. LawProactive is a free service that connects injured people with an independent personal injury attorney — we are not a law firm, we don't charge you anything, and any attorney you're connected with typically works on contingency, meaning there's no fee unless you recover compensation. Our job is simply to make that first connection easier so you can focus on healing.",
+    "longDescription": "Cloverdale is a small city, but its streets carry a steady flow of local and pass-through traffic. Public records show 13 injury collisions in the most recent reporting year, leaving 18 people hurt. Corridors like S Cloverdale Boulevard, N Cloverdale Boulevard, Cloverdale Boulevard, and the stretch of US-101 Southbound running through town account for a meaningful share of reported crashes. These numbers are neutral counts, not judgments about any particular road — they simply reflect how much this small city's transportation network gets used every day. If you were injured in a collision on one of these roads, or anywhere else in Cloverdale, sorting out medical bills, missed work, and insurance calls can feel overwhelming on top of recovering physically. We handle personal injury cases in Cloverdale and Sonoma County. We work on contingency, meaning there's no fee unless you recover compensation. Our job is simply to help you understand your options so you can focus on healing.",
     "commonInjuriesTitle": "Common Injuries We Hear About",
     "commonInjuries": [
       "Whiplash and neck strain",
@@ -24,7 +24,7 @@
       "Cuts, bruises, and road rash",
       "Soft tissue and joint damage"
     ],
-    "ctaText": "Get connected with an independent attorney — free, no pressure."
+    "ctaText": "Contact us for a free case review — no pressure."
   },
   "whyChoose": {
     "title": "Why Talk to an Attorney Sooner Rather Than Later",
@@ -43,7 +43,7 @@
       },
       {
         "title": "You Pay Nothing Upfront",
-        "desc": "Attorneys in our network typically work on contingency, which means they only get paid if you receive a settlement or award. There's no bill just for having a conversation."
+        "desc": "We work on contingency, which means we only get paid if you receive a settlement or award. There's no bill just for having a conversation."
       }
     ]
   },
@@ -58,8 +58,8 @@
   "faq": {
     "items": [
       {
-        "question": "Is LawProactive a law firm?",
-        "answer": "No. LawProactive is a free service that connects injured people with independent personal injury attorneys. We don't provide legal advice or represent you directly — the attorney you're connected with handles your case."
+        "question": "Are you a law firm?",
+        "answer": "We handle personal injury cases and represent clients directly. We don't provide legal advice through third parties — we work with you on your case."
       },
       {
         "question": "How long do I have to file a claim in California?",
@@ -74,8 +74,8 @@
         "answer": "California uses a pure comparative fault system, so being partly responsible doesn't bar you from recovering compensation. Your total recovery is just reduced by your percentage of fault."
       },
       {
-        "question": "Does it cost anything to get connected with an attorney?",
-        "answer": "No, connecting through LawProactive is completely free. Attorneys in the network generally work on contingency, meaning they only get paid if you win or settle your case."
+        "question": "Does it cost anything to contact you?",
+        "answer": "No, contacting us is completely free. We work on contingency, meaning we only get paid if you win or settle your case."
       }
     ]
   }

@@ -7,14 +7,14 @@
   },
   "seo": {
     "metaTitle": "Palo Alto, CA Personal Injury Lawyer | Free Case Review",
-    "metaDescription": "Injured in Santa Clara County? Free connection to an independent Palo Alto injury attorney. 2 years to file. No fee unless you win."
+    "metaDescription": "Injured in Santa Clara County? Free case review with a Palo Alto injury attorney. 2 years to file. No fee unless you recover."
   },
   "hero": {
-    "subtitle": "If you've been hurt in a car crash, bike collision, or fall in Palo Alto, we'll connect you free of charge with an independent attorney serving Santa Clara County."
+    "subtitle": "If you've been hurt in a car crash, bike collision, or fall in Palo Alto, we can help. Our team handles personal injury claims throughout Santa Clara County at no upfront cost."
   },
   "about": {
     "title": "Personal Injury Help in Palo Alto, California",
-    "longDescription": "Palo Alto's roughly 67,000 residents share the road with heavy commuter traffic along US-101, Middlefield Road, Embarcadero Road, and Alma Street, corridors that show up repeatedly in the city's public collision counts. In the most recent full year on record, Palo Alto logged 84 injury collisions, 106 people hurt, and 3 traffic deaths, with reports tending to cluster on Thursday afternoons between 5 and 7 p.m. as commuters, cyclists, and Caltrain riders converge near downtown and the university corridor. Behind each of those numbers is someone dealing with medical bills, missed work, and an insurance company that doesn't have their best interest at heart. LawProactive is a free service that connects injured people with an independent personal injury attorney - we are not a law firm and we don't decide your case. If you're matched with an attorney, they typically work on contingency, meaning there's no fee unless you recover compensation. Our goal is simply to make that first connection fast and free, so you can focus on getting better while someone else looks at the legal side.",
+    "longDescription": "Palo Alto's roughly 67,000 residents share the road with heavy commuter traffic along US-101, Middlefield Road, Embarcadero Road, and Alma Street, corridors that show up repeatedly in the city's public collision counts. In the most recent full year on record, Palo Alto logged 84 injury collisions, 106 people hurt, and 3 traffic deaths, with reports tending to cluster on Thursday afternoons between 5 and 7 p.m. as commuters, cyclists, and Caltrain riders converge near downtown and the university corridor. Behind each of those numbers is someone dealing with medical bills, missed work, and an insurance company that doesn't have their best interest at heart. We handle personal injury claims for residents of Palo Alto and Santa Clara County. Our team typically works on contingency, meaning there's no fee unless you recover compensation. We can review your case and explain your options, so you can focus on getting better while we look at the legal side.",
     "commonInjuriesTitle": "Common Injuries We See",
     "commonInjuries": [
       "Whiplash and soft tissue injuries",
@@ -24,7 +24,7 @@
       "Cuts, bruises, and lacerations",
       "Injuries from bicycle and pedestrian collisions"
     ],
-    "ctaText": "Tell us what happened - it's free to connect with an attorney."
+    "ctaText": "Tell us what happened - get your free case review today."
   },
   "whyChoose": {
     "title": "Why Talk to an Attorney Soon",
@@ -35,7 +35,7 @@
       },
       {
         "title": "Partial Fault Doesn't Shut You Out",
-        "desc": "California follows pure comparative fault, so even if you were partly responsible for what happened, you can still recover damages reduced by your share of fault. An attorney can help make sure your percentage of fault is argued fairly."
+        "desc": "California follows pure comparative fault, so even if you were partly responsible for what happened, you can still recover damages reduced by your share of fault. We can help make sure your percentage of fault is argued fairly."
       },
       {
         "title": "No Cap on Pain and Suffering",
@@ -43,7 +43,7 @@
       },
       {
         "title": "You Don't Pay Upfront",
-        "desc": "Attorneys in our network typically work on contingency, so there's no fee unless there's a recovery. That structure exists so cost isn't the reason you go without legal help."
+        "desc": "We typically work on contingency, so there's no fee unless there's a recovery. That structure exists so cost isn't the reason you go without legal help."
       }
     ]
   },
@@ -70,12 +70,12 @@
         "answer": "Public collision records show higher counts along US-101, Middlefield Road, Embarcadero Road, and Alma Street, with reports tending to peak on Thursdays between 5 and 7 p.m. These are simply where reported incidents have been recorded most often, not a judgment about any particular road."
       },
       {
-        "question": "Is LawProactive a law firm?",
-        "answer": "No. LawProactive is a free service that connects injured people with independent personal injury attorneys in their area. We don't represent you directly or handle your case - we simply make the introduction."
+        "question": "Are you a law firm?",
+        "answer": "We handle personal injury claims for residents throughout Santa Clara County. Our team reviews cases directly and works on contingency, so you pay nothing upfront."
       },
       {
-        "question": "Will I owe anything upfront if I'm connected with an attorney?",
-        "answer": "Attorneys in our network generally work on contingency, meaning they only get paid if you receive a settlement or award. Connecting with LawProactive itself is always free."
+        "question": "Will I owe anything upfront?",
+        "answer": "No. We work on contingency, meaning we only get paid if you receive a settlement or award. Contacting us is always free."
       }
     ]
   }

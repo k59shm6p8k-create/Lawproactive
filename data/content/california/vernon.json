@@ -6,15 +6,15 @@
     "note": "vernon city page (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "Vernon, CA Injury Lawyer Connection | Free Case Review",
-    "metaDescription": "Injured in Vernon, LA County? Free service connects you to an independent attorney. 2 years to file. No fee unless you win."
+    "metaTitle": "Vernon, CA Injury Lawyer | Free Case Review",
+    "metaDescription": "Injured in Vernon, LA County? Free case review for personal injury claims. 2 years to file. No fee unless you recover."
   },
   "hero": {
-    "subtitle": "Whether you've been hurt in a rear-end collision on Santa Fe Avenue or a workplace-adjacent traffic crash near District Boulevard, we'll connect you with an independent attorney at no cost, serving all of Los Angeles County."
+    "subtitle": "Whether you've been hurt in a rear-end collision on Santa Fe Avenue or a workplace-adjacent traffic crash near District Boulevard, our team can help. We serve all of Los Angeles County."
   },
   "about": {
     "title": "Personal Injury Help in Vernon, California",
-    "longDescription": "Vernon is a small city, but its industrial corridors carry heavy truck and vehicle traffic all day long. Public records show 223 injury collisions in the most recent final reporting year, with 329 people hurt and 2 lives lost. Streets like S Santa Fe Avenue, Santa Fe Avenue, District Boulevard, and S Soto Street show up often in these counts, and reported crashes tend to cluster on Friday afternoons between 5 and 7 p.m., when shift changes and commuter traffic overlap. If you were hurt in one of these collisions, sorting out next steps while dealing with pain, missed work, and mounting bills is a lot to carry alone. LawProactive is a free service — we are not a law firm — that connects injured people in Vernon with an independent personal injury attorney who can look at what happened and explain your options. There's no cost to talk, and the attorneys in our network work on contingency, meaning no fee unless there's a recovery. You don't have to figure this out by yourself, and reaching out costs you nothing.",
+    "longDescription": "Vernon is a small city, but its industrial corridors carry heavy truck and vehicle traffic all day long. Public records show 223 injury collisions in the most recent final reporting year, with 329 people hurt and 2 lives lost. Streets like S Santa Fe Avenue, Santa Fe Avenue, District Boulevard, and S Soto Street show up often in these counts, and reported crashes tend to cluster on Friday afternoons between 5 and 7 p.m., when shift changes and commuter traffic overlap. If you were hurt in one of these collisions, sorting out next steps while dealing with pain, missed work, and mounting bills is a lot to carry alone. Our team handles personal injury claims for injured people in Vernon. We can review what happened and explain your options. There's no cost to talk, and we work on contingency, meaning no fee unless there's a recovery. You don't have to figure this out by yourself, and reaching out costs you nothing.",
     "commonInjuriesTitle": "Common Injuries We See",
     "commonInjuries": [
       "Whiplash and neck strain",
@@ -24,7 +24,7 @@
       "Deep cuts and lacerations",
       "Soft tissue and joint damage"
     ],
-    "ctaText": "Find out where you stand — connect with an attorney for free."
+    "ctaText": "Find out where you stand — contact us for a free case review."
   },
   "whyChoose": {
     "title": "Why Talk to an Attorney Soon",
@@ -42,8 +42,8 @@
         "desc": "California places no cap on non-economic damages, like pain and suffering, in ordinary personal injury cases, so what you're owed isn't artificially limited by a statute."
       },
       {
-        "title": "You Don't Pay Unless They Win",
-        "desc": "Attorneys connected through LawProactive work on contingency, meaning there's no upfront fee — they only get paid if you receive a settlement or award."
+        "title": "You Don't Pay Unless We Win",
+        "desc": "We work on contingency, meaning there's no upfront fee — we only get paid if you receive a settlement or award."
       }
     ]
   },
@@ -74,8 +74,8 @@
         "answer": "No — California does not cap non-economic damages, like pain and suffering, in standard personal injury cases. This differs from some other types of claims that do have statutory limits."
       },
       {
-        "question": "Does it cost anything to talk to LawProactive?",
-        "answer": "No, connecting with LawProactive is completely free, and we are not a law firm — we simply connect you with an independent attorney. Attorneys in our network work on contingency, so there's no fee unless you receive a settlement or award."
+        "question": "Does it cost anything to talk to us?",
+        "answer": "No, reaching out is completely free. We work on contingency, so there's no fee unless you receive a settlement or award."
       }
     ]
   }

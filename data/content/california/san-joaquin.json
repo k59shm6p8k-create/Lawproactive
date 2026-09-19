@@ -6,15 +6,15 @@
     "note": "san-joaquin city page (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "San Joaquin, CA Personal Injury Lawyer | Free Referral",
-    "metaDescription": "Hurt in San Joaquin, Fresno County? Free connection to an independent attorney. CA gives 2 years to file. No fee unless you win."
+    "metaTitle": "San Joaquin, CA Personal Injury Lawyer | Free Case Review",
+    "metaDescription": "Hurt in San Joaquin, Fresno County? Get a free case review from a personal injury attorney. CA gives 2 years to file. No fee unless you recover."
   },
   "hero": {
-    "subtitle": "Whether you were hurt in a vehicle collision or another type of accident, we'll connect you with an independent personal injury attorney at no cost, serving families throughout Fresno County."
+    "subtitle": "Whether you were hurt in a vehicle collision or another type of accident, we can review your case at no cost, serving families throughout Fresno County."
   },
   "about": {
     "title": "Personal Injury Help in San Joaquin, California",
-    "longDescription": "San Joaquin is a small, close-knit community in Fresno County, and when someone here gets hurt, it ripples through the whole town. Local roads like South Main Street, the alley north of Seventh Street, Colorado Avenue, and Idaho Avenue see the bulk of reported traffic activity, and public records for the most recent full year show no reported injury collisions or traffic deaths in the city. That's good news, but crashes and other accidents still happen, and when they do, the aftermath can be confusing and stressful regardless of how rare an incident is on paper. LawProactive is a free service — we are not a law firm, and we don't represent you directly. Instead, we connect people in San Joaquin who've been injured with an independent personal injury attorney who can review the details of what happened and explain your options. There's no cost to get connected, and any attorney in the network works on contingency, meaning there's no fee unless there's a recovery. If you were hurt and aren't sure what to do next, reaching out costs you nothing and puts real answers within reach.",
+    "longDescription": "San Joaquin is a small, close-knit community in Fresno County, and when someone here gets hurt, it ripples through the whole town. Local roads like South Main Street, the alley north of Seventh Street, Colorado Avenue, and Idaho Avenue see the bulk of reported traffic activity, and public records for the most recent full year show no reported injury collisions or traffic deaths in the city. That's good news, but crashes and other accidents still happen, and when they do, the aftermath can be confusing and stressful regardless of how rare an incident is on paper. We handle personal injury cases for people in San Joaquin who've been hurt. Our team can review the details of what happened and explain your options. There's no cost for a free consultation, and we work on contingency, meaning there's no fee unless you recover. If you were hurt and aren't sure what to do next, reaching out costs you nothing and puts real answers within reach.",
     "commonInjuriesTitle": "Injuries We Commonly Hear About",
     "commonInjuries": [
       "Whiplash and neck strain",
@@ -24,18 +24,18 @@
       "Cuts, bruises, and soft-tissue injuries",
       "Injuries requiring ongoing physical therapy"
     ],
-    "ctaText": "Reach out today for a free, no-obligation connection to an independent attorney."
+    "ctaText": "Contact us today for a free, no-obligation case review."
   },
   "whyChoose": {
-    "title": "Why San Joaquin Residents Turn to LawProactive",
+    "title": "Why San Joaquin Residents Choose Us",
     "items": [
       {
         "title": "You Won't Run Out the Clock Overnight",
-        "desc": "California generally gives you two years from the date of an injury to file a claim, though claims against a government entity can require notice in as little as six months. Getting connected with an attorney early helps make sure important deadlines aren't missed."
+        "desc": "California generally gives you two years from the date of an injury to file a claim, though claims against a government entity can require notice in as little as six months. Getting started early helps make sure important deadlines aren't missed."
       },
       {
         "title": "Being Partly at Fault Doesn't Shut the Door",
-        "desc": "California follows pure comparative fault, meaning even if you share some blame for what happened, you can still pursue compensation — it's just reduced by your share of fault. An attorney can help sort out how fault is being assessed in your situation."
+        "desc": "California follows pure comparative fault, meaning even if you share some blame for what happened, you can still pursue compensation — it's just reduced by your share of fault. We can help sort out how fault is being assessed in your situation."
       },
       {
         "title": "No Ceiling on Pain-and-Suffering Claims",
@@ -43,7 +43,7 @@
       },
       {
         "title": "No Money Owed Unless You Recover Something",
-        "desc": "Attorneys connected through LawProactive work on contingency, so there's no upfront fee. They only get paid if you receive a settlement or award, which keeps the financial risk off your shoulders."
+        "desc": "We work on contingency, so there's no upfront fee. We only get paid if you receive a settlement or award, which keeps the financial risk off your shoulders."
       }
     ]
   },
@@ -58,8 +58,8 @@
   "faq": {
     "items": [
       {
-        "question": "Is LawProactive a law firm?",
-        "answer": "No. LawProactive is a free service that connects injured people with independent personal injury attorneys. We don't provide legal representation ourselves, and any attorney you're connected with operates independently of LawProactive."
+        "question": "Are you a law firm?",
+        "answer": "We are a personal injury law practice that handles cases for injured people in San Joaquin and the surrounding area. We provide direct legal representation and work on a contingency basis."
       },
       {
         "question": "How long do I have to file a claim in California?",
@@ -74,8 +74,8 @@
         "answer": "Based on public collision-count records, higher volumes of reported crashes have historically involved South Main Street, the alley north of Seventh Street, Colorado Avenue, and Idaho Avenue, with reports tending to peak on Tuesdays between 12 a.m. and 2 a.m. These are neutral counts from public records, not a judgment about how safe or unsafe any particular road is."
       },
       {
-        "question": "Will I owe anything upfront to get connected with an attorney?",
-        "answer": "No. Getting connected through LawProactive is free, and attorneys in the network work on contingency, meaning they only collect a fee if you receive a settlement or award. There's no cost or obligation to reach out and learn more."
+        "question": "Will I owe anything upfront to get legal help?",
+        "answer": "No. Our free consultation is at no cost, and we work on contingency, meaning we only collect a fee if you receive a settlement or award. There's no cost or obligation to reach out and learn more."
       }
     ]
   }

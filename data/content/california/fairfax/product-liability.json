@@ -7,15 +7,15 @@
     "note": "fairfax product-liability silo (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "Fairfax Product Liability Help | LawProactive",
-    "metaDescription": "Hurt by a defective product in Fairfax, CA? Free connection to an independent attorney who handles product liability claims. No fee unless you recover."
+    "metaTitle": "Fairfax Product Liability Help | Get Your Free Case Review",
+    "metaDescription": "Hurt by a defective product in Fairfax, CA? Free case review from an attorney who handles product liability claims. No fee unless you recover."
   },
   "hero": {
-    "subtitle": "If a defective product hurt you or someone you love in Fairfax, you don't have to figure out the legal side alone. LawProactive connects you, free of charge, with an independent attorney who handles product liability claims across Marin County."
+    "subtitle": "If a defective product hurt you or someone you love in Fairfax, you don't have to figure out the legal side alone. Our team handles product liability claims across Marin County, and we're ready to review your case free of charge."
   },
   "about": {
     "title": "Fairfax Product Liability Claims",
-    "longDescription": "Fairfax is a small, walkable town wedged against the hills of west Marin, and residents here rely on everyday products just like anyone else — kitchen appliances, tools, car parts, children's gear, outdoor equipment for the trails near Bolinas Road. When one of those products fails because of a defect, the injury can be sudden and serious. California law gives injured people an important advantage: product liability claims often proceed under strict liability, meaning you generally don't have to prove the manufacturer was careless, only that the product was defective and that the defect caused harm. LawProactive is not a law firm — we're a free service that connects Fairfax residents with an independent attorney who understands how these claims work locally and statewide. If you were hurt by a product, keep it, document what happened, and let us help you find someone who can evaluate your situation without any upfront cost to you.",
+    "longDescription": "Fairfax is a small, walkable town wedged against the hills of west Marin, and residents here rely on everyday products just like anyone else — kitchen appliances, tools, car parts, children's gear, outdoor equipment for the trails near Bolinas Road. When one of those products fails because of a defect, the injury can be sudden and serious. California law gives injured people an important advantage: product liability claims often proceed under strict liability, meaning you generally don't have to prove the manufacturer was careless, only that the product was defective and that the defect caused harm. We handle product liability claims for Fairfax residents, and we understand how these cases work locally and statewide. If you were hurt by a product, keep it, document what happened, and contact us for a free case review — no upfront cost to you.",
     "commonInjuriesTitle": "Injuries We See From Defective Products",
     "commonInjuries": [
       "Burns from malfunctioning appliances or batteries",
@@ -25,10 +25,10 @@
       "Crush injuries from defective vehicle or bike parts",
       "Poisoning or chemical injury from mislabeled products"
     ],
-    "ctaText": "Tell us what happened — we'll help you find the right attorney, free of charge."
+    "ctaText": "Tell us what happened — we'll review your case free of charge."
   },
   "whyChoose": {
-    "title": "Why Fairfax Residents Turn to LawProactive",
+    "title": "Why Fairfax Residents Choose Us",
     "items": [
       {
         "title": "Strict Liability Can Simplify Your Case",
@@ -40,7 +40,7 @@
       },
       {
         "title": "No Upfront Cost to You",
-        "desc": "Attorneys in our network work on contingency, meaning there's no fee unless there's a recovery, so getting help doesn't add financial pressure while you're already dealing with an injury."
+        "desc": "We work on contingency, meaning there's no fee unless there's a recovery, so getting help doesn't add financial pressure while you're already dealing with an injury."
       }
     ]
   },
@@ -48,7 +48,7 @@
     "items": [
       {
         "question": "Do I have to prove the manufacturer was negligent?",
-        "answer": "Not necessarily. California product liability claims often rely on strict liability, which generally means you need to show the product was defective and that it caused your injury — not that anyone acted carelessly. An attorney can help determine which legal theory fits your situation best."
+        "answer": "Not necessarily. California product liability claims often rely on strict liability, which generally means you need to show the product was defective and that it caused your injury — not that anyone acted carelessly. We can help determine which legal theory fits your situation best."
       },
       {
         "question": "What should I do with the product that hurt me?",
@@ -56,11 +56,11 @@
       },
       {
         "question": "Does it matter that Fairfax is a small town for finding help?",
-        "answer": "Not at all. Product liability claims involving Fairfax residents can involve manufacturers or retailers based anywhere, and LawProactive connects you with an independent attorney regardless of where the product was made or sold. Local roads like Sir Francis Drake Boulevard or Bolinas Road have nothing to do with where your claim can be filed."
+        "answer": "Not at all. Product liability claims involving Fairfax residents can involve manufacturers or retailers based anywhere, and we can help regardless of where the product was made or sold. Local roads like Sir Francis Drake Boulevard or Bolinas Road have nothing to do with where your claim can be filed."
       },
       {
-        "question": "Is there a cost to get connected through LawProactive?",
-        "answer": "No. LawProactive is a free service, and attorneys in our network typically work on contingency, meaning they only get paid if you recover something. There's no obligation to move forward after speaking with an attorney."
+        "question": "Is there a cost to get help?",
+        "answer": "No. There is no cost to contact us, and we typically work on contingency, meaning we only get paid if you recover something. There's no obligation to move forward after speaking with our team."
       }
     ]
   }

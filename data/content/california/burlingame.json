@@ -6,15 +6,15 @@
     "note": "burlingame city page (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "Burlingame, CA Injury Lawyer Connection | Free Review",
-    "metaDescription": "Injured in Burlingame? Free connection to an independent San Mateo County attorney. 2 years to file. No fee unless you win."
+    "metaTitle": "Burlingame, CA Injury Lawyer | Free Case Review",
+    "metaDescription": "Injured in Burlingame? Free case review from a personal injury attorney. 2 years to file. No fee unless you recover."
   },
   "hero": {
-    "subtitle": "If a car crash, fall, or other accident has left you hurt in Burlingame, we can connect you with an independent attorney at no cost to you. Serving people throughout San Mateo County."
+    "subtitle": "If a car crash, fall, or other accident has left you hurt in Burlingame, we can help. Contact us for a free case review. We serve people throughout San Mateo County."
   },
   "about": {
     "title": "Personal Injury Help in Burlingame, California",
-    "longDescription": "Burlingame's streets carry a steady mix of local traffic and commuters cutting through on US-101, California Drive, and El Camino Real (SR-82/Rt 82). Public records for the most recent full year show 104 injury collisions in the city, with 140 people hurt and 3 lives lost — numbers that reflect how much everyday driving, walking, and biking happens along these corridors. Whether you were hurt near one of these roads, in a parking lot, or somewhere else in town, the days after an injury are often confusing: medical visits, insurance calls, missed work. LawProactive is a free service that helps injured people in Burlingame connect with an independent personal injury attorney who can look at what happened and explain your options. We are not a law firm, we don't decide claims, and we don't charge anything for the connection. Attorneys in our network work on contingency, meaning there's no fee unless there is a recovery. Reaching out costs you nothing and doesn't commit you to anything — it just gets you talking to someone who handles these cases regularly.",
+    "longDescription": "Burlingame's streets carry a steady mix of local traffic and commuters cutting through on US-101, California Drive, and El Camino Real (SR-82/Rt 82). Public records for the most recent full year show 104 injury collisions in the city, with 140 people hurt and 3 lives lost — numbers that reflect how much everyday driving, walking, and biking happens along these corridors. Whether you were hurt near one of these roads, in a parking lot, or somewhere else in town, the days after an injury are often confusing: medical visits, insurance calls, missed work. We handle personal injury claims for people injured in Burlingame and throughout San Mateo County. Our team can review what happened and explain your options. We work on contingency, meaning there's no fee unless there is a recovery. Reaching out costs you nothing and doesn't commit you to anything — it just gets you talking to someone who handles these cases regularly.",
     "commonInjuriesTitle": "Common Injuries We Hear About",
     "commonInjuries": [
       "Whiplash and neck strain",
@@ -24,7 +24,7 @@
       "Cuts, bruises, and soft tissue damage",
       "Injuries from falls or slips"
     ],
-    "ctaText": "Get connected with an independent attorney — free, no obligation."
+    "ctaText": "Get your free case review — no obligation."
   },
   "whyChoose": {
     "title": "What California Law Means for Your Claim",
@@ -43,7 +43,7 @@
       },
       {
         "title": "You don't pay unless there's a recovery",
-        "desc": "Attorneys in our network work on contingency, so legal fees only come out of money recovered on your behalf — nothing upfront."
+        "desc": "We work on contingency, so legal fees only come out of money recovered on your behalf — nothing upfront."
       }
     ]
   },
@@ -58,8 +58,8 @@
   "faq": {
     "items": [
       {
-        "question": "How much does it cost to use LawProactive?",
-        "answer": "Nothing. LawProactive is a free service that connects you with an independent attorney. We are not a law firm and don't charge fees for making the connection."
+        "question": "How much does it cost to contact you?",
+        "answer": "Nothing. We offer a free case review. There's no charge for discussing your situation."
       },
       {
         "question": "How long do I have to file a claim in California?",
@@ -75,7 +75,7 @@
       },
       {
         "question": "Do I have to pay upfront for an attorney?",
-        "answer": "No. Attorneys in our network work on contingency, meaning they only get paid if you receive a settlement or award. There's no fee unless there's a recovery."
+        "answer": "No. We work on contingency, meaning we only get paid if you receive a settlement or award. There's no fee unless there's a recovery."
       }
     ]
   }

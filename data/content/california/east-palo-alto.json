@@ -7,14 +7,14 @@
   },
   "seo": {
     "metaTitle": "East Palo Alto, CA Injury Lawyer | Free Case Review",
-    "metaDescription": "Injured in East Palo Alto? San Mateo County residents get 2 years to file. Free attorney connection, no fee unless you win. Get help now."
+    "metaDescription": "Injured in East Palo Alto? San Mateo County residents get 2 years to file. Free case review, no fee unless you recover. Get help now."
   },
   "hero": {
-    "subtitle": "Whether you were hurt in a car crash, a fall, or another type of accident, we'll connect you with an independent attorney at no cost, serving families throughout San Mateo County."
+    "subtitle": "Whether you were hurt in a car crash, a fall, or another type of accident, we can review what happened and explain your options. We serve families throughout San Mateo County."
   },
   "about": {
     "title": "Personal Injury Help in East Palo Alto, California",
-    "longDescription": "East Palo Alto sees real traffic on University Avenue, US-101, E Bayshore Road, and Bay Road — corridors that carry commuters, delivery trucks, and local families every day. In the most recent full year on record, the city logged 112 injury collisions, with 163 people hurt and 3 lives lost. Numbers like these represent neighbors, coworkers, and parents caught in circumstances they didn't choose. If you've been injured in a crash, a slip-and-fall, or another accident within city limits, sorting out medical bills, missed paychecks, and insurance calls can feel like a second job on top of recovering physically. LawProactive exists to make one part of that easier: we are a free service, not a law firm, that connects injured people with an independent personal injury attorney who can review what happened and explain your options. There's no cost to talk to us, and any attorney you're connected with works on contingency, meaning there's no fee unless your case results in a recovery. You focus on healing — we'll help you find someone who can focus on the rest.",
+    "longDescription": "East Palo Alto sees real traffic on University Avenue, US-101, E Bayshore Road, and Bay Road — corridors that carry commuters, delivery trucks, and local families every day. In the most recent full year on record, the city logged 112 injury collisions, with 163 people hurt and 3 lives lost. Numbers like these represent neighbors, coworkers, and parents caught in circumstances they didn't choose. If you've been injured in a crash, a slip-and-fall, or another accident within city limits, sorting out medical bills, missed paychecks, and insurance calls can feel like a second job on top of recovering physically. We're here to help with the legal side: we review what happened, explain your options, and work on contingency, meaning there's no fee unless your case results in a recovery. You focus on healing — we'll focus on the rest.",
     "commonInjuriesTitle": "Injuries We Commonly Hear About",
     "commonInjuries": [
       "Whiplash and neck strain",
@@ -24,7 +24,7 @@
       "Deep cuts and lacerations",
       "Torn ligaments or joint damage"
     ],
-    "ctaText": "Find out where you stand — connect with an attorney at no cost."
+    "ctaText": "Find out where you stand — contact us for a free case review."
   },
   "whyChoose": {
     "title": "Why This Matters Under California Law",
@@ -35,7 +35,7 @@
       },
       {
         "title": "Partial Fault Won't Shut You Out",
-        "desc": "California follows pure comparative fault, meaning even if you were partly responsible for what happened, you can still pursue compensation — it's simply reduced by your share of fault. An attorney can help sort out how fault is likely to be assessed."
+        "desc": "California follows pure comparative fault, meaning even if you were partly responsible for what happened, you can still pursue compensation — it's simply reduced by your share of fault. We can help sort out how fault is likely to be assessed."
       },
       {
         "title": "No Ceiling on Pain-and-Suffering Damages",
@@ -43,7 +43,7 @@
       },
       {
         "title": "You Don't Pay Unless There's a Recovery",
-        "desc": "Attorneys in our network work on contingency, so there's no upfront legal fee. If there's no recovery, you typically owe nothing for the attorney's work."
+        "desc": "We work on contingency, so there's no upfront legal fee. If there's no recovery, you typically owe nothing for our work."
       }
     ]
   },
@@ -74,8 +74,8 @@
         "answer": "No — in a typical personal injury case, California does not cap non-economic damages such as pain, suffering, or loss of enjoyment of life. Caps do apply in specific situations, like medical malpractice, but not in most ordinary injury claims."
       },
       {
-        "question": "Does it cost anything to talk to LawProactive or an attorney?",
-        "answer": "No. LawProactive is a free service that connects you with an independent attorney, and we are not a law firm ourselves. Attorneys in the network typically work on contingency, meaning they only get paid if you recover compensation."
+        "question": "Does it cost anything to talk to us or get a case review?",
+        "answer": "No. There's no cost to contact us and discuss your case. We work on contingency, meaning we only get paid if you recover compensation."
       }
     ]
   }

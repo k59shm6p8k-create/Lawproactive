@@ -7,15 +7,15 @@
     "note": "cotati medical-malpractice silo (Fable pipeline)."
   },
   "seo": {
-    "metaTitle": "Cotati Medical Malpractice Help | LawProactive",
-    "metaDescription": "Injured by a medical error in Cotati? LawProactive connects you free with an independent Sonoma County malpractice attorney. No fee unless you recover."
+    "metaTitle": "Cotati Medical Malpractice Help | Free Case Review",
+    "metaDescription": "Injured by a medical error in Cotati? Get a free case review from an attorney who handles Sonoma County malpractice cases. No fee unless you recover."
   },
   "hero": {
-    "subtitle": "When a diagnosis, surgery, or medication error goes wrong in Cotati, sorting out what happened can feel overwhelming. LawProactive can connect you with an independent attorney who understands Sonoma County medical malpractice cases and California's strict filing rules."
+    "subtitle": "When a diagnosis, surgery, or medication error goes wrong in Cotati, sorting out what happened can feel overwhelming. We can help you understand Sonoma County medical malpractice cases and California's strict filing rules."
   },
   "about": {
     "title": "Cotati Medical Malpractice Claims",
-    "longDescription": "Cotati is a small city, and many residents get care at nearby Sonoma County clinics, urgent care centers, or hospitals in Rohnert Park and Santa Rosa. When something goes wrong during treatment, whether it's a missed diagnosis, a surgical mistake, or a medication error, patients are often left with more questions than answers. California law, through MICRA, sets specific and tight deadlines for these claims and requires a qualified medical expert to weigh in before a case can move forward. A bad medical result by itself doesn't mean malpractice occurred; the law requires showing that a provider fell below the accepted standard of care. Because these cases involve medical records, expert review, and strict notice requirements, getting matched with an attorney early can help you understand whether you have a viable claim and what steps come next. LawProactive's connection service is free, and there's no fee unless the attorney recovers on your behalf.",
+    "longDescription": "Cotati is a small city, and many residents get care at nearby Sonoma County clinics, urgent care centers, or hospitals in Rohnert Park and Santa Rosa. When something goes wrong during treatment, whether it's a missed diagnosis, a surgical mistake, or a medication error, patients are often left with more questions than answers. California law, through MICRA, sets specific and tight deadlines for these claims and requires a qualified medical expert to weigh in before a case can move forward. A bad medical result by itself doesn't mean malpractice occurred; the law requires showing that a provider fell below the accepted standard of care. Because these cases involve medical records, expert review, and strict notice requirements, contacting us early can help you understand whether you have a viable claim and what steps come next. Our team handles these cases, and there's no fee unless we recover on your behalf.",
     "commonInjuriesTitle": "Injuries We Commonly See in These Claims",
     "commonInjuries": [
       "Delayed or missed cancer diagnosis",
@@ -25,7 +25,7 @@
       "Anesthesia complications",
       "Failure to treat a worsening infection"
     ],
-    "ctaText": "Get connected with an independent attorney to review your situation, free of charge."
+    "ctaText": "Contact us for a free case review of your situation."
   },
   "whyChoose": {
     "title": "Why Timing and Evidence Matter in Cotati Malpractice Cases",
@@ -40,7 +40,7 @@
       },
       {
         "title": "Damages Caps Apply But Change Yearly",
-        "desc": "California places a statutory cap on non-economic damages in malpractice cases, though that cap rises each year under current law. An attorney can explain how this may apply to your specific circumstances."
+        "desc": "California places a statutory cap on non-economic damages in malpractice cases, though that cap rises each year under current law. We can explain how this may apply to your specific circumstances."
       }
     ]
   },
@@ -48,15 +48,15 @@
     "items": [
       {
         "question": "How do I know if a bad medical outcome was actually malpractice?",
-        "answer": "Not every poor result from treatment counts as malpractice under California law. It has to be shown that a provider's care fell below an accepted medical standard, which is why a qualified expert review is almost always required. An attorney can help evaluate your medical records to see if that standard applies to your case."
+        "answer": "Not every poor result from treatment counts as malpractice under California law. It has to be shown that a provider's care fell below an accepted medical standard, which is why a qualified expert review is almost always required. We can help evaluate your medical records to see if that standard applies to your case."
       },
       {
         "question": "I live in Cotati but was treated at a hospital outside the city. Does that matter?",
         "answer": "No, it doesn't limit your options. Many Cotati residents receive care in Rohnert Park, Santa Rosa, or elsewhere in Sonoma County, and California's malpractice laws apply regardless of which facility provided treatment. What matters is where the care happened and when you discovered the harm."
       },
       {
-        "question": "What does LawProactive actually do?",
-        "answer": "LawProactive is a free connection service, not a law firm. We help match you with an independent attorney in our network who handles medical malpractice cases, and those attorneys typically work on contingency, meaning there's no fee unless they recover money for you."
+        "question": "How does your firm handle medical malpractice cases?",
+        "answer": "We handle medical malpractice cases and typically work on contingency, meaning there's no fee unless we recover money for you. We'll review your medical records and help you understand whether you have a viable claim under California law."
       }
     ]
   }
