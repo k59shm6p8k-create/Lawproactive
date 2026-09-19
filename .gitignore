@@ -54,3 +54,4 @@ scripts/generate-silos/.batches/
 dev.log
 _*.mjs
 _*.out
+build.log

@@ -314,7 +314,7 @@ export default async function PersonalInjuryLanding({ params }: PageProps) {
                   trigger={
                     <Button
                       size="lg"
-                      className="cta-glow text-white font-bold text-lg px-8 py-4 mb-8 shadow-2xl hover:opacity-90"
+                      className="cta-glow text-white font-bold text-base md:text-lg px-6 md:px-8 py-4 mb-8 h-auto whitespace-normal text-center leading-snug max-w-[calc(100vw-2rem)] md:max-w-none shadow-2xl hover:opacity-90"
                       style={{ backgroundColor: '#e06e00' }}
                     >
                       {config.hero.ctaText}
@@ -523,7 +523,7 @@ export default async function PersonalInjuryLanding({ params }: PageProps) {
               <AnimatedButton magneticStrength={0.2} hoverScale={1.05}>
                 <TwoStepLeadModal
                   trigger={
-                    <Button size="lg" className="cta-glow text-white font-bold text-lg px-8 py-4 shadow-xl hover:opacity-90" style={{ backgroundColor: '#e06e00' }}>
+                    <Button size="lg" className="cta-glow text-white font-bold text-base md:text-lg px-6 md:px-8 py-4 h-auto whitespace-normal text-center leading-snug max-w-[calc(100vw-2rem)] md:max-w-none shadow-xl hover:opacity-90" style={{ backgroundColor: '#e06e00' }}>
                       {config.painPoints.ctaText}
                     </Button>
                   }
@@ -572,7 +572,7 @@ export default async function PersonalInjuryLanding({ params }: PageProps) {
                 <AnimatedButton magneticStrength={0.2} hoverScale={1.05}>
                   <TwoStepLeadModal
                     trigger={
-                      <Button size="lg" className="cta-glow cta-glow-teal text-white font-bold text-lg px-8 py-4 shadow-xl hover:opacity-90" style={{ backgroundColor: '#0B6B65' }}>
+                      <Button size="lg" className="cta-glow cta-glow-teal text-white font-bold text-base md:text-lg px-6 md:px-8 py-4 h-auto whitespace-normal text-center leading-snug max-w-[calc(100vw-2rem)] md:max-w-none shadow-xl hover:opacity-90" style={{ backgroundColor: '#0B6B65' }}>
                         {config.valueProp.ctaText}
                       </Button>
                     }
@@ -619,7 +619,7 @@ export default async function PersonalInjuryLanding({ params }: PageProps) {
                 <AnimatedButton magneticStrength={0.2} hoverScale={1.05}>
                   <TwoStepLeadModal
                     trigger={
-                      <Button size="lg" className="cta-glow cta-glow-teal text-white font-bold text-lg px-8 py-4 shadow-xl hover:opacity-90" style={{ backgroundColor: '#0B6B65' }}>
+                      <Button size="lg" className="cta-glow cta-glow-teal text-white font-bold text-base md:text-lg px-6 md:px-8 py-4 h-auto whitespace-normal text-center leading-snug max-w-[calc(100vw-2rem)] md:max-w-none shadow-xl hover:opacity-90" style={{ backgroundColor: '#0B6B65' }}>
                         {config.howItWorks.ctaText}
                       </Button>
                     }
@@ -657,7 +657,7 @@ export default async function PersonalInjuryLanding({ params }: PageProps) {
               <AnimatedButton magneticStrength={0.2} hoverScale={1.05}>
                 <TwoStepLeadModal
                   trigger={
-                    <Button size="lg" className="cta-glow text-white font-bold text-lg px-8 py-4 shadow-xl hover:opacity-90" style={{ backgroundColor: '#e06e00' }}>
+                    <Button size="lg" className="cta-glow text-white font-bold text-base md:text-lg px-6 md:px-8 py-4 h-auto whitespace-normal text-center leading-snug max-w-[calc(100vw-2rem)] md:max-w-none shadow-xl hover:opacity-90" style={{ backgroundColor: '#e06e00' }}>
                       {config.riskReversal.ctaText}
                     </Button>
                   }
@@ -724,7 +724,7 @@ export default async function PersonalInjuryLanding({ params }: PageProps) {
                       <Button
                         size="lg"
                         variant="outline"
-                        className="bg-transparent shadow-lg hover:shadow-xl transition-all duration-300 service-button"
+                        className="h-auto whitespace-normal text-center leading-snug max-w-[calc(100vw-2rem)] md:max-w-none bg-transparent shadow-lg hover:shadow-xl transition-all duration-300 service-button"
                       >
                         {config.testimonials.ctaText}
                       </Button>
@@ -763,7 +763,7 @@ export default async function PersonalInjuryLanding({ params }: PageProps) {
                     <Button
                       size="lg"
                       variant="outline"
-                      className="border-teal-600 text-teal-600 hover:bg-teal-600 hover:text-white font-bold text-lg px-8 py-4 bg-transparent shadow-lg hover:shadow-xl transition-all duration-300"
+                      className="border-teal-600 text-teal-600 hover:bg-teal-600 hover:text-white font-bold text-base md:text-lg px-6 md:px-8 py-4 h-auto whitespace-normal text-center leading-snug max-w-[calc(100vw-2rem)] md:max-w-none bg-transparent shadow-lg hover:shadow-xl transition-all duration-300"
                     >
                       {config.reassurance.ctaText}
                     </Button>
@@ -814,7 +814,7 @@ export default async function PersonalInjuryLanding({ params }: PageProps) {
                       <Button
                         size="lg"
                         variant="outline"
-                        className="border-slate-600 text-slate-600 hover:bg-slate-600 hover:text-white bg-transparent shadow-lg hover:shadow-xl transition-all duration-300"
+                        className="border-slate-600 text-slate-600 hover:bg-slate-600 hover:text-white h-auto whitespace-normal text-center leading-snug max-w-[calc(100vw-2rem)] md:max-w-none bg-transparent shadow-lg hover:shadow-xl transition-all duration-300"
                       >
                         {config.faq.ctaText}
                       </Button>
