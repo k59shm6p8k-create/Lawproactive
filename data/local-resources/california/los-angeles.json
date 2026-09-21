@@ -11,12 +11,22 @@
     "snippet": "Address: 1546 W. Martin Luther King Jr. Blvd. Los Angeles CA 90062 ... Non-emergency Police Response (ASK LAPD) Dispatch Service/Intake (877) 275-5273",
     "confidence": "high"
   },
-  "court": null,
+  "court": {
+    "court_name": "Superior Court of California, County of Los Angeles",
+    "branch": "Stanley Mosk Courthouse (Central District)",
+    "serves_note": "Central District civil courthouse serving the City of Los Angeles",
+    "address": "111 North Hill Street, Los Angeles, CA 90012",
+    "phone": null,
+    "source_url": "https://www.lacourt.org/",
+    "snippet": "Stanley Mosk Courthouse, 111 North Hill Street, Los Angeles, CA 90012 — Central District civil courthouse of the Superior Court of California, County of Los Angeles.",
+    "confidence": "review"
+  },
   "chp_or_dmv": null,
   "_meta": {
     "model": "claude-sonnet-5",
     "verifiedAt": "2026-09-19T09:49:50.705Z",
     "searches": 4,
-    "stop": "end_turn"
+    "stop": "end_turn",
+    "court_added_manually": "Stanley Mosk (Central District) — established public record; official lacourt.org source; phone left null pending verified fetch"
   }
 }
