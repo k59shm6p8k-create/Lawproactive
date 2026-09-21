@@ -8,6 +8,21 @@ import { createClient } from '@supabase/supabase-js'
 const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://placeholder.supabase.co'
 const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY || 'placeholder-service-role-key'
 
+/**
+ * True only when real Supabase credentials are present. When false (e.g. a
+ * fresh clone or a content-only preview with no env), callers MUST skip
+ * queries and use their local-file fallback — otherwise every request makes
+ * network calls to the placeholder host that hang for seconds before failing,
+ * which is what made unconfigured pages take ~28s to render.
+ */
+export const isSupabaseConfigured =
+  !!process.env.NEXT_PUBLIC_SUPABASE_URL && !!process.env.SUPABASE_SERVICE_ROLE_KEY
+
+// Hard cap every Supabase request so a slow/unreachable host can never block a
+// render for more than a few seconds (belt-and-suspenders alongside the
+// isSupabaseConfigured short-circuits in the callers).
+const SUPABASE_FETCH_TIMEOUT_MS = 3500
+
 const clientConfig = {
   auth: {
     autoRefreshToken: false,
@@ -15,10 +30,13 @@ const clientConfig = {
   },
   global: {
     fetch: (url: any, options: any) => {
+      const controller = new AbortController()
+      const timer = setTimeout(() => controller.abort(), SUPABASE_FETCH_TIMEOUT_MS)
       return fetch(url, {
         ...options,
         cache: 'no-store',
-      })
+        signal: controller.signal,
+      }).finally(() => clearTimeout(timer))
     },
   },
 }

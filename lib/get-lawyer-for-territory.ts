@@ -1,4 +1,4 @@
-import { supabaseServer } from '@/lib/supabase-server'
+import { supabaseServer, isSupabaseConfigured } from '@/lib/supabase-server'
 import { StateDataLoader } from '@/lib/data/state-loader'
 
 export interface LawyerPublicProfile {
@@ -25,6 +25,9 @@ export async function getLawyerForTerritory(
   paramState: string,
   paramCity: string
 ): Promise<LawyerPublicProfile | null> {
+  // No Supabase configured -> no territory data; skip the network call (which
+  // would otherwise hang on the placeholder host) and show the "available" card.
+  if (!isSupabaseConfigured) return null
   try {
     const stateConfig = await StateDataLoader.getStateConfig(paramState)
     const stateAbbr = stateConfig?.abbreviation || paramState

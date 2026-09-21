@@ -1,6 +1,6 @@
 import { promises as fs } from 'fs';
 import path from 'path';
-import { supabaseServer } from '@/lib/supabase-server';
+import { supabaseServer, isSupabaseConfigured } from '@/lib/supabase-server';
 import { StateDataLoader } from '@/lib/data/state-loader';
 
 /**
@@ -219,6 +219,9 @@ export function deepMerge(target: any, source: any): any {
 
 // Fetch the base template from Supabase
 export async function getBaseTemplate(pageKey: string = 'default'): Promise<any> {
+  // Without real Supabase creds, skip the query (it would hang on the
+  // placeholder host) and let callers use the hardcoded template fallback.
+  if (!isSupabaseConfigured) return null;
   try {
     const { data, error } = await supabaseServer
       .from('page_config_templates')
@@ -283,20 +286,22 @@ export async function getMergedPageConfig(
 
   try {
     // 3. Query State-Level General Override (where city_slug and practice_slug are null)
-    const { data: stateGeneralOverride } = await supabaseServer
-      .from('location_page_configs')
-      .select('sections')
-      .eq('state_slug', stateSlug)
-      .is('city_slug', null)
-      .is('practice_slug', null)
-      .maybeSingle();
+    if (isSupabaseConfigured) {
+      const { data: stateGeneralOverride } = await supabaseServer
+        .from('location_page_configs')
+        .select('sections')
+        .eq('state_slug', stateSlug)
+        .is('city_slug', null)
+        .is('practice_slug', null)
+        .maybeSingle();
 
-    if (stateGeneralOverride && stateGeneralOverride.sections) {
-      mergedSections = deepMerge(mergedSections, stateGeneralOverride.sections);
+      if (stateGeneralOverride && stateGeneralOverride.sections) {
+        mergedSections = deepMerge(mergedSections, stateGeneralOverride.sections);
+      }
     }
 
     // 4. Query State-Level Practice Override (where city_slug is null, matching practice_slug)
-    if (practiceSlug) {
+    if (practiceSlug && isSupabaseConfigured) {
       const { data: statePracticeOverride } = await supabaseServer
         .from('location_page_configs')
         .select('sections')
@@ -319,20 +324,22 @@ export async function getMergedPageConfig(
     }
 
     // 5. Query City-Level General Override (specific state and city, practice_slug null)
-    const { data: cityGeneralOverride } = await supabaseServer
-      .from('location_page_configs')
-      .select('sections')
-      .eq('state_slug', stateSlug)
-      .eq('city_slug', citySlug)
-      .is('practice_slug', null)
-      .maybeSingle();
+    if (isSupabaseConfigured) {
+      const { data: cityGeneralOverride } = await supabaseServer
+        .from('location_page_configs')
+        .select('sections')
+        .eq('state_slug', stateSlug)
+        .eq('city_slug', citySlug)
+        .is('practice_slug', null)
+        .maybeSingle();
 
-    if (cityGeneralOverride && cityGeneralOverride.sections) {
-      mergedSections = deepMerge(mergedSections, cityGeneralOverride.sections);
+      if (cityGeneralOverride && cityGeneralOverride.sections) {
+        mergedSections = deepMerge(mergedSections, cityGeneralOverride.sections);
+      }
     }
 
     // 6. Query City-Level Practice Override (specific state, city, and matching practice_slug)
-    if (practiceSlug) {
+    if (practiceSlug && isSupabaseConfigured) {
       const { data: cityPracticeOverride } = await supabaseServer
         .from('location_page_configs')
         .select('sections')
