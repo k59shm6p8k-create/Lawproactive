@@ -1,0 +1,4 @@
+{
+  "note": "City slugs listed in 'pruned' are excluded from ALL sitemaps (sitemap-locations, sitemap-categories, sitemap-crashdata). Use for low-value/thin pages you don't want crawled. Currently empty by decision: we include all California cities, incl. low-population ones. To noindex a single city instead, set _meta.noindex=true in its data/content/california/<slug>.json (that also drops it from the sitemaps).",
+  "pruned": []
+}

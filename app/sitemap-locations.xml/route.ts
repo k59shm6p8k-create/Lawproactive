@@ -1,24 +1,22 @@
-import { StateDataLoader } from '@/lib/data/state-loader'
+import { getSitemapCities, baseUrl, xmlResponse, xmlLoc, STATE_SLUG } from '@/lib/sitemap-utils'
 import { SEOPriority } from '@/lib/types/location.types'
 
 export const revalidate = 86400 // Revalidate daily
 
 export async function GET() {
-  const baseUrl = (process.env.NEXT_PUBLIC_DOMAIN || 'https://personalinjury.lawproactive.com').replace(/\/$/, '')
+  const base = baseUrl()
 
   try {
-    const allLocations = await StateDataLoader.getAllProcessedLocations()
-    console.log(`🗺️ Generating locations route handler sitemap for ${allLocations.length} locations`)
+    const cities = await getSitemapCities()
+    console.log(`🗺️ locations sitemap: ${cities.length} California city hub pages`)
 
-    const urlEntries = allLocations.map((location) => {
-      const priority = calculatePriority(location)
-      const lastmod = new Date().toISOString()
-
+    const urlEntries = cities.map((city) => {
+      const loc = xmlLoc(`${base}/personal-injury-lawyer/${STATE_SLUG}/${city.slug}`)
       return `  <url>
-    <loc>${baseUrl}/personal-injury-lawyer/${location.stateSlug}/${location.citySlug}</loc>
-    <lastmod>${lastmod}</lastmod>
+    <loc>${loc}</loc>
+    <lastmod>${city.lastmod}</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>${priority.toFixed(1)}</priority>
+    <priority>${calculatePriority(city).toFixed(1)}</priority>
   </url>`
     }).join('\n')
 
@@ -27,33 +25,20 @@ export async function GET() {
 ${urlEntries}
 </urlset>`
 
-    return new Response(xml, {
-      headers: {
-        'Content-Type': 'application/xml',
-        'Cache-Control': 'public, max-age=86400, s-maxage=86400',
-      },
-    })
+    return xmlResponse(xml)
   } catch (error) {
     console.error('Error generating locations sitemap:', error)
     return new Response('Error generating locations sitemap', { status: 500 })
   }
 }
 
-function calculatePriority(location: any): number {
-  const majorCities = [
-    'los-angeles', 'san-francisco', 'san-diego', 'sacramento', 'san-jose',
-    'houston', 'dallas', 'austin', 'san-antonio', 'fort-worth',
-    'miami', 'tampa', 'orlando', 'jacksonville',
-    'new-york-city', 'buffalo', 'rochester'
-  ]
-
-  if (majorCities.includes(location.citySlug)) {
-    return SEOPriority.HIGH
-  }
-
-  if (location.population && location.population > 100000) {
-    return SEOPriority.MEDIUM
-  }
-
-  return SEOPriority.LOW
+function calculatePriority(city: { slug: string; population: number | null; hasCrashData: boolean }): number {
+  const majorCities = ['los-angeles', 'san-francisco', 'san-diego', 'sacramento', 'san-jose']
+  // Cities with the genuine crash-data module get a small bump — they're the
+  // most differentiated pages we want recrawled first.
+  let p: number = SEOPriority.LOW
+  if (majorCities.includes(city.slug)) p = SEOPriority.HIGH
+  else if (city.population && city.population > 100000) p = SEOPriority.MEDIUM
+  if (city.hasCrashData) p = Math.min(p + 0.1, SEOPriority.HIGH)
+  return p
 }

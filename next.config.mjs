@@ -29,8 +29,10 @@ const nextConfig = {
     '/personal-injury-lawyer/[state]/[city]': ['./data/**/*.json'],
     '/personal-injury-lawyer/[state]/[city]/[practice]': ['./data/**/*.json'],
     '/locations': ['./data/**/*.json'],
+    '/sitemap.xml': ['./data/**/*.json'],
     '/sitemap-locations.xml': ['./data/**/*.json'],
     '/sitemap-categories.xml': ['./data/**/*.json'],
+    '/sitemap-crashdata.xml': ['./data/**/*.json'],
   },
   reactCompiler: true,
   experimental: {
